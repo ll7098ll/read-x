@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>리드엑스레이(ReadX-Ray) Pro — 공식 비주얼 CI & UI/UX 테마 킷 쇼케이스</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .font-serif-kr {
+      font-family: 'MaruBuri', Georgia, serif;
+    }
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+    @keyframes pulse-spotlight {
+      0%, 100% { box-shadow: 0 0 0 4px rgba(250, 204, 21, 0.55); }
+      50% { box-shadow: 0 0 0 8px rgba(250, 204, 21, 0.15); }
+    }
+    .cue-spotlight {
+      animation: pulse-spotlight 2s infinite;
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-900 antialiased p-6">
+  <div class="max-w-7xl mx-auto space-y-8">
+
+    <!-- ===================================================================== -->
+    <!-- SECTION 0: HERO BANNER & MASTER CI LOCKUP                             -->
+    <!-- ===================================================================== -->
+    <div class="rounded-3xl p-8 text-white shadow-xl relative overflow-hidden" style="background: linear-gradient(135deg, #0F172A 0%, #132347 55%, #1E3A8A 100%);">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 relative z-10">
+        <div class="flex items-center gap-5">
+          <!-- Rx-5 Master SVG Symbol -->
+          <div class="p-2 rounded-3xl bg-white/5 border border-sky-400/30 shadow-inner">
+            <svg viewBox="0 0 140 130" class="w-24 h-24" fill="none">
+              <rect x="14" y="8" width="112" height="112" rx="26" fill="#0F172A" stroke="#38BDF8" stroke-width="3.5"/>
+              <path d="M36 90V26H58C70 26 78 32.5 78 42C78 51.5 70 58 58 58H36" stroke="#FFFFFF" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M54 57L100 103" stroke="#38BDF8" stroke-width="11.5" stroke-linecap="round"/>
+              <path d="M100 57L54 103" stroke="#0F172A" stroke-width="16" stroke-linecap="round"/>
+              <path d="M100 57L54 103" stroke="#10B981" stroke-width="11.5" stroke-linecap="round"/>
+              <circle cx="100" cy="33" r="9.5" fill="#FACC15"/>
+              <path d="M100 28.5V37.5M95.5 33H104.5" stroke="#0F172A" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-400/15 border border-sky-400/30 text-sky-300 text-xs font-bold mb-2">
+              <span>OFFICIAL DESIGN SYSTEM & UI/UX THEME KIT v1.0</span>
+              <span>·</span>
+              <span>Model: Rx-5 (Squircle Gem ℞)</span>
+            </div>
+            <div class="flex items-center gap-2 font-black text-3xl sm:text-4xl tracking-tight">
+              <span class="text-white">Read</span><span class="text-sky-400">X</span><span class="text-emerald-400">-Ray</span>
+              <span class="px-3 py-1 text-sm rounded-full bg-amber-400 text-slate-950 font-black ml-1 shadow">PRO</span>
+            </div>
+            <p class="text-sm text-sky-100/85 font-semibold mt-1.5">
+              리드엑스레이 프로 — "글의 골격을 꿰뚫어 보는 6차원 X-Ray 진단, 빈틈을 채우는 1:1 Rx 처방 클리닉"
+            </p>
+          </div>
+        </div>
+
+        <!-- Scale Test Icons (64px / 44px / 28px) -->
+        <div class="bg-slate-950/50 border border-white/10 rounded-2xl p-4 flex items-center gap-4">
+          <div class="text-xs text-slate-300 font-bold mr-1">
+            <div>심볼 스케일 검증</div>
+            <div class="text-slate-400 font-normal">64px · 40px · 24px</div>
+          </div>
+          <svg viewBox="0 0 140 130" class="w-14 h-14" fill="none">
+            <rect x="14" y="8" width="112" height="112" rx="26" fill="#0F172A" stroke="#38BDF8" stroke-width="3.5"/>
+            <path d="M36 90V26H58C70 26 78 32.5 78 42C78 51.5 70 58 58 58H36" stroke="#FFFFFF" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M54 57L100 103" stroke="#38BDF8" stroke-width="11.5" stroke-linecap="round"/>
+            <path d="M100 57L54 103" stroke="#0F172A" stroke-width="16" stroke-linecap="round"/>
+            <path d="M100 57L54 103" stroke="#10B981" stroke-width="11.5" stroke-linecap="round"/>
+            <circle cx="100" cy="33" r="9.5" fill="#FACC15"/>
+            <path d="M100 28.5V37.5M95.5 33H104.5" stroke="#0F172A" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <svg viewBox="0 0 140 130" class="w-10 h-10" fill="none">
+            <rect x="14" y="8" width="112" height="112" rx="26" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+            <path d="M36 90V26H58C70 26 78 32.5 78 42C78 51.5 70 58 58 58H36" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M54 57L100 103" stroke="#38BDF8" stroke-width="12" stroke-linecap="round"/>
+            <path d="M100 57L54 103" stroke="#0F172A" stroke-width="17" stroke-linecap="round"/>
+            <path d="M100 57L54 103" stroke="#10B981" stroke-width="12" stroke-linecap="round"/>
+            <circle cx="100" cy="33" r="10" fill="#FACC15"/>
+            <path d="M100 28V38M95 33H105" stroke="#0F172A" stroke-width="3.2" stroke-linecap="round"/>
+          </svg>
+          <svg viewBox="0 0 64 64" class="w-6 h-6" fill="none">
+            <rect x="2" y="2" width="60" height="60" rx="14" fill="#0F172A" stroke="#38BDF8" stroke-width="2.5"/>
+            <path d="M15 44V12H26C32 12 36 15.5 36 20C36 24.5 32 28 26 28H15" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M24 27.5L48 51.5" stroke="#38BDF8" stroke-width="6.5" stroke-linecap="round"/>
+            <path d="M48 27.5L24 51.5" stroke="#0F172A" stroke-width="9" stroke-linecap="round"/>
+            <path d="M48 27.5L24 51.5" stroke="#10B981" stroke-width="6.5" stroke-linecap="round"/>
+            <circle cx="48" cy="15" r="5.5" fill="#FACC15"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- SECTION 1: BRAND 6-COLOR PALETTE & DUAL-SURFACE SYSTEM                -->
+    <!-- ===================================================================== -->
+    <div class="bg-white border border-slate-200 rounded-3xl p-7 shadow-sm space-y-6">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-wider text-blue-600">01 · Color Architecture</span>
+          <h2 class="text-xl font-black text-slate-900 mt-0.5">전용 6색 브랜드 컬러 팔레트 & Dual-Context 배경 시스템</h2>
+        </div>
+        <span class="px-3 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-700">WCAG AA/AAA 고대비 준수</span>
+      </div>
+
+      <!-- 6 Large Color Cards -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+          <div class="h-24 bg-[#0F172A] p-3 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold opacity-75">Primary Dark</span>
+            <span class="font-mono font-bold text-sm">#0F172A</span>
+          </div>
+          <div class="p-3 bg-white text-xs">
+            <div class="font-extrabold text-slate-900">Deep X-Navy</div>
+            <div class="font-mono text-slate-500 mt-0.5">rx-navy</div>
+            <p class="text-slate-600 mt-1">심볼 베이스 · 상단 헤더 · 리포트 다크 배너</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+          <div class="h-24 bg-[#1D4ED8] p-3 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold opacity-80">Primary Action</span>
+            <span class="font-mono font-bold text-sm">#1D4ED8</span>
+          </div>
+          <div class="p-3 bg-white text-xs">
+            <div class="font-extrabold text-slate-900">Clinic Royal Blue</div>
+            <div class="font-mono text-slate-500 mt-0.5">rx-blue</div>
+            <p class="text-slate-600 mt-1">주요 CTA 버튼 · 학습 진행 · 선택 활성 보더</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+          <div class="h-24 bg-[#38BDF8] p-3 flex flex-col justify-between text-slate-950">
+            <span class="text-xs font-bold opacity-75">X-Ray Scan</span>
+            <span class="font-mono font-bold text-sm">#38BDF8</span>
+          </div>
+          <div class="p-3 bg-white text-xs">
+            <div class="font-extrabold text-slate-900">X-Ray Scan Cyan</div>
+            <div class="font-mono text-slate-500 mt-0.5">rx-cyan</div>
+            <p class="text-slate-600 mt-1">심볼 `\` 투시 획 · 6차원 스캔 빔 · 사고구술 링</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+          <div class="h-24 bg-[#10B981] p-3 flex flex-col justify-between text-slate-950">
+            <span class="text-xs font-bold opacity-75">Rx Prescription</span>
+            <span class="font-mono font-bold text-sm">#10B981</span>
+          </div>
+          <div class="p-3 bg-white text-xs">
+            <div class="font-extrabold text-slate-900">Vital Rx Emerald</div>
+            <div class="font-mono text-slate-500 mt-0.5">rx-emerald</div>
+            <p class="text-slate-600 mt-1">심볼 `/` 처방 획 · 클리닉 완주 · Mastered</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+          <div class="h-24 bg-[#FACC15] p-3 flex flex-col justify-between text-slate-950">
+            <span class="text-xs font-bold opacity-75">Cue Spotlight</span>
+            <span class="font-mono font-bold text-sm">#FACC15</span>
+          </div>
+          <div class="p-3 bg-white text-xs">
+            <div class="font-extrabold text-slate-900">Eureka Clinic Gold</div>
+            <div class="font-mono text-slate-500 mt-0.5">rx-gold</div>
+            <p class="text-slate-600 mt-1">심볼 `+` 인장 · PRO 배지 · 지문 단서 포착</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+          <div class="h-24 bg-[#F43F5E] p-3 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold opacity-80">Bottleneck Alert</span>
+            <span class="font-mono font-bold text-sm">#F43F5E</span>
+          </div>
+          <div class="p-3 bg-white text-xs">
+            <div class="font-extrabold text-slate-900">Critical Alert Rose</div>
+            <div class="font-mono text-slate-500 mt-0.5">rx-rose</div>
+            <p class="text-slate-600 mt-1">Critical 결손 경보 · 오답 함정 적발 배지</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dual-Context Surface Comparison -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-2">
+        <!-- Mode A: Analytics -->
+        <div class="rounded-2xl p-5 bg-[#F8FAFC] border border-slate-200 space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-1 rounded-md text-xs font-extrabold bg-[#0F172A] text-sky-300">Mode A · X-Ray Analytics Surface</span>
+            <span class="font-mono text-xs font-bold text-slate-600">#F8FAFC (Cool Slate) + #FFFFFF Card</span>
+          </div>
+          <p class="text-xs text-slate-600">대시보드, 학부모 6차원 진단 리포트, 교사용 히트맵 콘솔에서 차트와 성취도 색상(🟢🟡🔴)의 시인성을 극대화하는 쿨 슬레이트 배경입니다.</p>
+          <div class="grid grid-cols-3 gap-2.5 pt-1 text-xs">
+            <div class="p-3 rounded-xl bg-[#ECFDF5] border border-[#10B981]/40 text-[#047857]">
+              <div class="font-black text-sm tabular-nums">🟢 92점</div>
+              <div class="font-bold mt-0.5">Mastered (정복)</div>
+            </div>
+            <div class="p-3 rounded-xl bg-[#FFFBEB] border border-[#F59E0B]/40 text-[#B45309]">
+              <div class="font-black text-sm tabular-nums">🟡 64점</div>
+              <div class="font-bold mt-0.5">Fragile (보강)</div>
+            </div>
+            <div class="p-3 rounded-xl bg-[#FFF1F2] border border-[#F43F5E]/40 text-[#BE123C]">
+              <div class="font-black text-sm tabular-nums">🔴 38점</div>
+              <div class="font-bold mt-0.5">Critical (Rx 처방)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode B: Ergonomic Reading Studio -->
+        <div class="rounded-2xl p-5 bg-[#FCFBF7] border border-stone-300 space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-1 rounded-md text-xs font-extrabold bg-amber-900 text-amber-100">Mode B · Ergonomic Reading Studio Surface</span>
+            <span class="font-mono text-xs font-bold text-stone-600">#FCFBF7 (Warm Ivory Paper)</span>
+          </div>
+          <p class="text-xs text-stone-600">일일 루틴 지문 독서, 1:1 클리닉, CBT 모의고사에서 눈부심을 방지하는 따뜻한 서적 용지 테마와 3색 전략 형광펜 시스템입니다.</p>
+          <div class="p-3.5 rounded-xl bg-white/80 border border-stone-200 font-serif-kr text-sm leading-relaxed text-slate-900">
+            <span class="px-1.5 py-0.5 rounded bg-sky-100 text-sky-800 font-sans font-bold text-xs mr-1">1문단</span>
+            <mark class="bg-[#FEF08A] px-1 rounded">식물의 증산 작용은 잎의 기공을 통해 수분이 수증기 형태로 빠져나가는 현상이다.</mark>
+            이때 <mark class="bg-[#BBF7D0] px-1 rounded">기공 주변의 공변세포가 팽압에 따라 열리고 닫히며</mark>
+            <mark class="bg-[#FBCFE8] px-1 rounded">빛이 없거나 수분이 부족할 때만 기공을 닫는다.</mark>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- SECTION 2: LIVE SPLIT-SCREEN STUDIO & PROGRESSIVE SCAFFOLDING KIT     -->
+    <!-- ===================================================================== -->
+    <div class="bg-white border border-slate-200 rounded-3xl p-7 shadow-sm space-y-6">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-4 flex-wrap gap-2">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-600">02 · Interactive Studio & Scaffolding UI Kit</span>
+          <h2 class="text-xl font-black text-slate-900 mt-0.5">Split-Screen 독서 스튜디오 & 3단계 점진적 스캐폴딩 컴포넌트 킷</h2>
+        </div>
+        <div class="flex items-center gap-1.5 text-xs">
+          <span class="font-bold text-slate-500 mr-1">스캐폴딩 상태 시뮬레이션:</span>
+          <button onclick="setScaffold(0)" id="sc-0" class="px-3 py-1.5 rounded-lg font-bold bg-slate-200 text-slate-800">기본 풀이</button>
+          <button onclick="setScaffold(1)" id="sc-1" class="px-3 py-1.5 rounded-lg font-bold bg-blue-600 text-white shadow-sm">1차 오답 (단서 스포트라이트)</button>
+          <button onclick="setScaffold(2)" id="sc-2" class="px-3 py-1.5 rounded-lg font-bold bg-slate-200 text-slate-800">2차 오답 (선지 소거 & 힌트)</button>
+        </div>
+      </div>
+
+      <!-- Simulated Split-Screen Reader -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 bg-slate-100 p-4 rounded-2xl border border-slate-200">
+        <!-- Left: Reading Pane (7 Ergonomic Tools + Passage) -->
+        <div class="lg:col-span-6 bg-[#FCFBF7] border border-stone-300 rounded-2xl overflow-hidden flex flex-col shadow-sm">
+          <!-- 7-Tool Reading Toolbar -->
+          <div class="bg-white/95 border-b border-stone-200 px-3.5 py-2.5 flex items-center justify-between flex-wrap gap-2 text-xs">
+            <div class="flex items-center gap-1.5">
+              <span class="px-2 py-1 rounded-md font-bold bg-amber-100 text-amber-900 border border-amber-300">🖍️ 3색 형광펜</span>
+              <span class="px-2 py-1 rounded-md font-bold bg-sky-100 text-sky-900 border border-sky-300">🔍 단서 포커스</span>
+              <span class="px-2 py-1 rounded-md font-bold bg-stone-100 text-stone-700">📖 어휘툴팁 ON</span>
+              <span class="px-2 py-1 rounded-md font-bold bg-stone-100 text-stone-700">📏 끊어읽기(/)</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <span class="px-2 py-1 rounded-md font-bold bg-slate-900 text-white">🔊 TTS 1.0x</span>
+              <span class="px-2 py-1 rounded-md font-bold border border-stone-300">초5~6 (16.5px)</span>
+            </div>
+          </div>
+
+          <!-- Passage Content -->
+          <div class="p-6 space-y-4 font-serif-kr text-[16.5px] leading-[1.85] text-slate-900">
+            <div class="font-sans font-extrabold text-lg text-slate-900 border-b border-stone-200 pb-2">
+              [과학 설명문] 해수의 온도와 산호초 백화 현상의 인과 메커니즘
+            </div>
+            <p>
+              <span class="font-sans text-xs font-extrabold px-1.5 py-0.5 rounded bg-sky-100 text-sky-800 mr-1">1문단</span>
+              열대 바다의 산호는 몸속에 사는 작은 조류인 <span class="border-b-2 border-dotted border-sky-600 text-sky-900 font-semibold cursor-pointer">황록공생조류(📖)</span>와 서로 돕는 공생 관계를 맺고 있다. 조류는 광합성을 통해 만든 영양분을 산호에게 공급하고, 산호는 조류에게 안전한 서식처와 이산화탄소를 제공한다.
+            </p>
+            <p>
+              <span class="font-sans text-xs font-extrabold px-1.5 py-0.5 rounded bg-sky-100 text-sky-800 mr-1">2문단</span>
+              그러나 지구 온난화로 바닷물의 수온이 평년보다 1~2℃ 이상 높아진 상태가 지속되면,
+              <span id="target-cue-sentence" class="transition-all duration-300 rounded px-1 ring-4 ring-amber-300 bg-amber-100/95 font-semibold cue-spotlight">
+                산호 몸속의 황록공생조류가 광합성 장애를 일으켜 독성 산소를 내뿜게 되고, 결국 산호가 조류를 몸 밖으로 방출하면서 하얀 석회질 골격만 남는 ‘백화 현상’이 발생한다.
+              </span>
+            </p>
+
+            <!-- Inline Vocab Tooltip Card Demo -->
+            <div class="font-sans bg-white border-2 border-sky-400 rounded-xl p-3.5 shadow-md text-xs space-y-1">
+              <div class="flex items-center justify-between">
+                <span class="font-extrabold text-sky-700 text-sm">📖 공생 (共生 · Tier 2 학술 어휘)</span>
+                <span class="px-2 py-0.5 rounded bg-sky-50 text-sky-700 font-bold">+ 단어장 저장됨</span>
+              </div>
+              <p class="text-slate-700">서로 다른 두 생물이 같은 곳에서 살면서 서로에게 이익을 주고받는 관계. (반의어: 기생)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: TEI Question + Clue Board + Progressive Hinting -->
+        <div class="lg:col-span-6 space-y-4">
+          <!-- Pinned My Clue Board -->
+          <div class="bg-[#0F172A] text-white rounded-2xl p-4 border border-sky-400/30 space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-extrabold text-amber-300">📌 나의 단서 보드 (Step 1·2 조립 완료)</span>
+              <span class="text-xs font-mono text-emerald-400 font-bold">SmartScore 76 ➔ +12 대기</span>
+            </div>
+            <div class="p-2.5 rounded-xl bg-white/10 text-xs leading-relaxed">
+              <span class="text-sky-300 font-bold">[인과 사슬 공식]</span> 수온 상승 지속 ➔ <span class="px-1.5 py-0.5 rounded bg-emerald-500/30 text-emerald-200 font-bold">조류의 광합성 장애</span> ➔ 조류 방출 ➔ <span class="px-1.5 py-0.5 rounded bg-amber-400/30 text-amber-200 font-bold">산호 백화 현상 발생</span>
+            </div>
+          </div>
+
+          <!-- Question Card -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-3.5">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-extrabold bg-blue-50 text-blue-700 border border-blue-200">실전 수능형 · V2-2 인과 추론</span>
+              <span class="text-xs font-bold text-slate-500">초5~6 · 5지선다</span>
+            </div>
+            <div class="font-extrabold text-sm text-slate-900">
+              Q. 윗글을 바탕으로 ‘산호초 백화 현상’이 일어나는 원인을 이해한 내용으로 가장 적절한 것은?
+            </div>
+
+            <!-- Options Dynamic Area -->
+            <div id="scaffold-options" class="space-y-2 text-xs"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- SECTION 3: D1~D6 TRAP VACCINE SHIELD BADGES (PURE SVG ICONOGRAPHY)    -->
+    <!-- ===================================================================== -->
+    <div class="bg-white border border-slate-200 rounded-3xl p-7 shadow-sm space-y-5">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-wider text-rose-600">03 · KICE Trap Vaccine Iconography</span>
+          <h2 class="text-xl font-black text-slate-900 mt-0.5">🛡️ 수능 6대 매력적 오답 함정(D1~D6) Rx 백신 도감 배지 킷 (SVG)</h2>
+        </div>
+        <span class="text-xs text-slate-500 font-medium">학생 포털 도감 및 학부모 리포트 오답 분석 차트 공통 사용</span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3.5">
+        <!-- D1 -->
+        <div class="p-4 rounded-2xl bg-[#FFF1F2] border border-[#F43F5E]/30 flex flex-col items-center text-center">
+          <svg viewBox="0 0 64 64" class="w-14 h-14 mb-2" fill="none">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#0F172A" stroke="#F43F5E" stroke-width="3"/>
+            <path d="M20 26H42L36 20M44 38H22L28 44" stroke="#F43F5E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="px-2 py-0.5 rounded text-xs font-black bg-[#F43F5E] text-white">D1 인과 역전</span>
+          <p class="text-xs font-bold text-rose-950 mt-1.5">원인·결과 거꾸로 함정</p>
+          <span class="text-xs font-mono text-rose-700 mt-0.5">#F43F5E</span>
+        </div>
+
+        <!-- D2 -->
+        <div class="p-4 rounded-2xl bg-[#FFF7ED] border border-[#F97316]/30 flex flex-col items-center text-center">
+          <svg viewBox="0 0 64 64" class="w-14 h-14 mb-2" fill="none">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#0F172A" stroke="#F97316" stroke-width="3"/>
+            <circle cx="32" cy="32" r="12" stroke="#F97316" stroke-width="3.5" stroke-dasharray="4 2"/>
+            <path d="M32 25V34M32 39V40" stroke="#FACC15" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <span class="px-2 py-0.5 rounded text-xs font-black bg-[#F97316] text-white">D2 과잉 단정</span>
+          <p class="text-xs font-bold text-orange-950 mt-1.5">무조건 100% 뻥튀기</p>
+          <span class="text-xs font-mono text-orange-700 mt-0.5">#F97316</span>
+        </div>
+
+        <!-- D3 -->
+        <div class="p-4 rounded-2xl bg-[#FEFCE8] border border-[#EAB308]/40 flex flex-col items-center text-center">
+          <svg viewBox="0 0 64 64" class="w-14 h-14 mb-2" fill="none">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#0F172A" stroke="#EAB308" stroke-width="3"/>
+            <path d="M20 22L44 42M44 22L20 42" stroke="#FACC15" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="20" cy="22" r="3.5" fill="#38BDF8"/><circle cx="44" cy="22" r="3.5" fill="#10B981"/>
+          </svg>
+          <span class="px-2 py-0.5 rounded text-xs font-black bg-[#EAB308] text-slate-950">D3 속성 교차</span>
+          <p class="text-xs font-bold text-amber-950 mt-1.5">A와 B 특징 뒤바꾸기</p>
+          <span class="text-xs font-mono text-amber-700 mt-0.5">#EAB308</span>
+        </div>
+
+        <!-- D4 -->
+        <div class="p-4 rounded-2xl bg-[#F5F3FF] border border-[#8B5CF6]/30 flex flex-col items-center text-center">
+          <svg viewBox="0 0 64 64" class="w-14 h-14 mb-2" fill="none">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#0F172A" stroke="#8B5CF6" stroke-width="3"/>
+            <rect x="20" y="20" width="24" height="24" rx="4" stroke="#A78BFA" stroke-width="3" stroke-dasharray="5 3"/>
+            <path d="M28 32H36" stroke="#F43F5E" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <span class="px-2 py-0.5 rounded text-xs font-black bg-[#8B5CF6] text-white">D4 조건 누락</span>
+          <p class="text-xs font-bold text-violet-950 mt-1.5">단서 조건 몰래 빼기</p>
+          <span class="text-xs font-mono text-violet-700 mt-0.5">#8B5CF6</span>
+        </div>
+
+        <!-- D5 -->
+        <div class="p-4 rounded-2xl bg-[#ECFEFF] border border-[#06B6D4]/30 flex flex-col items-center text-center">
+          <svg viewBox="0 0 64 64" class="w-14 h-14 mb-2" fill="none">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#0F172A" stroke="#06B6D4" stroke-width="3"/>
+            <circle cx="26" cy="32" r="8" stroke="#38BDF8" stroke-width="3.5"/>
+            <circle cx="38" cy="32" r="8" stroke="#FACC15" stroke-width="3.5"/>
+          </svg>
+          <span class="px-2 py-0.5 rounded text-xs font-black bg-[#06B6D4] text-slate-950">D5 주체 교란</span>
+          <p class="text-xs font-bold text-cyan-950 mt-1.5">누가 했는지 속이기</p>
+          <span class="text-xs font-mono text-cyan-700 mt-0.5">#06B6D4</span>
+        </div>
+
+        <!-- D6 -->
+        <div class="p-4 rounded-2xl bg-[#EEF2FF] border border-[#6366F1]/30 flex flex-col items-center text-center">
+          <svg viewBox="0 0 64 64" class="w-14 h-14 mb-2" fill="none">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#0F172A" stroke="#6366F1" stroke-width="3"/>
+            <circle cx="30" cy="34" r="10" stroke="#818CF8" stroke-width="2.5"/>
+            <circle cx="44" cy="20" r="4" fill="#F43F5E"/>
+          </svg>
+          <span class="px-2 py-0.5 rounded text-xs font-black bg-[#6366F1] text-white">D6 외부 상식</span>
+          <p class="text-xs font-bold text-indigo-950 mt-1.5">글에 없는 내 상식 함정</p>
+          <span class="text-xs font-mono text-indigo-700 mt-0.5">#6366F1</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- SECTION 4: PARENT 10-SEC SUMMARY & TEACHER HEATMAP UI KIT             -->
+    <!-- ===================================================================== -->
+    <div class="bg-white border border-slate-200 rounded-3xl p-7 shadow-sm space-y-5">
+      <div class="border-b border-slate-100 pb-4">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-purple-600">04 · Role-Based Analytics UI Kit</span>
+        <h2 class="text-xl font-black text-slate-900 mt-0.5">학부모 10초 요약 배너(Where·Why·How) & 처방 전후(Before➔After) 카드 킷</h2>
+      </div>
+
+      <!-- Parent 10-Second Where/Why/How Dark Banner -->
+      <div class="rounded-2xl p-6 bg-[#0F172A] text-white border border-sky-500/30 space-y-4">
+        <div class="flex items-center justify-between flex-wrap gap-2">
+          <div class="flex items-center gap-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-black bg-sky-400 text-slate-950">10초 핵심 진단 요약</span>
+            <span class="font-extrabold text-base">초5 김민준 학생 · 6차원 정밀 X-Ray 판독 소견</span>
+          </div>
+          <span class="text-xs font-mono text-emerald-400 font-bold">KReaD 지수: 1510 ➔ 1585 (▲75p 상승)</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5 text-xs">
+          <div class="p-4 rounded-xl bg-white/5 border-l-4 border-rose-500 space-y-1">
+            <div class="font-extrabold text-rose-300 text-sm">📍 어디가 부족한가요? (Where)</div>
+            <p class="text-slate-200 leading-relaxed">설명문 16대 하위기능 중 <strong>[V2-2 다단계 인과 추론 (38점 🔴)]</strong>과 <strong>[V3-1 자료 타당성 평가 (48점 🔴)]</strong>에서 집중 결손이 발견되었습니다.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border-l-4 border-sky-400 space-y-1">
+            <div class="font-extrabold text-sky-300 text-sm">🧠 왜·어떻게 틀리나요? (Why)</div>
+            <p class="text-slate-200 leading-relaxed">Step 1 단서 포착(88%)은 우수하나, <strong>Step 2 문장 간 관계 연결(42%)에서 급락</strong>하며 수능 <strong>[D1 인과 역전 함정]</strong>에 반복해서 걸려듭니다.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border-l-4 border-emerald-400 space-y-1">
+            <div class="font-extrabold text-emerald-300 text-sm">💊 어떻게 처방·개선되었나요? (Rx)</div>
+            <p class="text-slate-200 leading-relaxed">초3 담화표지 징검다리 복습 ➔ 인과 사슬 조립 드릴 ➔ D1 백신 O/X 처방 완주 후 <strong>성취도가 38점 ➔ 94점(🟢 Mastered)으로 회복</strong>되었습니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    let currentScaffold = 1;
+
+    function setScaffold(level) {
+      currentScaffold = level;
+      [0, 1, 2].forEach(i => {
+        const btn = document.getElementById('sc-' + i);
+        btn.className = i === level
+          ? "px-3 py-1.5 rounded-lg font-bold bg-blue-600 text-white shadow-sm"
+          : "px-3 py-1.5 rounded-lg font-bold bg-slate-200 text-slate-800 hover:bg-slate-300";
+      });
+
+      const cueEl = document.getElementById('target-cue-sentence');
+      if (level === 0) {
+        cueEl.className = "transition-all duration-300 rounded px-1";
+      } else {
+        cueEl.className = "transition-all duration-300 rounded px-1 ring-4 ring-amber-300 bg-amber-100/95 font-semibold cue-spotlight";
+      }
+
+      const container = document.getElementById('scaffold-options');
+      if (level === 0) {
+        container.innerHTML = `
+          <div class="p-3 rounded-xl border border-slate-200 hover:border-blue-500 cursor-pointer flex items-center gap-2.5">
+            <span class="w-6 h-6 rounded-full bg-slate-100 font-bold flex items-center justify-center">①</span>
+            <span>산호가 하얀 석회질 골격을 먼저 만든 뒤 황록공생조류를 불러들인다.</span>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-200 hover:border-blue-500 cursor-pointer flex items-center gap-2.5">
+            <span class="w-6 h-6 rounded-full bg-slate-100 font-bold flex items-center justify-center">②</span>
+            <span>수온 상승으로 황록공생조류의 광합성에 문제가 생겨 산호 밖으로 배출되기 때문이다.</span>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-200 hover:border-blue-500 cursor-pointer flex items-center gap-2.5">
+            <span class="w-6 h-6 rounded-full bg-slate-100 font-bold flex items-center justify-center">③</span>
+            <span>산호가 독성 산소를 흡수하기 위해 스스로 수온을 높이기 때문이다.</span>
+          </div>
+        `;
+      } else if (level === 1) {
+        container.innerHTML = `
+          <div class="p-3 rounded-xl border-2 border-rose-500 bg-rose-50/70 space-y-2">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2 font-bold text-rose-900">
+                <span class="w-6 h-6 rounded-full bg-rose-600 text-white font-bold flex items-center justify-center">①</span>
+                <span>백화 현상이 일어난 때문에 바닷물의 수온이 1~2℃ 상승하게 된다.</span>
+              </div>
+              <span class="px-2 py-0.5 rounded bg-rose-600 text-white font-black">🚨 D1 인과 역전 경보!</span>
+            </div>
+            <div class="p-2.5 rounded-lg bg-white border border-rose-200 text-slate-700">
+              💡 <strong>[1단계 Guided 스캐폴딩]</strong> 정답을 바로 알려주지 않아요! 원인과 결과의 순서가 뒤집혔습니다. 왼쪽 지문 <strong>[2문단]의 노란색 스포트라이트 문장</strong>을 다시 확인해 보세요!
+            </div>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-200 hover:border-blue-500 cursor-pointer flex items-center gap-2.5">
+            <span class="w-6 h-6 rounded-full bg-slate-100 font-bold flex items-center justify-center">②</span>
+            <span>수온 상승으로 황록공생조류의 광합성에 문제가 생겨 산호 밖으로 배출되기 때문이다.</span>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-200 hover:border-blue-500 cursor-pointer flex items-center gap-2.5">
+            <span class="w-6 h-6 rounded-full bg-slate-100 font-bold flex items-center justify-center">③</span>
+            <span>산호가 모든 바다 생물에게 독성 산소를 공급하기 때문이다.</span>
+          </div>
+        `;
+      } else {
+        container.innerHTML = `
+          <div class="p-3 rounded-xl border border-slate-200 bg-slate-100 opacity-50 line-through flex items-center justify-between">
+            <span>① 백화 현상이 일어난 때문에 바닷물의 수온이 1~2℃ 상승하게 된다.</span>
+            <span class="text-rose-600 font-bold no-underline">[D1 소거됨]</span>
+          </div>
+          <div class="p-3 rounded-xl border-2 border-amber-400 bg-amber-50/70 flex items-center justify-between font-bold text-slate-900">
+            <div class="flex items-center gap-2">
+              <span class="w-6 h-6 rounded-full bg-amber-400 text-slate-950 font-black flex items-center justify-center">②</span>
+              <span>수온 상승으로 황록공생조류의 광합성에 문제가 생겨 산호 밖으로 배출되기 때문이다.</span>
+            </div>
+            <span class="px-2 py-0.5 rounded bg-emerald-600 text-white font-bold">📌 단서 보드 일치!</span>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-200 bg-slate-100 opacity-50 line-through flex items-center justify-between">
+            <span>③ 산호가 모든 바다 생물에게 독성 산소를 공급하기 때문이다.</span>
+            <span class="text-orange-600 font-bold no-underline">[D2 소거됨]</span>
+          </div>
+        `;
+      }
+    }
+
+    setScaffold(1);
+  </script>
+</body>
+</html>

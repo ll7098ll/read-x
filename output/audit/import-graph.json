@@ -1,0 +1,1179 @@
+{
+  "inputs": {
+    "webapp/node_modules/react/cjs/react.production.min.js": {
+      "bytes": 6930,
+      "imports": [],
+      "format": "cjs"
+    },
+    "webapp/node_modules/react/index.js": {
+      "bytes": 190,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/cjs/react.production.min.js",
+          "kind": "require-call",
+          "original": "./cjs/react.production.min.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "webapp/node_modules/scheduler/cjs/scheduler.production.min.js": {
+      "bytes": 4235,
+      "imports": [],
+      "format": "cjs"
+    },
+    "webapp/node_modules/scheduler/index.js": {
+      "bytes": 198,
+      "imports": [
+        {
+          "path": "webapp/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "kind": "require-call",
+          "original": "./cjs/scheduler.production.min.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "webapp/node_modules/react-dom/cjs/react-dom.production.min.js": {
+      "bytes": 131685,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "require-call",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/scheduler/index.js",
+          "kind": "require-call",
+          "original": "scheduler"
+        }
+      ],
+      "format": "cjs"
+    },
+    "webapp/node_modules/react-dom/index.js": {
+      "bytes": 1363,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "kind": "require-call",
+          "original": "./cjs/react-dom.production.min.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "webapp/node_modules/react-dom/client.js": {
+      "bytes": 619,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react-dom/index.js",
+          "kind": "require-call",
+          "original": "react-dom"
+        }
+      ],
+      "format": "cjs"
+    },
+    "webapp/src/data/commercialMasterData.json": {
+      "bytes": 2440859,
+      "imports": []
+    },
+    "webapp/node_modules/zustand/esm/vanilla.mjs": {
+      "bytes": 1001,
+      "imports": [],
+      "format": "esm"
+    },
+    "webapp/node_modules/zustand/esm/react.mjs": {
+      "bytes": 739,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/zustand/esm/vanilla.mjs",
+          "kind": "import-statement",
+          "original": "zustand/vanilla"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/node_modules/zustand/esm/index.mjs": {
+      "bytes": 64,
+      "imports": [
+        {
+          "path": "webapp/node_modules/zustand/esm/vanilla.mjs",
+          "kind": "import-statement",
+          "original": "zustand/vanilla"
+        },
+        {
+          "path": "webapp/node_modules/zustand/esm/react.mjs",
+          "kind": "import-statement",
+          "original": "zustand/react"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/node_modules/zustand/esm/middleware.mjs": {
+      "bytes": 16310,
+      "imports": [],
+      "format": "esm"
+    },
+    "webapp/src/store/useCoursewareStore.ts": {
+      "bytes": 18199,
+      "imports": [
+        {
+          "path": "webapp/node_modules/zustand/esm/index.mjs",
+          "kind": "import-statement",
+          "original": "zustand"
+        },
+        {
+          "path": "webapp/node_modules/zustand/esm/middleware.mjs",
+          "kind": "import-statement",
+          "original": "zustand/middleware"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/services/firebaseDbService.ts": {
+      "bytes": 11687,
+      "imports": [],
+      "format": "esm"
+    },
+    "webapp/node_modules/react/cjs/react-jsx-runtime.production.min.js": {
+      "bytes": 859,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "require-call",
+          "original": "react"
+        }
+      ],
+      "format": "cjs"
+    },
+    "webapp/node_modules/react/jsx-runtime.js": {
+      "bytes": 214,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "kind": "require-call",
+          "original": "./cjs/react-jsx-runtime.production.min.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "webapp/src/components/layout/StudentHeader.tsx": {
+      "bytes": 3841,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/layout/ParentHeader.tsx": {
+      "bytes": 3065,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/layout/TeacherHeader.tsx": {
+      "bytes": 2612,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/layout/AdminHeader.tsx": {
+      "bytes": 2570,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/layout/RoleGatewayModal.tsx": {
+      "bytes": 9404,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/layout/MainLandingPage.tsx": {
+      "bytes": 18261,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/layout/XRaySummaryHero.tsx": {
+      "bytes": 4206,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/utils/ttsEngine.ts": {
+      "bytes": 1212,
+      "imports": [],
+      "format": "esm"
+    },
+    "webapp/src/components/student/VocabDuelArena.tsx": {
+      "bytes": 11549,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/src/utils/ttsEngine.ts",
+          "kind": "import-statement",
+          "original": "../../utils/ttsEngine"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/student/GalaxyExpeditionMap.tsx": {
+      "bytes": 12919,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/student/OnboardingCatModal.tsx": {
+      "bytes": 22944,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/student/StudentJourneyHub.tsx": {
+      "bytes": 19135,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/src/components/student/VocabDuelArena.tsx",
+          "kind": "import-statement",
+          "original": "./VocabDuelArena"
+        },
+        {
+          "path": "webapp/src/components/student/GalaxyExpeditionMap.tsx",
+          "kind": "import-statement",
+          "original": "./GalaxyExpeditionMap"
+        },
+        {
+          "path": "webapp/src/components/student/OnboardingCatModal.tsx",
+          "kind": "import-statement",
+          "original": "./OnboardingCatModal"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/student/AdaptiveClinicStudio.tsx": {
+      "bytes": 21716,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/HotTextPassage.tsx": {
+      "bytes": 6143,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/EBSRQuestionCard.tsx": {
+      "bytes": 8266,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/InlineClozeBuilder.tsx": {
+      "bytes": 6484,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/GraphicOrganizerBuilder.tsx": {
+      "bytes": 8171,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/MultiSourceTabViewer.tsx": {
+      "bytes": 6673,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/WritingWorkbench.tsx": {
+      "bytes": 5262,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/RedPenProofreader.tsx": {
+      "bytes": 5830,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/StylusInkingLayer.tsx": {
+      "bytes": 3704,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/EyeBeaconGuide.tsx": {
+      "bytes": 2343,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/tei/index.ts": {
+      "bytes": 335,
+      "imports": [
+        {
+          "path": "webapp/src/components/tei/HotTextPassage.tsx",
+          "kind": "import-statement",
+          "original": "./HotTextPassage"
+        },
+        {
+          "path": "webapp/src/components/tei/EBSRQuestionCard.tsx",
+          "kind": "import-statement",
+          "original": "./EBSRQuestionCard"
+        },
+        {
+          "path": "webapp/src/components/tei/InlineClozeBuilder.tsx",
+          "kind": "import-statement",
+          "original": "./InlineClozeBuilder"
+        },
+        {
+          "path": "webapp/src/components/tei/GraphicOrganizerBuilder.tsx",
+          "kind": "import-statement",
+          "original": "./GraphicOrganizerBuilder"
+        },
+        {
+          "path": "webapp/src/components/tei/MultiSourceTabViewer.tsx",
+          "kind": "import-statement",
+          "original": "./MultiSourceTabViewer"
+        },
+        {
+          "path": "webapp/src/components/tei/WritingWorkbench.tsx",
+          "kind": "import-statement",
+          "original": "./WritingWorkbench"
+        },
+        {
+          "path": "webapp/src/components/tei/RedPenProofreader.tsx",
+          "kind": "import-statement",
+          "original": "./RedPenProofreader"
+        },
+        {
+          "path": "webapp/src/components/tei/StylusInkingLayer.tsx",
+          "kind": "import-statement",
+          "original": "./StylusInkingLayer"
+        },
+        {
+          "path": "webapp/src/components/tei/EyeBeaconGuide.tsx",
+          "kind": "import-statement",
+          "original": "./EyeBeaconGuide"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/student/SplitScreenStudio.tsx": {
+      "bytes": 39731,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/src/utils/ttsEngine.ts",
+          "kind": "import-statement",
+          "original": "../../utils/ttsEngine"
+        },
+        {
+          "path": "webapp/src/components/tei/index.ts",
+          "kind": "import-statement",
+          "original": "../tei"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/student/CbtMockExamStudio.tsx": {
+      "bytes": 21744,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/parent/ParentInstantGlanceModal.tsx": {
+      "bytes": 5965,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/parent/ParentJourneyHub.tsx": {
+      "bytes": 16767,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/src/components/parent/ParentInstantGlanceModal.tsx",
+          "kind": "import-statement",
+          "original": "./ParentInstantGlanceModal"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/teacher/LiveClassroomCockpit.tsx": {
+      "bytes": 6882,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/admin/BrandedCounselingReportModal.tsx": {
+      "bytes": 22508,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/teacher/TeacherJourneyHub.tsx": {
+      "bytes": 19977,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/src/components/teacher/LiveClassroomCockpit.tsx",
+          "kind": "import-statement",
+          "original": "./LiveClassroomCockpit"
+        },
+        {
+          "path": "webapp/src/components/admin/BrandedCounselingReportModal.tsx",
+          "kind": "import-statement",
+          "original": "../admin/BrandedCounselingReportModal"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/admin/AcademySeatBillingCard.tsx": {
+      "bytes": 16637,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/admin/ItemBankAdminStudio.tsx": {
+      "bytes": 38907,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "../../store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/src/services/firebaseDbService.ts",
+          "kind": "import-statement",
+          "original": "../../services/firebaseDbService"
+        },
+        {
+          "path": "webapp/src/components/admin/BrandedCounselingReportModal.tsx",
+          "kind": "import-statement",
+          "original": "./BrandedCounselingReportModal"
+        },
+        {
+          "path": "webapp/src/components/admin/AcademySeatBillingCard.tsx",
+          "kind": "import-statement",
+          "original": "./AcademySeatBillingCard"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/App.tsx": {
+      "bytes": 6953,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/src/data/commercialMasterData.json",
+          "kind": "import-statement",
+          "original": "./data/commercialMasterData.json"
+        },
+        {
+          "path": "webapp/src/store/useCoursewareStore.ts",
+          "kind": "import-statement",
+          "original": "./store/useCoursewareStore"
+        },
+        {
+          "path": "webapp/src/services/firebaseDbService.ts",
+          "kind": "import-statement",
+          "original": "./services/firebaseDbService"
+        },
+        {
+          "path": "webapp/src/components/layout/StudentHeader.tsx",
+          "kind": "import-statement",
+          "original": "./components/layout/StudentHeader"
+        },
+        {
+          "path": "webapp/src/components/layout/ParentHeader.tsx",
+          "kind": "import-statement",
+          "original": "./components/layout/ParentHeader"
+        },
+        {
+          "path": "webapp/src/components/layout/TeacherHeader.tsx",
+          "kind": "import-statement",
+          "original": "./components/layout/TeacherHeader"
+        },
+        {
+          "path": "webapp/src/components/layout/AdminHeader.tsx",
+          "kind": "import-statement",
+          "original": "./components/layout/AdminHeader"
+        },
+        {
+          "path": "webapp/src/components/layout/RoleGatewayModal.tsx",
+          "kind": "import-statement",
+          "original": "./components/layout/RoleGatewayModal"
+        },
+        {
+          "path": "webapp/src/components/layout/MainLandingPage.tsx",
+          "kind": "import-statement",
+          "original": "./components/layout/MainLandingPage"
+        },
+        {
+          "path": "webapp/src/components/layout/XRaySummaryHero.tsx",
+          "kind": "import-statement",
+          "original": "./components/layout/XRaySummaryHero"
+        },
+        {
+          "path": "webapp/src/components/student/StudentJourneyHub.tsx",
+          "kind": "import-statement",
+          "original": "./components/student/StudentJourneyHub"
+        },
+        {
+          "path": "webapp/src/components/student/AdaptiveClinicStudio.tsx",
+          "kind": "import-statement",
+          "original": "./components/student/AdaptiveClinicStudio"
+        },
+        {
+          "path": "webapp/src/components/student/SplitScreenStudio.tsx",
+          "kind": "import-statement",
+          "original": "./components/student/SplitScreenStudio"
+        },
+        {
+          "path": "webapp/src/components/student/CbtMockExamStudio.tsx",
+          "kind": "import-statement",
+          "original": "./components/student/CbtMockExamStudio"
+        },
+        {
+          "path": "webapp/src/components/student/OnboardingCatModal.tsx",
+          "kind": "import-statement",
+          "original": "./components/student/OnboardingCatModal"
+        },
+        {
+          "path": "webapp/src/components/parent/ParentJourneyHub.tsx",
+          "kind": "import-statement",
+          "original": "./components/parent/ParentJourneyHub"
+        },
+        {
+          "path": "webapp/src/components/teacher/TeacherJourneyHub.tsx",
+          "kind": "import-statement",
+          "original": "./components/teacher/TeacherJourneyHub"
+        },
+        {
+          "path": "webapp/src/components/admin/ItemBankAdminStudio.tsx",
+          "kind": "import-statement",
+          "original": "./components/admin/ItemBankAdminStudio"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/components/common/ErrorBoundary.tsx": {
+      "bytes": 3353,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "webapp/src/index.css": {
+      "bytes": 2093,
+      "imports": []
+    },
+    "webapp/src/main.tsx": {
+      "bytes": 346,
+      "imports": [
+        {
+          "path": "webapp/node_modules/react/index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "webapp/node_modules/react-dom/client.js",
+          "kind": "import-statement",
+          "original": "react-dom/client"
+        },
+        {
+          "path": "webapp/src/App.tsx",
+          "kind": "import-statement",
+          "original": "./App"
+        },
+        {
+          "path": "webapp/src/components/common/ErrorBoundary.tsx",
+          "kind": "import-statement",
+          "original": "./components/common/ErrorBoundary"
+        },
+        {
+          "path": "webapp/src/index.css",
+          "kind": "import-statement",
+          "original": "./index.css"
+        },
+        {
+          "path": "webapp/node_modules/react/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "output/audit/unused-build/main.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "webapp/src/main.tsx",
+      "cssBundle": "output/audit/unused-build/main.css",
+      "inputs": {
+        "webapp/node_modules/react/cjs/react.production.min.js": {
+          "bytesInOutput": 6606
+        },
+        "webapp/node_modules/react/index.js": {
+          "bytesInOutput": 51
+        },
+        "webapp/node_modules/scheduler/cjs/scheduler.production.min.js": {
+          "bytesInOutput": 3993
+        },
+        "webapp/node_modules/scheduler/index.js": {
+          "bytesInOutput": 51
+        },
+        "webapp/node_modules/react-dom/cjs/react-dom.production.min.js": {
+          "bytesInOutput": 130322
+        },
+        "webapp/node_modules/react-dom/index.js": {
+          "bytesInOutput": 253
+        },
+        "webapp/node_modules/react-dom/client.js": {
+          "bytesInOutput": 107
+        },
+        "webapp/node_modules/react/cjs/react-jsx-runtime.production.min.js": {
+          "bytesInOutput": 613
+        },
+        "webapp/node_modules/react/jsx-runtime.js": {
+          "bytesInOutput": 50
+        },
+        "webapp/src/main.tsx": {
+          "bytesInOutput": 198
+        },
+        "webapp/src/App.tsx": {
+          "bytesInOutput": 2961
+        },
+        "webapp/src/data/commercialMasterData.json": {
+          "bytesInOutput": 3058135
+        },
+        "webapp/node_modules/zustand/esm/vanilla.mjs": {
+          "bytesInOutput": 320
+        },
+        "webapp/node_modules/zustand/esm/react.mjs": {
+          "bytesInOutput": 328
+        },
+        "webapp/node_modules/zustand/esm/middleware.mjs": {
+          "bytesInOutput": 2012
+        },
+        "webapp/src/store/useCoursewareStore.ts": {
+          "bytesInOutput": 9916
+        },
+        "webapp/src/services/firebaseDbService.ts": {
+          "bytesInOutput": 5676
+        },
+        "webapp/src/components/layout/StudentHeader.tsx": {
+          "bytesInOutput": 2761
+        },
+        "webapp/src/components/layout/ParentHeader.tsx": {
+          "bytesInOutput": 2499
+        },
+        "webapp/src/components/layout/TeacherHeader.tsx": {
+          "bytesInOutput": 1872
+        },
+        "webapp/src/components/layout/AdminHeader.tsx": {
+          "bytesInOutput": 2187
+        },
+        "webapp/src/components/layout/RoleGatewayModal.tsx": {
+          "bytesInOutput": 8261
+        },
+        "webapp/src/components/layout/MainLandingPage.tsx": {
+          "bytesInOutput": 17911
+        },
+        "webapp/src/components/layout/XRaySummaryHero.tsx": {
+          "bytesInOutput": 3892
+        },
+        "webapp/src/components/student/StudentJourneyHub.tsx": {
+          "bytesInOutput": 14799
+        },
+        "webapp/src/components/student/VocabDuelArena.tsx": {
+          "bytesInOutput": 7836
+        },
+        "webapp/src/utils/ttsEngine.ts": {
+          "bytesInOutput": 579
+        },
+        "webapp/src/components/student/GalaxyExpeditionMap.tsx": {
+          "bytesInOutput": 10886
+        },
+        "webapp/src/components/student/OnboardingCatModal.tsx": {
+          "bytesInOutput": 21639
+        },
+        "webapp/src/components/student/AdaptiveClinicStudio.tsx": {
+          "bytesInOutput": 14180
+        },
+        "webapp/src/components/student/SplitScreenStudio.tsx": {
+          "bytesInOutput": 23485
+        },
+        "webapp/src/components/tei/HotTextPassage.tsx": {
+          "bytesInOutput": 29
+        },
+        "webapp/src/components/tei/index.ts": {
+          "bytesInOutput": 0
+        },
+        "webapp/src/components/tei/EBSRQuestionCard.tsx": {
+          "bytesInOutput": 29
+        },
+        "webapp/src/components/tei/InlineClozeBuilder.tsx": {
+          "bytesInOutput": 29
+        },
+        "webapp/src/components/tei/GraphicOrganizerBuilder.tsx": {
+          "bytesInOutput": 5538
+        },
+        "webapp/src/components/tei/MultiSourceTabViewer.tsx": {
+          "bytesInOutput": 29
+        },
+        "webapp/src/components/tei/WritingWorkbench.tsx": {
+          "bytesInOutput": 29
+        },
+        "webapp/src/components/tei/RedPenProofreader.tsx": {
+          "bytesInOutput": 29
+        },
+        "webapp/src/components/tei/StylusInkingLayer.tsx": {
+          "bytesInOutput": 29
+        },
+        "webapp/src/components/tei/EyeBeaconGuide.tsx": {
+          "bytesInOutput": 29
+        },
+        "webapp/src/components/student/CbtMockExamStudio.tsx": {
+          "bytesInOutput": 12640
+        },
+        "webapp/src/components/parent/ParentJourneyHub.tsx": {
+          "bytesInOutput": 15234
+        },
+        "webapp/src/components/parent/ParentInstantGlanceModal.tsx": {
+          "bytesInOutput": 5164
+        },
+        "webapp/src/components/teacher/TeacherJourneyHub.tsx": {
+          "bytesInOutput": 16645
+        },
+        "webapp/src/components/teacher/LiveClassroomCockpit.tsx": {
+          "bytesInOutput": 4837
+        },
+        "webapp/src/components/admin/BrandedCounselingReportModal.tsx": {
+          "bytesInOutput": 20060
+        },
+        "webapp/src/components/admin/ItemBankAdminStudio.tsx": {
+          "bytesInOutput": 23492
+        },
+        "webapp/src/components/admin/AcademySeatBillingCard.tsx": {
+          "bytesInOutput": 12826
+        },
+        "webapp/src/components/common/ErrorBoundary.tsx": {
+          "bytesInOutput": 2660
+        },
+        "webapp/src/index.css": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 3475504
+    },
+    "output/audit/unused-build/main.css": {
+      "imports": [],
+      "inputs": {
+        "webapp/src/index.css": {
+          "bytesInOutput": 1516
+        }
+      },
+      "bytes": 1517
+    }
+  }
+}

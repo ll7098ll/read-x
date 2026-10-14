@@ -1,0 +1,3648 @@
+{
+  "date": "2026-10-14",
+  "scope": "Project files plus audit scripts; excludes dependencies, dist, caches and audit evidence",
+  "inventory_files": 169,
+  "files_by_extension": {
+    "[none]": 1,
+    ".md": 28,
+    ".html": 7,
+    ".json": 29,
+    ".rules": 1,
+    ".py": 53,
+    ".mjs": 1,
+    ".xlsx": 2,
+    ".js": 2,
+    ".tsx": 37,
+    ".ts": 7,
+    ".css": 1
+  },
+  "parse_errors": [],
+  "source_scan_counts": {
+    "html_injection_sites": 19,
+    "random_calls": 8,
+    "alert_calls": 1,
+    "any_type_uses": 18,
+    "aria_attributes": 0
+  },
+  "expository_slots": 96,
+  "common_slots": 36,
+  "grade_summaries": 6,
+  "teacher_roster": 10,
+  "content_counts": {
+    "hottext_cues": 224,
+    "questions": 193,
+    "scaffolding_quotes": 192
+  },
+  "answer_positions_by_grade": {
+    "1": {
+      "1": 8,
+      "2": 8,
+      "②": 11,
+      "①": 5
+    },
+    "2": {
+      "②": 5,
+      "①": 27
+    },
+    "3": {
+      "3": 4,
+      "1": 7,
+      "2": 5,
+      "②": 10,
+      "①": 5,
+      "③": 1
+    },
+    "4": {
+      "③": 1,
+      "①": 29,
+      "2": 1,
+      "3": 1
+    },
+    "5": {
+      "①": 30,
+      "5": 1,
+      "3": 2
+    },
+    "6": {
+      "①": 30,
+      "2": 1,
+      "3": 1
+    }
+  },
+  "content_issue_counts": {
+    "missing_option_number": 154,
+    "missing_ebsr_part_contract": 154,
+    "missing_organizer_contract": 77,
+    "missing_clinic_contract": 77,
+    "missing_cloze_contract": 77,
+    "missing_writing_contract": 77,
+    "missing_trap_code": 14,
+    "short_explanation": 6,
+    "scaffold_count": 1,
+    "common_answer_representation_mismatch": 24
+  },
+  "content_issues": [
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-V3-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-V3-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-V3-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-V3-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G1-EXP-V3-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G1-EXP-V3-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G1-EXP-V3-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G1-EXP-V3-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-V3-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-V3-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-V3-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-V3-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G1-EXP-V3-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G1-EXP-V3-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G1-EXP-V3-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G1-EXP-V3-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-V3-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-V3-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-V3-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-V3-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G1-EXP-V3-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G1-EXP-V3-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G1-EXP-V3-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G1-EXP-V3-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G1-EXP-W1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G1-EXP-W1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G1-EXP-W1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G1-EXP-W1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G1-EXP-W2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G1-EXP-W2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G1-EXP-W2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G1-EXP-W2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G1-EXP-W3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G1-EXP-W3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G1-EXP-W3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G1-EXP-W3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G1-EXP-W4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G1-EXP-W4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G1-EXP-W4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G1-EXP-W4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W5/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G1-EXP-W5/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W5",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G1-EXP-W5",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G1-EXP-W5",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G1-EXP-W5",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G1-EXP-W5",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G1-EXP-W5",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V1-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V1-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V1-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V1-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V1-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V1-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V1-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V1-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V1-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V1-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V1-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V1-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V1-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V1-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V1-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V1-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V1-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V1-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V1-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V1-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V1-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V1-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V1-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V1-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V1-4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V1-4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V1-4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V1-4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V1-4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V1-4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V1-4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V1-4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V2-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V2-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V2-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V2-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V2-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V2-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V2-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V2-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V2-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V2-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V2-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V2-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V2-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V2-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V2-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V2-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V2-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V2-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V2-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V2-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V2-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V2-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V2-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V2-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V2-4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V2-4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V2-4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V2-4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V2-4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V2-4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V2-4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V2-4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V3-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V3-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V3-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V3-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V3-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V3-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V3-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V3-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V3-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V3-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V3-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V3-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V3-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V3-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V3-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V3-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V3-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-V3-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V3-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-V3-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-V3-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-V3-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-V3-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-V3-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-W1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-W1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-W1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-W1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-W2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-W2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-W2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-W2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-W3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-W3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-W3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-W3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-W4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-W4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-W4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-W4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W5/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G2-EXP-W5/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W5",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G2-EXP-W5",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G2-EXP-W5",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G2-EXP-W5",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G2-EXP-W5",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G2-EXP-W5",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G3-EXP-V2-4/Q2",
+      "detail": 1
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G3-EXP-V2-4/Q2",
+      "detail": 2
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G3-EXP-V2-4/Q2",
+      "detail": 4
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-V3-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-V3-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-V3-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-V3-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G3-EXP-V3-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G3-EXP-V3-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G3-EXP-V3-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G3-EXP-V3-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-V3-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-V3-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-V3-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-V3-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G3-EXP-V3-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G3-EXP-V3-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G3-EXP-V3-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G3-EXP-V3-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-V3-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-V3-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-V3-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-V3-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G3-EXP-V3-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G3-EXP-V3-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G3-EXP-V3-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G3-EXP-V3-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G3-EXP-W1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G3-EXP-W1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G3-EXP-W1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G3-EXP-W1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G3-EXP-W2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G3-EXP-W2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G3-EXP-W2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G3-EXP-W2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G3-EXP-W3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G3-EXP-W3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G3-EXP-W3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G3-EXP-W3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G3-EXP-W4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G3-EXP-W4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G3-EXP-W4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G3-EXP-W4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W5/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G3-EXP-W5/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W5",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G3-EXP-W5",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G3-EXP-W5",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G3-EXP-W5",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G3-EXP-W5",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G3-EXP-W5",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V1-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V1-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V1-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V1-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V1-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V1-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V1-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V1-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V1-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V1-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V1-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V1-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V1-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V1-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V1-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V1-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V1-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V1-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V1-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V1-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V1-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V1-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V1-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V1-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V1-4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V1-4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V1-4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V1-4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V1-4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V1-4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V1-4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V1-4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V2-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V2-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V2-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V2-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V2-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V2-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V2-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V2-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V2-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V2-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V2-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V2-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V2-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V2-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V2-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V2-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V2-4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "short_explanation",
+      "location": "G4-EXP-V2-4/Q1",
+      "detail": null
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V2-4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V2-4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V2-4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V2-4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V2-4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V2-4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V2-4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V3-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V3-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V3-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V3-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V3-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V3-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V3-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V3-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V3-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V3-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V3-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V3-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V3-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V3-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V3-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V3-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V3-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-V3-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V3-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-V3-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-V3-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-V3-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-V3-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-V3-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-W1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-W1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-W1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-W1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-W2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-W2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-W2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-W2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "short_explanation",
+      "location": "G4-EXP-W3/Q2",
+      "detail": null
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-W3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-W3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-W3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-W3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-W4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-W4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-W4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-W4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W5/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G4-EXP-W5/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "short_explanation",
+      "location": "G4-EXP-W5/Q2",
+      "detail": null
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W5",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G4-EXP-W5",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G4-EXP-W5",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G4-EXP-W5",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G4-EXP-W5",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G4-EXP-W5",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V1-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V1-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V1-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V1-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V1-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V1-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V1-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V1-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V1-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V1-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V1-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V1-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V1-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V1-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V1-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V1-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V1-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V1-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V1-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V1-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V1-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V1-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V1-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V1-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V1-4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V1-4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V1-4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V1-4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V1-4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V1-4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V1-4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V1-4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V2-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V2-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V2-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V2-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V2-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V2-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V2-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V2-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V2-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V2-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V2-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V2-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V2-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V2-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V2-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V2-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V2-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V2-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "short_explanation",
+      "location": "G5-EXP-V2-3/Q2",
+      "detail": null
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V2-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V2-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V2-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V2-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V2-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V2-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V2-4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V2-4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V2-4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V2-4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V2-4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V2-4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V2-4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V2-4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V3-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V3-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V3-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V3-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V3-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V3-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V3-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V3-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G5-EXP-V3-2/Q1",
+      "detail": 1
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G5-EXP-V3-2/Q1",
+      "detail": 2
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G5-EXP-V3-2/Q1",
+      "detail": 3
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G5-EXP-V3-2/Q1",
+      "detail": 4
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G5-EXP-V3-2/Q3",
+      "detail": 1
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G5-EXP-V3-2/Q3",
+      "detail": 2
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G5-EXP-V3-2/Q3",
+      "detail": 5
+    },
+    {
+      "kind": "scaffold_count",
+      "location": "G5-EXP-V3-2",
+      "detail": "One scaffold per question expected"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V3-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-V3-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "short_explanation",
+      "location": "G5-EXP-V3-3/Q2",
+      "detail": null
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V3-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-V3-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-V3-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-V3-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-V3-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-V3-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-W1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-W1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-W1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-W1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-W2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-W2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-W2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-W2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-W3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-W3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-W3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-W3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-W4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-W4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-W4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-W4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W5/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G5-EXP-W5/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "short_explanation",
+      "location": "G5-EXP-W5/Q2",
+      "detail": null
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W5",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G5-EXP-W5",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G5-EXP-W5",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G5-EXP-W5",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G5-EXP-W5",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G5-EXP-W5",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V1-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V1-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V1-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V1-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V1-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V1-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V1-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V1-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V1-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V1-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V1-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V1-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V1-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V1-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V1-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V1-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V1-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V1-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V1-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V1-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V1-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V1-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V1-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V1-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V1-4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V1-4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V1-4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V1-4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V1-4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V1-4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V1-4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V1-4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V2-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V2-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V2-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V2-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V2-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V2-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V2-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V2-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V2-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V2-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V2-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V2-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V2-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V2-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V2-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V2-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V2-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V2-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V2-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V2-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V2-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V2-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V2-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V2-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V2-4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V2-4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V2-4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V2-4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V2-4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V2-4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V2-4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V2-4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V3-1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V3-1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V3-1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V3-1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V3-1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V3-1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V3-1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V3-1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V3-2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V3-2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V3-2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V3-2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V3-2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V3-2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V3-2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V3-2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V3-3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-V3-3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V3-3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-V3-3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-V3-3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-V3-3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-V3-3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-V3-3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-W1/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-W1/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-W1",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-W1",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-W1",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-W1",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-W1",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-W1",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-W2/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-W2/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-W2",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-W2",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-W2",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-W2",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-W2",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-W2",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-W3/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-W3/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-W3",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-W3",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-W3",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-W3",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-W3",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-W3",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-W4/Q1",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_option_number",
+      "location": "G6-EXP-W4/Q2",
+      "detail": "UI requires numeric no; some records use label instead"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-W4",
+      "detail": "part_a_options"
+    },
+    {
+      "kind": "missing_ebsr_part_contract",
+      "location": "G6-EXP-W4",
+      "detail": "part_b_options"
+    },
+    {
+      "kind": "missing_organizer_contract",
+      "location": "G6-EXP-W4",
+      "detail": "nodes and word_bank required by renderer"
+    },
+    {
+      "kind": "missing_clinic_contract",
+      "location": "G6-EXP-W4",
+      "detail": "step0_remedial.choices/correct missing"
+    },
+    {
+      "kind": "missing_cloze_contract",
+      "location": "G6-EXP-W4",
+      "detail": "blanks and cloze_sentences required by renderer"
+    },
+    {
+      "kind": "missing_writing_contract",
+      "location": "G6-EXP-W4",
+      "detail": "conditions and choices required by renderer"
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G6-EXP-W5/Q1",
+      "detail": 1
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G6-EXP-W5/Q1",
+      "detail": 3
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G6-EXP-W5/Q1",
+      "detail": 4
+    },
+    {
+      "kind": "missing_trap_code",
+      "location": "G6-EXP-W5/Q1",
+      "detail": 5
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G2-COM-A1",
+      "detail": {
+        "correct": "②",
+        "choices": [
+          "① 꼬치",
+          "② 꽃이",
+          "③ 꼬치이"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G2-COM-A2",
+      "detail": {
+        "correct": "②",
+        "choices": [
+          "① 음식을 땅에 버리다",
+          "② 앞으로 쓸 것에 대비해 미리 모아 두다",
+          "③ 도토리를 발로 밟아 부수다"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G2-COM-A3",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 둥실둥실 떠갑니다.",
+          "② 흙탕물을 튀깁니다.",
+          "③ 책을 조용히 읽습니다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G2-COM-A4",
+      "detail": {
+        "correct": "②",
+        "choices": [
+          "① 교실 안",
+          "② 커다란 느티나무 그늘 밑",
+          "③ 교장선생님 방"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G2-COM-A5",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 아침부터 많은 비가 내렸기 때문에",
+          "② 축구공을 잃어버려서",
+          "③ 친구가 집에 가 버려서"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G2-COM-A6",
+      "detail": {
+        "correct": "②",
+        "choices": [
+          "① 꿀벌은 쏘이면 아픈 무서운 벌레이다.",
+          "② 꿀벌은 자연과 사람에게 참 이로운 곤충이다.",
+          "③ 꽃가루는 바람이 불면 날아간다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G4-COM-A1",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① '풋-'은 처음 나온 덜 익은 것, '맨-'은 다른 것이 없는 상태를 뜻한다.",
+          "② 둘 다 아주 크고 무겁다는 뜻을 나타낸다.",
+          "③ 둘 다 차갑고 얼어붙은 상태를 나타낸다.",
+          "④ 둘 다 밤하늘의 밝은 별을 가리킨다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G4-COM-A2",
+      "detail": {
+        "correct": "②",
+        "choices": [
+          "① 발의 크기를 키우고, 귀를 한쪽으로 잡아당기다.",
+          "② 사귀는 사람의 범위를 넓히고, 남의 말에 주의를 집중해 듣다.",
+          "③ 신발을 큰 것으로 바꾸어 신고, 귓구멍을 막다.",
+          "④ 달리기 시합에서 발을 헛디뎌 넘어지다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G4-COM-A3",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 대조의 의미로 이어진 문장",
+          "② 원인과 결과로 이어진 문장",
+          "③ 시간 순서대로 나열된 문장",
+          "④ 아무런 관계없이 끊어진 문장"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G4-COM-A4",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 앞선 '도시 문제'에서 다른 측면인 '촌락 문제'로 화제를 전환한다.",
+          "② 앞선 내용과 똑같은 사례를 반복해서 강조한다.",
+          "③ 글의 전체 결론을 맺고 글을 끝낸다.",
+          "④ 앞 문장의 원인을 설명한다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G4-COM-A5",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 화석 연료 과다 사용과 삼림 벌채",
+          "② 플라스틱 재활용과 나무 심기",
+          "③ 겨울철 폭설과 태풍 발생",
+          "④ 북극곰의 사냥과 펭귄의 이동"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G4-COM-A6",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 다양한 과일은 몸에 유익한 필수 영양소를 풍부하게 공급한다.",
+          "② 사과에는 비타민 C만 들어 있어 다른 과일은 먹을 필요가 없다.",
+          "③ 바나나는 칼륨이 많아 운동선수만 먹어야 한다.",
+          "④ 포도 껍질의 색깔은 보라색이다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G5-COM-A1",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 물건이나 가치를 새롭게 만들어 냄",
+          "② 낡은 것을 부수어 없앰",
+          "③ 높은 산으로 올라감",
+          "④ 돈을 은행에 저금함",
+          "⑤ 차가운 얼음이 녹아내림"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G5-COM-A2",
+      "detail": {
+        "correct": "②",
+        "choices": [
+          "① 기계에 바르는 미끄러운 기름",
+          "② 사회적 갈등과 마찰을 줄여 관계를 원활하게 해 주는 역할",
+          "③ 주유소에서 파는 자동차 휘발유",
+          "④ 사람들이 싸우도록 불을 지르는 위험한 물질",
+          "⑤ 법을 어긴 사람에게 내리는 벌금"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G5-COM-A3",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① ~해서는 안 된다 (부정 서술)",
+          "② ~하기를 바란다 (기원)",
+          "③ ~할 수도 있다 (추측)",
+          "④ ~해서 기쁘다 (감정)",
+          "⑤ ~했기 때문이다 (이유)"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G5-COM-A4",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 도시 인구 과밀로 인한 교통 체증과 대기오염 심화",
+          "② 대중교통망의 무리한 공사 지연",
+          "③ 농촌 지역의 일손 부족 현상",
+          "④ 정부의 예산 낭비 문제",
+          "⑤ 새로운 자동차의 출시 지연"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G5-COM-A5",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 토양 수분 감소 ➔ 농작물 광합성 저해 ➔ 수확량 감소",
+          "② 농가 소득 증가 ➔ 농기계 대량 구매",
+          "③ 비가 많이 내려 ➔ 홍수 피해 발생",
+          "④ 태풍 발생 ➔ 바다 양식장 파괴",
+          "⑤ 도시 인구 증가 ➔ 아파트 가격 상승"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G5-COM-A6",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 인류는 자연의 청정 에너지를 활용하여 다양한 방식으로 친환경 전기를 생산한다.",
+          "② 태양광 발전기만 전기를 만들 수 있고 나머지는 불가능하다.",
+          "③ 댐을 짓는 데는 너무 많은 시멘트가 들어간다.",
+          "④ 바람이 불지 않는 날에는 모든 전기가 끊어진다.",
+          "⑤ 석탄과 석유는 땅속 깊은 곳에 묻혀 있다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G6-COM-A1",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 언제나 변함없이 일정한 상태를 유지하려는 성질",
+          "② 기온에 따라 몸의 온도가 마음대로 바뀌는 성질",
+          "③ 병원균이 몸속에 무한정 증식하는 상태",
+          "④ 인간이 겨울잠을 자는 동물로 변하는 성질",
+          "⑤ 체온이 영하 10도까지 급격히 얼어붙는 현상"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G6-COM-A2",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 현재 발생하는 대다수 교통사고의 주요 원인은 인간 운전자의 부주의에 기인한다.",
+          "② 인공지능 자율주행차는 절대로 고장 나거나 사고를 내지 않는다.",
+          "③ 모든 자동차는 도로 주행을 영구히 중단해야 한다.",
+          "④ 인공지능 운전자는 운전면허 시험을 볼 자격이 없다.",
+          "⑤ 법적 책임은 언제나 승객 한 사람에게만 있다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G6-COM-A3",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 가장 중요하게 드러나는 점은 ~ 극복해야 한다는 사실이다.",
+          "② 가장 중요하게 보여지어지는 점은 ~ 극복당해야 한다.",
+          "③ 가장 중요함을 보는 점은 ~ 극복되게 시켜야 한다.",
+          "④ 중요함이 보여진 것은 ~ 극복을 당하는 것이다.",
+          "⑤ 중요성이 보이게 되는 바는 ~ 극복을 받게 됨이다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G6-COM-A4",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 장점에 이어 상반된 단점을 제시하므로 '이와는 반대로' 또는 '그러나'로 교정해야 한다.",
+          "② 태양광 발전이 밤에 전기를 못 만든다는 것은 거짓말이기 때문에",
+          "③ 앞선 문장과 똑같은 장점만을 반복하고 있기 때문에",
+          "④ 문장을 세 줄 이상으로 더 길게 늘려야 하기 때문에",
+          "⑤ 결론을 맺는 말이므로 '결론적으로'로 바꾸어야 한다."
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G6-COM-A5",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 일부의 부작용 사례를 바탕으로 기기 자체를 독극물로 단정하고 판매 금지를 요구하는 성급한 일반화와 논리적 비약",
+          "② 스마트폰의 가격이 너무 저렴하다는 사실을 밝히지 않은 점",
+          "③ 연구 조사의 대상자 이름을 공개하지 않은 점",
+          "④ 스마트폰 배터리의 충전 시간을 고려하지 않은 점",
+          "⑤ 청소년의 키가 자라는 이유를 설명하지 않은 점"
+        ]
+      }
+    },
+    {
+      "kind": "common_answer_representation_mismatch",
+      "location": "G6-COM-A6",
+      "detail": {
+        "correct": "①",
+        "choices": [
+          "① 화학적 재활용은 원자재 비용을 절감하므로 정책적 인프라 확충을 통해 순환경제 전환을 가속화해야 한다.",
+          "② 플라스틱을 태우는 쓰레기 소각장을 전국에 1000개 더 지어야 한다.",
+          "③ 모든 플라스틱 공장은 당장 문을 닫아야 한다.",
+          "④ 세금을 10배로 늘려 플라스틱 사용자에게 벌금을 물려야 한다.",
+          "⑤ 재활용 기술은 비용이 너무 많이 들어 포기해야 한다."
+        ]
+      }
+    }
+  ],
+  "slot_metadata_gaps": {
+    "source": 96,
+    "license": 96,
+    "reviewed_by": 96,
+    "status": 3,
+    "version": 3
+  },
+  "bank_vs_bundle_drift": [],
+  "seed_vs_bundle_drift": [],
+  "missing_initial_assignment_targets": [
+    "G5-EXP-I1-1",
+    "G5-EXP-S1-2"
+  ],
+  "identical_file_groups": [
+    [
+      "CI_AND_UI_UX_THEME_KIT_MASTER.md",
+      "docs/CI_AND_UI_UX_THEME_KIT_MASTER.md"
+    ],
+    [
+      "DEVELOPMENT_PLAN_READX.md",
+      "docs/DEVELOPMENT_PLAN_READX.md"
+    ],
+    [
+      "docs/Google_Stitch_UIUX_Design_Prompt_Guide.md",
+      "Google_Stitch_UIUX_Design_Prompt_Guide.md"
+    ],
+    [
+      "docs/PRD_2022개정_교과개념_설명문_문해력_코스웨어.md",
+      "PRD_2022개정_교과개념_설명문_문해력_코스웨어.md"
+    ],
+    [
+      "docs/PRD_문해력_코스웨어_상용화_마스터.md",
+      "PRD_문해력_코스웨어_상용화_마스터.md"
+    ],
+    [
+      "docs/UI_UX_COMPONENT_DEVELOPMENT_SPEC.md",
+      "UI_UX_COMPONENT_DEVELOPMENT_SPEC.md"
+    ],
+    [
+      "new_goals_matrix.json",
+      "textbook_reference/new_goals_matrix.json"
+    ],
+    [
+      "output/expository_literacy_courseware.html",
+      "output/readxray_pro_commercial_v2.html"
+    ],
+    [
+      "textbook_reference/초1_6학년_문해력_하위기능_및_목표위계_마스터.json",
+      "초1_6학년_문해력_하위기능_및_목표위계_마스터.json"
+    ],
+    [
+      "textbook_reference/초1_6학년_장르별_문해력_하위기능_및_목표위계_마스터.xlsx",
+      "초1_6학년_장르별_문해력_하위기능_및_목표위계_마스터.xlsx"
+    ]
+  ],
+  "limits": [
+    "Structural validation cannot establish factual correctness, rights clearance, curriculum alignment or valid diagnosis.",
+    "XLSX: ZIP integrity and sheet count only; HTML: source scan, not every generated page rendered."
+  ]
+}
