@@ -3,7 +3,14 @@
 *.mjs text eol=lf
 *.tsx text eol=lf
 *.ts text eol=lf
-*.json text eol=lf
+*.json -text
 *.yml text eol=lf
 *.py text eol=lf
 *.ps1 text eol=crlf
+# Authored source and delivery manifests contain byte-level SHA-256 references.
+# Preserve their original bytes across clone/archive on every platform.
+data/** -text
+output/** -text
+outputs/** -text
+research/** -text
+textbook_reference/** -text
