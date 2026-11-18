@@ -1,0 +1,559 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "e928db7c2fac0ccc2ad7af03689d236031f27b735cf66c8c7437f6b591c2dfbd",
+  "scope": "국어 체계2차 대표 제작분의 검토 보고서. 전체 은행 확장 합계는 fullBankDrafts와 별도 원장에 기록. 기존 batch03·앱 전체·실제 수업 성과 제외.",
+  "goalCompletion": "not_proven",
+  "publicationReady": false,
+  "representativeDrafts": {
+    "targetSets": 144,
+    "targetQuestions": 624,
+    "authoredSets": 144,
+    "authoredQuestions": 624,
+    "draftQuantityMilestoneMet": true,
+    "grades": {
+      "1": 24,
+      "2": 24,
+      "3": 24,
+      "4": 24,
+      "5": 24,
+      "6": 24
+    },
+    "skills": 12,
+    "skillStageCells": 72
+  },
+  "proposedBank": {
+    "proposedSkills": 360,
+    "proposedStageCells": 2160,
+    "proposedSets": 7200,
+    "proposedQuestions": 29880,
+    "pilotAuthoredSkills": 12,
+    "pilotAuthoredStageCells": 72,
+    "totalAuthoredSkills": 72,
+    "totalAuthoredStageCells": 264,
+    "notAuthoredCandidateSkills": 288,
+    "notAuthoredCandidateStageCells": 1896,
+    "note": "계획 칸은 승인된 전체 교육과정 목록이 아니다. 전체 초안342묶음은 같은 수의 장문 또는 승인 공급을 뜻하지 않는다."
+  },
+  "fullBankDrafts": {
+    "readinessPath": "output/content-bank-v2/readiness.json",
+    "coveragePath": "output/content-bank-v2/coverage.json",
+    "authored": {
+      "sets": 342,
+      "questions": 1478,
+      "skills": 72,
+      "skillStageCells": 264,
+      "skillsWithAllSixStages": 24,
+      "factualSourceCheckedDraftSets": 30,
+      "factualAnchors": 90,
+      "writingProductionProtocolSets": 54,
+      "literaryInterpretationProtocolSets": 30,
+      "languageInterpretationProtocolSets": 24,
+      "mediaReadingProtocolSets": 12,
+      "mediaPanels": 26,
+      "listeningSets": 36,
+      "oralReadingSets": 12,
+      "liveSpeechTasks": 36,
+      "audioDraftAssets": 48,
+      "audioDurationSeconds": 773.79,
+      "byGrade": {
+        "1": {
+          "sets": 57,
+          "questions": 244,
+          "skills": 12
+        },
+        "2": {
+          "sets": 57,
+          "questions": 246,
+          "skills": 12
+        },
+        "3": {
+          "sets": 57,
+          "questions": 246,
+          "skills": 12
+        },
+        "4": {
+          "sets": 57,
+          "questions": 246,
+          "skills": 12
+        },
+        "5": {
+          "sets": 57,
+          "questions": 247,
+          "skills": 12
+        },
+        "6": {
+          "sets": 57,
+          "questions": 249,
+          "skills": 12
+        }
+      },
+      "poems": 31,
+      "poetryLines": 160
+    },
+    "remaining": {
+      "candidateSkills": 288,
+      "candidateStageCells": 1896,
+      "plannedSets": 6858,
+      "plannedQuestions": 28402
+    },
+    "review": {
+      "approvedSets": 0,
+      "calibratedSets": 0,
+      "independentTeacherReviewPending": 342,
+      "studentCalibrationPending": 342,
+      "audioListeningReviewsPending": 48,
+      "koreanComponentCandidateSets": 225,
+      "relatedOnlyScopeReviewSets": 117,
+      "sourceUncheckedSets": []
+    }
+  },
+  "technicalEvidence": {
+    "contentChecks": "passed",
+    "workbookStructureAndSeparation": "passed",
+    "numericChecks": 49,
+    "readingChecks": 24,
+    "audioAssets": 36,
+    "listeningClips": 24,
+    "readingModelClips": 12,
+    "audioStructure": "passed",
+    "browserRuntime": "not_tested"
+  },
+  "pendingGates": {
+    "independentTeacherReview": {
+      "approvedSets": 0,
+      "pendingSets": 144,
+      "state": "pending"
+    },
+    "studentCalibration": {
+      "calibratedSets": 0,
+      "pendingSets": 144,
+      "state": "pending"
+    },
+    "pronunciationAndPacingReview": {
+      "pendingAssets": [
+        "PV2-G3-oral-02-S1-A-A1",
+        "PV2-G3-oral-02-S1-B-A1",
+        "PV2-G3-oral-02-S2-A-A1",
+        "PV2-G3-oral-02-S2-B-A1",
+        "PV2-G3-oral-02-S3-A-A1",
+        "PV2-G3-oral-02-S3-B-A1",
+        "PV2-G3-oral-02-S4-A-A1",
+        "PV2-G3-oral-02-S4-B-A1",
+        "PV2-G3-oral-02-S5-A-A1",
+        "PV2-G3-oral-02-S5-B-A1",
+        "PV2-G3-oral-02-S6-A-A1",
+        "PV2-G3-oral-02-S6-B-A1",
+        "PV2-G6-oral-04-S1-A-A1",
+        "PV2-G6-oral-04-S1-B-A1",
+        "PV2-G6-oral-04-S2-A-A1",
+        "PV2-G6-oral-04-S2-B-A1",
+        "PV2-G6-oral-04-S3-A-A1",
+        "PV2-G6-oral-04-S3-B-A1",
+        "PV2-G6-oral-04-S4-A-A1",
+        "PV2-G6-oral-04-S4-B-A1",
+        "PV2-G6-oral-04-S5-A-A1",
+        "PV2-G6-oral-04-S5-B-A1",
+        "PV2-G6-oral-04-S6-A-A1",
+        "PV2-G6-oral-04-S6-B-A1",
+        "PV2-G1-language-03-S1-A-R1",
+        "PV2-G1-language-03-S1-B-R1",
+        "PV2-G1-language-03-S2-A-R1",
+        "PV2-G1-language-03-S2-B-R1",
+        "PV2-G1-language-03-S3-A-R1",
+        "PV2-G1-language-03-S3-B-R1",
+        "PV2-G1-language-03-S4-A-R1",
+        "PV2-G1-language-03-S4-B-R1",
+        "PV2-G1-language-03-S5-A-R1",
+        "PV2-G1-language-03-S5-B-R1",
+        "PV2-G1-language-03-S6-A-R1",
+        "PV2-G1-language-03-S6-B-R1"
+      ],
+      "state": "pending"
+    },
+    "curriculumSourceAlignment": {
+      "sourceCheckedCandidates": 99,
+      "sourceLinkedSets": 144,
+      "sourceScopeAuditedSets": 72,
+      "relatedOnlyGoalScopeReviewSets": 45,
+      "sourceUncheckedSets": [],
+      "missingDirectCandidateRefs": [
+        {
+          "id": "PV2-G2-language-07-S1-A",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S1-B",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S2-A",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S2-B",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S3-A",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S3-B",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S4-A",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S4-B",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S5-A",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S5-B",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S6-A",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-language-07-S6-B",
+          "skillId": "plan-G2-language-07",
+          "grade": 2,
+          "name": "여러 뜻의 낱말",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "1~2학년군의 이번 원문 대조에서 이 세부 어휘 활동을 직접 측정하는 문법 코드를 확정하지 않음. 내부 읽기 보조 목표로 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S1-A",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S1-B",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S2-A",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S2-B",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S3-A",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S3-B",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S4-A",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S4-B",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S6-A",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G3-information-08-S6-B",
+          "skillId": "plan-G3-information-08",
+          "grade": 3,
+          "name": "비교 기준 적용",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "사물 특징 비교와 선택 기준 적용을 사실·의견 및 필자 관점 비교 전체 성취와 동일시하지 않음. 읽기 전략의 내부 목표 범위를 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S1-A",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S1-B",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S2-A",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S2-B",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S3-A",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S3-B",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S4-A",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S4-B",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S5-A",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S5-B",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G2-writing-11-S6-A",
+          "skillId": "plan-G2-writing-11",
+          "grade": 2,
+          "name": "빠진 정보 보충",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "알림·순서 글 고쳐쓰기를 1~2학년군 소개 글쓰기 전체의 직접 측정으로 두지 않음. 필요한 정보 보충의 내부 교수 목표로 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S1-A",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S1-B",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S2-A",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S2-B",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S3-A",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S3-B",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S4-A",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S4-B",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S5-A",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S5-B",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S6-A",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        },
+        {
+          "id": "PV2-G4-media-02-S6-B",
+          "skillId": "plan-G4-media-02",
+          "grade": 4,
+          "name": "그래프 범례와 단위",
+          "reviewDecision": "related_only_goal_scope_review",
+          "reason": "그림·막대 해석을 국어의 발표 자료 만들기 성취와 동일시하지 않음. 국어 독립 측정 목표와 수학 선수 기능의 배치를 검토."
+        }
+      ],
+      "state": "source_links_classified_not_teacher_approval",
+      "note": "국어 성취기준 연결 후보99와 보조·타교과 연계45를 구별. 원문과 관계를 분류한 것이 학년 배치·전체 기준의 직접 측정 승인인 것은 아님."
+    },
+    "stageAndGradeFit": {
+      "state": "not_independently_verified",
+      "note": "원고 단계와 실제 난도를 동일시하지 않음. 첫 읽기·지원 뒤 읽기와 실제 질문·수정 설명 관찰 필요."
+    },
+    "runtime": {
+      "state": "not_tested",
+      "note": "실제 브라우저의 오디오 재생·필터·저장·인쇄 동작과 접근성을 검증했다고 주장하지 않음."
+    }
+  },
+  "nextWork": [
+    "직접 국어 측정 주장을 보류한 45자료의 내부 교수 목표·선수 교과 기능·활동 범위 검토",
+    "정답 없는 원고를 활용한 목표·단계·정답 유일성 재검토 및 연관 자료 수정",
+    "36음성의 발음·쉼·속도 청취 검토와 실제 첫 수행 관찰 준비",
+    "제안된360수행의 유효한 빈 칸과 사실 근거·장르·소재 부족을 검토하며 전체 공급 확대"
+  ]
+}

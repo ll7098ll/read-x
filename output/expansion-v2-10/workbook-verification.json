@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "contentSnapshotHash": "a9ad999ca066ec1407b07e090409508610f0c5427aefaf08e33bb23ed2f95378",
+  "editions": {
+    "학생용_문제집.html": {
+      "sets": 18,
+      "questions": 78,
+      "graphs": 0,
+      "tables": 0,
+      "poems": 3,
+      "poetryLines": 24,
+      "listeningClips": 0,
+      "readingModelClips": 0,
+      "readingLines": 0,
+      "readingObservationForms": 0,
+      "readingWordReferences": 0,
+      "transcripts": 0,
+      "partnerCards": 0,
+      "observationForms": 0,
+      "curriculumScopePanels": 0,
+      "questionScopeNotes": 0,
+      "draftRevisionNotes": 0,
+      "sha256": "037724a4d05dacc885aa4a14aaed75801b58db9cc1cd54b583b847908b5c4278",
+      "writingSituationBlocks": 0,
+      "writingObservationForms": 0,
+      "mediaPanels": 0,
+      "mediaElementAlternatives": 0
+    },
+    "교사용_해설집.html": {
+      "sets": 18,
+      "questions": 78,
+      "graphs": 0,
+      "tables": 78,
+      "poems": 3,
+      "poetryLines": 24,
+      "listeningClips": 0,
+      "readingModelClips": 0,
+      "readingLines": 0,
+      "readingObservationForms": 0,
+      "readingWordReferences": 0,
+      "transcripts": 0,
+      "partnerCards": 0,
+      "observationForms": 0,
+      "curriculumScopePanels": 18,
+      "questionScopeNotes": 78,
+      "draftRevisionNotes": 0,
+      "sha256": "e5ac33cc7a91612949f20669db44317e57ee7029f1ea5fdd210e831d97d41ecf",
+      "writingSituationBlocks": 0,
+      "writingObservationForms": 0,
+      "mediaPanels": 0,
+      "mediaElementAlternatives": 0
+    }
+  },
+  "renderedGraphRowChecks": 0,
+  "javascriptSyntax": "passed",
+  "browserRuntime": "not_tested",
+  "limits": [
+    "내용·단계·학년 적합성은 독립 교사 검토와 학생 관찰 대기"
+  ]
+}

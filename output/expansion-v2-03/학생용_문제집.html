@@ -1,0 +1,916 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>국어 여섯 단계 학생용_문제집</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6f8;color:#20384b;font-family:system-ui,"Malgun Gothic",sans-serif}header{background:#173b49;color:white;padding:30px max(24px,calc((100% - 1100px)/2))}h1{font-size:28px}header p{color:#deeaed;line-height:1.8}.toolbar{max-width:1100px;margin:20px auto;display:flex;gap:14px;flex-wrap:wrap;padding:0 16px}select,button,textarea{font:inherit}select,button{padding:10px;border:1px solid #bbcbd3;background:white;color:#20384b;border-radius:8px}main{max-width:1100px;margin:20px auto;padding:0 16px}.set{background:white;border:1px solid #d7e1e6;border-radius:16px;padding:28px;margin:24px 0}.meta{font-size:14px;color:#4d6774}.text{background:#fffcf4;padding:20px;border-radius:12px;margin:22px 0}.text p{font-size:20px;line-height:2.05;margin:12px 0}h2{font-size:24px}h3{font-size:18px;line-height:1.8}.question{border-top:1px solid #dce5e8;padding:18px 0}label.choice{display:block;line-height:1.9;padding:8px 12px;border:1px solid #d5e0e5;border-radius:8px;margin:8px 0}label.choice:has(input:checked){background:#e6f2ee;border-color:#236958}textarea{display:block;width:100%;min-height:95px;border:1px solid #afc2cd;border-radius:8px;padding:12px;line-height:1.8;margin:8px 0 16px}details{background:#edf4f6;border-radius:10px;padding:14px;margin:12px 0;line-height:1.9}summary{cursor:pointer;font-weight:600}table{border-collapse:collapse;width:100%;margin:12px 0;font-size:15px}td,th{border:1px solid #c3d2d9;text-align:left;vertical-align:top;padding:10px}ol li{line-height:1.85}button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #bd6800;outline-offset:3px}#status{padding:0 16px;max-width:1100px;margin:auto;color:#765000}footer{text-align:center;font-size:14px;padding:24px;color:#4d6774}[hidden]{display:none!important}@media(max-width:650px){.set{padding:18px}.text{padding:15px}.text p{font-size:19px}header{padding:20px}}@media print{header,.toolbar,#status,footer{display:none}body{background:white}.set{border:0;padding:0;break-before:page}.question{break-inside:avoid}.text p{font-size:12pt}textarea{min-height:85px}}
+figure.graph{margin:20px 0;padding:12px;border:1px solid #d2e0e5;border-radius:12px;text-align:center;break-inside:avoid}figure.graph img{display:block;width:100%;max-width:740px;height:auto;margin:auto}figcaption{font-size:14px;color:#526775;line-height:1.7}.poem{margin:12px 0 26px;padding:18px 24px;border-left:3px solid #91b5b3;break-inside:avoid}.poem h3{margin:0 0 20px;color:#28585d}.text p.poem-line{margin:0;line-height:1.85;white-space:pre-wrap}@media(max-width:650px){.poem{padding:14px 12px}}.listening-player{padding:16px;background:#eef6f6;border:1px solid #bdd6d8;border-radius:12px;margin:18px 0}.listening-player audio{width:100%;margin:10px 0}.observation-line{min-height:40px;border-bottom:1px dotted #8197a3;line-height:1.8}.reading-target p.reading-line{font-size:27px;line-height:2;letter-spacing:.04em;word-spacing:.18em;margin:16px 0}.reading-label{font-size:15px;color:#4e6b74;margin:18px 0 4px}.reading-model audio{display:block;width:100%;margin:12px 0}.reading-observation td{min-width:90px;height:45px}@media print{.reading-target p.reading-line{font-size:17pt}.reading-model audio{display:none}}</style>
+<header><h1>국어 여섯 단계 · 학생용 문제집</h1><p>뜻 익히기 · 단서 짚기 · 관계 엮기 · 의미 풀기 · 근거 따지기 · 새롭게 엮기</p><p>대표 6수행 / 36자료 / 156문항 · 교사 검토 전 원고</p></header>
+<div class="toolbar"><label>수행 <select id="skill"><option value="">전체</option><option value="plan-G1-writing-05">초1 · 이름과 특징 문장 쓰기</option><option value="plan-G2-writing-10">초2 · 경험과 느낌 쓰기</option><option value="plan-G3-writing-07">초3 · 중심·뒷받침 문장</option><option value="plan-G4-writing-11">초4 · 내용·조직 고쳐쓰기</option><option value="plan-G5-writing-08">초5 · 자료 인용과 설명 통합</option><option value="plan-G6-writing-10">초6 · 독자에 맞게 재표현</option></select></label>
+<label>단계 <select id="stage"><option value="">전체</option><option value="S1">뜻 익히기</option><option value="S2">단서 짚기</option><option value="S3">관계 엮기</option><option value="S4">의미 풀기</option><option value="S5">근거 따지기</option><option value="S6">새롭게 엮기</option></select></label>
+<button onclick="window.print()">표시한 자료 인쇄</button><button id="download">답안 내려받기</button></div><p id="status" role="status"></p><main>
+<article class="set" data-skill="plan-G1-writing-05" data-stage="S1"><div class="meta">초1 · 이름과 특징 문장 쓰기 · 이름과 특징 익히기 · 자료A</div><h2>이름을 말하고 모습을 붙여요</h2>
+<div class="text"><p>물건을 소개할 때에는 이름과 모습을 함께 쓸 수 있어요. 예를 들어 빨간 공을 소개한다면 이것은 빨간 공이에요라고 쓸 수 있어요.</p><p>이번에 소개할 물건은 종이 연필꽂이예요. 모양은 네모이고 겉은 초록색이에요. 처음 보는 짝에게 이 물건을 소개해요.</p></div>
+<section class="question" data-question="PV2-G1-writing-05-S1-A-Q1"><div class="meta">쓰기 · PV2-G1-writing-05-S1-A-Q1</div><h3>1. 종이 연필꽂이를 소개하는 문장을 한두 문장으로 쓰세요. 이름과 모습 한 가지를 넣어요.</h3>
+<p class="writer-context" data-writer-context="PV2-G1-writing-05-S1-A-Q1">읽는 사람: 처음 보는 짝 · 쓰는 목적: 물건의 이름과 모습 소개 · 분량: 한두 문장</p>
+<p>이름을 적고 초록색이나 네모 중 소개할 모습을 골라요.</p>
+<p>검토할 점: 대상의 이름 / 모습의 연결</p>
+<label>계획<textarea aria-label="PV2-G1-writing-05-S1-A-Q1 계획" data-response="PV2-G1-writing-05-S1-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G1-writing-05-S1-A-Q1 초고" data-response="PV2-G1-writing-05-S1-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G1-writing-05-S1-A-Q1 검토 후 수정고" data-response="PV2-G1-writing-05-S1-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G1-writing-05-S1-A-Q1 고친 이유" data-response="PV2-G1-writing-05-S1-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S1-A-Q2"><div class="meta">선택 · PV2-G1-writing-05-S1-A-Q2</div><h3>2. 이번에 소개할 물건의 모습은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S1-A-Q2" data-response="PV2-G1-writing-05-S1-A-Q2" value="0"> 1. 네모이고 빨간색이다.</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S1-A-Q2" data-response="PV2-G1-writing-05-S1-A-Q2" value="1"> 2. 네모이고 초록색이다.</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S1-A-Q2" data-response="PV2-G1-writing-05-S1-A-Q2" value="2"> 3. 둥글고 빨간색이다.</label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S1-A-Q3"><div class="meta">설명 · PV2-G1-writing-05-S1-A-Q3</div><h3>3. 쓴 문장에서 이름과 모습을 각각 짚어 보세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S1-A-Q3 내 답과 본문 근거" data-response="PV2-G1-writing-05-S1-A-Q3-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G1-writing-05" data-stage="S2"><div class="meta">초1 · 이름과 특징 문장 쓰기 · 알맞은 특징 골라 쓰기 · 자료A</div><h2>어느 주머니인지 알게 써요</h2>
+<div class="text"><p>두 주머니가 나란히 있어요. 가 주머니는 노란 바탕에 파란 줄이 있어요. 나 주머니는 노란 바탕에 줄이 없어요.</p><p>짝은 가 주머니를 찾으려고 해요. 짝은 가와 나라는 이름표를 못 보아요. 물건 이름과 두 주머니를 구별할 모습을 글로 알려 주세요.</p></div>
+<section class="question" data-question="PV2-G1-writing-05-S2-A-Q1"><div class="meta">쓰기 · PV2-G1-writing-05-S2-A-Q1</div><h3>1. 짝이 가 주머니를 찾을 수 있도록 한두 문장으로 소개하세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G1-writing-05-S2-A-Q1">읽는 사람: 가 주머니를 찾는 짝 · 쓰는 목적: 비슷한 물건 가운데 대상 찾기 · 분량: 한두 문장</p>
+<p>두 주머니에 같은 모습과 다른 모습을 나누어 적어요.</p>
+<p>검토할 점: 대상 명시 / 구별되는 특징</p>
+<label>계획<textarea aria-label="PV2-G1-writing-05-S2-A-Q1 계획" data-response="PV2-G1-writing-05-S2-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G1-writing-05-S2-A-Q1 초고" data-response="PV2-G1-writing-05-S2-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G1-writing-05-S2-A-Q1 검토 후 수정고" data-response="PV2-G1-writing-05-S2-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G1-writing-05-S2-A-Q1 고친 이유" data-response="PV2-G1-writing-05-S2-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S2-A-Q2"><div class="meta">선택 · PV2-G1-writing-05-S2-A-Q2</div><h3>2. 두 주머니를 구별하는 데 필요한 정보는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S2-A-Q2" data-response="PV2-G1-writing-05-S2-A-Q2" value="0"> 1. 파란 줄이 있는지</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S2-A-Q2" data-response="PV2-G1-writing-05-S2-A-Q2" value="1"> 2. 바탕이 노란지</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S2-A-Q2" data-response="PV2-G1-writing-05-S2-A-Q2" value="2"> 3. 주머니라는 이름인지</label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S2-A-Q3"><div class="meta">분류 · PV2-G1-writing-05-S2-A-Q3</div><h3>3. 같은 모습 / 다른 모습으로 나누세요: 노란 바탕, 파란 줄의 유무.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G1-writing-05-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S2-A-Q4"><div class="meta">고쳐쓰기 · PV2-G1-writing-05-S2-A-Q4</div><h3>4. 내 문장에 노란 주머니라고만 썼다면 어떤 말을 보태면 좋을까요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G1-writing-05-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G1-writing-05" data-stage="S3"><div class="meta">초1 · 이름과 특징 문장 쓰기 · 대상과 특징 엮어 쓰기 · 자료A</div><h2>두 모형의 모습을 섞지 않아요</h2>
+<div class="text"><p>전시 이름표를 만들어요. 종이집은 빨간 지붕과 창문 두 개가 있어요. 종이배는 파란 깃발과 뾰족한 앞부분이 있어요.</p><p>물건 이름만 적으면 모습을 알기 어려워요. 모습을 적을 때에는 어느 물건의 것인지 함께 써요. 이름표를 읽는 친구는 두 모형을 처음 보아요.</p></div>
+<section class="question" data-question="PV2-G1-writing-05-S3-A-Q1"><div class="meta">쓰기 · PV2-G1-writing-05-S3-A-Q1</div><h3>1. 종이집과 종이배를 각각 한 문장으로 소개하세요. 각 문장에 모습 한 가지 이상을 넣으세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G1-writing-05-S3-A-Q1">읽는 사람: 전시를 처음 보는 친구 · 쓰는 목적: 두 모형 소개 · 분량: 대상마다 한 문장</p>
+<p>이름 두 개를 따로 적고 각각의 모습을 옆에 메모해요.</p>
+<p>검토할 점: 두 대상 구별 / 특징 대응</p>
+<label>계획<textarea aria-label="PV2-G1-writing-05-S3-A-Q1 계획" data-response="PV2-G1-writing-05-S3-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G1-writing-05-S3-A-Q1 초고" data-response="PV2-G1-writing-05-S3-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G1-writing-05-S3-A-Q1 검토 후 수정고" data-response="PV2-G1-writing-05-S3-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G1-writing-05-S3-A-Q1 고친 이유" data-response="PV2-G1-writing-05-S3-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S3-A-Q2"><div class="meta">선택 · PV2-G1-writing-05-S3-A-Q2</div><h3>2. 이름과 모습이 맞게 연결된 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S3-A-Q2" data-response="PV2-G1-writing-05-S3-A-Q2" value="0"> 1. 종이배의 파란 깃발</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S3-A-Q2" data-response="PV2-G1-writing-05-S3-A-Q2" value="1"> 2. 종이배의 빨간 지붕</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S3-A-Q2" data-response="PV2-G1-writing-05-S3-A-Q2" value="2"> 3. 종이집의 파란 깃발</label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S3-A-Q3"><div class="meta">짝짓기 · PV2-G1-writing-05-S3-A-Q3</div><h3>3. 빨간 지붕 / 창문 두 개 / 뾰족한 앞부분을 대상과 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G1-writing-05-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S3-A-Q4"><div class="meta">설명 · PV2-G1-writing-05-S3-A-Q4</div><h3>4. 자신의 두 문장에서 어느 물건의 모습인지 알게 해 주는 말을 찾으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G1-writing-05-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G1-writing-05" data-stage="S4"><div class="meta">초1 · 이름과 특징 문장 쓰기 · 읽는 사람을 생각해 보충하기 · 자료A</div><h2>처음 보는 놀이감을 소개해요</h2>
+<div class="text"><p>이번 놀이감의 이름은 나무 기차예요. 작은 나무 칸 세 개가 줄로 이어져 있어요. 앞의 끈을 잡아당기면 칸들이 함께 움직여요.</p><p>처음 보는 동생에게 소개하는 글을 써요. 동생은 기차라는 이름만 듣고 사람이 타는 큰 기차를 떠올렸어요. 내가 소개하는 물건의 크기나 모양을 알게 써 보아요.</p></div>
+<section class="question" data-question="PV2-G1-writing-05-S4-A-Q1"><div class="meta">쓰기 · PV2-G1-writing-05-S4-A-Q1</div><h3>1. 동생이 놀이감을 떠올릴 수 있게 나무 기차를 두 문장 이내로 소개하세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G1-writing-05-S4-A-Q1">읽는 사람: 처음 보는 동생 · 쓰는 목적: 놀이감의 모습과 움직임 소개 · 분량: 두 문장 이내</p>
+<p>큰 기차와 다르게 알려 줄 모습이나 움직임을 골라요.</p>
+<p>검토할 점: 대상과 구별 정보 / 자료에 맞는 특징</p>
+<label>계획<textarea aria-label="PV2-G1-writing-05-S4-A-Q1 계획" data-response="PV2-G1-writing-05-S4-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G1-writing-05-S4-A-Q1 초고" data-response="PV2-G1-writing-05-S4-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G1-writing-05-S4-A-Q1 검토 후 수정고" data-response="PV2-G1-writing-05-S4-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G1-writing-05-S4-A-Q1 고친 이유" data-response="PV2-G1-writing-05-S4-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S4-A-Q2"><div class="meta">선택 · PV2-G1-writing-05-S4-A-Q2</div><h3>2. 동생의 오해를 줄이는 데 도움이 되는 말은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S4-A-Q2" data-response="PV2-G1-writing-05-S4-A-Q2" value="0"> 1. 기차라는 이름의 물건</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S4-A-Q2" data-response="PV2-G1-writing-05-S4-A-Q2" value="1"> 2. 사람을 태우는 큰 기차</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S4-A-Q2" data-response="PV2-G1-writing-05-S4-A-Q2" value="2"> 3. 작은 나무 칸이 이어진 놀이감</label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S4-A-Q3"><div class="meta">근거 찾기 · PV2-G1-writing-05-S4-A-Q3</div><h3>3. 기차가 어떻게 움직이는지 보여 주는 부분을 찾으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S4-A-Q3 내 답과 본문 근거" data-response="PV2-G1-writing-05-S4-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S4-A-Q4"><div class="meta">고쳐쓰기 · PV2-G1-writing-05-S4-A-Q4</div><h3>4. 자신의 문장에서 큰 기차로 오해할 만한 곳을 고치거나, 오해를 줄인 말을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S4-A-Q4 내 답과 본문 근거" data-response="PV2-G1-writing-05-S4-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G1-writing-05" data-stage="S5"><div class="meta">초1 · 이름과 특징 문장 쓰기 · 어긋난 특징 고치기 · 자료A</div><h2>색깔이 바뀐 소개문</h2>
+<div class="text"><p>가상 관찰 메모예요. 물병의 몸통은 주황색이고 뚜껑은 파란색이에요. 옆에는 짧은 손잡이가 있어요.</p><p>소개문 초고에는 파란 몸통과 주황 뚜껑이 있는 물병이에요라고 적혀 있어요. 글쓴이는 색깔 이름을 둘 다 썼으니 괜찮다고 말해요. 새 소개문은 메모에 맞게 써요.</p></div>
+<section class="question" data-question="PV2-G1-writing-05-S5-A-Q1"><div class="meta">쓰기 · PV2-G1-writing-05-S5-A-Q1</div><h3>1. 초고를 고쳐 물병을 두 문장 이내로 소개하세요. 몸통과 뚜껑의 색을 맞게 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G1-writing-05-S5-A-Q1">읽는 사람: 물병을 처음 보는 친구 · 쓰는 목적: 틀린 특징 연결을 고쳐 소개 · 분량: 두 문장 이내</p>
+<p>메모의 몸통 색과 뚜껑 색을 따로 적은 뒤 초고와 비교해요.</p>
+<p>검토할 점: 부분과 색의 대응 / 소개 문장의 완성</p>
+<label>계획<textarea aria-label="PV2-G1-writing-05-S5-A-Q1 계획" data-response="PV2-G1-writing-05-S5-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G1-writing-05-S5-A-Q1 초고" data-response="PV2-G1-writing-05-S5-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G1-writing-05-S5-A-Q1 검토 후 수정고" data-response="PV2-G1-writing-05-S5-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G1-writing-05-S5-A-Q1 고친 이유" data-response="PV2-G1-writing-05-S5-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S5-A-Q2"><div class="meta">선택 · PV2-G1-writing-05-S5-A-Q2</div><h3>2. 초고에서 고칠 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S5-A-Q2" data-response="PV2-G1-writing-05-S5-A-Q2" value="0"> 1. 물병이라는 대상의 이름</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S5-A-Q2" data-response="PV2-G1-writing-05-S5-A-Q2" value="1"> 2. 색깔과 몸의 부분을 연결한 방식</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S5-A-Q2" data-response="PV2-G1-writing-05-S5-A-Q2" value="2"> 3. 손잡이가 있다는 메모 자체</label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S5-A-Q3"><div class="meta">짝짓기 · PV2-G1-writing-05-S5-A-Q3</div><h3>3. 주황색 / 파란색 / 짧은 모습을 부분과 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G1-writing-05-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S5-A-Q4"><div class="meta">설명 · PV2-G1-writing-05-S5-A-Q4</div><h3>4. 색깔 이름을 둘 다 썼어도 고쳐야 하는 이유를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G1-writing-05-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S5-A-Q5"><div class="meta">설명 · PV2-G1-writing-05-S5-A-Q5</div><h3>5. 내 수정고에서 메모와 다시 맞춰 본 부분을 하나 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G1-writing-05-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G1-writing-05" data-stage="S6"><div class="meta">초1 · 이름과 특징 문장 쓰기 · 새 대상을 소개하기 · 자료A</div><h2>이름이 빠진 찾기 쪽지</h2>
+<div class="text"><p>자료 가, 물건 소개 메모예요. 나무 팽이는 둥근 몸에 빨간 줄이 있고 끝이 뾰족해요. 종이 바람개비에는 종이 날개 네 개와 파란 단추가 있어요.</p><p>자료 나, 찾는 물건 메모예요. 찾는 물건에는 빨간 줄이 있고 끝이 뾰족해요. 이 메모에는 이름을 적지 않았어요.</p><p>두 메모를 함께 읽고, 물건을 찾는 쪽지를 써요. 읽는 친구가 어떤 물건인지 알도록 이름과 특징 두 가지를 넣어요. 잃어버린 장소는 메모에 없어요.</p></div>
+<section class="question" data-question="PV2-G1-writing-05-S6-A-Q1"><div class="meta">쓰기 · PV2-G1-writing-05-S6-A-Q1</div><h3>1. 두 메모를 함께 읽고 찾는 물건의 이름과 특징 두 가지가 있는 쪽지를 두 문장 이내로 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G1-writing-05-S6-A-Q1">읽는 사람: 물건을 찾아 줄 친구 · 쓰는 목적: 두 메모로 찾기 쪽지 작성 · 분량: 두 문장 이내</p>
+<p>찾기 메모와 맞는 물건을 고른 뒤 이름·두 특징을 메모해요.</p>
+<p>검토할 점: 대상 찾기 / 특징과 목적</p>
+<label>계획<textarea aria-label="PV2-G1-writing-05-S6-A-Q1 계획" data-response="PV2-G1-writing-05-S6-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G1-writing-05-S6-A-Q1 초고" data-response="PV2-G1-writing-05-S6-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G1-writing-05-S6-A-Q1 검토 후 수정고" data-response="PV2-G1-writing-05-S6-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G1-writing-05-S6-A-Q1 고친 이유" data-response="PV2-G1-writing-05-S6-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S6-A-Q2"><div class="meta">선택 · PV2-G1-writing-05-S6-A-Q2</div><h3>2. 찾기 메모와 물건 소개를 이어 주는 특징은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S6-A-Q2" data-response="PV2-G1-writing-05-S6-A-Q2" value="0"> 1. 가운데의 파란 단추</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S6-A-Q2" data-response="PV2-G1-writing-05-S6-A-Q2" value="1"> 2. 빨간 줄과 뾰족한 끝</label>
+<label class="choice"><input type="radio" name="PV2-G1-writing-05-S6-A-Q2" data-response="PV2-G1-writing-05-S6-A-Q2" value="2"> 3. 종이 날개 네 개</label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S6-A-Q3"><div class="meta">분류 · PV2-G1-writing-05-S6-A-Q3</div><h3>3. 팽이 / 바람개비로 나누세요: 빨간 줄, 종이 날개, 파란 단추.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S6-A-Q3 내 답과 본문 근거" data-response="PV2-G1-writing-05-S6-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S6-A-Q4"><div class="meta">고쳐쓰기 · PV2-G1-writing-05-S6-A-Q4</div><h3>4. 찾는 팽이는 종이 날개 네 개가 있어요라는 쪽지를 고치세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S6-A-Q4 내 답과 본문 근거" data-response="PV2-G1-writing-05-S6-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S6-A-Q5"><div class="meta">설명 · PV2-G1-writing-05-S6-A-Q5</div><h3>5. 물건의 이름이 없는 메모에서 어떻게 팽이라는 이름을 찾아 썼는지 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S6-A-Q5 내 답과 본문 근거" data-response="PV2-G1-writing-05-S6-A-Q5-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-writing-05-S6-A-Q6"><div class="meta">질문 만들기 · PV2-G1-writing-05-S6-A-Q6</div><h3>6. 찾는 쪽지에 장소도 넣으려면 아직 모르는 무엇을 물어야 하나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-writing-05-S6-A-Q6 내 답과 본문 근거" data-response="PV2-G1-writing-05-S6-A-Q6-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-writing-10" data-stage="S1"><div class="meta">초2 · 경험과 느낌 쓰기 · 일과 느낌 구별하기 · 자료A</div><h2>일어난 일과 내 느낌</h2>
+<div class="text"><p>일어난 일과 그때의 느낌을 함께 쓰면 나의 경험을 전할 수 있어요. 나는 블록 탑을 쌓았다는 일이고, 탑이 서서 뿌듯했다는 느낌이에요.</p><p>오늘이나 최근의 작은 일을 하나 골라요. 떠오르는 일이 없으면 다음 가상 장면을 골라도 돼요. 지수는 처음으로 우산을 혼자 접었어요. 잘 접히지 않아 몇 번 다시 해 본 뒤 끝냈어요. 가상 장면을 고르면 가상 인물의 글이라고 표시해요.</p></div>
+<section class="question" data-question="PV2-G2-writing-10-S1-A-Q1"><div class="meta">쓰기 · PV2-G2-writing-10-S1-A-Q1</div><h3>1. 선택한 작은 일과 그때의 느낌을 두 문장 정도로 쓰세요. 본인 경험인지 가상 인물의 글인지 적어요.</h3>
+<p class="writer-context" data-writer-context="PV2-G2-writing-10-S1-A-Q1">읽는 사람: 함께 읽을 짝 · 쓰는 목적: 작은 일과 느낌 전하기 · 분량: 두 문장 정도</p>
+<p>글의 출발점(본인 경험 / 가상 인물)을 먼저 적어요. 어떤 일이 있었는지와 어떤 느낌이었는지를 따로 메모해요.</p>
+<p>검토할 점: 일과 느낌의 연결 / 경험의 출발점 표시</p>
+<label>계획<textarea aria-label="PV2-G2-writing-10-S1-A-Q1 계획" data-response="PV2-G2-writing-10-S1-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G2-writing-10-S1-A-Q1 초고" data-response="PV2-G2-writing-10-S1-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G2-writing-10-S1-A-Q1 검토 후 수정고" data-response="PV2-G2-writing-10-S1-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G2-writing-10-S1-A-Q1 고친 이유" data-response="PV2-G2-writing-10-S1-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S1-A-Q2"><div class="meta">선택 · PV2-G2-writing-10-S1-A-Q2</div><h3>2. 일과 느낌을 함께 담은 문장은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S1-A-Q2" data-response="PV2-G2-writing-10-S1-A-Q2" value="0"> 1. 블록은 탁자 위에 있었다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S1-A-Q2" data-response="PV2-G2-writing-10-S1-A-Q2" value="1"> 2. 탑을 끝까지 쌓아서 뿌듯했다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S1-A-Q2" data-response="PV2-G2-writing-10-S1-A-Q2" value="2"> 3. 블록 탑을 쌓고 다시 쌓았다.</label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S1-A-Q3"><div class="meta">설명 · PV2-G2-writing-10-S1-A-Q3</div><h3>3. 자신이 쓴 글에서 일과 느낌을 각각 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S1-A-Q3 내 답과 본문 근거" data-response="PV2-G2-writing-10-S1-A-Q3-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-writing-10" data-stage="S2"><div class="meta">초2 · 경험과 느낌 쓰기 · 경험의 한 장면 쓰기 · 자료A</div><h2>한 장면을 자세히 골라요</h2>
+<div class="text"><p>가상 장면이에요. 하린은 서랍을 정리하다 잃어버린 줄 알았던 책갈피를 찾았어요. 책갈피는 얇은 수첩 사이에 끼어 있었어요. 하린은 바로 꺼내 책에 넣었어요.</p><p>자기 경험을 쓸 때에도 언제 무엇을 했는지 알게 하는 한 장면을 고를 수 있어요. 본인에게 있었던 찾기·정리·만들기의 작은 일이나 위 가상 장면을 골라, 있었던 일과 그때의 느낌을 써요. 가상을 골랐다면 표시해요.</p></div>
+<section class="question" data-question="PV2-G2-writing-10-S2-A-Q1"><div class="meta">쓰기 · PV2-G2-writing-10-S2-A-Q1</div><h3>1. 선택한 한 장면과 느낌을 두세 문장으로 쓰세요. 어떤 일이었는지 알 수 있는 세부 하나를 넣어요.</h3>
+<p class="writer-context" data-writer-context="PV2-G2-writing-10-S2-A-Q1">읽는 사람: 함께 읽을 친구 · 쓰는 목적: 한 장면과 느낌 전달 · 분량: 두세 문장</p>
+<p>글의 출발점(본인 경험 / 가상 인물)을 먼저 적어요. 일·세부 하나·느낌을 세 칸에 메모하고 이어 써요.</p>
+<p>검토할 점: 장면의 구체성 / 느낌과 관계</p>
+<label>계획<textarea aria-label="PV2-G2-writing-10-S2-A-Q1 계획" data-response="PV2-G2-writing-10-S2-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G2-writing-10-S2-A-Q1 초고" data-response="PV2-G2-writing-10-S2-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G2-writing-10-S2-A-Q1 검토 후 수정고" data-response="PV2-G2-writing-10-S2-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G2-writing-10-S2-A-Q1 고친 이유" data-response="PV2-G2-writing-10-S2-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S2-A-Q2"><div class="meta">선택 · PV2-G2-writing-10-S2-A-Q2</div><h3>2. 가상 장면을 구체적으로 보여 주는 세부는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S2-A-Q2" data-response="PV2-G2-writing-10-S2-A-Q2" value="0"> 1. 수첩 사이에 끼어 있던 책갈피</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S2-A-Q2" data-response="PV2-G2-writing-10-S2-A-Q2" value="1"> 2. 책갈피를 누가 만들었는지 추측한 말</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S2-A-Q2" data-response="PV2-G2-writing-10-S2-A-Q2" value="2"> 3. 하린이 물건을 정리했다는 말만</label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S2-A-Q3"><div class="meta">근거 찾기 · PV2-G2-writing-10-S2-A-Q3</div><h3>3. 가상 장면에서 책갈피를 다시 찾은 일이라는 것을 알려 주는 부분을 찾으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G2-writing-10-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S2-A-Q4"><div class="meta">고쳐쓰기 · PV2-G2-writing-10-S2-A-Q4</div><h3>4. 자신의 글이 좋았다라고만 되어 있다면 어떤 느낌이었는지 한 말을 골라 바꾸거나 보태세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G2-writing-10-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-writing-10" data-stage="S3"><div class="meta">초2 · 경험과 느낌 쓰기 · 일의 흐름과 느낌 잇기 · 자료A</div><h2>마음이 달라진 두 순간</h2>
+<div class="text"><p>가상 장면이에요. 민서는 종이배를 접다가 모서리를 잘못 맞췄어요. 민서는 손을 멈추고 어렵네라고 말했어요. 친구가 처음 접는 선을 함께 확인해 주었어요. 민서는 다시 접어 작은 배를 완성하고 이번에는 됐어라고 말했어요.</p><p>자신의 작은 경험 중 처음과 나중의 느낌이 달라진 일을 골라도 돼요. 또는 가상 민서의 장면을 골라 표시해요. 두 순간 사이에 있었던 일도 넣어 글을 써요.</p></div>
+<section class="question" data-question="PV2-G2-writing-10-S3-A-Q1"><div class="meta">쓰기 · PV2-G2-writing-10-S3-A-Q1</div><h3>1. 처음의 일과 느낌, 중간의 일, 나중의 느낌이 이어지도록 세 문장 정도로 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G2-writing-10-S3-A-Q1">읽는 사람: 처음과 나중을 궁금해하는 친구 · 쓰는 목적: 경험과 느낌의 변화 전달 · 분량: 세 문장 정도</p>
+<p>글의 출발점(본인 경험 / 가상 인물)을 먼저 적어요. 처음 / 달라지게 한 일 / 나중을 나누어 메모해요.</p>
+<p>검토할 점: 경험의 흐름 / 느낌 변화의 연결</p>
+<label>계획<textarea aria-label="PV2-G2-writing-10-S3-A-Q1 계획" data-response="PV2-G2-writing-10-S3-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G2-writing-10-S3-A-Q1 초고" data-response="PV2-G2-writing-10-S3-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G2-writing-10-S3-A-Q1 검토 후 수정고" data-response="PV2-G2-writing-10-S3-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G2-writing-10-S3-A-Q1 고친 이유" data-response="PV2-G2-writing-10-S3-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S3-A-Q2"><div class="meta">선택 · PV2-G2-writing-10-S3-A-Q2</div><h3>2. 가상 장면에서 다시 접기 전에 있었던 일은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S3-A-Q2" data-response="PV2-G2-writing-10-S3-A-Q2" value="0"> 1. 종이배를 버리고 새 배를 샀다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S3-A-Q2" data-response="PV2-G2-writing-10-S3-A-Q2" value="1"> 2. 배를 먼저 완성하고 선을 지웠다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S3-A-Q2" data-response="PV2-G2-writing-10-S3-A-Q2" value="2"> 3. 친구와 처음 접는 선을 확인했다.</label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S3-A-Q3"><div class="meta">순서 · PV2-G2-writing-10-S3-A-Q3</div><h3>3. 모서리 안 맞음 / 선 확인 / 완성을 가상 장면의 차례대로 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G2-writing-10-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S3-A-Q4"><div class="meta">설명 · PV2-G2-writing-10-S3-A-Q4</div><h3>4. 자신의 글에서 느낌이 달라진 까닭을 알려 주는 일을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G2-writing-10-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-writing-10" data-stage="S4"><div class="meta">초2 · 경험과 느낌 쓰기 · 느낌이 생긴 까닭 풀기 · 자료A</div><h2>내 느낌을 모르는 독자에게</h2>
+<div class="text"><p>가상 초고에는 나는 기다렸다. 속상했다라고만 적혀 있어요. 장면 메모에는 새로 만든 그림을 보여 주려고 약속한 자리에 갔지만 친구가 시간을 잘못 알아 만나지 못했다고 적혀 있어요.</p><p>내 마음을 모르는 독자는 무엇을 기다렸고 왜 속상했는지 궁금할 수 있어요. 본인의 작은 경험이나 가상 장면을 골라, 느낌의 까닭을 이해할 수 있게 써요. 가상을 골랐다면 표시해요.</p></div>
+<section class="question" data-question="PV2-G2-writing-10-S4-A-Q1"><div class="meta">쓰기 · PV2-G2-writing-10-S4-A-Q1</div><h3>1. 선택한 경험에서 어떤 기대가 있었고 무슨 일 때문에 그런 느낌이 들었는지 두세 문장으로 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G2-writing-10-S4-A-Q1">읽는 사람: 그 일을 모르는 독자 · 쓰는 목적: 느낌의 까닭이 이해되는 글 · 분량: 두세 문장</p>
+<p>글의 출발점(본인 경험 / 가상 인물)을 먼저 적어요. 기대했던 것 / 실제 있었던 일 / 내 느낌을 메모해요.</p>
+<p>검토할 점: 기대와 사건 / 느낌의 까닭</p>
+<label>계획<textarea aria-label="PV2-G2-writing-10-S4-A-Q1 계획" data-response="PV2-G2-writing-10-S4-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G2-writing-10-S4-A-Q1 초고" data-response="PV2-G2-writing-10-S4-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G2-writing-10-S4-A-Q1 검토 후 수정고" data-response="PV2-G2-writing-10-S4-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G2-writing-10-S4-A-Q1 고친 이유" data-response="PV2-G2-writing-10-S4-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S4-A-Q2"><div class="meta">선택 · PV2-G2-writing-10-S4-A-Q2</div><h3>2. 메모에 근거해 가상 초고에 보충할 수 있는 정보는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S4-A-Q2" data-response="PV2-G2-writing-10-S4-A-Q2" value="0"> 1. 친구가 약속을 일부러 어긴 이유</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S4-A-Q2" data-response="PV2-G2-writing-10-S4-A-Q2" value="1"> 2. 기대한 만남이 어긋난 일</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S4-A-Q2" data-response="PV2-G2-writing-10-S4-A-Q2" value="2"> 3. 주인공이 기다림을 언제나 싫어한 성격</label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S4-A-Q3"><div class="meta">질문 만들기 · PV2-G2-writing-10-S4-A-Q3</div><h3>3. 자신의 초고를 처음 읽는 독자가 물을 만한 질문 하나를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S4-A-Q3 내 답과 본문 근거" data-response="PV2-G2-writing-10-S4-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S4-A-Q4"><div class="meta">고쳐쓰기 · PV2-G2-writing-10-S4-A-Q4</div><h3>4. 그 질문에 답이 되도록 자신의 글 한 부분을 고쳐 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S4-A-Q4 내 답과 본문 근거" data-response="PV2-G2-writing-10-S4-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-writing-10" data-stage="S5"><div class="meta">초2 · 경험과 느낌 쓰기 · 내 표현 다시 살피기 · 자료A</div><h2>모두 싫었다는 말 다시 보기</h2>
+<div class="text"><p>가상 장면 메모예요. 도현은 공놀이에서 처음 두 번 공을 놓쳤어요. 세 번째에는 공을 잡았고 친구와 손뼉을 쳤어요. 도현은 처음에는 속상했고 마지막에는 조금 자신이 생겼다고 말했어요.</p><p>초고에는 나는 공을 한 번도 못 잡았다. 하루 종일 모두 싫었다라고 적혀 있어요. 도현은 지금 이 초고를 메모와 맞춰 고치려 해요. 자신의 경험 글을 선택했다면 내가 쓴 말이 실제 기억과 맞는지 다시 살펴요.</p></div>
+<section class="question" data-question="PV2-G2-writing-10-S5-A-Q1"><div class="meta">쓰기 · PV2-G2-writing-10-S5-A-Q1</div><h3>1. 가상 도현의 초고를 고치거나 자신의 경험 초고를 다시 써 보세요. 사건과 느낌의 범위가 맞게 두세 문장으로 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G2-writing-10-S5-A-Q1">읽는 사람: 경험을 함께 읽는 친구 · 쓰는 목적: 사건과 느낌의 범위를 고쳐 전달 · 분량: 두세 문장</p>
+<p>글의 출발점(본인 경험 / 가상 인물)을 먼저 적어요. 내가 쓴 항상·한 번도·모두 같은 말과 실제 일을 비교해요.</p>
+<p>검토할 점: 사건의 정확한 범위 / 느낌의 정직한 표현</p>
+<label>계획<textarea aria-label="PV2-G2-writing-10-S5-A-Q1 계획" data-response="PV2-G2-writing-10-S5-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G2-writing-10-S5-A-Q1 초고" data-response="PV2-G2-writing-10-S5-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G2-writing-10-S5-A-Q1 검토 후 수정고" data-response="PV2-G2-writing-10-S5-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G2-writing-10-S5-A-Q1 고친 이유" data-response="PV2-G2-writing-10-S5-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S5-A-Q2"><div class="meta">선택 · PV2-G2-writing-10-S5-A-Q2</div><h3>2. 가상 초고에서 메모와 분명히 다른 말은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S5-A-Q2" data-response="PV2-G2-writing-10-S5-A-Q2" value="0"> 1. 처음 두 번 공을 놓쳤다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S5-A-Q2" data-response="PV2-G2-writing-10-S5-A-Q2" value="1"> 2. 마지막에 조금 자신이 생겼다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S5-A-Q2" data-response="PV2-G2-writing-10-S5-A-Q2" value="2"> 3. 공을 한 번도 못 잡았다.</label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S5-A-Q3"><div class="meta">분류 · PV2-G2-writing-10-S5-A-Q3</div><h3>3. 메모에 맞음 / 메모와 다름으로 나누세요: 처음 속상함, 한 번도 못 잡음, 나중 자신이 생김.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G2-writing-10-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S5-A-Q4"><div class="meta">설명 · PV2-G2-writing-10-S5-A-Q4</div><h3>4. 하루 종일 모두 싫었다를 고칠 때 왜 마지막 느낌도 살펴야 하나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G2-writing-10-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S5-A-Q5"><div class="meta">설명 · PV2-G2-writing-10-S5-A-Q5</div><h3>5. 자신의 수정고에서 고친 말 하나와 그 이유를 적으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G2-writing-10-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-writing-10" data-stage="S6"><div class="meta">초2 · 경험과 느낌 쓰기 · 새 독자에게 경험 전하기 · 자료A</div><h2>새 친구에게 보내는 작은 경험</h2>
+<div class="text"><p>새 친구에게 나를 소개하며 작은 경험 하나를 전하려 해요. 친구는 그때 내 곁에 없었어요. 있었던 일, 그때의 느낌, 그 일이 나에게 남긴 생각이 드러나게 써요.</p><p>자기 경험이 떠오르지 않으면 다음 가상 장면을 골라 표시해요. 예나는 공원에 가려 했지만 비가 와서 못 갔어요. 대신 창가에서 친구와 빗방울 모양을 비교하며 보았어요. 예나는 공원에 못 간 것은 아쉬웠지만 창가에서 새로 발견한 것이 있어 재미있기도 했다고 말했어요.</p><p>친구에게 자랑만 하거나 교훈을 꼭 가르칠 필요는 없어요. 서로 다른 느낌이 함께 있어도 돼요. 내가 고른 사건과 느낌을 친구가 이해할 수 있게 전해요.</p></div>
+<section class="question" data-question="PV2-G2-writing-10-S6-A-Q1"><div class="meta">쓰기 · PV2-G2-writing-10-S6-A-Q1</div><h3>1. 새 친구에게 보낼 경험 글을 서너 문장으로 쓰세요. 일·느낌·남은 생각을 연결하고 본인 경험인지 가상 글인지 표시하세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G2-writing-10-S6-A-Q1">읽는 사람: 그때 함께 있지 않은 새 친구 · 쓰는 목적: 작은 경험으로 자신을 소개 · 분량: 서너 문장</p>
+<p>글의 출발점(본인 경험 / 가상 인물)을 먼저 적어요. 친구가 모를 사건·느낌·남은 생각을 나누어 메모해요.</p>
+<p>검토할 점: 독자가 이해할 사건 / 느낌과 남은 생각 / 경험의 출발점</p>
+<label>계획<textarea aria-label="PV2-G2-writing-10-S6-A-Q1 계획" data-response="PV2-G2-writing-10-S6-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G2-writing-10-S6-A-Q1 초고" data-response="PV2-G2-writing-10-S6-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G2-writing-10-S6-A-Q1 검토 후 수정고" data-response="PV2-G2-writing-10-S6-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G2-writing-10-S6-A-Q1 고친 이유" data-response="PV2-G2-writing-10-S6-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S6-A-Q2"><div class="meta">선택 · PV2-G2-writing-10-S6-A-Q2</div><h3>2. 가상 예나의 경험을 설명한 말로 맞는 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S6-A-Q2" data-response="PV2-G2-writing-10-S6-A-Q2" value="0"> 1. 공원에 다녀온 다음 집에서 비를 보았다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S6-A-Q2" data-response="PV2-G2-writing-10-S6-A-Q2" value="1"> 2. 비가 그쳐 곧바로 공원으로 나갔다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-writing-10-S6-A-Q2" data-response="PV2-G2-writing-10-S6-A-Q2" value="2"> 3. 공원에 못 가고 창가에서 비를 보았다.</label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S6-A-Q3"><div class="meta">순서 · PV2-G2-writing-10-S6-A-Q3</div><h3>3. 가상 장면의 공원 계획 / 비로 못 감 / 창가 관찰을 차례대로 정리하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S6-A-Q3 내 답과 본문 근거" data-response="PV2-G2-writing-10-S6-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S6-A-Q4"><div class="meta">질문 만들기 · PV2-G2-writing-10-S6-A-Q4</div><h3>4. 자신의 글을 읽는 새 친구가 더 알고 싶을 질문 중 아직 쓰지 않은 내용을 하나 물어보세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S6-A-Q4 내 답과 본문 근거" data-response="PV2-G2-writing-10-S6-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S6-A-Q5"><div class="meta">고쳐쓰기 · PV2-G2-writing-10-S6-A-Q5</div><h3>5. 그 질문을 생각해 초고의 한 부분을 고치거나 보태세요. 본인 경험이면 실제 기억에 맞게, 가상이면 상상한 부분임을 구별해요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S6-A-Q5 내 답과 본문 근거" data-response="PV2-G2-writing-10-S6-A-Q5-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-writing-10-S6-A-Q6"><div class="meta">설명 · PV2-G2-writing-10-S6-A-Q6</div><h3>6. 고친 뒤 친구가 더 알게 될 점을 하나 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-writing-10-S6-A-Q6 내 답과 본문 근거" data-response="PV2-G2-writing-10-S6-A-Q6-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-writing-07" data-stage="S1"><div class="meta">초3 · 중심·뒷받침 문장 · 중심과 뒷받침 익히기 · 자료A</div><h2>한 문단에서 함께 알려 줄 것</h2>
+<div class="text"><p>중심 문장은 문단에서 함께 알려 주려는 내용을 드러낸다. 뒷받침 문장은 그 내용을 자세히 보여 준다. 예를 들어 우리 모둠은 함께 준비했다를 중심으로 쓰면, 역할을 나눈 일과 서로 확인한 일을 덧붙일 수 있다.</p><p>이번 자료는 가상 교실 우편함에 대한 메모다. 우편함 앞에는 받는 사람 이름을 쓰는 칸이 있다. 안쪽은 반별로 나뉘어 있다. 편지를 넣은 뒤에는 받는 사람에게 알려 준다. 우편함을 처음 쓰는 친구에게 이용 방법을 소개한다.</p></div>
+<section class="question" data-question="PV2-G3-writing-07-S1-A-Q1"><div class="meta">쓰기 · PV2-G3-writing-07-S1-A-Q1</div><h3>1. 우편함 이용 방법을 알려 주는 중심 문장과 뒷받침 문장 두 개 이상으로 한 문단을 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G3-writing-07-S1-A-Q1">읽는 사람: 우편함을 처음 쓰는 친구 · 쓰는 목적: 이용 방법 설명 · 분량: 한 문단, 세 문장 정도</p>
+<p>무엇을 함께 알려 줄지 정하고, 그것을 자세히 보여 주는 메모를 골라요.</p>
+<p>검토할 점: 중심 내용 / 뒷받침의 관계</p>
+<label>계획<textarea aria-label="PV2-G3-writing-07-S1-A-Q1 계획" data-response="PV2-G3-writing-07-S1-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G3-writing-07-S1-A-Q1 초고" data-response="PV2-G3-writing-07-S1-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G3-writing-07-S1-A-Q1 검토 후 수정고" data-response="PV2-G3-writing-07-S1-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G3-writing-07-S1-A-Q1 고친 이유" data-response="PV2-G3-writing-07-S1-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S1-A-Q2"><div class="meta">선택 · PV2-G3-writing-07-S1-A-Q2</div><h3>2. 이 문단을 뒷받침할 수 있는 정보는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S1-A-Q2" data-response="PV2-G3-writing-07-S1-A-Q2" value="0"> 1. 우리 모둠이 어제 부른 노래가 있다.</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S1-A-Q2" data-response="PV2-G3-writing-07-S1-A-Q2" value="1"> 2. 교실 바닥을 닦은 시간이 궁금하다.</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S1-A-Q2" data-response="PV2-G3-writing-07-S1-A-Q2" value="2"> 3. 받는 사람 이름을 쓰는 칸이 있다.</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S1-A-Q2" data-response="PV2-G3-writing-07-S1-A-Q2" value="3"> 4. 우편함 옆 벽 색을 더 조사해야 한다.</label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S1-A-Q3"><div class="meta">설명 · PV2-G3-writing-07-S1-A-Q3</div><h3>3. 자신의 중심 문장과 뒷받침 문장 하나가 어떻게 이어지는지 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S1-A-Q3 내 답과 본문 근거" data-response="PV2-G3-writing-07-S1-A-Q3-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-writing-07" data-stage="S2"><div class="meta">초3 · 중심·뒷받침 문장 · 중심에 맞는 내용 쓰기 · 자료A</div><h2>정해진 중심을 자세히 써요</h2>
+<div class="text"><p>가상 전시실의 스티커 지도는 전시 물건을 찾는 데 도움을 준다. 지도의 동그라미 표시는 둥근 방을, 세모 표시는 계단 옆 방을 뜻한다. 전시 번호는 지도와 물건 설명판에 똑같이 적혀 있다.</p><p>관람객에게 지도의 쓰임을 소개한다. 중심 문장은 스티커 지도는 전시 물건을 찾는 데 도움을 준다로 정했다. 지도 가장자리의 장식 무늬도 있지만 이동 안내와는 관계가 없다.</p></div>
+<section class="question" data-question="PV2-G3-writing-07-S2-A-Q1"><div class="meta">쓰기 · PV2-G3-writing-07-S2-A-Q1</div><h3>1. 정해진 중심 문장을 쓰고, 메모에서 고른 두 정보 이상으로 뒷받침하여 한 문단을 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G3-writing-07-S2-A-Q1">읽는 사람: 전시실 관람객 · 쓰는 목적: 지도의 쓰임 소개 · 분량: 세 문장 정도의 한 문단</p>
+<p>중심을 자세히 보여 줄 방 표시와 전시 번호 정보를 골라요.</p>
+<p>검토할 점: 중심 유지 / 뒷받침 생산</p>
+<label>계획<textarea aria-label="PV2-G3-writing-07-S2-A-Q1 계획" data-response="PV2-G3-writing-07-S2-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G3-writing-07-S2-A-Q1 초고" data-response="PV2-G3-writing-07-S2-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G3-writing-07-S2-A-Q1 검토 후 수정고" data-response="PV2-G3-writing-07-S2-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G3-writing-07-S2-A-Q1 고친 이유" data-response="PV2-G3-writing-07-S2-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S2-A-Q2"><div class="meta">선택 · PV2-G3-writing-07-S2-A-Q2</div><h3>2. 정해진 중심을 직접 뒷받침하지 않는 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S2-A-Q2" data-response="PV2-G3-writing-07-S2-A-Q2" value="0"> 1. 같은 전시 번호의 대응</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S2-A-Q2" data-response="PV2-G3-writing-07-S2-A-Q2" value="1"> 2. 가장자리 장식의 모양</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S2-A-Q2" data-response="PV2-G3-writing-07-S2-A-Q2" value="2"> 3. 세모 표시의 방 위치</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S2-A-Q2" data-response="PV2-G3-writing-07-S2-A-Q2" value="3"> 4. 동그라미 표시의 방 뜻</label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S2-A-Q3"><div class="meta">짝짓기 · PV2-G3-writing-07-S2-A-Q3</div><h3>3. 동그라미 / 세모 / 같은 전시 번호를 쓰임과 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G3-writing-07-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S2-A-Q4"><div class="meta">고쳐쓰기 · PV2-G3-writing-07-S2-A-Q4</div><h3>4. 자신의 문단에 지도는 예쁘다만 뒷받침으로 썼다면 무엇으로 바꿀지 쓰세요. 이미 관련 정보라면 그 관계를 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G3-writing-07-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-writing-07" data-stage="S3"><div class="meta">초3 · 중심·뒷받침 문장 · 문장을 문단으로 엮기 · 자료A</div><h2>흩어진 메모를 한 문단으로</h2>
+<div class="text"><p>가상 체험방 메모다. 재료 상자에는 이름표가 붙어 있다. 같은 재료는 한 칸에 모아 둔다. 사용한 재료를 돌려놓는 자리에도 같은 이름표가 있다. 필요한 재료가 없는지 확인하는 작은 목록을 입구에 붙였다.</p><p>처음 체험방을 쓰는 모둠에게 재료를 찾고 정리하는 방법을 소개한다. 메모를 아무 순서로 나열하기보다, 서로 관계 있는 내용을 이어 한 문단으로 쓴다.</p></div>
+<section class="question" data-question="PV2-G3-writing-07-S3-A-Q1"><div class="meta">쓰기 · PV2-G3-writing-07-S3-A-Q1</div><h3>1. 메모를 바탕으로 중심 문장과 뒷받침 문장을 갖춘 한 문단을 쓰세요. 이름표·재료 칸·돌려놓기의 관계가 드러나게 하세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G3-writing-07-S3-A-Q1">읽는 사람: 처음 체험방을 쓰는 모둠 · 쓰는 목적: 재료 찾기·정리 방법 설명 · 분량: 서너 문장의 한 문단</p>
+<p>중심에 담을 공통 내용을 먼저 정하고 찾기와 돌려놓기를 이어요.</p>
+<p>검토할 점: 중심 문장의 범위 / 관계 있는 뒷받침</p>
+<label>계획<textarea aria-label="PV2-G3-writing-07-S3-A-Q1 계획" data-response="PV2-G3-writing-07-S3-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G3-writing-07-S3-A-Q1 초고" data-response="PV2-G3-writing-07-S3-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G3-writing-07-S3-A-Q1 검토 후 수정고" data-response="PV2-G3-writing-07-S3-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G3-writing-07-S3-A-Q1 고친 이유" data-response="PV2-G3-writing-07-S3-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S3-A-Q2"><div class="meta">선택 · PV2-G3-writing-07-S3-A-Q2</div><h3>2. 찾기와 돌려놓기를 이어 주는 공통 정보는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S3-A-Q2" data-response="PV2-G3-writing-07-S3-A-Q2" value="0"> 1. 체험방 창문의 위치</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S3-A-Q2" data-response="PV2-G3-writing-07-S3-A-Q2" value="1"> 2. 입구에 온 사람의 이름</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S3-A-Q2" data-response="PV2-G3-writing-07-S3-A-Q2" value="2"> 3. 두 자리에 대응하는 이름표</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S3-A-Q2" data-response="PV2-G3-writing-07-S3-A-Q2" value="3"> 4. 모든 상자의 겉 크기</label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S3-A-Q3"><div class="meta">순서 · PV2-G3-writing-07-S3-A-Q3</div><h3>3. 글에서 찾기 → 사용 뒤 정리로 설명하려면 두 행동을 어떻게 이을지 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G3-writing-07-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S3-A-Q4"><div class="meta">설명 · PV2-G3-writing-07-S3-A-Q4</div><h3>4. 자신의 중심 문장을 받쳐 주는 두 문장을 골라 각각의 역할을 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G3-writing-07-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-writing-07" data-stage="S4"><div class="meta">초3 · 중심·뒷받침 문장 · 빠진 뒷받침 보충하기 · 자료A</div><h2>설명이 빠진 좋은 점</h2>
+<div class="text"><p>가상 장난감 전시의 소개 초고다. 이 전시는 물건을 자세히 살펴보기 좋다. 가까이서 보면 좋다. 볼 것이 있다.</p><p>전시 메모에는 작은 부품을 확대해 보여 주는 화면, 옆면까지 볼 수 있는 회전 받침, 만질 수 있는 복제 모형이 있다고 적혀 있다. 실제 전시품은 눈으로만 보고, 복제 모형에는 만져도 된다는 표시를 붙였다.</p><p>처음 오는 친구에게 무엇 덕분에 자세히 볼 수 있는지 설명하는 문단으로 바꾸려 한다.</p></div>
+<section class="question" data-question="PV2-G3-writing-07-S4-A-Q1"><div class="meta">쓰기 · PV2-G3-writing-07-S4-A-Q1</div><h3>1. 초고의 중심을 살려 무엇 덕분에 자세히 볼 수 있는지 한 문단으로 쓰세요. 두 장치 이상을 뒷받침에 넣으세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G3-writing-07-S4-A-Q1">읽는 사람: 처음 오는 친구 · 쓰는 목적: 전시의 관찰 방법 설명 · 분량: 서너 문장의 한 문단</p>
+<p>좋다는 말 옆에 무엇을 어떻게 살펴보는지 붙여요.</p>
+<p>검토할 점: 중심 보존 / 뒷받침의 구체성 / 허용 범위</p>
+<label>계획<textarea aria-label="PV2-G3-writing-07-S4-A-Q1 계획" data-response="PV2-G3-writing-07-S4-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G3-writing-07-S4-A-Q1 초고" data-response="PV2-G3-writing-07-S4-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G3-writing-07-S4-A-Q1 검토 후 수정고" data-response="PV2-G3-writing-07-S4-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G3-writing-07-S4-A-Q1 고친 이유" data-response="PV2-G3-writing-07-S4-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S4-A-Q2"><div class="meta">선택 · PV2-G3-writing-07-S4-A-Q2</div><h3>2. 좋다는 말을 구체적으로 받쳐 줄 정보는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S4-A-Q2" data-response="PV2-G3-writing-07-S4-A-Q2" value="0"> 1. 전시품은 전부 만져도 된다는 말</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S4-A-Q2" data-response="PV2-G3-writing-07-S4-A-Q2" value="1"> 2. 볼 것이 있고 좋다는 반복</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S4-A-Q2" data-response="PV2-G3-writing-07-S4-A-Q2" value="2"> 3. 확대 화면으로 작은 부품을 보는 방법</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S4-A-Q2" data-response="PV2-G3-writing-07-S4-A-Q2" value="3"> 4. 관람객이 모두 같은 것을 좋아한다는 말</label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S4-A-Q3"><div class="meta">분류 · PV2-G3-writing-07-S4-A-Q3</div><h3>3. 눈으로만 / 표시를 보고 만질 수 있음으로 나누세요: 실제 전시품, 복제 모형.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S4-A-Q3 내 답과 본문 근거" data-response="PV2-G3-writing-07-S4-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S4-A-Q4"><div class="meta">설명 · PV2-G3-writing-07-S4-A-Q4</div><h3>4. 자신이 추가한 뒷받침 중 하나가 중심을 더 분명하게 만든 이유를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S4-A-Q4 내 답과 본문 근거" data-response="PV2-G3-writing-07-S4-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-writing-07" data-stage="S5"><div class="meta">초3 · 중심·뒷받침 문장 · 중심에 맞게 다듬기 · 자료A</div><h2>가장 긴 문장이 뒷받침일까</h2>
+<div class="text"><p>가상 만들기방 정리함의 메모다. 가위 칸은 손잡이 모양 표시가 있다. 풀 칸은 뚜껑 모양 표시가 있다. 빈 칸이 생기면 표시를 보고 어떤 물건이 빠졌는지 알 수 있다.</p><p>초고는 이 정리함은 물건을 제자리에 두기 쉽게 만든다로 시작한다. 뒤에는 방의 커튼은 길고 무늬가 많고 햇빛을 받아 반짝여서 아주 아름답다라고 썼다. 편집자 가는 긴 문장이니 좋은 뒷받침이라고 했다. 편집자 나는 중심과 어떤 관계인지 살펴보자고 했다.</p></div>
+<section class="question" data-question="PV2-G3-writing-07-S5-A-Q1"><div class="meta">쓰기 · PV2-G3-writing-07-S5-A-Q1</div><h3>1. 초고의 중심은 살리고, 관련 없는 뒷받침을 메모에 맞는 문장으로 바꾸어 한 문단을 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G3-writing-07-S5-A-Q1">읽는 사람: 만들기방을 쓰는 친구 · 쓰는 목적: 정리함의 쓰임을 정확히 소개 · 분량: 세 문장 정도</p>
+<p>중심이 묻는 것은 무엇인지 쓰고, 그 질문에 답하는 메모를 골라요.</p>
+<p>검토할 점: 중심과 관련성 / 뒷받침 교체 / 사실 보존</p>
+<label>계획<textarea aria-label="PV2-G3-writing-07-S5-A-Q1 계획" data-response="PV2-G3-writing-07-S5-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G3-writing-07-S5-A-Q1 초고" data-response="PV2-G3-writing-07-S5-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G3-writing-07-S5-A-Q1 검토 후 수정고" data-response="PV2-G3-writing-07-S5-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G3-writing-07-S5-A-Q1 고친 이유" data-response="PV2-G3-writing-07-S5-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S5-A-Q2"><div class="meta">선택 · PV2-G3-writing-07-S5-A-Q2</div><h3>2. 편집자 가의 판단에서 따져 볼 기준은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S5-A-Q2" data-response="PV2-G3-writing-07-S5-A-Q2" value="0"> 1. 커튼 색이 친구 취향과 같은지</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S5-A-Q2" data-response="PV2-G3-writing-07-S5-A-Q2" value="1"> 2. 문장이 중심을 자세히 보여 주는지</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S5-A-Q2" data-response="PV2-G3-writing-07-S5-A-Q2" value="2"> 3. 문장의 글자 수가 가장 많은지</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S5-A-Q2" data-response="PV2-G3-writing-07-S5-A-Q2" value="3"> 4. 같은 꾸미는 말을 반복했는지</label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S5-A-Q3"><div class="meta">설명 · PV2-G3-writing-07-S5-A-Q3</div><h3>3. 커튼 문장이 이번 문단의 뒷받침으로 적절하지 않은 이유를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G3-writing-07-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S5-A-Q4"><div class="meta">고쳐쓰기 · PV2-G3-writing-07-S5-A-Q4</div><h3>4. 자신의 수정고에서 길지만 꼭 필요하지 않은 부분을 한 곳 고치거나, 남길 근거를 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G3-writing-07-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S5-A-Q5"><div class="meta">설명 · PV2-G3-writing-07-S5-A-Q5</div><h3>5. 자신의 새 뒷받침이 중심과 연결되는 까닭을 한 가지 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G3-writing-07-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-writing-07" data-stage="S6"><div class="meta">초3 · 중심·뒷받침 문장 · 새 자료로 문단 짜기 · 자료A</div><h2>체험과 관람을 나누어 소개해요</h2>
+<div class="text"><p>자료 가, 가상 종이극 체험 메모다. 참가자는 무대 뒤에서 종이 인형을 움직여 본다. 안내자가 짧은 대사를 읽어 주고 참가자가 인형의 움직임을 정한다. 끝나면 인형을 다음 사람에게 건넨다.</p><p>자료 나, 관람 자리 메모다. 앞자리는 낮은 의자, 뒷자리는 서서 보는 자리다. 무대 양쪽에 통로를 비워 두어 인형을 건네러 이동할 수 있다.</p><p>처음 오는 친구들에게 체험하는 방법과 관람 자리의 특징을 소개한다. 두 내용을 각기 중심 문장이 있는 짧은 문단으로 쓴다.</p></div>
+<section class="question" data-question="PV2-G3-writing-07-S6-A-Q1"><div class="meta">쓰기 · PV2-G3-writing-07-S6-A-Q1</div><h3>1. 체험 방법과 관람 자리의 특징을 두 문단으로 소개하세요. 각 문단에 중심 문장과 관련된 뒷받침을 넣으세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G3-writing-07-S6-A-Q1">읽는 사람: 처음 오는 친구들 · 쓰는 목적: 체험과 관람의 특징 소개 · 분량: 두 문단, 네다섯 문장 정도</p>
+<p>체험 / 관람의 두 묶음에 메모를 나누고 각각의 중심을 정해요.</p>
+<p>검토할 점: 두 중심의 구별 / 관련된 뒷받침 / 자료의 보존</p>
+<label>계획<textarea aria-label="PV2-G3-writing-07-S6-A-Q1 계획" data-response="PV2-G3-writing-07-S6-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G3-writing-07-S6-A-Q1 초고" data-response="PV2-G3-writing-07-S6-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G3-writing-07-S6-A-Q1 검토 후 수정고" data-response="PV2-G3-writing-07-S6-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G3-writing-07-S6-A-Q1 고친 이유" data-response="PV2-G3-writing-07-S6-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S6-A-Q2"><div class="meta">선택 · PV2-G3-writing-07-S6-A-Q2</div><h3>2. 자료를 두 문단으로 나누는 기준으로 적절한 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S6-A-Q2" data-response="PV2-G3-writing-07-S6-A-Q2" value="0"> 1. 가장 긴 문장과 가장 짧은 문장</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S6-A-Q2" data-response="PV2-G3-writing-07-S6-A-Q2" value="1"> 2. 체험하는 방법과 관람 자리의 특징</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S6-A-Q2" data-response="PV2-G3-writing-07-S6-A-Q2" value="2"> 3. 인형이라는 낱말이 나온 횟수</label>
+<label class="choice"><input type="radio" name="PV2-G3-writing-07-S6-A-Q2" data-response="PV2-G3-writing-07-S6-A-Q2" value="3"> 4. 앞 문장과 뒤 문장을 번갈아 놓기</label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S6-A-Q3"><div class="meta">분류 · PV2-G3-writing-07-S6-A-Q3</div><h3>3. 체험 문단 / 관람 문단에 넣을 정보를 나누세요: 대사와 움직임, 낮은 의자, 인형 넘겨주기, 비워 둔 통로.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S6-A-Q3 내 답과 본문 근거" data-response="PV2-G3-writing-07-S6-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S6-A-Q4"><div class="meta">설명 · PV2-G3-writing-07-S6-A-Q4</div><h3>4. 각 문단에서 중심 문장 하나와 그것을 받치는 문장을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S6-A-Q4 내 답과 본문 근거" data-response="PV2-G3-writing-07-S6-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S6-A-Q5"><div class="meta">고쳐쓰기 · PV2-G3-writing-07-S6-A-Q5</div><h3>5. 자신의 두 문단 사이에서 옮기면 더 자연스러운 문장이 있는지 점검하고 고치세요. 없으면 남긴 까닭을 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S6-A-Q5 내 답과 본문 근거" data-response="PV2-G3-writing-07-S6-A-Q5-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-writing-07-S6-A-Q6"><div class="meta">질문 만들기 · PV2-G3-writing-07-S6-A-Q6</div><h3>6. 새 친구가 이 글을 읽고 더 물을 만한 질문 중 자료에 답이 없는 것을 하나 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-writing-07-S6-A-Q6 내 답과 본문 근거" data-response="PV2-G3-writing-07-S6-A-Q6-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-writing-11" data-stage="S1"><div class="meta">초4 · 내용·조직 고쳐쓰기 · 고쳐 쓸 기준 익히기 · 자료A</div><h2>고친다는 것은 뜻을 맞추는 일</h2>
+<div class="text"><p>고쳐 쓰기는 틀린 글자만 찾는 일이 아니다. 목적에 맞는 내용인지, 빠진 정보가 없는지, 문장과 문단이 이어지는지도 살핀다.</p><p>가상 모둠의 소개 메모다. 모둠은 종이 동물을 만들어 작은 무대를 꾸민다. 첫 모임에서는 배경을 정하고, 다음 모임에서는 인형을 만든다.</p><p>초고에는 우리 모둠은 종이 동물을 만든다. 모임에서는 언제나 인형만 먼저 만든다라고 적혀 있다. 처음 오는 친구에게 모둠 활동을 소개하려 한다.</p></div>
+<section class="question" data-question="PV2-G4-writing-11-S1-A-Q1"><div class="meta">쓰기 · PV2-G4-writing-11-S1-A-Q1</div><h3>1. 메모와 맞지 않는 내용을 고쳐 모둠을 소개하는 두세 문장으로 쓰세요. 고친 이유도 남기세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G4-writing-11-S1-A-Q1">읽는 사람: 처음 오는 친구 · 쓰는 목적: 모둠 활동 소개문 고쳐 쓰기 · 분량: 두세 문장과 수정 이유</p>
+<p>소개할 활동과 두 모임의 앞뒤를 메모하고 초고와 대조해요.</p>
+<p>검토할 점: 내용의 정확성 / 수정의 설명</p>
+<label>계획<textarea aria-label="PV2-G4-writing-11-S1-A-Q1 계획" data-response="PV2-G4-writing-11-S1-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G4-writing-11-S1-A-Q1 초고" data-response="PV2-G4-writing-11-S1-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G4-writing-11-S1-A-Q1 검토 후 수정고" data-response="PV2-G4-writing-11-S1-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G4-writing-11-S1-A-Q1 고친 이유" data-response="PV2-G4-writing-11-S1-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S1-A-Q2"><div class="meta">선택 · PV2-G4-writing-11-S1-A-Q2</div><h3>2. 언제나 인형부터라는 초고를 고칠 때 직접 대조할 메모는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S1-A-Q2" data-response="PV2-G4-writing-11-S1-A-Q2" value="0"> 1. 처음 오는 친구에게 소개한다는 상황</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S1-A-Q2" data-response="PV2-G4-writing-11-S1-A-Q2" value="1"> 2. 종이 동물을 사용한다는 재료 정보</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S1-A-Q2" data-response="PV2-G4-writing-11-S1-A-Q2" value="2"> 3. 배경 다음 인형이라는 순서</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S1-A-Q2" data-response="PV2-G4-writing-11-S1-A-Q2" value="3"> 4. 작은 무대를 꾸민다는 활동 목적</label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S1-A-Q3"><div class="meta">설명 · PV2-G4-writing-11-S1-A-Q3</div><h3>3. 이번 수정이 글자만 고친 것과 다른 점을 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S1-A-Q3 내 답과 본문 근거" data-response="PV2-G4-writing-11-S1-A-Q3-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-writing-11" data-stage="S2"><div class="meta">초4 · 내용·조직 고쳐쓰기 · 빠진 내용 찾아 고치기 · 자료A</div><h2>알림에서 빠진 만남의 자리</h2>
+<div class="text"><p>가상 그림 교환 모임 메모다. 이번 목요일 쉬는 시간에 모인다. 교실 뒤 작품함 앞에서 각자 그림 한 장을 가져와 바꾼다.</p><p>알림 초고에는 이번 목요일 쉬는 시간에 그림 한 장을 가져오세요라고만 적혀 있다. 처음 참여하는 친구도 만나는 자리를 알 수 있게 고친다. 정해지지 않은 종료 시각이나 새 준비물을 만들어 넣지는 않는다.</p></div>
+<section class="question" data-question="PV2-G4-writing-11-S2-A-Q1"><div class="meta">쓰기 · PV2-G4-writing-11-S2-A-Q1</div><h3>1. 빠진 정보를 보충해 알림을 두 문장 이내로 고치고 보탠 이유를 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G4-writing-11-S2-A-Q1">읽는 사람: 처음 참여하는 친구 · 쓰는 목적: 모임 알림의 빠진 정보 보완 · 분량: 두 문장 이내와 수정 이유</p>
+<p>이미 있는 때·준비물과 빠진 장소를 나누어 메모해요.</p>
+<p>검토할 점: 필수 내용 보존·보충 / 불명 정보의 처리 / 수정 이유</p>
+<label>계획<textarea aria-label="PV2-G4-writing-11-S2-A-Q1 계획" data-response="PV2-G4-writing-11-S2-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G4-writing-11-S2-A-Q1 초고" data-response="PV2-G4-writing-11-S2-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G4-writing-11-S2-A-Q1 검토 후 수정고" data-response="PV2-G4-writing-11-S2-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G4-writing-11-S2-A-Q1 고친 이유" data-response="PV2-G4-writing-11-S2-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S2-A-Q2"><div class="meta">선택 · PV2-G4-writing-11-S2-A-Q2</div><h3>2. 알림에 직접 보충할 수 있는 정보는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S2-A-Q2" data-response="PV2-G4-writing-11-S2-A-Q2" value="0"> 1. 그림 세 장을 가져오라는 수량</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S2-A-Q2" data-response="PV2-G4-writing-11-S2-A-Q2" value="1"> 2. 목요일 대신 금요일이라는 날짜</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S2-A-Q2" data-response="PV2-G4-writing-11-S2-A-Q2" value="2"> 3. 교실 뒤 작품함 앞이라는 장소</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S2-A-Q2" data-response="PV2-G4-writing-11-S2-A-Q2" value="3"> 4. 오후 네 시에 끝난다는 시각</label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S2-A-Q3"><div class="meta">분류 · PV2-G4-writing-11-S2-A-Q3</div><h3>3. 메모로 확인 / 아직 확인 필요로 나누세요: 만날 자리, 가져올 수량, 끝나는 시각.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G4-writing-11-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S2-A-Q4"><div class="meta">질문 만들기 · PV2-G4-writing-11-S2-A-Q4</div><h3>4. 이 알림을 실제로 운영하기 전에 더 확인할 질문 하나를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G4-writing-11-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-writing-11" data-stage="S3"><div class="meta">초4 · 내용·조직 고쳐쓰기 · 흐름을 살려 고치기 · 자료A</div><h2>설명 순서가 뒤집힌 쪽지</h2>
+<div class="text"><p>가상 모형 보관함의 설명 메모다. 뚜껑을 열고, 받침을 꺼낸다. 모형을 받침에 올린 뒤 받침째 상자 안에 넣는다. 마지막에 뚜껑을 닫는다.</p><p>초고에는 뚜껑을 닫으세요. 모형을 받침에 올리세요. 뚜껑을 열고 받침을 꺼내세요. 받침째 상자에 넣으세요라고 적혀 있다. 새 안내자는 처음부터 읽으며 보관하려 한다.</p></div>
+<section class="question" data-question="PV2-G4-writing-11-S3-A-Q1"><div class="meta">쓰기 · PV2-G4-writing-11-S3-A-Q1</div><h3>1. 처음부터 따라 할 수 있는 안내로 문장 순서와 연결을 고치세요. 고친 기준도 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G4-writing-11-S3-A-Q1">읽는 사람: 새 보관 안내자 · 쓰는 목적: 실행 가능한 설명문으로 수정 · 분량: 세 문장 정도와 수정 기준</p>
+<p>실행 순서를 화살표로 메모하고 초고 문장을 옮겨요.</p>
+<p>검토할 점: 절차 보존 / 문장 연결 / 목적에 맞는 이유</p>
+<label>계획<textarea aria-label="PV2-G4-writing-11-S3-A-Q1 계획" data-response="PV2-G4-writing-11-S3-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G4-writing-11-S3-A-Q1 초고" data-response="PV2-G4-writing-11-S3-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G4-writing-11-S3-A-Q1 검토 후 수정고" data-response="PV2-G4-writing-11-S3-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G4-writing-11-S3-A-Q1 고친 이유" data-response="PV2-G4-writing-11-S3-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S3-A-Q2"><div class="meta">선택 · PV2-G4-writing-11-S3-A-Q2</div><h3>2. 이번 글의 배열을 정하는 기준은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S3-A-Q2" data-response="PV2-G4-writing-11-S3-A-Q2" value="0"> 1. 뚜껑이라는 말이 반복된 횟수</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S3-A-Q2" data-response="PV2-G4-writing-11-S3-A-Q2" value="1"> 2. 초고에서 글자 수가 짧은 순서</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S3-A-Q2" data-response="PV2-G4-writing-11-S3-A-Q2" value="2"> 3. 받침이라는 말이 뒤에 오게 하는 순서</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S3-A-Q2" data-response="PV2-G4-writing-11-S3-A-Q2" value="3"> 4. 읽는 사람이 실제로 따라 할 행동의 순서</label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S3-A-Q3"><div class="meta">순서 · PV2-G4-writing-11-S3-A-Q3</div><h3>3. 받침을 꺼내기 / 모형 올리기 / 뚜껑 닫기의 앞뒤를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G4-writing-11-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S3-A-Q4"><div class="meta">설명 · PV2-G4-writing-11-S3-A-Q4</div><h3>4. 자신의 수정고에서 두 행동의 관계가 분명해진 부분을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G4-writing-11-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-writing-11" data-stage="S4"><div class="meta">초4 · 내용·조직 고쳐쓰기 · 독자 반응으로 보완하기 · 자료A</div><h2>독자의 질문을 받고 보완해요</h2>
+<div class="text"><p>가상 종이별 전시 소개 초고다. 종이별은 이름표를 보고 놓으세요. 접는 자리는 비워 주세요.</p><p>메모에는 전시 자리가 창가 긴 탁자이며, 색 이름표가 붙은 칸에 같은 색 별을 놓는다고 적혀 있다. 접는 자리는 교실 가운데 작은 탁자다. 그곳은 새 별을 접을 사람이 쓴다.</p><p>가상 독자는 어느 이름표인지, 어디를 비워야 하는지 모르겠다고 반응했다. 이 반응을 생각하며 처음 오는 친구도 알 수 있게 고친다.</p></div>
+<section class="question" data-question="PV2-G4-writing-11-S4-A-Q1"><div class="meta">쓰기 · PV2-G4-writing-11-S4-A-Q1</div><h3>1. 초고를 세 문장 이내로 고치고, 가상 독자의 질문에 어떻게 답하게 되었는지 설명하세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G4-writing-11-S4-A-Q1">읽는 사람: 처음 오는 친구 · 쓰는 목적: 위치·대상을 알 수 있는 안내로 수정 · 분량: 세 문장 이내와 수정 설명</p>
+<p>전시 자리와 접는 자리를 구별하고 이름표의 종류를 메모해요.</p>
+<p>검토할 점: 장소·대상 명료화 / 보존할 행동 / 독자 질문과 수정</p>
+<label>계획<textarea aria-label="PV2-G4-writing-11-S4-A-Q1 계획" data-response="PV2-G4-writing-11-S4-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G4-writing-11-S4-A-Q1 초고" data-response="PV2-G4-writing-11-S4-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G4-writing-11-S4-A-Q1 검토 후 수정고" data-response="PV2-G4-writing-11-S4-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G4-writing-11-S4-A-Q1 고친 이유" data-response="PV2-G4-writing-11-S4-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S4-A-Q2"><div class="meta">선택 · PV2-G4-writing-11-S4-A-Q2</div><h3>2. 가상 독자의 질문에 답할 수 있는 수정은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S4-A-Q2" data-response="PV2-G4-writing-11-S4-A-Q2" value="0"> 1. 새 별을 접을 사람은 없다고 단정한다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S4-A-Q2" data-response="PV2-G4-writing-11-S4-A-Q2" value="1"> 2. 창가 탁자의 색 이름표라고 구체화한다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S4-A-Q2" data-response="PV2-G4-writing-11-S4-A-Q2" value="2"> 3. 이름표라는 말을 더 여러 번 반복한다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S4-A-Q2" data-response="PV2-G4-writing-11-S4-A-Q2" value="3"> 4. 접는 탁자에 모든 별을 모으라고 바꾼다.</label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S4-A-Q3"><div class="meta">짝짓기 · PV2-G4-writing-11-S4-A-Q3</div><h3>3. 창가 긴 탁자 / 가운데 작은 탁자를 역할과 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S4-A-Q3 내 답과 본문 근거" data-response="PV2-G4-writing-11-S4-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S4-A-Q4"><div class="meta">설명 · PV2-G4-writing-11-S4-A-Q4</div><h3>4. 자신이 보탠 말 중 없어지면 다시 헷갈릴 부분을 하나 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S4-A-Q4 내 답과 본문 근거" data-response="PV2-G4-writing-11-S4-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-writing-11" data-stage="S5"><div class="meta">초4 · 내용·조직 고쳐쓰기 · 수정 의견 따져 고치기 · 자료A</div><h2>둘 다 고치자는 의견을 따져요</h2>
+<div class="text"><p>가상 동아리 소식의 목적은 이번에 바뀐 연습 장소와 이유를 알리는 것이다. 메모에는 이번 주만 강당 수리로 연습을 음악실에서 한다고 적혀 있다. 다음 주 장소는 아직 안내하지 않았다.</p><p>초고는 우리 동아리는 음악실에서 연습합니다. 음악실은 악기가 많고 예쁩니다라고 썼다. 편집자 가는 문장을 짧게 하려고 바뀐 이유를 빼자고 했다. 편집자 나는 이번 주와 강당 수리를 넣고 목적과 관계없는 감상을 줄이자고 했다.</p></div>
+<section class="question" data-question="PV2-G4-writing-11-S5-A-Q1"><div class="meta">쓰기 · PV2-G4-writing-11-S5-A-Q1</div><h3>1. 목적과 메모에 맞게 동아리 소식을 고쳐 쓰세요. 두 수정 의견 가운데 받아들인 것과 보류한 이유도 남기세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G4-writing-11-S5-A-Q1">읽는 사람: 동아리 구성원 · 쓰는 목적: 한시적 장소 변경 소식 수정 · 분량: 두세 문장과 수정 의견 판단</p>
+<p>누구에게 무엇이 바뀌었는지·왜 바뀌었는지 알려야 하는지 적어요.</p>
+<p>검토할 점: 핵심 내용 / 미확인 범위 / 수정 의견의 판단</p>
+<label>계획<textarea aria-label="PV2-G4-writing-11-S5-A-Q1 계획" data-response="PV2-G4-writing-11-S5-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G4-writing-11-S5-A-Q1 초고" data-response="PV2-G4-writing-11-S5-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G4-writing-11-S5-A-Q1 검토 후 수정고" data-response="PV2-G4-writing-11-S5-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G4-writing-11-S5-A-Q1 고친 이유" data-response="PV2-G4-writing-11-S5-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S5-A-Q2"><div class="meta">선택 · PV2-G4-writing-11-S5-A-Q2</div><h3>2. 목적과 범위를 함께 보존한 안내는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S5-A-Q2" data-response="PV2-G4-writing-11-S5-A-Q2" value="0"> 1. 앞으로 늘 음악실에서 연습한다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S5-A-Q2" data-response="PV2-G4-writing-11-S5-A-Q2" value="1"> 2. 다음 주부터는 강당에서만 연습한다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S5-A-Q2" data-response="PV2-G4-writing-11-S5-A-Q2" value="2"> 3. 음악실은 예쁘므로 장소를 알릴 필요 없다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S5-A-Q2" data-response="PV2-G4-writing-11-S5-A-Q2" value="3"> 4. 이번 주는 수리로 음악실에서 연습한다.</label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S5-A-Q3"><div class="meta">분류 · PV2-G4-writing-11-S5-A-Q3</div><h3>3. 메모로 확인 / 미확인으로 나누세요: 이번 주 음악실, 바뀐 이유, 다음 주 강당.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G4-writing-11-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S5-A-Q4"><div class="meta">설명 · PV2-G4-writing-11-S5-A-Q4</div><h3>4. 바뀐 이유를 빼자는 의견을 이번 목적에 비추어 검토하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G4-writing-11-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S5-A-Q5"><div class="meta">고쳐쓰기 · PV2-G4-writing-11-S5-A-Q5</div><h3>5. 자신의 수정고에 모든 주로 읽힐 말이 남았는지 확인하고 고치거나, 범위를 지킨 표현을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G4-writing-11-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-writing-11" data-stage="S6"><div class="meta">초4 · 내용·조직 고쳐쓰기 · 새 글을 스스로 다듬기 · 자료A</div><h2>두 메모로 전시 소식을 다시 써요</h2>
+<div class="text"><p>자료 가, 가상 전시 준비 메모다. 이번 금요일 교실 앞 복도에 모형 다리 세 개를 전시한다. 관람객은 설명 카드를 읽고 모형을 눈으로 살핀다. 만질 수 있는 모형은 따로 두지 않는다.</p><p>자료 나, 글쓴이 메모다. 세 모형은 받침의 모양이 서로 다르다. 카드에는 각 모형의 만든 방법과 어려웠던 점을 적는다. 이번 소식의 독자는 전시를 처음 보는 다른 반 친구다.</p><p>초고는 우리 모둠은 어제 간식을 먹었다. 전시는 언제나 복도에서 열린다. 다리는 전부 손으로 만지면 된다. 우리는 열심히 만들었다라고 적혀 있다. 처음 쓴 글을 두 메모와 목적에 맞게 다듬는다.</p></div>
+<section class="question" data-question="PV2-G4-writing-11-S6-A-Q1"><div class="meta">쓰기 · PV2-G4-writing-11-S6-A-Q1</div><h3>1. 다른 반 친구에게 전시를 알리는 짧은 글로 고쳐 쓰세요. 내용 삭제·보충·순서 조정 중 두 가지 이상의 수정 이유도 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G4-writing-11-S6-A-Q1">읽는 사람: 다른 반의 처음 보는 친구 · 쓰는 목적: 전시 소식 전체 고쳐 쓰기 · 분량: 서너 문장과 두 가지 이상 수정 이유</p>
+<p>알릴 핵심·관람 방법·모형 특징을 묶고 초고의 삭제·보충·이동을 표시해요.</p>
+<p>검토할 점: 내용·범위의 보존 / 목적과 조직 / 수정 근거</p>
+<label>계획<textarea aria-label="PV2-G4-writing-11-S6-A-Q1 계획" data-response="PV2-G4-writing-11-S6-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G4-writing-11-S6-A-Q1 초고" data-response="PV2-G4-writing-11-S6-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G4-writing-11-S6-A-Q1 검토 후 수정고" data-response="PV2-G4-writing-11-S6-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G4-writing-11-S6-A-Q1 고친 이유" data-response="PV2-G4-writing-11-S6-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S6-A-Q2"><div class="meta">선택 · PV2-G4-writing-11-S6-A-Q2</div><h3>2. 관람 행동을 메모에 맞게 고친 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S6-A-Q2" data-response="PV2-G4-writing-11-S6-A-Q2" value="0"> 1. 카드를 치우고 다리 위에 올라선다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S6-A-Q2" data-response="PV2-G4-writing-11-S6-A-Q2" value="1"> 2. 카드를 읽고 모형을 눈으로 살핀다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S6-A-Q2" data-response="PV2-G4-writing-11-S6-A-Q2" value="2"> 3. 만지는 모형만 따로 찾아 사용한다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-writing-11-S6-A-Q2" data-response="PV2-G4-writing-11-S6-A-Q2" value="3"> 4. 세 모형을 모두 손으로 들어 본다.</label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S6-A-Q3"><div class="meta">분류 · PV2-G4-writing-11-S6-A-Q3</div><h3>3. 삭제 검토 / 보충·정정할 내용으로 나누세요: 어제 간식, 언제나 전시, 만든 방법 카드, 손으로 만짐.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S6-A-Q3 내 답과 본문 근거" data-response="PV2-G4-writing-11-S6-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S6-A-Q4"><div class="meta">설명 · PV2-G4-writing-11-S6-A-Q4</div><h3>4. 자신의 글에서 모형의 서로 다른 점과 카드의 역할이 어떻게 드러나는지 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S6-A-Q4 내 답과 본문 근거" data-response="PV2-G4-writing-11-S6-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S6-A-Q5"><div class="meta">고쳐쓰기 · PV2-G4-writing-11-S6-A-Q5</div><h3>5. 수정고를 다시 읽고 처음 오는 친구에게 여전히 모호한 부분 하나를 고치거나, 충분히 설명한 근거를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S6-A-Q5 내 답과 본문 근거" data-response="PV2-G4-writing-11-S6-A-Q5-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-writing-11-S6-A-Q6"><div class="meta">질문 만들기 · PV2-G4-writing-11-S6-A-Q6</div><h3>6. 실제 전시 안내를 완성하려면 아직 확인해야 할 정보 하나를 묻는 질문을 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-writing-11-S6-A-Q6 내 답과 본문 근거" data-response="PV2-G4-writing-11-S6-A-Q6-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-writing-08" data-stage="S1"><div class="meta">초5 · 자료 인용과 설명 통합 · 자료와 내 설명 구별하기 · 자료A</div><h2>자료의 말과 내 설명을 나누어요</h2>
+<div class="text"><p>다른 자료의 말을 그대로 옮길 때에는 따옴표로 구별하고 어디에서 가져왔는지 밝힌다. 뜻을 자기 말로 풀어 쓸 때에도 출처를 남긴다. 내 설명이 자료에 원래 적힌 말인지, 자료를 읽고 내가 연결한 생각인지도 구별한다.</p><p>이번 자료는 실제 기관의 기록이 아닌 가상 전시 준비 메모다. 제목은 손잡이 모형 전시, 기록자는 지우다. 메모에는 세 모형은 손잡이의 모양이 서로 다르다라고 적혀 있다. 모형을 처음 보는 사람에게 비교할 점을 소개하려 한다.</p></div>
+<section class="question" data-question="PV2-G5-writing-08-S1-A-Q1"><div class="meta">쓰기 · PV2-G5-writing-08-S1-A-Q1</div><h3>1. 메모 내용을 인용하거나 풀어 쓰고, 무엇을 비교할 수 있는지 자기 설명을 덧붙여 두세 문장으로 쓰세요. 제목이나 기록자로 출처를 밝혀요.</h3>
+<p class="writer-context" data-writer-context="PV2-G5-writing-08-S1-A-Q1">읽는 사람: 모형을 처음 보는 사람 · 쓰는 목적: 자료를 활용해 비교할 점 설명 · 분량: 두세 문장</p>
+<p>자료에서 가져올 내용 / 출처 / 내가 덧붙일 설명을 나누어 메모해요.</p>
+<p>검토할 점: 자료 의미 / 출처와 표현 구별 / 자기 설명의 연결</p>
+<label>계획<textarea aria-label="PV2-G5-writing-08-S1-A-Q1 계획" data-response="PV2-G5-writing-08-S1-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G5-writing-08-S1-A-Q1 초고" data-response="PV2-G5-writing-08-S1-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G5-writing-08-S1-A-Q1 검토 후 수정고" data-response="PV2-G5-writing-08-S1-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G5-writing-08-S1-A-Q1 고친 이유" data-response="PV2-G5-writing-08-S1-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S1-A-Q2"><div class="meta">선택 · PV2-G5-writing-08-S1-A-Q2</div><h3>2. 메모에서 확인한 내용과 내 설명을 구별한 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S1-A-Q2" data-response="PV2-G5-writing-08-S1-A-Q2" value="0"> 1. 모양 차이와 성능 우열 모두 메모의 확정 내용</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S1-A-Q2" data-response="PV2-G5-writing-08-S1-A-Q2" value="1"> 2. 모양 차이는 메모, 비교할 수 있다는 연결은 내 설명</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S1-A-Q2" data-response="PV2-G5-writing-08-S1-A-Q2" value="2"> 3. 풀어 쓰면 원래 자료는 전혀 밝히지 않아도 된다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S1-A-Q2" data-response="PV2-G5-writing-08-S1-A-Q2" value="3"> 4. 따옴표를 쓰면 모양이 같다고 바꾸어도 된다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S1-A-Q2" data-response="PV2-G5-writing-08-S1-A-Q2" value="4"> 5. 모형의 이름을 쓰면 출처가 자동으로 완성된다.</label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S1-A-Q3"><div class="meta">설명 · PV2-G5-writing-08-S1-A-Q3</div><h3>3. 자신의 글에서 자료를 가져온 부분과 자기 설명 부분을 각각 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S1-A-Q3 내 답과 본문 근거" data-response="PV2-G5-writing-08-S1-A-Q3-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-writing-08" data-stage="S2"><div class="meta">초5 · 자료 인용과 설명 통합 · 출처를 밝혀 가져오기 · 자료A</div><h2>수리 기록을 짧게 소개해요</h2>
+<div class="text"><p>가상 수리 모임의 기록 카드다. 제목은 바퀴 장난감 점검, 작성자는 서율이다. 이번에 받은 장난감은 네 개다. 두 개는 바퀴를 고쳐 돌려주었고, 나머지 두 개는 부품을 기다리고 있다.</p><p>동네 소식에 이번 점검의 진행 상태를 소개한다. 수리가 끝난 것과 아직 끝나지 않은 것을 나누어 쓰고, 어떤 기록을 바탕으로 하는지 밝힌다.</p></div>
+<section class="question" data-question="PV2-G5-writing-08-S2-A-Q1"><div class="meta">쓰기 · PV2-G5-writing-08-S2-A-Q1</div><h3>1. 기록을 활용해 이번 수리 상태를 두세 문장으로 설명하세요. 출처와 끝난 일·남은 일을 밝혀요.</h3>
+<p class="writer-context" data-writer-context="PV2-G5-writing-08-S2-A-Q1">읽는 사람: 동네 소식을 읽는 사람 · 쓰는 목적: 가상 점검의 진행 상태 설명 · 분량: 두세 문장</p>
+<p>전체·끝난 수·남은 상태와 출처를 메모해요.</p>
+<p>검토할 점: 수량·상태 보존 / 출처 표시 / 설명 통합</p>
+<label>계획<textarea aria-label="PV2-G5-writing-08-S2-A-Q1 계획" data-response="PV2-G5-writing-08-S2-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G5-writing-08-S2-A-Q1 초고" data-response="PV2-G5-writing-08-S2-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G5-writing-08-S2-A-Q1 검토 후 수정고" data-response="PV2-G5-writing-08-S2-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G5-writing-08-S2-A-Q1 고친 이유" data-response="PV2-G5-writing-08-S2-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S2-A-Q2"><div class="meta">선택 · PV2-G5-writing-08-S2-A-Q2</div><h3>2. 기록을 바르게 풀어 쓴 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S2-A-Q2" data-response="PV2-G5-writing-08-S2-A-Q2" value="0"> 1. 네 개 가운데 두 개는 아직 부품을 기다린다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S2-A-Q2" data-response="PV2-G5-writing-08-S2-A-Q2" value="1"> 2. 부품을 기다리는 두 개는 고칠 수 없다고 확정됐다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S2-A-Q2" data-response="PV2-G5-writing-08-S2-A-Q2" value="2"> 3. 받은 장난감은 두 개이고 네 개를 돌려주었다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S2-A-Q2" data-response="PV2-G5-writing-08-S2-A-Q2" value="3"> 4. 받은 네 개는 모두 수리를 끝내 돌려주었다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S2-A-Q2" data-response="PV2-G5-writing-08-S2-A-Q2" value="4"> 5. 내일이면 반드시 나머지 두 개도 돌려준다.</label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S2-A-Q3"><div class="meta">짝짓기 · PV2-G5-writing-08-S2-A-Q3</div><h3>3. 네 개 / 두 개 완료 / 두 개 대기를 기록의 의미와 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G5-writing-08-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S2-A-Q4"><div class="meta">고쳐쓰기 · PV2-G5-writing-08-S2-A-Q4</div><h3>4. 자신의 글에 모두 끝났다라는 표현이 있다면 고치고, 없다면 상태를 구별한 부분을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G5-writing-08-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-writing-08" data-stage="S3"><div class="meta">초5 · 자료 인용과 설명 통합 · 인용과 설명 이어 쓰기 · 자료A</div><h2>관찰과 방문객 말을 이어 써요</h2>
+<div class="text"><p>자료 가는 가상 전시 입구 관찰 메모다. 제목은 길 찾기 관찰, 기록자는 은솔이다. 오전에 방문객 다섯 명 중 세 명이 갈림길에서 안내자를 불렀다. 다른 두 명은 안내자를 부르지 않았다.</p><p>자료 나는 가상 방문객 다온의 말이다. 입구 지도에는 방 이름이 있지만, 내가 지금 선 곳을 찾기 어려웠다. 두 자료를 읽고 입구 안내의 어떤 점을 더 살펴볼 수 있는지 소개하는 설명을 쓴다.</p></div>
+<section class="question" data-question="PV2-G5-writing-08-S3-A-Q1"><div class="meta">쓰기 · PV2-G5-writing-08-S3-A-Q1</div><h3>1. 두 자료의 출처를 구별하여 가져오고, 안내에서 더 살펴볼 점을 자기 설명으로 이어 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G5-writing-08-S3-A-Q1">읽는 사람: 입구 안내를 고칠 모임 · 쓰는 목적: 두 자료를 연결한 검토 설명 · 분량: 세네 문장</p>
+<p>관찰된 행동 / 한 사람의 말 / 내가 제안할 확인을 따로 메모해요.</p>
+<p>검토할 점: 서로 다른 출처 / 자료 범위 / 자기 설명의 연결</p>
+<label>계획<textarea aria-label="PV2-G5-writing-08-S3-A-Q1 계획" data-response="PV2-G5-writing-08-S3-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G5-writing-08-S3-A-Q1 초고" data-response="PV2-G5-writing-08-S3-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G5-writing-08-S3-A-Q1 검토 후 수정고" data-response="PV2-G5-writing-08-S3-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G5-writing-08-S3-A-Q1 고친 이유" data-response="PV2-G5-writing-08-S3-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S3-A-Q2"><div class="meta">선택 · PV2-G5-writing-08-S3-A-Q2</div><h3>2. 두 자료에서 바로 확정할 수 없는 내용은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S3-A-Q2" data-response="PV2-G5-writing-08-S3-A-Q2" value="0"> 1. 오전에 다섯 명의 행동을 기록했다는 것</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S3-A-Q2" data-response="PV2-G5-writing-08-S3-A-Q2" value="1"> 2. 다온이 지도에서 현재 위치를 찾기 어려웠다는 것</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S3-A-Q2" data-response="PV2-G5-writing-08-S3-A-Q2" value="2"> 3. 다섯 명 중 세 명이 안내자를 불렀다는 것</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S3-A-Q2" data-response="PV2-G5-writing-08-S3-A-Q2" value="3"> 4. 다른 두 명은 안내자를 부르지 않았다는 것</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S3-A-Q2" data-response="PV2-G5-writing-08-S3-A-Q2" value="4"> 5. 호출한 세 명 모두 현재 위치 때문에 어려웠다는 것</label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S3-A-Q3"><div class="meta">분류 · PV2-G5-writing-08-S3-A-Q3</div><h3>3. 관찰 / 한 사람의 말 / 추가 확인으로 나누세요: 호출 세 명, 현재 위치 찾기 어려움, 다른 호출자의 이유.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G5-writing-08-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S3-A-Q4"><div class="meta">설명 · PV2-G5-writing-08-S3-A-Q4</div><h3>4. 자신의 글에서 두 자료를 섞어 단정하지 않도록 쓴 표현을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G5-writing-08-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-writing-08" data-stage="S4"><div class="meta">초5 · 자료 인용과 설명 통합 · 범위를 지키며 풀어 쓰기 · 자료A</div><h2>될 수 있다는 말도 남겨요</h2>
+<div class="text"><p>가상 안내 연구 노트다. 제목은 그림 지도 의견, 작성자는 하람이다. 노트에는 처음 오는 방문객에게 그림 지도가 위치를 찾는 데 도움이 될 수 있다고 썼다. 이는 하람의 제안이며, 실제 이용 효과를 비교한 결과는 노트에 없다.</p><p>소식 글의 초고는 하람의 노트가 모든 방문객에게 그림 지도의 효과를 입증했다고 썼다. 자료를 활용해 하람이 무엇을 제안했고 무엇은 아직 확인되지 않았는지 독자에게 설명한다.</p></div>
+<section class="question" data-question="PV2-G5-writing-08-S4-A-Q1"><div class="meta">쓰기 · PV2-G5-writing-08-S4-A-Q1</div><h3>1. 하람의 제안을 출처와 함께 풀어 쓰고, 아직 확인되지 않은 점을 덧붙여 설명하세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G5-writing-08-S4-A-Q1">읽는 사람: 소식 글을 읽는 사람 · 쓰는 목적: 제안과 입증 결과를 구별한 설명 · 분량: 두세 문장</p>
+<p>누구에게·어떤 가능성을 말했는지와 입증 여부를 따로 적어요.</p>
+<p>검토할 점: 가능성·대상 보존 / 출처와 성격 / 한계의 설명</p>
+<label>계획<textarea aria-label="PV2-G5-writing-08-S4-A-Q1 계획" data-response="PV2-G5-writing-08-S4-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G5-writing-08-S4-A-Q1 초고" data-response="PV2-G5-writing-08-S4-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G5-writing-08-S4-A-Q1 검토 후 수정고" data-response="PV2-G5-writing-08-S4-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G5-writing-08-S4-A-Q1 고친 이유" data-response="PV2-G5-writing-08-S4-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S4-A-Q2"><div class="meta">선택 · PV2-G5-writing-08-S4-A-Q2</div><h3>2. 자료의 뜻을 보존한 표현은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S4-A-Q2" data-response="PV2-G5-writing-08-S4-A-Q2" value="0"> 1. 모든 방문객에게 효과가 입증됐다는 결과</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S4-A-Q2" data-response="PV2-G5-writing-08-S4-A-Q2" value="1"> 2. 처음 오는 사람에게 도움이 될 수 있다는 제안</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S4-A-Q2" data-response="PV2-G5-writing-08-S4-A-Q2" value="2"> 3. 하람이 실제 비교 실험을 끝냈다는 기록</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S4-A-Q2" data-response="PV2-G5-writing-08-S4-A-Q2" value="3"> 4. 처음 오는 사람에게는 도움이 없다는 결론</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S4-A-Q2" data-response="PV2-G5-writing-08-S4-A-Q2" value="4"> 5. 어떤 지도든 반드시 효과가 같다는 사실</label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S4-A-Q3"><div class="meta">근거 찾기 · PV2-G5-writing-08-S4-A-Q3</div><h3>3. 효과 입증이라고 쓰기 전에 확인해야 할 한계를 알려 주는 부분을 찾으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S4-A-Q3 내 답과 본문 근거" data-response="PV2-G5-writing-08-S4-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S4-A-Q4"><div class="meta">고쳐쓰기 · PV2-G5-writing-08-S4-A-Q4</div><h3>4. 자신의 글에서 될 수 있다의 뜻이 사라진 곳을 고치거나 그 뜻을 살린 표현을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S4-A-Q4 내 답과 본문 근거" data-response="PV2-G5-writing-08-S4-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-writing-08" data-stage="S5"><div class="meta">초5 · 자료 인용과 설명 통합 · 인용의 정확성 따지기 · 자료A</div><h2>따옴표 속의 모두</h2>
+<div class="text"><p>가상 낭독 모임 기록의 제목은 천천히 읽어 본 날이고 기록자는 유정이다. 기록에는 ‘천천히 읽으면 장면을 떠올리는 데 도움이 됐다는 참가자도 있었다’라고 적혀 있다. 참가자 전체의 의견이나 읽기 능력 변화는 이 기록에서 조사하지 않았다.</p><p>초고는 유정의 기록에 따르면 모든 참가자의 읽기 능력이 높아졌다라고 썼다. 또 다른 초고는 천천히 읽으면 모든 참가자가 잘 읽게 된다고 따옴표를 달았다. 글쓴이는 둘 다 자료를 가져온 것이니 괜찮다고 주장했다.</p></div>
+<section class="question" data-question="PV2-G5-writing-08-S5-A-Q1"><div class="meta">쓰기 · PV2-G5-writing-08-S5-A-Q1</div><h3>1. 기록을 정확히 인용하거나 풀어 쓰고, 이 자료로 설명할 수 있는 범위와 한계를 함께 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G5-writing-08-S5-A-Q1">읽는 사람: 모임 소식을 읽는 독자 · 쓰는 목적: 가상 발언 기록의 범위를 지킨 설명 · 분량: 두세 문장</p>
+<p>일부 참가자의 발언·장면 떠올리기·조사하지 않은 내용을 구별해요.</p>
+<p>검토할 점: 인용·풀어쓰기 정확성 / 출처 구별 / 한계 통합</p>
+<label>계획<textarea aria-label="PV2-G5-writing-08-S5-A-Q1 계획" data-response="PV2-G5-writing-08-S5-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G5-writing-08-S5-A-Q1 초고" data-response="PV2-G5-writing-08-S5-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G5-writing-08-S5-A-Q1 검토 후 수정고" data-response="PV2-G5-writing-08-S5-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G5-writing-08-S5-A-Q1 고친 이유" data-response="PV2-G5-writing-08-S5-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S5-A-Q2"><div class="meta">선택 · PV2-G5-writing-08-S5-A-Q2</div><h3>2. 두 초고에서 공통으로 따져 볼 문제는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S5-A-Q2" data-response="PV2-G5-writing-08-S5-A-Q2" value="0"> 1. 일부 발언을 전체 능력 향상으로 바꾼 점</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S5-A-Q2" data-response="PV2-G5-writing-08-S5-A-Q2" value="1"> 2. 천천히 읽어 본 활동을 언급한 점</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S5-A-Q2" data-response="PV2-G5-writing-08-S5-A-Q2" value="2"> 3. 자료에서 가져온 내용임을 표시한 점</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S5-A-Q2" data-response="PV2-G5-writing-08-S5-A-Q2" value="3"> 4. 같은 자료 제목을 확인하려 한 점</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S5-A-Q2" data-response="PV2-G5-writing-08-S5-A-Q2" value="4"> 5. 기록자 유정의 이름을 적은 점</label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S5-A-Q3"><div class="meta">분류 · PV2-G5-writing-08-S5-A-Q3</div><h3>3. 기록에 있음 / 조사하지 않음으로 나누세요: 일부 참가자 도움 발언, 전체 의견, 능력 변화.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G5-writing-08-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S5-A-Q4"><div class="meta">설명 · PV2-G5-writing-08-S5-A-Q4</div><h3>4. 따옴표를 달았어도 두 번째 초고가 정확한 인용이 아닌 까닭을 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G5-writing-08-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S5-A-Q5"><div class="meta">고쳐쓰기 · PV2-G5-writing-08-S5-A-Q5</div><h3>5. 자신의 글에서 일부 발언과 자기 판단이 섞인 부분을 고치거나 구별한 표현을 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G5-writing-08-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-writing-08" data-stage="S6"><div class="meta">초5 · 자료 인용과 설명 통합 · 여러 자료로 설명 엮기 · 자료A</div><h2>전시 소개에 두 자료를 써요</h2>
+<div class="text"><p>자료 가는 가상 여행 가방 전시의 소품 메모다. 제목은 가방 안의 작은 물건들, 작성자는 도윤이다. 전시 가방에는 그림 엽서, 접은 지도, 이름표가 든 봉투가 있다. 각 물건 옆에는 언제 썼는지를 설명하는 카드가 있다. 이 전시는 실제 역사 유물의 출처를 소개하는 전시가 아닌 창작 소품 전시다.</p><p>자료 나는 가상 관람 의견 카드다. 작성자 수민은 물건 옆의 사용 시기 카드를 읽으니 이야기 속 여행의 차례를 따라가기 쉬웠다고 썼다. 다른 관람객의 생각은 조사하지 않았다.</p><p>처음 보는 독자에게 전시 물건과 카드의 쓰임을 소개한다. 두 자료의 출처와 성격을 구별하고, 수민 한 사람의 말을 모든 관람객에게 넓히지 않는다.</p></div>
+<section class="question" data-question="PV2-G5-writing-08-S6-A-Q1"><div class="meta">쓰기 · PV2-G5-writing-08-S6-A-Q1</div><h3>1. 두 자료를 활용해 전시 물건과 카드의 쓰임을 세네 문장으로 소개하세요. 각각의 출처와 자료의 한계를 드러내세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G5-writing-08-S6-A-Q1">읽는 사람: 전시를 처음 보는 독자 · 쓰는 목적: 자료를 활용한 전시와 카드의 쓰임 설명 · 분량: 세네 문장</p>
+<p>물건 사실·개인 의견·내 설명의 세 묶음에 출처를 달아 메모해요.</p>
+<p>검토할 점: 두 자료와 출처 / 정확성과 범위 / 설명의 통합</p>
+<label>계획<textarea aria-label="PV2-G5-writing-08-S6-A-Q1 계획" data-response="PV2-G5-writing-08-S6-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G5-writing-08-S6-A-Q1 초고" data-response="PV2-G5-writing-08-S6-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G5-writing-08-S6-A-Q1 검토 후 수정고" data-response="PV2-G5-writing-08-S6-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G5-writing-08-S6-A-Q1 고친 이유" data-response="PV2-G5-writing-08-S6-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S6-A-Q2"><div class="meta">선택 · PV2-G5-writing-08-S6-A-Q2</div><h3>2. 수민의 의견을 사용할 때 지켜야 할 범위는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S6-A-Q2" data-response="PV2-G5-writing-08-S6-A-Q2" value="0"> 1. 한 관람자의 창작 이야기 이해 경험</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S6-A-Q2" data-response="PV2-G5-writing-08-S6-A-Q2" value="1"> 2. 소품이 실제 역사 유물임을 증명한 기록</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S6-A-Q2" data-response="PV2-G5-writing-08-S6-A-Q2" value="2"> 3. 지도만 있으면 안내 카드가 필요 없다는 결론</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S6-A-Q2" data-response="PV2-G5-writing-08-S6-A-Q2" value="3"> 4. 모든 관람객에게 같은 효과가 입증된 결과</label>
+<label class="choice"><input type="radio" name="PV2-G5-writing-08-S6-A-Q2" data-response="PV2-G5-writing-08-S6-A-Q2" value="4"> 5. 엽서를 쓴 실제 역사 인물의 공식 증언</label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S6-A-Q3"><div class="meta">짝짓기 · PV2-G5-writing-08-S6-A-Q3</div><h3>3. 물건 구성 / 사용 시기 카드의 감상 / 전체 효과 미확인을 관련 자료와 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S6-A-Q3 내 답과 본문 근거" data-response="PV2-G5-writing-08-S6-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S6-A-Q4"><div class="meta">설명 · PV2-G5-writing-08-S6-A-Q4</div><h3>4. 자신의 글에서 인용·자료 요약과 자기 설명이 어떻게 이어지는지 한 곳을 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S6-A-Q4 내 답과 본문 근거" data-response="PV2-G5-writing-08-S6-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S6-A-Q5"><div class="meta">고쳐쓰기 · PV2-G5-writing-08-S6-A-Q5</div><h3>5. 수정고에 전체 관람객이나 실제 역사 유물로 오해할 말이 남았는지 점검해 고치거나, 범위를 남긴 표현을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S6-A-Q5 내 답과 본문 근거" data-response="PV2-G5-writing-08-S6-A-Q5-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-writing-08-S6-A-Q6"><div class="meta">질문 만들기 · PV2-G5-writing-08-S6-A-Q6</div><h3>6. 카드의 쓰임을 더 알아보려면 어떤 새 자료를 확인할지 질문으로 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-writing-08-S6-A-Q6 내 답과 본문 근거" data-response="PV2-G5-writing-08-S6-A-Q6-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-writing-10" data-stage="S1"><div class="meta">초6 · 독자에 맞게 재표현 · 독자에 맞는 말 익히기 · 자료A</div><h2>같은 뜻을 독자가 아는 말로</h2>
+<div class="text"><p>독자에 맞게 바꾸어 쓸 때에는 필요한 뜻을 지키면서 낱말과 설명을 조절한다. 예를 들어 대여는 빌림, 반납은 빌린 것을 돌려줌으로 풀어 쓸 수 있다. 어려운 말을 지웠다는 이유로 행동의 조건까지 없애서는 안 된다.</p><p>가상 공방 원문이다. 등록한 이용자는 수요일에 도구를 대여하고 당일 반납한다. 이 글을 처음 오는 어린이에게 안내하려 한다. 등록은 이용할 사람으로 이름을 올리는 일이며, 당일은 빌린 그날을 뜻한다.</p></div>
+<section class="question" data-question="PV2-G6-writing-10-S1-A-Q1"><div class="meta">쓰기 · PV2-G6-writing-10-S1-A-Q1</div><h3>1. 처음 오는 어린이가 알 수 있는 말로 공방 안내를 두 문장 이내로 바꾸세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G6-writing-10-S1-A-Q1">읽는 사람: 처음 오는 어린이 · 쓰는 목적: 공방 이용 문장을 쉬운 말로 재표현 · 분량: 두 문장 이내</p>
+<p>등록 조건·요일·돌려줄 때를 남기고 대여·반납을 풀어 써요.</p>
+<p>검토할 점: 핵심 뜻 보존 / 독자에 맞는 표현</p>
+<label>계획<textarea aria-label="PV2-G6-writing-10-S1-A-Q1 계획" data-response="PV2-G6-writing-10-S1-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G6-writing-10-S1-A-Q1 초고" data-response="PV2-G6-writing-10-S1-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G6-writing-10-S1-A-Q1 검토 후 수정고" data-response="PV2-G6-writing-10-S1-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G6-writing-10-S1-A-Q1 고친 이유" data-response="PV2-G6-writing-10-S1-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S1-A-Q2"><div class="meta">선택 · PV2-G6-writing-10-S1-A-Q2</div><h3>2. 뜻을 지키며 풀어 쓴 표현은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S1-A-Q2" data-response="PV2-G6-writing-10-S1-A-Q2" value="0"> 1. 수요일에 도구를 빌릴 수 없다는 뜻이다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S1-A-Q2" data-response="PV2-G6-writing-10-S1-A-Q2" value="1"> 2. 도구를 빌리면 다시 돌려줄 필요가 없다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S1-A-Q2" data-response="PV2-G6-writing-10-S1-A-Q2" value="2"> 3. 빌린 도구는 빌린 그날 돌려준다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S1-A-Q2" data-response="PV2-G6-writing-10-S1-A-Q2" value="3"> 4. 등록하지 않아도 모두 빌릴 수 있다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S1-A-Q2" data-response="PV2-G6-writing-10-S1-A-Q2" value="4"> 5. 도구는 원할 때 아무 날이나 돌려준다.</label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S1-A-Q3"><div class="meta">설명 · PV2-G6-writing-10-S1-A-Q3</div><h3>3. 자신의 글에서 쉽게 바꾼 말 하나와 그대로 지킨 뜻 하나를 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S1-A-Q3 내 답과 본문 근거" data-response="PV2-G6-writing-10-S1-A-Q3-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-writing-10" data-stage="S2"><div class="meta">초6 · 독자에 맞게 재표현 · 필요한 정보 남겨 쓰기 · 자료A</div><h2>처음 오는 가족의 안내</h2>
+<div class="text"><p>가상 사진 전시의 내부 안내다. 관람은 토요일 오전 열 시부터 열두 시까지다. 접수는 복도 끝 안내 책상에서 한다. 전시실 안에서는 음료를 마시지 않고, 입구 선반에 뚜껑을 닫아 놓는다.</p><p>처음 오는 가족에게 보내는 짧은 안내로 바꾼다. 가족은 내부 공간을 모르므로 접수와 음료를 둘 자리를 이름만 생략하지 말고 구체적으로 알려 준다.</p></div>
+<section class="question" data-question="PV2-G6-writing-10-S2-A-Q1"><div class="meta">쓰기 · PV2-G6-writing-10-S2-A-Q1</div><h3>1. 가족에게 보낼 안내를 세 문장 이내로 쓰세요. 관람 때·접수 자리·음료 처리 방법을 쉽게 알려 주세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G6-writing-10-S2-A-Q1">읽는 사람: 전시실을 처음 오는 가족 · 쓰는 목적: 이용 안내를 쉽게 전달 · 분량: 세 문장 이내</p>
+<p>언제 / 어디서 접수 / 음료를 어떻게 둘지를 나누어 메모해요.</p>
+<p>검토할 점: 정보 보존 / 독자의 이해 / 간결한 구성</p>
+<label>계획<textarea aria-label="PV2-G6-writing-10-S2-A-Q1 계획" data-response="PV2-G6-writing-10-S2-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G6-writing-10-S2-A-Q1 초고" data-response="PV2-G6-writing-10-S2-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G6-writing-10-S2-A-Q1 검토 후 수정고" data-response="PV2-G6-writing-10-S2-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G6-writing-10-S2-A-Q1 고친 이유" data-response="PV2-G6-writing-10-S2-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S2-A-Q2"><div class="meta">선택 · PV2-G6-writing-10-S2-A-Q2</div><h3>2. 원문에서 그대로 보존해야 하는 내용은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S2-A-Q2" data-response="PV2-G6-writing-10-S2-A-Q2" value="0"> 1. 관람 종료가 토요일 정오라는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S2-A-Q2" data-response="PV2-G6-writing-10-S2-A-Q2" value="1"> 2. 늦게 오면 종료 시각이 늘어난다고 쓰는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S2-A-Q2" data-response="PV2-G6-writing-10-S2-A-Q2" value="2"> 3. 가족은 접수하지 않아도 된다고 보태는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S2-A-Q2" data-response="PV2-G6-writing-10-S2-A-Q2" value="3"> 4. 접수 장소를 입구 선반으로 옮기는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S2-A-Q2" data-response="PV2-G6-writing-10-S2-A-Q2" value="4"> 5. 음료를 전시실 안에서 마시도록 바꾸는 점</label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S2-A-Q3"><div class="meta">짝짓기 · PV2-G6-writing-10-S2-A-Q3</div><h3>3. 복도 끝 책상 / 입구 선반 / 전시실을 행동과 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G6-writing-10-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S2-A-Q4"><div class="meta">고쳐쓰기 · PV2-G6-writing-10-S2-A-Q4</div><h3>4. 자신의 안내에 여기나 거기처럼 처음 오는 사람이 모를 말이 있다면 고치거나, 구체화한 표현을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G6-writing-10-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-writing-10" data-stage="S3"><div class="meta">초6 · 독자에 맞게 재표현 · 형식에 맞게 재구성하기 · 자료A</div><h2>눈으로 볼 안내를 라디오 글로</h2>
+<div class="text"><p>가상 공방의 게시판 원문이다. 위 그림의 별표 자리에 완성품을 놓는다. 왼쪽 칸은 오늘 만든 것, 오른쪽 칸은 전에 만든 것이다. 이 활동의 그림 설명은 다음과 같다. 별표는 입구 바로 옆 전시대에 붙어 있으며, 전시대에는 오늘·이전이라고 적은 두 칸이 있다.</p><p>같은 내용을 소리로만 듣는 라디오 안내문으로 바꾸려 한다. 듣는 사람은 그림과 글의 위아래를 볼 수 없다. 좌우를 대신해 이름표로 칸을 구별해도 된다.</p></div>
+<section class="question" data-question="PV2-G6-writing-10-S3-A-Q1"><div class="meta">쓰기 · PV2-G6-writing-10-S3-A-Q1</div><h3>1. 그림을 보지 않고도 알아들을 라디오 안내 원고를 세 문장 정도로 쓰세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G6-writing-10-S3-A-Q1">읽는 사람: 그림을 볼 수 없는 라디오 청취자 · 쓰는 목적: 시각 안내를 들을 수 있는 글로 전환 · 분량: 세 문장 정도</p>
+<p>보이지 않는 위·그림·별표를 장소 설명과 칸 이름으로 바꿀 계획을 세워요.</p>
+<p>검토할 점: 시각 의존 표현의 전환 / 대응 보존 / 듣는 독자의 흐름</p>
+<label>계획<textarea aria-label="PV2-G6-writing-10-S3-A-Q1 계획" data-response="PV2-G6-writing-10-S3-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G6-writing-10-S3-A-Q1 초고" data-response="PV2-G6-writing-10-S3-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G6-writing-10-S3-A-Q1 검토 후 수정고" data-response="PV2-G6-writing-10-S3-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G6-writing-10-S3-A-Q1 고친 이유" data-response="PV2-G6-writing-10-S3-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S3-A-Q2"><div class="meta">선택 · PV2-G6-writing-10-S3-A-Q2</div><h3>2. 라디오 원고에서 보완해야 할 원문의 표현은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S3-A-Q2" data-response="PV2-G6-writing-10-S3-A-Q2" value="0"> 1. 칸에 오늘과 이전이라는 이름이 있다는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S3-A-Q2" data-response="PV2-G6-writing-10-S3-A-Q2" value="1"> 2. 위 그림의 별표 자리</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S3-A-Q2" data-response="PV2-G6-writing-10-S3-A-Q2" value="2"> 3. 오늘 만든 물건과 이전 물건의 구별</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S3-A-Q2" data-response="PV2-G6-writing-10-S3-A-Q2" value="3"> 4. 완성품을 놓는다는 활동의 목적</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S3-A-Q2" data-response="PV2-G6-writing-10-S3-A-Q2" value="4"> 5. 전시대에 두 칸이 있다는 정보</label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S3-A-Q3"><div class="meta">분류 · PV2-G6-writing-10-S3-A-Q3</div><h3>3. 그대로 전달할 뜻 / 풀어 써야 할 지시로 나누세요: 완성품 놓기, 위 그림, 두 종류의 칸.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G6-writing-10-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S3-A-Q4"><div class="meta">설명 · PV2-G6-writing-10-S3-A-Q4</div><h3>4. 자신의 원고에서 듣는 사람이 장소를 알 수 있게 바꾼 부분을 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G6-writing-10-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-writing-10" data-stage="S4"><div class="meta">초6 · 독자에 맞게 재표현 · 낯선 말을 풀어 쓰기 · 자료A</div><h2>낯선 말을 지워도 뜻은 남겨요</h2>
+<div class="text"><p>가상 수리 접수 안내 원문이다. 접수할 때 증상과 발생 시점을 적는다. 외관 파손이 있으면 해당 부위를 표시한다.</p><p>이번 글에서 증상은 잘 작동하지 않는 모습, 발생 시점은 문제가 처음 나타난 때, 외관 파손은 겉부분이 깨지거나 망가진 상태를 뜻한다. 물건을 맡길 어린이는 이 낱말을 아직 배우지 않았다. 글을 바꾸되 무엇을 적고 어디를 표시하는지는 남긴다.</p></div>
+<section class="question" data-question="PV2-G6-writing-10-S4-A-Q1"><div class="meta">쓰기 · PV2-G6-writing-10-S4-A-Q1</div><h3>1. 어린이가 이해할 수 있게 수리 접수 안내를 두세 문장으로 바꾸세요. 세 정보 요구를 보존하세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G6-writing-10-S4-A-Q1">읽는 사람: 물건을 맡기는 어린이 · 쓰는 목적: 낯선 접수 용어를 쉬운 안내로 전환 · 분량: 두세 문장</p>
+<p>증상·시점·파손을 각각 어떤 정보인지 풀어 메모해요.</p>
+<p>검토할 점: 요구 정보 보존 / 낱말 풀이의 정확성 / 조건의 보존</p>
+<label>계획<textarea aria-label="PV2-G6-writing-10-S4-A-Q1 계획" data-response="PV2-G6-writing-10-S4-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G6-writing-10-S4-A-Q1 초고" data-response="PV2-G6-writing-10-S4-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G6-writing-10-S4-A-Q1 검토 후 수정고" data-response="PV2-G6-writing-10-S4-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G6-writing-10-S4-A-Q1 고친 이유" data-response="PV2-G6-writing-10-S4-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S4-A-Q2"><div class="meta">선택 · PV2-G6-writing-10-S4-A-Q2</div><h3>2. 발생 시점을 정확히 풀어 쓴 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S4-A-Q2" data-response="PV2-G6-writing-10-S4-A-Q2" value="0"> 1. 접수 글의 문장을 다 쓴 때</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S4-A-Q2" data-response="PV2-G6-writing-10-S4-A-Q2" value="1"> 2. 수리를 모두 끝내고 찾아간 때</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S4-A-Q2" data-response="PV2-G6-writing-10-S4-A-Q2" value="2"> 3. 문제가 처음 나타난 때</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S4-A-Q2" data-response="PV2-G6-writing-10-S4-A-Q2" value="3"> 4. 물건의 색깔을 처음 고른 때</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S4-A-Q2" data-response="PV2-G6-writing-10-S4-A-Q2" value="4"> 5. 겉부분의 흠집 개수를 센 때</label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S4-A-Q3"><div class="meta">짝짓기 · PV2-G6-writing-10-S4-A-Q3</div><h3>3. 증상 / 발생 시점 / 외관 파손을 적어야 할 내용과 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S4-A-Q3 내 답과 본문 근거" data-response="PV2-G6-writing-10-S4-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S4-A-Q4"><div class="meta">고쳐쓰기 · PV2-G6-writing-10-S4-A-Q4</div><h3>4. 자신의 안내에서 낱말을 없애면서 빠진 정보가 있는지 확인해 고치거나, 보존한 뜻을 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S4-A-Q4 내 답과 본문 근거" data-response="PV2-G6-writing-10-S4-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-writing-10" data-stage="S5"><div class="meta">초6 · 독자에 맞게 재표현 · 바뀐 뜻 살펴 고치기 · 자료A</div><h2>쉬워졌지만 약속이 바뀐 공지</h2>
+<div class="text"><p>가상 만들기 행사 원문이다. 이번 달 시범 운영에서는 예약한 모둠만 토요일 오전에 재료실을 이용한다. 모둠 대표는 확인 쪽지를 가져온다. 다음 달 운영은 시범 뒤에 정한다.</p><p>쉬운 말로 고친 초고는 누구나 매주 토요일에 재료실을 쓸 수 있어요. 쪽지는 없어도 돼요. 다음 달도 똑같아요라고 썼다. 편집자는 말이 쉬워졌으니 좋은 수정이라고 말했다. 새 글은 처음 참여하는 모둠에게 알릴 예정이다.</p></div>
+<section class="question" data-question="PV2-G6-writing-10-S5-A-Q1"><div class="meta">쓰기 · PV2-G6-writing-10-S5-A-Q1</div><h3>1. 초고를 처음 오는 모둠이 이해할 쉬운 말로 다시 쓰세요. 바뀌어 버린 조건을 원문에 맞추고 다음 달의 미정 상태를 남기세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G6-writing-10-S5-A-Q1">읽는 사람: 처음 참여하는 모둠 · 쓰는 목적: 쉬우면서 정확한 행사 공지 작성 · 분량: 세 문장 정도</p>
+<p>대상·이번 달 시간·확인 쪽지·다음 달을 따로 대조해요.</p>
+<p>검토할 점: 대상·시간 범위 / 준비물·미정 상태 / 독자에 맞는 표현</p>
+<label>계획<textarea aria-label="PV2-G6-writing-10-S5-A-Q1 계획" data-response="PV2-G6-writing-10-S5-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G6-writing-10-S5-A-Q1 초고" data-response="PV2-G6-writing-10-S5-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G6-writing-10-S5-A-Q1 검토 후 수정고" data-response="PV2-G6-writing-10-S5-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G6-writing-10-S5-A-Q1 고친 이유" data-response="PV2-G6-writing-10-S5-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S5-A-Q2"><div class="meta">선택 · PV2-G6-writing-10-S5-A-Q2</div><h3>2. 쉬운 말의 초고가 원문과 달라진 점은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S5-A-Q2" data-response="PV2-G6-writing-10-S5-A-Q2" value="0"> 1. 확인 쪽지를 가져와야 한다고 남겼다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S5-A-Q2" data-response="PV2-G6-writing-10-S5-A-Q2" value="1"> 2. 다음 달은 뒤에 정한다고 정확히 남겼다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S5-A-Q2" data-response="PV2-G6-writing-10-S5-A-Q2" value="2"> 3. 이번 달 시범이라는 범위를 더 분명히 했다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S5-A-Q2" data-response="PV2-G6-writing-10-S5-A-Q2" value="3"> 4. 토요일 오전이라는 시간을 그대로 보존했다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S5-A-Q2" data-response="PV2-G6-writing-10-S5-A-Q2" value="4"> 5. 예약 모둠만을 누구나로 넓혔다.</label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S5-A-Q3"><div class="meta">분류 · PV2-G6-writing-10-S5-A-Q3</div><h3>3. 그대로 지킬 정보 / 아직 미정으로 남길 정보로 나누세요: 예약 모둠, 확인 쪽지, 다음 달 운영.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G6-writing-10-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S5-A-Q4"><div class="meta">설명 · PV2-G6-writing-10-S5-A-Q4</div><h3>4. 문장이 쉬워졌다는 이유만으로 좋은 수정이라고 할 수 없는 까닭을 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G6-writing-10-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S5-A-Q5"><div class="meta">고쳐쓰기 · PV2-G6-writing-10-S5-A-Q5</div><h3>5. 자신의 새 공지에서 빠뜨린 한정을 찾아 고치거나, 보존한 한정을 근거와 함께 짚으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G6-writing-10-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-writing-10" data-stage="S6"><div class="meta">초6 · 독자에 맞게 재표현 · 새 독자와 매체로 바꾸기 · 자료A</div><h2>공연 공지를 두 독자에게</h2>
+<div class="text"><p>자료 가는 가상 그림자극 준비 모임의 내부 메모다. 시연은 다음 금요일 오후 세 시부터 세 시 삼십 분까지 작은 공연방에서 한다. 시연은 완성 전 공연을 보여 주며 의견을 듣는 자리다. 관람자는 시작 십 분 전 공연방 앞에서 이름표를 받는다.</p><p>자료 나는 운영 추가 메모다. 이번에는 신청한 가족만 들어오며 빈자리가 있어도 현장 신청은 받지 않는다. 어린이는 보호자와 함께 입장한다. 공연이 끝난 뒤 의견 쪽지를 내는 것은 원하는 사람만 한다.</p><p>같은 내용을 두 형식으로 바꾼다. 첫 글은 처음 오는 어린이에게 보내는 짧은 안내다. 둘째 글은 가족이 휴대전화로 읽을 공지다. 두 글 모두 신청·동행·시간·이름표 조건을 보존한다. 어린이 글에는 시연의 뜻도 쉽게 풀어 쓴다.</p></div>
+<section class="question" data-question="PV2-G6-writing-10-S6-A-Q1"><div class="meta">쓰기 · PV2-G6-writing-10-S6-A-Q1</div><h3>1. 어린이 안내와 가족 휴대전화 공지를 각각 세네 문장 정도로 쓰세요. 독자에 맞게 표현·정보 순서를 바꾸되 필수 조건은 두 글 모두 남기세요. 의견 쪽지 제출은 선택이라는 뜻도 두 글에 남기세요.</h3>
+<p class="writer-context" data-writer-context="PV2-G6-writing-10-S6-A-Q1">읽는 사람: 처음 오는 어린이와 가족 공지 독자 · 쓰는 목적: 같은 자료를 두 독자·매체로 재표현 · 분량: 버전마다 세네 문장</p>
+<p>두 글에서 같게 남길 사실과 어린이에게 풀어 줄 말을 구별해 계획해요.</p>
+<p>검토할 점: 두 버전의 필수 내용 / 독자·매체 전환 / 선택·범위 보존</p>
+<label>계획<textarea aria-label="PV2-G6-writing-10-S6-A-Q1 계획" data-response="PV2-G6-writing-10-S6-A-Q1-plan"></textarea></label>
+<label>초고<textarea aria-label="PV2-G6-writing-10-S6-A-Q1 초고" data-response="PV2-G6-writing-10-S6-A-Q1-draft"></textarea></label>
+<label>검토 후 수정고<textarea aria-label="PV2-G6-writing-10-S6-A-Q1 검토 후 수정고" data-response="PV2-G6-writing-10-S6-A-Q1-revision"></textarea></label>
+<label>고친 이유<textarea aria-label="PV2-G6-writing-10-S6-A-Q1 고친 이유" data-response="PV2-G6-writing-10-S6-A-Q1-reason"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S6-A-Q2"><div class="meta">선택 · PV2-G6-writing-10-S6-A-Q2</div><h3>2. 두 글에 모두 보존해야 할 조건은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S6-A-Q2" data-response="PV2-G6-writing-10-S6-A-Q2" value="0"> 1. 모든 관람자가 의견 쪽지를 꼭 낸다는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S6-A-Q2" data-response="PV2-G6-writing-10-S6-A-Q2" value="1"> 2. 어린이는 이름표를 받지 않아도 된다는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S6-A-Q2" data-response="PV2-G6-writing-10-S6-A-Q2" value="2"> 3. 신청 가족의 어린이는 보호자와 입장한다는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S6-A-Q2" data-response="PV2-G6-writing-10-S6-A-Q2" value="3"> 4. 빈자리만 있으면 현장 신청을 받는다는 점</label>
+<label class="choice"><input type="radio" name="PV2-G6-writing-10-S6-A-Q2" data-response="PV2-G6-writing-10-S6-A-Q2" value="4"> 5. 다음 금요일 뒤에도 매주 같은 시각에 한다는 점</label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S6-A-Q3"><div class="meta">분류 · PV2-G6-writing-10-S6-A-Q3</div><h3>3. 독자에 따라 바꿀 표현 / 두 글에 보존할 조건으로 나누세요: 시연이라는 말의 풀이, 신청 가족, 보호자 동행, 정보의 배열.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S6-A-Q3 내 답과 본문 근거" data-response="PV2-G6-writing-10-S6-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S6-A-Q4"><div class="meta">설명 · PV2-G6-writing-10-S6-A-Q4</div><h3>4. 자신의 두 글에서 다르게 쓴 부분 하나와 같게 남긴 뜻 하나를 짚고 이유를 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S6-A-Q4 내 답과 본문 근거" data-response="PV2-G6-writing-10-S6-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S6-A-Q5"><div class="meta">고쳐쓰기 · PV2-G6-writing-10-S6-A-Q5</div><h3>5. 두 버전의 시간·신청·동행·이름표 조건을 대조해 어긋난 곳을 고치거나, 일치하는 근거를 남기세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S6-A-Q5 내 답과 본문 근거" data-response="PV2-G6-writing-10-S6-A-Q5-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-writing-10-S6-A-Q6"><div class="meta">질문 만들기 · PV2-G6-writing-10-S6-A-Q6</div><h3>6. 이 행사를 실제로 안내하기 전에 더 확인할 정보 한 가지를 질문으로 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-writing-10-S6-A-Q6 내 답과 본문 근거" data-response="PV2-G6-writing-10-S6-A-Q6-draft"></textarea></label>
+</section>
+</article>
+</main><footer>자체 창작 자료 · 실제 교사 검토와 학생 난도 확인 대기 · 입력한 답안·메모는 이 브라우저에 저장됩니다.</footer><script>
+const skill=document.getElementById('skill'),stage=document.getElementById('stage'),status=document.getElementById('status');
+function filter(){let n=0;document.querySelectorAll('.set').forEach(s=>{s.hidden=!!((skill.value&&s.dataset.skill!==skill.value)||(stage.value&&s.dataset.stage!==stage.value));if(!s.hidden)n++});status.textContent=n+'개 자료 묶음 표시'}skill.onchange=filter;stage.onchange=filter;
+let saved={};try{const x=JSON.parse(localStorage.getItem('readx-expansion-v2-03')||'{}');if(x&&typeof x==='object'&&!Array.isArray(x))saved=x}catch{status.textContent='저장 기록을 불러오지 못했습니다.'}
+document.querySelectorAll('[data-response]').forEach(el=>{const key=el.dataset.response;if(el.type==='radio')el.checked=saved[key]===el.value;else el.value=saved[key]||'';el.addEventListener('input',()=>{saved[key]=el.value;try{localStorage.setItem('readx-expansion-v2-03',JSON.stringify(saved))}catch{status.textContent='브라우저 저장이 제한됩니다. 인쇄나 답안 내려받기를 이용하세요.'}})});
+document.getElementById('download').onclick=()=>{const blob=new Blob([JSON.stringify({source:"expansion-v2-03",savedAt:new Date().toISOString(),responses:saved},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='국어_단계별_연습_답안.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)};
+const expand=document.getElementById('expand');if(expand)expand.onclick=()=>{document.querySelectorAll('details').forEach(d=>d.open=true)};
+</script></html>

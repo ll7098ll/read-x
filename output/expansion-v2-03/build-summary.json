@@ -1,0 +1,15 @@
+{
+  "asOf": "2026-11-17",
+  "contentSnapshotHash": "45fee0f931ea9c48ab9a342571b98e19e643d282dd72c140fea568c694f9f50d",
+  "sets": 36,
+  "tasks": 156,
+  "writingProductionTasks": 36,
+  "writingRubricCriteria": 92,
+  "newSkills": 6,
+  "newSkillStageCells": 36,
+  "writingConsistencyChecks": 82,
+  "passed": true,
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

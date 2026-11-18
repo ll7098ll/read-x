@@ -1,0 +1,262 @@
+{
+  "asOf": "2026-11-18",
+  "scope": "국어 V2 대표 제작분과 전체 은행 확장분의 현재 원고 합계. 기존 batch03·계획·버전 이력 제외.",
+  "goalCompletion": "not_proven",
+  "publicationReady": false,
+  "batches": [
+    {
+      "id": "pilot-v2",
+      "role": "representative_pilot",
+      "source": "data/content_authoring/pilot_v2/sets.json",
+      "contentSnapshotHash": "e928db7c2fac0ccc2ad7af03689d236031f27b735cf66c8c7437f6b591c2dfbd",
+      "sets": 144,
+      "questions": 624,
+      "skills": 12,
+      "skillStageCells": 72,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/pilot-v2/학생용_문제집.html",
+      "teacherWorkbook": "output/pilot-v2/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-01",
+      "role": "full_bank_expansion",
+      "source": "data/content_authoring/expansion_v2_01/sets.json",
+      "contentSnapshotHash": "c0c73ea995a61b37980e96dd208ea731431d8b908725729c4b8117cce4263c4f",
+      "sets": 36,
+      "questions": 156,
+      "skills": 6,
+      "skillStageCells": 36,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-01/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-01/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-02",
+      "role": "source_backed_explanation_expansion",
+      "source": "data/content_authoring/expansion_v2_02/sets.json",
+      "contentSnapshotHash": "fd7433435958e016fdc1d078a72a5c357e818465e84a44d489365df7c1a1542d",
+      "sets": 12,
+      "questions": 50,
+      "skills": 6,
+      "skillStageCells": 6,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-02/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-02/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-03",
+      "role": "writing_production_expansion",
+      "source": "data/content_authoring/expansion_v2_03/sets.json",
+      "contentSnapshotHash": "45fee0f931ea9c48ab9a342571b98e19e643d282dd72c140fea568c694f9f50d",
+      "sets": 36,
+      "questions": 156,
+      "skills": 6,
+      "skillStageCells": 36,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-03/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-03/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-04",
+      "role": "original_literature_expansion",
+      "source": "data/content_authoring/expansion_v2_04/sets.json",
+      "contentSnapshotHash": "7b0b7678836714efda8c097e414caac1baf61d3432be14a3c635c15aedf2e9e1",
+      "sets": 12,
+      "questions": 50,
+      "skills": 6,
+      "skillStageCells": 12,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-04/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-04/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-05",
+      "role": "context_sensitive_language_expansion",
+      "source": "data/content_authoring/expansion_v2_05/sets.json",
+      "contentSnapshotHash": "fa276cd7e95ff816a5a663b061f3ef431d7aa9bee0736f5074c971d6061634cd",
+      "sets": 24,
+      "questions": 102,
+      "skills": 6,
+      "skillStageCells": 24,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-05/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-05/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-06",
+      "role": "authored_visual_media_expansion",
+      "source": "data/content_authoring/expansion_v2_06/sets.json",
+      "contentSnapshotHash": "c17c4260043cc35a7ae891aa53341a3b7cbb0d3d79091e7b0e0e7c1c8b7864e0",
+      "sets": 12,
+      "questions": 53,
+      "skills": 6,
+      "skillStageCells": 12,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-06/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-06/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-07",
+      "role": "listening_and_live_conversation_expansion",
+      "source": "data/content_authoring/expansion_v2_07/sets.json",
+      "contentSnapshotHash": "1fa6fdabf883fdd521b815b0ce7ef0b7bdf76f36ced94d67beed2b115c317c49",
+      "sets": 12,
+      "questions": 53,
+      "skills": 6,
+      "skillStageCells": 12,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-07/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-07/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-08",
+      "role": "diverse_source_backed_reading_expansion",
+      "source": "data/content_authoring/expansion_v2_08/sets.json",
+      "contentSnapshotHash": "9a55d24ad7eccfa3f1f817f36e1d1fcbb949fc6ccc8902d5afbdfc1407e168ac",
+      "sets": 18,
+      "questions": 78,
+      "skills": 6,
+      "skillStageCells": 18,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-08/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-08/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-09",
+      "role": "diverse_writing_and_substantive_revision_expansion",
+      "source": "data/content_authoring/expansion_v2_09/sets.json",
+      "contentSnapshotHash": "6cc65f15234525d3b6d1f7e0888469fd244361a2667a3f38c22a30f2a887922f",
+      "sets": 18,
+      "questions": 78,
+      "skills": 6,
+      "skillStageCells": 18,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-09/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-09/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-10",
+      "role": "original_literary_works_and_interpretation_expansion",
+      "source": "data/content_authoring/expansion_v2_10/sets.json",
+      "contentSnapshotHash": "a9ad999ca066ec1407b07e090409508610f0c5427aefaf08e33bb23ed2f95378",
+      "sets": 18,
+      "questions": 78,
+      "skills": 6,
+      "skillStageCells": 18,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-10/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-10/교사용_해설집.html"
+    }
+  ],
+  "authored": {
+    "sets": 342,
+    "questions": 1478,
+    "skills": 72,
+    "skillStageCells": 264,
+    "skillsWithAllSixStages": 24,
+    "factualSourceCheckedDraftSets": 30,
+    "factualAnchors": 90,
+    "writingProductionProtocolSets": 54,
+    "literaryInterpretationProtocolSets": 30,
+    "languageInterpretationProtocolSets": 24,
+    "mediaReadingProtocolSets": 12,
+    "mediaPanels": 26,
+    "listeningSets": 36,
+    "oralReadingSets": 12,
+    "liveSpeechTasks": 36,
+    "audioDraftAssets": 48,
+    "audioDurationSeconds": 773.79,
+    "byGrade": {
+      "1": {
+        "sets": 57,
+        "questions": 244,
+        "skills": 12
+      },
+      "2": {
+        "sets": 57,
+        "questions": 246,
+        "skills": 12
+      },
+      "3": {
+        "sets": 57,
+        "questions": 246,
+        "skills": 12
+      },
+      "4": {
+        "sets": 57,
+        "questions": 246,
+        "skills": 12
+      },
+      "5": {
+        "sets": 57,
+        "questions": 247,
+        "skills": 12
+      },
+      "6": {
+        "sets": 57,
+        "questions": 249,
+        "skills": 12
+      }
+    },
+    "poems": 31,
+    "poetryLines": 160
+  },
+  "proposed": {
+    "skills": 360,
+    "skillStageCells": 2160,
+    "sets": 7200,
+    "questions": 29880,
+    "status": "editorial_proposal_not_approved_curriculum"
+  },
+  "remaining": {
+    "candidateSkills": 288,
+    "candidateStageCells": 1896,
+    "plannedSets": 6858,
+    "plannedQuestions": 28402
+  },
+  "review": {
+    "approvedSets": 0,
+    "calibratedSets": 0,
+    "independentTeacherReviewPending": 342,
+    "studentCalibrationPending": 342,
+    "audioListeningReviewsPending": 48,
+    "koreanComponentCandidateSets": 225,
+    "relatedOnlyScopeReviewSets": 117,
+    "sourceUncheckedSets": []
+  },
+  "countingRule": "각 자료·문항 ID와 기능·단계 칸을 대조하여 중복 없이 합산. 계획 칸·버전 이력·대본·힌트는 신규 자료로 더하지 않음. 기존 batch03은 V2 목표 재분류 전이므로 제외.",
+  "limits": [
+    "자동 검사는 실제 교사 승인·문항 정답의 유일성·학생 난도 보정을 대체하지 않는다.",
+    "여섯 단계는 학습 역할이며 공인 능력 등급이 아니다. 영역별 이름을 붙여도 실제 수행 차이를 따로 검토한다.",
+    "원문 연결 후보는 부분 수행 또는 준비·보조 관계다. 성취기준 전체의 달성 승인이 아니다.",
+    "장문·기능 집중 자료·시·소리 내어 읽기 등을 같은 길이의 지문 수로 계산하지 않는다.",
+    "전체 공급 확대·최신 통합 고시 대조·음성 청취·실제 수업 및 브라우저 동작 검증이 남아 있다.",
+    "같은 출처·사실 배경을 공유하는 원고는 사전 노출을 확인해야 하며 서로 무관한 독립 확인 자료로 자동 계산하지 않는다."
+  ],
+  "sharedFactualExposureFamilies": {
+    "NPS-BEAVER": [
+      "PV2-G1-information-03-S3-B",
+      "PV2-G6-information-09-S5-A"
+    ],
+    "KEW-SEEDS": [
+      "PV2-G4-information-10-S3-A",
+      "PV2-G4-information-10-S3-B"
+    ],
+    "KEW-ANIMALS": [
+      "PV2-G4-information-10-S3-A",
+      "PV2-G4-information-10-S3-B"
+    ],
+    "UNESCO-CONVENTION": [
+      "PV2-G5-information-03-S4-A",
+      "PV2-G5-information-03-S4-B"
+    ],
+    "UNESCO-MAP": [
+      "PV2-G5-information-03-S4-A",
+      "PV2-G5-information-03-S4-B"
+    ],
+    "USGS-PROJECTIONS": [
+      "PV2-G5-information-08-S2-A",
+      "PV2-G5-information-08-S5-A"
+    ]
+  }
+}

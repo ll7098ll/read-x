@@ -1,400 +1,481 @@
-import React, { useState } from 'react';
-import { useCoursewareStore } from '../../store/useCoursewareStore';
-import type { GradeData, SlotLessonPackage } from '../../types/courseware';
-import { VocabDuelArena } from './VocabDuelArena';
-import { GalaxyExpeditionMap } from './GalaxyExpeditionMap';
-import { OnboardingCatModal } from './OnboardingCatModal';
+import { ExamEntryCard } from "../exam/ExamEntryCard";
+import { enterExam } from "../../services/examNavigation";
+import { CurriculumLibrary } from "../common/CurriculumLibrary";
+import { ProgressiveReadingEntry } from "./ProgressiveReadingStudio";
+import { ThinkingPortfolio, RecentThinkingFeedback } from "../common/ThinkingPortfolio";
+import { AssessmentEntryCards } from "./StudentAssessmentHub";
+import { useStudentAssessment } from "../../store/useStudentAssessment";
+import type { AssessmentView } from "../../types/miniExam";
+import { LearningIllustration } from "../brand/LearningIllustration";
+import React, { useState } from "react";
+import {
+  ArrowRight,
+  BookOpen,
+  Bookmark,
+  Check,
+  ChevronRight,
+  PenLine,
+  Sparkles,
+  Search,
+  Clock3,
+  LibraryBig,
+} from "lucide-react";
+import { findLesson, masterData } from "../../data/lessonCatalog";
+import { revisedLessonForSlot } from "../../data/corpusReading";
+import { useCoursewareStore } from "../../store/useCoursewareStore";
+import { useReadingWorkspace } from "../../store/useReadingWorkspace";
+import { useLearningJourney } from "../../store/useLearningJourney";
+import { JOURNEY_SLOT, JOURNEY_GOAL } from "../../data/learningJourney";
+import { PageHeading, EmptyState, ThinkingPath } from "../common/DesignSystem";
+import {
+  JourneyEntryCard,
+  LearningEvidenceReport,
+} from "../common/LearningEvidenceReport";
+import type {
+  GradeData,
+  SlotLessonPackage,
+  StudentAssignment,
+} from "../../types/courseware";
+import { VocabDuelArena } from "./VocabDuelArena";
+import { GalaxyExpeditionMap } from "./GalaxyExpeditionMap";
+import { OnboardingCatModal } from "./OnboardingCatModal";
 
-interface StudentJourneyHubProps {
-  gradeData: GradeData;
-  gradeSlots16: SlotLessonPackage[];
-}
-
-export const StudentJourneyHub: React.FC<StudentJourneyHubProps> = ({
+export function StudentJourneyHub({
   gradeData,
   gradeSlots16,
-}) => {
+}: {
+  gradeData: GradeData;
+  gradeSlots16: SlotLessonPackage[];
+}) {
   const {
     assignments,
     selectGradeAndSlot,
     setStudentMode,
-    completeStudentAssignment,
-    unlockedVaccines,
-    streakDays,
-    smartScores,
+    responseDrafts,
     savedVocab,
+    removeVocabWord,
+    customSlotsById,
   } = useCoursewareStore();
-
-  const [activeTab, setActiveTab] = useState<'todo' | 'completed' | 'progress'>('todo');
-  const [showVocabDuel, setShowVocabDuel] = useState(false);
-  const [showGalaxyMap, setShowGalaxyMap] = useState(false);
-  const [showCatModal, setShowCatModal] = useState(false);
-
-  const pendingAssignments = assignments.filter((a) => a.status === 'pending');
-  const completedAssignments = assignments.filter((a) => a.status === 'completed');
-
-  const currentSmart = smartScores[gradeData.grade_num] ?? gradeData.xray_overview.overall_score;
-
-  const handleStartAssignment = (slotId: string, type: string, taskId: string) => {
-    if (type === 'vocab') {
-      setShowVocabDuel(true);
+  const { lastSlotId, sessions } = useReadingWorkspace();
+  const journeyAttempts = useLearningJourney((s) => s.attempts);
+  const [tab, setTab] = useState<"today" | "practice" | "records" | "vocab" | "curriculum">(
+    "today",
+  );
+  const [error, setError] = useState("");
+  const [library, setLibrary] = useState(false);
+  const [query, setQuery] = useState("");
+  const [showVocab, setShowVocab] = useState(false),
+    [showGalaxy, setShowGalaxy] = useState(false),
+    [showCat, setShowCat] = useState(false);
+  const pending = assignments.filter((a) => a.status === "pending");
+  const readingTitle = (id:string,fallback:string) => customSlotsById[id] ? fallback : revisedLessonForSlot(id)?.title || fallback;
+  const lastLesson =
+    lastSlotId && sessions[lastSlotId] ? findLesson(lastSlotId) : null;
+  const resume =
+    lastLesson && "real_csat_test" in lastLesson
+      ? {
+          slotId: lastSlotId!,
+          title: readingTitle(lastSlotId!,lastLesson.real_csat_test.passage_title),
+          type: "reading",
+        }
+      : undefined;
+  const featured = resume || pending[0];
+  const drafts = [
+    ...Object.entries(responseDrafts),
+    ...journeyAttempts
+      .filter((a) => a.writing.trim())
+      .map(
+        (a) =>
+          [`${JOURNEY_SLOT}:journey-${a.id}`, a.writing] as [string, string],
+      ),
+  ].filter(([, value]) => value.trim());
+  const open = (id: string, type = "reading") => {
+    const lesson = findLesson(id);
+    if (!lesson) {
+      setError("수업을 찾을 수 없어요. 다른 수업을 선택해 주세요.");
       return;
     }
-    if (type === 'cat') {
-      setShowCatModal(true);
-      return;
-    }
-    if (type === 'clinic') {
-      selectGradeAndSlot(gradeData.grade_num, slotId, 'clinic');
-    } else {
-      selectGradeAndSlot(gradeData.grade_num, slotId, 'studio');
-    }
+    setError("");
+    selectGradeAndSlot(
+      lesson.grade_num,
+      id,
+      id.includes("-COM-") ? "common" : type === "clinic" ? "clinic" : "studio",
+    );
+    window.scrollTo(0, 0);
   };
-
-  const handleSimulateSubmit = (taskId: string) => {
-    completeStudentAssignment(taskId, 92);
-  };
-
+  const taskLabel = (task: Pick<StudentAssignment, "slotId">) =>
+    task.slotId.includes("-COM-") ? "기초 생각 연습" : "교과 개념 읽기";
   return (
-    <div className="space-y-5 font-sans">
-      {/* 1. Clean Segmented Navigation Tab Bar */}
-      <div className="bg-white rounded-2xl border border-slate-200/80 p-2 shadow-2xs flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center gap-1.5 bg-slate-100/80 p-1 rounded-xl">
+    <div className="rx-student-home">
+      <PageHeading
+        eyebrow="나의 배움터"
+        title="오늘도, 생각이 자라는 시간"
+        description="어디를 보았는지, 왜 그렇게 생각했는지. 오늘의 읽기 방법을 배워요."
+        action={
+          <label className="rx-home-grade">나의 읽기 학년<select value={gradeData.grade_num} onChange={e=>{const g=Number(e.target.value);const lesson=masterData.expository_slots_96?.find(s=>s.grade_num===g);if(lesson){selectGradeAndSlot(g,lesson.slot_id,"portal");useReadingWorkspace.getState().save("progressive-preferences","grade",g);}}}>{[1,2,3,4,5,6].map(g=><option key={g} value={g}>초등 {g}학년</option>)}</select></label>
+        }
+      />
+      <nav className="rx-tabs" aria-label="배움터 메뉴">
+        {[
+          ["today", "오늘의 학습"],
+          ["practice", "읽기 연습"],
+          ["exams", "모의고사"],
+          ["records", "내 성장"],
+        ].map(([id, label]) => (
           <button
-            onClick={() => setActiveTab('todo')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 cursor-pointer ${
-              activeTab === 'todo'
-                ? 'bg-white text-blue-600 shadow-xs'
-                : 'text-slate-600 hover:text-slate-900'
-            }`}
+            key={id}
+            aria-current={tab === id || (id === "practice" && ["curriculum", "vocab"].includes(tab)) ? "page" : undefined}
+            onClick={() => {
+              if (id === "exams") { enterExam("student"); } else if (["report", "goals", "history"].includes(id)) {
+                useStudentAssessment.getState().setView(id as AssessmentView);
+                setStudentMode("assessment");
+              } else setTab(id as typeof tab);
+            }}
           >
-            <span>📝 오늘의 배정 과제함</span>
-            <span
-              className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
-                activeTab === 'todo' ? 'bg-blue-50 text-blue-700' : 'bg-slate-200 text-slate-700'
-              }`}
-            >
-              {pendingAssignments.length}
-            </span>
+            <LearningIllustration kind={id} />
+            {label}
+            {id === "vocab" && savedVocab.length > 0 && (
+              <span>{savedVocab.length}</span>
+            )}
           </button>
-
-          <button
-            onClick={() => setActiveTab('completed')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 cursor-pointer ${
-              activeTab === 'completed'
-                ? 'bg-white text-emerald-600 shadow-xs'
-                : 'text-slate-600 hover:text-slate-900'
-            }`}
-          >
-            <span>✅ 완료 과제 & 오답노트</span>
-            <span
-              className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
-                activeTab === 'completed' ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-200 text-slate-700'
-              }`}
-            >
-              {completedAssignments.length}
-            </span>
-          </button>
-
-          <button
-            onClick={() => setActiveTab('progress')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 cursor-pointer ${
-              activeTab === 'progress'
-                ? 'bg-white text-indigo-600 shadow-xs'
-                : 'text-slate-600 hover:text-slate-900'
-            }`}
-          >
-            <span>📈 내 진도 & 성장 트래커</span>
-          </button>
-        </div>
-
-        {/* Quick Gamification Micro-Buttons */}
-        <div className="flex items-center gap-1.5">
-          <button
-            onClick={() => setShowVocabDuel(true)}
-            className="text-xs font-bold px-3 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200/80 transition flex items-center gap-1 cursor-pointer"
-          >
-            <span>⚡ 10초 어휘 듀얼</span>
-          </button>
-          <button
-            onClick={() => setShowGalaxyMap(true)}
-            className="text-xs font-bold px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200/80 transition flex items-center gap-1 cursor-pointer"
-          >
-            <span>🌌 은하계 원정대</span>
-          </button>
-        </div>
-      </div>
-
-      {/* ================= TAB 1: 📝 오늘의 과제함 ================= */}
-      {activeTab === 'todo' && (
-        <div className="space-y-4">
-          {/* Hero Mission Summary Card */}
-          <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-7 shadow-xs space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-4">
-              <div className="space-y-1">
-                <span className="text-[11px] font-bold text-blue-600 tracking-wider uppercase">
-                  DAILY MISSION QUEUE
-                </span>
-                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-                  오늘 해결할 과제가 <span className="text-blue-600">{pendingAssignments.length}개</span> 남아있습니다
-                </h2>
-                <p className="text-xs text-slate-500">
-                  선생님과 6차원 X-Ray AI가 나의 사고 회로 취약점을 보강하기 위해 맞춤 배정한 일일 과제입니다.
-                </p>
-              </div>
-
-              <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 text-right min-w-[170px]">
-                <span className="text-[11px] font-bold text-slate-500 block">오늘의 과제 달성률</span>
-                <span className="text-2xl font-black text-blue-600 mt-0.5 block">
-                  {completedAssignments.length} <span className="text-slate-400 text-sm font-normal">/ {assignments.length}개 완료</span>
-                </span>
+        ))}
+      </nav>
+      {["practice", "curriculum", "vocab"].includes(tab) && <nav className="rx-subnav" aria-label="읽기 연습 종류">{[["practice","읽는 방법 연습"],["curriculum","교과 글 찾기"],["vocab","내 단어장"]].map(([id,label])=><button key={id} aria-pressed={tab===id} onClick={()=>setTab(id as typeof tab)}>{label}{id==="vocab"&&savedVocab.length>0?` · ${savedVocab.length}`:""}</button>)}</nav>}
+      {tab === "practice" && <><ProgressiveReadingEntry/><section className="rx-practice-guide"><span className="rx-eyebrow">읽기 방법을 내 것으로</span><h2>표시한 구절에서, 이유가 있는 설명으로.</h2><p>같은 글을 여러 방법으로 읽어 보고, 어려웠던 부분은 필요한 도움과 함께 다시 연습해요.</p><ThinkingPath/><button className="rx-button" onClick={()=>setTab("curriculum")}>내 학년에 맞는 글 찾기 <ArrowRight size={16}/></button></section><JourneyEntryCard/></>}
+      {tab === "curriculum" && <CurriculumLibrary />}
+      {error && (
+        <p className="rx-error" role="alert">
+          {error}
+        </p>
+      )}
+      {tab === "records" && <><nav className="rx-subnav" aria-label="내 성장 살펴보기"><button aria-pressed="true">생각 기록</button>{[["goals","목표와 다음 확인"],["report","평가 결과"],["history","학습이력"]].map(([view,label])=><button key={view} onClick={()=>{useStudentAssessment.getState().setView(view as AssessmentView);setStudentMode("assessment");}}>{label}</button>)}</nav><ThinkingPortfolio audience="student"/></>}
+      {tab === "today" && (
+        <>
+          <section className="garden-welcome" aria-labelledby="today-reading-title">
+            <div className="garden-welcome-copy">
+              <p className="garden-eyebrow">오늘의 읽기</p>
+              <h2 id="today-reading-title">{resume ? '하던 읽기를 이어가요.' : '오늘, 이 글부터 읽어 볼까요?'}</h2>
+              <p>{featured ? readingTitle(featured.slotId, featured.title) : '한 편의 글을 만나고, 나만의 이유를 찾아요.'}</p>
+              <button className="garden-button" onClick={() => featured ? open(featured.slotId, featured.type) : setStudentMode('progressive')}>
+                {resume ? '이어서 읽기' : '오늘의 읽기 시작'} <ArrowRight size={18}/>
+              </button>
+              <div className="garden-study-counts" aria-label="이 기기의 학습 기록">
+                <span>남은 수업 <b>{pending.length}</b></span><span>남긴 생각 <b>{drafts.length}</b></span><span>모은 낱말 <b>{savedVocab.length}</b></span>
               </div>
             </div>
-
-            {/* Ergonomic Studio Quick Jump Banner */}
-            <div className="pt-3.5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs">
-              <div className="flex items-center gap-2 text-slate-600">
-                <span className="font-bold text-slate-900 flex items-center gap-1">
-                  <span>🎨</span>
-                  <span>지문 독서 스튜디오:</span>
-                </span>
-                <span className="text-slate-500">
-                  3색 형광펜 · 의미단위 끊어읽기(/) · 문단 집중리더가 본문 독서 시 완벽 지원됩니다.
-                </span>
+            <img className="garden-welcome-art" src={`${import.meta.env.BASE_URL}brand/editorial/reading.webp`} width="1536" height="1024" alt="책을 읽으며 생각을 정리하는 학습 장면"/>
+          </section>
+          <details className="garden-strategy"><summary>읽는 방법을 먼저 배워 볼까요?<span>시범부터 스스로 읽기까지</span></summary><section className="rx-today-strategy"><div className="rx-today-label"><span>오늘 배울 읽기 방법</span><span>시범 → 내 표시와 설명 → 스스로 확인</span></div>{gradeData.grade_num === 5 ? <JourneyEntryCard/> : <ProgressiveReadingEntry/>}</section></details>
+          <RecentThinkingFeedback onOpen={()=>setTab("records")}/>
+          <div className="rx-student-grid">
+            <div>
+              {featured?.slotId === JOURNEY_SLOT ? null : featured ? (
+                <section className="rx-next-lesson">
+                  <div className="rx-next-top">
+                    <span className="rx-eyebrow">
+                      {resume ? "이어서 읽을 글" : "오늘의 첫 번째 수업"}
+                    </span>
+                    <span className="rx-dark-badge">{taskLabel(featured)}</span>
+                  </div>
+                  <h2>{featured.type === "clinic" ? featured.title : readingTitle(featured.slotId,featured.title)}</h2>
+                  <p>글에서 단서를 찾고, 그렇게 생각한 이유를 설명해 보세요.</p>
+                  <button
+                    className="rx-button rx-button-gold rx-button-lg"
+                    onClick={() => open(featured.slotId, featured.type)}
+                  >
+                    {resume ? "이어서 학습하기" : "학습 시작하기"}
+                    <ArrowRight size={18} />
+                  </button>
+                  <div className="rx-next-decoration" aria-hidden="true">
+                    <BookOpen strokeWidth={0.7} />
+                    <span>+</span>
+                  </div>
+                  <div className="rx-next-bottom">
+                    <span>
+                      <Clock3 size={15} />내 속도에 맞춰 차근차근
+                    </span>
+                    <span>체험 수업</span>
+                  </div>
+                </section>
+              ) : (
+                <section className="rx-surface">
+                  <EmptyState
+                    title="오늘 배정된 수업이 없어요"
+                    description="다른 읽기 자료를 둘러보거나 나의 기록을 확인해 보세요."
+                    action={
+                      <button
+                        className="rx-button"
+                        onClick={() => setLibrary(true)}
+                      >
+                        수업 둘러보기
+                      </button>
+                    }
+                  />
+                </section>
+              )}
+              <div className="rx-list-heading">
+                <h2>
+                  나의 수업 목록 <span>{pending.length}</span>
+                </h2>
+                <span>이 기기의 체험 과제</span>
               </div>
-
+              <div className="rx-lesson-list">
+                {pending.map((task, i) => (
+                  <button
+                    className="rx-lesson-row"
+                    key={task.id}
+                    onClick={() => open(task.slotId, task.type)}
+                  >
+                    <span
+                      className={`rx-lesson-number ${task.slotId.includes("-COM-") ? "is-green" : ""}`}
+                    >
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <span className="rx-lesson-row-copy">
+                      <small>{taskLabel(task)}</small>
+                      <b>{task.type === "clinic" ? task.title : readingTitle(task.slotId,task.title)}</b>
+                      <span>
+                        {sessions[task.slotId]
+                          ? "열어본 수업 · 이어할 수 있어요"
+                          : task.assignedBy}
+                      </span>
+                    </span>
+                    <ChevronRight size={20} />
+                  </button>
+                ))}
+              </div>
+            </div>
+            <aside className="rx-learning-aside">
+              <div className="rx-aside-top">
+                <Sparkles size={20} />
+                <span>오늘의 읽기 방법</span>
+              </div>
+              <h2>
+                정답보다 먼저,
+                <br />
+                이유를 생각해요.
+              </h2>
+              <ol>
+                {[
+                  ["글에서 찾기", "어느 문장이 단서가 될까요?"],
+                  ["생각 이어 보기", "두 내용은 어떻게 연결될까요?"],
+                  ["내 말로 설명하기", "왜 그렇게 생각했나요?"],
+                ].map(([title, desc], i) => (
+                  <li key={title}>
+                    <span>{i + 1}</span>
+                    <div>
+                      <b>{title}</b>
+                      <p>{desc}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+              <div className="rx-aside-note">
+                <PenLine size={18} />
+                <p>
+                  오늘 쓴 문장은
+                  <br />
+                  <button onClick={() => setTab("records")}>나의 기록</button>
+                  에서 다시 볼 수 있어요.
+                </p>
+              </div>
+            </aside>
+          </div>
+          <div className="rx-next-route"><div><h2>배운 방법을 다른 글에서도 써 볼까요?</h2><p>표시한 단서를 연결하며 연습하거나, 도움 없이 읽고 확인해요.</p></div><button className="rx-button" onClick={()=>setTab("practice")}>읽기 연습 <ArrowRight size={16}/></button></div>
+          <ExamEntryCard role="student"/>
+          {gradeData.grade_num >= 5 && <details className="rx-optional"><summary>내 평가와 목표 한눈에 보기</summary><AssessmentEntryCards grade={gradeData.grade_num}/></details>}
+          <section className="rx-discover">
+            <div>
+              <LibraryBig size={23} />
+              <div>
+                <h2>다른 읽기도 만나 볼까요?</h2>
+                <p>
+                  {gradeData.grade}의 다양한 교과 개념과 읽기 목표를 살펴보세요.
+                </p>
+              </div>
+            </div>
+            <button
+              className="rx-button"
+              aria-expanded={library}
+              onClick={() => setLibrary(!library)}
+            >
+              {library ? "자료 접기" : "수업 둘러보기"}
+              <ChevronRight size={16} />
+            </button>
+          </section>
+          {library && (
+            <section className="rx-surface rx-library">
+              <label className="rx-search">
+                <Search size={18} />
+                <input
+                  aria-label="수업 검색"
+                  placeholder="수업 제목 또는 읽기 목표 검색"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                />
+              </label>
+              <div className="rx-course-grid">
+                {gradeSlots16
+                  .filter((s) =>
+                    (
+                      readingTitle(s.slot_id,s.real_csat_test.passage_title) + s.sub_skill_name
+                    ).includes(query),
+                  )
+                  .map((s) => (
+                    <button
+                      className="rx-course-card"
+                      key={s.slot_id}
+                      onClick={() => open(s.slot_id)}
+                    >
+                      <span className="rx-badge">
+                        {s.curriculum_concept.subject}
+                      </span>
+                      <h3>{readingTitle(s.slot_id,s.real_csat_test.passage_title)}</h3>
+                      <p>{s.sub_skill_name}</p>
+                      <span className="rx-text-link">
+                        읽어보기 <ArrowRight size={15} />
+                      </span>
+                    </button>
+                  ))}
+              </div>
+              {!gradeSlots16.some((s) =>
+                (readingTitle(s.slot_id,s.real_csat_test.passage_title) + s.sub_skill_name).includes(
+                  query,
+                ),
+              ) && (
+                <EmptyState
+                  title="찾는 수업이 없어요"
+                  description="다른 검색어로 찾아보세요."
+                />
+              )}
+            </section>
+          )}
+          <details className="rx-optional">
+            <summary>더 살펴볼 체험 활동</summary>
+            <div>
+              <button className="rx-button" onClick={() => setShowVocab(true)}>
+                어휘 연습
+              </button>
+              <button className="rx-button" onClick={() => setShowGalaxy(true)}>
+                성장 지도 시안
+              </button>
+              <button className="rx-button" onClick={() => setShowCat(true)}>
+                초기 확인 시안
+              </button>
               <button
-                onClick={() => setStudentMode('studio')}
-                className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow-xs transition flex items-center gap-1.5 cursor-pointer"
+                className="rx-button"
+                onClick={() => { useStudentAssessment.getState().setView("exams"); setStudentMode(gradeData.grade_num >= 5 ? "assessment" : "cbt_exam"); }}
               >
-                <span>📖 독서 스튜디오 바로가기 ➔</span>
+                혼자 확인하기
               </button>
             </div>
-          </div>
-
-          {/* Assignments List Cards */}
-          <div className="grid grid-cols-1 gap-3">
-            {pendingAssignments.length === 0 ? (
-              <div className="bg-white rounded-3xl border border-slate-200/80 p-10 text-center text-slate-500 space-y-2">
-                <div className="text-3xl">🎉</div>
-                <div className="font-black text-base text-slate-900">
-                  오늘 배정된 모든 과제를 완벽하게 마쳤습니다!
-                </div>
-                <p className="text-xs text-slate-500 max-w-md mx-auto">
-                  완료 과제 탭에서 오답노트를 복습하거나, 상단의 10초 어휘 듀얼에 도전해 보세요.
-                </p>
-              </div>
-            ) : (
-              pendingAssignments.map((task) => (
-                <div
-                  key={task.id}
-                  className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs hover:border-blue-300 transition flex flex-col md:flex-row md:items-center justify-between gap-4"
-                >
-                  <div className="space-y-1.5 flex-1">
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <span
-                        className={`text-[10px] font-bold px-2 py-0.5 rounded-md ${
-                          task.type === 'reading'
-                            ? 'bg-blue-50 text-blue-700 border border-blue-200'
-                            : task.type === 'clinic'
-                            ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
-                            : 'bg-amber-50 text-amber-700 border border-amber-200'
-                        }`}
-                      >
-                        {task.type === 'reading'
-                          ? '정규 독서과제'
-                          : task.type === 'clinic'
-                          ? '약점 클리닉'
-                          : '어휘 훈련'}
-                      </span>
-                      <span className="text-xs font-bold text-slate-500 font-mono">
-                        {task.slotId}
-                      </span>
-                      <span className="text-xs text-rose-600 font-bold bg-rose-50 px-2 py-0.5 rounded border border-rose-200/60">
-                        기한: {task.dueDate}
-                      </span>
-                      {task.trapWarning && (
-                        <span className="text-xs font-bold text-amber-800 bg-amber-50 px-2 py-0.5 rounded border border-amber-200/80">
-                          {task.trapWarning}
-                        </span>
-                      )}
-                    </div>
-
-                    <h3 className="text-base font-black text-slate-900 tracking-tight">
-                      {task.title}
-                    </h3>
-
-                    <p className="text-xs text-slate-500">
-                      배정: <b className="text-slate-700">{task.assignedBy}</b> · 1:1 맞춤 처방 연동
-                    </p>
-                  </div>
-
-                  {/* Actions */}
-                  <div className="flex items-center gap-2 shrink-0">
-                    <button
-                      onClick={() => handleSimulateSubmit(task.id)}
-                      className="text-xs font-bold px-3 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-600 border border-slate-200 transition cursor-pointer"
-                      title="실제 풀이 없이 완료 상태로 제출 시뮬레이션"
-                    >
-                      ✓ 제출 완료 처리
-                    </button>
-                    <button
-                      onClick={() => handleStartAssignment(task.slotId, task.type, task.id)}
-                      className="text-xs font-bold px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white shadow-xs transition flex items-center gap-1.5 cursor-pointer"
-                    >
-                      <span>▶ 과제 시작하기</span>
-                    </button>
-                  </div>
-                </div>
-              ))
-            )}
-          </div>
-        </div>
+            <p>
+              선택 활동과 진단 화면은 예시입니다. 실제 성취 결과로 사용하지
+              않습니다.
+            </p>
+          </details>
+        </>
       )}
-
-      {/* ================= TAB 2: ✅ 완료 과제 & 오답노트 ================= */}
-      {activeTab === 'completed' && (
-        <div className="space-y-4">
-          <div className="bg-white rounded-3xl border border-slate-200/80 p-5 shadow-xs flex items-center justify-between gap-3">
+      {tab === "records" && (
+        <section className="rx-surface rx-records">
+          <div className="rx-section-title">
             <div>
-              <h2 className="text-base font-black text-slate-900">
-                제출 완료된 과제 성적표 및 오답노트 ({completedAssignments.length}건)
-              </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                풀이를 완료한 과제의 점수, 획득한 오답 백신, 수능형 해설을 다시 복습할 수 있습니다.
-              </p>
+              <p className="rx-eyebrow">MY THINKING NOTES</p>
+              <h2>내 말로 남긴 생각</h2>
             </div>
-            <span className="text-xs font-bold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-xl border border-emerald-200">
-              평균 92점 성취
-            </span>
+            <span className="rx-badge">기기 저장 · {drafts.length}개</span>
           </div>
-
-          <div className="grid grid-cols-1 gap-3">
-            {completedAssignments.map((task) => (
-              <div
-                key={task.id}
-                className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-3"
-              >
-                <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-slate-100">
-                  <div className="flex items-center gap-2">
-                    <span className="w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xs font-bold">
-                      ✓
-                    </span>
-                    <span className="font-black text-sm text-slate-900">{task.title}</span>
-                    <span className="text-xs text-slate-500 font-mono">({task.slotId})</span>
-                  </div>
-
-                  <div className="flex items-center gap-2">
-                    <span className="text-xs font-black text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-md border border-emerald-200">
-                      점수: {task.score ?? 92}점
-                    </span>
-                    <span className="text-xs text-slate-400">제출 완료</span>
-                  </div>
-                </div>
-
-                <div className="text-xs text-slate-600 leading-relaxed bg-slate-50/70 p-3 rounded-xl border border-slate-200/60">
-                  <span className="font-bold text-slate-900 mr-1.5">💡 수능 오답 백신 해설:</span>
-                  이 지문은 평가원 고난도 유형인 인과 전도(D2)와 속성 교차(D4) 함정이 설계되어 있습니다. 본문 2문단과 4문단의 중심 논증 구조를 정확히 짚어냄으로써 함정을 완벽히 방어했습니다.
-                </div>
-
-                <div className="flex justify-end gap-2 pt-1">
-                  <button
-                    onClick={() => selectGradeAndSlot(gradeData.grade_num, task.slotId, 'studio')}
-                    className="text-xs font-bold px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 transition cursor-pointer"
-                  >
-                    지문 다시 읽기 ➔
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+          <p className="rx-muted">
+            학습하면서 작성한 초안이에요. 교사에게 제출된 답안과는 구분해
+            보관해요.
+          </p>
+          {drafts.length ? (
+            drafts.map(([key, text]) => {
+              const lesson = findLesson(key.split(":")[0]);
+              return (
+                <article className="rx-draft" key={key}>
+                  <span className="rx-eyebrow">생각 기록</span>
+                  <h3>
+                    {key.includes(":journey-")
+                      ? JOURNEY_GOAL
+                      : lesson && "real_csat_test" in lesson
+                        ? lesson.real_csat_test.passage_title
+                        : "나의 생각 연습"}
+                  </h3>
+                  <p>{text}</p>
+                  {lesson && (
+                    <button
+                      className="rx-text-link"
+                      onClick={() => open(key.split(":")[0])}
+                    >
+                      다시 읽고 고치기 <ArrowRight size={16} />
+                    </button>
+                  )}
+                </article>
+              );
+            })
+          ) : (
+            <EmptyState
+              title="첫 번째 생각을 기다리고 있어요"
+              description="수업의 ‘내 말로 쓰기’에서 글을 쓰면 여기에 보관돼요."
+              action={
+                <button
+                  className="rx-button rx-button-primary"
+                  onClick={() => setTab("today")}
+                >
+                  오늘의 학습으로
+                </button>
+              }
+            />
+          )}
+        </section>
       )}
-
-      {/* ================= TAB 3: 📈 내 진도 & 성장 트래커 ================= */}
-      {activeTab === 'progress' && (
-        <div className="space-y-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="bg-white rounded-3xl border border-slate-200/80 p-5 shadow-xs space-y-1 text-center">
-              <span className="text-xs font-bold text-slate-500">현재 SmartScore</span>
-              <span className="text-3xl font-black text-blue-600 block mt-1">{currentSmart}점</span>
-              <span className="text-xs text-emerald-600 font-bold">+14점 상승 중</span>
-            </div>
-
-            <div className="bg-white rounded-3xl border border-slate-200/80 p-5 shadow-xs space-y-1 text-center">
-              <span className="text-xs font-bold text-slate-500">연속 학습 일수</span>
-              <span className="text-3xl font-black text-amber-500 block mt-1">{streakDays}일 연속</span>
-              <span className="text-xs text-slate-400 font-medium">매일 15분 루틴 실천</span>
-            </div>
-
-            <div className="bg-white rounded-3xl border border-slate-200/80 p-5 shadow-xs space-y-1 text-center">
-              <span className="text-xs font-bold text-slate-500">획득 오답 백신</span>
-              <span className="text-3xl font-black text-emerald-600 block mt-1">{unlockedVaccines.length} / 6종</span>
-              <span className="text-xs text-emerald-600 font-bold">D1·D2·D4 면역 획득</span>
-            </div>
-          </div>
-
-          {/* 16-Slot Curriculum Progress Table */}
-          <div className="bg-white rounded-3xl border border-slate-200/80 p-6 shadow-xs space-y-4">
-            <div className="flex items-center justify-between">
-              <div>
-                <h3 className="text-base font-black text-slate-900">
-                  {gradeData.grade} 16개 핵심 위계 패키지 이수 현황
-                </h3>
-                <p className="text-xs text-slate-500">
-                  정규 설명문 슬롯과 취약 결손 보강 클리닉 슬롯의 전체 진척도입니다.
-                </p>
-              </div>
-              <span className="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-xl border border-blue-200">
-                이수율 62.5%
-              </span>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2">
-              {gradeSlots16.slice(0, 16).map((slot, idx) => {
-                const isCurrent = slot.slot_id === gradeData.slot_id;
-                const isPassed = idx < 10;
-                return (
+      {tab === "vocab" && (
+        <section className="rx-surface rx-records">
+          <PageHeading
+            eyebrow="MY WORDS"
+            title="새롭게 만난 낱말"
+            description="본문에서 저장한 낱말을 다시 읽어 보세요."
+          />
+          {savedVocab.length ? (
+            <div className="rx-course-grid">
+              {savedVocab.map((v) => (
+                <article className="rx-course-card" key={v.word}>
+                  <Bookmark size={20} />
+                  <h3>{v.word}</h3>
+                  <p>{v.desc}</p>
                   <button
-                    key={slot.slot_id}
-                    onClick={() => selectGradeAndSlot(gradeData.grade_num, slot.slot_id, 'studio')}
-                    className={`p-3 rounded-2xl border text-center transition cursor-pointer ${
-                      isCurrent
-                        ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
-                        : isPassed
-                        ? 'bg-emerald-50 text-emerald-900 border-emerald-200 hover:bg-emerald-100'
-                        : 'bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100'
-                    }`}
+                    className="rx-text-link"
+                    onClick={() => removeVocabWord(v.word)}
                   >
-                    <div className="text-[10px] font-bold opacity-80">#{idx + 1}</div>
-                    <div className="text-xs font-black truncate mt-0.5">{slot.slot_id}</div>
-                    <div className="text-[10px] font-bold mt-1">
-                      {isPassed ? '✓ 완료' : '진행전'}
-                    </div>
+                    외웠어요 · 단어장에서 빼기 <Check size={15} />
                   </button>
-                );
-              })}
+                </article>
+              ))}
             </div>
-          </div>
-        </div>
+          ) : (
+            <EmptyState
+              title="아직 저장한 낱말이 없어요"
+              description="읽기 화면 아래의 핵심 낱말에서 ‘단어장에 담기’를 눌러 보세요."
+            />
+          )}
+        </section>
       )}
-
-      {/* Gamification Modals */}
-      {showVocabDuel && (
+      {showVocab && (
         <VocabDuelArena
           vocabList={gradeData.real_csat_test.vocab_notes || []}
-          onClose={() => setShowVocabDuel(false)}
+          onClose={() => setShowVocab(false)}
         />
       )}
-      {showGalaxyMap && (
-        <GalaxyExpeditionMap onClose={() => setShowGalaxyMap(false)} />
+      {showGalaxy && (
+        <GalaxyExpeditionMap onClose={() => setShowGalaxy(false)} />
       )}
-      {showCatModal && (
+      {showCat && (
         <OnboardingCatModal
           gradeData={gradeData}
-          onClose={() => setShowCatModal(false)}
+          onClose={() => setShowCat(false)}
         />
       )}
     </div>
   );
-};
+}

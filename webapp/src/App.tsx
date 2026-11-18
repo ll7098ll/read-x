@@ -1,25 +1,104 @@
-import React, { useState } from 'react';
-import masterDataRaw from './data/commercialMasterData.json';
-import type { CommercialMasterData } from './types/courseware';
-import { useCoursewareStore } from './store/useCoursewareStore';
-import { resolveActiveGradeAndSlotData } from './services/firebaseDbService';
-import { StudentHeader } from './components/layout/StudentHeader';
-import { ParentHeader } from './components/layout/ParentHeader';
-import { TeacherHeader } from './components/layout/TeacherHeader';
-import { AdminHeader } from './components/layout/AdminHeader';
-import { RoleGatewayModal } from './components/layout/RoleGatewayModal';
-import { MainLandingPage } from './components/layout/MainLandingPage';
-import { XRaySummaryHero } from './components/layout/XRaySummaryHero';
-import { StudentJourneyHub } from './components/student/StudentJourneyHub';
-import { AdaptiveClinicStudio } from './components/student/AdaptiveClinicStudio';
-import { SplitScreenStudio } from './components/student/SplitScreenStudio';
-import { CbtMockExamStudio } from './components/student/CbtMockExamStudio';
-import { OnboardingCatModal } from './components/student/OnboardingCatModal';
-import { ParentJourneyHub } from './components/parent/ParentJourneyHub';
-import { TeacherJourneyHub } from './components/teacher/TeacherJourneyHub';
-import { ItemBankAdminStudio } from './components/admin/ItemBankAdminStudio';
+import { DirectorDemoHub } from "./components/admin/DirectorDemoHub";
+import { CurriculumLibrary } from "./components/common/CurriculumLibrary";
+import React, { useState, useEffect } from "react";
+import { Palette, ArrowUpRight } from "lucide-react";
+import { masterData, findLesson } from "./data/lessonCatalog";
+import { DemoNotice } from "./components/common/DemoNotice";
+import { BrandGuide } from "./components/common/DesignSystem";
+import { ReadXBrand } from "./components/brand/ReadXBrand";
+import { BrandKit } from "./components/brand/BrandKit";
+import { BrandHeader } from "./components/layout/BrandHeader";
+import { CommonFoundationStudio } from "./components/student/ClinicActivities";
+import { useCoursewareStore } from "./store/useCoursewareStore";
+import { resolveActiveGradeAndSlotData } from "./services/firebaseDbService";
+import { MainLandingPage } from "./components/layout/MainLandingPage";
+import { StudentJourneyHub } from "./components/student/StudentJourneyHub";
+import { AdaptiveClinicStudio } from "./components/student/AdaptiveClinicStudio";
+import { SplitScreenStudio } from "./components/student/SplitScreenStudio";
+import { LearningJourneyStudio } from "./components/student/LearningJourneyStudio";
+import { ProgressiveReadingStudio } from "./components/student/ProgressiveReadingStudio";
+import { CorpusReadingStudio } from "./components/student/CorpusReadingStudio";
+import { revisedLessonForSlot } from "./data/corpusReading";
+import { JourneyContentStatus } from "./components/common/LearningEvidenceReport";
+import { JOURNEY_SLOT } from "./data/learningJourney";
+import { CbtMockExamStudio } from "./components/student/CbtMockExamStudio";
+import { StudentAssessmentHub } from "./components/student/StudentAssessmentHub";
+import { OnboardingCatModal } from "./components/student/OnboardingCatModal";
+import { ParentJourneyHub } from "./components/parent/ParentJourneyHub";
+import { TeacherJourneyHub } from "./components/teacher/TeacherJourneyHub";
+import { ItemBankAdminStudio } from "./components/admin/ItemBankAdminStudio";
+import type { RoleType, StudentModeType } from "./types/courseware";
+import { ExamPortal } from "./components/exam/ExamPortal";
+import { readExamRoute } from "./services/examNavigation";
 
-const masterData = masterDataRaw as unknown as CommercialMasterData;
+/** Public demo navigation only. This does not authorize access to production data. */
+function useDemoNavigation() {
+  useEffect(() => {
+    let restoring = false;
+    const restore = () => {
+      if (readExamRoute(window.location.hash).active) return;
+      const [role, mode, encodedId] = window.location.hash
+        .replace(/^#\//, "")
+        .split("/");
+      if (!["landing", "student", "parent", "teacher", "director", "admin"].includes(role))
+        return;
+      restoring = true;
+      const s = useCoursewareStore.getState();
+      if (role === "student") {
+        let id = "";
+        try {
+          id = decodeURIComponent(encodedId || "");
+        } catch {
+          /* Invalid links return to the list. */
+        }
+        const lesson = id ? findLesson(id) : null;
+        const validMode = [
+          "portal",
+          "studio",
+          "progressive",
+          "journey",
+          "clinic",
+          "common",
+          "cbt_exam",
+          "assessment",
+        ].includes(mode)
+          ? (mode as StudentModeType)
+          : "portal";
+        if (["progressive", "journey", "assessment"].includes(validMode)) s.setStudentMode(validMode);
+        else if (lesson) s.selectGradeAndSlot(lesson.grade_num, id, validMode);
+        else s.setStudentMode("portal");
+      }
+      s.setActiveRole(role as RoleType);
+      restoring = false;
+    };
+    restore();
+    const unsubscribe = useCoursewareStore.subscribe((s, prev) => {
+      if (
+        restoring || readExamRoute(window.location.hash).active ||
+        (s.activeRole === prev.activeRole &&
+          s.studentMode === prev.studentMode &&
+          s.activeSlotId === prev.activeSlotId)
+      )
+        return;
+      const hash =
+        s.activeRole === "student"
+          ? "#/student/" +
+            s.studentMode +
+            (s.activeSlotId ? "/" + encodeURIComponent(s.activeSlotId) : "")
+          : "#/" + s.activeRole;
+      if (window.location.hash !== hash)
+        window.history.pushState(null, "", hash);
+      window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
+    });
+    window.addEventListener("popstate", restore);
+    window.addEventListener("hashchange", restore);
+    return () => {
+      unsubscribe();
+      window.removeEventListener("popstate", restore);
+      window.removeEventListener("hashchange", restore);
+    };
+  }, []);
+}
 
 export const App: React.FC = () => {
   const {
@@ -30,157 +109,160 @@ export const App: React.FC = () => {
     customSlotsById,
     dynamicSubskillScores,
   } = useCoursewareStore();
-
-  const [showRoleGateway, setShowRoleGateway] = useState<boolean>(false);
-  const [showCatModal, setShowCatModal] = useState<boolean>(false);
-
-  // Resolve active 16-slot package and common 6 remedial units for the selected grade
-  const {
-    activeGradeData,
-    gradeSlots16,
-    gradeCommon6,
-  } = resolveActiveGradeAndSlotData(
-    masterData,
-    activeGradeIdx,
-    activeSlotId,
-    customSlotsById,
-    dynamicSubskillScores
-  );
-
-  const totalDbSlots =
-    (masterData.expository_slots_96?.length || 96) +
-    (masterData.common_slots_36?.length || 36);
-
-  if (activeRole === 'landing') {
-    return (
-      <>
-        <MainLandingPage totalDbSlots={totalDbSlots} />
-        <RoleGatewayModal
-          isOpen={showRoleGateway}
-          onClose={() => setShowRoleGateway(false)}
-        />
-      </>
+  const [showGuide, setShowGuide] = useState(false);
+  const [brandRoute, setBrandRoute] = useState(() => window.location.hash.startsWith('#/brand'));
+  const [examRoute, setExamRoute] = useState(() => readExamRoute(window.location.hash));
+  useEffect(() => {
+    const update = () => {
+      setExamRoute(readExamRoute(window.location.hash));
+      setBrandRoute(window.location.hash.startsWith('#/brand'));
+    };
+    window.addEventListener('hashchange', update);
+    window.addEventListener('popstate', update);
+    return () => { window.removeEventListener('hashchange', update); window.removeEventListener('popstate', update); };
+  }, []);
+  useDemoNavigation();
+  const { activeGradeData, gradeSlots16, activeCommonSlot, resolutionError } =
+    resolveActiveGradeAndSlotData(
+      masterData,
+      activeGradeIdx,
+      activeSlotId,
+      customSlotsById,
+      dynamicSubskillScores,
     );
-  }
-
+  const totalDbSlots =
+    (masterData.expository_slots_96?.length || 0) +
+    (masterData.common_slots_36?.length || 0);
+  const reading = activeRole === "student" && !["portal", "assessment"].includes(studentMode);
+  const revisedLesson = !customSlotsById[activeGradeData.slot_id] ? revisedLessonForSlot(activeGradeData.slot_id) : undefined;
+  if (brandRoute) return <div className="rx-app" data-brand="read-x-v3"><a className="rx-skip-link" href="#main-content" onClick={e=>{e.preventDefault();document.getElementById('main-content')?.focus();}}>본문으로 건너뛰기</a><BrandKit/></div>;
   return (
-    <div className="min-h-screen flex flex-col bg-slate-100 text-slate-900">
-      {/* 1. DEDICATED ROLE-SPECIFIC NAVIGATION HEADER */}
-      {activeRole === 'student' && (
-        <StudentHeader
-          gradeData={activeGradeData}
-          onOpenRoleGateway={() => setShowRoleGateway(true)}
-          onOpenCatModal={() => setShowCatModal(true)}
-        />
-      )}
-      {activeRole === 'parent' && (
-        <ParentHeader
-          gradeData={activeGradeData}
-          onOpenRoleGateway={() => setShowRoleGateway(true)}
-        />
-      )}
-      {activeRole === 'teacher' && (
-        <TeacherHeader
-          grades={masterData.grades_data}
-          onOpenRoleGateway={() => setShowRoleGateway(true)}
-        />
-      )}
-      {activeRole === 'admin' && (
-        <AdminHeader
-          totalDbSlots={totalDbSlots}
-          onOpenRoleGateway={() => setShowRoleGateway(true)}
-        />
-      )}
-
-      {/* Main Dedicated Workspace */}
-      <main className="flex-1 max-w-[1600px] w-full mx-auto px-3 sm:px-5 py-4">
-        {/* Show X-Ray Hero Summary ONLY in Student (clinic) view */}
-        {activeRole === 'student' && studentMode === 'clinic' && (
-          <XRaySummaryHero gradeData={activeGradeData} />
-        )}
-
-        {/* ROLE 1: DEDICATED STUDENT LEARNING JOURNEY */}
-        {activeRole === 'student' && (
-          <>
-            {studentMode === 'portal' && (
-              <StudentJourneyHub
+    <div
+      className="rx-app"
+      data-brand="read-x-v3"
+      data-role={examRoute.active ? examRoute.role || "student" : activeRole}
+      data-grade={activeGradeIdx + 1}
+    >
+      <a className="rx-skip-link" href="#main-content" onClick={e => { e.preventDefault(); document.getElementById("main-content")?.focus(); }}>
+        본문으로 건너뛰기
+      </a>
+      {!examRoute.active && activeRole !== "landing" && <DemoNotice />}
+      {examRoute.active ? <ExamPortal key={examRoute.role || 'student'} requestedRole={examRoute.role}/> : activeRole === "landing" ? (
+        <MainLandingPage totalDbSlots={totalDbSlots} />
+      ) : (
+        <>
+          <BrandHeader />
+          <main
+            id="main-content"
+            tabIndex={-1}
+            className={`rx-workspace ${reading ? "rx-workspace-reading" : ""}`}
+          >
+            {activeRole === "student" && (
+              <>
+                {studentMode === "portal" && (
+                  <StudentJourneyHub
+                    gradeData={activeGradeData}
+                    gradeSlots16={gradeSlots16}
+                  />
+                )}
+                {studentMode === "progressive" && <ProgressiveReadingStudio />}
+                {studentMode === "journey" && <LearningJourneyStudio />}
+                {studentMode === "assessment" && <StudentAssessmentHub />}
+                {["clinic", "studio", "common"].includes(studentMode) &&
+                  (resolutionError ? (
+                    <section className="rx-surface rx-records" role="alert">
+                      <h1>수업을 열 수 없어요</h1>
+                      <p>{resolutionError}</p>
+                      <button
+                        className="rx-button rx-button-primary"
+                        onClick={() =>
+                          useCoursewareStore.getState().setStudentMode("portal")
+                        }
+                      >
+                        학습 목록으로
+                      </button>
+                    </section>
+                  ) : activeCommonSlot ? (
+                    <div className="rx-legacy-learning">
+                      <CommonFoundationStudio
+                        key={activeCommonSlot.code}
+                        data={activeCommonSlot}
+                      />
+                    </div>
+                  ) : studentMode === "clinic" ? (
+                    <div className="rx-legacy-learning">
+                      <AdaptiveClinicStudio
+                        key={activeGradeData.slot_id}
+                        gradeData={activeGradeData}
+                      />
+                    </div>
+                  ) : revisedLesson ? (
+                    <CorpusReadingStudio key={revisedLesson.id} lesson={revisedLesson}/>
+                  ) : activeGradeData.slot_id === JOURNEY_SLOT &&
+                    !customSlotsById[JOURNEY_SLOT] ? (
+                    <LearningJourneyStudio />
+                  ) : (
+                    <SplitScreenStudio
+                      key={activeGradeData.slot_id}
+                      gradeData={activeGradeData}
+                    />
+                  ))}
+                {studentMode === "cbt_exam" && (
+                  activeGradeData.grade_num >= 5 ? <StudentAssessmentHub /> :
+                  <div className="rx-legacy-learning">
+                    <CbtMockExamStudio
+                      gradeData={activeGradeData}
+                      gradeSlots16={gradeSlots16}
+                    />
+                  </div>
+                )}
+                {studentMode === "onboarding_cat" && (
+                  <OnboardingCatModal
+                    gradeData={activeGradeData}
+                    onClose={() =>
+                      useCoursewareStore.getState().setStudentMode("portal")
+                    }
+                  />
+                )}
+              </>
+            )}
+            {activeRole === "parent" && (
+              <ParentJourneyHub
                 gradeData={activeGradeData}
-                gradeSlots16={gradeSlots16}
+                subskillMeta={masterData.subskill_16_meta}
               />
             )}
-            {studentMode === 'clinic' && (
-              <AdaptiveClinicStudio gradeData={activeGradeData} />
+            {activeRole === "teacher" && (
+              <TeacherJourneyHub data={masterData} />
             )}
-            {studentMode === 'studio' && (
-              <SplitScreenStudio gradeData={activeGradeData} />
+            {activeRole === "director" && <DirectorDemoHub />}
+            {activeRole === "admin" && (
+              <div className="rx-admin-workspace">
+                <JourneyContentStatus />
+                <details className="rx-admin-catalog">
+                  <summary>교과 지문·교육과정 통합 자료실 열기</summary>
+                  <CurriculumLibrary />
+                </details>
+                <ItemBankAdminStudio data={masterData} />
+              </div>
             )}
-            {studentMode === 'cbt_exam' && (
-              <CbtMockExamStudio
-                gradeData={activeGradeData}
-                gradeSlots16={gradeSlots16}
-              />
-            )}
-            {(studentMode === 'onboarding_cat' || showCatModal) && (
-              <OnboardingCatModal
-                gradeData={activeGradeData}
-                onClose={() => {
-                  setShowCatModal(false);
-                  useCoursewareStore.getState().setStudentMode('portal');
-                }}
-              />
-            )}
-          </>
-        )}
-
-        {/* ROLE 2: DEDICATED PARENT JOURNEY (TODAY'S ACTIVITY, X-RAY, TRENDS, TABLE TALK) */}
-        {activeRole === 'parent' && (
-          <ParentJourneyHub
-            gradeData={activeGradeData}
-            subskillMeta={masterData.subskill_16_meta}
-          />
-        )}
-
-        {/* ROLE 3: DEDICATED TEACHER & ACADEMY JOURNEY (DIAGNOSIS, RESULTS, PRESCRIPTION, TRENDS, FULL REPORT) */}
-        {activeRole === 'teacher' && (
-          <TeacherJourneyHub data={masterData} />
-        )}
-
-        {/* ROLE 4: DEDICATED ACADEMY B2B OPERATIONS HUB & CMS */}
-        {activeRole === 'admin' && (
-          <ItemBankAdminStudio data={masterData} />
-        )}
-      </main>
-
-      {/* Role Switcher Persona Gateway Modal */}
-      <RoleGatewayModal
-        isOpen={showRoleGateway}
-        onClose={() => setShowRoleGateway(false)}
-      />
-
-      {/* Clean Light Footer */}
-      <footer className="bg-white text-slate-500 text-xs py-3 px-5 border-t border-slate-200 mt-8 no-print">
-        <div className="max-w-[1500px] mx-auto flex flex-wrap items-center justify-between gap-2">
-          <div className="flex items-center gap-2">
-            <b className="text-slate-900">ReadX-Ray Pro</b> · 
-            <span className="text-slate-600">
-              {activeRole === 'student'
-                ? '👦 학생 (과제함 · 독서 풀이 · 진도)'
-                : activeRole === 'parent'
-                ? '👨‍👩‍👧 학부모 (오늘 자녀 활동 · 6D 진단 · 밥상머리 코칭)'
-                : activeRole === 'teacher'
-                ? '👩‍🏫 교사 (25명 관제 · 맞춤 처방 · 성장 통계)'
-                : '🏢 학원장 (132슬롯 CMS · 라이선스 · 상담 성적표)'}
-            </span>
+          </main>
+        </>
+      )}
+      {(examRoute.active || activeRole !== "landing") && <footer className="rx-footer no-print">
+        <div className="rx-container">
+          <div>
+            <ReadXBrand />
+            <p>읽는 방법을 배우는 문해력 코스웨어</p>
           </div>
-          <div className="flex items-center gap-3 text-[11px] text-slate-400">
-            <span>2022 개정 초등 전 교과 132슬롯 마스터</span>
-            <span>·</span>
-            <span>KICE 6대 오답공학 (D1~D6)</span>
-          </div>
+          <button className="rx-text-link" onClick={() => setShowGuide(true)}>
+            <Palette size={16} />
+            Read X 디자인 가이드 <ArrowUpRight size={15} />
+          </button>
         </div>
-      </footer>
+      </footer>}
+      {showGuide && <BrandGuide onClose={() => setShowGuide(false)} />}
     </div>
   );
 };
-
 export default App;

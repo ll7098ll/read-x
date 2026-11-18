@@ -113,7 +113,7 @@ export const RoleGatewayModal: React.FC<RoleGatewayModalProps> = ({
                 RX
               </span>
               <span className="text-xs font-mono font-bold tracking-wider text-emerald-400">
-                READX-RAY PRO PERSONA GATEWAY
+                READ X PERSONA GATEWAY
               </span>
             </div>
             <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white">
@@ -214,7 +214,7 @@ export const RoleGatewayModal: React.FC<RoleGatewayModalProps> = ({
             💡 언제든 화면 상단 우측의 <b>[🔄 사용자 전환]</b> 버튼을 통해 다른 주체로 이동할 수 있습니다.
           </div>
           <div className="font-mono text-[11px]">
-            ReadX-Ray Pro 4-Persona Unified Architecture
+            Read X 4-Persona Unified Architecture
           </div>
         </div>
       </div>

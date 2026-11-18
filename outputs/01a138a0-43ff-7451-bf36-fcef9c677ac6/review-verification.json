@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-14",
+  "workbook": {
+    "sheetCount": 5,
+    "summaryFormulas": "verified against JSON counts",
+    "formulaErrorsFound": 0,
+    "visualReview": "all five worksheets rendered and inspected",
+    "excelApplicationRecalculation": "not tested in native Excel"
+  },
+  "reader": {
+    "allPassagesDisplayed": 120,
+    "allStandardsDisplayed": 611,
+    "grade1Semester1Placements": 5,
+    "grade1Semester1NewPassages": 2,
+    "scienceFilterIncludingLegacyLabels": 45,
+    "standardCodeSearch": "6국04-02 returned the standard on standard language and dialect",
+    "semesterFilterDisabledForGradeBandStandards": true,
+    "teacherGuidance": "closed initially; manual expansion verified",
+    "browserConsoleErrors": 0
+  },
+  "limits": [
+    "Structural and display validation do not establish educational validity.",
+    "All new and legacy passages still require editorial review."
+  ]
+}

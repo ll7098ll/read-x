@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "browserErrors": [],
+  "scenarios": [
+    "plan approval",
+    "8 sessions",
+    "different-day evidence",
+    "independent transfer save",
+    "teacher review",
+    "next stage",
+    "mobile layout"
+  ]
+}

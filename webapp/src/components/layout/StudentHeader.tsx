@@ -74,9 +74,9 @@ export const StudentHeader: React.FC<StudentHeaderProps> = ({
           {/* SmartScore Pill */}
           <div className="hidden sm:flex items-center gap-1.5 bg-slate-50 border border-slate-200/80 px-2.5 py-1 rounded-lg text-xs">
             <span className="text-amber-500 font-bold">⚡</span>
-            <span className="font-black text-slate-800">{currentSmartScore}점</span>
+            <span className="font-black text-slate-800">체험 {currentSmartScore}점</span>
             <span className="text-slate-400">·</span>
-            <span className="font-bold text-slate-500">{streakDays}일 연속</span>
+            <span className="font-bold text-slate-500">예시 {streakDays}일</span>
           </div>
 
           <button

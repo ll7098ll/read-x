@@ -1,0 +1,223 @@
+{
+  "reportName": "listening-synthesis-result",
+  "purpose": "듣기 자료와 첫 읽기 뒤 사용하는 읽기 모델의 음성 초안. 발음·쉼·속도 청취 검토 및 교사·학생 검증 대기.",
+  "sourceSnapshotHash": "e928db7c2fac0ccc2ad7af03689d236031f27b735cf66c8c7437f6b591c2dfbd",
+  "requests": [
+    {
+      "id": "PV2-G3-oral-02-S1-A-A1",
+      "materialId": "PV2-G3-oral-02-S1-A",
+      "text": "안내자입니다. 이번 목요일 도서실 앞에서 책을 바꿉니다. 바꾸고 싶은 책 한 권을 가져오세요. 책에는 작은 이름표를 끼워 오세요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S1-B-A1",
+      "materialId": "PV2-G3-oral-02-S1-B",
+      "text": "활동 안내자입니다. 종이 인형 놀이가 끝나면 인형을 순환 상자에 넣어 주세요. 다음 모둠도 그 상자를 쓸 거예요. 각자 준비할 것은 색연필 한 자루예요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S2-A-A1",
+      "materialId": "PV2-G3-oral-02-S2-A",
+      "text": "모둠 활동 안내자입니다. 이번 모둠 활동에는 긴 종이와 빈 통을 씁니다. 긴 종이는 한 모둠에 한 장씩 준비하세요. 빈 통도 모둠별로 가져오세요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S2-B-A1",
+      "materialId": "PV2-G3-oral-02-S2-B",
+      "text": "낭독회 담당자입니다. 학급 낭독회는 다음 주 수요일에 합니다. 참가하고 싶은 학생은 신청 카드를 담임 선생님께 내 주세요. 낭독할 글의 제목도 카드에 적어 주세요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S3-A-A1",
+      "materialId": "PV2-G3-oral-02-S3-A",
+      "text": "도서실 담당자입니다. 모형 전시는 토요일 열 시에 도서실에서 시작합니다. 입장할 때는 전시 표를 보여 주세요.\n\n표 담당 선생님입니다. 전시 표는 금요일 오후에 교실 앞에서 나누어 줍니다.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S3-B-A1",
+      "materialId": "PV2-G3-oral-02-S3-B",
+      "text": "연습 진행자입니다. 첫 모둠은 토요일 두 시에 음악실에서 연습을 시작합니다. 다음 모둠은 첫 모둠이 마치면 들어옵니다.\n\n담당 선생님입니다. 다음 모둠은 음악실 앞에서 기다려 주세요. 연습 순서는 교실 게시판에도 붙여 두었습니다.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S4-A-A1",
+      "materialId": "PV2-G3-oral-02-S4-A",
+      "text": "학생입니다. 우리 모둠 발표는 몇 분 동안 하나요?\n\n발표 진행자입니다. 발표는 세 시부터 시작하고 앞 모둠부터 해요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S4-B-A1",
+      "materialId": "PV2-G3-oral-02-S4-B",
+      "text": "준비물 안내자입니다. 작은 붓과 넓은 붓을 준비물 목록에 적었어요.\n\n보조 선생님입니다. 그 붓은 학교에서 나누어 줍니다. 나머지는 직접 준비하세요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S5-A-A1",
+      "materialId": "PV2-G3-oral-02-S5-A",
+      "text": "동아리 담당자입니다. 이번에는 실내에서 종이 도시 전시를 합니다. 관람은 누구나 할 수 있습니다. 준비를 돕는 학생은 도우미 카드에 이름을 써 주세요.\n\n지호입니다. 도우미는 우리 모둠만 할 수 있는 거죠?",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S5-B-A1",
+      "materialId": "PV2-G3-oral-02-S5-B",
+      "text": "학교 방송 담당자입니다. 녹음할 글은 다음 주 월요일까지 보내 주세요. 녹음은 화요일 방과 후에 합니다.\n\n하린입니다. 보내는 방법을 모르겠는데, 죄송하지만 그거 언제까지 하면 될까요?",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S6-A-A1",
+      "materialId": "PV2-G3-oral-02-S6-A",
+      "text": "그림 지도 활동 안내자입니다. 이번 토요일 열 시에 강당에서 그림 지도를 만듭니다. 한 모둠은 종이 두 장과 연필 한 자루를 준비해 주세요.\n\n준비 담당자입니다. 색연필은 강당에서 나누어 줍니다. 완성한 지도는 큰 게시판에 붙입니다.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G3-oral-02-S6-B-A1",
+      "materialId": "PV2-G3-oral-02-S6-B",
+      "text": "놀이 안내자입니다. 그림 카드 한 장을 고르고 모양을 설명합니다. 듣는 친구는 같은 모양의 블록을 찾습니다.\n\n순서 담당자입니다. 설명 차례는 이름표 순서예요. 친구가 맞히면 다음 사람에게 차례가 넘어갑니다.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S1-A-A1",
+      "materialId": "PV2-G6-oral-04-S1-A",
+      "text": "설명자입니다. 월요일에는 모든 반이 도서실에서 책을 빌릴 수 있습니다.\n\n일정 담당자입니다. 월요일에 체험 활동으로 학교를 비우는 반도 있어요. 그 반은 화요일에 대출하기로 했어요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S1-B-A1",
+      "materialId": "PV2-G6-oral-04-S1-B",
+      "text": "설명자입니다. 작품 제목을 한 장에 모아 입구에 붙이면 관람객이 필요한 제목을 모두 읽을 수 있습니다.\n\n친구입니다. 나는 그 방법이 그냥 별로야.\n\n관람 도우미입니다. 한 장에 모으니 제목 글씨가 작아요. 뒤에서 보는 사람은 제목을 읽기 어렵겠어요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S2-A-A1",
+      "materialId": "PV2-G6-oral-04-S2-A",
+      "text": "설명자입니다. 우리 반은 서른 명입니다. 열두 명이 설문에 답했고 그중 아홉 명이 새 이름표에 찬성했어요. 그러니 우리 반 모두가 찬성합니다.\n\n설문 담당자입니다. 아직 답하지 않은 학생이 열여덟 명이에요. 응답한 학생 안에서도 세 명은 찬성하지 않았어요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S2-B-A1",
+      "materialId": "PV2-G6-oral-04-S2-B",
+      "text": "설명자입니다. 다음 주에는 공동 도구 점검이 있으니 일주일 내내 도구를 빌릴 수 없습니다.\n\n도구 담당자입니다. 점검은 금요일 하루입니다. 월요일부터 목요일까지는 평소처럼 대출해요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S3-A-A1",
+      "materialId": "PV2-G6-oral-04-S3-A",
+      "text": "설명자입니다. 같은 길이의 점심시간 동안 문의가 월요일 여덟 건에서 화요일 세 건으로 줄었어요. 화요일에 붙인 그림 안내판만이 원인입니다.\n\n기록 담당자입니다. 그날은 그림 안내판뿐 아니라 안내 도우미도 처음 배치했어요. 두 가지가 함께 달라졌어요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S3-B-A1",
+      "materialId": "PV2-G6-oral-04-S3-B",
+      "text": "설명자입니다. 고정식 좌석 안은 접이식 안보다 앉을 자리가 많아요. 따라서 이 교실에는 고정식이 가장 알맞습니다.\n\n교실 담당자입니다. 우리 교실은 매주 금요일에 모든 좌석을 치우고 발표 공간으로 씁니다. 제안한 고정식은 옮길 수 없고 접이식은 접어 옮길 수 있어요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S4-A-A1",
+      "materialId": "PV2-G6-oral-04-S4-A",
+      "text": "설명자입니다. 개인 기기에 이어폰을 연결해 녹음 해설을 들으면 관람객 누구나 자기 속도로 전시를 볼 수 있습니다.\n\n방문객 대표입니다. 그 방법을 이용하기 어려운 방문객도 있어요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S4-B-A1",
+      "materialId": "PV2-G6-oral-04-S4-B",
+      "text": "설명자입니다. 낭독은 희망하는 학생만 신청해서 금요일 아침에 한 명씩 해 봅시다. 신청하지 않은 학생에게 낭독을 맡기지는 않습니다.\n\n친구입니다. 모든 학생을 매일 앞에 세워 억지로 읽게 하면 부담이 커질 것 같아요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S5-A-A1",
+      "materialId": "PV2-G6-oral-04-S5-A",
+      "text": "설명자입니다. 시범 읽기에 참여한 다섯 명 중 세 명이 같은 낱말의 뜻을 물었어요. 그 낱말에 짧은 풀이를 붙이자고 제안합니다.\n\n친구입니다. 작년 발표상을 받은 학생은 그 풀이가 너무 쉽대요. 그러니 다른 학생에게도 필요 없으니 전부 빼야 해요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S5-B-A1",
+      "materialId": "PV2-G6-oral-04-S5-B",
+      "text": "설명자입니다. 토요일 두 시 강당에서 푸른 모둠의 별빛 정원을 소개합니다. 지난주 안내 초안을 보고 설명했어요.\n\n등록 담당자입니다. 제작 모둠이 최종 확인한 등록표에는 초록 모둠의 달빛 정원이라고 적혀 있어요. 행사 시각과 장소는 그대로예요.\n\n친구입니다. 두 이름이 달랐으니 행사 전체를 취소했다고 알려야겠네.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S6-A-A1",
+      "materialId": "PV2-G6-oral-04-S6-A",
+      "text": "설명자입니다. 공동 작품 파일 이름에서 날짜와 차수를 모두 지우고 제목만 남기면 누구나 쉽게 찾을 겁니다. 기존 파일도 한꺼번에 바꿉시다.\n\n보관 담당자입니다. 같은 제목으로 여러 날 고친 파일이 있어요. 최신본을 고르려면 날짜와 수정 차수가 필요해요.\n\n연결 점검자입니다. 이 보관함은 이름이 바뀌면 옛 안내 쪽지의 연결 주소로 파일을 못 찾아요. 기존 연결을 유지해야 합니다.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G6-oral-04-S6-B-A1",
+      "materialId": "PV2-G6-oral-04-S6-B",
+      "text": "설명자입니다. 학생 열두 명이 각자 사 분씩 발표하면 이번 금요일 사십 분 모임 안에 모두 마칠 수 있습니다.\n\n진행 담당자입니다. 매 모임은 준비와 정리에 합쳐 팔 분이 필요합니다. 금요일과 다음 월요일에 각각 사십 분씩 두 번 모일 수 있어요.\n\n참가 학생입니다. 모든 학생의 개인 발표 기회는 남겨 주세요. 과정 그림을 설명하려면 한 사람에게 적어도 삼 분은 필요해요.",
+      "usage": "listening_material"
+    },
+    {
+      "id": "PV2-G1-language-03-S1-A-R1",
+      "materialId": "PV2-G1-language-03-S1-A",
+      "text": "나비가 날아요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S1-B-R1",
+      "materialId": "PV2-G1-language-03-S1-B",
+      "text": "토끼가 쉬어요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S2-A-R1",
+      "materialId": "PV2-G1-language-03-S2-A",
+      "text": "민우가 문을 열어요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S2-B-R1",
+      "materialId": "PV2-G1-language-03-S2-B",
+      "text": "유나는 빨간 공을 안아요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S3-A-R1",
+      "materialId": "PV2-G1-language-03-S3-A",
+      "text": "수아는 물을 마셔요.\n\n민우는 컵을 씻어요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S3-B-R1",
+      "materialId": "PV2-G1-language-03-S3-B",
+      "text": "상자에는 끈이 있어요.\n\n뚜껑은 아직 없어요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S4-A-R1",
+      "materialId": "PV2-G1-language-03-S4-A",
+      "text": "다온이는 상자를 열지 않아요.\n\n노란 끈을 먼저 풀어요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S4-B-R1",
+      "materialId": "PV2-G1-language-03-S4-B",
+      "text": "연우가 지호에게 책을 줘요.\n\n지호는 책장을 펴요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S5-A-R1",
+      "materialId": "PV2-G1-language-03-S5-A",
+      "text": "별이는 작은 종이배를 접어요.\n\n접은 배를 파란 통에 놓아요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S5-B-R1",
+      "materialId": "PV2-G1-language-03-S5-B",
+      "text": "나래는 쌀을 조금 담아요.\n\n남은 쌀은 통에 있어요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S6-A-R1",
+      "materialId": "PV2-G1-language-03-S6-A",
+      "text": "흰 카드는 안쪽에 놓아요.\n\n노란 카드는 바깥쪽에 놓아요.",
+      "usage": "reading_model_after_first_read"
+    },
+    {
+      "id": "PV2-G1-language-03-S6-B-R1",
+      "materialId": "PV2-G1-language-03-S6-B",
+      "text": "파란 모자를 찾고 있어.\n\n이 모자는 파란색이 아니야.",
+      "usage": "reading_model_after_first_read"
+    }
+  ]
+}

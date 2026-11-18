@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { buildContentLibrary } from '../../data/contentLibrary';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useCoursewareStore } from '../../store/useCoursewareStore';
 import {
   validateSlotPackage,
@@ -7,6 +8,9 @@ import {
 } from '../../services/firebaseDbService';
 import { BrandedCounselingReportModal } from './BrandedCounselingReportModal';
 import { AcademySeatBillingCard } from './AcademySeatBillingCard';
+import { PageHeading } from '../common/DesignSystem';
+import { ThinkingLessonWorkbench } from './ThinkingLessonWorkbench';
+import { Download, Library, Building2, Printer } from 'lucide-react';
 import type {
   CommercialMasterData,
   SlotLessonPackage,
@@ -25,6 +29,7 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
     selectGradeAndSlot,
   } = useCoursewareStore();
 
+  const library = useMemo(() => buildContentLibrary(data), [data]);
   const [adminSubTab, setAdminSubTab] = useState<'item_bank' | 'seat_billing'>('item_bank');
   const [showReportModal, setShowReportModal] = useState<boolean>(false);
   const [collectionTab, setCollectionTab] = useState<'expository' | 'common'>('expository');
@@ -90,9 +95,12 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
 
   const handleSaveToDb = () => {
     if (!draftSlot) return;
-    saveCustomSlotToDb(draftSlot);
+    if (!qaResult.isValid || !saveCustomSlotToDb(draftSlot)) {
+      setSaveBanner('저장하지 않았습니다. 데이터 검증 오류와 수업 코드를 확인해 주세요.');
+      return;
+    }
     setSaveBanner(
-      `✅ [${draftSlot.slot_id}] 문항 패키지가 로컬 Item Bank DB 및 Firestore 동기화 큐에 성공적으로 저장되었습니다!`
+      `✅ [${draftSlot.slot_id}] 수업 초안을 이 기기의 체험 저장소에 저장했습니다. 서버에는 전송되지 않았습니다.`
     );
     setTimeout(() => setSaveBanner(null), 4000);
   };
@@ -116,44 +124,51 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
 
   return (
     <div className="space-y-4 font-sans text-slate-800">
+      <PageHeading eyebrow="CONTENT STUDIO" title="좋은 수업의 바탕을 만듭니다." description="세부목표, 교과 개념, 지문을 연결하고 수업 자료를 다듬어요." />
+      <ThinkingLessonWorkbench />
+      <section className="rounded-2xl bg-teal-50 border border-teal-200 p-5 space-y-2">
+        <h2 className="font-bold text-lg">세부목표와 교과 개념으로 연결하는 지문 자료실</h2>
+        <p>{library.goals.length}개 세부목표 · {library.concepts.length}개 개념 후보 · {library.passages.length}개 기존 지문</p>
+        <p className="text-sm text-slate-600">하나의 목표에 여러 소재와 난도의 지문을 연결합니다. 현재 목록은 기존 자료에서 가져온 후보이며, 2022 개정 교육과정 전체 목록이 아닙니다. 공식 성취기준·출처·내용 검수가 필요합니다.</p>
+      </section>
       {/* Clean DB Telemetry & Authoring CMS Banner */}
       <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-7 shadow-xs space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <div className="flex items-center gap-2">
               <span className="px-2.5 py-0.5 rounded-md text-[11px] font-bold bg-amber-50 text-amber-800 border border-amber-200">
-                132-SLOT MASTER ITEM BANK CMS
+                READX CONTENT LIBRARY
               </span>
               <span className="text-xs text-slate-400 font-mono hidden md:inline">
-                Firestore Ready · 132위계 전수 완비
+                이 기기의 콘텐츠 작업 공간
               </span>
             </div>
             <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight mt-1">
-              초1~초6 문해력 문항 출제·검수 및 132슬롯 데이터베이스 스튜디오
+              수업 자료 편집과 검토
             </h2>
             <p className="text-xs text-slate-500 mt-1">
-              설명문 96개 정규 차시 + 공통기초 36개 모듈 전수 적재 완료 · 실시간 문항 편집 및 무결성 검증 지원
+              초등 1~6학년의 기존 자료를 살펴보고, 초안을 저장하거나 파일로 내보냅니다.
             </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-2.5">
             <div className="bg-slate-50 border border-slate-200/80 rounded-2xl px-3.5 py-2 text-xs">
-              <div className="text-slate-400 font-bold">적재 슬롯</div>
+              <div className="text-slate-500 font-bold">등록 자료</div>
               <div className="font-black text-slate-900 text-sm mt-0.5">
-                {allExpositorySlots.length + allCommonSlots.length} / 132슬롯
+                {allExpositorySlots.length + allCommonSlots.length}개
               </div>
             </div>
             <div className="bg-slate-50 border border-slate-200/80 rounded-2xl px-3.5 py-2 text-xs">
-              <div className="text-slate-400 font-bold">수록 문항</div>
+              <div className="text-slate-500 font-bold">객관식 문항</div>
               <div className="font-black text-blue-600 text-sm mt-0.5">
-                약 {totalQuestionsCount}문항
+                {allExpositorySlots.reduce((n,s)=>n+(s.real_csat_test?.questions?.length||0),0)}개
               </div>
             </div>
             <button
               onClick={handleExportFirestoreJson}
               className="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs shadow-xs transition flex items-center gap-1.5 cursor-pointer"
             >
-              <span>📥 DB 시드 JSON 내보내기</span>
+              <Download size={15}/><span>자료 파일 내보내기</span>
             </button>
           </div>
         </div>
@@ -176,7 +191,7 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
                 : 'text-slate-600 hover:text-slate-900'
             }`}
           >
-            <span>🗄️ 132슬롯 문항 은행 DB</span>
+            <Library size={16}/><span>수업 자료실</span>
           </button>
           <button
             onClick={() => setAdminSubTab('seat_billing')}
@@ -186,9 +201,9 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
                 : 'text-slate-600 hover:text-slate-900'
             }`}
           >
-            <span>🏢 B2B 좌석 라이선스 관리</span>
+            <Building2 size={16}/><span>학원 운영 예시</span>
             <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-50 text-indigo-700 font-bold border border-indigo-200">
-              50석
+              체험
             </span>
           </button>
         </div>
@@ -197,7 +212,7 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
           onClick={() => setShowReportModal(true)}
           className="px-4 py-2 rounded-xl text-xs font-bold bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200/80 transition flex items-center gap-1.5 cursor-pointer"
         >
-          <span>🖨️ 직인 날인 상담 성적표 인쇄</span>
+          <Printer size={16}/><span>상담 보고서 예시</span>
         </button>
       </div>
 
@@ -282,6 +297,7 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="슬롯 코드(G5-EXP-V2-3), 제목, 교과 개념 검색..."
+              aria-label="콘텐츠 자료 검색"
               className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -430,7 +446,7 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
                 <div className="font-black flex items-center gap-2">
                   <span>
                     {qaResult.isValid
-                      ? '✅ [자동 검수 통과] KReaD 분량 · 학년별 선지 수 · 본문 단서(Substring) · D1~D6 오답 공식 무결성 100% 충족'
+                      ? '데이터 형식·참조 검사 통과 · 교육내용·출처·난도 검수는 별도 필요'
                       : `🚨 [검수 오류 ${qaResult.errors.length}건] 문항 저장 전 아래 항목을 확인하세요`}
                   </span>
                 </div>
@@ -439,6 +455,8 @@ export const ItemBankAdminStudio: React.FC<ItemBankAdminStudioProps> = ({ data }
                 </span>
               </div>
 
+              {qaResult.errors.length > 0 && <ul role="alert" className="list-disc pl-6 text-sm text-rose-800 space-y-1">{qaResult.errors.map((error, i) => <li key={i}>{error}</li>)}</ul>}
+              {qaResult.warnings.length > 0 && <ul className="list-disc pl-6 text-sm text-amber-900 space-y-1">{qaResult.warnings.map((warning, i) => <li key={i}>{warning}</li>)}</ul>}
               {rightMode === 'inspect' ? (
                 <div className="space-y-4">
                   {/* Mager Goal & Dick & Carey 3-Step Spec */}

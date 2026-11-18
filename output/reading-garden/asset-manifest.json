@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "created": "2026-11-14",
+  "direction": "Reading Garden — original ReadX tactile paper illustrations",
+  "references": [
+    "https://learney.school/"
+  ],
+  "assets": [
+    {
+      "file": "hero.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original hero illustration for ReadX, a premium Korean literacy learning website for elementary students and teachers. Create a beautifully art-directed tactile paper sculpture / miniature clay editorial illustration. Subject: a large open ivory book becomes a small imaginary landscape of rolling sage-green hills, a winding apricot path, tiny sculptural trees, an arched doorway, a small coral orange sun, a floating paper page shaped like a bird, and an oversized muted orange pencil leaning naturally at right. Visual metaphor: reading opens a world of thoughts. No people or faces. Wide 3:2 composition, all main objects fully inside a centered grouping with generous breathing room. Eye-level isometric perspective, sophisticated museum miniature photography, subtle real paper grain, rounded folded edges, soft directional sunlight from upper left, beautiful ambient occlusion and subtle shadows. Seamless warm ivory #F7F5EF backdrop and ground, sage green #9DAF8D, deep forest green accents #254C3C, apricot orange #EB8B5B, pale butter yellow #EAD69E. Premium, imaginative, calm, charming for ages 7-12 without looking babyish. Do not imitate any existing brand or character. No letters, text, words, logos, watermarks, interface, border or cards. High-end crafted editorial image, not generic shiny 3D."
+    },
+    {
+      "file": "nature.webp",
+      "prompt": "Use case: stylized-concept. Asset type: landscape cover illustration for Korean elementary reading curriculum. Create a sophisticated tactile paper-cut miniature of a little greenhouse in a leafy garden: sage and forest green trees, cream arched glass greenhouse with tiny orange flowers and seedlings, a path and gentle hills, pale butter sun. Entire scene composed of beautifully textured cut paper, warm soft sunlight and real subtle shadows, premium editorial children's book photography. Wide 3:2 image, balanced composition, charming calm sophisticated design. Ivory and soft sage background fills whole image. No text, letters, logos, people, border, watermark or interface. Original visual, not any existing brand."
+    },
+    {
+      "file": "ideas.webp",
+      "prompt": "Use case: stylized-concept. Asset type: landscape editorial cover illustration for Korean elementary reading curriculum. A beautifully handcrafted tactile paper-cut miniature still life about connecting ideas: three colorful books stacked, a small cream arched bridge connecting two mint-green sculptural islands, a single orange pencil, a yellow sphere and floating folded paper bird. Deep forest, dusty sage, warm apricot, ivory and butter yellow palette, seamless very pale peach background. Sophisticated textured paper art and soft clay editorial photography, diffuse sunlight and delicate shadows. Wide 3:2 image, generous breathing room. Original premium education design. No text, letters, faces, characters, logos, watermark, border or interface."
+    }
+  ]
+}

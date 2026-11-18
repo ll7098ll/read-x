@@ -1,5 +1,9 @@
 # 🎨 [UI/UX Design Spec & Stitch Prompt Guide] 초등 수능형 설명문 문해력 코스웨어 「ReadX (리드엑스)」 24대 마이크로 화면 완전판 명세서 (v6.0)
 
+<!-- readx-document-context -->
+> 작성 당시의 설계·조사·구현 기록입니다. 현재 기능과 운영 상태는 최신 현황을 우선합니다. [문서 목차](README.md) · [최신 현황](PROJECT_STATUS.md)
+
+
 > **문서 식별자**: `UIUX-READX-24SCREENS-STITCH-V6.0`  
 > **공식 서비스명**: **초등 2022 개정 전교과 설명문 수능형 문해력 코스웨어 「ReadX (리드엑스)」**  
 > **시스템 브랜드**: **ReadX-Ray Pro : The Precision Cognitive Reading Studio**  

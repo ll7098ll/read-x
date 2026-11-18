@@ -1,0 +1,2175 @@
+{
+  "contentSnapshotHash": "2724d5f671e096499aaae8facd9b8109dda001f5c9f83b306f71b52e006f03c6",
+  "assets": [
+    {
+      "id": "PV2-G1-media-01-S2-A-MP1",
+      "materialId": "PV2-G1-media-01-S2-A",
+      "png": "output/expansion-v2-06/media/PV2-G1-media-01-S2-A-MP1.png",
+      "pngHash": "f8adcc5671b6dd73179b8e44f17ae512bd44e4bb052820239590b194ede79fa3",
+      "panelDataHash": "0e02e2f61b2c743c922b81f86a20efa6405816bf2b90fbc0dd7c19a581d4c5c9",
+      "width": 1280,
+      "height": 530,
+      "renderedElements": [
+        {
+          "id": "rule",
+          "text": "작은 목소리로 이야기해요.",
+          "box": [
+            54,
+            340,
+            1172,
+            130
+          ],
+          "fontPx": 76,
+          "style": "large",
+          "lines": [
+            [
+              "작은 목소리로 이야기해요."
+            ]
+          ],
+          "cells": [
+            "작은 목소리로 이야기해요."
+          ],
+          "icon": "talk"
+        }
+      ]
+    },
+    {
+      "id": "PV2-G1-media-01-S2-A-MP2",
+      "materialId": "PV2-G1-media-01-S2-A",
+      "png": "output/expansion-v2-06/media/PV2-G1-media-01-S2-A-MP2.png",
+      "pngHash": "8afb18e762a9dab26d9a5d7f1cdf6c7de5516acd2714ea350ec04ed85b21979d",
+      "panelDataHash": "d97cd6217df4907e910ae6e65cce17d0264fecca78b06a6639719b2acaf0d5c8",
+      "width": 1280,
+      "height": 530,
+      "renderedElements": [
+        {
+          "id": "rule",
+          "text": "이곳에서 물을 마셔요.",
+          "box": [
+            54,
+            340,
+            1172,
+            130
+          ],
+          "fontPx": 76,
+          "style": "large",
+          "lines": [
+            [
+              "이곳에서 물을 마셔요."
+            ]
+          ],
+          "cells": [
+            "이곳에서 물을 마셔요."
+          ],
+          "icon": "cup"
+        }
+      ]
+    },
+    {
+      "id": "PV2-G1-media-01-S3-A-MP1",
+      "materialId": "PV2-G1-media-01-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G1-media-01-S3-A-MP1.png",
+      "pngHash": "90bbf568284ce1816e29bfc82d9c7a4b3c033ee49f5c3a1d9a31d9658a21e003",
+      "panelDataHash": "04d2c6227ac23d06da964caeb2e7cef528e91a040d819eac1e9f88449d98e0f4",
+      "width": 1280,
+      "height": 530,
+      "renderedElements": [
+        {
+          "id": "rule",
+          "text": "복도에서는 공을 던지지 않아요.",
+          "box": [
+            54,
+            340,
+            1172,
+            130
+          ],
+          "fontPx": 76,
+          "style": "large",
+          "lines": [
+            [
+              "복도에서는 공을 던지지 않아요."
+            ]
+          ],
+          "cells": [
+            "복도에서는 공을 던지지 않아요."
+          ],
+          "icon": "no_ball"
+        }
+      ]
+    },
+    {
+      "id": "PV2-G1-media-01-S3-A-MP2",
+      "materialId": "PV2-G1-media-01-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G1-media-01-S3-A-MP2.png",
+      "pngHash": "0ccf7d8b9702b9a1c0d9bc9827465ddd03d009bdcaac7e704480c6550148b9ba",
+      "panelDataHash": "9c732dfab03cc88ef4b22ee00ca2db4bf069b7d4eef42baaeaa52fbf11243b53",
+      "width": 1280,
+      "height": 530,
+      "renderedElements": [
+        {
+          "id": "rule",
+          "text": "놀이방 안에서만 공놀이를 해요.",
+          "box": [
+            54,
+            340,
+            1172,
+            130
+          ],
+          "fontPx": 76,
+          "style": "large",
+          "lines": [
+            [
+              "놀이방 안에서만 공놀이를 해요."
+            ]
+          ],
+          "cells": [
+            "놀이방 안에서만 공놀이를 해요."
+          ],
+          "icon": "ball"
+        }
+      ]
+    },
+    {
+      "id": "PV2-G2-media-03-S3-A-MP1",
+      "materialId": "PV2-G2-media-03-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G2-media-03-S3-A-MP1.png",
+      "pngHash": "f4f0cf7dd3b0dce2c58ed277a6c186826fde5f82d3e836fcc68724c826ac951b",
+      "panelDataHash": "30b3fd8fab85edcaa431b42b0aae031172dfc14f5e8e75ae3b2b845e64c48ce1",
+      "width": 1280,
+      "height": 586,
+      "renderedElements": [
+        {
+          "id": "head",
+          "text": "요일 | 활동 | 시각",
+          "box": [
+            54,
+            150,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "요일"
+            ],
+            [
+              "활동"
+            ],
+            [
+              "시각"
+            ]
+          ],
+          "cells": [
+            "요일",
+            "활동",
+            "시각"
+          ],
+          "icon": null
+        },
+        {
+          "id": "tue",
+          "text": "화요일 | 바느질 | 오후 3시",
+          "box": [
+            54,
+            252,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "화요일"
+            ],
+            [
+              "바느질"
+            ],
+            [
+              "오후 3시"
+            ]
+          ],
+          "cells": [
+            "화요일",
+            "바느질",
+            "오후 3시"
+          ],
+          "icon": null
+        },
+        {
+          "id": "wed",
+          "text": "수요일 | 종이접기 | 오후 4시",
+          "box": [
+            54,
+            350,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "수요일"
+            ],
+            [
+              "종이접기"
+            ],
+            [
+              "오후 4시"
+            ]
+          ],
+          "cells": [
+            "수요일",
+            "종이접기",
+            "오후 4시"
+          ],
+          "icon": null
+        },
+        {
+          "id": "thu",
+          "text": "목요일 | 흙놀이 | 오후 4시",
+          "box": [
+            54,
+            448,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "목요일"
+            ],
+            [
+              "흙놀이"
+            ],
+            [
+              "오후 4시"
+            ]
+          ],
+          "cells": [
+            "목요일",
+            "흙놀이",
+            "오후 4시"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G2-media-03-S3-A-MP2",
+      "materialId": "PV2-G2-media-03-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G2-media-03-S3-A-MP2.png",
+      "pngHash": "ee3c2b5c6bc8ddbd7f3d69549a6b312c5be34997aaf99dd5f91b618ac77209c1",
+      "panelDataHash": "f8cb7cf53af5aca622ff786da583963b248a55208cf724975b333460ae37b912",
+      "width": 1280,
+      "height": 586,
+      "renderedElements": [
+        {
+          "id": "head",
+          "text": "활동 | 방",
+          "box": [
+            54,
+            150,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "활동"
+            ],
+            [
+              "방"
+            ]
+          ],
+          "cells": [
+            "활동",
+            "방"
+          ],
+          "icon": null
+        },
+        {
+          "id": "fold",
+          "text": "종이접기 | 솔방",
+          "box": [
+            54,
+            252,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "종이접기"
+            ],
+            [
+              "솔방"
+            ]
+          ],
+          "cells": [
+            "종이접기",
+            "솔방"
+          ],
+          "icon": null
+        },
+        {
+          "id": "clay",
+          "text": "흙놀이 | 별방",
+          "box": [
+            54,
+            350,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "흙놀이"
+            ],
+            [
+              "별방"
+            ]
+          ],
+          "cells": [
+            "흙놀이",
+            "별방"
+          ],
+          "icon": null
+        },
+        {
+          "id": "sew",
+          "text": "바느질 | 달방",
+          "box": [
+            54,
+            448,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "바느질"
+            ],
+            [
+              "달방"
+            ]
+          ],
+          "cells": [
+            "바느질",
+            "달방"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G2-media-03-S5-A-MP1",
+      "materialId": "PV2-G2-media-03-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G2-media-03-S5-A-MP1.png",
+      "pngHash": "a1f63c157c59be53144c3e46e422099ca9da1c923381f376c2b1565528f7c7ef",
+      "panelDataHash": "ee069afb5467a341a621392700926cc4761b3de21b03f4fad0c26eb6950534cc",
+      "width": 1280,
+      "height": 676,
+      "renderedElements": [
+        {
+          "id": "head",
+          "text": "이름 | 빌린 물건 | 반납일",
+          "box": [
+            54,
+            150,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "이름"
+            ],
+            [
+              "빌린 물건"
+            ],
+            [
+              "반납일"
+            ]
+          ],
+          "cells": [
+            "이름",
+            "빌린 물건",
+            "반납일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "tae",
+          "text": "태민 | 돋보기 | 화요일",
+          "box": [
+            54,
+            252,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "태민"
+            ],
+            [
+              "돋보기"
+            ],
+            [
+              "화요일"
+            ]
+          ],
+          "cells": [
+            "태민",
+            "돋보기",
+            "화요일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "su",
+          "text": "수빈 | 줄자 | 금요일",
+          "box": [
+            54,
+            350,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "수빈"
+            ],
+            [
+              "줄자"
+            ],
+            [
+              "금요일"
+            ]
+          ],
+          "cells": [
+            "수빈",
+            "줄자",
+            "금요일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "na",
+          "text": "나래 | 자석 | 미정",
+          "box": [
+            54,
+            448,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "나래"
+            ],
+            [
+              "자석"
+            ],
+            [
+              "미정"
+            ]
+          ],
+          "cells": [
+            "나래",
+            "자석",
+            "미정"
+          ],
+          "icon": null
+        },
+        {
+          "id": "note",
+          "text": "미정: 아직 정하지 않음",
+          "box": [
+            54,
+            546,
+            1172,
+            82
+          ],
+          "fontPx": 28,
+          "style": "small",
+          "lines": [
+            [
+              "미정: 아직 정하지 않음"
+            ]
+          ],
+          "cells": [
+            "미정: 아직 정하지 않음"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G3-media-06-S3-A-MP1",
+      "materialId": "PV2-G3-media-06-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G3-media-06-S3-A-MP1.png",
+      "pngHash": "46c2ddff5469c581786af0dbc21b303979bc9a76ccc54dab71e1a9e2e2ec3278",
+      "panelDataHash": "2b46e5a8b4b54dda81376bd27d93e6616182e197b68fe79bce59e1112a24fb3c",
+      "width": 1280,
+      "height": 634,
+      "renderedElements": [
+        {
+          "id": "issuer",
+          "text": "생태 관찰 모임 운영팀",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "생태 관찰 모임 운영팀"
+            ]
+          ],
+          "cells": [
+            "생태 관찰 모임 운영팀"
+          ],
+          "icon": null
+        },
+        {
+          "id": "id",
+          "text": "모임 번호 E17",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "모임 번호 E17"
+            ]
+          ],
+          "cells": [
+            "모임 번호 E17"
+          ],
+          "icon": null
+        },
+        {
+          "id": "date",
+          "text": "작성: 11월16일",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "작성: 11월16일"
+            ]
+          ],
+          "cells": [
+            "작성: 11월16일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "event",
+          "text": "11월21일 오전10시 · 운동장 입구",
+          "box": [
+            54,
+            484,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "11월21일 오전10시 · 운동장 입구"
+            ]
+          ],
+          "cells": [
+            "11월21일 오전10시 · 운동장 입구"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G3-media-06-S3-A-MP2",
+      "materialId": "PV2-G3-media-06-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G3-media-06-S3-A-MP2.png",
+      "pngHash": "69cbdd37795760825ce138c02ef3ae999ab8ef8b5637fc4f6255860120501c82",
+      "panelDataHash": "aef18dd1b9e8b5fcea84ef8ee6034abc8634a5c49de919c890858e9d4a814770",
+      "width": 1280,
+      "height": 744,
+      "renderedElements": [
+        {
+          "id": "issuer",
+          "text": "생태 관찰 모임 운영팀",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "생태 관찰 모임 운영팀"
+            ]
+          ],
+          "cells": [
+            "생태 관찰 모임 운영팀"
+          ],
+          "icon": null
+        },
+        {
+          "id": "id",
+          "text": "모임 번호 E17",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "모임 번호 E17"
+            ]
+          ],
+          "cells": [
+            "모임 번호 E17"
+          ],
+          "icon": null
+        },
+        {
+          "id": "date",
+          "text": "수정: 11월18일",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "수정: 11월18일"
+            ]
+          ],
+          "cells": [
+            "수정: 11월18일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "event",
+          "text": "11월21일 오전10시 · 체육관 입구",
+          "box": [
+            54,
+            484,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "11월21일 오전10시 · 체육관 입구"
+            ]
+          ],
+          "cells": [
+            "11월21일 오전10시 · 체육관 입구"
+          ],
+          "icon": null
+        },
+        {
+          "id": "change",
+          "text": "E17 공지의 장소만 수정합니다. 날짜와 시각은 그대로입니다.",
+          "box": [
+            54,
+            594,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "E17 공지의 장소만 수정합니다. 날짜와 시각은 그대로입니다."
+            ]
+          ],
+          "cells": [
+            "E17 공지의 장소만 수정합니다. 날짜와 시각은 그대로입니다."
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G3-media-06-S5-A-MP1",
+      "materialId": "PV2-G3-media-06-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G3-media-06-S5-A-MP1.png",
+      "pngHash": "d8910a8422d740ba888344fbbf31a40acba0a51bee671f4e8482db763a9f4da1",
+      "panelDataHash": "9dc28152b4201030cf9f88852ad5b3d5b6559a986e711e327acd54c72ffe2259",
+      "width": 1280,
+      "height": 520,
+      "renderedElements": [
+        {
+          "id": "issuer",
+          "text": "연극 모임 운영팀",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "연극 모임 운영팀"
+            ]
+          ],
+          "cells": [
+            "연극 모임 운영팀"
+          ],
+          "icon": null
+        },
+        {
+          "id": "date",
+          "text": "작성: 11월12일",
+          "box": [
+            54,
+            260,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "작성: 11월12일"
+            ]
+          ],
+          "cells": [
+            "작성: 11월12일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "event",
+          "text": "모임 T08 · 11월22일 오후1시",
+          "box": [
+            54,
+            370,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "모임 T08 · 11월22일 오후1시"
+            ]
+          ],
+          "cells": [
+            "모임 T08 · 11월22일 오후1시"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G3-media-06-S5-A-MP2",
+      "materialId": "PV2-G3-media-06-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G3-media-06-S5-A-MP2.png",
+      "pngHash": "ddd612dcfd829d9edb2417eba5588dc8db1c5225f66f651af221bfa591d2653f",
+      "panelDataHash": "46c5603caf7b5c99311b3ab9e36a631dbc7d1636e713279175c9553a39546e7f",
+      "width": 1280,
+      "height": 524,
+      "renderedElements": [
+        {
+          "id": "date",
+          "text": "수정: 11월16일",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "수정: 11월16일"
+            ]
+          ],
+          "cells": [
+            "수정: 11월16일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "event",
+          "text": "모임 T08 · 11월22일 오후2시",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "모임 T08 · 11월22일 오후2시"
+            ]
+          ],
+          "cells": [
+            "모임 T08 · 11월22일 오후2시"
+          ],
+          "icon": null
+        },
+        {
+          "id": "change",
+          "text": "가의 시작 시각을 오후2시로 바꿉니다. 다른 내용은 그대로입니다.",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "가의 시작 시각을 오후2시로 바꿉니다. 다른 내용은 그대로입니다."
+            ]
+          ],
+          "cells": [
+            "가의 시작 시각을 오후2시로 바꿉니다. 다른 내용은 그대로입니다."
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G3-media-06-S5-A-MP3",
+      "materialId": "PV2-G3-media-06-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G3-media-06-S5-A-MP3.png",
+      "pngHash": "b528abf8adedaa2f6409fbed5218b5a0c2b4fc7760a98e001edd421a7e5f737e",
+      "panelDataHash": "24c39a7e0dccd11c19f3d2b21b819bf2aa7847ad53824d4d42289a85d088d036",
+      "width": 1280,
+      "height": 524,
+      "renderedElements": [
+        {
+          "id": "post",
+          "text": "사진을 올린 날: 11월18일",
+          "box": [
+            54,
+            150,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "사진을 올린 날: 11월18일"
+            ]
+          ],
+          "cells": [
+            "사진을 올린 날: 11월18일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "photo",
+          "text": "사진 속 글: 작성 11월12일 · T08 · 11월22일 오후1시",
+          "box": [
+            54,
+            264,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "사진 속 글: 작성 11월12일 · T08 · 11월22일 오후1시"
+            ]
+          ],
+          "cells": [
+            "사진 속 글: 작성 11월12일 · T08 · 11월22일 오후1시"
+          ],
+          "icon": null
+        },
+        {
+          "id": "note",
+          "text": "가 안내 사진을 다시 올렸어요.",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "가 안내 사진을 다시 올렸어요."
+            ]
+          ],
+          "cells": [
+            "가 안내 사진을 다시 올렸어요."
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G4-media-04-S3-A-MP1",
+      "materialId": "PV2-G4-media-04-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G4-media-04-S3-A-MP1.png",
+      "pngHash": "997dc8e3ec7ecd4b0ecb67e387ef2a304364695c9980010ab2a679aaba536422",
+      "panelDataHash": "51381e7db27cc75eeb115370fceae5e3d50cc29c15e9c60cbd9178b55b8e8508",
+      "width": 1280,
+      "height": 536,
+      "renderedElements": [
+        {
+          "id": "clip",
+          "text": "[앞부분 생략] 씨앗은 모두 전시했다.",
+          "box": [
+            54,
+            150,
+            1172,
+            224
+          ],
+          "fontPx": 76,
+          "style": "large",
+          "lines": [
+            [
+              "[앞부분 생략] 씨앗은 모두 전시",
+              "했다."
+            ]
+          ],
+          "cells": [
+            "[앞부분 생략] 씨앗은 모두 전시했다."
+          ],
+          "icon": null
+        },
+        {
+          "id": "note",
+          "text": "원문 문장 일부만 옮김",
+          "box": [
+            54,
+            394,
+            1172,
+            82
+          ],
+          "fontPx": 28,
+          "style": "small",
+          "lines": [
+            [
+              "원문 문장 일부만 옮김"
+            ]
+          ],
+          "cells": [
+            "원문 문장 일부만 옮김"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G4-media-04-S3-A-MP2",
+      "materialId": "PV2-G4-media-04-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G4-media-04-S3-A-MP2.png",
+      "pngHash": "a818d4a2dd4e4ccad3cd3959b1e73b27ee02c51961b88498032d4ded923c36a0",
+      "panelDataHash": "a01432456ff2e3fea37fe5c38ba37cd4b6ab8ed799ee2c06e0e8029ca32b6951",
+      "width": 1280,
+      "height": 520,
+      "renderedElements": [
+        {
+          "id": "dry",
+          "text": "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다.",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다."
+            ]
+          ],
+          "cells": [
+            "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다."
+          ],
+          "icon": null
+        },
+        {
+          "id": "wet",
+          "text": "젖은 씨앗은 따로 말리고 있다.",
+          "box": [
+            54,
+            260,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "젖은 씨앗은 따로 말리고 있다."
+            ]
+          ],
+          "cells": [
+            "젖은 씨앗은 따로 말리고 있다."
+          ],
+          "icon": null
+        },
+        {
+          "id": "scope",
+          "text": "이 글은 현재의 전시 상태를 알리는 소식이다.",
+          "box": [
+            54,
+            370,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "이 글은 현재의 전시 상태를 알리는 소식이다."
+            ]
+          ],
+          "cells": [
+            "이 글은 현재의 전시 상태를 알리는 소식이다."
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G4-media-04-S5-A-MP1",
+      "materialId": "PV2-G4-media-04-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G4-media-04-S5-A-MP1.png",
+      "pngHash": "040072ccfa9a124fa4f181bcae1e23c0687e09b98805c041c1c3bef8969a2be5",
+      "panelDataHash": "fd15264dd6cbdfb38cfd90d0279a40c42e861227b36baab60029fd17145e4f5e",
+      "width": 1280,
+      "height": 536,
+      "renderedElements": [
+        {
+          "id": "headline",
+          "text": "우리 반 모두 만화 코너를 원해요!",
+          "box": [
+            54,
+            150,
+            1172,
+            224
+          ],
+          "fontPx": 76,
+          "style": "large",
+          "lines": [
+            [
+              "우리 반 모두 만화 코너를 원해요",
+              "!"
+            ]
+          ],
+          "cells": [
+            "우리 반 모두 만화 코너를 원해요!"
+          ],
+          "icon": null
+        },
+        {
+          "id": "note",
+          "text": "표를 보고 만든 제목 초안",
+          "box": [
+            54,
+            394,
+            1172,
+            82
+          ],
+          "fontPx": 28,
+          "style": "small",
+          "lines": [
+            [
+              "표를 보고 만든 제목 초안"
+            ]
+          ],
+          "cells": [
+            "표를 보고 만든 제목 초안"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G4-media-04-S5-A-MP2",
+      "materialId": "PV2-G4-media-04-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G4-media-04-S5-A-MP2.png",
+      "pngHash": "66ab02774b121c695202c39a3c61375ec6504034c83e193468368220fb0960ae",
+      "panelDataHash": "d69071ab4d51b0306b9f04006ff08ab6b43dc9a7027badfe776892ef40af2d8b",
+      "width": 1280,
+      "height": 586,
+      "renderedElements": [
+        {
+          "id": "target",
+          "text": "질문 대상 | 우리 반 24명",
+          "box": [
+            54,
+            150,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "질문 대상"
+            ],
+            [
+              "우리 반 24명"
+            ]
+          ],
+          "cells": [
+            "질문 대상",
+            "우리 반 24명"
+          ],
+          "icon": null
+        },
+        {
+          "id": "response",
+          "text": "응답 | 8명",
+          "box": [
+            54,
+            252,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "응답"
+            ],
+            [
+              "8명"
+            ]
+          ],
+          "cells": [
+            "응답",
+            "8명"
+          ],
+          "icon": null
+        },
+        {
+          "id": "result",
+          "text": "응답 결과 | 8명 모두 만화 코너 선택",
+          "box": [
+            54,
+            350,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "응답 결과"
+            ],
+            [
+              "8명 모두 만화 코너 선택"
+            ]
+          ],
+          "cells": [
+            "응답 결과",
+            "8명 모두 만화 코너 선택"
+          ],
+          "icon": null
+        },
+        {
+          "id": "missing",
+          "text": "미응답 | 16명 · 희망 코너 미확인",
+          "box": [
+            54,
+            448,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "미응답"
+            ],
+            [
+              "16명 · 희망 코너 미확인"
+            ]
+          ],
+          "cells": [
+            "미응답",
+            "16명 · 희망 코너 미확인"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G5-media-05-S3-A-MP1",
+      "materialId": "PV2-G5-media-05-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G5-media-05-S3-A-MP1.png",
+      "pngHash": "564dfbdeb809bf79146ad5d031713387d545de3e0d063c15da1f3bfee23d90bd",
+      "panelDataHash": "a331a179fe7ab5304ebf1603116c5b42b7b903e97d6139df4697ed2838897ccf",
+      "width": 1280,
+      "height": 854,
+      "renderedElements": [
+        {
+          "id": "issuer",
+          "text": "별빛 교실 운영팀",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "별빛 교실 운영팀"
+            ]
+          ],
+          "cells": [
+            "별빛 교실 운영팀"
+          ],
+          "icon": null
+        },
+        {
+          "id": "version",
+          "text": "원문 번호 R14 · v1",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "원문 번호 R14 · v1"
+            ]
+          ],
+          "cells": [
+            "원문 번호 R14 · v1"
+          ],
+          "icon": null
+        },
+        {
+          "id": "date",
+          "text": "작성: 11월12일",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "작성: 11월12일"
+            ]
+          ],
+          "cells": [
+            "작성: 11월12일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "name",
+          "text": "체험명: 종이탐험",
+          "box": [
+            54,
+            484,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "체험명: 종이탐험"
+            ]
+          ],
+          "cells": [
+            "체험명: 종이탐험"
+          ],
+          "icon": null
+        },
+        {
+          "id": "event",
+          "text": "11월23일 오전9시 시작",
+          "box": [
+            54,
+            594,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "11월23일 오전9시 시작"
+            ]
+          ],
+          "cells": [
+            "11월23일 오전9시 시작"
+          ],
+          "icon": null
+        },
+        {
+          "id": "scope",
+          "text": "신청 대상: 초1~6",
+          "box": [
+            54,
+            704,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "신청 대상: 초1~6"
+            ]
+          ],
+          "cells": [
+            "신청 대상: 초1~6"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G5-media-05-S3-A-MP2",
+      "materialId": "PV2-G5-media-05-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G5-media-05-S3-A-MP2.png",
+      "pngHash": "27e8f669eece11be14b4aa84b6844c82a7cdb3e87b8e13b6d2f0405c79f0de2e",
+      "panelDataHash": "614fa181b385672fb1396e9b5c14a33befbac860bb9068ff2c814fb565f89314",
+      "width": 1280,
+      "height": 854,
+      "renderedElements": [
+        {
+          "id": "issuer",
+          "text": "별빛 교실 운영팀",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "별빛 교실 운영팀"
+            ]
+          ],
+          "cells": [
+            "별빛 교실 운영팀"
+          ],
+          "icon": null
+        },
+        {
+          "id": "version",
+          "text": "원문 번호 R14 · v2 · v1 수정",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "원문 번호 R14 · v2 · v1 수정"
+            ]
+          ],
+          "cells": [
+            "원문 번호 R14 · v2 · v1 수정"
+          ],
+          "icon": null
+        },
+        {
+          "id": "date",
+          "text": "수정: 11월17일",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "수정: 11월17일"
+            ]
+          ],
+          "cells": [
+            "수정: 11월17일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "name",
+          "text": "체험명: 종이탐험",
+          "box": [
+            54,
+            484,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "체험명: 종이탐험"
+            ]
+          ],
+          "cells": [
+            "체험명: 종이탐험"
+          ],
+          "icon": null
+        },
+        {
+          "id": "event",
+          "text": "11월23일 오전10시 시작",
+          "box": [
+            54,
+            594,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "11월23일 오전10시 시작"
+            ]
+          ],
+          "cells": [
+            "11월23일 오전10시 시작"
+          ],
+          "icon": null
+        },
+        {
+          "id": "scope",
+          "text": "신청 대상: 초3~6",
+          "box": [
+            54,
+            704,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "신청 대상: 초3~6"
+            ]
+          ],
+          "cells": [
+            "신청 대상: 초3~6"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G5-media-05-S3-A-MP3",
+      "materialId": "PV2-G5-media-05-S3-A",
+      "png": "output/expansion-v2-06/media/PV2-G5-media-05-S3-A-MP3.png",
+      "pngHash": "9f96a230c35d17bb6d2047905da8e2c9f8ac7fa3fbbe240e5145031ad57c79dd",
+      "panelDataHash": "cf38da1c18fc1faa5e71ba5c55256040345ef8630cb8d2d28192f908d3a8f611",
+      "width": 1280,
+      "height": 524,
+      "renderedElements": [
+        {
+          "id": "date",
+          "text": "게시: 11월18일",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "게시: 11월18일"
+            ]
+          ],
+          "cells": [
+            "게시: 11월18일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "source",
+          "text": "참조 원문: R14 · v1",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "참조 원문: R14 · v1"
+            ]
+          ],
+          "cells": [
+            "참조 원문: R14 · v1"
+          ],
+          "icon": null
+        },
+        {
+          "id": "summary",
+          "text": "종이탐험은 초1~6이 오전9시에 시작해요.",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "종이탐험은 초1~6이 오전9시에 시작해요."
+            ]
+          ],
+          "cells": [
+            "종이탐험은 초1~6이 오전9시에 시작해요."
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G5-media-05-S5-A-MP1",
+      "materialId": "PV2-G5-media-05-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G5-media-05-S5-A-MP1.png",
+      "pngHash": "a910992463c50a65711b76f1e49f59dba55e9614c831f90e9ed7711e9b08795a",
+      "panelDataHash": "1f1b490a7b3b037d81fd4896a8445225113ba01e46bd8433f3f5e1840767cc15",
+      "width": 1280,
+      "height": 524,
+      "renderedElements": [
+        {
+          "id": "date",
+          "text": "게시: 2026년11월15일",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "게시: 2026년11월15일"
+            ]
+          ],
+          "cells": [
+            "게시: 2026년11월15일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "source",
+          "text": "출처: 체험 운영팀 2025년 안내 · 원문T31",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "출처: 체험 운영팀 2025년 안내 · 원문T31"
+            ]
+          ],
+          "cells": [
+            "출처: 체험 운영팀 2025년 안내 · 원문T31"
+          ],
+          "icon": null
+        },
+        {
+          "id": "summary",
+          "text": "지난해 손도장 체험은 무료였대요.",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "지난해 손도장 체험은 무료였대요."
+            ]
+          ],
+          "cells": [
+            "지난해 손도장 체험은 무료였대요."
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G5-media-05-S5-A-MP2",
+      "materialId": "PV2-G5-media-05-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G5-media-05-S5-A-MP2.png",
+      "pngHash": "579cff6205bd9b22d7350dec8841eaec0eccaa798ccc395165ad1584eda3ca7d",
+      "panelDataHash": "756bc95253ef3d4133a16fe22333c7021b4b65245d7590a629c640d0f7d2250e",
+      "width": 1280,
+      "height": 524,
+      "renderedElements": [
+        {
+          "id": "date",
+          "text": "게시: 2026년11월16일",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "게시: 2026년11월16일"
+            ]
+          ],
+          "cells": [
+            "게시: 2026년11월16일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "source",
+          "text": "출처: 체험 운영팀 2025년 안내 · 원문T31",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "출처: 체험 운영팀 2025년 안내 · 원문T31"
+            ]
+          ],
+          "cells": [
+            "출처: 체험 운영팀 2025년 안내 · 원문T31"
+          ],
+          "icon": null
+        },
+        {
+          "id": "summary",
+          "text": "작년 무료 체험 안내를 옮겨요. 올해 비용은 별도 확인하지 않았어요.",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "작년 무료 체험 안내를 옮겨요. 올해 비용은 별도 확인하지 않았어요."
+            ]
+          ],
+          "cells": [
+            "작년 무료 체험 안내를 옮겨요. 올해 비용은 별도 확인하지 않았어요."
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G5-media-05-S5-A-MP3",
+      "materialId": "PV2-G5-media-05-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G5-media-05-S5-A-MP3.png",
+      "pngHash": "3c43bbca0bb087e0db64513d5705140688198f741aa8ff29defe35c437c9bf32",
+      "panelDataHash": "b24385809384c84a3c53cd74f6d23de24810ea2f6359ea4578800f8be5a9c9be",
+      "width": 1280,
+      "height": 524,
+      "renderedElements": [
+        {
+          "id": "date",
+          "text": "게시: 2026년11월18일",
+          "box": [
+            54,
+            150,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "게시: 2026년11월18일"
+            ]
+          ],
+          "cells": [
+            "게시: 2026년11월18일"
+          ],
+          "icon": null
+        },
+        {
+          "id": "source",
+          "text": "사진 원문: 체험 운영팀 2025년 안내 · 원문T31",
+          "box": [
+            54,
+            260,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "사진 원문: 체험 운영팀 2025년 안내 · 원문T31"
+            ]
+          ],
+          "cells": [
+            "사진 원문: 체험 운영팀 2025년 안내 · 원문T31"
+          ],
+          "icon": null
+        },
+        {
+          "id": "summary",
+          "text": "사진 속 안내: 2025 손도장 체험 · 참가비 무료",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "사진 속 안내: 2025 손도장 체험 · 참가비 무료"
+            ]
+          ],
+          "cells": [
+            "사진 속 안내: 2025 손도장 체험 · 참가비 무료"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G6-media-03-S4-A-MP1",
+      "materialId": "PV2-G6-media-03-S4-A",
+      "png": "output/expansion-v2-06/media/PV2-G6-media-03-S4-A-MP1.png",
+      "pngHash": "8df976c66d9f84c23e0dc5d2c144436f77f1bc5205bbe90e30171addff0fc099",
+      "panelDataHash": "618628ce441b48dfb96fc613a1eed84a74f2bc5d6e0782db79db373c04d66131",
+      "width": 1280,
+      "height": 666,
+      "renderedElements": [
+        {
+          "id": "title",
+          "text": "작은 공방 열린 날",
+          "box": [
+            54,
+            150,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "작은 공방 열린 날"
+            ]
+          ],
+          "cells": [
+            "작은 공방 열린 날"
+          ],
+          "icon": null
+        },
+        {
+          "id": "fee",
+          "text": "입장 무료",
+          "box": [
+            54,
+            264,
+            1172,
+            130
+          ],
+          "fontPx": 76,
+          "style": "large",
+          "lines": [
+            [
+              "입장 무료"
+            ]
+          ],
+          "cells": [
+            "입장 무료"
+          ],
+          "icon": null
+        },
+        {
+          "id": "kit",
+          "text": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다.",
+          "box": [
+            54,
+            414,
+            1172,
+            82
+          ],
+          "fontPx": 28,
+          "style": "small",
+          "lines": [
+            [
+              "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+            ]
+          ],
+          "cells": [
+            "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+          ],
+          "icon": null
+        },
+        {
+          "id": "when",
+          "text": "11월23일 · 오후1시~4시",
+          "box": [
+            54,
+            516,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "11월23일 · 오후1시~4시"
+            ]
+          ],
+          "cells": [
+            "11월23일 · 오후1시~4시"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G6-media-03-S4-A-MP2",
+      "materialId": "PV2-G6-media-03-S4-A",
+      "png": "output/expansion-v2-06/media/PV2-G6-media-03-S4-A-MP2.png",
+      "pngHash": "a2574b2af37cc8a27aa5bd3da6764aeea4984a40ad4c25f665ac19a1e9d3f721",
+      "panelDataHash": "29123ff6cc8bc9bcc098a304250463a2b40a693b5ebeb17896c6cddbe9d187a0",
+      "width": 1280,
+      "height": 634,
+      "renderedElements": [
+        {
+          "id": "title",
+          "text": "작은 공방 열린 날",
+          "box": [
+            54,
+            150,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "작은 공방 열린 날"
+            ]
+          ],
+          "cells": [
+            "작은 공방 열린 날"
+          ],
+          "icon": null
+        },
+        {
+          "id": "fee",
+          "text": "입장 무료",
+          "box": [
+            54,
+            264,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "입장 무료"
+            ]
+          ],
+          "cells": [
+            "입장 무료"
+          ],
+          "icon": null
+        },
+        {
+          "id": "kit",
+          "text": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다.",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+            ]
+          ],
+          "cells": [
+            "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+          ],
+          "icon": null
+        },
+        {
+          "id": "when",
+          "text": "11월23일 · 오후1시~4시",
+          "box": [
+            54,
+            484,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "11월23일 · 오후1시~4시"
+            ]
+          ],
+          "cells": [
+            "11월23일 · 오후1시~4시"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G6-media-03-S5-A-MP1",
+      "materialId": "PV2-G6-media-03-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G6-media-03-S5-A-MP1.png",
+      "pngHash": "2e27b385780690b1e3888d41eeda8832e7cc293800f829994ddcdbd0405e0112",
+      "panelDataHash": "76ef4c98a95e7b3a6acbe020f6af7c8a1d050af8e96397e5da06d3f13b4f1fc7",
+      "width": 1280,
+      "height": 552,
+      "renderedElements": [
+        {
+          "id": "headline",
+          "text": "누구나 무료 입장!",
+          "box": [
+            54,
+            150,
+            1172,
+            130
+          ],
+          "fontPx": 76,
+          "style": "large",
+          "lines": [
+            [
+              "누구나 무료 입장!"
+            ]
+          ],
+          "cells": [
+            "누구나 무료 입장!"
+          ],
+          "icon": null
+        },
+        {
+          "id": "condition",
+          "text": "사전 예약한 초3~6 학생 · 20명 한정",
+          "box": [
+            54,
+            300,
+            1172,
+            82
+          ],
+          "fontPx": 28,
+          "style": "small",
+          "lines": [
+            [
+              "사전 예약한 초3~6 학생 · 20명 한정"
+            ]
+          ],
+          "cells": [
+            "사전 예약한 초3~6 학생 · 20명 한정"
+          ],
+          "icon": null
+        },
+        {
+          "id": "title",
+          "text": "학생 작품 발표회",
+          "box": [
+            54,
+            402,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "학생 작품 발표회"
+            ]
+          ],
+          "cells": [
+            "학생 작품 발표회"
+          ],
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "PV2-G6-media-03-S5-A-MP2",
+      "materialId": "PV2-G6-media-03-S5-A",
+      "png": "output/expansion-v2-06/media/PV2-G6-media-03-S5-A-MP2.png",
+      "pngHash": "3264e1f8a5ad76a6457de4e5831a25d5c369d66d177705f1bc9a217323619cf3",
+      "panelDataHash": "c010b83316ed0d505770d227f47cd205fa4c55002d98e76dd2447f73045d9cdb",
+      "width": 1280,
+      "height": 634,
+      "renderedElements": [
+        {
+          "id": "title",
+          "text": "학생 작품 발표회",
+          "box": [
+            54,
+            150,
+            1172,
+            94
+          ],
+          "fontPx": 40,
+          "style": "header",
+          "lines": [
+            [
+              "학생 작품 발표회"
+            ]
+          ],
+          "cells": [
+            "학생 작품 발표회"
+          ],
+          "icon": null
+        },
+        {
+          "id": "scope",
+          "text": "입장 대상: 사전 예약한 초3~6 학생",
+          "box": [
+            54,
+            264,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "입장 대상: 사전 예약한 초3~6 학생"
+            ]
+          ],
+          "cells": [
+            "입장 대상: 사전 예약한 초3~6 학생"
+          ],
+          "icon": null
+        },
+        {
+          "id": "limit",
+          "text": "입장 정원: 20명",
+          "box": [
+            54,
+            374,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "입장 정원: 20명"
+            ]
+          ],
+          "cells": [
+            "입장 정원: 20명"
+          ],
+          "icon": null
+        },
+        {
+          "id": "fee",
+          "text": "입장료: 0원",
+          "box": [
+            54,
+            484,
+            1172,
+            90
+          ],
+          "fontPx": 36,
+          "style": "body",
+          "lines": [
+            [
+              "입장료: 0원"
+            ]
+          ],
+          "cells": [
+            "입장료: 0원"
+          ],
+          "icon": null
+        }
+      ]
+    }
+  ],
+  "rendering": "Pillow with local Malgun Gothic. Static assets, not a browser screenshot or actual reader observation."
+}

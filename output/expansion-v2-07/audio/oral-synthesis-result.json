@@ -1,0 +1,138 @@
+﻿{
+    "requestFile":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\data\\content_authoring\\expansion_v2_07\\listening_requests.json",
+    "requestHash":  "55bd51e56b13cf5d9c2fcb04474f2dd9e873b1a5fe122428b235a6593ca11b81",
+    "assets":  [
+                   {
+                       "id":  "PV2-G1-oral-02-S2-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G1-oral-02-S2-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "b8d6a33e83c9b40b83e2a08078ab5d76ae72b55d6cdf4a98f1d28d112565b8fb",
+                       "fileHash":  "2e4a503b1dfd015e18f4735e2c1e9e275488b184a385032b053cde0794dcdd05"
+                   },
+                   {
+                       "id":  "PV2-G1-oral-02-S3-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G1-oral-02-S3-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "3a974000c4ca0c164559de3bd1e106740ea48894cf484ee0ac2e3139d86079ef",
+                       "fileHash":  "6fbf6c613561316211ae8ab42fb4929bfc26be357313938a495addc149ad7679"
+                   },
+                   {
+                       "id":  "PV2-G2-oral-01-S2-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G2-oral-01-S2-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "99235d24f999f84f96801a0f517a306ccba4caba581b4032b12c2e3410188be3",
+                       "fileHash":  "14c8a440120eb829066bdfdd5e9425f39fc79181a67217f909b34c6e84249b42"
+                   },
+                   {
+                       "id":  "PV2-G2-oral-01-S5-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G2-oral-01-S5-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "701c90e0251a8e81bf296e32d0d4830ddeccc4334701e64dd0b2cd539bab4f5c",
+                       "fileHash":  "9f1602cca565576c78ad181f0bc16eb462f2a4803dd574f8d7783394393ab24d"
+                   },
+                   {
+                       "id":  "PV2-G3-oral-04-S3-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G3-oral-04-S3-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "5b9cbed7dc38622624cb588c8db5131763910d58765481866b1e58f81d346ea2",
+                       "fileHash":  "b1fd0ce4219eceaafe106ea3156d1a7a1c73172bb0b7a28a7c64e99bc09d346a"
+                   },
+                   {
+                       "id":  "PV2-G3-oral-04-S5-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G3-oral-04-S5-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "bdf34d326421087ee70c8d2b33d3804c68b2a76bda2bf01feb53e9fe3b61e73b",
+                       "fileHash":  "517aec26f0b4225c0bce6cb3dde6ae5bfe21ae316a3d418184fc1f10b611b573"
+                   },
+                   {
+                       "id":  "PV2-G4-oral-03-S3-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G4-oral-03-S3-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "c4994acb0f6f3145788cc5fbbe992b0f6d427c158cb12d727df49fc0482a37b8",
+                       "fileHash":  "72970486c7951ece43375a6cae76107d71a85f64e1474b1fb59d2b8454ea5a20"
+                   },
+                   {
+                       "id":  "PV2-G4-oral-03-S5-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G4-oral-03-S5-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "db965e62af859a7391d75d822e5db7287da6511b4daf2ed9213c42e84d41260a",
+                       "fileHash":  "c7beb80c2d022c5ebdc4ad293a68178742884c8a419b2ffc72284a1bbda60d20"
+                   },
+                   {
+                       "id":  "PV2-G5-oral-01-S3-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G5-oral-01-S3-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "76a646b0aad0c14e953f84718b673a2e91f91eda224c18ebaff480f4c8106db2",
+                       "fileHash":  "1bebd8fba335848a48dbb31bc76518f16ee2b47b69182aa9e1e8741aacb1f56e"
+                   },
+                   {
+                       "id":  "PV2-G5-oral-01-S5-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G5-oral-01-S5-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "defe55609be47a70c8fcca7aa64c3772d67590b0d25a1df8122a31697c3d29a2",
+                       "fileHash":  "e1780dc596702e87eff3b4dcc8adb629a5acce1f2bf71095dfbc9ff449f8575b"
+                   },
+                   {
+                       "id":  "PV2-G6-oral-02-S3-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G6-oral-02-S3-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "5bde4bd9012bc80182914bec52b5c49ffabb3dc2b7e8ee9eace1301d04753653",
+                       "fileHash":  "4a47f40e138c410380a13abbb712d2722bb9b620be8675ea57ef84d12ae5774a"
+                   },
+                   {
+                       "id":  "PV2-G6-oral-02-S5-A-A1",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\expansion-v2-07\\audio\\PV2-G6-oral-02-S5-A-A1.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending",
+                       "textHash":  "302c4e291e853114818e94dda49bf490c72422ae0fceecf964bdf637bdb9c657",
+                       "fileHash":  "5d63b4febce30c27830ed8e5e87a0afba941a7d3b7e79212bc55f3139d2b15c7"
+                   }
+               ]
+}

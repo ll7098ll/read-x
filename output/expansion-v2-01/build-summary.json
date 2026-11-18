@@ -1,0 +1,12 @@
+{
+  "asOf": "2026-11-17",
+  "contentSnapshotHash": "c0c73ea995a61b37980e96dd208ea731431d8b908725729c4b8117cce4263c4f",
+  "sets": 36,
+  "questions": 156,
+  "newSkills": 6,
+  "passed": true,
+  "sourceKeyConsistencyChecks": 13,
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

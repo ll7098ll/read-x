@@ -1,0 +1,18 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "1fa6fdabf883fdd521b815b0ce7ef0b7bdf76f36ced94d67beed2b115c317c49",
+  "sets": 12,
+  "questions": 53,
+  "newSkills": 6,
+  "newSkillStageCells": 12,
+  "listeningAssets": 12,
+  "audioDurationSeconds": 247.225,
+  "liveSpeechTasks": 12,
+  "analyticCriteria": 36,
+  "oralConsistencyChecks": 37,
+  "audioListeningReviewsPending": 12,
+  "passed": true,
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

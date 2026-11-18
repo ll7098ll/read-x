@@ -1,0 +1,37 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "c17c4260043cc35a7ae891aa53341a3b7cbb0d3d79091e7b0e0e7c1c8b7864e0",
+  "mediaAssetsHash": "ee9ff49895d9e35394e8c265abb6611e5aac67cbecd69d09ab5468c8364b2d0e",
+  "reviewType": "AI 정지 이미지 편집 검토. 교사 승인·브라우저 동작·학생 시각 반응 검증과 구별.",
+  "reviewer": "AI_editorial_review",
+  "status": "reviewed_with_bounded_scope",
+  "images": 26,
+  "inspectedArtifacts": [
+    {
+      "path": "output/expansion-v2-06/media-preview-1.png",
+      "sha256": "8c853542af76802e8f29568e26357874336ac96d09c96a58ee4a09ba47044e47"
+    },
+    {
+      "path": "output/expansion-v2-06/media-preview-2.png",
+      "sha256": "9b8a580463b7a7bc747f0069f1e8d4b41d4204093760c9bbb962742c58e7f06c"
+    },
+    {
+      "path": "output/expansion-v2-06/media-preview-3.png",
+      "sha256": "f4ea2776f8d828ceef80336cefea779bb6aefe8718fbf389ca9671bd59974e15"
+    }
+  ],
+  "findings": [
+    {
+      "issue": "강조 제목의 느낌표·낱말이 부적절하게 나뉨",
+      "resolution": "띄어쓰기 경계를 우선해 줄바꿈하고 26이미지 미리보기 재확인"
+    },
+    {
+      "issue": "포스터 제목이 무료 강조·비용 범위라는 해석을 사전 제공",
+      "resolution": "포스터 가·나로 중립화한 자료v2 및 이미지 재확인"
+    }
+  ],
+  "limits": [
+    "한글 표시·줄바꿈·표의 칸·글씨 대비·표지 그림·배치의 정적 검토",
+    "실제 교사 승인·학생 난도·모든 화면 크기·브라우저 인쇄와 상호작용은 미검증"
+  ]
+}

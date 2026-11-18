@@ -1,0 +1,737 @@
+{
+  "asOf": "2026-11-17",
+  "sourceSnapshotHash": "b7f185cf05f307e6c49ab7a71cdf7b2bab9655ff81235aa68259924cb00eb9ac",
+  "sets": [
+    {
+      "id": "PV2-G2-language-07-S1-A",
+      "version": 1,
+      "microSkillId": "plan-G2-language-07",
+      "skillName": "여러 뜻의 낱말",
+      "grade": 2,
+      "track": "language",
+      "stage": "S1",
+      "stageLabel": "뜻 익히기",
+      "variant": "A",
+      "title": "같은 눈, 다른 뜻",
+      "purpose": "practice",
+      "familyId": "PV2-G2-language-07-S1-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G2-language-07-S1-A-p1",
+          "text": "눈이라는 낱말은 앞뒤 말에 따라 다른 뜻이 된다. 하늘에서 하얗게 내리는 눈이 있고, 얼굴에서 사물을 보는 눈이 있다. 글자가 같다고 뜻까지 같은 것은 아니다.",
+          "sentences": [
+            {
+              "id": "PV2-G2-language-07-S1-A-p1-s1",
+              "text": "눈이라는 낱말은 앞뒤 말에 따라 다른 뜻이 된다."
+            },
+            {
+              "id": "PV2-G2-language-07-S1-A-p1-s2",
+              "text": "하늘에서 하얗게 내리는 눈이 있고, 얼굴에서 사물을 보는 눈이 있다."
+            },
+            {
+              "id": "PV2-G2-language-07-S1-A-p1-s3",
+              "text": "글자가 같다고 뜻까지 같은 것은 아니다."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G2-language-07-S1-A-p2",
+          "text": "지우는 창밖의 눈을 보았다. 그러고는 눈을 깜빡였다. 첫 문장의 눈은 창밖에 내린 것이고, 둘째 문장의 눈은 지우 얼굴의 한 부분이다. 뜻을 고를 때에는 어디에 있고 어떤 행동과 이어지는지 읽는다.",
+          "sentences": [
+            {
+              "id": "PV2-G2-language-07-S1-A-p2-s1",
+              "text": "지우는 창밖의 눈을 보았다."
+            },
+            {
+              "id": "PV2-G2-language-07-S1-A-p2-s2",
+              "text": "그러고는 눈을 깜빡였다."
+            },
+            {
+              "id": "PV2-G2-language-07-S1-A-p2-s3",
+              "text": "첫 문장의 눈은 창밖에 내린 것이고, 둘째 문장의 눈은 지우 얼굴의 한 부분이다."
+            },
+            {
+              "id": "PV2-G2-language-07-S1-A-p2-s4",
+              "text": "뜻을 고를 때에는 어디에 있고 어떤 행동과 이어지는지 읽는다."
+            }
+          ]
+        }
+      ],
+      "charCount": 200,
+      "contentHash": "792b5ba7e53bbdd8c524349522bf8ab235c35a5d766c7a44fef45513091c56e2",
+      "textDemand": {
+        "format": "짧은 기능 집중 자료",
+        "gradeCondition": "짧은 문단·생활 규칙·두 조건. 가까운 정보의 관계와 단순 예외를 설명.",
+        "lengthReview": "별도 장르·기능 분량, 장문 코스 기준 충족을 주장하지 않음"
+      },
+      "taskDemand": {
+        "operation": "뜻과 예 구별",
+        "evidenceDistance": "가까움",
+        "support": "방법 설명"
+      },
+      "teacherGuide": "눈이라는 글자 모양은 같게 두고 내림과 깜빡임을 따로 표시한다. 낱말 전체를 못 읽은 어려움과 뜻을 구별하지 못한 어려움을 따로 관찰한다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G2-language-07-S1-A-Q1",
+          "kind": "single_choice",
+          "prompt": "하얗게 내리는 눈의 뜻은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-language-07-S1-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-language-07-S1-A-p1",
+              "sentenceId": "PV2-G2-language-07-S1-A-p1-s2",
+              "quote": "하늘에서 하얗게 내리는 눈",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "하늘에서 내리는 것",
+              "reason": "하늘에서 내린다는 문맥은 몸의 눈이 아닌 눈을 가리킨다."
+            },
+            {
+              "text": "얼굴에서 보는 부분",
+              "reason": "얼굴의 눈은 내리지 않는다."
+            },
+            {
+              "text": "창문을 여는 도구",
+              "reason": "그런 뜻은 자료에 없다."
+            }
+          ],
+          "correctIndex": 0,
+          "explanation": "하늘에서 내린다는 문맥은 몸의 눈이 아닌 눈을 가리킨다."
+        },
+        {
+          "id": "PV2-G2-language-07-S1-A-Q2",
+          "kind": "matching",
+          "prompt": "내리다 / 깜빡이다를 알맞은 눈과 연결하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-language-07-S1-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-language-07-S1-A-p2",
+              "sentenceId": "PV2-G2-language-07-S1-A-p2-s2",
+              "quote": "눈을 깜빡였다.",
+              "start": 5
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "내리다:하늘의 눈 / 깜빡이다:얼굴의 눈",
+          "rubric": [
+            {
+              "criterion": "내리다 / 깜빡이다를 알맞은 눈과 연결하세요.",
+              "levels": {
+                "0": "내리다를 얼굴의 눈에 연결함",
+                "1": "한 행동만 맞게 연결함",
+                "2": "내리다:하늘의 눈 / 깜빡이다:얼굴의 눈"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PV2-G2-language-07-S1-A-Q3",
+          "kind": "explanation",
+          "prompt": "글자가 같으면 뜻도 같다는 말이 왜 맞지 않나요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-language-07-S1-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-language-07-S1-A-p1",
+              "sentenceId": "PV2-G2-language-07-S1-A-p1-s3",
+              "quote": "글자가 같다고 뜻까지 같은 것은 아니다.",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "눈은 글자가 같아도 내리는 것과 보는 몸의 부분으로 뜻이 다르다.",
+          "rubric": [
+            {
+              "criterion": "글자가 같으면 뜻도 같다는 말이 왜 맞지 않나요?",
+              "levels": {
+                "0": "글자가 같으니 무조건 같은 뜻이라고 씀",
+                "1": "뜻이 다르다고만 쓰고 두 뜻을 설명하지 못함",
+                "2": "눈은 글자가 같아도 내리는 것과 보는 몸의 부분으로 뜻이 다르다."
+              }
+            }
+          ]
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 상황 및 문장",
+        "factualBasis": "문제 안에 필요한 규칙·상황을 제공",
+        "officialStandards": []
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      }
+    },
+    {
+      "id": "PV2-G3-information-08-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G3-information-08",
+      "skillName": "비교 기준 적용",
+      "grade": 3,
+      "track": "information",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "숫자가 커 보이는 표",
+      "purpose": "practice",
+      "familyId": "PV2-G3-information-08-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G3-information-08-S5-A-p1",
+          "text": "가 물통 소개에는 담는 양600mL, 나 물통 소개에는 빈 무게250g이라고 크게 쓰였다. 작은 글씨에는 가의 빈 무게가300g이고 나의 담는 양이500mL라고 적혀 있다. 이는 가상 광고 읽기 자료다.",
+          "sentences": [
+            {
+              "id": "PV2-G3-information-08-S5-A-p1-s1",
+              "text": "가 물통 소개에는 담는 양600mL, 나 물통 소개에는 빈 무게250g이라고 크게 쓰였다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-A-p1-s2",
+              "text": "작은 글씨에는 가의 빈 무게가300g이고 나의 담는 양이500mL라고 적혀 있다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-A-p1-s3",
+              "text": "이는 가상 광고 읽기 자료다."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-A-p2",
+          "text": "광고 초고는600이250보다 크므로 가가 더 무겁다고 썼다. 하지만 큰 숫자 두 개가 서로 다른 기준이었다. 빈 무게를 비교하려면300g과250g을, 담는 양은600mL와500mL를 나란히 읽어야 한다.",
+          "sentences": [
+            {
+              "id": "PV2-G3-information-08-S5-A-p2-s1",
+              "text": "광고 초고는600이250보다 크므로 가가 더 무겁다고 썼다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-A-p2-s2",
+              "text": "하지만 큰 숫자 두 개가 서로 다른 기준이었다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-A-p2-s3",
+              "text": "빈 무게를 비교하려면300g과250g을, 담는 양은600mL와500mL를 나란히 읽어야 한다."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-A-p3",
+          "text": "가의 빈 무게가 실제로 더 크더라도, 광고 초고가 든 숫자 근거는 잘못되었다. 결론과 근거를 각각 확인해야 한다.",
+          "sentences": [
+            {
+              "id": "PV2-G3-information-08-S5-A-p3-s1",
+              "text": "가의 빈 무게가 실제로 더 크더라도, 광고 초고가 든 숫자 근거는 잘못되었다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-A-p3-s2",
+              "text": "결론과 근거를 각각 확인해야 한다."
+            }
+          ]
+        }
+      ],
+      "charCount": 291,
+      "contentHash": "50a48f530e1ed9a2c7c226c7431a20ccfbd0ca7d68c20c2cec010024644e78e3",
+      "textDemand": {
+        "format": "짧은 기능 집중 자료",
+        "gradeCondition": "문단 중심 생각·기초 교과어·간단한 표. 중심과 세부, 문단 사이 관계를 짧은 글로 설명.",
+        "lengthReview": "별도 장르·기능 분량, 장문 코스 기준 충족을 주장하지 않음"
+      },
+      "taskDemand": {
+        "operation": "경쟁 해석·누락·범위 검토",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "응답 전 풀이 없음"
+      },
+      "teacherGuide": "결론이 우연히 맞는 경우에도 비교 근거가 틀릴 수 있음을 다룬다. 무게와 용량 관계를 추정하는 과제로 바꾸지 않는다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G3-information-08-S5-A-Q1",
+          "kind": "single_choice",
+          "prompt": "광고 초고의 비교가 잘못된 이유는 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-A-p2",
+              "sentenceId": "PV2-G3-information-08-S5-A-p2-s2",
+              "quote": "큰 숫자 두 개가 서로 다른 기준",
+              "start": 4
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "담는 양과 빈 무게의 숫자를 바로 비교해서",
+              "reason": "600은mL,250은g이므로 같은 기준이 아니다. 결론이 우연히 맞아도 무게 값300g과250g으로 근거를 다시 세워야 한다."
+            },
+            {
+              "text": "600이250보다 작아서",
+              "reason": "숫자 크기 자체는600이 더 크다."
+            },
+            {
+              "text": "두 물통의 모든 값이 같아서",
+              "reason": "제시된 값들은 다르다."
+            },
+            {
+              "text": "물통에는 어떤 숫자도 쓸 수 없어서",
+              "reason": "수치 자체가 아니라 기준을 섞은 것이 문제다."
+            }
+          ],
+          "correctIndex": 0,
+          "explanation": "600은mL,250은g이므로 같은 기준이 아니다. 결론이 우연히 맞아도 무게 값300g과250g으로 근거를 다시 세워야 한다."
+        },
+        {
+          "id": "PV2-G3-information-08-S5-A-Q2",
+          "kind": "revision",
+          "prompt": "빈 무게를 비교하는 근거를 올바르게 고치세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-A-p2",
+              "sentenceId": "PV2-G3-information-08-S5-A-p2-s3",
+              "quote": "300g과250g을",
+              "start": 11
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "가300g과 나250g을 비교하면 가가50g 더 무겁다.",
+          "rubric": [
+            {
+              "criterion": "빈 무게를 비교하는 근거를 올바르게 고치세요.",
+              "levels": {
+                "0": "600mL와250g으로 무게를 비교함",
+                "1": "두 무게만 쓰고 어느 쪽이 더 큰지 설명하지 못함",
+                "2": "가300g과 나250g을 비교하면 가가50g 더 무겁다."
+              }
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-A-Q3",
+          "kind": "table_completion",
+          "prompt": "담는 양 / 빈 무게의 기준별로 두 물통을 정리하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-A-p1",
+              "sentenceId": "PV2-G3-information-08-S5-A-p1-s2",
+              "quote": "가의 빈 무게가300g",
+              "start": 8
+            },
+            {
+              "materialId": "PV2-G3-information-08-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-A-p1",
+              "sentenceId": "PV2-G3-information-08-S5-A-p1-s2",
+              "quote": "나의 담는 양이500mL",
+              "start": 23
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "용량:가600mL·나500mL / 빈 무게:가300g·나250g",
+          "rubric": [
+            {
+              "criterion": "담는 양 / 빈 무게의 기준별로 두 물통을 정리하세요.",
+              "levels": {
+                "0": "단위를 서로 바꿔 적음",
+                "1": "한 기준만 정리함",
+                "2": "용량:가600mL·나500mL / 빈 무게:가300g·나250g"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-A-Q4",
+          "kind": "explanation",
+          "prompt": "가가 더 무겁다는 결론이 맞아도 초고 근거를 고쳐야 하는 이유는 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-A-p3",
+              "sentenceId": "PV2-G3-information-08-S5-A-p3-s2",
+              "quote": "결론과 근거를 각각 확인",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "결론은 무게 값으로 확인되지만 초고는 다른 기준의 숫자로 설명했기 때문이다.",
+          "rubric": [
+            {
+              "criterion": "가가 더 무겁다는 결론이 맞아도 초고 근거를 고쳐야 하는 이유는 무엇인가요?",
+              "levels": {
+                "0": "결론만 맞으면 아무 숫자를 써도 된다고 함",
+                "1": "결론이 맞으니 괜찮다고 하다가 근거 문제를 설명하지 못함",
+                "2": "결론은 무게 값으로 확인되지만 초고는 다른 기준의 숫자로 설명했기 때문이다."
+              }
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-A-Q5",
+          "kind": "writing",
+          "prompt": "두 물통을 정확한 근거로 비교하는 짧은 광고 설명을 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-A-p2",
+              "sentenceId": "PV2-G3-information-08-S5-A-p2-s3",
+              "quote": "600mL와500mL",
+              "start": 28
+            },
+            {
+              "materialId": "PV2-G3-information-08-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-A-p2",
+              "sentenceId": "PV2-G3-information-08-S5-A-p2-s3",
+              "quote": "300g과250g",
+              "start": 11
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "가는600mL, 나는500mL를 담는다. 빈 무게는 가300g, 나250g으로 나가 가볍다.",
+          "rubric": [
+            {
+              "criterion": "두 물통을 정확한 근거로 비교하는 짧은 광고 설명을 쓰세요.",
+              "levels": {
+                "0": "양이 많으니 무조건 모든 사람에게 낫다고 씀",
+                "1": "한 비교는 맞지만 다른 비교에서 기준을 섞음",
+                "2": "가는600mL, 나는500mL를 담는다. 빈 무게는 가300g, 나250g으로 나가 가볍다."
+              }
+            }
+          ],
+          "workflow": [
+            "계획",
+            "초고",
+            "준거 검토",
+            "수정고",
+            "수정 이유"
+          ],
+          "planningPrompt": "대상·핵심 정보·보존할 조건을 메모한 뒤 초고를 쓰세요."
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 상황 및 문장",
+        "factualBasis": "문제 안에 필요한 규칙·상황을 제공",
+        "officialStandards": []
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "tables": [
+        {
+          "id": "PV2-G3-information-08-S5-A-T1",
+          "caption": "본문의 창작 기록을 같은 기준으로 정리한 표",
+          "headers": [
+            "물통",
+            "담는 양(mL)",
+            "빈 무게(g)"
+          ],
+          "rows": [
+            [
+              "가",
+              600,
+              300
+            ],
+            [
+              "나",
+              500,
+              250
+            ]
+          ]
+        }
+      ],
+      "tableHash": "9bdaa391043048702911064ee3e489a693dfd5bb6e9c97cc47a7a73e6e6fa221"
+    },
+    {
+      "id": "PV2-G3-information-08-S5-B",
+      "version": 1,
+      "microSkillId": "plan-G3-information-08",
+      "skillName": "비교 기준 적용",
+      "grade": 3,
+      "track": "information",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "B",
+      "title": "쪽 수가 많으면 늘 좋을까",
+      "purpose": "practice",
+      "familyId": "PV2-G3-information-08-S5-B",
+      "paragraphs": [
+        {
+          "id": "PV2-G3-information-08-S5-B-p1",
+          "text": "가 안내책은60쪽, 나 안내책은30쪽이다. 두 책 모두 전시실의 위치와 관람 약속을 담았다. 가에는 작품 설명이 길게 있고, 나에는 층별 길 안내가 큰 그림으로 있다.",
+          "sentences": [
+            {
+              "id": "PV2-G3-information-08-S5-B-p1-s1",
+              "text": "가 안내책은60쪽, 나 안내책은30쪽이다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-B-p1-s2",
+              "text": "두 책 모두 전시실의 위치와 관람 약속을 담았다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-B-p1-s3",
+              "text": "가에는 작품 설명이 길게 있고, 나에는 층별 길 안내가 큰 그림으로 있다."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-B-p2",
+          "text": "처음 온 방문객은 지금 보고 싶은 전시실을 빨리 찾으려 한다. 홍보문은 쪽 수가 많으니 누구에게나 가가 낫다고 썼다. 그러나 방문객의 목적에 따라 빨리 찾기 쉬운 구조도 비교해야 한다.",
+          "sentences": [
+            {
+              "id": "PV2-G3-information-08-S5-B-p2-s1",
+              "text": "처음 온 방문객은 지금 보고 싶은 전시실을 빨리 찾으려 한다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-B-p2-s2",
+              "text": "홍보문은 쪽 수가 많으니 누구에게나 가가 낫다고 썼다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-B-p2-s3",
+              "text": "그러나 방문객의 목적에 따라 빨리 찾기 쉬운 구조도 비교해야 한다."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-B-p3",
+          "text": "어느 책이 더 정확한지와 모든 독자의 만족도는 조사하지 않았다. 쪽 수만으로 내용의 정확성이나 목적에 맞는 정도를 모두 정할 수는 없다.",
+          "sentences": [
+            {
+              "id": "PV2-G3-information-08-S5-B-p3-s1",
+              "text": "어느 책이 더 정확한지와 모든 독자의 만족도는 조사하지 않았다."
+            },
+            {
+              "id": "PV2-G3-information-08-S5-B-p3-s2",
+              "text": "쪽 수만으로 내용의 정확성이나 목적에 맞는 정도를 모두 정할 수는 없다."
+            }
+          ]
+        }
+      ],
+      "charCount": 274,
+      "contentHash": "29724b4da272e8d0b59eed64aa79b5b1a903c0e15204bb03d06f61147020a2af",
+      "textDemand": {
+        "format": "짧은 기능 집중 자료",
+        "gradeCondition": "문단 중심 생각·기초 교과어·간단한 표. 중심과 세부, 문단 사이 관계를 짧은 글로 설명.",
+        "lengthReview": "별도 장르·기능 분량, 장문 코스 기준 충족을 주장하지 않음"
+      },
+      "taskDemand": {
+        "operation": "경쟁 해석·누락·범위 검토",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "응답 전 풀이 없음"
+      },
+      "teacherGuide": "분량과 정확성·유용성을 별도 기준으로 둔다. 나를 추천해도 실제 찾기 시간을 측정했다는 표현은 허용하지 않는다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G3-information-08-S5-B-Q1",
+          "kind": "single_choice",
+          "prompt": "현재 방문객에게 먼저 살필 기준은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-B",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-B-p2",
+              "sentenceId": "PV2-G3-information-08-S5-B-p2-s1",
+              "quote": "전시실을 빨리 찾으려 한다.",
+              "start": 19
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "책의 쪽 수가 무조건 더 많은지",
+              "reason": "목적에 필요한 구조를 함께 봐야 한다."
+            },
+            {
+              "text": "책 표지가 더 비싼 재료인지",
+              "reason": "재료와 가격 자료가 없다."
+            },
+            {
+              "text": "긴 설명은 언제나 틀렸는지",
+              "reason": "길다고 틀리다는 뜻은 아니다."
+            },
+            {
+              "text": "전시실 위치를 찾기 쉬운 구조인지",
+              "reason": "방문객은 지금 위치를 찾으려 한다. 쪽 수만이 아니라 길을 찾기 쉬운 구조가 그 목적에 직접 관계된다."
+            }
+          ],
+          "correctIndex": 3,
+          "explanation": "방문객은 지금 위치를 찾으려 한다. 쪽 수만이 아니라 길을 찾기 쉬운 구조가 그 목적에 직접 관계된다."
+        },
+        {
+          "id": "PV2-G3-information-08-S5-B-Q2",
+          "kind": "explanation",
+          "prompt": "누구에게나 가가 낫다는 말의 문제를 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-B",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-B-p2",
+              "sentenceId": "PV2-G3-information-08-S5-B-p2-s2",
+              "quote": "누구에게나 가가 낫다고",
+              "start": 14
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "독자마다 목적이 다른데 쪽 수 하나로 모든 독자에게 적합하다고 넓혔다.",
+          "rubric": [
+            {
+              "criterion": "누구에게나 가가 낫다는 말의 문제를 쓰세요.",
+              "levels": {
+                "0": "쪽 수가 많으면 모든 항목이 자동으로 우수하다고 함",
+                "1": "쪽 수만 보았다고만 하고 독자 목적을 설명하지 못함",
+                "2": "독자마다 목적이 다른데 쪽 수 하나로 모든 독자에게 적합하다고 넓혔다."
+              }
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-B-Q3",
+          "kind": "classification",
+          "prompt": "확인된 정보 / 아직 모르는 것으로 나누세요:60쪽, 층별 그림, 실제 찾기 시간.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-B",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-B-p1",
+              "sentenceId": "PV2-G3-information-08-S5-B-p1-s1",
+              "quote": "가 안내책은60쪽",
+              "start": 0
+            },
+            {
+              "materialId": "PV2-G3-information-08-S5-B",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-B-p1",
+              "sentenceId": "PV2-G3-information-08-S5-B-p1-s3",
+              "quote": "큰 그림으로 있다.",
+              "start": 31
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "확인:가60쪽·나 층별 그림 / 모름:실제 찾기 시간",
+          "rubric": [
+            {
+              "criterion": "확인된 정보 / 아직 모르는 것으로 나누세요:60쪽, 층별 그림, 실제 찾기 시간.",
+              "levels": {
+                "0": "나가 정확히 두 배 빨랐다고 함",
+                "1": "수치와 그림만 쓰고 미확인 항목을 빠뜨림",
+                "2": "확인:가60쪽·나 층별 그림 / 모름:실제 찾기 시간"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-B-Q4",
+          "kind": "revision",
+          "prompt": "홍보문을 목적을 고려하는 문장으로 고치세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-B",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-B-p2",
+              "sentenceId": "PV2-G3-information-08-S5-B-p2-s3",
+              "quote": "방문객의 목적에 따라",
+              "start": 4
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "작품을 자세히 읽을 때와 위치를 빨리 찾을 때 필요한 구조가 다르므로 목적에 맞게 비교한다.",
+          "rubric": [
+            {
+              "criterion": "홍보문을 목적을 고려하는 문장으로 고치세요.",
+              "levels": {
+                "0": "나가 모든 독자에게 무조건 좋다고 반대로 단정함",
+                "1": "누구에게나라는 말만 빼고 쪽 수가 유일 기준이라고 함",
+                "2": "작품을 자세히 읽을 때와 위치를 빨리 찾을 때 필요한 구조가 다르므로 목적에 맞게 비교한다."
+              }
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-information-08-S5-B-Q5",
+          "kind": "writing",
+          "prompt": "처음 온 방문객에게 추천과 아직 확인하지 않은 점을 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-information-08-S5-B",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-B-p1",
+              "sentenceId": "PV2-G3-information-08-S5-B-p1-s3",
+              "quote": "층별 길 안내가 큰 그림",
+              "start": 22
+            },
+            {
+              "materialId": "PV2-G3-information-08-S5-B",
+              "version": 1,
+              "paragraphId": "PV2-G3-information-08-S5-B-p3",
+              "sentenceId": "PV2-G3-information-08-S5-B-p3-s1",
+              "quote": "정확한지와 모든 독자의 만족도는 조사하지 않았다.",
+              "start": 8
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "큰 층별 그림이 있는 나를 위치 찾기에 고려할 수 있다. 실제 찾기 시간과 정확성은 조사하지 않아 단정하지 않는다.",
+          "rubric": [
+            {
+              "criterion": "처음 온 방문객에게 추천과 아직 확인하지 않은 점을 쓰세요.",
+              "levels": {
+                "0": "나의 정확성이 실험으로 증명되었다고 씀",
+                "1": "추천만 하고 판단 범위를 밝히지 않음",
+                "2": "큰 층별 그림이 있는 나를 위치 찾기에 고려할 수 있다. 실제 찾기 시간과 정확성은 조사하지 않아 단정하지 않는다."
+              }
+            }
+          ],
+          "workflow": [
+            "계획",
+            "초고",
+            "준거 검토",
+            "수정고",
+            "수정 이유"
+          ],
+          "planningPrompt": "대상·핵심 정보·보존할 조건을 메모한 뒤 초고를 쓰세요."
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 상황 및 문장",
+        "factualBasis": "문제 안에 필요한 규칙·상황을 제공",
+        "officialStandards": []
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      }
+    }
+  ]
+}

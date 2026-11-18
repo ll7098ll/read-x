@@ -1,0 +1,376 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>국어 여섯 단계 학생용_문제집</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6f8;color:#20384b;font-family:system-ui,"Malgun Gothic",sans-serif}header{background:#173b49;color:white;padding:30px max(24px,calc((100% - 1100px)/2))}h1{font-size:28px}header p{color:#deeaed;line-height:1.8}.toolbar{max-width:1100px;margin:20px auto;display:flex;gap:14px;flex-wrap:wrap;padding:0 16px}select,button,textarea{font:inherit}select,button{padding:10px;border:1px solid #bbcbd3;background:white;color:#20384b;border-radius:8px}main{max-width:1100px;margin:20px auto;padding:0 16px}.set{background:white;border:1px solid #d7e1e6;border-radius:16px;padding:28px;margin:24px 0}.meta{font-size:14px;color:#4d6774}.text{background:#fffcf4;padding:20px;border-radius:12px;margin:22px 0}.text p{font-size:20px;line-height:2.05;margin:12px 0}h2{font-size:24px}h3{font-size:18px;line-height:1.8}.question{border-top:1px solid #dce5e8;padding:18px 0}label.choice{display:block;line-height:1.9;padding:8px 12px;border:1px solid #d5e0e5;border-radius:8px;margin:8px 0}label.choice:has(input:checked){background:#e6f2ee;border-color:#236958}textarea{display:block;width:100%;min-height:95px;border:1px solid #afc2cd;border-radius:8px;padding:12px;line-height:1.8;margin:8px 0 16px}details{background:#edf4f6;border-radius:10px;padding:14px;margin:12px 0;line-height:1.9}summary{cursor:pointer;font-weight:600}table{border-collapse:collapse;width:100%;margin:12px 0;font-size:15px}td,th{border:1px solid #c3d2d9;text-align:left;vertical-align:top;padding:10px}ol li{line-height:1.85}button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #bd6800;outline-offset:3px}#status{padding:0 16px;max-width:1100px;margin:auto;color:#765000}footer{text-align:center;font-size:14px;padding:24px;color:#4d6774}[hidden]{display:none!important}@media(max-width:650px){.set{padding:18px}.text{padding:15px}.text p{font-size:19px}header{padding:20px}}@media print{header,.toolbar,#status,footer{display:none}body{background:white}.set{border:0;padding:0;break-before:page}.question{break-inside:avoid}.text p{font-size:12pt}textarea{min-height:85px}}
+figure.graph{margin:20px 0;padding:12px;border:1px solid #d2e0e5;border-radius:12px;text-align:center;break-inside:avoid}figure.graph img{display:block;width:100%;max-width:740px;height:auto;margin:auto}figcaption{font-size:14px;color:#526775;line-height:1.7}.media-panel{margin:24px 0;border:1px solid #b9cdd6;padding:16px;border-radius:12px;break-inside:avoid}.media-panel img{width:100%;max-width:900px;height:auto;display:block;margin:auto}.media-alternative{font-size:18px;line-height:1.8;border-top:1px solid #ccdce3;margin-top:16px;padding-top:12px}.media-alternative p{margin:8px 0}.poem{margin:12px 0 26px;padding:18px 24px;border-left:3px solid #91b5b3;break-inside:avoid}.poem h3{margin:0 0 20px;color:#28585d}.text p.poem-line{margin:0;line-height:1.85;white-space:pre-wrap}@media(max-width:650px){.poem{padding:14px 12px}}.listening-player{padding:16px;background:#eef6f6;border:1px solid #bdd6d8;border-radius:12px;margin:18px 0}.listening-player audio{width:100%;margin:10px 0}.observation-line{min-height:40px;border-bottom:1px dotted #8197a3;line-height:1.8}.reading-target p.reading-line{font-size:27px;line-height:2;letter-spacing:.04em;word-spacing:.18em;margin:16px 0}.reading-label{font-size:15px;color:#4e6b74;margin:18px 0 4px}.reading-model audio{display:block;width:100%;margin:12px 0}.reading-observation td{min-width:90px;height:45px}@media print{.reading-target p.reading-line{font-size:17pt}.reading-model audio{display:none}}</style>
+<header><h1>국어 여섯 단계 · 학생용 문제집</h1><p>뜻 익히기 · 단서 짚기 · 관계 엮기 · 의미 풀기 · 근거 따지기 · 새롭게 엮기</p><p>대표 6수행 / 18자료 / 78문항 · 교사 검토 전 원고</p></header>
+<div class="toolbar"><label>수행 <select id="skill"><option value="">전체</option><option value="plan-G1-information-06">초1 · 중심과 자세한 내용</option><option value="plan-G2-information-08">초2 · 두 대상 비교</option><option value="plan-G3-information-06">초3 · 문단 순서와 기능</option><option value="plan-G4-information-11">초4 · 조건과 예외 적용</option><option value="plan-G5-information-08">초5 · 복수 기준 비교</option><option value="plan-G6-information-11">초6 · 근거의 충분성</option></select></label>
+<label>단계 <select id="stage"><option value="">전체</option><option value="S2">단서 짚기</option><option value="S3">관계 엮기</option><option value="S5">근거 따지기</option></select></label>
+<button onclick="window.print()">표시한 자료 인쇄</button><button id="download">답안 내려받기</button></div><p id="status" role="status"></p><main>
+<article class="set" data-skill="plan-G1-information-06" data-stage="S2"><div class="meta">초1 · 중심과 자세한 내용 · 중심 내용과 자세한 말 짚기 · 자료A</div><h2>나무에서 몸을 받치는 꼬리</h2>
+<div class="text"><p>나무줄기를 타고 다니는 작은 딱따구리 한 종류가 있어요.</p><p>이 새는 나무줄기와 가지를 이리저리 움직여요. 단단한 꼬리깃에 기대 몸을 받치지요.</p><p>꼬리는 이 새가 나무에 붙어 움직일 때 도움을 주어요.</p></div>
+<p class="factual-credit" data-source-material="PV2-G1-information-06-S2-A">바탕 자료: <a href="https://www.allaboutbirds.org/guide/Downy_Woodpecker/lifehistory" target="_blank" rel="noopener noreferrer">Cornell Lab of Ornithology — Downy Woodpecker Life History</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G1-information-06-S2-A-Q1"><div class="meta">설명 · PV2-G1-information-06-S2-A-Q1</div><h3>1. 이 글이 자세히 알려 주는 모습을 짧게 말하고, 꼬리가 하는 일도 함께 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S2-A-Q1 내 답과 본문 근거" data-response="PV2-G1-information-06-S2-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S2-A-Q2"><div class="meta">선택 · PV2-G1-information-06-S2-A-Q2</div><h3>2. 이 글에서 몸을 받치는 데 쓰인다고 한 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S2-A-Q2" data-response="PV2-G1-information-06-S2-A-Q2" value="0"> 1. 단단한 꼬리깃</label>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S2-A-Q2" data-response="PV2-G1-information-06-S2-A-Q2" value="1"> 2. 새의 울음소리</label>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S2-A-Q2" data-response="PV2-G1-information-06-S2-A-Q2" value="2"> 3. 가지의 색깔</label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S2-A-Q3"><div class="meta">근거 찾기 · PV2-G1-information-06-S2-A-Q3</div><h3>3. 새가 움직이는 곳을 알려 주는 말을 찾으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G1-information-06-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S2-A-Q4"><div class="meta">설명 · PV2-G1-information-06-S2-A-Q4</div><h3>4. 꼬리가 있어요보다 꼬리가 몸을 받쳐요가 이 글의 내용을 더 잘 알려 주는 까닭은 무엇인가요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G1-information-06-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G1-information-06" data-stage="S3"><div class="meta">초1 · 중심과 자세한 내용 · 자세한 말을 한 내용으로 잇기 · 자료A</div><h2>펭귄의 몸이 물속에서 하는 일</h2>
+<div class="text"><p>펭귄은 하늘을 날지 못하지만 물속에서는 잘 헤엄치는 새예요. 몸의 여러 부분이 물에서 사는 데 도움을 주어요.</p><p>짧은 깃털이 겹겹이 몸을 덮고 물이 스미지 않도록 도와주어요. 피부 아래의 지방층은 몸의 열을 지키는 데 도움이 돼요.</p><p>지느러미처럼 된 날개를 움직이면 물속에서 앞으로 나아갈 수 있어요. 깃털과 지방층, 날개는 서로 다른 일을 하지요.</p></div>
+<p class="factual-credit" data-source-material="PV2-G1-information-06-S3-A">바탕 자료: <a href="https://www.antarctica.gov.au/about-antarctica/animals/penguins/" target="_blank" rel="noopener noreferrer">Australian Antarctic Program — Penguins</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G1-information-06-S3-A-Q1"><div class="meta">설명 · PV2-G1-information-06-S3-A-Q1</div><h3>1. 깃털과 날개 이야기를 함께 묶어 이 글의 중심 내용을 쓰세요. 두 부분이 각각 돕는 일도 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S3-A-Q1 내 답과 본문 근거" data-response="PV2-G1-information-06-S3-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S3-A-Q2"><div class="meta">선택 · PV2-G1-information-06-S3-A-Q2</div><h3>2. 피부 아래 지방층이 돕는 일은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S3-A-Q2" data-response="PV2-G1-information-06-S3-A-Q2" value="0"> 1. 하늘 높이 날아가는 일</label>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S3-A-Q2" data-response="PV2-G1-information-06-S3-A-Q2" value="1"> 2. 날개처럼 물을 밀어 나아가는 일</label>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S3-A-Q2" data-response="PV2-G1-information-06-S3-A-Q2" value="2"> 3. 몸의 열을 지키는 일</label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S3-A-Q3"><div class="meta">짝짓기 · PV2-G1-information-06-S3-A-Q3</div><h3>3. 깃털 / 지방층 / 날개를 각각의 도움과 이으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G1-information-06-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S3-A-Q4"><div class="meta">설명 · PV2-G1-information-06-S3-A-Q4</div><h3>4. 날개가 있다는 말만으로 펭귄이 하늘을 난다고 할 수 있나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G1-information-06-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G1-information-06" data-stage="S5"><div class="meta">초1 · 중심과 자세한 내용 · 중심에 맞는 설명 고르기 · 자료A</div><h2>박쥐 날개 설명표를 고쳐요</h2>
+<div class="text"><p>박쥐는 날갯짓하며 날 수 있는 젖먹이동물이에요. 이 글에서는 박쥐의 날개가 어떻게 생겼는지 살펴보아요.</p><p>박쥐의 날개에는 길어진 손가락뼈가 있어요. 그 사이로 얇고 유연한 피부막이 이어져 있어요. 뼈와 막이 함께 날개를 이루지요.</p><p>학습용 설명표 초안: 박쥐의 날개는 손가락뼈 없이 깃털만 모여 만들어져요.</p></div>
+<p class="factual-credit" data-source-material="PV2-G1-information-06-S5-A">바탕 자료: <a href="https://home.nps.gov/subjects/bats/how-bats-fly.htm" target="_blank" rel="noopener noreferrer">U.S. National Park Service — How Bats Fly</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G1-information-06-S5-A-Q1"><div class="meta">설명 · PV2-G1-information-06-S5-A-Q1</div><h3>1. 설명표를 글의 중심 내용에 맞게 고치세요. 어떤 자세한 말을 보고 고쳤는지도 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S5-A-Q1 내 답과 본문 근거" data-response="PV2-G1-information-06-S5-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S5-A-Q2"><div class="meta">선택 · PV2-G1-information-06-S5-A-Q2</div><h3>2. 이 글의 중심을 잘 나타내는 제목은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S5-A-Q2" data-response="PV2-G1-information-06-S5-A-Q2" value="0"> 1. 박쥐 날개를 이루는 뼈와 막</label>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S5-A-Q2" data-response="PV2-G1-information-06-S5-A-Q2" value="1"> 2. 박쥐가 겨울을 보내는 곳</label>
+<label class="choice"><input type="radio" name="PV2-G1-information-06-S5-A-Q2" data-response="PV2-G1-information-06-S5-A-Q2" value="2"> 3. 박쥐가 먹이를 찾는 시간</label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S5-A-Q3"><div class="meta">짝짓기 · PV2-G1-information-06-S5-A-Q3</div><h3>3. 날개를 이루는 두 가지를 본문에서 찾으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G1-information-06-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S5-A-Q4"><div class="meta">설명 · PV2-G1-information-06-S5-A-Q4</div><h3>4. 박쥐가 어떤 먹이를 먹는지도 이 글만으로 자세히 알 수 있나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G1-information-06-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G1-information-06-S5-A-Q5"><div class="meta">고쳐쓰기 · PV2-G1-information-06-S5-A-Q5</div><h3>5. 피부막 이야기를 빼고 뼈만 있다고 고치면 충분할까요? 한 문장으로 보완하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G1-information-06-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G1-information-06-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-information-08" data-stage="S2"><div class="meta">초2 · 두 대상 비교 · 같은 기준으로 특징 짚기 · 자료A</div><h2>귀와 지느러미를 같은 기준으로</h2>
+<div class="text"><p>물범과 바다사자는 바다에서 살고 육지에도 올라오는 동물이에요. 비슷해 보여도 같은 부분을 살피면 차이를 찾을 수 있어요.</p><p>물범은 귀구멍은 있지만 밖으로 나온 귓바퀴가 없어요. 바다사자는 작은 귓바퀴가 밖으로 보여요.</p><p>물범은 앞지느러미가 짧고 육지에서 배를 대고 움직여요. 바다사자는 큰 앞지느러미와 몸 아래로 돌릴 수 있는 뒷지느러미로 몸을 받치며 움직일 수 있어요.</p></div>
+<p class="factual-credit" data-source-material="PV2-G2-information-08-S2-A">바탕 자료: <a href="https://www.fisheries.noaa.gov/seals-sea-lions" target="_blank" rel="noopener noreferrer">NOAA Fisheries — Seals &amp; Sea Lions</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G2-information-08-S2-A-Q1"><div class="meta">설명 · PV2-G2-information-08-S2-A-Q1</div><h3>1. 귀의 모습과 육지에서 움직이는 모습을 같은 기준으로 비교해 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S2-A-Q1 내 답과 본문 근거" data-response="PV2-G2-information-08-S2-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S2-A-Q2"><div class="meta">선택 · PV2-G2-information-08-S2-A-Q2</div><h3>2. 밖으로 나온 귓바퀴가 작게 보이는 동물은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S2-A-Q2" data-response="PV2-G2-information-08-S2-A-Q2" value="0"> 1. 바다사자</label>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S2-A-Q2" data-response="PV2-G2-information-08-S2-A-Q2" value="1"> 2. 물범</label>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S2-A-Q2" data-response="PV2-G2-information-08-S2-A-Q2" value="2"> 3. 두 동물 모두</label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S2-A-Q3"><div class="meta">짝짓기 · PV2-G2-information-08-S2-A-Q3</div><h3>3. 물범 / 바다사자의 앞지느러미를 짧음·큼과 이으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G2-information-08-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S2-A-Q4"><div class="meta">설명 · PV2-G2-information-08-S2-A-Q4</div><h3>4. 물범의 귀와 바다사자의 몸 크기만 비교하면 왜 같은 기준의 비교가 아닌가요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G2-information-08-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-information-08" data-stage="S3"><div class="meta">초2 · 두 대상 비교 · 공통점과 차이 연결하기 · 자료A</div><h2>물속의 두 동물은 어떻게 숨 쉴까</h2>
+<div class="text"><p>큰돌고래와 상어는 둘 다 물에서 살아가요. 살아가려면 산소가 필요하지만 산소를 얻는 방법은 달라요.</p><p>큰돌고래는 폐로 숨을 쉬어요. 물 위로 올라와 머리 위의 숨구멍으로 공기를 드나들게 해요.</p><p>상어는 아가미로 지나가는 물속의 산소를 얻어요. 물이 아가미를 지나가며 산소를 얻는 것이지 물 자체가 공기라는 뜻은 아니에요.</p><p>두 동물은 사는 곳을 기준으로 보면 비슷하지만, 숨 쉬는 방법을 기준으로 보면 달라요.</p></div>
+<p class="factual-credit" data-source-material="PV2-G2-information-08-S3-A">바탕 자료: <a href="https://ocean.si.edu/ocean-life/marine-mammals/common-bottlenose-dolphin" target="_blank" rel="noopener noreferrer">Smithsonian Ocean — Common Bottlenose Dolphin</a> · <a href="https://ocean.si.edu/ocean-life/sharks-rays/sharks" target="_blank" rel="noopener noreferrer">Smithsonian Ocean — Sharks</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G2-information-08-S3-A-Q1"><div class="meta">설명 · PV2-G2-information-08-S3-A-Q1</div><h3>1. 사는 곳이라는 기준의 공통점과 숨 쉬는 방법이라는 기준의 차이를 이어 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S3-A-Q1 내 답과 본문 근거" data-response="PV2-G2-information-08-S3-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S3-A-Q2"><div class="meta">선택 · PV2-G2-information-08-S3-A-Q2</div><h3>2. 두 동물의 차이를 설명하는 데 사용한 기준은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S3-A-Q2" data-response="PV2-G2-information-08-S3-A-Q2" value="0"> 1. 숨 쉬는 방법</label>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S3-A-Q2" data-response="PV2-G2-information-08-S3-A-Q2" value="1"> 2. 물에 사는지 여부</label>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S3-A-Q2" data-response="PV2-G2-information-08-S3-A-Q2" value="2"> 3. 몸 색깔의 진하기</label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S3-A-Q3"><div class="meta">짝짓기 · PV2-G2-information-08-S3-A-Q3</div><h3>3. 큰돌고래 / 상어를 기관과 산소를 얻는 곳에 이으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G2-information-08-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S3-A-Q4"><div class="meta">설명 · PV2-G2-information-08-S3-A-Q4</div><h3>4. 물에 산다는 사실 하나로 숨 쉬는 방법도 같다고 할 수 없는 까닭을 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G2-information-08-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G2-information-08" data-stage="S5"><div class="meta">초2 · 두 대상 비교 · 비교의 기준과 예외 살피기 · 자료A</div><h2>낮에 날면 모두 나비일까</h2>
+<div class="text"><p>나비와 나방을 색이나 나는 시간으로 나누려는 사람이 있어요. 나방은 밤에 활동하는 경우가 많지만 낮에 날아다니는 나방도 있어요. 나방 가운데도 화려한 색과 무늬를 가진 것이 있지요.</p><p>더듬이도 비교할 수 있어요. 나비는 더듬이 끝이 굵어진 모습이 흔해요. 나방은 실 모양이나 깃털 모양인 경우가 많아요. 이런 특징도 여러 가지를 함께 살펴야 해요.</p><p>학습용 관찰 사례: 유나는 낮에 본 곤충의 날개가 화려하다는 이유만으로 나방일 수는 없다고 적었어요. 더듬이는 아직 살펴보지 않았어요.</p></div>
+<p class="factual-credit" data-source-material="PV2-G2-information-08-S5-A">바탕 자료: <a href="https://www.si.edu/spotlight/buginfo/moths" target="_blank" rel="noopener noreferrer">Smithsonian Institution — Moths</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G2-information-08-S5-A-Q1"><div class="meta">설명 · PV2-G2-information-08-S5-A-Q1</div><h3>1. 유나의 비교가 충분한지 설명하고, 관찰 메모를 더 조심스럽게 고쳐 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S5-A-Q1 내 답과 본문 근거" data-response="PV2-G2-information-08-S5-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S5-A-Q2"><div class="meta">선택 · PV2-G2-information-08-S5-A-Q2</div><h3>2. 유나의 결론을 다시 살피게 하는 내용은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S5-A-Q2" data-response="PV2-G2-information-08-S5-A-Q2" value="0"> 1. 낮에 날고 화려한 나방도 있다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S5-A-Q2" data-response="PV2-G2-information-08-S5-A-Q2" value="1"> 2. 모든 나비와 나방은 더듬이가 같다.</label>
+<label class="choice"><input type="radio" name="PV2-G2-information-08-S5-A-Q2" data-response="PV2-G2-information-08-S5-A-Q2" value="2"> 3. 모든 나방은 밤에만 난다.</label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S5-A-Q3"><div class="meta">짝짓기 · PV2-G2-information-08-S5-A-Q3</div><h3>3. 나비 / 나방의 더듬이에서 흔한 모습을 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G2-information-08-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S5-A-Q4"><div class="meta">설명 · PV2-G2-information-08-S5-A-Q4</div><h3>4. 경우가 많다는 말을 언제나 그렇다로 바꾸면 무엇이 달라지나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G2-information-08-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G2-information-08-S5-A-Q5"><div class="meta">질문 만들기 · PV2-G2-information-08-S5-A-Q5</div><h3>5. 관찰을 더 이어 가려면 무엇을 확인할지 한 가지 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G2-information-08-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G2-information-08-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-information-06" data-stage="S2"><div class="meta">초3 · 문단 순서와 기능 · 문단의 할 일 짚기 · 자료A</div><h2>점자 칸을 설명하는 세 문단</h2>
+<div class="text"><p>점자는 솟은 점의 조합으로 읽고 쓰는 표기 체계다. 별도의 언어 이름이 아니라 글을 나타내는 방법이다.</p><p>기본 점자 칸에는 점을 놓을 자리가 세로 세 자리씩 두 열로 있다. 모두 여섯 자리 가운데 어떤 점이 올라오는지 조합을 달리한다. 매번 여섯 점을 모두 올리는 것은 아니다.</p><p>점자를 읽는 사람은 손끝으로 솟은 점을 짚으며 글을 읽을 수 있다. 점자 칸의 구조를 아는 것과 실제로 손끝으로 읽는 능력은 구별해 배운다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G3-information-06-S2-A">바탕 자료: <a href="https://www.perkins.org/how-the-braille-alphabet-works/" target="_blank" rel="noopener noreferrer">Perkins School for the Blind — How the braille alphabet works</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G3-information-06-S2-A-Q1"><div class="meta">설명 · PV2-G3-information-06-S2-A-Q1</div><h3>1. 둘째 문단이 하는 일을 첫째·셋째 문단과 구별해 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S2-A-Q1 내 답과 본문 근거" data-response="PV2-G3-information-06-S2-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S2-A-Q2"><div class="meta">선택 · PV2-G3-information-06-S2-A-Q2</div><h3>2. 둘째 문단에서 자세히 설명한 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S2-A-Q2" data-response="PV2-G3-information-06-S2-A-Q2" value="0"> 1. 기본 칸의 점 자리와 조합</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S2-A-Q2" data-response="PV2-G3-information-06-S2-A-Q2" value="1"> 2. 손끝으로 점을 짚는 읽기 방법</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S2-A-Q2" data-response="PV2-G3-information-06-S2-A-Q2" value="2"> 3. 모든 점을 반드시 함께 올리는 규칙</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S2-A-Q2" data-response="PV2-G3-information-06-S2-A-Q2" value="3"> 4. 점자가 별도의 언어라는 주장</label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S2-A-Q3"><div class="meta">짝짓기 · PV2-G3-information-06-S2-A-Q3</div><h3>3. 첫째 / 둘째 / 셋째 문단을 소개·구조·읽기 방법과 이으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G3-information-06-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S2-A-Q4"><div class="meta">설명 · PV2-G3-information-06-S2-A-Q4</div><h3>4. 칸의 자리 수를 외웠다고 실제 점자 읽기까지 확인했다고 할 수 없는 이유는 무엇인가요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G3-information-06-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-information-06" data-stage="S3"><div class="meta">초3 · 문단 순서와 기능 · 문단을 역할대로 잇기 · 자료A</div><h2>사진 파일에 설명이 함께 있어야</h2>
+<div class="text"><p>편지나 노트 같은 기록을 디지털 파일로 옮기면 멀리서도 내용을 살필 수 있다. 공개할 자료를 만들 때에는 사진을 찍는 일 외에도 품질을 확인하고 설명 정보를 작성해 연결하는 일이 따른다.</p><p>다음은 학습용 가상 작업이다. 학교 자료실에서 옛 모임 노트를 사진으로 남겼다. 담당자는 노트마다 번호를 정하고 파일에도 같은 번호를 적었다. 작성자와 제목을 기록한 뒤 사진이 빠지거나 흐린 곳은 없는지 확인했다. 이는 실제 기관의 작업 순서를 그대로 옮긴 기록은 아니다.</p><p>번호만 있어서는 그 노트가 어떤 내용을 담았는지 바로 알기 어렵다. 사진만 있어도 작성자나 제목을 모르면 찾으려던 기록인지 확인하기 어렵다. 파일과 설명 정보를 함께 살펴야 기록을 찾고 내용을 확인하는 데 도움이 된다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G3-information-06-S3-A">바탕 자료: <a href="https://siarchives.si.edu/blog/what-our-experts-want-you-know-about-digitization" target="_blank" rel="noopener noreferrer">Smithsonian Institution Archives — What Our Experts Want You to Know About Digitization</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G3-information-06-S3-A-Q1"><div class="meta">설명 · PV2-G3-information-06-S3-A-Q1</div><h3>1. 세 문단이 어떻게 이어지는지 설명하세요. 가상 작업 문단이 앞뒤 문단 사이에서 하는 일도 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S3-A-Q1 내 답과 본문 근거" data-response="PV2-G3-information-06-S3-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S3-A-Q2"><div class="meta">선택 · PV2-G3-information-06-S3-A-Q2</div><h3>2. 둘째 문단의 역할로 알맞은 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S3-A-Q2" data-response="PV2-G3-information-06-S3-A-Q2" value="0"> 1. 앞 문단의 모든 작업이 불필요하다고 반박한다.</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S3-A-Q2" data-response="PV2-G3-information-06-S3-A-Q2" value="1"> 2. 옛 노트의 내용을 전부 옮겨 적는다.</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S3-A-Q2" data-response="PV2-G3-information-06-S3-A-Q2" value="2"> 3. 모든 기관의 실제 순서가 같음을 증명한다.</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S3-A-Q2" data-response="PV2-G3-information-06-S3-A-Q2" value="3"> 4. 앞의 설명을 구체적인 가상 작업으로 보여 준다.</label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S3-A-Q3"><div class="meta">순서 · PV2-G3-information-06-S3-A-Q3</div><h3>3. 일반적인 작업 소개 / 작업 예 / 함께 확인할 이유를 문단 순서대로 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G3-information-06-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S3-A-Q4"><div class="meta">설명 · PV2-G3-information-06-S3-A-Q4</div><h3>4. 둘째 문단만 읽고 노트 번호만 맞으면 충분하다고 하면 무엇을 놓치나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G3-information-06-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G3-information-06" data-stage="S5"><div class="meta">초3 · 문단 순서와 기능 · 문단을 빼도 뜻이 남는지 따지기 · 자료A</div><h2>발견한 곳을 적는 까닭</h2>
+<div class="text"><p>고고학은 남겨진 물건과 흔적을 살펴 과거 사람들의 생활을 알아보는 연구다. 조사자는 물건 자체뿐 아니라 어디에 있었고 무엇과 함께 있었는지도 기록한다. 이런 위치와 관계 등의 맥락이 해석의 단서가 된다.</p><p>학습용 가상 사례에서 조사팀은 한 자리에 놓인 그릇 조각과 불을 피운 흔적을 기록했다. 두 자료가 함께 있던 곳과 거리를 남기면, 따로 모아 놓은 물건만 볼 때와 달리 관계를 질문할 수 있다. 이 사례는 실제 유적 조사 결과가 아니다.</p><p>맥락을 기록하지 않고 물건만 옮겨 모으면 원래의 관계를 되살리기 어려워질 수 있다. 사진이나 발견 위치 기록을 함께 남기는 까닭은 물건이 어디에서 다른 흔적과 어떻게 연결됐는지 살피기 위해서다. 기록이 있다는 이유만으로 물건의 쓰임이 모두 확정되는 것은 아니다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G3-information-06-S5-A">바탕 자료: <a href="https://home.nps.gov/articles/000/what-is-archeological-context.htm" target="_blank" rel="noopener noreferrer">U.S. National Park Service — What Is Archeological Context?</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G3-information-06-S5-A-Q1"><div class="meta">설명 · PV2-G3-information-06-S5-A-Q1</div><h3>1. 마지막 문단은 앞의 말을 되풀이하니 빼도 된다는 의견을 검토하세요. 남겨야 할 역할과 이유를 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S5-A-Q1 내 답과 본문 근거" data-response="PV2-G3-information-06-S5-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S5-A-Q2"><div class="meta">선택 · PV2-G3-information-06-S5-A-Q2</div><h3>2. 이 글의 마지막 문단이 보태는 내용은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S5-A-Q2" data-response="PV2-G3-information-06-S5-A-Q2" value="0"> 1. 관계 기록이 필요한 이유와 확정하지 못하는 범위</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S5-A-Q2" data-response="PV2-G3-information-06-S5-A-Q2" value="1"> 2. 실제 유적의 그릇과 불의 정확한 연도</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S5-A-Q2" data-response="PV2-G3-information-06-S5-A-Q2" value="2"> 3. 그릇의 쓰임이 언제나 하나라는 결론</label>
+<label class="choice"><input type="radio" name="PV2-G3-information-06-S5-A-Q2" data-response="PV2-G3-information-06-S5-A-Q2" value="3"> 4. 발견 위치를 적지 않아도 되는 이유</label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S5-A-Q3"><div class="meta">분류 · PV2-G3-information-06-S5-A-Q3</div><h3>3. 일반 설명 / 가상 사례로 나누세요:조사자의 맥락 기록, 한 자리에 그릇 조각과 불 흔적이 있던 팀.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G3-information-06-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S5-A-Q4"><div class="meta">고쳐쓰기 · PV2-G3-information-06-S5-A-Q4</div><h3>4. 같은 곳에 있었으니 그릇은 반드시 요리에 쓰였다는 문장을 조심스럽게 고치세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G3-information-06-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G3-information-06-S5-A-Q5"><div class="meta">설명 · PV2-G3-information-06-S5-A-Q5</div><h3>5. 마지막 문단을 짧게 줄인다면 어떤 뜻은 꼭 남겨야 하나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G3-information-06-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G3-information-06-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-information-11" data-stage="S2"><div class="meta">초4 · 조건과 예외 적용 · 현상에 필요한 조건 짚기 · 자료A</div><h2>보름달이면 언제나 월식일까</h2>
+<div class="text"><p>월식은 달이 지구의 그림자에 들어가 어두워지는 현상이다. 이때 지구는 태양과 달 사이에 있고 달은 보름달일 때다.</p><p>그렇지만 보름달이 뜰 때마다 월식이 생기지는 않는다. 달이 지구 주위를 도는 길이 지구가 태양 주위를 도는 길에 대해 기울어 있어서, 보름달이 지구 그림자 위나 아래로 지나갈 수 있기 때문이다.</p><p>월식을 설명할 때는 보름달이라는 모습과 실제로 지구 그림자에 들어가는 위치를 함께 살핀다. 특정 날짜에 월식이 있는지는 날짜별 위치 자료로 확인해야 한다. 이 글은 관측 일정을 제공하는 안내가 아니다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G4-information-11-S2-A">바탕 자료: <a href="https://science.nasa.gov/moon/eclipses/" target="_blank" rel="noopener noreferrer">NASA Science — Eclipses and the Moon</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G4-information-11-S2-A-Q1"><div class="meta">설명 · PV2-G4-information-11-S2-A-Q1</div><h3>1. 월식의 조건을 본문에서 찾아 쓰고, 보름달이라는 정보 하나만으로 월식을 확정할 수 있는지 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S2-A-Q1 내 답과 본문 근거" data-response="PV2-G4-information-11-S2-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S2-A-Q2"><div class="meta">선택 · PV2-G4-information-11-S2-A-Q2</div><h3>2. 보름달 사진만 있을 때 월식 여부를 더 확인할 정보는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S2-A-Q2" data-response="PV2-G4-information-11-S2-A-Q2" value="0"> 1. 보름달은 언제나 태양 앞에 있다는 주장</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S2-A-Q2" data-response="PV2-G4-information-11-S2-A-Q2" value="1"> 2. 달이 지구 그림자에 들어가는 위치인지</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S2-A-Q2" data-response="PV2-G4-information-11-S2-A-Q2" value="2"> 3. 모든 달이 같은 날짜에 찍혔는지</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S2-A-Q2" data-response="PV2-G4-information-11-S2-A-Q2" value="3"> 4. 사진 속 달 이름이 보름달인지</label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S2-A-Q3"><div class="meta">짝짓기 · PV2-G4-information-11-S2-A-Q3</div><h3>3. 태양 / 지구 / 달의 관계를 월식 때에 맞게 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G4-information-11-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S2-A-Q4"><div class="meta">설명 · PV2-G4-information-11-S2-A-Q4</div><h3>4. 이 글을 읽었다고 다음 보름달의 월식 날짜까지 알아냈다고 할 수 없는 이유는 무엇인가요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G4-information-11-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-information-11" data-stage="S3"><div class="meta">초4 · 조건과 예외 적용 · 여러 조건을 함께 적용하기 · 자료A</div><h2>비와 햇빛의 자리를 함께 보기</h2>
+<div class="text"><p>여기서는 햇빛으로 보이는 무지개를 살펴본다. 햇빛은 물방울 안에서 꺾이고 반사되며 여러 색의 빛으로 나뉘어 관찰자에게 올 수 있다.</p><p>이런 무지개를 보려면 태양이 관찰자 뒤쪽에 있고 물방울이 앞쪽에 있는 위치 관계가 필요하다. 비가 왔다는 사실만으로 어떤 방향에서든 무지개가 보이는 것은 아니다.</p><p>학습용 가상 기록 가에서는 비가 막 그쳤지만 구름이 햇빛을 가리고 있다. 기록 나에서는 관찰자 뒤에서 햇빛이 비치고 앞쪽 공기에 물방울이 남아 있다. 두 기록은 실제 관측 결과가 아니라 조건을 비교하기 위한 예이다.</p><p>기록 ‘나’는 ‘가’보다 이 글이 말한 빛과 물방울의 조건을 더 갖추었다. 다만 물방울과 빛의 세기·정확한 보는 각도까지 확인한 기록은 아니므로 나에서 누구나 반드시 보았다고 단정하지 않는다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G4-information-11-S3-A">바탕 자료: <a href="https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows" target="_blank" rel="noopener noreferrer">UK Met Office — Rainbows: optical wonders</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G4-information-11-S3-A-Q1"><div class="meta">설명 · PV2-G4-information-11-S3-A-Q1</div><h3>1. 가와 나 중 어느 기록이 본문의 조건을 더 갖추었나요? 함께 확인한 조건과 아직 단정할 수 없는 점을 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S3-A-Q1 내 답과 본문 근거" data-response="PV2-G4-information-11-S3-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S3-A-Q2"><div class="meta">선택 · PV2-G4-information-11-S3-A-Q2</div><h3>2. 가에서 본문 조건을 충족하지 못한 부분은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S3-A-Q2" data-response="PV2-G4-information-11-S3-A-Q2" value="0"> 1. 비가 그쳤다는 시간 정보가 있다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S3-A-Q2" data-response="PV2-G4-information-11-S3-A-Q2" value="1"> 2. 구름이 햇빛을 가리고 있다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S3-A-Q2" data-response="PV2-G4-information-11-S3-A-Q2" value="2"> 3. 두 사례를 가상 기록이라고 밝혔다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S3-A-Q2" data-response="PV2-G4-information-11-S3-A-Q2" value="3"> 4. 나에는 앞쪽 물방울이 있다.</label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S3-A-Q3"><div class="meta">짝짓기 · PV2-G4-information-11-S3-A-Q3</div><h3>3. 기록 나의 태양 / 물방울 위치를 관찰자 앞·뒤와 이으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G4-information-11-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S3-A-Q4"><div class="meta">고쳐쓰기 · PV2-G4-information-11-S3-A-Q4</div><h3>4. 비만 오면 모든 방향에서 무지개가 보인다는 설명을 고치세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G4-information-11-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G4-information-11" data-stage="S5"><div class="meta">초4 · 조건과 예외 적용 · 조건의 차이와 예외 살피기 · 자료A</div><h2>모든 씨앗에 빛을 더 주면</h2>
+<div class="text"><p>씨앗이 싹트는 발아에는 물·산소·알맞은 온도가 필요하다. 씨앗이 쉬는 상태인 휴면 등도 영향을 주므로 조건 하나만으로 즉시 싹튼다고 약속할 수는 없다.</p><p>빛 조건도 씨앗마다 같지 않다. 빛에서 발아가 잘 되는 종류가 있는가 하면 어둠이 필요한 종류도 있다. 물을 너무 많이 주어 산소가 부족해져도 발아가 나빠질 수 있다.</p><p>학습용 가상 조건표에서는 씨앗 가는 빛을, 씨앗 나는 어둠을 발아 조건으로 주었다. 두 씨앗 모두 알맞은 물·산소·온도를 갖추었다고 가정한다. 이는 실제 식물 종이나 실험 결과가 아닌 연습 조건이다.</p><p>친구의 제안은 두 씨앗을 모두 밝은 곳에 두자는 것이다. 밝게 하기만 하면 모든 씨앗이 더 빨리 싹튼다는 생각이다. 이 제안을 평가할 때에는 공통 조건과 종류에 따라 달라지는 조건을 구별해야 한다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G4-information-11-S5-A">바탕 자료: <a href="https://web.extension.illinois.edu/gpe/case3/c3facts3.html" target="_blank" rel="noopener noreferrer">University of Illinois Extension — Great Plant Escape — Germination</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G4-information-11-S5-A-Q1"><div class="meta">설명 · PV2-G4-information-11-S5-A-Q1</div><h3>1. 친구의 제안을 조건표와 비교해 고치세요. 공통 조건과 서로 다른 조건, 아직 약속할 수 없는 결과를 구별하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S5-A-Q1 내 답과 본문 근거" data-response="PV2-G4-information-11-S5-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S5-A-Q2"><div class="meta">선택 · PV2-G4-information-11-S5-A-Q2</div><h3>2. 가상 조건표의 씨앗 나에 맞는 조치는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S5-A-Q2" data-response="PV2-G4-information-11-S5-A-Q2" value="0"> 1. 공통 조건을 유지하며 어둠 조건을 맞춘다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S5-A-Q2" data-response="PV2-G4-information-11-S5-A-Q2" value="1"> 2. 산소를 없애고 물로 가득 채운다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S5-A-Q2" data-response="PV2-G4-information-11-S5-A-Q2" value="2"> 3. 다른 조건은 모두 버리고 빛만 더 준다.</label>
+<label class="choice"><input type="radio" name="PV2-G4-information-11-S5-A-Q2" data-response="PV2-G4-information-11-S5-A-Q2" value="3"> 4. 가는 빛을 원하므로 나도 같은 빛에 둔다.</label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S5-A-Q3"><div class="meta">분류 · PV2-G4-information-11-S5-A-Q3</div><h3>3. 공통 조건 / 가상 표의 종류별 조건으로 나누세요:물, 산소, 온도, 가의 빛, 나의 어둠.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G4-information-11-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S5-A-Q4"><div class="meta">설명 · PV2-G4-information-11-S5-A-Q4</div><h3>4. 물도 많이 줄수록 언제나 더 좋다고 할 수 없는 근거는 무엇인가요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G4-information-11-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G4-information-11-S5-A-Q5"><div class="meta">고쳐쓰기 · PV2-G4-information-11-S5-A-Q5</div><h3>5. 빛이 필요 없는 종류가 있으니 모든 씨앗에 빛은 필요 없다는 설명을 고치세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G4-information-11-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G4-information-11-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-information-08" data-stage="S2"><div class="meta">초5 · 복수 기준 비교 · 비교할 기준 나누기 · 자료A</div><h2>지구본과 평면 지도는 무엇이 다를까</h2>
+<div class="text"><p>둥근 지구의 표면을 평면에 옮기는 방법을 지도 투영이라고 한다. 지구를 둥근 모형으로 나타낸 지구본과 한 장에 펼친 세계지도는 표현 방식이 다르다.</p><p>지구본은 둥근 표면의 관계를 살펴보기 좋다. 다만 보는 쪽 반대편은 한꺼번에 보이지 않아 돌려 살펴야 한다. 한 장의 평면 세계지도는 여러 대륙의 배치를 펼쳐 볼 수 있지만, 지구 전체의 거리·넓이·모양·방향을 모두 원래대로 나타내지는 못한다.</p><p>그래서 자료를 비교할 때에는 한눈에 펼쳐 보는가와 어떤 관계를 보존하는가를 나누어 살핀다. 펼쳐 보기에 편리하다는 이유만으로 지도에서 보이는 모든 넓이와 거리가 정확하다고 결론내리면 안 된다.</p><p>학습용 가상 전시에서 가 모둠은 둥근 표면의 관계를 돌려 보일 모형이 필요하다. 나 모둠은 벽에 걸고 세계의 배치를 한 화면에 펼쳐 볼 자료가 필요하다. 두 모둠이 우선하는 기준이 다르므로 같은 자료를 언제나 최선이라고 할 수 없다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G5-information-08-S2-A">바탕 자료: <a href="https://www.usgs.gov/faqs/how-are-different-map-projections-used" target="_blank" rel="noopener noreferrer">U.S. Geological Survey — How are different map projections used?</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G5-information-08-S2-A-Q1"><div class="meta">설명 · PV2-G5-information-08-S2-A-Q1</div><h3>1. 두 자료를 펼쳐 보기와 표면 관계라는 두 기준으로 비교하고, 가·나 모둠의 우선 목적에 맞게 연결하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S2-A-Q1 내 답과 본문 근거" data-response="PV2-G5-information-08-S2-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S2-A-Q2"><div class="meta">선택 · PV2-G5-information-08-S2-A-Q2</div><h3>2. 두 비교 기준을 지켜 읽은 설명으로 알맞은 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S2-A-Q2" data-response="PV2-G5-information-08-S2-A-Q2" value="0"> 1. 펼쳐 보기와 보존 성질은 따로 살핀다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S2-A-Q2" data-response="PV2-G5-information-08-S2-A-Q2" value="1"> 2. 한눈에 보이는 지도는 모든 넓이를 정확히 보존한다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S2-A-Q2" data-response="PV2-G5-information-08-S2-A-Q2" value="2"> 3. 지구본은 한쪽에서도 지구 전체를 동시에 보여 준다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S2-A-Q2" data-response="PV2-G5-information-08-S2-A-Q2" value="3"> 4. 나 모둠이 지도를 고르면 지구본은 틀린 자료이다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S2-A-Q2" data-response="PV2-G5-information-08-S2-A-Q2" value="4"> 5. 목적이 달라도 같은 자료가 언제나 최선이다.</label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S2-A-Q3"><div class="meta">짝짓기 · PV2-G5-information-08-S2-A-Q3</div><h3>3. 둥근 표면을 돌려 보기 / 한 화면의 전체 배치를 우선 자료와 이으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G5-information-08-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S2-A-Q4"><div class="meta">설명 · PV2-G5-information-08-S2-A-Q4</div><h3>4. 나 모둠이 평면 지도를 골랐다고 지구본이 틀린 자료가 되는 것은 아닌 이유를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G5-information-08-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-information-08" data-stage="S3"><div class="meta">초5 · 복수 기준 비교 · 자료의 서로 다른 특성 잇기 · 자료A</div><h2>높이를 읽는 선과 모습을 보는 사진</h2>
+<div class="text"><p>같은 장소도 자료가 담은 정보에 따라 다르게 읽는다. 지형도에서는 등고선으로 땅의 높낮이를 나타낼 수 있다. 등고선은 기준면에 대한 높이가 같은 점들을 이은 선이다. 길·건물·하천 같은 대상은 기호로 함께 표시하기도 한다.</p><p>다음은 실제 지도가 아닌 학습용 가상 자료의 설명이다. 자료 가는 등고선과 높이 숫자, 길 기호가 있는 지형도다. 자료 나는 같은 지역의 지붕 색과 건물 모습이 찍힌 항공 색사진이며, 별도의 높이 숫자나 등고선은 넣지 않았다.</p><p>전시 준비팀은 두 가지를 설명하려 한다. 하나는 두 언덕의 높이 차이이고, 다른 하나는 건물 지붕의 색과 놓인 모습이다. 높이 차이를 확인하려면 가의 등고선 값과 높이 숫자를 읽어야 한다. 나의 색사진은 이 연습에서 건물의 모습을 살피는 데 적합하다.</p><p>두 자료가 같은 지역이라는 이유만으로 서로 담지 않은 정보를 대신할 수는 없다. 사진의 색만 보고 두 언덕의 정확한 높이 차이를 정하거나, 기호만 있는 지형도에서 실제 지붕 색을 확정해서는 안 된다. 필요한 정보와 자료에 있는 표시를 짝지어 비교해야 한다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G5-information-08-S3-A">바탕 자료: <a href="https://ngmdb.usgs.gov/topoview/help/" target="_blank" rel="noopener noreferrer">U.S. Geological Survey — topoView Help Guide</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G5-information-08-S3-A-Q1"><div class="meta">설명 · PV2-G5-information-08-S3-A-Q1</div><h3>1. 전시의 두 목적에 가·나를 각각 연결하고, 서로 대신할 수 없는 정보도 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S3-A-Q1 내 답과 본문 근거" data-response="PV2-G5-information-08-S3-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S3-A-Q2"><div class="meta">선택 · PV2-G5-information-08-S3-A-Q2</div><h3>2. 가상 자료 나에 관한 본문 설명에서 확인할 수 없는 정보는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S3-A-Q2" data-response="PV2-G5-information-08-S3-A-Q2" value="0"> 1. 나에 등고선을 넣지 않았다는 조건</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S3-A-Q2" data-response="PV2-G5-information-08-S3-A-Q2" value="1"> 2. 이 사진에 지붕의 색이 찍혀 있다는 것</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S3-A-Q2" data-response="PV2-G5-information-08-S3-A-Q2" value="2"> 3. 두 언덕의 수치로 된 높이 차이</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S3-A-Q2" data-response="PV2-G5-information-08-S3-A-Q2" value="3"> 4. 이 사진에 건물의 모습이 보인다는 것</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S3-A-Q2" data-response="PV2-G5-information-08-S3-A-Q2" value="4"> 5. 가와 같은 지역을 다룬다는 사실</label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S3-A-Q3"><div class="meta">짝짓기 · PV2-G5-information-08-S3-A-Q3</div><h3>3. 등고선 / 색사진을 이 글에서 읽는 정보와 이으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G5-information-08-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S3-A-Q4"><div class="meta">고쳐쓰기 · PV2-G5-information-08-S3-A-Q4</div><h3>4. 같은 곳의 자료니까 사진만으로 모든 정보를 알 수 있다는 말을 고치세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G5-information-08-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G5-information-08" data-stage="S5"><div class="meta">초5 · 복수 기준 비교 · 목적과 기준에 맞게 판단하기 · 자료A</div><h2>넓이와 작은 모양을 함께 따질 때</h2>
+<div class="text"><p>평면 세계지도는 어떤 성질을 지키려는지에 따라 다르게 만들어진다. 넓이 관계를 보존하는 등적 투영에서는 실제로 같은 넓이인 지역을 같은 비율의 넓이로 나타낸다. 그렇다고 모든 곳의 모양과 각도까지 그대로인 것은 아니다.</p><p>정각 투영은 지도에 나타낸 각 지점 주변의 각도와 매우 작은 부분의 모양을 보존하는 성질이 있다. 이 말을 대륙처럼 넓은 지역 전체의 윤곽과 넓이도 모두 보존한다는 뜻으로 읽어서는 안 된다.</p><p>학습용 가상 비교에서 지도 가는 넓이 관계 보존을 우선하고, 지도 나는 작은 부분의 각도 보존을 우선한다. 전시의 목적은 먼저 대륙들의 넓이 비율을 비교하고, 다음으로 작은 구역의 모양을 살피는 것이다. 지도의 실제 그림이나 특정 지역의 수치는 제공하지 않았다.</p><p>한 편집자는 나가 작은 모양을 보존하므로 세계의 모든 넓이도 정확할 것이라고 말했다. 다른 편집자는 가가 넓이를 보존하므로 어느 곳의 모양도 변하지 않을 것이라고 했다. 두 판단 모두 한 기준의 장점을 다른 모든 기준의 보장으로 넓혔다. 목적별로 어떤 성질을 우선하는지 확인하고 표현의 범위를 지켜야 한다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G5-information-08-S5-A">바탕 자료: <a href="https://pubs.usgs.gov/gip/70047422/report.pdf" target="_blank" rel="noopener noreferrer">U.S. Geological Survey — Map Projections — Which ones best suit your needs?</a> · <a href="https://pubs.usgs.gov/pp/1395/report.pdf" target="_blank" rel="noopener noreferrer">U.S. Geological Survey — Map Projections — A Working Manual</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G5-information-08-S5-A-Q1"><div class="meta">설명 · PV2-G5-information-08-S5-A-Q1</div><h3>1. 두 편집자의 판단을 각각 고치고, 전시의 두 목적에는 어떤 성질을 우선할지 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S5-A-Q1 내 답과 본문 근거" data-response="PV2-G5-information-08-S5-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S5-A-Q2"><div class="meta">선택 · PV2-G5-information-08-S5-A-Q2</div><h3>2. 두 판단에 공통으로 나타난 문제는 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S5-A-Q2" data-response="PV2-G5-information-08-S5-A-Q2" value="0"> 1. 모든 평면 지도는 사용 목적이 같다고 증명했다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S5-A-Q2" data-response="PV2-G5-information-08-S5-A-Q2" value="1"> 2. 한 성질을 다른 모든 성질의 보장으로 넓혔다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S5-A-Q2" data-response="PV2-G5-information-08-S5-A-Q2" value="2"> 3. 가와 나가 같은 지역임을 확인하지 않았다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S5-A-Q2" data-response="PV2-G5-information-08-S5-A-Q2" value="3"> 4. 두 지도 모두 넓이만 보존한다고 읽었다.</label>
+<label class="choice"><input type="radio" name="PV2-G5-information-08-S5-A-Q2" data-response="PV2-G5-information-08-S5-A-Q2" value="4"> 5. 실제 지도 그림에서 숫자를 잘못 읽었다.</label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S5-A-Q3"><div class="meta">분류 · PV2-G5-information-08-S5-A-Q3</div><h3>3. 넓이 우선 / 작은 각도·모양 우선으로 나누세요:등적의 성질, 정각의 성질.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G5-information-08-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S5-A-Q4"><div class="meta">고쳐쓰기 · PV2-G5-information-08-S5-A-Q4</div><h3>4. 작은 부분의 모양을 보존하니 대륙의 넓이도 모두 정확하다는 문장을 고치세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G5-information-08-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G5-information-08-S5-A-Q5"><div class="meta">질문 만들기 · PV2-G5-information-08-S5-A-Q5</div><h3>5. 새 지도를 비교할 때 제목 외에 무엇을 더 확인해야 하나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G5-information-08-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G5-information-08-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-information-11" data-stage="S2"><div class="meta">초6 · 근거의 충분성 · 확인한 증거와 빈칸 짚기 · 자료A</div><h2>나이테 줄을 세고 남은 확인</h2>
+<div class="text"><p>나무의 나이테는 성장한 시간을 알아보는 중요한 자료다. 하지만 보이는 줄의 수를 세는 것과 각 줄에 달력의 연도를 붙이는 일은 같지 않다.</p><p>어떤 해의 고리가 표본의 일부에서 나타나지 않기도 하고, 한 해에 여분의 띠가 생겨 두 고리처럼 보이기도 한다. 따라서 줄 하나를 언제나 한 해라고 놓고 세면 빠지거나 겹친 부분을 놓칠 수 있다.</p><p>연구자는 여러 표본에서 좁고 넓은 고리의 패턴을 맞춰 보는 교차 연대 비교로 이런 문제를 검토한다. 표본 하나의 줄 수만 확인하는 것보다 형성 연도를 대조할 근거를 더 살피는 방법이다.</p><p>학습용 가상 기록에서 학생은 나무 표본에 줄 서른 개가 보인다고 적었다. 이 기록에는 여분의 띠나 부분적으로 빠진 고리를 확인한 과정이 없다. 서른 줄은 관찰한 수이지만 곧바로 정확한 나이 서른 살이라는 결론의 충분한 근거는 아니다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G6-information-11-S2-A">바탕 자료: <a href="https://www.ltrr.arizona.edu/skeletonplot/ringanomalies.htm" target="_blank" rel="noopener noreferrer">University of Arizona Laboratory of Tree-Ring Research — Crossdating in Dendrochronology: Ring-Growth Anomalies</a> · <a href="https://www.ltrr.arizona.edu/eg/skelsurvey.html" target="_blank" rel="noopener noreferrer">University of Arizona Laboratory of Tree-Ring Research — Crossdating in Dendrochronology</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G6-information-11-S2-A-Q1"><div class="meta">설명 · PV2-G6-information-11-S2-A-Q1</div><h3>1. 가상 기록에서 확인된 것과 나이 결론을 위해 아직 필요한 검토를 나누어 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S2-A-Q1 내 답과 본문 근거" data-response="PV2-G6-information-11-S2-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S2-A-Q2"><div class="meta">선택 · PV2-G6-information-11-S2-A-Q2</div><h3>2. 이 가상 기록에서 직접 확인했다고 적힌 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S2-A-Q2" data-response="PV2-G6-information-11-S2-A-Q2" value="0"> 1. 나무의 정확한 나이가 서른 살이라는 것</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S2-A-Q2" data-response="PV2-G6-information-11-S2-A-Q2" value="1"> 2. 주변 모든 나무가 같은 나이라는 것</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S2-A-Q2" data-response="PV2-G6-information-11-S2-A-Q2" value="2"> 3. 여분의 띠가 한 개도 없다는 것</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S2-A-Q2" data-response="PV2-G6-information-11-S2-A-Q2" value="3"> 4. 표본에서 보이는 줄이 서른 개라는 것</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S2-A-Q2" data-response="PV2-G6-information-11-S2-A-Q2" value="4"> 5. 모든 해의 고리가 표본에 빠짐없이 있다는 것</label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S2-A-Q3"><div class="meta">짝짓기 · PV2-G6-information-11-S2-A-Q3</div><h3>3. 줄 수 세기 / 교차 연대 비교를 살피는 정보와 이으세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S2-A-Q3 내 답과 본문 근거" data-response="PV2-G6-information-11-S2-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S2-A-Q4"><div class="meta">설명 · PV2-G6-information-11-S2-A-Q4</div><h3>4. 정확히 서른 살은 아니어도 적어도 서른 살이라고는 확정할 수 있나요?</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S2-A-Q4 내 답과 본문 근거" data-response="PV2-G6-information-11-S2-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-information-11" data-stage="S3"><div class="meta">초6 · 근거의 충분성 · 서로 다른 단서 함께 따지기 · 자료A</div><h2>밤빛의 변화가 바로 인구 변화일까</h2>
+<div class="text"><p>우주에서 기록한 밤의 불빛은 인간 활동을 연구하는 단서다. 그렇지만 빛의 점을 사람 한 명이나 집 한 채와 그대로 맞바꿔 세는 자료는 아니다.</p><p>불빛은 주거지 조명 외에도 어선·산업 시설·가스 연소·불 등에서 나타날 수 있다. 반대로 어두운 곳에도 사람이 살 수 있다. 전력 공급이 부족하거나 밤새 불을 켜지 않는 상황을 빛의 부재만으로 구별할 수 없기 때문이다.</p><p>여러 시기의 밝기 변화를 볼 때에도 원인이 하나라고 놓아서는 안 된다. 전력 공급이나 조명 종류의 변화 역시 밤빛 기록을 달리할 수 있다. 무엇이 바뀌었는지 다른 자료와 함께 확인해야 한다.</p><p>학습용 가상 관측 요약에서 A지역은 전보다 밝아졌고, 같은 기간 전력 공급도 확대되었다. 주민 수 자료는 제공하지 않았다. B지역 바다에는 밝은 점들이 있었지만 주거지인지 배인지 확인하지 않았다.</p><p>A의 밝기 증가만으로 주민 수의 증가분을 정하거나 B의 점 하나를 새집 한 채로 세는 것은 근거의 범위를 넘는다. 밤빛을 단서로 쓰되 인구·시설·선박과 전력 기록 등 필요한 별도 자료를 연결해야 한다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G6-information-11-S3-A">바탕 자료: <a href="https://science.nasa.gov/earth/earth-observatory/city-lights-of-australia-or-not-80030/" target="_blank" rel="noopener noreferrer">NASA Earth Observatory — City Lights of Australia, or Not</a> · <a href="https://science.nasa.gov/earth/earth-observatory/night-lights-change-in-the-middle-east-90100/" target="_blank" rel="noopener noreferrer">NASA Earth Observatory — Night Lights Change in the Middle East</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G6-information-11-S3-A-Q1"><div class="meta">설명 · PV2-G6-information-11-S3-A-Q1</div><h3>1. A와 B의 결론에 각각 어떤 근거가 더 필요한지, 본문의 서로 다른 불빛 원천·전력 조건을 연결해 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S3-A-Q1 내 답과 본문 근거" data-response="PV2-G6-information-11-S3-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S3-A-Q2"><div class="meta">선택 · PV2-G6-information-11-S3-A-Q2</div><h3>2. 이 자료로 타당하게 말할 수 있는 것은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S3-A-Q2" data-response="PV2-G6-information-11-S3-A-Q2" value="0"> 1. B의 밝은 점은 모두 새로 지은 집이다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S3-A-Q2" data-response="PV2-G6-information-11-S3-A-Q2" value="1"> 2. 밤빛은 인구 연구에 어떤 도움도 줄 수 없다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S3-A-Q2" data-response="PV2-G6-information-11-S3-A-Q2" value="2"> 3. A의 밝기 증가분은 주민 수 증가분과 같다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S3-A-Q2" data-response="PV2-G6-information-11-S3-A-Q2" value="3"> 4. 밤빛은 활동의 단서지만 원천과 다른 기록을 대조해야 한다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S3-A-Q2" data-response="PV2-G6-information-11-S3-A-Q2" value="4"> 5. 어두운 지역에는 사람이 전혀 살지 않는다.</label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S3-A-Q3"><div class="meta">분류 · PV2-G6-information-11-S3-A-Q3</div><h3>3. 관측 요약에 있음 / 별도 확인 필요로 나누세요:A의 밝기 증가, A의 정확한 주민 수 증가, B 불빛의 주거지 여부.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S3-A-Q3 내 답과 본문 근거" data-response="PV2-G6-information-11-S3-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S3-A-Q4"><div class="meta">고쳐쓰기 · PV2-G6-information-11-S3-A-Q4</div><h3>4. 불빛 점 세 개는 주민 세 명이라는 설명을 본문 원리에 맞게 고치세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S3-A-Q4 내 답과 본문 근거" data-response="PV2-G6-information-11-S3-A-Q4-draft"></textarea></label>
+</section>
+</article>
+<article class="set" data-skill="plan-G6-information-11" data-stage="S5"><div class="meta">초6 · 근거의 충분성 · 근거가 결론을 뒷받침하는지 따지기 · 자료A</div><h2>단서 후보와 발견 확인 사이</h2>
+<div class="text"><p>먼 행성에 생명이 있는지 연구할 때에는 생명 활동에서 나올 수 있는 기체도 단서 후보로 살핀다. 하지만 기체를 찾았다는 판단과 그 기체가 생명 때문에 생겼다는 판단은 서로 다른 단계다.</p><p>산소는 그런 후보 가운데 하나다. 연구자들은 생명 활동이 없어도 산소가 생길 수 있는 행성 환경을 모형으로 검토해 왔다. 다른 기체와 행성 주변 환경을 함께 보면 이런 비생물적 생성 가능성을 더 살필 수 있다.</p><p>이 연구의 모형은 가능한 원인을 비교하는 도구이며 특정 행성에서 생명을 실제로 발견했다는 관측 보고와 같지 않다. 연구를 읽을 때에는 무엇을 관측했고 무엇을 가정해 계산했는지도 구별해야 한다.</p><p>학습용 가상 사례에서 행성 가에 산소로 보이는 신호가 나왔다고 가정한다. 다른 기체와 주변 환경은 아직 자세히 확인하지 않았다. 신호가 산소인지 더 확인하는 일과, 산소라고 확인했을 때 생긴 원인을 검토하는 일도 남아 있다. 이 사례는 실제 행성의 관측 결과가 아니다.</p><p>설명 초고에는 산소 신호가 있으니 생명 발견이 확정됐다고 적혔다. 이 문장은 후보 신호의 확인과 원인의 해석이라는 두 빈칸을 한꺼번에 넘었다. 반대로 생명 없이도 산소가 생길 수 있으니 그 행성에 생명은 절대 없다고 결론내려도 근거보다 강한 단정이다.</p></div>
+<p class="factual-credit" data-source-material="PV2-G6-information-11-S5-A">바탕 자료: <a href="https://ntrs.nasa.gov/citations/20160005219" target="_blank" rel="noopener noreferrer">Schwieterman et al.; NASA Technical Reports Server — Identifying Planetary Biosignature Impostors: Spectral Features of CO and O4 Resulting from Abiotic O2/O3 Production</a> · <a href="https://science.nasa.gov/universe/exoplanets/life-or-illusion-avoiding-false-positives-in-the-search-for-living-worlds/" target="_blank" rel="noopener noreferrer">NASA Science — Life or illusion? Avoiding false positives in the search for living worlds</a> · 학습용으로 재구성한 글</p>
+<section class="question" data-question="PV2-G6-information-11-S5-A-Q1"><div class="meta">설명 · PV2-G6-information-11-S5-A-Q1</div><h3>1. 초고를 근거에 맞게 고치세요. 남은 두 확인 단계와 반대 방향의 단정도 피해야 하는 이유를 설명하세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S5-A-Q1 내 답과 본문 근거" data-response="PV2-G6-information-11-S5-A-Q1-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S5-A-Q2"><div class="meta">선택 · PV2-G6-information-11-S5-A-Q2</div><h3>2. 산소라고 확인해도 생성 원인을 더 살펴야 하는 직접적인 까닭은 무엇인가요?</h3>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S5-A-Q2" data-response="PV2-G6-information-11-S5-A-Q2" value="0"> 1. 다른 기체와 환경은 원인 해석에 쓸 수 없기 때문이다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S5-A-Q2" data-response="PV2-G6-information-11-S5-A-Q2" value="1"> 2. 후보 신호는 확인 과정을 거치면 안 되기 때문이다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S5-A-Q2" data-response="PV2-G6-information-11-S5-A-Q2" value="2"> 3. 모형이 그 행성의 생명 부재를 이미 증명했기 때문이다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S5-A-Q2" data-response="PV2-G6-information-11-S5-A-Q2" value="3"> 4. 생명 없이 산소가 생길 가능성도 있기 때문이다.</label>
+<label class="choice"><input type="radio" name="PV2-G6-information-11-S5-A-Q2" data-response="PV2-G6-information-11-S5-A-Q2" value="4"> 5. 어떤 행성에서도 산소는 존재할 수 없기 때문이다.</label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S5-A-Q3"><div class="meta">분류 · PV2-G6-information-11-S5-A-Q3</div><h3>3. 확인·가정의 범위를 나누세요:모형의 비생물적 가능성 검토, 가상 행성의 후보 신호, 실제 생명 발견.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S5-A-Q3 내 답과 본문 근거" data-response="PV2-G6-information-11-S5-A-Q3-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S5-A-Q4"><div class="meta">고쳐쓰기 · PV2-G6-information-11-S5-A-Q4</div><h3>4. 생명 없이도 산소가 생기므로 생명은 절대 없다는 설명을 고치세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S5-A-Q4 내 답과 본문 근거" data-response="PV2-G6-information-11-S5-A-Q4-draft"></textarea></label>
+</section>
+<section class="question" data-question="PV2-G6-information-11-S5-A-Q5"><div class="meta">질문 만들기 · PV2-G6-information-11-S5-A-Q5</div><h3>5. 생성 원인의 비교를 위해 더 모을 정보 두 종류를 쓰세요.</h3>
+<label>내 답과 본문 근거<textarea aria-label="PV2-G6-information-11-S5-A-Q5 내 답과 본문 근거" data-response="PV2-G6-information-11-S5-A-Q5-draft"></textarea></label>
+</section>
+</article>
+</main><footer>자체 창작 자료 · 실제 교사 검토와 학생 난도 확인 대기 · 입력한 답안·메모는 이 브라우저에 저장됩니다.</footer><script>
+const skill=document.getElementById('skill'),stage=document.getElementById('stage'),status=document.getElementById('status');
+function filter(){let n=0;document.querySelectorAll('.set').forEach(s=>{s.hidden=!!((skill.value&&s.dataset.skill!==skill.value)||(stage.value&&s.dataset.stage!==stage.value));if(!s.hidden)n++});status.textContent=n+'개 자료 묶음 표시'}skill.onchange=filter;stage.onchange=filter;
+let saved={};try{const x=JSON.parse(localStorage.getItem('readx-expansion-v2-08')||'{}');if(x&&typeof x==='object'&&!Array.isArray(x))saved=x}catch{status.textContent='저장 기록을 불러오지 못했습니다.'}
+document.querySelectorAll('[data-response]').forEach(el=>{const key=el.dataset.response;if(el.type==='radio')el.checked=saved[key]===el.value;else el.value=saved[key]||'';el.addEventListener('input',()=>{saved[key]=el.value;try{localStorage.setItem('readx-expansion-v2-08',JSON.stringify(saved))}catch{status.textContent='브라우저 저장이 제한됩니다. 인쇄나 답안 내려받기를 이용하세요.'}})});
+document.getElementById('download').onclick=()=>{const blob=new Blob([JSON.stringify({source:"expansion-v2-08",savedAt:new Date().toISOString(),responses:saved},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='국어_단계별_연습_답안.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)};
+const expand=document.getElementById('expand');if(expand)expand.onclick=()=>{document.querySelectorAll('details').forEach(d=>d.open=true)};
+</script></html>

@@ -10,7 +10,8 @@ export function stripHtmlTags(html: string): string {
 export function speakKoreanText(
   rawText: string,
   rate: number = 1.0,
-  onEnd?: () => void
+  onEnd?: () => void,
+  onError?: () => void
 ): void {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
     if (onEnd) onEnd();
@@ -24,22 +25,22 @@ export function speakKoreanText(
     return;
   }
 
+  // A remote/system-default voice can send the text to an external provider.
+  const koVoice = window.speechSynthesis.getVoices().find(v => v.localService === true && v.lang.toLowerCase().startsWith('ko'));
+  if (!koVoice) { onEnd?.(); onError?.(); return; }
   const utterance = new SpeechSynthesisUtterance(cleanText);
   utterance.lang = 'ko-KR';
   utterance.rate = rate;
   utterance.pitch = 1.0;
 
-  const voices = window.speechSynthesis.getVoices();
-  const koVoice = voices.find(v => v.lang.includes('ko') || v.lang.includes('KR'));
-  if (koVoice) {
-    utterance.voice = koVoice;
-  }
+  utterance.voice = koVoice;
 
   utterance.onend = () => {
     if (onEnd) onEnd();
   };
-  utterance.onerror = () => {
+  utterance.onerror = (event) => {
     if (onEnd) onEnd();
+    if (event.error !== 'canceled' && event.error !== 'interrupted') onError?.();
   };
 
   window.speechSynthesis.speak(utterance);

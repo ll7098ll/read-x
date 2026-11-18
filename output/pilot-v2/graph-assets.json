@@ -1,0 +1,200 @@
+{
+  "contentSnapshotHash": "e928db7c2fac0ccc2ad7af03689d236031f27b735cf66c8c7437f6b591c2dfbd",
+  "assets": [
+    {
+      "id": "PV2-G4-media-02-S1-A-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S1-A-G1.svg",
+      "svgHash": "f5bb7a35b6bc330a5fe4aa24f887fd5d07c13c89b763f63843946347a9709b3e",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S1-A-G1.png",
+      "pngHash": "2471aa0b29b94c4beb4b9c9c5b6cef3c629803866f337c43215df276a9d65e73",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "4a31c475b2689f7406af0c56e489c2640a5099e1ca26238044cde0ce697064e6",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S1-B-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S1-B-G1.svg",
+      "svgHash": "ca43252a9be0bdb89f61ea8151e9e3180895d23db68a7e5463e5b3c4d06f50d5",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S1-B-G1.png",
+      "pngHash": "c73b8eeb1f885b4fcbb71018f39cb437324e7375bb8819545640743de78ead7b",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "14db2327c6772ddbd80005ece649c9009c82ffa561776b05deb68f88506f6b2f",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S2-A-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S2-A-G1.svg",
+      "svgHash": "d070aea35de624abb9148238396afe4b6241dbe6ce3349e33f7de9b6613794e7",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S2-A-G1.png",
+      "pngHash": "9825cf51e3772b686c4b45f74572e703989a29229bdaba177193d54dceb9c79a",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "b7e379eac95ba25550d93a704dd6ee79ca7eefe63d2966903b334425cfc46530",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S2-B-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S2-B-G1.svg",
+      "svgHash": "dfc80c0de508a3fdd774d5bb0816159f20d898df64337da06651c5e32f61e7d9",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S2-B-G1.png",
+      "pngHash": "0fd6da8bf1b420ce155e3ff9afd391fb5483393621b9f38cae6a378c29702fbe",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "4af9fe2abef4ce6b940ccd9e16df7e9f2a3a58e8f99557ba2d4fdafe1ce08bb5",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S3-A-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S3-A-G1.svg",
+      "svgHash": "c586033ea000ee38fac0b7424e2f8d96cf22e5a980495fcbf6fa0ad99b6e7b89",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S3-A-G1.png",
+      "pngHash": "93be0212d653ba1d1c8ad1aac1ea18134b69c8f7ffa83dbb5feb38a52691ae46",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "91095a54f3319f2b389297c2291cd73a646f317a82aea5429d9a849a4d9bf127",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S3-A-G2",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S3-A-G2.svg",
+      "svgHash": "5ebd4d793ef5dde27890d6e4b5d0dfc78072a5bfb7d9bb3efddc749bb1440cff",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S3-A-G2.png",
+      "pngHash": "681486f6032fda01b140514e1e8609894a5428cfe8048032deb7516f203e4c83",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "c9449cfcfd58b0e41140d4dc9dde2ffcf1c010ba2ed98d66ea5b103693f0517f",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S3-B-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S3-B-G1.svg",
+      "svgHash": "731a088672b04e8355eba4c800f98d2cc5d2af1f7c9daafd0bd42444dd590ad6",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S3-B-G1.png",
+      "pngHash": "47ef1ea1e722d5d19711349d8c150daa1cad49e8e387a5d6bb61a86e6cb12bdb",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "ba4064672c0db2ad45d4e75fdbd26dab2d4bcb0ef27de663eb5336234dc803d0",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S4-A-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S4-A-G1.svg",
+      "svgHash": "0531b655b397b308b1c5d4c94f935f56e9b623de7a765f2a2be98aef6b9ad733",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S4-A-G1.png",
+      "pngHash": "a2ef53205dbb479202c3d27d50a52fb02f6fec6cb596755dbbe4dc2c863c183a",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "1fed9fed392a3d52e48dad0d67b9398de337740f8c0b59271b76354e0e2e9471",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S4-B-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S4-B-G1.svg",
+      "svgHash": "a9f70b97972c4ba628b73d50745d119e5f8ef9298504ca8f69bbdf8863e303b9",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S4-B-G1.png",
+      "pngHash": "61f2ecc534e37f0d96e22c7b7e93c46cc2e662ccc12771c8010879d650a71353",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "a0769706bab6bf550a01c59686dc7dec9d78c9b1aac81b969a98628821ba6cf4",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S5-A-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S5-A-G1.svg",
+      "svgHash": "57143141f37af69013cf0797d46572c93ec3d48cf6b7ad482d7d96a54e527af0",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S5-A-G1.png",
+      "pngHash": "b9b50da87f7d1484c8120a826df10f860ec2b11cc6870b2b0843b1f3c30e2c62",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "88a7a9548a5004a4d22025aad0724cb3294e83306f63cd26e8381661597c22f1",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S5-A-G2",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S5-A-G2.svg",
+      "svgHash": "9139f7209289a025c56d9b725158e9c055d2c7aa2bd1591dc1d128b9fcfaa70a",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S5-A-G2.png",
+      "pngHash": "4acc3311b06e3335190fb8ca394cda3d76128d94f426b066e0b60c75da374e46",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "2376f6ed3f7a62a86a44c0cba260f5fc286e3de728535a8bd3b624298a0a9eb5",
+      "intentionalPresentation": "nonzero_axis_for_review"
+    },
+    {
+      "id": "PV2-G4-media-02-S5-B-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S5-B-G1.svg",
+      "svgHash": "e1b6a587877090a917ceca0483351d65ea7efd07bcf1993c802aa7781f985e48",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S5-B-G1.png",
+      "pngHash": "3715e4acea93fef4132444b1e4a4fd12e5efe74420d1d37d216adecedf8f88fe",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "449724e3fe2f744aa9d4d5f6f8985039623661976f81ea7b9c6fb86c901caf54",
+      "intentionalPresentation": "wrong_legend_unit_for_review"
+    },
+    {
+      "id": "PV2-G4-media-02-S6-A-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S6-A-G1.svg",
+      "svgHash": "30f4593bea79ca969dbc9db640c7778a64e49fab58cfac196b84777672242038",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S6-A-G1.png",
+      "pngHash": "ed22441bc4d999c81d9e72d556d6a53fa6cf49185e530754650c1fe9eeb49dee",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "f8384b2b5893bc42ca57892fe369cd5e69fc71e233323fd49a02c3be02e46ee7",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S6-B-G1",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S6-B-G1.svg",
+      "svgHash": "3268d73fec6bfab2af0d391f6a8d77978099d54bc8a731eb489bfe11dfaafde6",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S6-B-G1.png",
+      "pngHash": "20e5a86c1f9c95e4281e1d914898f728807a48ab137855daea41dd3f084802ce",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "f4a96da8cc04dc52ec0ea154e65af566c6257abffde59c04b4bbe05d6dacbf46",
+      "intentionalPresentation": null
+    },
+    {
+      "id": "PV2-G4-media-02-S6-B-G2",
+      "svg": "output/pilot-v2/assets/PV2-G4-media-02-S6-B-G2.svg",
+      "svgHash": "3f5ecccfb69187cf01d9968b0152633e167889645784ad591bc048c20f91227c",
+      "png": "output/pilot-v2/assets/PV2-G4-media-02-S6-B-G2.png",
+      "pngHash": "a88527ab064de314781329a9bcae4dc8b19b04c37f2e19319e62e0e80e101b19",
+      "dimensions": [
+        936,
+        572
+      ],
+      "graphDataHash": "7f47dce0317de96e6d8c3e0f08f0c224bf9fff44b3084d3204c10fbf7646f501",
+      "intentionalPresentation": null
+    }
+  ]
+}

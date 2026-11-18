@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { BookOpen, PanelRight, Bookmark, Check, ScanLine, GitBranch, PenLine, ArrowRight, CircleHelp, SlidersHorizontal, Volume2, Square, X, StickyNote } from 'lucide-react';
+import { usePracticeState, useReadingWorkspace, useReadingStorageStatus } from '../../store/useReadingWorkspace';
 import { useCoursewareStore } from '../../store/useCoursewareStore';
+import { ClinicDrill } from './ClinicActivities';
 import { speakKoreanText, stopKoreanSpeech } from '../../utils/ttsEngine';
-import type { GradeData, VocabNote, HighlightColorType } from '../../types/courseware';
+import type { GradeData, VocabNote, HighlightColorType, ClueNoteItem } from '../../types/courseware';
 import {
   EyeBeaconGuide,
   GraphicOrganizerBuilder,
@@ -27,6 +30,7 @@ function applySyntacticChunking(html: string): string {
 }
 
 export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData }) => {
+  const storageFailed = useReadingStorageStatus(s=>s.failed);
   const {
     readerTheme,
     setReaderTheme,
@@ -47,9 +51,6 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
     savedVocab,
     saveVocabWord,
     removeVocabWord,
-    clueNotesByGrade,
-    addClueNote,
-    removeClueNote,
     boostSmartScore,
     unlockVaccine,
     markStepComplete,
@@ -62,13 +63,20 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
   const wb = comm.writing_workbench;
 
   // Active right-pane tab: 'csat' | 'ebsr' | 'organizer' | 'cloze' | 'writing'
-  const [rightTab, setRightTab] = useState<'csat' | 'ebsr' | 'organizer' | 'cloze' | 'writing'>('csat');
+  const [rightTab, setRightTab] = usePracticeState<'evidence' | 'csat' | 'ebsr' | 'organizer' | 'cloze' | 'writing'>(gradeData.slot_id, 'tab', 'evidence');
+  const [mobilePane, setMobilePane] = useState<'passage' | 'activity'>('passage');
+  const [selectedParagraphs, setSelectedParagraphs] = usePracticeState<number[]>(gradeData.slot_id, 'paragraphs', []);
+  const [currentClues, setCurrentClues] = usePracticeState<ClueNoteItem[]>(gradeData.slot_id, 'notes', []);
+  const addClueNote = (_grade: number, text: string, color: HighlightColorType, tag: string) => {
+    setCurrentClues(notes => notes.some(note => note.text === text) ? notes : [...notes, {id: crypto.randomUUID(), text, color, tag, createdAt: new Date().toISOString()}]);
+  };
+  const removeClueNote = (_grade: number, id: string) => setCurrentClues(notes => notes.filter(note => note.id !== id));
 
   // Question solving state
-  const [wrongAttempts, setWrongAttempts] = useState<Record<number, number>>({});
-  const [pickedHistory, setPickedHistory] = useState<Record<number, number[]>>({});
-  const [solvedMap, setSolvedMap] = useState<Record<number, boolean>>({});
-  const [activeQuestionIdx, setActiveQuestionIdx] = useState<number>(0);
+  const [wrongAttempts, setWrongAttempts] = usePracticeState<Record<number, number>>(gradeData.slot_id, 'wrongAttempts', {});
+  const [pickedHistory, setPickedHistory] = usePracticeState<Record<number, number[]>>(gradeData.slot_id, 'pickedHistory', {});
+  const [solvedMap, setSolvedMap] = usePracticeState<Record<number, boolean>>(gradeData.slot_id, 'solvedMap', {});
+  const [activeQuestionIdx, setActiveQuestionIdx] = usePracticeState<number>(gradeData.slot_id, 'question', 0);
 
   // Spotlight paragraph index triggered by scaffolding
   const [spotlightState, setSpotlightState] = useState<{
@@ -90,26 +98,23 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
 
   // TTS state
   const [isSpeaking, setIsSpeaking] = useState<boolean>(false);
+  const [speechMessage, setSpeechMessage] = useState('');
 
   // EBSR (TEI-2) state
-  const [ebsrPartA, setEbsrPartA] = useState<number | null>(null);
-  const [ebsrPartB, setEbsrPartB] = useState<number | null>(null);
+  const [ebsrPartA, setEbsrPartA] = usePracticeState<number | null>(gradeData.slot_id, 'ebsrA', null);
+  const [ebsrPartB, setEbsrPartB] = usePracticeState<number | null>(gradeData.slot_id, 'ebsrB', null);
 
-  const paraRefs = useRef<Record<number, HTMLParagraphElement | null>>({});
+  const paraRefs = useRef<Record<number, HTMLDivElement | null>>({});
+  const passageRef = useRef<HTMLDivElement>(null);
 
-  // Reset state on slot change
+  // Resume practice on this device; official assessment records are separate.
   useEffect(() => {
     stopKoreanSpeech();
     setIsSpeaking(false);
-    setWrongAttempts({});
-    setPickedHistory({});
-    setSolvedMap({});
-    setSpotlightState(null);
-    setFocusedParaIdx(0);
-    setActiveQuestionIdx(0);
-    setActiveVocab(null);
-    setEbsrPartA(null);
-    setEbsrPartB(null);
+    useReadingWorkspace.getState().visit(gradeData.slot_id);
+    const top = useReadingWorkspace.getState().sessions[gradeData.slot_id]?.scrollTop;
+    if(passageRef.current && typeof top === 'number') passageRef.current.scrollTop = top;
+    return () => stopKoreanSpeech();
   }, [gradeData.id, gradeData.slot_id]);
 
   const handleToggleTts = () => {
@@ -117,9 +122,11 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
       stopKoreanSpeech();
       setIsSpeaking(false);
     } else {
+      if (!('speechSynthesis' in window)) { setSpeechMessage('이 브라우저는 지문 듣기를 지원하지 않아요. 다른 브라우저에서 이용해 주세요.'); return; }
+      setSpeechMessage('');
       setIsSpeaking(true);
       const text = `${csat.passage_title}. ${csat.paragraphs.join(' ')}`;
-      speakKoreanText(text, ttsRate, () => setIsSpeaking(false));
+      speakKoreanText(text, ttsRate, () => setIsSpeaking(false), () => setSpeechMessage('지문을 재생하지 못했어요. 기기의 음성 설정을 확인하고 다시 시도해 주세요.'));
     }
   };
 
@@ -140,6 +147,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
 
   // Option selection handler
   const handleSelectCsatOption = (qNo: number, optNo: number, isCorrect: boolean, formula: string) => {
+    if (solvedMap[qNo]) return;
     const prevPicks = pickedHistory[qNo] || [];
     if (!prevPicks.includes(optNo)) {
       setPickedHistory((prev) => ({ ...prev, [qNo]: [...prevPicks, optNo] }));
@@ -152,7 +160,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
       const prevWrong = wrongAttempts[qNo] || 0;
       const delta = prevWrong === 0 ? 8 : prevWrong === 1 ? 5 : 3;
       boostSmartScore(gradeData.grade_num, delta);
-      markStepComplete(gradeData.grade_num, 'studio');
+
 
       const qObj = csat.questions.find((q) => q.q_no === qNo);
       qObj?.options.forEach((o) => {
@@ -181,13 +189,14 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
     }
   };
 
-  const currentClues = clueNotesByGrade[gradeData.grade_num] || [];
   const currentQuestion = csat.questions[activeQuestionIdx] || csat.questions[0];
 
   return (
-    <div className="space-y-4 font-sans selection:bg-amber-200 selection:text-slate-900">
+    <div className="rx-reading-workspace space-y-4 font-sans" data-pane={mobilePane} data-font={fontSize}>
+      <div className="rx-reading-context"><span className="rx-eyebrow">READING STUDIO</span><span className="rx-reading-save" role="status"><Check size={15}/>{storageFailed?'저장 공간을 확인해 주세요':'이 기기의 연습 기록'}</span></div>
+      {storageFailed && <p className="rx-inline-note" role="alert">기기에 연습 내용을 저장하지 못했어요. 이 창을 닫기 전에 중요한 내용은 따로 복사해 주세요.</p>}
       {/* 1. ZEN FOCUS HEADER (Minimal & Elegant) */}
-      <div className="bg-white rounded-2xl border border-slate-200/90 px-4 py-3 shadow-xs flex flex-wrap items-center justify-between gap-3">
+      <div className="rx-reading-toolbar bg-white border border-slate-200/90 px-4 py-3 flex flex-wrap items-center justify-between gap-3">
         {/* Left: Passage Title & Breadcrumb */}
         <div className="flex items-center gap-3">
           <button
@@ -224,12 +233,13 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
               <button
                 key={hl.id}
                 onClick={() => setActiveHighlightColor(hl.id)}
-                className={`w-5 h-5 rounded-full ${hl.bg} transition transform hover:scale-110 cursor-pointer ${
+                className={`rx-highlighter w-5 h-5 rounded-full ${hl.bg} transition transform hover:scale-110 cursor-pointer ${
                   activeHighlightColor === hl.id
                     ? `ring-2 ring-offset-1 ring-slate-800 scale-110`
                     : 'opacity-70 hover:opacity-100'
                 }`}
-                title={`${hl.label} 형광펜 선택 (지문 드래그 시 자동 칠하기)`}
+                title={`${hl.label} 단서 분류 선택 (지문 드래그 시 메모 저장)`}
+                aria-pressed={activeHighlightColor === hl.id}
               />
             ))}
           </div>
@@ -257,17 +267,18 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                 : 'bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200'
             }`}
           >
-            <span>{isSpeaking ? '⏹️ 정지' : '🔊 지문 듣기'}</span>
+            {isSpeaking ? <Square size={15}/> : <Volume2 size={15}/>}<span>{isSpeaking ? '정지' : '지문 듣기'}</span>
           </button>
 
           {/* Reading Display Settings Popover Toggle */}
           <div className="relative">
             <button
               onClick={() => setShowSettingsPopover(!showSettingsPopover)}
+              aria-expanded={showSettingsPopover}
               className="px-2.5 py-1.5 rounded-xl text-xs font-bold bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200 transition flex items-center gap-1 cursor-pointer"
               title="글자 크기, 문단 번호, 초점 가이드 설정"
             >
-              <span>⚙️ 보기 설정</span>
+              <SlidersHorizontal size={15}/><span>보기 설정</span>
             </button>
 
             {showSettingsPopover && (
@@ -276,9 +287,10 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                   <span>독서 환경 맞춤 설정</span>
                   <button
                     onClick={() => setShowSettingsPopover(false)}
+                    aria-label="보기 설정 닫기"
                     className="text-slate-400 hover:text-slate-600"
                   >
-                    ✕
+                    <X size={16}/>
                   </button>
                 </div>
 
@@ -290,6 +302,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                       <button
                         key={fs}
                         onClick={() => setFontSize(fs)}
+                        aria-pressed={fontSize === fs}
                         className={`py-1 rounded-lg font-bold text-center border ${
                           fontSize === fs
                             ? 'bg-blue-600 text-white border-blue-600'
@@ -302,12 +315,14 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                   </div>
                 </div>
 
+                <fieldset className="space-y-1"><legend className="text-slate-500 font-bold">종이 색</legend><div className="grid grid-cols-3 gap-1">{(['paper','sepia','dark'] as const).map(theme=><button key={theme} aria-pressed={readerTheme===theme} onClick={()=>setReaderTheme(theme)} className={`py-1 rounded-lg border ${readerTheme===theme?'bg-blue-600 text-white border-blue-600':'bg-slate-50 text-slate-700 border-slate-200'}`}>{theme==='paper'?'종이':theme==='sepia'?'세피아':'야간'}</button>)}</div></fieldset>
                 {/* Paragraph Numbers */}
                 <div className="flex items-center justify-between pt-1">
                   <span className="text-slate-700 font-bold">문단 번호 (#)</span>
                   <input
                     type="checkbox"
                     checked={showParaNumbers}
+                    aria-label="문단 번호 표시"
                     onChange={toggleParaNumbers}
                     className="rounded accent-blue-600 w-4 h-4 cursor-pointer"
                   />
@@ -315,10 +330,11 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
 
                 {/* Focus Ruler */}
                 <div className="flex items-center justify-between">
-                  <span className="text-slate-700 font-bold">🎯 문단 집중 리더</span>
+                  <span className="text-slate-700 font-bold">문단 집중 리더</span>
                   <input
                     type="checkbox"
                     checked={showFocusRuler}
+                    aria-label="문단 집중 리더"
                     onChange={toggleFocusRuler}
                     className="rounded accent-blue-600 w-4 h-4 cursor-pointer"
                   />
@@ -326,10 +342,11 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
 
                 {/* Two-Column Mode */}
                 <div className="flex items-center justify-between">
-                  <span className="text-slate-700 font-bold">📰 수능 2단 시험지 뷰</span>
+                  <span className="text-slate-700 font-bold">본문 두 단으로 보기</span>
                   <input
                     type="checkbox"
                     checked={isTwoColumnMode}
+                    aria-label="본문 두 단으로 보기"
                     onChange={toggleTwoColumnMode}
                     className="rounded accent-blue-600 w-4 h-4 cursor-pointer"
                   />
@@ -343,11 +360,12 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
             onClick={() => setShowClueDrawer(!showClueDrawer)}
             className="px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 transition flex items-center gap-1 cursor-pointer"
           >
-            <span>📌 단서 ({currentClues.length})</span>
+            <StickyNote size={15}/><span>단서 ({currentClues.length})</span>
           </button>
         </div>
       </div>
 
+      {speechMessage && <p role="status" className="rx-inline-note">{speechMessage}</p>}
       {/* Collapsible Clue Notes Drawer */}
       {showClueDrawer && (
         <div className="bg-amber-50/50 rounded-2xl border border-amber-200 p-4 shadow-sm space-y-3">
@@ -370,6 +388,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
           <div className="flex gap-2">
             <input
               type="text"
+              aria-label="이 수업의 단서 메모"
               value={customClueInput}
               onChange={(e) => setCustomClueInput(e.target.value)}
               placeholder="기억할 핵심 단서나 내 생각을 직접 적어보세요..."
@@ -410,6 +429,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                   <span>{c.text}</span>
                   <button
                     onClick={() => removeClueNote(gradeData.grade_num, c.id)}
+                    aria-label={`${c.text} 메모 삭제`}
                     className="text-slate-400 hover:text-rose-600 font-bold text-[11px]"
                   >
                     ×
@@ -421,22 +441,23 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
         </div>
       )}
 
-      {/* 2. SPLIT-SCREEN WORKSPACE: LEFT PASSAGE (55%) : RIGHT QUESTIONS (45%) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+      <div className="rx-pane-toggle" aria-label="읽기 화면 전환"><button aria-pressed={mobilePane==='passage'} onClick={()=>setMobilePane('passage')}><BookOpen size={18}/>본문 읽기</button><button aria-pressed={mobilePane==='activity'} onClick={()=>setMobilePane('activity')}><PanelRight size={18}/>생각 활동 {selectedParagraphs.length>0&&<span>{selectedParagraphs.length}개 근거</span>}</button></div>
+      {/* Both panes stay mounted so draft responses and scroll survive switching. */}
+      <div className="rx-reading-grid">
         {/* ================= LEFT PANE: PURE READING SANCTUARY (6 cols on lg) ================= */}
-        <div className="lg:col-span-7 bg-[#FCFBF7] rounded-3xl border border-stone-200/90 p-6 sm:p-8 shadow-sm lg:sticky lg:top-20 max-h-[calc(100vh-100px)] overflow-y-auto">
+        <div ref={passageRef} onScroll={e=>useReadingWorkspace.getState().save(gradeData.slot_id,'scrollTop',e.currentTarget.scrollTop)} className={`rx-reading-paper reader-theme-${readerTheme}`}>
           {/* Passage Header */}
-          <div className="pb-4 mb-6 border-b border-stone-200 flex items-baseline justify-between gap-3">
+          <div className="rx-passage-heading">
             <div>
               <span className="text-[11px] font-bold text-stone-500 tracking-wider uppercase block">
-                EXPOSITORY PASSAGE
+                오늘 읽을 글
               </span>
               <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight mt-0.5 font-serif">
                 {csat.passage_title}
               </h2>
             </div>
             <span className="text-xs font-medium text-stone-500 shrink-0">
-              {csat.paragraphs.length}개 문단 · {csat.passage_spec}
+              {csat.paragraphs.length}개 문단
             </span>
           </div>
 
@@ -466,7 +487,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
           {/* Pure Reading Text Area */}
           <div
             onMouseUp={handlePassageMouseUp}
-            className={`font-serif text-slate-850 selection:bg-amber-200 ${
+            className={`rx-passage-text font-serif selection:bg-amber-200 ${
               fontSize === 'sm'
                 ? 'text-[15px] leading-[2.0]'
                 : fontSize === 'lg'
@@ -491,7 +512,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                     paraRefs.current[idx] = el;
                   }}
                   onClick={() => setFocusedParaIdx(idx)}
-                  className={`relative p-3.5 rounded-2xl transition-all duration-200 ${
+                  className={`rx-paragraph relative transition-all duration-200 ${selectedParagraphs.includes(idx) ? 'rx-paragraph-selected' : ''} ${
                     isSpotlighted
                       ? 'bg-amber-100/70 ring-2 ring-amber-400 shadow-xs'
                       : isFocused && showFocusRuler
@@ -513,6 +534,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                     className="text-slate-800 tracking-normal break-keep"
                     dangerouslySetInnerHTML={{ __html: renderedContent }}
                   />
+                  <button type="button" className="rx-evidence-toggle" aria-pressed={selectedParagraphs.includes(idx)} aria-label={`${idx+1}문단 ${selectedParagraphs.includes(idx)?'근거 해제':'근거로 담기'}`} onClick={()=>setSelectedParagraphs(prev=>prev.includes(idx)?prev.filter(p=>p!==idx):[...prev,idx])}>{selectedParagraphs.includes(idx)?<Check size={15}/>:<Bookmark size={15}/>} {selectedParagraphs.includes(idx)?'근거에 담았어요':'근거로 담기'}</button>
                 </div>
               );
             })}
@@ -522,7 +544,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
           {csat.vocab_notes && csat.vocab_notes.length > 0 && (
             <div className="mt-8 pt-5 border-t border-stone-200 space-y-2">
               <span className="text-[11px] font-bold text-stone-500 uppercase tracking-wider block">
-                KEY CONCEPTS & VOCABULARY
+                글에서 만난 핵심 낱말
               </span>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {csat.vocab_notes.map((vn) => (
@@ -535,6 +557,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                       <span className="text-[10px] text-stone-500 font-mono">{vn.tier}</span>
                     </div>
                     <p className="text-slate-600 text-[11px] leading-snug">{vn.desc}</p>
+                    <button className="rx-vocab-save" aria-pressed={savedVocab.some(v=>v.word===vn.word)} onClick={()=>savedVocab.some(v=>v.word===vn.word)?removeVocabWord(vn.word):saveVocabWord(vn,gradeData.grade)}>{savedVocab.some(v=>v.word===vn.word)?<Check size={14}/>:<Bookmark size={14}/>} {savedVocab.some(v=>v.word===vn.word)?'단어장에 담았어요':'단어장에 담기'}</button>
                   </div>
                 ))}
               </div>
@@ -543,40 +566,57 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
         </div>
 
         {/* ================= RIGHT PANE: FOCUS PROBLEM WORKSPACE (5 cols on lg) ================= */}
-        <div className="lg:col-span-5 space-y-4">
+        <div className="rx-activity-pane space-y-4">
+          <section className="rounded-2xl border border-blue-100 bg-blue-50 p-4 space-y-3">
+            <h3 className="font-bold">오늘 연습할 생각 · {gradeData.sub_skill_name}</h3>
+            <p className="text-sm leading-relaxed">글에서 단서를 찾고, 그렇게 생각한 이유를 내 말로 설명해 봐요.</p>
+            <details className="text-sm"><summary className="cursor-pointer font-semibold py-2">함께 생각하는 안내 보기</summary>
+              <ol className="list-decimal pl-5 space-y-3 mt-2"><li>{gradeData.prototype_step1_2.step1_mission}</li><li>{gradeData.prototype_step1_2.step2_mission}</li>
+                <li>찾은 근거와 연결한 이유를 내 문장으로 설명해 보세요.</li></ol>
+              <p className="mt-3 text-slate-600">안내를 보고 한 연습과 혼자 한 확인은 구분해서 살펴봐요.</p>
+            </details>
+          </section>
           {/* Segmented Mode Switcher */}
-          <div className="bg-white rounded-2xl border border-slate-200/90 p-1.5 shadow-xs flex gap-1">
+          <div className="rx-activity-tabs" aria-label="생각 활동 선택">
+            <button aria-pressed={rightTab==='evidence'} className={rightTab==='evidence'?'is-active':''} onClick={()=>setRightTab('evidence')}><ScanLine size={16}/>근거 찾기</button>
             <button
               onClick={() => setRightTab('csat')}
+              aria-pressed={rightTab === 'csat'}
               className={`flex-1 py-2 px-2 rounded-xl text-xs font-black transition cursor-pointer ${
                 rightTab === 'csat'
                   ? 'bg-blue-600 text-white shadow-xs'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
               }`}
             >
-              ✍️ 수능 실전 문제
+              판단하기
             </button>
             <button
               onClick={() => setRightTab('ebsr')}
+              aria-pressed={rightTab === 'ebsr'}
               className={`flex-1 py-2 px-2 rounded-xl text-xs font-black transition cursor-pointer ${
                 rightTab === 'ebsr'
                   ? 'bg-indigo-600 text-white shadow-xs'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
               }`}
             >
-              🔗 근거 연동(EBSR)
+              답과 근거
             </button>
             <button
               onClick={() => setRightTab('organizer')}
+              aria-pressed={rightTab === 'organizer'}
               className={`flex-1 py-2 px-2 rounded-xl text-xs font-black transition cursor-pointer ${
                 rightTab === 'organizer'
                   ? 'bg-emerald-600 text-white shadow-xs'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
               }`}
             >
-              🧩 구조도
+              관계 연결
             </button>
+            <button type="button" onClick={() => setRightTab('cloze')} aria-pressed={rightTab === 'cloze'} className={`flex-1 px-3 py-3 rounded-xl text-xs font-bold ${rightTab === 'cloze' ? 'bg-blue-700 text-white' : 'bg-slate-50'}`}>생각 연습</button>
+            <button type="button" onClick={() => setRightTab('writing')} aria-pressed={rightTab === 'writing'} className={`flex-1 px-3 py-3 rounded-xl text-xs font-bold ${rightTab === 'writing' ? 'bg-teal-700 text-white' : 'bg-slate-50'}`}>내 말로 쓰기</button>
           </div>
+
+          {rightTab==='evidence'&&<section className="rx-surface rx-evidence-activity"><span className="rx-badge"><ScanLine size={15}/>첫 번째 생각</span><h2>어디에서 찾았나요?</h2><p>내 생각을 뒷받침하는 문단은 어디일까요? 글에서 단서를 찾아 보세요.</p><div className="rx-inline-note"><CircleHelp size={18}/><span>본문을 읽고 필요한 문단의 ‘근거로 담기’를 눌러보세요. 선택한 근거를 아래에서 다시 볼 수 있어요.</span></div><div className="rx-evidence-list" aria-live="polite">{selectedParagraphs.length===0?<p className="rx-muted">아직 담은 근거가 없어요.</p>:selectedParagraphs.map(idx=><blockquote key={idx}><b>{idx+1}문단</b><p>{csat.paragraphs[idx]?.replace(/<[^>]*>/g,'')}</p><button className="rx-text-link" onClick={()=>setSelectedParagraphs(prev=>prev.filter(p=>p!==idx))}>선택 해제</button></blockquote>)}</div><button className="rx-button rx-button-primary" onClick={()=>setRightTab('cloze')}>생각 연결해 보기 <ArrowRight size={17}/></button><p className="rx-fine-print">담은 문단은 연습용 근거입니다. 선택만으로 정답이나 숙련을 판정하지 않아요.</p></section>}
 
           {/* TAB 1: Real CSAT Questions Focus Card */}
           {rightTab === 'csat' && (
@@ -856,6 +896,8 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
             </div>
           )}
 
+          {rightTab === 'cloze' && <ClinicDrill key={gradeData.slot_id} drill={gradeData.prescription_clinic.step1_2_drill} draftKey={`${gradeData.slot_id}:clinic`} />}
+          {rightTab === 'writing' && <WritingWorkbench key={gradeData.slot_id} data={wb} draftKey={`${gradeData.slot_id}:writing`} />}
           {/* TAB 3: TEI-4 Graphic Organizer Builder */}
           {rightTab === 'organizer' && comm.graphic_organizer && (
             <div className="space-y-4">
@@ -864,7 +906,7 @@ export const SplitScreenStudio: React.FC<SplitScreenStudioProps> = ({ gradeData 
                 onComplete={(allCorrect) => {
                   if (allCorrect) {
                     boostSmartScore(gradeData.grade_num, 8);
-                    markStepComplete(gradeData.grade_num, 'studio');
+
                   }
                 }}
               />

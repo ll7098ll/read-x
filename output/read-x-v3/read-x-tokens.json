@@ -1,0 +1,130 @@
+{
+  "name": "Read X",
+  "version": "3.0",
+  "tokens": {
+    "ink": {
+      "$type": "color",
+      "$value": "#202d40"
+    },
+    "action": {
+      "$type": "color",
+      "$value": "#3157d5"
+    },
+    "action-hover": {
+      "$type": "color",
+      "$value": "#2445b5"
+    },
+    "discovery": {
+      "$type": "color",
+      "$value": "#ddf58a"
+    },
+    "paper": {
+      "$type": "color",
+      "$value": "#f7f8f2"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "#586579"
+    },
+    "line": {
+      "$type": "color",
+      "$value": "#d9dfe8"
+    },
+    "control-line": {
+      "$type": "color",
+      "$value": "#7d899b"
+    },
+    "connection": {
+      "$type": "color",
+      "$value": "#eeeafe"
+    },
+    "evidence": {
+      "$type": "color",
+      "$value": "#fff0b3"
+    },
+    "success": {
+      "$type": "color",
+      "$value": "#21664b"
+    },
+    "success-soft": {
+      "$type": "color",
+      "$value": "#e9f5ed"
+    },
+    "help": {
+      "$type": "color",
+      "$value": "#785410"
+    },
+    "help-soft": {
+      "$type": "color",
+      "$value": "#fff4d8"
+    },
+    "error": {
+      "$type": "color",
+      "$value": "#aa3548"
+    },
+    "error-soft": {
+      "$type": "color",
+      "$value": "#fff0f2"
+    },
+    "focus": {
+      "$type": "color",
+      "$value": "#3157d5"
+    },
+    "font": {
+      "$type": "string",
+      "$value": "'ReadX Sans', 'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif"
+    },
+    "radius-sm": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "radius-md": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "radius-lg": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "space-1": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "space-2": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "space-3": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "space-4": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "space-6": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "space-8": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "space-12": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "shadow": {
+      "$type": "string",
+      "$value": "0 12px 36px #202d4009"
+    },
+    "duration": {
+      "$type": "duration",
+      "$value": "160ms"
+    }
+  }
+}

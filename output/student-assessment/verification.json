@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-15",
+  "scope": "browser-local personal practice for grades 5 and 6",
+  "build": "passed: prepare:content, TypeScript, 56 tests, Vite",
+  "newTests": 12,
+  "examForms": 2,
+  "examPassages": 6,
+  "examQuestions": 24,
+  "independentCheckFamilies": 12,
+  "browserChecks": {
+    "grade5": {"correct": 11, "total": 12, "score": 91.7},
+    "grade6": {"correct": 1, "unanswered": 11, "total": 12, "score": 8.3},
+    "answerAndDeadlineRestoredAfterReload": true,
+    "passagePositionRestoredAfterReload": true,
+    "originalScoreUnchangedAfterRemediation": true,
+    "goalChangedAfterTwoFreshChecks": true,
+    "historyMatchedExamRemediationAndTwoChecks": true,
+    "gradeRecordsSeparated": true,
+    "mobileViewport": {"width": 390, "height": 844},
+    "mobileReadingQuestionSwitch": true,
+    "mobilePageHorizontalOverflow": false,
+    "consoleErrors": []
+  },
+  "editorialStatus": "pilot; teacher review required before formal publication",
+  "storage": "readx_student_assessment_v1; browser local only",
+  "screenshots": ["dashboard-preview.jpg", "dashboard-desktop.jpg", "dashboard-mobile.jpg"]
+}

@@ -1,0 +1,20 @@
+import React,{useEffect,useState} from 'react';
+import {examApi} from '../../services/examApi';
+import {CalibrationContextSummary,RecommendationComparison,CheckSelectionComparison} from '../common/CalibrationComparison';
+import '../../pilot.css';
+export function CalibrationApplicationPanel({user}:any){
+ const [open,setOpen]=useState(false),[data,setData]=useState<any>(null),[classId,setClassId]=useState(''),[studentId,setStudentId]=useState(''),[grade,setGrade]=useState(3),[enabled,setEnabled]=useState(false),[note,setNote]=useState(''),[preview,setPreview]=useState<any>(null),[busy,setBusy]=useState(false),[error,setError]=useState('');
+ const cls=data?.classes.find(c=>c.id===classId);
+ useEffect(()=>{setEnabled(!!cls?.setting?.enabled);setNote('');setPreview(null);},[classId,cls?.setting?.revision]);
+ const refresh=async()=>{const d=await examApi('/learning/calibration');setData(d);if(!classId){const id=d.classes[0]?.id||'';setClassId(id);setStudentId(d.students.find(s=>s.classId===id)?.id||'');}};
+ const act=async(fn:()=>Promise<void>)=>{if(busy)return;setBusy(true);setError('');try{await fn();}catch(e){setError(e.message);}finally{setBusy(false);}};
+ if(user.role!=='teacher')return null;
+ return <section className="pilot-workspace" aria-label="보정 난도 실제 적용"><button aria-expanded={open} onClick={()=>void act(async()=>{if(!open)await refresh();setOpen(!open);})}>보정 난도 적용·전후 비교 {open?'닫기':'열기'}</button>{error&&<p role="alert">{error}</p>}{open&&data&&<>
+  <h3>반별 승인 보정을 실제 수업에 연결해요</h3><p>새로 시작하는 진단과 새로 승인하는 코스에 적용합니다. 이미 시작한 응시와 승인된 계획은 당시 기준을 유지합니다.</p>
+  <label>적용할 반<select aria-label="적용할 반" value={classId} onChange={e=>{setClassId(e.target.value);setStudentId(data.students.find(s=>s.classId===e.target.value)?.id||'');}}>{data.classes.map(c=><option key={c.id} value={c.id}>{c.name}</option>)}</select></label>
+  {cls&&<><p>현재 설정: {cls.setting?.enabled?'보정 사용':'기존 기준'} · 담당 {cls.sourceName||'미지정'}</p><label>비교할 학생<select aria-label="비교할 학생" value={studentId} onChange={e=>{setStudentId(e.target.value);setPreview(null);}}><option value="">학생 선택</option>{data.students.filter(s=>s.classId===classId).map(s=><option key={s.id} value={s.id}>{s.name}</option>)}</select></label><label>비교할 자료 학년<select aria-label="비교할 자료 학년" value={grade} onChange={e=>{setGrade(+e.target.value);setPreview(null);}}>{[1,2,3,4,5,6].map(g=><option key={g} value={g}>초{g}</option>)}</select></label><button disabled={busy||!studentId} onClick={()=>void act(async()=>setPreview(await examApi('/learning/calibration/preview',{studentId,grade})))}>적용 전후 미리보기</button>
+   {preview&&<div className="pilot-detail"><h4>내 승인 자료를 사용한 미리보기</h4><CalibrationContextSummary context={preview.context}/><p>학생의 기존 응답·배치·계획을 변경하지 않는 비교입니다.</p><details><summary>공통 진단 문항 순서 비교</summary><div className="calibration-columns">{[['기존',preview.diagnostic.baselineOrder],['보정 적용',preview.diagnostic.appliedOrder]].map(([label,ids]:any)=><div key={label}><b>{label}</b><ol>{ids.map(id=><li key={id}>{preview.diagnostic.items?.find(q=>q.id===id)?.label||id}</li>)}</ol></div>)}</div></details>
+    {preview.recommendation?<RecommendationComparison comparison={{result:preview.recommendation}}/>:<p>{preview.comparisonUnavailable==='older_version'?'이전 문항 버전의 응답은 새 문항의 응답으로 대체해 계산하지 않습니다.':'같은 버전의 선택형 응답을 모두 제출하면 추천 결과까지 비교할 수 있습니다.'}</p>}<h5>{preview.course.name} · 확인 자료 후보</h5><CheckSelectionComparison comparisons={preview.course.selectionComparison}/></div>}
+   <form onSubmit={e=>{e.preventDefault();void act(async()=>{await examApi('/learning/calibration/configure',{classId,revision:cls.setting?.revision||0,enabled,note});await refresh();});}}><fieldset disabled={busy||!cls.canConfigure}><legend>이 반의 새 수업 적용 설정</legend><label><input type="checkbox" checked={enabled} onChange={e=>setEnabled(e.target.checked)}/> 이 반의 새 진단·코스에 내 승인 보정 사용</label><label>적용·중지 운영 의견<textarea required maxLength={2000} value={note} onChange={e=>setNote(e.target.value)}/></label><button>보정 적용 설정 저장</button></fieldset></form></>}
+ </>}</section>;
+}

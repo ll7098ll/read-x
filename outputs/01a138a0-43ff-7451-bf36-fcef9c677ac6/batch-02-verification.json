@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "batch": "02",
+  "passages": 24,
+  "pairs": 12,
+  "diagnosticItems": 108,
+  "cumulative": {
+    "newDrafts": 48,
+    "legacyDrafts": 96,
+    "uniqueTexts": 144,
+    "approved": 0
+  },
+  "automatedChecks": {
+    "tests": 5,
+    "result": "passed"
+  },
+  "browserChecks": [
+    "passage and table render",
+    "initial responses retained after reload",
+    "answer and evidence rated separately",
+    "hint use timestamp after initial answer preserved",
+    "teacher model exposure recorded",
+    "practice and initial response separated",
+    "paired passage starts with blank responses",
+    "JSON download contents verified",
+    "no browser console errors observed"
+  ],
+  "spreadsheetChecks": {
+    "sheetsRenderedAndViewed": 5,
+    "formulaChecks": "passed"
+  },
+  "reviewState": "AI author self-review; independent teacher review and student calibration pending",
+  "files": {
+    "reading-workshop-batch-02.html": {
+      "bytes": 442414,
+      "sha256": "51a37e7c3e8d374cb7fb05c572937657b6273d45f189a15c890e3a80003e1aae"
+    },
+    "curriculum-library.html": {
+      "bytes": 606094,
+      "sha256": "9ff2b6c6c655cdbff3b287126be05ab249bdaa30d9646b4123d9cb3a7502f85c"
+    },
+    "교과개념_지문원장_2차확장.xlsx": {
+      "bytes": 130569,
+      "sha256": "4bbfbe41d39d2230251ed621ef2d403df4e6cb3e7eebac3aff4d212c8d6e9ed4"
+    }
+  }
+}

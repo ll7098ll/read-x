@@ -1,0 +1,68 @@
+{
+  "standards": 611,
+  "subjectCount": 13,
+  "semesterSubjectPlacements": 96,
+  "conceptCandidates": 826,
+  "newDrafts": 48,
+  "existingDrafts": 96,
+  "uniqueFullTexts": 144,
+  "approvedFullTexts": 0,
+  "referenceChecks": "all referenced standard and goal IDs exist; new passage evidence quotes occur in text",
+  "pairChecks": "24 pairs, two concepts and one literacy goal per pair",
+  "unassignedStandards": [
+    "2국01-05",
+    "2국05-02",
+    "4국01-01",
+    "4국01-04",
+    "4국01-05",
+    "4국02-01",
+    "4국02-06",
+    "4국03-05",
+    "4국04-05",
+    "4국05-05",
+    "6국01-01",
+    "6국01-03",
+    "6국02-05",
+    "6국03-03",
+    "6국03-06",
+    "6국04-01",
+    "6국04-06",
+    "6국05-01",
+    "6국05-04",
+    "6국05-05",
+    "2수01-07",
+    "2수01-09"
+  ],
+  "charCountsByGrade": {
+    "1": [
+      64,
+      96
+    ],
+    "2": [
+      186,
+      207
+    ],
+    "3": [
+      305,
+      373
+    ],
+    "4": [
+      352,
+      427
+    ],
+    "5": [
+      503,
+      537
+    ],
+    "6": [
+      558,
+      838
+    ]
+  },
+  "limits": [
+    "난도와 교육 효과 미보정",
+    "교과 개념-성취기준의 개별 대응 검수 필요",
+    "학기 배치안은 전국 공통 확정표가 아님",
+    "사회·음악 일부개정 각론 대조 미완료"
+  ]
+}

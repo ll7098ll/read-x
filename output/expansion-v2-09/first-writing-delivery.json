@@ -1,0 +1,55 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "6cc65f15234525d3b6d1f7e0888469fd244361a2667a3f38c22a30f2a887922f",
+  "passed": true,
+  "files": [
+    {
+      "path": "output/expansion-v2-09/학생용_초1_첫쓰기_과제지.txt",
+      "grade": 1,
+      "sets": 3,
+      "primaryTasks": 3,
+      "sha256": "c41f0ce5062a08b2957dc55ec0904e3257c7172ea7062c9e4f45622f45fea08b"
+    },
+    {
+      "path": "output/expansion-v2-09/학생용_초2_첫쓰기_과제지.txt",
+      "grade": 2,
+      "sets": 3,
+      "primaryTasks": 3,
+      "sha256": "e7519a3be507565bfd410b62f53944bece514d6576b41e4260335920572fb2ff"
+    },
+    {
+      "path": "output/expansion-v2-09/학생용_초3_첫쓰기_과제지.txt",
+      "grade": 3,
+      "sets": 3,
+      "primaryTasks": 3,
+      "sha256": "9d10ba1c6334ac747eddfcf3bfe1611935b57d1bc240934087ea686e8d9441ba"
+    },
+    {
+      "path": "output/expansion-v2-09/학생용_초4_첫쓰기_과제지.txt",
+      "grade": 4,
+      "sets": 3,
+      "primaryTasks": 3,
+      "sha256": "231fb73e10f7447fd3b0d58af27690abc58aac2a7252fd4371675ad1941e2781"
+    },
+    {
+      "path": "output/expansion-v2-09/학생용_초5_첫쓰기_과제지.txt",
+      "grade": 5,
+      "sets": 3,
+      "primaryTasks": 3,
+      "sha256": "992f7b9644d0fc5aeacb17defac96c5edd15736ea3e3c2fdc82c96112b12a1c4"
+    },
+    {
+      "path": "output/expansion-v2-09/학생용_초6_첫쓰기_과제지.txt",
+      "grade": 6,
+      "sets": 3,
+      "primaryTasks": 3,
+      "sha256": "e0fbd3f26efcef9b27b639a85683f2b3c9d613fa847136b0db982296c373a72a"
+    }
+  ],
+  "uniquePrimaryTasks": 18,
+  "scope": "학년별 첫 쓰기 전용 텍스트 과제지. 원문·독자·목적·계획·주 쓰기만 포함. 보조 문항 ID·교사용 예시 답·지도문 미포함을 파일에서 확인.",
+  "limits": [
+    "실제 첫 응답 보관·수정 이력 확인은 교사가 별도로 실시해야 함. 불변 저장·시간 잠금 기능은 없음.",
+    "텍스트 과제지 생성 검증이며 실제 학생 필기·교사 승인·인쇄 페이지 배치 검증과 구별."
+  ]
+}

@@ -202,20 +202,20 @@ export const OnboardingCatModal: React.FC<OnboardingCatModalProps> = ({
       // Test Completed -> Calculate Result
       const correctCount = newHistory.filter((h) => h.isCorrect).length;
       let finalKread = 850;
-      let targetSlot = 'G5-EXP-I1-1';
+      let targetSlot = `G${gradeData.grade_num}-EXP-V1-1`;
 
       if (correctCount === 3) {
         finalKread = 1140;
-        targetSlot = 'G5-EXP-E1-1'; // 심화 비판/평가
+        targetSlot = `G${gradeData.grade_num}-EXP-V3-2`; // 심화 비판/평가
       } else if (correctCount === 2) {
         finalKread = 980;
-        targetSlot = 'G5-EXP-S1-1'; // 구조 분석
+        targetSlot = `G${gradeData.grade_num}-EXP-V2-2`; // 구조 분석
       } else if (correctCount === 1) {
         finalKread = 820;
-        targetSlot = 'G5-EXP-V1-1'; // 어휘 보강
+        targetSlot = `G${gradeData.grade_num}-EXP-V1-1`; // 어휘 보강
       } else {
         finalKread = 690;
-        targetSlot = 'G5-EXP-V1-1'; // 기초 재활
+        targetSlot = `G${gradeData.grade_num}-EXP-V1-1`; // 기초 재활
       }
 
       const lastTrap = newHistory.find((h) => !h.isCorrect)?.trap || 'D3';
@@ -228,9 +228,8 @@ export const OnboardingCatModal: React.FC<OnboardingCatModalProps> = ({
 
   const handleApplyPrescription = () => {
     setActiveSlotId(prescribedSlot);
-    boostSmartScore(gradeData.grade_num, Math.floor(calculatedKread / 12));
-    setStudentMode('clinic');
     onClose();
+    setStudentMode('clinic');
   };
 
   return (
@@ -245,14 +244,14 @@ export const OnboardingCatModal: React.FC<OnboardingCatModalProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h2 className="font-black text-base sm:text-lg">
-                  ReadX-Ray CAT 온보딩 적응형 진단
+                  Read X 진단 화면 체험
                 </h2>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-400 text-slate-950 font-black">
                   MODE 1 · ADAPTIVE CAT
                 </span>
               </div>
               <p className="text-xs text-blue-150 text-indigo-100">
-                3문항 적응형 실시간 분기로 학생의 정확한 KReaD 시작 지수와 취약 함정을 판정합니다.
+                진단 화면의 동작을 살펴보는 체험입니다. 문항·지수·처방은 예시이며 실제 능력을 판정하지 않습니다.
               </p>
             </div>
           </div>

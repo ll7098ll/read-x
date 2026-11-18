@@ -1,0 +1,14 @@
+﻿{
+    "requestFile":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\data\\content_authoring\\pilot_v2\\audio_probe_request.json",
+    "assets":  [
+                   {
+                       "id":  "PV2-AUDIO-PROBE-koKR",
+                       "voice":  "Microsoft Heami",
+                       "language":  "ko-KR",
+                       "contentType":  "audio/wav",
+                       "path":  "C:\\Users\\user\\Desktop\\문해력 코스웨어 프로젝트\\output\\pilot-v2\\audio\\PV2-AUDIO-PROBE-koKR.wav",
+                       "authorship":  "synthetic_builtin_voice",
+                       "listeningReview":  "pending"
+                   }
+               ]
+}

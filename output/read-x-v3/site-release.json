@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-14",
+  "project_id": "appgprj_6acf1dd19a488191b2cde437f8c4f903",
+  "saved_version_id": "appgprj_6acf1dd19a488191b2cde437f8c4f903~appgver_0c000e2ca2088191a3eac3bb375eea7f",
+  "version_number": 6,
+  "commit_sha": "3557ce7cafe5590e30d3bc6c0f19865365c20379",
+  "archive": "output/read-x-v3/read-x-site-v3.tar",
+  "publication_status": "not_deployed_approval_required",
+  "reason": "Automatic approval review rejected public production deployment because the user had not explicitly authorized publication.",
+  "local_kit": "output/read-x-v3/read-x-kit.zip"
+}

@@ -1,0 +1,211 @@
+{
+  "passed": true,
+  "errors": [],
+  "stageFitWarnings": [],
+  "optionLengthCandidates": [],
+  "nearDuplicateCandidates": [],
+  "numericChecks": {},
+  "readingChecks": {},
+  "contentSnapshotHash": "c17c4260043cc35a7ae891aa53341a3b7cbb0d3d79091e7b0e0e7c1c8b7864e0",
+  "curriculumSourceCheckedSets": 4,
+  "factualSourceCheckedDraftSets": 0,
+  "factualAnchors": 0,
+  "curriculumSourceScopeAuditedSets": 12,
+  "curriculumSourceLinkedSets": 12,
+  "curriculumRelatedOnlySets": 8,
+  "graphCount": 0,
+  "graphEvidenceReferences": 0,
+  "poemCount": 0,
+  "poetryLineCount": 0,
+  "listeningSets": 0,
+  "spokenResponseTasks": 0,
+  "audioEvidenceReferences": 0,
+  "audioDraftSetsTechnicallyVerified": 0,
+  "oralReadingSets": 0,
+  "oralReadingTasks": 0,
+  "readingWordReferences": 0,
+  "writingProductionProtocolSets": 0,
+  "literaryInterpretationProtocolSets": 0,
+  "mediaReadingProtocolSets": 12,
+  "mediaPanelCount": 26,
+  "questionKinds": {
+    "explanation": 23,
+    "single_choice": 12,
+    "matching": 8,
+    "question_generation": 5,
+    "revision": 3,
+    "classification": 1,
+    "evidence_selection": 1
+  },
+  "progress": {
+    "scope": "6수행의 선언한 단계·자료 공급",
+    "expectedStageCounts": {
+      "plan-G1-media-01": {
+        "S2": 1,
+        "S3": 1
+      },
+      "plan-G2-media-03": {
+        "S3": 1,
+        "S5": 1
+      },
+      "plan-G3-media-06": {
+        "S3": 1,
+        "S5": 1
+      },
+      "plan-G4-media-04": {
+        "S3": 1,
+        "S5": 1
+      },
+      "plan-G5-media-05": {
+        "S3": 1,
+        "S5": 1
+      },
+      "plan-G6-media-03": {
+        "S4": 1,
+        "S5": 1
+      }
+    },
+    "targetSets": 12,
+    "targetQuestions": 53,
+    "authoredSets": 12,
+    "authoredQuestions": 53,
+    "approvedSets": 0,
+    "remainingSets": 0,
+    "remainingQuestions": 0,
+    "skills": [
+      {
+        "skillId": "plan-G1-media-01",
+        "grade": 1,
+        "track": "media",
+        "name": "생활 표지의 뜻",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 8,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G2-media-03",
+        "grade": 2,
+        "track": "media",
+        "name": "간단한 표에서 찾기",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 9,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G3-media-06",
+        "grade": 3,
+        "track": "media",
+        "name": "작성 날짜와 변경",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 9,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G4-media-04",
+        "grade": 4,
+        "track": "media",
+        "name": "자료의 부분과 전체",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 9,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G5-media-05",
+        "grade": 5,
+        "track": "media",
+        "name": "출처·시점·버전 검증",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 9,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G6-media-03",
+        "grade": 6,
+        "track": "media",
+        "name": "시각적 강조의 효과",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 9,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      }
+    ],
+    "audioDraftSetsTechnicallyVerified": 0,
+    "listeningAudioDraftSets": 0,
+    "readingModelAudioDraftSets": 0
+  },
+  "limits": [
+    "자동 검사는 문항 정답 유일성이나 실제 난도를 증명하지 않는다.",
+    "독립 교사 검토·학생 수행 검증·음성 자산은 별도 완료 조건이다."
+  ],
+  "mediaConsistencyChecks": {
+    "PV2-G1-media-01-S2-A_primary_first": true,
+    "PV2-G1-media-01-S2-A_specific_criteria": true,
+    "PV2-G1-media-01-S3-A_primary_first": true,
+    "PV2-G1-media-01-S3-A_specific_criteria": true,
+    "PV2-G2-media-03-S3-A_primary_first": true,
+    "PV2-G2-media-03-S3-A_specific_criteria": true,
+    "PV2-G2-media-03-S5-A_primary_first": true,
+    "PV2-G2-media-03-S5-A_specific_criteria": true,
+    "PV2-G3-media-06-S3-A_primary_first": true,
+    "PV2-G3-media-06-S3-A_specific_criteria": true,
+    "PV2-G3-media-06-S5-A_primary_first": true,
+    "PV2-G3-media-06-S5-A_specific_criteria": true,
+    "PV2-G4-media-04-S3-A_primary_first": true,
+    "PV2-G4-media-04-S3-A_specific_criteria": true,
+    "PV2-G4-media-04-S5-A_primary_first": true,
+    "PV2-G4-media-04-S5-A_specific_criteria": true,
+    "PV2-G5-media-05-S3-A_primary_first": true,
+    "PV2-G5-media-05-S3-A_specific_criteria": true,
+    "PV2-G5-media-05-S5-A_primary_first": true,
+    "PV2-G5-media-05-S5-A_specific_criteria": true,
+    "PV2-G6-media-03-S4-A_primary_first": true,
+    "PV2-G6-media-03-S4-A_specific_criteria": true,
+    "PV2-G6-media-03-S5-A_primary_first": true,
+    "PV2-G6-media-03-S5-A_specific_criteria": true,
+    "G1_location_limited_permission": true,
+    "G2_cross_table_key": true,
+    "G2_unknown_not_friday": true,
+    "G3_place_only_revision": true,
+    "G3_repost_not_new_revision": true,
+    "G4_excerpt_missing_scope": true,
+    "G4_response_population_disjoint": true,
+    "G5_current_age_scope": true,
+    "G5_shared_old_origin": true,
+    "G6_same_words_distinct_emphasis": true,
+    "G6_scope_not_universal": true,
+    "no_invented_reader_results": true
+  },
+  "mediaAssetManifest": {
+    "path": "output/expansion-v2-06/media-assets.json",
+    "sha256": "ee9ff49895d9e35394e8c265abb6611e5aac67cbecd69d09ab5468c8364b2d0e",
+    "assets": 26
+  },
+  "staticVisualReview": {
+    "path": "output/expansion-v2-06/visual-review.json",
+    "sha256": "b7dcecfdfb1b4c546b9287a4a205443d132506e5f797358c13243e8e3742be21",
+    "state": "AI_static_review_recorded_not_teacher_approval"
+  }
+}

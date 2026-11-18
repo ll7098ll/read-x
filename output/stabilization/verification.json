@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-14",
+  "scope": "academy-foundation-iteration-01",
+  "build": {
+    "command": "npm run build",
+    "workingDirectory": "webapp",
+    "exitCode": 0,
+    "typescript": "passed",
+    "testCasesPassed": 10,
+    "vite": "passed",
+    "singleHtmlKilobytes": 2388.70,
+    "gzipKilobytes": 548.06
+  },
+  "renderChecks": {
+    "method": "React renderToStaticMarkup",
+    "expositoryActivityRenders": 480,
+    "commonLessonRenders": 36,
+    "allBrowserInteractionsCovered": false
+  },
+  "browserChecks": [
+    "Assignment opens its matching passage",
+    "Answer and evidence screen opens",
+    "Writing draft survives reload",
+    "Common foundation lesson opens and correct response is accepted",
+    "Admin displays candidate and review status",
+    "Landing copy reflects goal-based diagnosis and reading thought process"
+  ],
+  "browserConsoleErrorsObserved": 0,
+  "screenshots": ["landing.png", "writing-studio.png"],
+  "originalContentFilesChanged": false,
+  "commercialReadinessClaim": false
+}

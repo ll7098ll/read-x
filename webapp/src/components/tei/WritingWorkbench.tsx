@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import type { WritingWorkbenchData } from '../../types/courseware';
+import { GuidedResponse } from './GuidedResponse';
+import type { WritingWorkbenchData, ChoiceWritingData } from '../../types/courseware';
 
 interface WritingWorkbenchProps {
   data: WritingWorkbenchData;
+  draftKey?: string;
   onChoiceSelect?: (choiceId: string, isCorrect: boolean) => void;
 }
 
-export const WritingWorkbench: React.FC<WritingWorkbenchProps> = ({
+const ChoiceWriting: React.FC<WritingWorkbenchProps & { data: ChoiceWritingData }> = ({
   data,
   onChoiceSelect,
 }) => {
@@ -124,4 +126,10 @@ export const WritingWorkbench: React.FC<WritingWorkbenchProps> = ({
       </div>
     </div>
   );
+};
+
+export const WritingWorkbench: React.FC<WritingWorkbenchProps> = props => {
+  if (props.data.activityType === 'free_response') return <GuidedResponse
+    title={props.data.title} instruction={props.data.guide} template={props.data.template} draftKey={props.draftKey} />;
+  return <ChoiceWriting {...props} data={props.data} />;
 };

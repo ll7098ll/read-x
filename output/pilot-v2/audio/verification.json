@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "requestFile": "data/content_authoring/pilot_v2/audio_probe_request.json",
+  "requestHash": "6048fd54f7fbe20d39553a70c8d85478af6786d766d7b45fbe30b53ae89c4a92",
+  "assets": [
+    {
+      "id": "PV2-AUDIO-PROBE-koKR",
+      "path": "output/pilot-v2/audio/PV2-AUDIO-PROBE-koKR.wav",
+      "sha256": "24c4b13ecf61c1c44953db239639d2e7b47c854d40bb583866bad8bedbd03e5e",
+      "intendedTextHash": "8e1f76faf77da8804cdd2bed2ae439ff02fa70b2d4cba65a60fbd87cc73ff837",
+      "voice": "Microsoft Heami",
+      "language": "ko-KR",
+      "durationSeconds": 18.0,
+      "sampleRate": 16000,
+      "channels": 1,
+      "pcmBits": 16,
+      "rmsDbFS": -21.25,
+      "peakFraction": 0.63858,
+      "clippingFraction": 0.0,
+      "listeningReview": "pending"
+    }
+  ],
+  "purpose": "한국어 음성 제작 경로 점검용. 문제·학습 자료 완료 수에 포함하지 않음.",
+  "countedLearningSets": 0,
+  "limits": [
+    "WAV 구조·길이·무음 여부를 확인했다. 발음·쉼·속도의 청취 확인과 수업 적합성은 검토 대기다."
+  ]
+}

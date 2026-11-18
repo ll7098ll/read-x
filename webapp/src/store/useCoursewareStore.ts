@@ -1,5 +1,21 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { findLesson, masterData } from '../data/lessonCatalog';
+import { normalizeSlotPackage } from '../services/contentSchema';
+
+export const DEMO_STORAGE_KEY = 'readxray_demo_store_v1';
+
+function legacyContentDrafts(): Record<string, SlotLessonPackage> {
+  try {
+    if (typeof localStorage === 'undefined' || localStorage.getItem(DEMO_STORAGE_KEY)) return {};
+    const legacy = JSON.parse(localStorage.getItem('readxray_pro_production_store_v4') || '{}');
+    const drafts: Record<string, SlotLessonPackage> = {};
+    for (const [id, value] of Object.entries(legacy.state?.customSlotsById || {})) {
+      try { const slot = normalizeSlotPackage(value); if (slot.slot_id === id) drafts[id] = slot; } catch { /* The original remains in the legacy key for recovery. */ }
+    }
+    return drafts;
+  } catch { return {}; }
+}
 import type {
   RoleType,
   StudentModeType,
@@ -60,6 +76,9 @@ interface CoursewareState {
   // Custom / Edited Item Bank DB Store (slot_id -> SlotLessonPackage)
   customSlotsById: Record<string, SlotLessonPackage>;
 
+  responseDrafts: Record<string, string>;
+  saveResponseDraft: (key: string, text: string) => void;
+
   // Actions
   setActiveRole: (role: RoleType) => void;
   setActiveGradeIdx: (idx: number) => void;
@@ -86,7 +105,7 @@ interface CoursewareState {
   updateSubskillScore: (slotId: string, newScore: number) => void;
   markSlotCompleted: (slotId: string, kind: 'clinic' | 'studio', examScore?: number) => void;
   recordAttemptLog: (log: Omit<QuestionAttemptLog, 'id' | 'timestamp'>) => void;
-  saveCustomSlotToDb: (slot: SlotLessonPackage) => void;
+  saveCustomSlotToDb: (slot: SlotLessonPackage) => boolean;
   deleteCustomSlotFromDb: (slotId: string) => void;
 
   unlockVaccine: (code: string) => void;
@@ -97,65 +116,18 @@ interface CoursewareState {
   markStepComplete: (gradeNum: number, step: 'diag' | 'clinic' | 'studio') => void;
   setDiagSimChoice: (gradeIdx: number, qIdx: number, optNo: number) => void;
   assignTeacherClinic: (studentIds: string[]) => void;
-  assignTaskToStudent: (task: Omit<StudentAssignment, 'id' | 'status'>) => void;
+  assignTaskToStudent: (task: Omit<StudentAssignment, 'id' | 'status'>) => boolean;
   completeStudentAssignment: (taskId: string, score: number) => void;
   resetDemoProgress: () => void;
 }
 
-const INITIAL_ASSIGNMENTS: StudentAssignment[] = [
-  {
-    id: 'TASK-001',
-    title: 'G5-EXP-I1-1 [과학] 인공지능 신경망의 가중치 갱신 인과 추론 및 EBSR 2단계 풀이',
-    slotId: 'G5-EXP-I1-1',
-    type: 'reading',
-    assignedBy: '김성진 담임선생님 (대치초 5학년 2반)',
-    dueDate: '오늘 18:00까지',
-    status: 'pending',
-    trapWarning: 'D4 다단계 논리적 비약 주의 (본문 전제 확인 필수)',
-  },
-  {
-    id: 'TASK-002',
-    title: 'G5-COM-A3 [선수결손] 교과 전문어 의미망 & 사고구술 빈칸 조립 징검다리 클리닉',
-    slotId: 'G5-COM-A3',
-    type: 'clinic',
-    assignedBy: '김성진 담임선생님 (대치초 5학년 2반)',
-    dueDate: '2026.10.12',
-    status: 'completed',
-    score: 95,
-    completedAt: '어제 16:42 제출 완료 (우수)',
-    trapWarning: 'D3 전제 왜곡 방어 성공',
-  },
-  {
-    id: 'TASK-003',
-    title: 'G5-EXP-S1-2 [사회/구조] 환율 변동과 무역 수지 Meyer 6대 텍스트 구조도 노드 조립',
-    slotId: 'G5-EXP-S1-2',
-    type: 'reading',
-    assignedBy: 'AI 적응형 엔진 추천',
-    dueDate: '내일 15:00까지',
-    status: 'pending',
-    trapWarning: '문제-해결 구조 인과 노드 매핑',
-  },
-  {
-    id: 'TASK-004',
-    title: '10초 스피드 어휘 듀얼 배틀 (초등 5학년 2학기 전교과 핵심 어휘 10선)',
-    slotId: 'G5-EXP-V1-1',
-    type: 'vocab',
-    assignedBy: 'AI 라이벌 챌린지',
-    dueDate: '오늘 21:00까지',
-    status: 'pending',
-  },
-  {
-    id: 'TASK-005',
-    title: 'CAT 3문항 적응형 온보딩 독서 레벨 진단 평가',
-    slotId: 'G5-EXP-I1-1',
-    type: 'cat',
-    assignedBy: 'ReadX AI 평가원',
-    dueDate: '완료됨',
-    status: 'completed',
-    score: 92,
-    completedAt: '2026.10.10 완료 (KReaD 940 판정)',
-  },
-];
+const INITIAL_ASSIGNMENTS: StudentAssignment[] = ['G5-EXP-V1-1', 'G5-COM-A3', 'G5-EXP-V2-2'].map((id, i) => {
+  const lesson = findLesson(id)!;
+  return {
+    id: `DEMO-TASK-${i + 1}`, title: 'real_csat_test' in lesson ? lesson.real_csat_test.passage_title : lesson.title,
+    slotId: id, type: id.includes('-COM-') ? 'clinic' : 'reading', assignedBy: '체험 선생님', dueDate: '체험 과제', status: 'pending',
+  };
+});
 
 const INITIAL_SMART_SCORES: Record<number, number> = {
   1: 64,
@@ -199,7 +171,7 @@ const INITIAL_CLUE_NOTES: Record<number, ClueNoteItem[]> = {
 
 export const useCoursewareStore = create<CoursewareState>()(
   persist(
-    (set) => ({
+    (set, get) => ({
       activeRole: 'landing',
       activeGradeIdx: 4, // 초5 기본 선택
       activeSlotId: 'G5-EXP-V3-2',
@@ -246,7 +218,9 @@ export const useCoursewareStore = create<CoursewareState>()(
         'stu-10': true,
       },
       assignments: [...INITIAL_ASSIGNMENTS],
-      customSlotsById: {},
+      customSlotsById: legacyContentDrafts(),
+      responseDrafts: {},
+      saveResponseDraft: (key, text) => set(state => ({ responseDrafts: { ...state.responseDrafts, [key]: text } })),
 
       setActiveRole: (role) => set({ activeRole: role }),
       setActiveGradeIdx: (idx) => {
@@ -282,32 +256,10 @@ export const useCoursewareStore = create<CoursewareState>()(
       toggleEyeBeaconMode: () => set((s) => ({ isEyeBeaconMode: !s.isEyeBeaconMode })),
       toggleTwoColumnMode: () => set((s) => ({ isTwoColumnMode: !s.isTwoColumnMode })),
 
-      boostSmartScore: (gradeNum, delta, slotId) =>
-        set((state) => {
-          const current = state.smartScores[gradeNum] ?? 60;
-          const next = Math.min(100, Math.max(30, current + delta));
-          const targetSlot = slotId || state.activeSlotId || `G${gradeNum}-EXP-V1-1`;
-          const curSlotScore = state.dynamicSubskillScores[targetSlot] ?? 65;
-          const nextSlotScore = Math.min(100, Math.max(30, curSlotScore + delta * 2));
-          return {
-            smartScores: {
-              ...state.smartScores,
-              [gradeNum]: next,
-            },
-            dynamicSubskillScores: {
-              ...state.dynamicSubskillScores,
-              [targetSlot]: nextSlotScore,
-            },
-          };
-        }),
-
-      updateSubskillScore: (slotId, newScore) =>
-        set((state) => ({
-          dynamicSubskillScores: {
-            ...state.dynamicSubskillScores,
-            [slotId]: Math.min(100, Math.max(0, newScore)),
-          },
-        })),
+      // Legacy reward calls must not manufacture a diagnostic score.
+      // The displayed historical scores belong only to the explicitly labelled demo.
+      boostSmartScore: () => {},
+      updateSubskillScore: () => {},
 
       markSlotCompleted: (slotId, kind, examScore) =>
         set((state) => {
@@ -329,23 +281,21 @@ export const useCoursewareStore = create<CoursewareState>()(
           const newEntry: QuestionAttemptLog = {
             ...log,
             id: `att-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
-            timestamp: new Date().toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', second: '2-digit' }),
+            timestamp: new Date().toISOString(),
           };
           return {
             attemptLogs: [newEntry, ...state.attemptLogs].slice(0, 100),
           };
         }),
 
-      saveCustomSlotToDb: (slot) =>
-        set((state) => ({
-          customSlotsById: {
-            ...state.customSlotsById,
-            [slot.slot_id]: {
-              ...slot,
-              updated_at: new Date().toISOString(),
-            },
-          },
-        })),
+      saveCustomSlotToDb: (slot) => {
+        try {
+          const normalized = normalizeSlotPackage(slot);
+          if (!masterData.expository_slots_96.some(s => s.slot_id === normalized.slot_id && s.grade_num === normalized.grade_num)) return false;
+          set(state => ({ customSlotsById: { ...state.customSlotsById, [normalized.slot_id]: { ...normalized, updated_at: new Date().toISOString() } } }));
+          return true;
+        } catch { return false; }
+      },
 
       deleteCustomSlotFromDb: (slotId) =>
         set((state) => {
@@ -426,31 +376,19 @@ export const useCoursewareStore = create<CoursewareState>()(
           return { teacherClinicAssigned: next };
         }),
 
-      assignTaskToStudent: (task) =>
-        set((state) => ({
-          assignments: [
-            {
-              ...task,
-              id: `TASK-${Date.now()}`,
-              status: 'pending',
-            },
-            ...state.assignments,
-          ],
-        })),
+      assignTaskToStudent: (task) => {
+        const lesson = get().customSlotsById[task.slotId] || findLesson(task.slotId);
+        if (!lesson || lesson.status !== 'published') return false;
+        if ('real_csat_test' in lesson) {
+          try { if (normalizeSlotPackage(lesson).slot_id !== task.slotId) return false; } catch { return false; }
+        }
+        if (task.slotId.includes('-COM-') && task.type !== 'clinic') return false;
+        const title = 'real_csat_test' in lesson ? lesson.real_csat_test.passage_title : lesson.title;
+        set(state => ({ assignments: [{ ...task, title, id: `DEMO-TASK-${crypto.randomUUID()}`, status: 'pending' }, ...state.assignments] }));
+        return true;
+      },
 
-      completeStudentAssignment: (taskId, score) =>
-        set((state) => ({
-          assignments: state.assignments.map((a) =>
-            a.id === taskId
-              ? {
-                  ...a,
-                  status: 'completed',
-                  score,
-                  completedAt: '방금 전 제출 완료',
-                }
-              : a
-          ),
-        })),
+      completeStudentAssignment: () => {},
 
       resetDemoProgress: () =>
         set({
@@ -473,10 +411,10 @@ export const useCoursewareStore = create<CoursewareState>()(
         }),
     }),
     {
-      name: 'readxray_pro_production_store_v4',
+      name: DEMO_STORAGE_KEY,
       onRehydrateStorage: () => (state) => {
         if (state) {
-          const validRoles: RoleType[] = ['landing', 'student', 'parent', 'teacher', 'admin'];
+          const validRoles: RoleType[] = ['landing', 'student', 'parent', 'teacher', 'director', 'admin'];
           if (!validRoles.includes(state.activeRole)) {
             state.activeRole = 'landing';
           }

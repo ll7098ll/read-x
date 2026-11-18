@@ -1,0 +1,31 @@
+{
+  "asOf":"2026-11-18",
+  "contentSnapshotHash":"a9ad999ca066ec1407b07e090409508610f0c5427aefaf08e33bb23ed2f95378",
+  "reviewType":"AI 자체 창작·작품 사건·해석 근거·학생 문구 반복 검토. 독립 교사 승인·학생 보정과 구별.",
+  "teacherApproval":"pending",
+  "studentCalibration":"pending",
+  "publication":"unpublished",
+  "records":[
+    {"id":"L01","scope":"실제 작품과 공급 범위","action":"새 문학6수행 S2·S4·S5에18자료78문항 집필. 작품은 독립 이야기15편·시3편24행이며 주 서면 응답18·분석적 준거42개. 미집필 단계와 추가 반복 공급은 완료로 세지 않음.","state":"authored_draft"},
+    {"id":"L02","scope":"학년별 수행 차이","action":"중요 사건·사물의 사람 같은 표현·관계·분위기·반복 사물의 의미·해석 비교를 학년별 새 기능으로 편성. 단서 찾기에서 해석·반대 단서·서술의 한계를 달리 요구하고 공인 난도 등급으로 환산하지 않음.","state":"editorial_progression_reviewed"},
+    {"id":"L03","scope":"완결된 원문과 의견의 구별","action":"각 작품의 시작·전환·끝을 갖추고 원문을 따로 모음. 가상 독자 의견을 작품 본문 목록·작품 모음에서 제외하고 실제 학생 감상으로 소개하지 않음.","state":"works_and_context_separated"},
+    {"id":"L04","scope":"초1 중요한 사건","action":"돌 제거와 재이동, 깃발 부재 뒤 걸어온 길 살피기, 다리 보관과 내일 놀이의 여지를 연결. 깃발을 찾았다거나 미래 놀이가 이미 끝났다는 해석은 작품 사실과 구별. 다리를 그었다는 표현을 그렸다로 수정.","state":"event_and_wording_reviewed"},
+    {"id":"L05","scope":"초2 사람 같은 사물 표현","action":"단추의 말·숨, 우편함의 재촉 없는 기다림, 운동화의 쉼·다음 길 생각을 실제 생명·대화·미래 신발 사용의 확정과 구별. 쓸쓸함·편안함·기대 등 다른 느낌도 구절과 연결하면 수용.","state":"personification_not_fixed_emotion"},
+    {"id":"L06","scope":"초3 관계의 조정","action":"만화의 이야기 공동 기여와 그림 역할, 누나의 독립 연습 시간과 동생의 새 참여 방식, 대사 핵심과 연기 쉼의 협의를 연결. 언제나 함께함·완전 복종·모든 갈등 소멸을 정답으로 요구하지 않음.","state":"relationship_scope_reviewed"},
+    {"id":"L07","scope":"초4 분위기와 복합 느낌","action":"수선집 밖·안의 감각과 주의 변화, 이별 뒤 남은 물소리와 귤 냄새, 같은 초침과 달라진 커튼·문장 시도를 대조. 빛·색·고요함을 단일 감정의 고정 부호로 쓰지 않음.","state":"sensory_context_reviewed"},
+    {"id":"L08","scope":"초5 사물의 반복 맥락","action":"분필선의 참여 통로와 남은 허락 규칙, 빈 제목과 적힌 경험·옛 제목 보존, 같은 실의 이동·다시 묶기·사진 초대를 함께 설명. 이번 작품의 의미를 모든 작품의 상징 사전으로 고정하지 않음.","state":"motif_context_not_symbol_dictionary"},
+    {"id":"L09","scope":"초6 해석의 설명 범위","action":"사진의 초기 의도와 최종 포함 요소, 예전 원본 보존과 현재 녹음의 양립, 교정 제안과 미확정 감정·최종 동의의 구별로 세 종류의 해석 비교를 구성. 두 의견을 무조건 동등하게 인정하지 않음.","state":"interpretation_scope_compared"},
+    {"id":"L10","scope":"부가 사실·단정 방지","action":"키 이야기 의견의 숫자 표현은 본문의 키 변화 기록으로 좁힘. 녹음 파일의 전송·소리 복원·할아버지 사망·반응, 나라의 완전한 용서·영구 단절·최종 인쇄 허락을 작품 밖에서 확정하지 않음.","state":"bounded_inference_reviewed"},
+    {"id":"L11","scope":"독자 이름의 모호함","action":"8자료의 가상 의견을 독자 ‘가’·‘나’로 명확히 표시해 일인칭과 구별. 작품 속 화자의 나·운동화의 직접 말은 그대로 유지.","state":"reader_label_revised"},
+    {"id":"L12","scope":"선택형의 근거 구별","action":"초4 수선집과 초6 녹음 선택형의 오답도 실제 장면으로 다듬어 질문의 초점에 맞는 근거 또는 두 해석을 함께 설명하는 장면을 구별하도록 수정. 정답 길이만으로 고르지 않도록 함께 검토.","state":"evidence_options_revised"},
+    {"id":"L13","scope":"학생 안내말 재검토","action":"초1·2 S4·S5의 준거·분류 문구를 쉬운 표현으로 수정. 폐기→운동화를 버림, 의견과 사건의 대응→생각과 이야기 잇기, 단정의 범위→모르는 일 구별 등. 해석·근거 과제 요구는 유지.","state":"learner_wording_revised"},
+    {"id":"L14","scope":"버전과 수정 전 원고","action":"초기18자료와 학생 문구 검토 직전18자료의 두 원고·해시 보존. 현재11자료가 수정됨:9자료v2·초1/2 S5의2자료v3. 자료·문항·근거 버전과 실제 변경·직전 원고 해시를 대조. 이력은 신규 물량으로 세지 않음.","state":"versioned_revision_verified"},
+    {"id":"L15","scope":"첫 해석의 실제 배포","action":"작품만 담은 모음1개와 학년별 주 해석 전용 과제지6개를 별도 생성. 보조 문항 ID·예시 답·지도문 미포함과 본문·주 과제 포함·파일 해시 확인. 전체 HTML의 스크롤 가능성과 첫 응답 불변 저장 부재를 명시.","state":"primary_only_delivery_verified"},
+    {"id":"L16","scope":"교육과정·실제 수행 구별","action":"로컬2022-33 원문·해설에 연결하되12자료는 일부 성취요소 후보, 초2·6의6자료는 서면 준비·보조로 구별. 실제 낭송·의견 교환·독자의 성격·태도·경험은 관찰한 것으로 처리하지 않음. 최신 통합 고시 전량 대조·교사 승인 대기.","state":"bounded_curriculum_mapping"},
+    {"id":"L17","scope":"보조 인용 문항 경고","action":"S4의 구절 찾기5문항에 직접 인용 답 경고를 보존. 이 문항은 보조 검색이며 주 해석은 별도 분석 준거로 설명·비교를 요구한다고 AI 검토 결정에 기록. 경고0·교사 승인으로 바꾸지 않음.","state":"warning_retained_with_bounded_review"},
+    {"id":"L18","scope":"검사와 남은 검증","action":"68개 제한된 구조·사건 일부 관계·수정 이력 확인, 근거·버전·HTML 분리·JavaScript 문법·별도 전달 검사 통과. 설정된 근접 중복·정답 길이 후보0은 유일 정답·작품성·학년 난도 증명이 아님. 실제 교사·학생·브라우저·앱 검증 대기.","state":"technical_checks_not_final_approval"}
+  ],
+  "executedChecks":[
+    {"command":"python -X utf8 scripts/build_literary_depth_v2.py","result":"passed;18 sets78 questions15 narratives3 poems24 lines42 criteria68 bounded checks;6 primary-only handouts18 tasks;five auxiliary quotation warnings retained and reviewed"}
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "6cc65f15234525d3b6d1f7e0888469fd244361a2667a3f38c22a30f2a887922f",
+  "sets": 18,
+  "tasks": 78,
+  "writingProductionTasks": 18,
+  "primaryAnalyticCriteria": 37,
+  "newSkills": 6,
+  "newSkillStageCells": 18,
+  "writingConsistencyChecks": 61,
+  "firstWritingHandoutFiles": 6,
+  "firstWritingHandoutTasks": 18,
+  "byGrade": {
+    "1": {
+      "sets": 3,
+      "tasks": 13,
+      "minChars": 137,
+      "maxChars": 164
+    },
+    "2": {
+      "sets": 3,
+      "tasks": 13,
+      "minChars": 168,
+      "maxChars": 197
+    },
+    "3": {
+      "sets": 3,
+      "tasks": 13,
+      "minChars": 253,
+      "maxChars": 283
+    },
+    "4": {
+      "sets": 3,
+      "tasks": 13,
+      "minChars": 265,
+      "maxChars": 327
+    },
+    "5": {
+      "sets": 3,
+      "tasks": 13,
+      "minChars": 336,
+      "maxChars": 403
+    },
+    "6": {
+      "sets": 3,
+      "tasks": 13,
+      "minChars": 313,
+      "maxChars": 504
+    }
+  },
+  "passed": true,
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

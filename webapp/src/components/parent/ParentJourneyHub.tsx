@@ -1,328 +1,248 @@
-import React, { useState } from 'react';
-import { useCoursewareStore } from '../../store/useCoursewareStore';
-import type { GradeData, SubskillMeta } from '../../types/courseware';
-import { ParentInstantGlanceModal } from './ParentInstantGlanceModal';
+import { ExamEntryCard } from "../exam/ExamEntryCard";
+import { enterExam } from "../../services/examNavigation";
+import { ParentDemoDashboard } from "./ParentDemoDashboard";
+import { LearningIllustration } from "../brand/LearningIllustration";
+import React, { useState } from "react";
+import {
+  ArrowRight,
+  BookOpen,
+  MessageCircle,
+  PenLine,
+  Printer,
+  Quote,
+  Sprout,
+} from "lucide-react";
+import { PageHeading, EmptyState, ThinkingPath } from "../common/DesignSystem";
+import { useCoursewareStore } from "../../store/useCoursewareStore";
+import { findLesson } from "../../data/lessonCatalog";
+import { LearningEvidenceReport } from "../common/LearningEvidenceReport";
+import { ThinkingPortfolio } from "../common/ThinkingPortfolio";
+import { useLearningJourney } from "../../store/useLearningJourney";
+import { JOURNEY_SLOT, JOURNEY_GOAL } from "../../data/learningJourney";
+import type { GradeData, SubskillMeta } from "../../types/courseware";
 
-interface ParentJourneyHubProps {
+function ParentPracticeHub({
+  gradeData,
+}: {
   gradeData: GradeData;
   subskillMeta: SubskillMeta[];
-}
-
-export const ParentJourneyHub: React.FC<ParentJourneyHubProps> = ({
-  gradeData,
-  subskillMeta,
-}) => {
-  const { assignments, smartScores, streakDays, unlockedVaccines } = useCoursewareStore();
-
-  const [activeTab, setActiveTab] = useState<'today_activity' | 'xray_detail' | 'growth_trend' | 'table_talk'>('today_activity');
-  const [showMobileModal, setShowMobileModal] = useState(false);
-
-  const xr = gradeData.xray_overview;
-  const currentSmart = smartScores[gradeData.grade_num] ?? xr.overall_score;
-
-  const completedTasks = assignments.filter((a) => a.status === 'completed');
-  const pendingTasks = assignments.filter((a) => a.status === 'pending');
-
+}) {
+  const { responseDrafts, assignments } = useCoursewareStore();
+  const [tab, setTab] = useState("summary");
+  const journeyAttempts = useLearningJourney((s) => s.attempts);
+  const drafts = [
+    ...Object.entries(responseDrafts),
+    ...journeyAttempts
+      .filter((a) => a.writing.trim())
+      .map(
+        (a) =>
+          [`${JOURNEY_SLOT}:journey-${a.id}`, a.writing] as [string, string],
+      ),
+  ].filter(([, value]) => value.trim());
   return (
-    <div className="space-y-5 font-sans">
-      {/* 1. Clean Navigation Segmented Tab Bar */}
-      <div className="bg-white rounded-2xl border border-slate-200/80 p-2 shadow-2xs flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center gap-1.5 bg-slate-100/80 p-1 rounded-xl">
-          <button
-            onClick={() => setActiveTab('today_activity')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 cursor-pointer ${
-              activeTab === 'today_activity'
-                ? 'bg-white text-emerald-700 shadow-xs'
-                : 'text-slate-600 hover:text-slate-900'
-            }`}
-          >
-            <span>🔔 오늘 자녀 활동 현황</span>
-            <span
-              className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
-                activeTab === 'today_activity' ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-200 text-slate-700'
-              }`}
-            >
-              {completedTasks.length}건 완료
-            </span>
+    <div className="rx-parent-page">
+      <PageHeading
+        eyebrow="우리 아이의 배움"
+        title="아이의 생각을 만나는 시간"
+        description="무엇을 읽고, 어떻게 생각했는지. 배움의 과정을 함께 살펴보세요."
+        action={
+          <button className="rx-button no-print" onClick={() => window.print()}>
+            <Printer size={17} />
+            리포트 인쇄
           </button>
-
+        }
+      />
+      <nav className="rx-tabs no-print" aria-label="학부모 메뉴">
+        {[
+          ["summary", "배움 요약"],
+          ["exams", "모의고사 리포트"],
+          ["notes", "생각 기록"],
+          ["conversation", "함께 나눌 질문"],
+        ].map(([id, label]) => (
           <button
-            onClick={() => setActiveTab('xray_detail')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition cursor-pointer ${
-              activeTab === 'xray_detail'
-                ? 'bg-white text-emerald-700 shadow-xs'
-                : 'text-slate-600 hover:text-slate-900'
-            }`}
+            key={id}
+            aria-current={tab === id ? "page" : undefined}
+            onClick={() => id === "exams" ? enterExam("parent") : setTab(id)}
           >
-            <span>📋 6차원 X-Ray 진단서</span>
+            <LearningIllustration kind={id} />
+            {label}
           </button>
-
-          <button
-            onClick={() => setActiveTab('growth_trend')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition cursor-pointer ${
-              activeTab === 'growth_trend'
-                ? 'bg-white text-emerald-700 shadow-xs'
-                : 'text-slate-600 hover:text-slate-900'
-            }`}
-          >
-            <span>📈 주간·월간 성장 추이</span>
-          </button>
-
-          <button
-            onClick={() => setActiveTab('table_talk')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition cursor-pointer ${
-              activeTab === 'table_talk'
-                ? 'bg-white text-emerald-700 shadow-xs'
-                : 'text-slate-600 hover:text-slate-900'
-            }`}
-          >
-            <span>🍽️ 밥상머리 대화 가이드</span>
-          </button>
-        </div>
-
-        <button
-          onClick={() => setShowMobileModal(true)}
-          className="text-xs font-bold px-3 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200/80 transition flex items-center gap-1.5 cursor-pointer"
-        >
-          <span>📱 모바일 알림톡 미리보기</span>
-        </button>
-      </div>
-
-      {/* ================= TAB 1: 🔔 오늘 자녀 활동 현황 ================= */}
-      {activeTab === 'today_activity' && (
-        <div className="space-y-4">
-          {/* Summary Hero Card */}
-          <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-7 shadow-xs space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-4">
-              <div className="space-y-1">
-                <span className="text-[11px] font-bold text-emerald-600 tracking-wider uppercase">
-                  TODAY'S CHILD ACTIVITY
-                </span>
-                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-                  오늘 김도윤 학생이 <span className="text-emerald-600">{completedTasks.length}건</span>의 과제를 완수했습니다
-                </h2>
-                <p className="text-xs text-slate-500">
-                  학교와 학원에서 배정된 수능형 설명문 독해 과제를 성실하게 수행하고 있습니다.
-                </p>
-              </div>
-
-              <div className="flex items-center gap-2">
-                <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 text-center min-w-[120px]">
-                  <span className="text-[11px] font-bold text-slate-500 block">과제 완수</span>
-                  <span className="text-xl font-black text-emerald-600 mt-0.5 block">
-                    {completedTasks.length} / {assignments.length}건
-                  </span>
-                </div>
-                <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 text-center min-w-[120px]">
-                  <span className="text-[11px] font-bold text-slate-500 block">연속 실천</span>
-                  <span className="text-xl font-black text-amber-500 mt-0.5 block">
-                    🔥 {streakDays}일차
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Activity Cards List */}
-          <div className="grid grid-cols-1 gap-3">
-            {completedTasks.map((task) => (
-              <div
-                key={task.id}
-                className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-3"
-              >
-                <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-slate-100">
-                  <div className="flex items-center gap-2.5">
-                    <span className="w-6 h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xs font-bold">
-                      ✓
-                    </span>
-                    <div>
-                      <h3 className="font-black text-sm text-slate-900">{task.title}</h3>
-                      <span className="text-[11px] text-slate-400 font-mono">
-                        {task.completedAt} · 배정: {task.assignedBy}
-                      </span>
-                    </div>
-                  </div>
-
-                  <span className="text-xs font-black text-emerald-700 bg-emerald-50 px-3 py-1 rounded-xl border border-emerald-200">
-                    획득 성적: {task.score}점
-                  </span>
-                </div>
-
-                <div className="p-3.5 rounded-xl bg-slate-50/70 border border-slate-200/60 text-xs leading-relaxed space-y-1">
-                  <span className="font-bold text-slate-800 block">
-                    👨‍🏫 담임 선생님 지도 코멘트: "정확한 근거 문장 매핑으로 고난도 비약 함정을 훌륭히 극복했습니다."
-                  </span>
-                  <p className="text-slate-600">
-                    오늘 아이가 수능형 설명문을 차분히 완독하고, 주장-근거 연동 문항을 우수한 성적으로 통과했습니다.
-                  </p>
-                </div>
-              </div>
-            ))}
-
-            {pendingTasks.map((task) => (
-              <div
-                key={task.id}
-                className="bg-white rounded-2xl border border-slate-200/60 p-4 shadow-2xs flex items-center justify-between text-xs opacity-70"
-              >
-                <div className="flex items-center gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center font-bold text-xs">
-                    ⏳
-                  </span>
-                  <div>
-                    <span className="font-bold text-slate-800">{task.title}</span>
-                    <span className="text-slate-400 block text-[11px]">기한: {task.dueDate}</span>
-                  </div>
-                </div>
-                <span className="text-slate-500 font-bold bg-slate-100 px-2.5 py-1 rounded-lg">
-                  진행 예정
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* ================= TAB 2: 📋 6차원 X-Ray 진단서 ================= */}
-      {activeTab === 'xray_detail' && (
-        <div className="space-y-4">
-          <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-7 shadow-xs space-y-5">
+        ))}
+      </nav>
+      <details className="workspace-exam-shortcut"><summary>모의고사 리포트 바로가기</summary><ExamEntryCard role="parent"/></details>
+      {tab === "summary" && (
+        <>
+          <ThinkingPortfolio audience="parent" />
+          <details className="rx-demo-secondary"><summary>읽기 안내와 가정에서 이어갈 질문</summary>
+          <section className="rx-parent-hero print-card">
             <div>
-              <h2 className="text-lg font-black text-slate-900 tracking-tight">
-                김도윤 학생 6차원 인지 X-Ray 정밀 진단 리포트
+              <span className="rx-dark-badge">우리 아이의 배움 · 체험</span>
+              <h2>
+                작은 발견이 쌓여,
+                <br />
+                설명할 수 있는 힘으로.
               </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                동학년 전국 백분위 상위 {xr.percentile} 수준이며, 세부 영역별 균형도를 분석한 결과입니다.
+              <p>
+                점수 한 줄보다 아이가 찾아낸 근거와 직접 쓴 문장을 먼저 만나요.
               </p>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-              <div className="p-4 rounded-2xl bg-slate-50/70 border border-slate-200/80 space-y-1.5">
-                <span className="font-black text-slate-900 block text-sm">📍 취약 위치 (Where)</span>
-                <p className="text-slate-600 leading-relaxed">{xr.where_summary}</p>
-              </div>
-              <div className="p-4 rounded-2xl bg-slate-50/70 border border-slate-200/80 space-y-1.5">
-                <span className="font-black text-slate-900 block text-sm">🧠 오답 메커니즘 (Why & How)</span>
-                <p className="text-slate-600 leading-relaxed">{xr.how_summary}</p>
-              </div>
+            <div className="rx-parent-hero-mark" aria-hidden="true">
+              <Sprout size={94} strokeWidth={1} />
+              <span>GROW WITH READX</span>
             </div>
-
-            {/* 6D Radar Bars */}
-            <div className="pt-2 space-y-3">
-              <span className="text-xs font-black text-slate-800 block">
-                6대 인지 영역별 세부 성취도:
+          </section>
+          <div className="rx-parent-summary">
+            <article className="rx-surface print-card">
+              <span className="rx-step-icon is-blue">
+                <BookOpen size={22} />
               </span>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {[
-                  { name: '어휘 정밀도 (V)', score: 85, grade: '1등급' },
-                  { name: '사실적 정보 추출 (F)', score: 92, grade: '1등급' },
-                  { name: '인과 추론 (I)', score: 58, grade: '3등급 (보강 권장)' },
-                  { name: '구조 분석 (S)', score: 76, grade: '2등급' },
-                  { name: '비판적 평가 (E)', score: 68, grade: '2등급' },
-                  { name: '메타인지 조절 (M)', score: 64, grade: '2등급' },
-                ].map((dom, idx) => (
-                  <div
-                    key={idx}
-                    className="p-3.5 rounded-xl border border-slate-200/80 bg-white flex items-center justify-between text-xs"
-                  >
-                    <span className="font-bold text-slate-800">{dom.name}</span>
-                    <span className="font-black text-emerald-700">{dom.score}점 ({dom.grade})</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* ================= TAB 3: 📈 주간·월간 성장 추이 ================= */}
-      {activeTab === 'growth_trend' && (
-        <div className="space-y-4">
-          <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-7 shadow-xs space-y-5">
-            <div>
-              <h2 className="text-lg font-black text-slate-900 tracking-tight">
-                최근 4주간 KReaD 독서지수 성장 추이
-              </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                체계적인 1:1 맞춤 클리닉을 통해 고난도 어휘 및 추론 영역이 지속 상승하고 있습니다.
+              <h2>지금 연습하는 것</h2>
+              <p>{gradeData.sub_skill_name}</p>
+              <small>{gradeData.real_csat_test.passage_title}</small>
+            </article>
+            <article className="rx-surface print-card">
+              <span className="rx-step-icon is-green">
+                <PenLine size={22} />
+              </span>
+              <h2>직접 남긴 생각</h2>
+              <p>
+                {drafts.length ? (
+                  <>
+                    기기에 보관된 초안 <b>{drafts.length}개</b>
+                  </>
+                ) : (
+                  "아직 작성된 초안이 없어요"
+                )}
               </p>
+              <small>체험 기기의 기록이며 교사 제출 결과는 아닙니다.</small>
+            </article>
+            <article className="rx-surface print-card">
+              <span className="rx-step-icon is-gold">
+                <MessageCircle size={22} />
+              </span>
+              <h2>다음에 도울 한 가지</h2>
+              <p>“어느 문장에서 그렇게 생각했니?”</p>
+              <small>답을 알려주기 전에 아이가 찾은 이유를 들어주세요.</small>
+            </article>
+          </div>
+          <section className="rx-surface rx-records print-card">
+            <div className="rx-section-title">
+              <div>
+                <p className="rx-eyebrow">A GLIMPSE OF THINKING</p>
+                <h2>아이의 문장으로 보는 배움</h2>
+              </div>
+              <button
+                className="rx-text-link no-print"
+                onClick={() => setTab("notes")}
+              >
+                기록 모두 보기 <ArrowRight size={16} />
+              </button>
             </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
-              <div className="p-4 rounded-2xl bg-slate-50/70 border border-slate-200/80">
-                <span className="text-slate-400 text-xs block">1주 전</span>
-                <span className="text-xl font-black text-slate-700 mt-1 block">850</span>
-              </div>
-              <div className="p-4 rounded-2xl bg-slate-50/70 border border-slate-200/80">
-                <span className="text-slate-400 text-xs block">2주 전</span>
-                <span className="text-xl font-black text-slate-700 mt-1 block">890</span>
-              </div>
-              <div className="p-4 rounded-2xl bg-slate-50/70 border border-slate-200/80">
-                <span className="text-slate-400 text-xs block">3주 전</span>
-                <span className="text-xl font-black text-slate-700 mt-1 block">915</span>
-              </div>
-              <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200">
-                <span className="text-emerald-700 text-xs font-bold block">현재 지수</span>
-                <span className="text-2xl font-black text-emerald-900 mt-0.5 block">940</span>
-                <span className="text-[11px] text-emerald-700 font-bold block mt-0.5">+90점 상승 🚀</span>
-              </div>
-            </div>
-
-            <p className="text-xs text-slate-500 leading-relaxed bg-slate-50/70 p-4 rounded-2xl border border-slate-200/60">
-              * 지난 4주간 꾸준한 약점 처방 클리닉 이수를 통해 KReaD 한국어 독서지수가 850에서 940으로 대폭 향상되었으며, 초등 5학년 권장 독서 궤도에 완벽하게 안착했습니다.
+            {drafts.length ? (
+              <blockquote className="rx-quote">
+                <Quote size={24} />
+                <p>{drafts[drafts.length - 1][1]}</p>
+                <cite>이 기기에서 작성한 체험 초안</cite>
+              </blockquote>
+            ) : (
+              <EmptyState
+                title="한 문장이 배움의 기록이 됩니다"
+                description="학생 화면에서 ‘내 말로 쓰기’를 하면 작성한 초안이 이곳에도 나타납니다."
+              />
+            )}
+            <p className="rx-inline-note">
+              공식 진단·성장 결과와 선생님 의견은 실제 학습 기록과 교사 검토가
+              연결된 뒤 제공됩니다.
             </p>
-          </div>
-        </div>
-      )}
-
-      {/* ================= TAB 4: 🍽️ 밥상머리 대화 가이드 ================= */}
-      {activeTab === 'table_talk' && (
-        <div className="space-y-4">
-          <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-7 shadow-xs space-y-5">
-            <div className="border-b border-slate-100 pb-3">
-              <h2 className="text-lg font-black text-slate-900 tracking-tight">
-                오늘 저녁 식탁에서 아이와 나눌 수 있는 밥상머리 대화 가이드
-              </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                오늘 아이가 읽은 설명문 「{gradeData.real_csat_test.passage_title}」을 바탕으로 자연스럽게 대화를 이끌어 보세요.
-              </p>
+          </section>
+          <section className="rx-family-conversation">
+            <div>
+              <MessageCircle size={26} />
+              <h2>오늘 저녁, 이런 이야기를 나눠 보세요.</h2>
+              <p>“오늘 읽은 글에서 가장 기억에 남는 건 뭐야?”</p>
             </div>
-
-            <div className="space-y-3">
-              <div className="p-4 rounded-2xl bg-emerald-50/60 border border-emerald-200/80 text-xs space-y-2">
-                <span className="font-black text-emerald-950 block text-sm">
-                  Q1. "도윤아, 오늘 지문에서 인공지능이 스스로 학습할 때 가중치가 왜 중요하다고 했어?"
-                </span>
-                <p className="text-slate-700 leading-relaxed">
-                  💡 <b>기대 답변</b>: "가중치가 뉴런 사이의 연결 강도인데, 오차를 줄이려고 계속 미세하게 바뀌는 원리라고 했어요!"
-                </p>
-                <p className="text-emerald-800 font-bold text-[11px]">
-                  👏 <b>칭찬 코칭 팁</b>: 인간의 뇌 시냅스와 비교해서 설명해낸 점을 구체적으로 칭찬해 주세요.
-                </p>
-              </div>
-
-              <div className="p-4 rounded-2xl bg-blue-50/60 border border-blue-200/80 text-xs space-y-2">
-                <span className="font-black text-blue-950 block text-sm">
-                  Q2. "글쓴이가 주장한 내용 중에서 혹시 논리적인 비약이 있었던 부분은 없었니?"
-                </span>
-                <p className="text-slate-700 leading-relaxed">
-                  💡 <b>기대 답변</b>: "초콜릿 소비가 많다고 노벨상을 잘 탄다는 건 경제력이라는 다른 원인을 놓친 비약이라고 찾았어요!"
-                </p>
-                <p className="text-blue-800 font-bold text-[11px]">
-                  👏 <b>칭찬 코칭 팁</b>: 상관관계와 인과관계를 구별해 낸 논리적 사고력을 높이 평가해 주세요.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+            <button
+              className="rx-button no-print"
+              onClick={() => setTab("conversation")}
+            >
+              질문 더 보기 <ArrowRight size={16} />
+            </button>
+          </section>
+          </details>
+        </>
       )}
-
-      {/* Modal */}
-      {showMobileModal && (
-        <ParentInstantGlanceModal
-          gradeData={gradeData}
-          onClose={() => setShowMobileModal(false)}
-        />
+      {tab === "notes" && (
+        <section className="rx-surface rx-records">
+          <PageHeading
+            eyebrow="THINKING NOTES"
+            title="직접 쓴 문장을 모았어요"
+            description="작성한 내용 그대로 보여주는 기기 내 체험 기록입니다."
+          />
+          {drafts.length ? (
+            drafts.map(([key, text]) => {
+              const lesson = findLesson(key.split(":")[0]);
+              return (
+                <article className="rx-draft print-card" key={key}>
+                  <h3>
+                    {key.includes(":journey-")
+                      ? JOURNEY_GOAL
+                      : lesson && "real_csat_test" in lesson
+                        ? lesson.real_csat_test.passage_title
+                        : "생각 연습"}
+                  </h3>
+                  <p>{text}</p>
+                  <small>교사 검토 전 · 기기 저장</small>
+                </article>
+              );
+            })
+          ) : (
+            <EmptyState
+              title="아직 생각 기록이 없어요"
+              description="첫 번째 글을 쓴 뒤 다시 방문해 주세요."
+            />
+          )}
+        </section>
+      )}
+      {tab === "conversation" && (
+        <section className="rx-surface rx-records">
+          <PageHeading
+            eyebrow="A LITTLE CONVERSATION"
+            title="정답을 묻기보다, 생각을 들어주세요"
+            description="읽은 글과 아이의 속도에 맞춰 한 가지 질문만 골라도 좋아요."
+          />
+          <ThinkingPath />
+          <div className="rx-coaching-list">
+            {[
+              [
+                "발견을 물어요",
+                "어느 부분이 가장 기억에 남니?",
+                "아이가 고른 문장을 함께 읽어주세요.",
+              ],
+              [
+                "이유를 이어요",
+                "그 문장이 왜 중요하다고 생각했어?",
+                "글에 나온 표현을 가리키며 말할 시간을 주세요.",
+              ],
+              [
+                "새롭게 설명해요",
+                "친구에게 알려준다면 어떻게 말할까?",
+                "아이의 말을 먼저 듣고, 이어서 한 가지만 물어보세요.",
+              ],
+            ].map(([title, q, desc], i) => (
+              <article key={title}>
+                <span>0{i + 1}</span>
+                <div>
+                  <small>{title}</small>
+                  <h2>“{q}”</h2>
+                  <p>{desc}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
       )}
     </div>
   );
-};
+}
+
+export function ParentJourneyHub(props: { gradeData: GradeData; subskillMeta: SubskillMeta[] }) { return <><ParentPracticeHub {...props}/><details className="rx-demo-secondary"><summary>가상 학급의 주간·월간 운영 예시 살펴보기</summary><ParentDemoDashboard practice={<ParentPracticeHub {...props}/>} /></details></>; }

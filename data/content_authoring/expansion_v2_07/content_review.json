@@ -1,0 +1,30 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "1fa6fdabf883fdd521b815b0ce7ef0b7bdf76f36ced94d67beed2b115c317c49",
+  "reviewType": "AI 집필·듣기 대본·직접 발화 과제의 편집 검토. 실제 학생 응답·음성 청취·교사 승인과 구별.",
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "publication": "unpublished",
+  "records": [
+    {"id":"O01","scope":"실제 공급과 수행 분리","action":"새6수행의 두 단계씩12자료53문항/과제 집필. 주 발화12개·분석적 준거36개·상대 카드12개·빈 관찰 양식12개와 WAV12개 제공. 음성 수를 신규 자료 수로 더하지 않음.","state":"authored_draft"},
+    {"id":"O02","scope":"초1 말차례와 새 정보","action":"파란색은 처음 듣기에서 확인하고 한 자루는 상대 답에서 새로 제공. 끈의 현재 위치와 정리할 위치를 구별. 질문 뒤 실제 대답 기회와 후속 확인을 관찰하며 새 정보를 처음부터 아는 것처럼 채점하지 않음.","state":"turn_and_exposure_reviewed"},
+    {"id":"O03","scope":"초2 대상·행동","action":"다연의 열기·닫기와 은우의 물통 넣기를 발화자와 연결. 천·종이심의 보관 장소·재사용 행동을 친구의 잘못 전한 말과 대조. 모호한 근거 구절은 대상·장소까지 포함해 유일하게 연결.","state":"speaker_and_action_reviewed"},
+    {"id":"O04","scope":"초3 조정과 유지","action":"그림자놀이의 잘 보임·준비 시간, 게시판의 사진·설명을 각각의 이유로 다룸. 새 정보에 따라 첫 제안을 유지해도 이유가 있으면 수용. 상대 의견에 무조건 동의하는 것과 근거 있는 조정을 구별.","state":"no_forced_agreement"},
+    {"id":"O05","scope":"초3 미확인 공간","action":"양쪽 빈 공간의 크기가 없는 상태에서 모든 사진이 들어간다고 단정하지 않게 준거 작성. 다른 모둠 작품을 임의로 옮기지 않고 허용된 공간 확인 뒤 배치를 제안.","state":"conditional_proposal_reviewed"},
+    {"id":"O06","scope":"초4 안내와 근거","action":"엽서놀이의 그림·말→확인→완료 표시→보관 차례를 두 음성 안내에서 통합. 실제 우편 규정으로 확대하지 않음. 불편 메모의 장수·범주와 서로 다른 제출자 수를 구별.","state":"order_and_measurement_scope_reviewed"},
+    {"id":"O07","scope":"초5 관점·자료 차이","action":"녹음·큰 글씨 안내의 개인별 이유를 바꾸지 않고 요약. 자발적 설문과 이틀의 관찰을 구별하고 멈춘 이유·대상의 겹침은 미확인으로 남김. 행동만으로 설문이 거짓이라고 채점하지 않음.","state":"bounded_evidence_comparison"},
+    {"id":"O08","scope":"초6 질문 대상과 원인 단정","action":"모든 어린이라는 주장과 여덟 응답자의 선정 범위를 질문으로 확인. 배너 교체 뒤 문의 증가를 배너만의 원인으로 확정하지 않고 동시 변화·비교 기간·집계를 묻는 질문 수용.","state":"question_scope_reviewed"},
+    {"id":"O09","scope":"초6 여러 적절한 질문과 응답","action":"기간·집계만 물었을 때 상대가 제공되지 않은 답을 지어내거나 온라인 창구 정보를 선제공하지 않도록 카드 보완. 미확인이라는 답을 받아 추가 확인 필요를 남기는 경우도 완전 수행으로 수용하도록 주 응답 준거를 맞춤.","state":"revised_before_first_snapshot"},
+    {"id":"O10","scope":"선지 길이 후보2건","action":"초3·초5 S5의 보조 선택형 정답을 의미가 유지되게 간추림. 오답을 불필요하게 늘이지 않음. 해당자료·문항·음성 근거 및 상대 카드 참조 버전을2로 맞추고 수정 전 원고·음성 의뢰서 보존.","state":"revised_to_version_2"},
+    {"id":"O11","scope":"실제 음성의 기술 검증","action":"Microsoft Heami 단일 한국어 음성으로 역할 이름을 읽는12개 WAV247.225초 합성.16kHz16bit PCM·길이·무음 여부·클리핑0·입력과 파일 해시 일치를 확인. 실제 발음·쉼·속도를 청취 검수했다고 표시하지 않음.","state":"machine_verified_listening_review_pending"},
+    {"id":"O12","scope":"실제 발화와 지원","action":"첫 듣기·첫 발화·상대 실제 답·후속 발화를 빈 양식으로 구별. 대본·문장 틀·보조 문항·보완대체 의사소통 등의 지원 기록. 문자열 암송·목소리 크기·빠르기·시선·성격으로 점수를 정하지 않음.","state":"observation_protocol_not_learner_results"},
+    {"id":"O13","scope":"대본 분리와 오류 차단","action":"학생용에는 듣기 대본·상대 카드·해설을 제외하고 교사용에는 각각12개 제공.82개 음성 근거 참조·37개 구조/일부 사례 관계·HTML 내장 WAV 대조 통과. 의뢰·대본·파일 해시를 바꾼 잘못된 보고서3종 거부 확인. 기존36음성 및 그3종 검사도 통과.","state":"technical_and_freshness_checks_passed"},
+    {"id":"O14","scope":"교육과정과 완료 범위","action":"로컬2022-33 원문과 대조해12자료를 듣기·말하기 일부 성취요소 후보로 연결. 최신 통합 고시 전량 비교·교사 승인·학생 수행·음성 청취·브라우저 실행·앱 탑재는 별도 대기. 뒤 문항 노출은 봉인되지 않아 관찰 시 구별.","state":"partial_component_candidate_not_approved"}
+  ],
+  "executedChecks": [
+    {"command":"python -X utf8 scripts/build_oral_v2.py","result":"passed;12 audio files247.225seconds;12 live speech tasks;37 bounded consistency checks"},
+    {"command":"python -X utf8 scripts/verify_pilot_v2_audio_freshness.py --directory output/expansion-v2-07/audio --report oral-synthesis-result.json","result":"3 altered provenance reports rejected as expected"},
+    {"command":"python -X utf8 scripts/verify_pilot_v2_audio.py --report listening-synthesis-result.json --output listening-verification.json","result":"existing36 audio files passed"},
+    {"command":"python -X utf8 scripts/verify_pilot_v2_audio_freshness.py","result":"existing default-path3 altered provenance reports rejected as expected"}
+  ]
+}

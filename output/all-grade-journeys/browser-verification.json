@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "grades": [
+    {
+      "grade": 1,
+      "diagnosticCount": 14,
+      "course": "connect",
+      "sessions": 8,
+      "firstCheckPassed": true,
+      "teacherGuideAndReleasedFeedback": true,
+      "oralObserved": true
+    },
+    {
+      "grade": 2,
+      "diagnosticCount": 14,
+      "course": "connect",
+      "sessions": 8,
+      "firstCheckPassed": true,
+      "teacherGuideAndReleasedFeedback": true,
+      "oralObserved": false
+    },
+    {
+      "grade": 3,
+      "diagnosticCount": 22,
+      "course": "connect",
+      "sessions": 8,
+      "firstCheckPassed": true,
+      "teacherGuideAndReleasedFeedback": true,
+      "oralObserved": false
+    },
+    {
+      "grade": 4,
+      "diagnosticCount": 22,
+      "course": "connect",
+      "sessions": 8,
+      "firstCheckPassed": true,
+      "teacherGuideAndReleasedFeedback": true,
+      "oralObserved": false
+    },
+    {
+      "grade": 5,
+      "diagnosticCount": 22,
+      "course": "evaluate",
+      "sessions": 8,
+      "firstCheckPassed": true,
+      "teacherGuideAndReleasedFeedback": true,
+      "oralObserved": false
+    },
+    {
+      "grade": 6,
+      "diagnosticCount": 22,
+      "course": "evaluate",
+      "sessions": 8,
+      "firstCheckPassed": true,
+      "teacherGuideAndReleasedFeedback": true,
+      "oralObserved": false
+    }
+  ],
+  "browserErrors": []
+}

@@ -1,0 +1,92 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "a9ad999ca066ec1407b07e090409508610f0c5427aefaf08e33bb23ed2f95378",
+  "passed": true,
+  "files": [
+    {
+      "path": "output/expansion-v2-10/작품_모음.txt",
+      "role": "works_only_anthology",
+      "works": 18,
+      "sha256": "d4994078c4e193786fab52df0657013d40c69cdead9fcbe6ddf7185a24bc5450"
+    },
+    {
+      "path": "output/expansion-v2-10/학생용_초1_첫해석_과제지.txt",
+      "role": "primary_interpretation_only",
+      "grade": 1,
+      "primaryTasks": 3,
+      "questionIds": [
+        "PV2-G1-literature-02-S2-A-Q1",
+        "PV2-G1-literature-02-S4-A-Q1",
+        "PV2-G1-literature-02-S5-A-Q1"
+      ],
+      "sha256": "4f08059df7b726e065143d21d8f1e03d1580e8924cd9c5527aa985f09abd3fd8"
+    },
+    {
+      "path": "output/expansion-v2-10/학생용_초2_첫해석_과제지.txt",
+      "role": "primary_interpretation_only",
+      "grade": 2,
+      "primaryTasks": 3,
+      "questionIds": [
+        "PV2-G2-literature-09-S2-A-Q1",
+        "PV2-G2-literature-09-S4-A-Q1",
+        "PV2-G2-literature-09-S5-A-Q1"
+      ],
+      "sha256": "629a88d6e385ed7c27c1d6886c2e1424cf9cf136bb5cd8b25ba9d9de0b0bd479"
+    },
+    {
+      "path": "output/expansion-v2-10/학생용_초3_첫해석_과제지.txt",
+      "role": "primary_interpretation_only",
+      "grade": 3,
+      "primaryTasks": 3,
+      "questionIds": [
+        "PV2-G3-literature-05-S2-A-Q1",
+        "PV2-G3-literature-05-S4-A-Q1",
+        "PV2-G3-literature-05-S5-A-Q1"
+      ],
+      "sha256": "9fc757fab43f6f033be4a0972444eae41290a61ec6ae3e58ae932411b049856a"
+    },
+    {
+      "path": "output/expansion-v2-10/학생용_초4_첫해석_과제지.txt",
+      "role": "primary_interpretation_only",
+      "grade": 4,
+      "primaryTasks": 3,
+      "questionIds": [
+        "PV2-G4-literature-08-S2-A-Q1",
+        "PV2-G4-literature-08-S4-A-Q1",
+        "PV2-G4-literature-08-S5-A-Q1"
+      ],
+      "sha256": "14e6711e444c8c342e4e81438eb458934f6192a14ec872bbcec38d15264dd22e"
+    },
+    {
+      "path": "output/expansion-v2-10/학생용_초5_첫해석_과제지.txt",
+      "role": "primary_interpretation_only",
+      "grade": 5,
+      "primaryTasks": 3,
+      "questionIds": [
+        "PV2-G5-literature-07-S2-A-Q1",
+        "PV2-G5-literature-07-S4-A-Q1",
+        "PV2-G5-literature-07-S5-A-Q1"
+      ],
+      "sha256": "4bae7e6ec3f00655c3414effc66732e0bfd836fd5a5f16022896925e7cb91e90"
+    },
+    {
+      "path": "output/expansion-v2-10/학생용_초6_첫해석_과제지.txt",
+      "role": "primary_interpretation_only",
+      "grade": 6,
+      "primaryTasks": 3,
+      "questionIds": [
+        "PV2-G6-literature-09-S2-A-Q1",
+        "PV2-G6-literature-09-S4-A-Q1",
+        "PV2-G6-literature-09-S5-A-Q1"
+      ],
+      "sha256": "88af0f2b588b977339507e0a3a631e118aca153bf94fcb2a3b4b25343b4a1147"
+    }
+  ],
+  "uniquePrimaryTasks": 18,
+  "scope": "작품 모음은 작품만, 첫 해석 과제지는 작품·가상 의견·주 과제만 전달. 보조 문항 ID·예시 답·지도문 미포함을 실제 파일에서 확인.",
+  "limits": [
+    "학년별 텍스트 과제지의 인쇄 페이지 배치 검증은 별도.",
+    "첫 응답 불변 저장·노출 차단·교사 승인 기능은 없으므로 교사가 전용 과제지를 먼저 주고 원문을 보관.",
+    "같은 작품의 재출력은 새 작품·독립 확인 자료로 중복 집계하지 않음."
+  ]
+}

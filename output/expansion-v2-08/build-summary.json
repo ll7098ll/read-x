@@ -1,0 +1,54 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "9a55d24ad7eccfa3f1f817f36e1d1fcbb949fc6ccc8902d5afbdfc1407e168ac",
+  "sets": 18,
+  "questions": 78,
+  "newSkills": 6,
+  "newSkillStageCells": 18,
+  "factualAnchors": 46,
+  "sourcePages": 23,
+  "primaryAnalyticCriteria": 37,
+  "explanationConsistencyChecks": 54,
+  "byGrade": {
+    "1": {
+      "sets": 3,
+      "questions": 13,
+      "minChars": 109,
+      "maxChars": 193
+    },
+    "2": {
+      "sets": 3,
+      "questions": 13,
+      "minChars": 205,
+      "maxChars": 269
+    },
+    "3": {
+      "sets": 3,
+      "questions": 13,
+      "minChars": 233,
+      "maxChars": 392
+    },
+    "4": {
+      "sets": 3,
+      "questions": 13,
+      "minChars": 285,
+      "maxChars": 401
+    },
+    "5": {
+      "sets": 3,
+      "questions": 13,
+      "minChars": 458,
+      "maxChars": 548
+    },
+    "6": {
+      "sets": 3,
+      "questions": 13,
+      "minChars": 422,
+      "maxChars": 621
+    }
+  },
+  "passed": true,
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

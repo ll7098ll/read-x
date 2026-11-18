@@ -1,3 +1,4 @@
+import { useCoursewareStore } from '../../store/useCoursewareStore';
 import React, { Component, ErrorInfo, ReactNode } from 'react';
 
 interface Props {
@@ -28,11 +29,9 @@ export class ErrorBoundary extends Component<Props, State> {
 
   private handleResetStorage = () => {
     try {
-      localStorage.clear();
-      sessionStorage.clear();
-    } catch (e) {
-      console.error('Failed to clear storage:', e);
-    }
+      useCoursewareStore.getState().setActiveRole('landing');
+      useCoursewareStore.getState().setStudentMode('portal');
+    } catch { /* Storage can be unavailable; never delete records to recover navigation. */ }
     window.location.href = '/';
   };
 
@@ -51,7 +50,7 @@ export class ErrorBoundary extends Component<Props, State> {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-slate-900 tracking-tight">화면 렌더링 중 오류가 발생했습니다</h1>
-                <p className="text-sm text-slate-500 mt-0.5">ReadX-Ray Pro 런타임 안전 모드가 활성화되었습니다.</p>
+                <p className="text-sm text-slate-500 mt-0.5">Read X 런타임 안전 모드가 활성화되었습니다.</p>
               </div>
             </div>
 
@@ -74,7 +73,7 @@ export class ErrorBoundary extends Component<Props, State> {
                 onClick={this.handleResetStorage}
                 className="flex-1 py-3 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-sm transition shadow-sm flex items-center justify-center gap-2"
               >
-                🔄 저장소 초기화 후 재시작 (권장)
+                기록을 보존하고 처음으로
               </button>
               <button
                 onClick={this.handleReload}

@@ -1,0 +1,169 @@
+{
+  "asOf": "2026-11-17",
+  "method": "공개 1차 기관 자료의 해당 문단을 웹에서 읽고 아래 사실을 한국어로 요약했다. 원문 전체의 로컬 보존·최신 교육과정 승인·현장 실험 검증과 구별한다. 지문과 예시는 자체 재구성하며 원문·사진·도안을 복제하지 않는다.",
+  "sources": [
+    {
+      "id": "SMI-OTTER",
+      "publisher": "Smithsonian National Zoo",
+      "title": "North American river otter",
+      "url": "https://www.nationalzoo.si.edu/animals/north-american-river-otter",
+      "locator": "Physical Description: 몸·발, 털, 수염, 꼬리 설명",
+      "facts": {
+        "body": "북아메리카수달은 길고 유선형인 몸, 물갈퀴가 있는 발, 근육질 꼬리를 가진다.",
+        "swim": "강한 꼬리와 뒷발이 물속에서 앞으로 나아가는 데 쓰인다.",
+        "whisker": "길고 민감한 수염은 먹이를 찾고 붙잡는 데 도움을 준다.",
+        "habitat": "북아메리카수달은 강·호수 등 수변 환경에서 산다. 해수와 담수 환경 모두 이용하므로 담수에만 산다고 한정하지 않는다."
+      }
+    },
+    {
+      "id": "NPS-BEAVER",
+      "publisher": "U.S. National Park Service",
+      "title": "Beaver — Missouri National Recreational River",
+      "url": "https://www.nps.gov/mnrr/learn/nature/beaver.htm",
+      "locator": "Identification; Range and Habitat; Diet; Fun Facts",
+      "facts": {
+        "body": "비버는 물갈퀴가 있는 뒷발과 납작한 꼬리를 가진다.",
+        "teeth": "강한 앞니는 나무를 갉는 데 쓰이며 계속 자란다.",
+        "pond": "비버의 댐은 물 흐름이 느린 연못을 만들며 다른 생물의 서식 환경을 만들 수 있다."
+      }
+    },
+    {
+      "id": "NASA-WATER",
+      "publisher": "NASA Global Precipitation Measurement",
+      "title": "How does the water cycle work?",
+      "url": "https://gpm.nasa.gov/resources/faq/how-does-water-cycle-work",
+      "locator": "본문 첫 문단 및 What is the water cycle? 설명",
+      "facts": {
+        "evaporation": "햇빛으로 데워진 물은 수증기가 되어 공기 중으로 이동한다.",
+        "condensation": "수증기가 식어 물방울이 되고 구름을 이룰 수 있다.",
+        "precipitation": "물은 비·눈 등의 강수로 지표에 돌아오며 순환한다."
+      }
+    },
+    {
+      "id": "NWS-FOG",
+      "publisher": "NOAA National Weather Service",
+      "title": "Radiation Fog",
+      "url": "https://www.weather.gov/safety/fog-radiation",
+      "locator": "Fog Resources 아래 두 문단",
+      "facts": {
+        "cooling": "밤사이 지면 가까운 공기가 식어 포화에 이르면 복사 안개가 생긴다.",
+        "conditions": "바람이 약하고 수분이 있는 계곡·잔잔한 물 근처가 복사 안개 형성에 유리하다.",
+        "scope": "복사 안개는 안개의 한 종류이며 모든 안개의 발생 원인을 한 방식으로 설명하지 않는다."
+      }
+    },
+    {
+      "id": "NPS-FOSSIL",
+      "publisher": "U.S. National Park Service",
+      "title": "What is a Fossil?",
+      "url": "https://www.nps.gov/subjects/fossils/what-is-a-fossil.htm",
+      "locator": "Definition; Body and Trace Fossils; Things that are not Fossils",
+      "facts": {
+        "definition": "화석은 지질학적 맥락에 보존된 과거 생명의 증거다. 오래되거나 생물처럼 생겼다는 것만으로 화석이 되지 않는다.",
+        "body": "뼈·껍데기·잎 등 몸의 부분에서 유래한 화석과 발자국·굴 같은 활동 흔적 화석을 구별한다.",
+        "nonexample": "물결 자국처럼 생물이 만든 것이 아닌 무늬는 화석의 생명 증거 조건을 충족하지 않는다."
+      }
+    },
+    {
+      "id": "SMI-POLLEN",
+      "publisher": "Smithsonian Gardens",
+      "title": "The Why, What, When, Where, Who, How of Pollination",
+      "url": "https://gardens.si.edu/gardens/pollinator-garden/why-what-when-where-who-how-pollination/",
+      "locator": "What is pollination?; Who pollinates?; Wind",
+      "facts": {
+        "definition": "수분은 수술의 꽃가루가 암술머리로 옮겨지는 과정이다.",
+        "agents": "곤충 등 동물뿐 아니라 바람도 꽃가루를 옮긴다. 옥수수는 바람으로 수분한다.",
+        "scope": "꽃에 동물이 머문다는 사실만으로 꽃가루가 암술머리로 옮겨졌다고 확인한 것은 아니다. 이는 정의를 적용한 편집상 구별이다."
+      }
+    },
+    {
+      "id": "KEW-SEEDS",
+      "publisher": "Royal Botanic Gardens, Kew",
+      "title": "Plant scientists — Classroom activity pack",
+      "url": "https://www.kew.org/sites/default/files/2020-03/LKS2%20plant%20scientists%20pre-visit.pdf",
+      "locator": "PDF 3쪽 및 5쪽 종자 카드. 영어 Burdock은 이 원고에서 우엉으로 표기.",
+      "facts": {
+        "wind": "민들레와 시커모어 열매·씨앗은 바람으로 이동하는 예다. 원고에서는 민들레만 사용한다.",
+        "hooks": "우엉 열매의 갈고리 모양 돌기는 동물의 털에 붙어 이동하는 데 쓰인다.",
+        "water": "코코넛은 물에 떠 이동한다.",
+        "animal": "도토리는 동물이 모아 숨기는 방법으로, 딸기는 먹힌 뒤 씨가 배설되는 방법으로 퍼지는 예다."
+      }
+    },
+    {
+      "id": "KEW-ANIMALS",
+      "publisher": "Royal Botanic Gardens, Kew",
+      "title": "How plants hitchhike on animal poo",
+      "url": "https://www.kew.org/read-and-watch/plant-seed-dispersal-animal-poo",
+      "locator": "Plants to poo; Benefits of poo dispersal; Challenges and damages",
+      "facts": {
+        "routes": "씨앗은 바람·물·동물 등의 여러 경로로 이동한다.",
+        "digestion": "동물이 과육을 먹고 씨를 배설해 이동시키는 식물이 있다. 모든 씨가 소화 과정을 견디는 것은 아니다."
+      }
+    },
+    {
+      "id": "UNESCO-CONVENTION",
+      "publisher": "유네스코한국위원회",
+      "title": "무형문화유산 보호를 위한 협약 — 한국어 번역",
+      "url": "https://unesco.or.kr/wp-content/uploads/2024/05/무형문화유산-보호-협약.pdf",
+      "locator": "제2조 1항·3항. 현재 등재 수나 국내 법적 지정 여부는 원고에서 다루지 않음.",
+      "facts": {
+        "community": "공동체·집단 등이 자기 문화유산으로 인정하는 관습·표현·지식·기술과 관련 도구·공간을 함께 고려한다.",
+        "living": "세대 간 전승되며 환경·자연·역사와의 관계 속에서 재창조되는 특성을 가진다.",
+        "safeguarding": "보호에는 기록·연구뿐 아니라 교육을 통한 전수와 활성화처럼 생명력을 잇는 조치가 포함된다."
+      }
+    },
+    {
+      "id": "UNESCO-MAP",
+      "publisher": "유네스코한국위원회",
+      "title": "우리나라의 유네스코 지정유산 — 무형문화유산 설명",
+      "url": "https://unesco.or.kr/wp-content/uploads/2024/11/우리나라의-유네스코-지정유산-지도최종본.pdf",
+      "locator": "무형문화유산 정의 문단. 지도에 실린 2019년 현황·등재 수는 사용하지 않음.",
+      "facts": {
+        "living": "무형문화유산은 공동체에서 전승되고 재창조되는 지식·기술·표현이며 살아 있는 문화라는 성격을 가진다."
+      }
+    },
+    {
+      "id": "NPS-ALASKA",
+      "publisher": "U.S. National Park Service",
+      "title": "Beaver — Bering Land Bridge National Preserve",
+      "url": "https://www.nps.gov/bela/learn/nature/beaver.htm",
+      "locator": "Beavers in Bering Land Bridge; Beaver Management",
+      "facts": {
+        "flooding": "Serpentine 지역에서는 비버 댐이 물 흐름을 바꾸어 활주로가 침수되는 문제가 있었다.",
+        "management": "2022년 댐 근처에 관과 필터로 물 흐름을 조절하는 장치를 설치했고, 습지와 기반 시설의 균형을 위해 관찰한다고 설명한다.",
+        "scope": "위 설명은 특정 지역의 관리 사례이며 모든 비버 댐의 같은 효과를 입증한 전 지역 실험이 아니다."
+      }
+    },
+    {
+      "id": "EPA-TREES",
+      "publisher": "U.S. Environmental Protection Agency",
+      "title": "Benefits of Trees and Vegetation",
+      "url": "https://www.epa.gov/heatislands/benefits-trees-and-vegetation",
+      "locator": "How Trees and Vegetation Reduce Heat. 연구 평균 수치·건강·가격 효과는 사용하지 않음.",
+      "facts": {
+        "shade": "나무와 식물은 그늘과 증발산을 통해 지표와 공기의 온도를 낮추는 데 도움을 준다.",
+        "evapotranspiration": "뿌리로 흡수한 물이 잎 등을 통해 증발할 때 열이 사용되어 냉각에 기여한다."
+      }
+    },
+    {
+      "id": "EPA-MEASURE",
+      "publisher": "U.S. Environmental Protection Agency",
+      "title": "Measuring Heat Islands",
+      "url": "https://www.epa.gov/heatislands/measuring-heat-islands",
+      "locator": "Designing an Approach; Clarifying Objectives; Identifying Data Needs; Key Considerations",
+      "facts": {
+        "conditions": "열섬 조사에서는 목적, 공간 범위, 시간·계절, 필요한 자료 종류를 정해야 한다.",
+        "inference": "다른 조건의 온도 차이만으로 특정 나무의 단독 효과를 확정하지 않는다는 것은 원고의 비교 원리에 따른 편집상 추론이다."
+      }
+    },
+    {
+      "id": "NWS-GLOSSARY",
+      "publisher": "NOAA National Weather Service",
+      "title": "Glossary — Fog and Radiation Fog",
+      "url": "https://forecast.weather.gov/glossary.php?word=fog",
+      "locator": "Fog; Radiation Fog 항목. 원고는 물방울로 이루어진 복사 안개를 설명하며 빙무 전체를 일반화하지 않음.",
+      "facts": {
+        "droplets": "안개는 지면 가까이 공기 중에 떠 있는 물방울로 설명된다. 복사 안개는 지표 가까운 공기의 냉각과 관련된다."
+      }
+    }
+  ]
+}

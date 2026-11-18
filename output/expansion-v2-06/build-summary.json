@@ -1,0 +1,18 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "c17c4260043cc35a7ae891aa53341a3b7cbb0d3d79091e7b0e0e7c1c8b7864e0",
+  "sets": 12,
+  "questions": 53,
+  "newSkills": 6,
+  "newSkillStageCells": 12,
+  "mediaPanels": 26,
+  "visibleElements": 85,
+  "primaryAnalyticCriteria": 25,
+  "mediaConsistencyChecks": 36,
+  "mediaEvidenceReferences": 103,
+  "passed": true,
+  "staticVisualReview": "AI_static_review_recorded_not_teacher_approval",
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "errors": [],
+  "stageFitWarnings": [],
+  "optionLengthCandidates": [],
+  "nearDuplicateCandidates": [],
+  "numericChecks": {},
+  "readingChecks": {},
+  "contentSnapshotHash": "c0c73ea995a61b37980e96dd208ea731431d8b908725729c4b8117cce4263c4f",
+  "curriculumSourceCheckedSets": 22,
+  "factualSourceCheckedDraftSets": 0,
+  "factualAnchors": 0,
+  "curriculumSourceScopeAuditedSets": 36,
+  "curriculumSourceLinkedSets": 36,
+  "curriculumRelatedOnlySets": 14,
+  "graphCount": 0,
+  "graphEvidenceReferences": 0,
+  "poemCount": 8,
+  "poetryLineCount": 35,
+  "listeningSets": 0,
+  "spokenResponseTasks": 0,
+  "audioEvidenceReferences": 0,
+  "audioDraftSetsTechnicallyVerified": 0,
+  "oralReadingSets": 0,
+  "oralReadingTasks": 0,
+  "readingWordReferences": 0,
+  "writingProductionProtocolSets": 0,
+  "questionKinds": {
+    "single_choice": 36,
+    "ordering": 12,
+    "evidence_selection": 14,
+    "revision": 17,
+    "explanation": 42,
+    "question_generation": 5,
+    "classification": 13,
+    "writing": 6,
+    "matching": 9,
+    "table_completion": 2
+  },
+  "progress": {
+    "scope": "6수행의 선언한 단계·자료 공급",
+    "expectedStageCounts": {
+      "plan-G1-information-07": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "plan-G2-literature-03": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "plan-G3-literature-07": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "plan-G4-language-09": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "plan-G5-information-11": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "plan-G6-literature-01": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      }
+    },
+    "targetSets": 36,
+    "targetQuestions": 156,
+    "authoredSets": 36,
+    "authoredQuestions": 156,
+    "approvedSets": 0,
+    "remainingSets": 0,
+    "remainingQuestions": 0,
+    "skills": [
+      {
+        "skillId": "plan-G1-information-07",
+        "grade": 1,
+        "track": "information",
+        "name": "차례에 맞게 읽기",
+        "targetSets": 6,
+        "authoredSets": 6,
+        "authoredQuestions": 26,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G2-literature-03",
+        "grade": 2,
+        "track": "literature",
+        "name": "사건의 차례",
+        "targetSets": 6,
+        "authoredSets": 6,
+        "authoredQuestions": 26,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G3-literature-07",
+        "grade": 3,
+        "track": "literature",
+        "name": "감각과 비유의 효과",
+        "targetSets": 6,
+        "authoredSets": 6,
+        "authoredQuestions": 26,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G4-language-09",
+        "grade": 4,
+        "track": "language",
+        "name": "지시어 연결",
+        "targetSets": 6,
+        "authoredSets": 6,
+        "authoredQuestions": 26,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G5-information-11",
+        "grade": 5,
+        "track": "information",
+        "name": "근거의 충분성",
+        "targetSets": 6,
+        "authoredSets": 6,
+        "authoredQuestions": 26,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G6-literature-01",
+        "grade": 6,
+        "track": "literature",
+        "name": "서술 정보와 시점",
+        "targetSets": 6,
+        "authoredSets": 6,
+        "authoredQuestions": 26,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      }
+    ],
+    "audioDraftSetsTechnicallyVerified": 0,
+    "listeningAudioDraftSets": 0,
+    "readingModelAudioDraftSets": 0
+  },
+  "limits": [
+    "자동 검사는 문항 정답 유일성이나 실제 난도를 증명하지 않는다.",
+    "독립 교사 검토·학생 수행 검증·음성 자산은 별도 완료 조건이다."
+  ],
+  "sourceKeyConsistencyChecks": {
+    "G5_S2_response_groups": true,
+    "G5_S3_comparison_groups": true,
+    "G5_S4_unique_reviewers": true,
+    "G5_S4_counts_and_nonresponse": true,
+    "G5_S5_fewer_recorded_inquiries": true,
+    "G5_S6_book_counts": true,
+    "G5_S6_survey_groups": true,
+    "PV2-G1-information-07-S6-A_new_writing_first": true,
+    "PV2-G2-literature-03-S6-A_new_writing_first": true,
+    "PV2-G3-literature-07-S6-A_new_writing_first": true,
+    "PV2-G4-language-09-S6-A_new_writing_first": true,
+    "PV2-G5-information-11-S6-A_new_writing_first": true,
+    "PV2-G6-literature-01-S6-A_new_writing_first": true
+  }
+}

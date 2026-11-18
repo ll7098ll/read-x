@@ -1,0 +1,119 @@
+{
+  "scope": "6수행의 선언한 단계·자료 공급",
+  "expectedStageCounts": {
+    "plan-G1-media-01": {
+      "S2": 1,
+      "S3": 1
+    },
+    "plan-G2-media-03": {
+      "S3": 1,
+      "S5": 1
+    },
+    "plan-G3-media-06": {
+      "S3": 1,
+      "S5": 1
+    },
+    "plan-G4-media-04": {
+      "S3": 1,
+      "S5": 1
+    },
+    "plan-G5-media-05": {
+      "S3": 1,
+      "S5": 1
+    },
+    "plan-G6-media-03": {
+      "S4": 1,
+      "S5": 1
+    }
+  },
+  "targetSets": 12,
+  "targetQuestions": 53,
+  "authoredSets": 12,
+  "authoredQuestions": 53,
+  "approvedSets": 0,
+  "remainingSets": 0,
+  "remainingQuestions": 0,
+  "skills": [
+    {
+      "skillId": "plan-G1-media-01",
+      "grade": 1,
+      "track": "media",
+      "name": "생활 표지의 뜻",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G2-media-03",
+      "grade": 2,
+      "track": "media",
+      "name": "간단한 표에서 찾기",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G3-media-06",
+      "grade": 3,
+      "track": "media",
+      "name": "작성 날짜와 변경",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G4-media-04",
+      "grade": 4,
+      "track": "media",
+      "name": "자료의 부분과 전체",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G5-media-05",
+      "grade": 5,
+      "track": "media",
+      "name": "출처·시점·버전 검증",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G6-media-03",
+      "grade": 6,
+      "track": "media",
+      "name": "시각적 강조의 효과",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    }
+  ],
+  "audioDraftSetsTechnicallyVerified": 0,
+  "listeningAudioDraftSets": 0,
+  "readingModelAudioDraftSets": 0
+}

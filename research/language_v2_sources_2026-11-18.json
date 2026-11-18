@@ -1,0 +1,50 @@
+{
+  "asOf": "2026-11-18",
+  "scope": "언어 자료의 형식·의도·수식·부정 범위 집필 참고. 초등 학년 난도·단계 명칭의 공식 근거나 독립 교사 승인을 뜻하지 않음.",
+  "sources": [
+    {
+      "id": "NIKL-ending-2025",
+      "title": "온라인가나다: 문장의 형식 및 물음의 방식",
+      "url": "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&pageIndex=1&qna_seq=313877",
+      "publisher": "국립국어원",
+      "publicationDate": "2025-04-28",
+      "location": "답변 본문",
+      "paraphrase": "문법적 종결 형식에 따른 구분과 화용적 의미를 구별한다.",
+      "application": ["plan-G2-language-10"],
+      "editorialRule": "물음 형식이라고 부탁의 뜻을 배제하지 않음. 문장 부호만으로 의도를 판정하지 않고 앞뒤 대화와 행동을 제시.",
+      "limit": "특정 초등 문항의 학년 적합성·정답 유일성을 검증한 답변은 아님. 질문자의 진술 전체를 기관 답변으로 인용하지 않음."
+    },
+    {
+      "id": "NIKL-writing-2015",
+      "title": "작문(쓰기) 능력 향상을 위한 문법 내용 개발",
+      "url": "https://www.korean.go.kr/common/download.do%3Bfront%3D350743F3A2567867D3EFBC821F661306?c_file_name=6d50cef7-4e96-4fe9-aaab-30959a6f7872_0.pdf&file_path=reportData&o_file_name=%5B2015-01-17%5D+%EC%9E%91%EB%AC%B8%28%EC%93%B0%EA%B8%B0%29+%EB%8A%A5%EB%A0%A5+%ED%96%A5%EC%83%81%EC%9D%84+%EC%9C%84%ED%95%9C+%EB%AC%B8%EB%B2%95+%EB%82%B4%EC%9A%A9+%EA%B0%9C%EB%B0%9C+%EC%B5%9C%EC%A2%85+%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf",
+      "publisher": "국립국어원",
+      "publicationYear": 2015,
+      "location": "인쇄 쪽 95~96 부근, 중의적 문장 항목",
+      "paraphrase": "수식 관계와 의미가 미치는 범위에 따라 여러 해석이 가능하다. 명료한 전달을 목적으로 하는 글에서는 이를 살피되 문학·광고의 의도적 활용과 구별한다.",
+      "application": ["plan-G5-language-08", "plan-G6-language-11"],
+      "editorialRule": "범위가 다른 실제 장면을 함께 제공하고, 목적에 맞게 풀어 쓰되 원래의 대상·인원·조건을 보존. 중의적이라는 이유만으로 모든 문장을 비문 처리하지 않음.",
+      "limit": "성인 작문 연구를 포함하는 보고서이며 초5·6의 공식 배치나 난도 규준으로 사용하지 않음. 원문 예문을 복제한 문제 은행이 아님."
+    },
+    {
+      "id": "NIKL-training-2010",
+      "title": "외국어로서의 한국어 교육: 제14회 국외 한국어 교원 연수회 교재",
+      "url": "https://www.korean.go.kr/common/download.do%3Bfront%3DE74D6791704511B38E474E979040E80B?c_file_name=6b18f19d-b577-4d13-82c8-5ddabfa80f9a_0.pdf&file_path=etcData&o_file_name=%EC%99%B8%EA%B5%AD%EC%96%B4%EB%A1%9C%EC%84%9C%EC%9D%98+%ED%95%9C%EA%B5%AD%EC%96%B4+%EA%B5%90%EC%9C%A1+-+%EC%A0%9C+14%ED%9A%8C+%EC%97%B0%EC%88%98%ED%9A%8C+%EA%B5%90%EC%9E%AC.pdf",
+      "publisher": "국립국어원",
+      "publicationYear": 2010,
+      "location": "인쇄 쪽 109, 수식·부정 범위에 따른 중의성",
+      "paraphrase": "꾸미는 범위가 다르거나 전체를 나타내는 표현과 부정이 결합하면 문맥에 따라 해석이 갈릴 수 있다.",
+      "application": ["plan-G5-language-08", "plan-G6-language-11"],
+      "editorialRule": "모두 오지 않았다를 0명 또는 특정 참석 인원으로 단정하지 않음. 일부 참석과 전원 미참석의 두 기록을 명시하고, 정확한 수를 보존해 재표현하게 함.",
+      "limit": "초등 대상 교육과정이나 현재의 실측 난도 자료가 아님. 필요한 문법 개념 검토에만 사용."
+    }
+  ],
+  "excludedEvidence": [
+    {
+      "url": "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=261&pageIndex=1&qna_seq=313838",
+      "reason": "부정표현 질문에 대한 기관 답변은 문법 해석을 제공하지 않고 문법서 참조를 안내함. 질문 예시를 기관이 검증한 해설로 사용하지 않음."
+    }
+  ],
+  "curriculumBasis": "국어 성취기준 연결은 별도의 로컬 2022-33 원문·해설과 측정 범위를 대조. 위 언어 연구를 교육과정 성취기준으로 대체하지 않음.",
+  "reviewStatus": "AI 집필 참고 조사. 독립 국어 교사 검토·학생 관찰·최신 통합 고시 전량 대조 대기."
+}

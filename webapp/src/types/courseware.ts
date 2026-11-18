@@ -1,5 +1,5 @@
-export type RoleType = 'landing' | 'student' | 'parent' | 'teacher' | 'admin';
-export type StudentModeType = 'portal' | 'clinic' | 'studio' | 'cbt_exam' | 'onboarding_cat';
+export type RoleType = 'landing' | 'student' | 'parent' | 'teacher' | 'director' | 'admin';
+export type StudentModeType = 'portal' | 'clinic' | 'common' | 'studio' | 'progressive' | 'journey' | 'cbt_exam' | 'onboarding_cat' | 'assessment';
 export type TeacherTabType = 'matrix' | 'gallery' | 'standards' | 'hierarchy';
 export type ReaderThemeType = 'paper' | 'sepia' | 'dark';
 export type FontSizeType = 'sm' | 'md' | 'lg';
@@ -88,6 +88,7 @@ export interface DiagnosisReport {
 }
 
 export interface Step0Remedial {
+  activityType: 'choice';
   badge: string;
   rule_box: string;
   mini_question: string;
@@ -103,6 +104,7 @@ export interface ClozeBlank {
 }
 
 export interface Step12Drill {
+  activityType: 'cloze';
   badge: string;
   passage_snippet: string;
   think_aloud_prompt: string;
@@ -125,8 +127,8 @@ export interface Step3Vaccine {
 export interface PrescriptionClinic {
   rx_title: string;
   rx_reason: string;
-  step0_remedial: Step0Remedial;
-  step1_2_drill: Step12Drill;
+  step0_remedial: Step0Remedial | { activityType: 'rule'; rule: string };
+  step1_2_drill: Step12Drill | { activityType: 'guided_response'; task: string };
   step3_vaccine: Step3Vaccine;
 }
 
@@ -233,13 +235,27 @@ export interface GraphicOrganizerNode {
   correct: string;
 }
 
-export interface GraphicOrganizerData {
+export interface CardSortOrganizerData {
+  activityType: 'card_sort';
   structure_type: string;
   title: string;
   instruction: string;
   nodes: GraphicOrganizerNode[];
   word_bank: string[];
 }
+
+export interface ReferenceNode {
+  label: string;
+  text?: string;
+  children?: ReferenceNode[];
+}
+
+export type GraphicOrganizerData = CardSortOrganizerData | {
+  activityType: 'reference';
+  structure_type: string;
+  title: string;
+  sections: ReferenceNode[];
+};
 
 export interface EbsrOption {
   no: number;
@@ -273,7 +289,8 @@ export interface ProofreadItem {
   status_note: string;
 }
 
-export interface WritingWorkbenchData {
+export interface ChoiceWritingData {
+  activityType: 'choice';
   mode: string;
   code: string;
   title: string;
@@ -282,6 +299,13 @@ export interface WritingWorkbenchData {
   choices: WritingChoice[];
   proofread_items?: ProofreadItem[];
 }
+
+export type WritingWorkbenchData = ChoiceWritingData | {
+  activityType: 'free_response';
+  title: string;
+  guide: string;
+  template: string;
+};
 
 export interface QuestionScaffolding {
   q_no: number;
@@ -303,6 +327,7 @@ export interface CommercialEnrichment {
 }
 
 export interface SlotLessonPackage {
+  schema_version: '1.0';
   id: string;
   slot_id: string; // e.g., 'G5-EXP-V2-3'
   grade_num: number;

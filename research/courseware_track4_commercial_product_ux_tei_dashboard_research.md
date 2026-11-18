@@ -1,5 +1,9 @@
 # [Track 4 종합 심층 조사 보고서] 상용 출시 수준(Production-Ready) 문해력 코스웨어 고도화를 위한 글로벌 벤치마킹 · 서비스 여정 · 차세대 TEI 문항 · 대시보드 UI/UX 마스터 리서치
 
+<!-- readx-document-context -->
+> 작성 당시의 설계·조사·구현 기록입니다. 현재 기능과 운영 상태는 최신 현황을 우선합니다. [문서 목차](../docs/README.md) · [최신 현황](../docs/PROJECT_STATUS.md)
+
+
 본 문서는 기존 프로토타입(`courseware/output/expository_literacy_courseware.html`)의 핵심 컨셉(**6차원 정밀 X-Ray 진단 ➔ 1:1 맞춤형 처방 클리닉 ➔ KICE 실전 수능 스케일링 루프**)을 그대로 계승하면서, 이를 **실제 상용 출시(Production-Ready) 가능한 에듀테크 제품**으로 고도화하기 위해 조사한 **서비스 여정(User Journey), 차세대 인터랙티브 문항(TEI), 디지털 리더 UI/UX, 다중 역할 대시보드(LAD) 및 디자인 시스템**의 종합 조사 보고서입니다.
 
 ---

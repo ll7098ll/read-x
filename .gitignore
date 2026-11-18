@@ -48,3 +48,67 @@ desktop.ini
 
 # TypeScript
 *.tsbuildinfo
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Locally downloaded source archives and task-only extraction dependency
+output/curriculum_2022/.python_deps/
+research/curriculum_2022/sources/subjects_05_14/
+research/curriculum_2022/sources/subjects_15_22/
+research/curriculum_2022/sources/*.zip
+
+# Managed Sites deployment checkout
+sites/
+
+# Private local assessment database (accounts, sessions, student responses)
+webapp/.exam-data/
+*.mfa-keys.json
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Local font decoding dependency for the Read X handoff generator
+output/read-x-v3/.deps/
+
+*.audit-keys.json
+
+*.data-keys.json
+
+*.recovery-keys.json
+*.recovery.ndjson
+*.write.lock
+*.maintenance.lock
+*.restore.pending
+*.readxbackup
+
+*.backup-keys.json
+.readx-backup-stage-*/
+*.readxbackup.partial-*
+
+*.active.lock
+
+*.readxaudit
+*.readxaudit.partial-*
+
+# Public repository boundary: local evidence and downloaded originals stay local.
+*.log
+*.tar
+*.tar.gz
+*.zip
+*.pem
+*.key
+*.p12
+*.pfx
+research/curriculum_2022/sources/
+output/audit/
+output/*-chunks/
+output/sites-package-stage/
+output/*-2026-*.json
+output/site-*.json
+output/audit-calibration-selected.test.mjs
+output/curriculum_2022/
+# Tool-local dependency symlinks
+scripts/node_modules

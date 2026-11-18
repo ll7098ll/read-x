@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "syntheticOnly": true,
+  "approvedItems": 7,
+  "independentStudents": 20,
+  "commonBranch": {
+    "baseline": "support",
+    "applied": "extend"
+  },
+  "courseRecommendation": {
+    "baseline": "connect",
+    "applied": "evidence"
+  },
+  "selectedCheck": {
+    "baseline": "g1-evidence-check-0",
+    "applied": "g1-evidence-check-4"
+  },
+  "insufficient19FallsBack": true,
+  "approvedSnapshotPreserved": true,
+  "privateMetadataHidden": true,
+  "browserErrors": []
+}

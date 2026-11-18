@@ -97,7 +97,7 @@ export const TopGlobalNav: React.FC<TopGlobalNavProps> = ({
           <div>
             <div className="flex items-center gap-2 flex-wrap">
               <span className="font-extrabold text-base md:text-lg tracking-tight">
-                ReadX-Ray Pro <span className="text-emerald-400">v3.0 Production</span>
+                Read X <span className="text-emerald-400">v3.0 Production</span>
               </span>
               <span className="text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 px-2 py-0.5 rounded-full">
                 132슬롯 Item Bank DB (설명문 96 + 공통기초 36) 완비

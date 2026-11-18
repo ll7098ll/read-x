@@ -1,0 +1,870 @@
+{
+  "asOf": "2026-11-17",
+  "sourceSnapshotHash": "2638a4e9851f2e346805290d7f1cb3a68f1f9fbc2140248a3aeacb153d423482",
+  "reason": "정답 없는 원고 재독에서 확인한 순서 근거·마지막 표현·서술 인칭 표시 수정 전 보존",
+  "sets": [
+    {
+      "id": "PV2-G1-information-07-S2-A",
+      "version": 1,
+      "microSkillId": "plan-G1-information-07",
+      "skillName": "차례에 맞게 읽기",
+      "grade": 1,
+      "track": "information",
+      "stage": "S2",
+      "stageLabel": "단서 짚기",
+      "variant": "A",
+      "title": "찰흙 이름표",
+      "purpose": "practice",
+      "familyId": "PV2-G1-information-07-S2-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G1-information-07-S2-A-p1",
+          "text": "찰흙을 둥글게 뭉쳐요. 그다음 손바닥으로 납작하게 눌러요. 마지막으로 나무 막대로 이름을 새겨요.",
+          "sentences": [
+            {
+              "id": "PV2-G1-information-07-S2-A-p1-s1",
+              "text": "찰흙을 둥글게 뭉쳐요."
+            },
+            {
+              "id": "PV2-G1-information-07-S2-A-p1-s2",
+              "text": "그다음 손바닥으로 납작하게 눌러요."
+            },
+            {
+              "id": "PV2-G1-information-07-S2-A-p1-s3",
+              "text": "마지막으로 나무 막대로 이름을 새겨요."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G1-information-07-S2-A-p2",
+          "text": "완성한 이름표를 받침에 올려요. 이 글에서는 받침에 올린 뒤 이름을 새기지 않아요.",
+          "sentences": [
+            {
+              "id": "PV2-G1-information-07-S2-A-p2-s1",
+              "text": "완성한 이름표를 받침에 올려요."
+            },
+            {
+              "id": "PV2-G1-information-07-S2-A-p2-s2",
+              "text": "이 글에서는 받침에 올린 뒤 이름을 새기지 않아요."
+            }
+          ]
+        }
+      ],
+      "charCount": 101,
+      "contentHash": "6e35478cf085c8f4d96a46695ffee88f24b9d3239533b6a95241d80c3af3433b",
+      "textDemand": {
+        "format": "짧은 기능 집중 자료",
+        "gradeCondition": "생활어·짧은 문장·직접 관찰 가능한 대상. 두 특징이나 행동을 연결하고 한두 문장으로 표현.",
+        "lengthReview": "별도 장르·기능 분량, 장문 코스 기준 충족을 주장하지 않음"
+      },
+      "taskDemand": {
+        "operation": "행동의 차례 짚기",
+        "evidenceDistance": "한 문장 또는 인접 문장",
+        "support": "응답 전 정답 풀이 없음; 교사가 추가한 도움은 별도 기록"
+      },
+      "teacherGuide": "차례말이 없는 첫 행동도 확인한다. 순서 확인을 찰흙의 성질을 아는 문제로 바꾸지 않는다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G1-information-07-S2-A-Q1",
+          "kind": "single_choice",
+          "prompt": "납작하게 누른 다음에 하는 일은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S2-A-p1",
+              "sentenceId": "PV2-G1-information-07-S2-A-p1-s3",
+              "quote": "마지막으로 나무 막대로",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "둥글게 뭉쳐요.",
+              "reason": "이미 누르기 전에 한 일이다."
+            },
+            {
+              "text": "다시 둥글게 뭉쳐요.",
+              "reason": "되돌아가는 행동은 제시되지 않았다."
+            },
+            {
+              "text": "이름을 새겨요.",
+              "reason": "그다음 누르고 마지막에 이름을 새기는 순서다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "그다음 누르고 마지막에 이름을 새기는 순서다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S2-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-information-07-S2-A-Q2",
+          "kind": "ordering",
+          "prompt": "뭉치기, 이름 새기기, 납작하게 누르기를 차례대로 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S2-A-p1",
+              "sentenceId": "PV2-G1-information-07-S2-A-p1-s1",
+              "quote": "찰흙을 둥글게",
+              "start": 0
+            },
+            {
+              "materialId": "PV2-G1-information-07-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S2-A-p1",
+              "sentenceId": "PV2-G1-information-07-S2-A-p1-s2",
+              "quote": "손바닥으로 납작하게",
+              "start": 4
+            },
+            {
+              "materialId": "PV2-G1-information-07-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S2-A-p1",
+              "sentenceId": "PV2-G1-information-07-S2-A-p1-s3",
+              "quote": "마지막으로 나무",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "뭉치기 → 누르기 → 이름 새기기",
+          "rubric": [
+            {
+              "criterion": "뭉치기, 이름 새기기, 납작하게 누르기를 차례대로 쓰세요.",
+              "levels": {
+                "0": "이름부터 새긴다고 씀",
+                "1": "처음과 끝은 맞지만 가운데를 빠뜨림",
+                "2": "뭉치기 → 누르기 → 이름 새기기"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S2-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-information-07-S2-A-Q3",
+          "kind": "evidence_selection",
+          "prompt": "끝에 이름을 새긴다는 것을 알려 주는 차례말을 찾으세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S2-A-p1",
+              "sentenceId": "PV2-G1-information-07-S2-A-p1-s3",
+              "quote": "마지막으로 나무 막대로",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "마지막으로",
+          "rubric": [
+            {
+              "criterion": "끝에 이름을 새긴다는 것을 알려 주는 차례말을 찾으세요.",
+              "levels": {
+                "0": "그다음을 고름",
+                "1": "이름을 새겨요만 씀",
+                "2": "마지막으로"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S2-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-information-07-S2-A-Q4",
+          "kind": "revision",
+          "prompt": "받침에 올린 뒤 이름을 새겨요를 글의 차례에 맞게 고치세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S2-A-p2",
+              "sentenceId": "PV2-G1-information-07-S2-A-p2-s1",
+              "quote": "완성한 이름표를 받침에",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "이름을 새긴 뒤 받침에 올려요.",
+          "rubric": [
+            {
+              "criterion": "받침에 올린 뒤 이름을 새겨요를 글의 차례에 맞게 고치세요.",
+              "levels": {
+                "0": "고칠 필요 없다고 함",
+                "1": "받침에 올려요만 씀",
+                "2": "이름을 새긴 뒤 받침에 올려요."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S2-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 상황 및 문장",
+        "factualBasis": "문제 안에 필요한 규칙·상황을 제공",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-17",
+          "basis": "로컬 교육부 2022-33 원문 대조. 최신 통합 고시 전량 비교와 교사 승인은 별도 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "짧은 안내에서 차례를 읽는 이해 보조 활동",
+          "remainingGap": "공식 성취기준의 직접 수행 증거로 사용하지 않는다. 교수 목표 범위의 교사 검토가 필요하다.",
+          "links": [
+            {
+              "id": "PV2-G1-information-07-S2-A-C1",
+              "code": "2국02-03",
+              "subject": "국어",
+              "statement": "글을 읽고 중심 내용을 확인한다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 510,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "학습 준비·보조",
+              "includedComponent": "짧은 안내에서 차례를 읽는 이해 보조 활동",
+              "notAssessed": [
+                "글 전체의 중심 내용 파악을 직접 측정하지 않음",
+                "실제 소리 내어 읽기와 유창성 수행은 측정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G1-information-07-S2-A-Q1",
+                "PV2-G1-information-07-S2-A-Q2",
+                "PV2-G1-information-07-S2-A-Q3",
+                "PV2-G1-information-07-S2-A-Q4"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "f873901b8461878c423d6622280660d515c32f54604fbf5ec174e826293a6b1f"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-01",
+      "learnerStageLabel": "행동의 차례 짚기"
+    },
+    {
+      "id": "PV2-G1-information-07-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G1-information-07",
+      "skillName": "차례에 맞게 읽기",
+      "grade": 1,
+      "track": "information",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "붙인 뒤에 이름을 쓸까",
+      "purpose": "practice",
+      "familyId": "PV2-G1-information-07-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G1-information-07-S5-A-p1",
+          "text": "이번 책갈피는 그림 아래에 이름을 쓰고, 이름 위에 투명 테이프를 붙여요.",
+          "sentences": [
+            {
+              "id": "PV2-G1-information-07-S5-A-p1-s1",
+              "text": "이번 책갈피는 그림 아래에 이름을 쓰고, 이름 위에 투명 테이프를 붙여요."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G1-information-07-S5-A-p2",
+          "text": "서우의 카드에는 그림 그리기 → 테이프 붙이기 → 이름 쓰기라고 적혀 있어요. 서우는 이름만 들어가면 차례는 같다고 말해요. 지후는 이름을 쓰는 때를 다시 읽어 보자고 말해요.",
+          "sentences": [
+            {
+              "id": "PV2-G1-information-07-S5-A-p2-s1",
+              "text": "서우의 카드에는 그림 그리기 → 테이프 붙이기 → 이름 쓰기라고 적혀 있어요."
+            },
+            {
+              "id": "PV2-G1-information-07-S5-A-p2-s2",
+              "text": "서우는 이름만 들어가면 차례는 같다고 말해요."
+            },
+            {
+              "id": "PV2-G1-information-07-S5-A-p2-s3",
+              "text": "지후는 이름을 쓰는 때를 다시 읽어 보자고 말해요."
+            }
+          ]
+        }
+      ],
+      "charCount": 140,
+      "contentHash": "6bc8e05645513adb88c65b03102d21c87ebc7d5feb29e139f13b48cf5db9b6b1",
+      "textDemand": {
+        "format": "짧은 기능 집중 자료",
+        "gradeCondition": "생활어·짧은 문장·직접 관찰 가능한 대상. 두 특징이나 행동을 연결하고 한두 문장으로 표현.",
+        "lengthReview": "별도 장르·기능 분량, 장문 코스 기준 충족을 주장하지 않음"
+      },
+      "taskDemand": {
+        "operation": "차례 설명 따지기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "응답 전 정답 풀이 없음; 교사가 추가한 도움은 별도 기록"
+      },
+      "teacherGuide": "다른 의견을 제시하되 본문이 오류의 정답을 미리 설명하지 않게 한다. 테이프의 일반 성질 대신 이 자료의 지정 순서로 판단한다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G1-information-07-S5-A-Q1",
+          "kind": "single_choice",
+          "prompt": "글에 맞게 고친 차례는 어느 것인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S5-A-p1",
+              "sentenceId": "PV2-G1-information-07-S5-A-p1-s1",
+              "quote": "그림 아래에 이름을 쓰고",
+              "start": 8
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "이름 쓰기 → 그리기 → 테이프 붙이기",
+              "reason": "그림 아래에 이름을 쓰는 과정의 순서를 바꾼다."
+            },
+            {
+              "text": "그리기 → 테이프 붙이기 → 이름 쓰기",
+              "reason": "서우 카드의 순서 문제를 그대로 둔다."
+            },
+            {
+              "text": "그리기 → 이름 쓰기 → 테이프 붙이기",
+              "reason": "이름 위에 붙이는 테이프보다 이름 쓰기가 앞서야 한다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "이름 위에 붙이는 테이프보다 이름 쓰기가 앞서야 한다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-information-07-S5-A-Q2",
+          "kind": "classification",
+          "prompt": "서우 카드에서 그대로 둘 일 / 자리를 바꿀 일을 나누세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S5-A-p1",
+              "sentenceId": "PV2-G1-information-07-S5-A-p1-s1",
+              "quote": "이름 위에 투명 테이프를",
+              "start": 23
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "그대로:맨 앞 그림 그리기 / 바꾸기:이름 쓰기와 테이프 붙이기의 차례",
+          "rubric": [
+            {
+              "criterion": "서우 카드에서 그대로 둘 일 / 자리를 바꿀 일을 나누세요.",
+              "levels": {
+                "0": "그림 그리기를 맨 뒤로 옮김",
+                "1": "옮길 두 행동 중 하나만 씀",
+                "2": "그대로:맨 앞 그림 그리기 / 바꾸기:이름 쓰기와 테이프 붙이기의 차례"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-information-07-S5-A-Q3",
+          "kind": "explanation",
+          "prompt": "이름만 있으면 차례가 같다는 서우의 말에 답하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S5-A-p1",
+              "sentenceId": "PV2-G1-information-07-S5-A-p1-s1",
+              "quote": "이름을 쓰고, 이름 위에",
+              "start": 15
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "같은 일이 모두 있어도 이름을 먼저 쓰고 테이프를 나중에 붙여야 이 글의 차례와 같다.",
+          "rubric": [
+            {
+              "criterion": "이름만 있으면 차례가 같다는 서우의 말에 답하세요.",
+              "levels": {
+                "0": "들어간 일이 같으면 어떤 순서도 된다고 함",
+                "1": "차례가 다르다고만 씀",
+                "2": "같은 일이 모두 있어도 이름을 먼저 쓰고 테이프를 나중에 붙여야 이 글의 차례와 같다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-information-07-S5-A-Q4",
+          "kind": "evidence_selection",
+          "prompt": "이름 쓰기와 테이프 붙이기의 앞뒤를 알 수 있는 부분을 찾으세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S5-A-p1",
+              "sentenceId": "PV2-G1-information-07-S5-A-p1-s1",
+              "quote": "이름을 쓰고, 이름 위에",
+              "start": 15
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "이름을 쓰고, 이름 위에 투명 테이프를 붙여요.",
+          "rubric": [
+            {
+              "criterion": "이름 쓰기와 테이프 붙이기의 앞뒤를 알 수 있는 부분을 찾으세요.",
+              "levels": {
+                "0": "서우의 잘못된 카드만 근거로 듦",
+                "1": "이름 위에만 적어 두 행동 연결이 없음",
+                "2": "이름을 쓰고, 이름 위에 투명 테이프를 붙여요."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-information-07-S5-A-Q5",
+          "kind": "revision",
+          "prompt": "서우 카드의 뒤 두 칸을 고쳐 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-information-07-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-information-07-S5-A-p1",
+              "sentenceId": "PV2-G1-information-07-S5-A-p1-s1",
+              "quote": "이름을 쓰고, 이름 위에",
+              "start": 15
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "이름 쓰기 → 테이프 붙이기",
+          "rubric": [
+            {
+              "criterion": "서우 카드의 뒤 두 칸을 고쳐 쓰세요.",
+              "levels": {
+                "0": "테이프 붙이기를 먼저 유지함",
+                "1": "이름 쓰기만 적음",
+                "2": "이름 쓰기 → 테이프 붙이기"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-information-07-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 상황 및 문장",
+        "factualBasis": "문제 안에 필요한 규칙·상황을 제공",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-17",
+          "basis": "로컬 교육부 2022-33 원문 대조. 최신 통합 고시 전량 비교와 교사 승인은 별도 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "짧은 안내에서 차례를 읽는 이해 보조 활동",
+          "remainingGap": "공식 성취기준의 직접 수행 증거로 사용하지 않는다. 교수 목표 범위의 교사 검토가 필요하다.",
+          "links": [
+            {
+              "id": "PV2-G1-information-07-S5-A-C1",
+              "code": "2국02-03",
+              "subject": "국어",
+              "statement": "글을 읽고 중심 내용을 확인한다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 510,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "학습 준비·보조",
+              "includedComponent": "짧은 안내에서 차례를 읽는 이해 보조 활동",
+              "notAssessed": [
+                "글 전체의 중심 내용 파악을 직접 측정하지 않음",
+                "실제 소리 내어 읽기와 유창성 수행은 측정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G1-information-07-S5-A-Q1",
+                "PV2-G1-information-07-S5-A-Q2",
+                "PV2-G1-information-07-S5-A-Q3",
+                "PV2-G1-information-07-S5-A-Q4",
+                "PV2-G1-information-07-S5-A-Q5"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "9b7ec9530ca8b808f1adf2d36358a20052e05c30429e4019d2621fdf7e90e3dd"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-01",
+      "learnerStageLabel": "차례 설명 따지기"
+    },
+    {
+      "id": "PV2-G6-literature-01-S1-A",
+      "version": 1,
+      "microSkillId": "plan-G6-literature-01",
+      "skillName": "서술 정보와 시점",
+      "grade": 6,
+      "track": "literature",
+      "stage": "S1",
+      "stageLabel": "뜻 익히기",
+      "variant": "A",
+      "title": "같은 문 앞의 두 서술",
+      "purpose": "practice",
+      "familyId": "PV2-G6-literature-01-S1-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G6-literature-01-S1-A-p1",
+          "text": "장면 가. 나는 연습실 문 앞에서 주머니를 뒤졌다. 열쇠가 없었다. 문 안에서 누군가 의자를 끄는 소리가 났지만 누구인지는 알 수 없었다.",
+          "sentences": [
+            {
+              "id": "PV2-G6-literature-01-S1-A-p1-s1",
+              "text": "장면 가."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p1-s2",
+              "text": "나는 연습실 문 앞에서 주머니를 뒤졌다."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p1-s3",
+              "text": "열쇠가 없었다."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p1-s4",
+              "text": "문 안에서 누군가 의자를 끄는 소리가 났지만 누구인지는 알 수 없었다."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G6-literature-01-S1-A-p2",
+          "text": "장면 나. 지수는 연습실 문 앞에서 주머니를 뒤졌다. 문 안의 태오는 의자를 문 쪽으로 옮기고 있었다. 태오는 지수가 열쇠를 잊었을까 봐 문을 열 준비를 했다.",
+          "sentences": [
+            {
+              "id": "PV2-G6-literature-01-S1-A-p2-s1",
+              "text": "장면 나."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p2-s2",
+              "text": "지수는 연습실 문 앞에서 주머니를 뒤졌다."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p2-s3",
+              "text": "문 안의 태오는 의자를 문 쪽으로 옮기고 있었다."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p2-s4",
+              "text": "태오는 지수가 열쇠를 잊었을까 봐 문을 열 준비를 했다."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G6-literature-01-S1-A-p3",
+          "text": "서술자는 이야기를 독자에게 전하는 목소리다. 가의 나는 자신의 행동과 들은 소리를 말하지만 문 안의 사람은 모른다고 한다. 나는과 지수는이라는 말의 차이뿐 아니라, 서술이 누구의 행동·생각을 어디까지 알려 주는지도 살핀다. 작품을 쓴 실제 작가와 작품 속 서술자를 곧바로 같은 사람으로 보지 않는다.",
+          "sentences": [
+            {
+              "id": "PV2-G6-literature-01-S1-A-p3-s1",
+              "text": "서술자는 이야기를 독자에게 전하는 목소리다."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p3-s2",
+              "text": "가의 나는 자신의 행동과 들은 소리를 말하지만 문 안의 사람은 모른다고 한다."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p3-s3",
+              "text": "나는과 지수는이라는 말의 차이뿐 아니라, 서술이 누구의 행동·생각을 어디까지 알려 주는지도 살핀다."
+            },
+            {
+              "id": "PV2-G6-literature-01-S1-A-p3-s4",
+              "text": "작품을 쓴 실제 작가와 작품 속 서술자를 곧바로 같은 사람으로 보지 않는다."
+            }
+          ]
+        }
+      ],
+      "charCount": 335,
+      "contentHash": "e72c4cb4bc3b6fc41e9b88d0b1c80a3a65b7d2905c8d5c663ff3797cc67f96dd",
+      "textDemand": {
+        "format": "짧은 기능 집중 자료",
+        "gradeCondition": "복합 구조·다중 자료·반례와 불확실성. 새 독자·매체·목적에 맞게 종합하고 수정.",
+        "lengthReview": "별도 장르·기능 분량, 장문 코스 기준 충족을 주장하지 않음"
+      },
+      "taskDemand": {
+        "operation": "서술 방법 익히기",
+        "evidenceDistance": "가까움",
+        "support": "본문에 방법 설명 포함"
+      },
+      "teacherGuide": "일인칭은 언제나 모든 사실을 모른다거나 삼인칭은 언제나 모든 인물의 속마음을 안다는 규칙을 만들지 않는다. 두 발췌문의 정보 범위만 비교한다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G6-literature-01-S1-A-Q1",
+          "kind": "single_choice",
+          "prompt": "장면 나에서 독자에게 추가로 알려 주는 정보는 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-literature-01-S1-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-literature-01-S1-A-p2",
+              "sentenceId": "PV2-G6-literature-01-S1-A-p2-s4",
+              "quote": "열쇠를 잊었을까 봐",
+              "start": 8
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "문 안의 태오가 문을 열려는 까닭",
+              "reason": "가에서는 문 안 사람이 누구인지 모른다고 하지만, 나에서는 태오의 행동과 준비 이유까지 전한다."
+            },
+            {
+              "text": "문 앞 인물이 주머니를 뒤진 행동",
+              "reason": "가에도 나는 주머니를 뒤졌다고 나와 있다."
+            },
+            {
+              "text": "문 앞 인물이 연습실 앞에 있는 사실",
+              "reason": "두 장면에 공통으로 제시된다."
+            },
+            {
+              "text": "문 안에서 의자 소리가 난다는 단서만",
+              "reason": "나에서는 태오의 구체적인 행동과 생각도 제시한다."
+            },
+            {
+              "text": "두 사람이 모두 실제 작가와 같은 인물이라는 사실",
+              "reason": "실제 작가와 동일하다는 정보는 없다."
+            }
+          ],
+          "correctIndex": 0,
+          "version": 1,
+          "explanation": "가에서는 문 안 사람이 누구인지 모른다고 하지만, 나에서는 태오의 행동과 준비 이유까지 전한다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G6-literature-01-S1-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-literature-01-S1-A-Q2",
+          "kind": "classification",
+          "prompt": "가의 내가 아는 것 / 모른다고 한 것을 나누세요: 열쇠 없음, 의자 소리, 문 안 사람의 정체.",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-literature-01-S1-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-literature-01-S1-A-p1",
+              "sentenceId": "PV2-G6-literature-01-S1-A-p1-s3",
+              "quote": "열쇠가 없었다.",
+              "start": 0
+            },
+            {
+              "materialId": "PV2-G6-literature-01-S1-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-literature-01-S1-A-p1",
+              "sentenceId": "PV2-G6-literature-01-S1-A-p1-s4",
+              "quote": "누구인지는 알 수 없었다.",
+              "start": 25
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "앎:열쇠 없음·의자 소리 / 모름:문 안 사람의 정체",
+          "rubric": [
+            {
+              "criterion": "가의 내가 아는 것 / 모른다고 한 것을 나누세요: 열쇠 없음, 의자 소리, 문 안 사람의 정체.",
+              "levels": {
+                "0": "태오의 마음까지 가의 내가 직접 안다고 함",
+                "1": "앎 두 항목 중 하나를 빠뜨림",
+                "2": "앎:열쇠 없음·의자 소리 / 모름:문 안 사람의 정체"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G6-literature-01-S1-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-literature-01-S1-A-Q3",
+          "kind": "explanation",
+          "prompt": "서술 범위를 살필 때 나는 또는 지수는이라는 말만 확인하면 부족한 이유를 두 장면으로 설명하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-literature-01-S1-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-literature-01-S1-A-p2",
+              "sentenceId": "PV2-G6-literature-01-S1-A-p2-s4",
+              "quote": "태오는 지수가 열쇠를",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "누가 말하는지뿐 아니라 가에서는 모르는 문 안 사람의 행동과 준비 이유를 나에서는 알려 주는지도 살펴야 하기 때문이다.",
+          "rubric": [
+            {
+              "criterion": "서술 범위를 살필 때 나는 또는 지수는이라는 말만 확인하면 부족한 이유를 두 장면으로 설명하세요.",
+              "levels": {
+                "0": "삼인칭이면 언제나 세상 모든 일을 안다고 함",
+                "1": "인칭 이름만 적고 정보 차이는 설명하지 못함",
+                "2": "누가 말하는지뿐 아니라 가에서는 모르는 문 안 사람의 행동과 준비 이유를 나에서는 알려 주는지도 살펴야 하기 때문이다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G6-literature-01-S1-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 이야기·대화·상황",
+        "factualBasis": "문제 안에 필요한 규칙·상황을 제공",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-17",
+          "basis": "로컬 교육부 2022-33 원문 대조. 최신 통합 고시 전량 비교와 교사 승인은 별도 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "인물·사건을 파악하며 서술자가 알 수 있는 정보 범위를 살피는 감상 보조 활동",
+          "remainingGap": "공식 성취기준의 직접 수행 증거로 사용하지 않는다. 교수 목표 범위의 교사 검토가 필요하다.",
+          "links": [
+            {
+              "id": "PV2-G6-literature-01-S1-A-C1",
+              "code": "6국05-03",
+              "subject": "국어",
+              "statement": "소설이나 극을 읽고 인물, 사건, 배경을 파악한다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 750,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "학습 준비·보조",
+              "includedComponent": "인물·사건을 파악하며 서술자가 알 수 있는 정보 범위를 살피는 감상 보조 활동",
+              "notAssessed": [
+                "인물·사건·배경 파악의 전체 달성을 직접 판정하지 않음",
+                "서술 시점의 전문 분류를 공식 학년 성취기준으로 신설하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G6-literature-01-S1-A-Q1",
+                "PV2-G6-literature-01-S1-A-Q2",
+                "PV2-G6-literature-01-S1-A-Q3"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "513124d04b190327111087968f92654f045fe20086f30e608a14d40221500173"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-01",
+      "learnerStageLabel": "서술 방법 익히기"
+    }
+  ]
+}

@@ -1,0 +1,1356 @@
+/* ReadX learning experience: quiet reading, visible thinking, fading support. */
+.lj-studio {
+  --lj-border: #dfe5e8;
+  --lj-ink: #182b3a;
+  color: var(--lj-ink);
+  padding-bottom: 32px;
+}
+.lj-studio h1,
+.lj-studio h2,
+.lj-studio h3,
+.lj-studio h4,
+.lj-evidence-report h2,
+.lj-evidence-report h4 {
+  margin: 0;
+  letter-spacing: -0.035em;
+}
+.lj-studio p,
+.lj-evidence-report p {
+  margin: 0;
+}
+.lj-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  font-size: 12px;
+  color: #425568;
+  margin-bottom: 24px;
+}
+.lj-meta > span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.lj-meta b {
+  padding-left: 9px;
+  border-left: 1px solid var(--lj-border);
+  font-weight: 500;
+}
+.lj-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #059669;
+}
+.lj-save-error {
+  color: #9a3412 !important;
+  background: #fff7ed;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.lj-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 30px;
+}
+.lj-heading .rx-eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: #425568;
+  margin-bottom: 10px;
+}
+.lj-heading h1 {
+  font-size: clamp(22px, 2.5vw, 32px);
+  line-height: 1.4;
+  font-weight: 700;
+}
+.lj-unit {
+  font-size: 32px;
+  font-weight: 300;
+  white-space: nowrap;
+  color: #425568;
+}
+.lj-unit span {
+  font-size: 12px;
+  vertical-align: middle;
+}
+.lj-progress {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  border-top: 1px solid #d4dde3;
+  border-bottom: 1px solid #d4dde3;
+}
+.lj-progress button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 12px;
+  padding: 18px 4px;
+  position: relative;
+  color: #425568;
+  white-space: nowrap;
+  min-height: 52px;
+}
+.lj-progress button span {
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  color: #425568;
+}
+.lj-progress button:disabled {
+  color: #425568;
+  cursor: default;
+}
+.lj-progress button[aria-current] {
+  font-weight: 750;
+  color: #1d4ed8;
+  background: #edf3ff;
+}
+.lj-progress button[aria-current]:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #1d4ed8;
+  bottom: -1px;
+}
+.lj-progress button:not(:disabled):hover {
+  background: #e8eef7;
+}
+.lj-step-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 0 25px;
+}
+.lj-eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #425568;
+  font-weight: 700;
+}
+.lj-eyebrow span {
+  color: #425568;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.lj-step-heading h2 {
+  font-size: 23px;
+  margin: 7px 0 6px;
+  scroll-margin-top: 100px;
+}
+.lj-step-heading h2:focus {
+  outline: none;
+}
+.lj-step-heading p:last-child {
+  font-size: 14px;
+  color: #425568;
+}
+.lj-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 0 10px 12px;
+  flex-shrink: 0;
+  font-size: 13px;
+  color: #425568;
+}
+.lj-intro {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  background: #fff;
+  border: 1px solid var(--lj-border);
+  border-radius: 22px;
+  overflow: hidden;
+}
+.lj-intro-main {
+  background: #fcfbf7;
+  position: relative;
+  padding: 46px 50px 42px;
+}
+.lj-intro-symbol {
+  display: block;
+  margin-bottom: 30px;
+}
+.lj-intro-symbol svg {
+  width: 52px;
+  height: 52px;
+}
+.lj-intro-main > .lj-eyebrow {
+  margin-bottom: 15px;
+}
+.lj-intro-main h2 {
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.5;
+  font-weight: 650;
+}
+.lj-intro-main h2 em {
+  font-style: normal;
+  color: #12695d;
+}
+.lj-intro-main > p:not(.lj-eyebrow) {
+  color: #425568;
+  margin: 22px 0 30px;
+  line-height: 1.9;
+}
+.lj-intro-main .lj-text-button {
+  display: flex;
+  margin-top: 14px;
+  font-size: 12px;
+}
+.lj-intro-aside {
+  padding: 46px 38px 30px;
+}
+.lj-intro-aside > .lj-eyebrow {
+  margin-bottom: 32px;
+}
+.lj-intro-aside > div {
+  display: flex;
+  gap: 18px;
+  padding-bottom: 29px;
+}
+.lj-intro-aside > div > span {
+  width: 43px;
+  height: 43px;
+  background: #f0f7f7;
+  color: #1a706e;
+  border: 1px solid #dfebea;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  flex-shrink: 0;
+}
+.lj-intro-aside small {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #425568;
+}
+.lj-intro-aside h3 {
+  font-size: 17px;
+  margin: 3px 0 7px;
+}
+.lj-intro-aside p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #425568;
+}
+.lj-intro-note {
+  border-top: 1px solid var(--lj-border);
+  padding-top: 22px;
+}
+.lj-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.13fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+}
+.lj-workspace-wide {
+  grid-template-columns: minmax(0, 1fr);
+}
+.lj-reader {
+  background: #fcfbf7;
+  border: 1px solid #dddeda;
+  border-radius: 18px;
+  padding: 28px 32px 22px;
+  color: #283a43;
+  position: sticky;
+  top: 82px;
+  min-width: 0;
+}
+.lj-reader[data-theme="sepia"] {
+  background: #f4ebd9;
+  color: #403930;
+}
+.lj-reader[data-theme="dark"] {
+  background: #172735;
+  color: #e0e9ed;
+  border-color: #435463;
+}
+.lj-reader-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.lj-reader-top > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #425568;
+}
+.lj-reader[data-theme="dark"] .lj-reader-top > span,
+.lj-reader[data-theme="dark"] .lj-reader-caption,
+.lj-reader[data-theme="dark"] .lj-reader-foot,
+.lj-reader[data-theme="dark"] .lj-para-number {
+  color: #b2c3cd;
+}
+.lj-settings {
+  position: relative;
+  font-size: 11px;
+  z-index: 2;
+}
+.lj-settings summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  min-height: 26px;
+}
+.lj-settings > div {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  padding: 18px;
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 10px 30px #0f172a12;
+  color: #334155;
+}
+.lj-settings label {
+  display: grid;
+  gap: 8px;
+  margin: 8px 0;
+}
+.lj-settings input,
+.lj-settings select {
+  width: 100%;
+  min-height: 32px;
+}
+.lj-reader h2 {
+  font-family: "Noto Serif KR", Georgia, serif;
+  font-size: 25px;
+  line-height: 1.65;
+  padding: 31px 0 14px;
+  font-weight: 650;
+}
+.lj-reader-caption {
+  font-size: 12px;
+  color: #425568;
+  border-bottom: 1px solid #d8dedc;
+  padding-bottom: 23px;
+  line-height: 1.8;
+}
+.lj-passage {
+  padding-top: 29px;
+}
+.lj-paragraph {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 14px;
+  margin-bottom: 27px;
+}
+.lj-para-number {
+  font-size: 10px;
+  font-family: inherit;
+  padding-top: 10px;
+  color: #425568;
+}
+.lj-paragraph p {
+  font-family: "Noto Serif KR", Georgia, serif;
+  line-height: 2.1;
+  word-break: keep-all;
+}
+.lj-sentence {
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+  color: inherit;
+  border-radius: 3px;
+  padding: 2px 0;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  transition: background 0.15s;
+}
+.lj-sentence:hover {
+  background: #f3e7b0;
+  color: #253644;
+}
+.lj-sentence.is-selected {
+  background: #f7e9ac;
+  color: #283a43;
+  box-shadow: 0 2px 0 #cda72b;
+}
+.lj-sentence.is-model {
+  background: #dceef1;
+  color: #204e61;
+  box-shadow: 0 2px 0 #5eafbc;
+}
+.lj-sentence.is-focused {
+  outline: 2px dashed #0284c7;
+  outline-offset: 3px;
+}
+.lj-sentence svg {
+  display: inline;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.lj-reader-foot {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  border-top: 1px solid #d8dedc;
+  padding-top: 17px;
+  font-size: 10px;
+  color: #425568;
+}
+.lj-mobile-switch {
+  display: none;
+}
+.lj-activity {
+  min-width: 0;
+}
+.lj-model-card,
+.lj-task-card,
+.lj-writing-card,
+.lj-reflection {
+  background: #fff;
+  border: 1px solid var(--lj-border);
+  border-radius: 18px;
+  padding: 28px;
+}
+.lj-model-card {
+  background: #f1f8fa;
+  border-color: #d4e8ee;
+}
+.lj-card-kicker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #425568;
+  padding-bottom: 22px;
+}
+.lj-card-kicker > span {
+  margin-left: auto;
+  font-size: 10px;
+  color: #425568;
+}
+.lj-model-card h3,
+.lj-task-card h3,
+.lj-writing-card h3 {
+  font-size: 21px;
+  line-height: 1.7;
+}
+.lj-model-card blockquote {
+  font-family: "Noto Serif KR", Georgia, serif;
+  font-size: 24px;
+  line-height: 1.8;
+  margin: 24px 0 18px;
+  padding-left: 20px;
+  border-left: 3px solid #6eb2c1;
+}
+.lj-thought {
+  font-size: 17px;
+  line-height: 2;
+  color: #345a6d;
+}
+.lj-model-dots {
+  display: flex;
+  gap: 8px;
+  margin: 30px 0 16px;
+}
+.lj-model-dots button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #afcfd8;
+  border-radius: 50%;
+  background: #fff;
+  color: #36677a;
+  font-size: 13px;
+}
+.lj-model-dots button[aria-pressed="true"] {
+  background: #285a70;
+  color: white;
+  border-color: #285a70;
+}
+.lj-model-card > .rx-button {
+  margin-top: 22px;
+}
+.lj-muted {
+  color: #425568;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.lj-check-note {
+  margin: 17px 0 6px !important;
+  background: #f2f5f9;
+  border-radius: 8px;
+  padding: 12px 14px;
+  color: #425568;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.lj-evidence-input {
+  margin-top: 23px;
+}
+.lj-evidence-input > label,
+.lj-field > span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 11px;
+  color: #425568;
+  margin-bottom: 10px;
+}
+.lj-evidence-input b,
+.lj-field b {
+  font-size: 13px;
+  color: #334b5b;
+  font-weight: 650;
+}
+.lj-pick-prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding: 19px 10px;
+  background: #f9fafb;
+  border: 1px dashed #bfcbd4;
+  border-radius: 9px;
+  font-size: 12px;
+  color: #425568;
+  line-height: 1.8;
+}
+.lj-selected-quote {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  padding: 12px 14px;
+  background: #fffbeb;
+  border: 1px solid #ede1b4;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.lj-selected-quote > button:first-child {
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.8;
+  flex: 1;
+}
+.lj-selected-quote > button:first-child svg {
+  display: inline;
+  margin-right: 7px;
+}
+.lj-selected-quote > button:last-child {
+  min-width: 30px;
+  min-height: 30px;
+  font-size: 20px;
+  color: #7c6b3b;
+}
+.lj-field {
+  display: grid;
+  gap: 4px;
+  margin: 22px 0 0;
+}
+.lj-field textarea {
+  width: 100%;
+  min-width: 0;
+  resize: vertical;
+  border: 1px solid #d2dee0;
+  border-radius: 9px;
+  background: #fbfdfc;
+  padding: 15px;
+  color: #233e3a;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.lj-field textarea::placeholder {
+  color: #425568;
+  font-size: 13px;
+}
+.lj-field select,
+.lj-report-heading select {
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  padding: 10px;
+  background: #fff;
+  font-size: 13px;
+  color: #334155;
+  max-width: 100%;
+}
+.lj-help {
+  margin: 20px 0;
+  background: #f0f7fa;
+  border-radius: 9px;
+}
+.lj-help > button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  padding: 13px 14px;
+  font-size: 12px;
+  color: #3b6a7c;
+  min-height: 44px;
+}
+.lj-help > button > span {
+  margin-left: auto;
+  font-size: 10px;
+}
+.lj-help > p {
+  border-top: 1px solid #dae8ed;
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+  padding: 12px 15px;
+  color: #3c6372;
+  line-height: 1.85;
+}
+.lj-help > p b {
+  font-size: 11px;
+  padding-top: 3px;
+}
+.lj-main-action {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.lj-studio .rx-button:disabled {
+  opacity: 0.5;
+}
+.lj-feedback {
+  margin-top: 20px;
+  padding: 19px;
+  border: 1px solid #d7e5df;
+  background: #f4f8f5;
+  border-radius: 12px;
+}
+.lj-feedback h4 {
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 9px 0;
+}
+.lj-feedback p:not(.lj-muted) {
+  font-size: 13px;
+  color: #425568;
+  line-height: 1.9;
+  margin-bottom: 9px;
+}
+.lj-feedback .rx-button {
+  margin-top: 17px;
+}
+.lj-feedback:focus {
+  outline: none;
+}
+.lj-trace {
+  margin-top: 18px;
+  border: 1px solid #d6e3dd;
+  background: #f8fbf9;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.lj-trace > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 17px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 650;
+  color: #335d50;
+  list-style: none;
+}
+.lj-trace > summary:after {
+  content: "+";
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: 400;
+}
+.lj-trace[open] > summary:after {
+  content: "−";
+}
+.lj-trace > summary > span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #425568;
+}
+.lj-trace article {
+  padding: 18px;
+  border-top: 1px solid #dfe9e3;
+}
+.lj-trace article > small {
+  font-size: 11px;
+  color: #425568;
+  display: block;
+  margin-bottom: 12px;
+}
+.lj-trace article > p {
+  font-size: 14px;
+  line-height: 1.9;
+  white-space: pre-wrap;
+  margin-top: 10px;
+}
+.lj-trace > p {
+  padding: 16px;
+}
+.lj-source {
+  display: flex;
+  gap: 6px;
+  text-align: left;
+  padding: 9px 10px;
+  background: #fff;
+  border-left: 2px solid #cca946;
+  font-size: 12px;
+  line-height: 1.9;
+  margin-bottom: 6px;
+  width: 100%;
+}
+.lj-source svg {
+  margin-top: 5px;
+}
+.lj-text-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #416d7c;
+  padding: 10px 0;
+}
+.lj-writing-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr);
+  gap: 38px;
+}
+.lj-workspace:not(.lj-workspace-wide) .lj-writing-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+.lj-writing-grid .lj-trace {
+  margin-top: 0;
+}
+.lj-writing-grid > div > p {
+  font-size: 14px;
+  line-height: 1.9;
+  margin-top: 10px;
+  color: #425568;
+}
+.lj-writing-grid .lj-field {
+  margin-bottom: 14px;
+}
+.lj-change-note {
+  background: #fff7e2;
+  padding: 12px;
+  border-radius: 8px;
+  color: #866021 !important;
+}
+.lj-self-check {
+  padding: 20px 0;
+  margin: 20px 0;
+  border-top: 1px solid #dfe5e8;
+  border-bottom: 1px solid #dfe5e8;
+}
+.lj-self-check h4 {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+.lj-self-check p {
+  font-size: 13px;
+  line-height: 2;
+  color: #425568;
+}
+.lj-revisions {
+  margin-top: 16px;
+}
+.lj-revisions summary,
+.lj-used-hints summary {
+  cursor: pointer;
+  font-size: 12px;
+  color: #425568;
+  padding: 10px 0;
+}
+.lj-revisions blockquote,
+.lj-revisions article {
+  margin: 12px 0;
+  padding: 15px;
+  border-left: 2px solid #b5d6c8;
+  background: #f4f8f6;
+  font-size: 13px;
+  white-space: pre-wrap;
+}
+.lj-revisions small {
+  display: block;
+  font-size: 10px;
+  color: #425568;
+  margin-bottom: 8px;
+}
+.lj-reflection-hero {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 28px;
+  border-bottom: 1px solid #e1e7e4;
+  margin-bottom: 26px;
+}
+.lj-reflection-hero > span {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  color: #247964;
+  background: #eaf5ed;
+  flex-shrink: 0;
+}
+.lj-reflection-hero h3 {
+  font-size: 23px;
+  line-height: 1.6;
+  margin-bottom: 7px;
+}
+.lj-reflection-hero p {
+  font-size: 13px;
+  color: #425568;
+  line-height: 1.8;
+}
+.lj-finish-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 12px;
+}
+.lj-entry {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 27px 30px;
+  margin: 0 0 30px;
+  border: 1px solid #c8ddd8;
+  background: linear-gradient(110deg, #f4f9f6, #f8fbff);
+  border-radius: 17px;
+}
+.lj-entry-icon {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #c7ded4;
+  border-radius: 17px;
+  display: grid;
+  place-items: center;
+  color: #26735d;
+  background: #edf7f0;
+  flex-shrink: 0;
+}
+.lj-entry h2 {
+  font-size: 20px;
+  margin: 6px 0;
+  line-height: 1.6;
+  letter-spacing: -0.025em;
+}
+.lj-entry p:last-child {
+  font-size: 13px;
+  color: #425568;
+}
+.lj-entry .rx-button {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.lj-evidence-report {
+  background: #fff;
+  border: 1px solid #dce6e2;
+  border-radius: 16px;
+  padding: 27px;
+  margin-bottom: 26px;
+}
+.lj-reflection .lj-evidence-report {
+  padding: 0;
+  border: 0;
+}
+.lj-report-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+.lj-report-heading h2 {
+  font-size: 23px;
+  margin-top: 7px;
+}
+.lj-report-heading > label {
+  display: grid;
+  gap: 5px;
+  font-size: 11px;
+  color: #425568;
+}
+.lj-report-empty {
+  padding: 30px 0 10px;
+  color: #425568;
+  font-size: 14px;
+}
+.lj-observation-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 22px 0 12px;
+  background: #f6f9f7;
+  border-radius: 12px;
+  padding: 20px;
+}
+.lj-observation-summary > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.lj-observation-summary b {
+  color: #245c4e;
+  font-size: 24px;
+  font-weight: 600;
+}
+.lj-observation-summary span {
+  color: #425568;
+  font-size: 11px;
+}
+.lj-response-record {
+  border: 1px solid #e0e7e4;
+  border-radius: 11px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.lj-response-record > summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  padding: 17px;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fbfcfb;
+}
+.lj-response-record > summary > span:first-child {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 600;
+}
+.lj-record-badge {
+  font-size: 10px;
+  white-space: nowrap;
+  border: 1px solid #d7e3dd;
+  color: #425568;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+.lj-record-body {
+  border-top: 1px solid #e3e9e5;
+  padding: 20px;
+}
+.lj-record-conditions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+.lj-record-conditions > span {
+  background: #edf3f8;
+  padding: 5px 9px;
+  font-size: 10px;
+  border-radius: 4px;
+  color: #425568;
+}
+.lj-record-body h4 {
+  font-size: 12px;
+  color: #425568;
+  margin: 18px 0 8px;
+}
+.lj-record-body > p {
+  font-size: 14px;
+  line-height: 1.9;
+  white-space: pre-wrap;
+}
+.lj-record-evidence {
+  margin: 10px 0;
+  display: flex;
+  gap: 9px;
+  background: #fffbec;
+  border-left: 2px solid #c4aa52;
+  padding: 13px;
+  font-size: 13px;
+  line-height: 1.9;
+}
+.lj-record-evidence svg {
+  margin-top: 5px;
+}
+.lj-student-answer {
+  padding: 16px;
+  background: #f0f7f2;
+  border-radius: 8px;
+  color: #2c5a49;
+  white-space: pre-wrap;
+  line-height: 1.9;
+}
+.lj-student-answer small {
+  display: block;
+  font-size: 10px;
+  color: #425568;
+}
+.lj-used-hints p {
+  font-size: 12px;
+  padding: 8px 0;
+  color: #425568;
+}
+.lj-teacher-note {
+  padding: 15px;
+  margin-top: 18px;
+  background: #edf6fb;
+  border-radius: 8px;
+}
+.lj-teacher-note b {
+  font-size: 12px;
+  color: #365d72;
+}
+.lj-teacher-note p {
+  margin: 6px 0;
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+.lj-teacher-note small {
+  font-size: 10px;
+  color: #425568;
+}
+.lj-next-support {
+  border-left: 3px solid #72a58e;
+  padding: 15px 20px;
+  background: #f4f9f5;
+  margin-top: 23px;
+}
+.lj-next-support b {
+  font-size: 13px;
+  color: #386451;
+}
+.lj-next-support p {
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 7px 0;
+}
+.lj-next-support small {
+  color: #425568;
+  font-size: 10px;
+}
+.lj-review-form {
+  border-top: 1px solid #dce7ed;
+  padding-top: 20px;
+  margin-top: 23px;
+}
+.lj-review-form > p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #425568;
+}
+.lj-review-form > .rx-button {
+  margin-top: 15px;
+}
+.lj-review-form > small {
+  display: block;
+  font-size: 11px;
+  color: #425568;
+  margin-top: 9px;
+}
+.lj-content-status {
+  padding: 20px;
+  border: 1px solid #d8e3dd;
+  background: #f4f9f5;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+.lj-content-status summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.lj-content-status summary span {
+  margin-left: auto;
+  font-size: 11px;
+  color: #425568;
+}
+.lj-content-status p {
+  font-size: 13px;
+  color: #425568;
+  margin-top: 13px;
+}
+@media (max-width: 1100px) {
+  .lj-unit {
+    display: none;
+  }
+  .lj-progress button {
+    font-size: 11px;
+    flex-direction: column;
+    gap: 3px;
+    padding: 12px 4px;
+  }
+  .lj-workspace {
+    gap: 16px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .lj-workspace-wide {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .lj-reader {
+    padding: 22px;
+  }
+  .lj-model-card,
+  .lj-task-card {
+    padding: 22px;
+  }
+  .lj-reader h2 {
+    font-size: 23px;
+  }
+  .lj-paragraph {
+    grid-template-columns: 16px minmax(0, 1fr);
+    gap: 8px;
+  }
+  .lj-intro-main {
+    padding: 36px;
+  }
+  .lj-intro-aside {
+    padding: 36px 26px;
+  }
+}
+@media (max-width: 800px) {
+  .lj-heading {
+    padding-bottom: 20px;
+  }
+  .lj-meta {
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+  .lj-progress {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+  .lj-progress button {
+    flex-shrink: 0;
+    min-width: 88px;
+    padding: 10px 12px;
+  }
+  .lj-step-heading {
+    align-items: flex-start;
+    padding: 24px 0 20px;
+  }
+  .lj-step-heading h2 {
+    font-size: 21px;
+  }
+  .lj-step-heading p:last-child {
+    font-size: 13px;
+  }
+  .lj-back {
+    font-size: 0;
+    min-width: 36px;
+    min-height: 44px;
+    padding: 6px;
+  }
+  .lj-back svg {
+    width: 20px;
+    height: 20px;
+  }
+  .lj-intro {
+    grid-template-columns: 1fr;
+  }
+  .lj-intro-main {
+    padding: 32px;
+  }
+  .lj-intro-aside {
+    padding: 32px;
+  }
+  .lj-intro-main h2 {
+    font-size: 31px;
+  }
+  .lj-intro-symbol {
+    margin-bottom: 20px;
+  }
+  .lj-intro-aside > div {
+    padding-bottom: 22px;
+  }
+  .lj-mobile-switch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #cbd6df;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 15px;
+    background: #edf2f5;
+    position: sticky;
+    top: 62px;
+    z-index: 5;
+  }
+  .lj-mobile-switch button {
+    min-height: 44px;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-size: 12px;
+    border-radius: 7px;
+    color: #425568;
+  }
+  .lj-mobile-switch button[aria-pressed="true"] {
+    background: #fff;
+    box-shadow: 0 1px 4px #17314215;
+    color: #244d70;
+    font-weight: 700;
+  }
+  .lj-mobile-question {
+    grid-column: 1 / -1;
+    padding: 10px 12px 7px;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #425568;
+  }
+  .lj-workspace {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .lj-reader {
+    position: static;
+  }
+  .lj-workspace[data-pane="activity"] > .lj-reader {
+    display: none;
+  }
+  .lj-workspace:not(.lj-workspace-wide)[data-pane="text"] > .lj-activity {
+    display: none;
+  }
+  .lj-writing-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .lj-entry {
+    flex-wrap: wrap;
+    padding: 23px;
+    gap: 15px;
+  }
+  .lj-entry > div:nth-child(2) {
+    flex: 1;
+    min-width: 200px;
+  }
+  .lj-entry > .rx-button {
+    margin-left: 0;
+  }
+  .lj-entry h2 {
+    font-size: 18px;
+  }
+  .lj-reflection-hero {
+    align-items: flex-start;
+  }
+  .lj-reflection-hero h3 {
+    font-size: 20px;
+  }
+  .lj-reflection-hero > span {
+    width: 45px;
+    height: 45px;
+  }
+  .lj-report-heading {
+    flex-wrap: wrap;
+  }
+  .lj-evidence-report {
+    padding: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .lj-studio h1 {
+    font-size: 23px;
+  }
+  .lj-intro-main,
+  .lj-intro-aside {
+    padding: 26px;
+  }
+  .lj-intro-main h2 {
+    font-size: 28px;
+  }
+  .lj-intro-main > p:not(.lj-eyebrow) {
+    font-size: 14px;
+  }
+  .lj-desktop-break {
+    display: none;
+  }
+  .lj-intro-main .rx-button {
+    width: 100%;
+  }
+  .lj-intro-main .lj-text-button {
+    line-height: 1.8;
+    text-align: left;
+  }
+  .lj-reader,
+  .lj-task-card,
+  .lj-model-card,
+  .lj-writing-card,
+  .lj-reflection {
+    padding: 22px 18px;
+    border-radius: 13px;
+  }
+  .lj-reader h2 {
+    font-size: 22px;
+  }
+  .lj-reader-top {
+    flex-wrap: wrap;
+  }
+  .lj-reader-foot > span:last-child {
+    display: none;
+  }
+  .lj-task-card h3,
+  .lj-writing-card h3 {
+    font-size: 19px;
+  }
+  .lj-observation-summary {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 18px;
+  }
+  .lj-response-record > summary {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 14px;
+  }
+  .lj-record-body {
+    padding: 15px;
+  }
+  .lj-evidence-report {
+    padding: 20px 16px;
+  }
+  .lj-report-heading h2 {
+    font-size: 21px;
+  }
+  .lj-trace > summary > span {
+    display: none;
+  }
+  .lj-entry-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+  }
+  .lj-entry {
+    padding: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .lj-sentence {
+    transition: none;
+  }
+}
+@media print {
+  .lj-review-form,
+  .lj-finish-actions,
+  .lj-help,
+  .lj-progress,
+  .lj-back {
+    display: none;
+  }
+  .lj-record-body {
+    display: block;
+  }
+  .lj-response-record {
+    break-inside: avoid;
+  }
+}

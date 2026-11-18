@@ -1,0 +1,7 @@
+
+const skill=document.getElementById('skill'),stage=document.getElementById('stage'),status=document.getElementById('status');
+function filter(){let n=0;document.querySelectorAll('.set').forEach(s=>{s.hidden=!!((skill.value&&s.dataset.skill!==skill.value)||(stage.value&&s.dataset.stage!==stage.value));if(!s.hidden)n++});status.textContent=n+'개 자료 묶음 표시'}skill.onchange=filter;stage.onchange=filter;
+let saved={};try{const x=JSON.parse(localStorage.getItem('readx-expansion-v2-02')||'{}');if(x&&typeof x==='object'&&!Array.isArray(x))saved=x}catch{status.textContent='저장 기록을 불러오지 못했습니다.'}
+document.querySelectorAll('[data-response]').forEach(el=>{const key=el.dataset.response;if(el.type==='radio')el.checked=saved[key]===el.value;else el.value=saved[key]||'';el.addEventListener('input',()=>{saved[key]=el.value;try{localStorage.setItem('readx-expansion-v2-02',JSON.stringify(saved))}catch{status.textContent='브라우저 저장이 제한됩니다. 인쇄나 답안 내려받기를 이용하세요.'}})});
+document.getElementById('download').onclick=()=>{const blob=new Blob([JSON.stringify({source:"expansion-v2-02",savedAt:new Date().toISOString(),responses:saved},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='국어_단계별_연습_답안.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)};
+const expand=document.getElementById('expand');if(expand)expand.onclick=()=>{document.querySelectorAll('details').forEach(d=>d.open=true)};

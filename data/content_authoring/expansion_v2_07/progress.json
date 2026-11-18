@@ -1,0 +1,119 @@
+{
+  "scope": "6수행의 선언한 단계·자료 공급",
+  "expectedStageCounts": {
+    "plan-G1-oral-02": {
+      "S2": 1,
+      "S3": 1
+    },
+    "plan-G2-oral-01": {
+      "S2": 1,
+      "S5": 1
+    },
+    "plan-G3-oral-04": {
+      "S3": 1,
+      "S5": 1
+    },
+    "plan-G4-oral-03": {
+      "S3": 1,
+      "S5": 1
+    },
+    "plan-G5-oral-01": {
+      "S3": 1,
+      "S5": 1
+    },
+    "plan-G6-oral-02": {
+      "S3": 1,
+      "S5": 1
+    }
+  },
+  "targetSets": 12,
+  "targetQuestions": 53,
+  "authoredSets": 12,
+  "authoredQuestions": 53,
+  "approvedSets": 0,
+  "remainingSets": 0,
+  "remainingQuestions": 0,
+  "skills": [
+    {
+      "skillId": "plan-G1-oral-02",
+      "grade": 1,
+      "track": "oral",
+      "name": "차례를 지켜 질문·응답",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "approvedSets": 0,
+      "audioDraftAssets": 2,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G2-oral-01",
+      "grade": 2,
+      "track": "oral",
+      "name": "듣고 대상과 행동 확인",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 2,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G3-oral-04",
+      "grade": 3,
+      "track": "oral",
+      "name": "다른 의견을 듣고 조정",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 2,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G4-oral-03",
+      "grade": 4,
+      "track": "oral",
+      "name": "근거와 순서로 발표",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 2,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G5-oral-01",
+      "grade": 5,
+      "track": "oral",
+      "name": "관점과 근거를 들으며 정리",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 2,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G6-oral-02",
+      "grade": 6,
+      "track": "oral",
+      "name": "주장을 확인하는 질문",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 2,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    }
+  ],
+  "audioDraftSetsTechnicallyVerified": 12,
+  "listeningAudioDraftSets": 12,
+  "readingModelAudioDraftSets": 0
+}

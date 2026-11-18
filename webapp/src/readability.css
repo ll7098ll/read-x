@@ -1,0 +1,231 @@
+/* Illustrated navigation and comfortable reading, shared across all ReadX spaces. */
+.rx-menu-art {
+  display: block;
+  width: 104px;
+  height: auto;
+  flex-shrink: 0;
+}
+.rx-portal-top {
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+.rx-portal-top .rx-menu-art {
+  width: 144px;
+  margin: -8px 0 0 -9px;
+}
+.rx-portal-top > span {
+  font-size: 13px;
+  color: #425568;
+  font-weight: 650;
+}
+.rx-portal h3 {
+  font-size: 20px;
+}
+.rx-portal p,
+.rx-page-description {
+  font-size: 16px;
+  color: #34475b;
+}
+.rx-portal-action,
+.rx-hero-note,
+.rx-collection-note {
+  font-size: 14px;
+}
+.rx-tabs {
+  gap: 12px;
+  padding: 2px 2px 14px;
+  border: 0;
+}
+.rx-tabs button {
+  gap: 12px;
+  padding: 10px 20px 10px 10px;
+  background: white;
+  border: 1px solid #ced8e2;
+  border-radius: 12px;
+  color: #283e53;
+  font-size: 16px;
+  font-weight: 700;
+  min-height: 78px;
+  flex-shrink: 0;
+}
+.rx-tabs .rx-menu-art {
+  width: 68px;
+}
+.rx-tabs button[aria-current="page"] {
+  background: #edf4ff;
+  border-color: #1d4ed8;
+  box-shadow: inset 0 -2px #1d4ed8;
+}
+.rx-tabs button > span {
+  font-size: 13px;
+}
+.rx-fine-print,
+.rx-footer p {
+  font-size: 13px;
+}
+.lj-meta,
+.lj-eyebrow,
+.lj-card-kicker,
+.lj-reader-caption,
+.lj-reader-top > span,
+.lj-settings {
+  font-size: 14px;
+}
+.lj-heading .rx-eyebrow {
+  font-size: 12px;
+}
+.lj-step-heading > div > p:last-child {
+  font-size: 16px;
+  color: #344b5e;
+}
+.lj-progress {
+  gap: 8px;
+  padding: 10px 0 12px;
+  border-top: 1px solid #ced8e2;
+  border-bottom: 1px solid #ced8e2;
+}
+.lj-progress button {
+  flex-direction: column;
+  gap: 3px;
+  padding: 8px 4px 12px;
+  border: 1px solid #d8e1e8;
+  border-radius: 12px;
+  background: white;
+  color: #33485b;
+  min-width: 0;
+}
+.lj-progress .rx-menu-art {
+  width: 86px;
+}
+.lj-progress button:disabled {
+  color: #46586a;
+  opacity: 1;
+  cursor: default;
+  background: #f7f9fb;
+}
+.lj-progress button:disabled .rx-menu-art {
+  filter: saturate(0.65);
+}
+.lj-progress button[aria-current="step"] {
+  border-color: #1d4ed8;
+  box-shadow: inset 0 -2px #1d4ed8;
+  background: #edf4ff;
+}
+.lj-progress button[aria-current="step"]::after {
+  display: none;
+}
+.lj-progress button .lj-stage-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: inherit;
+  font-size: 14px;
+  font-weight: 700;
+}
+.lj-stage-label small {
+  font-size: 11px;
+  font-weight: 600;
+}
+.lj-reader {
+  color: #192f40;
+}
+.lj-paragraph p {
+  font-weight: 500;
+  line-height: 2;
+}
+.lj-reader h2 {
+  font-weight: 700;
+}
+.lj-reader-foot,
+.lj-para-number {
+  font-size: 12px;
+}
+.lj-thought {
+  color: #25465a;
+  font-weight: 500;
+  font-size: 18px;
+}
+.lj-muted,
+.lj-check-note,
+.lj-source,
+.lj-help,
+.lj-entry p {
+  font-size: 14px;
+}
+.lj-fields textarea {
+  font-size: 16px;
+  color: #203e39;
+}
+.lj-fields textarea::placeholder {
+  color: #53675f;
+  font-size: 15px;
+}
+.lj-fields label b {
+  font-size: 15px;
+}
+.lj-entry-icon {
+  width: 112px;
+  height: 86px;
+  background: transparent;
+}
+.lj-entry-icon .rx-menu-art {
+  width: 112px;
+}
+.lj-back,
+.lj-text-button {
+  font-size: 14px;
+}
+@media (max-width: 1100px) {
+  .lj-progress button .lj-stage-label {
+    flex-direction: column;
+    gap: 0;
+  }
+  .rx-tabs button {
+    padding-right: 14px;
+  }
+}
+@media (max-width: 800px) {
+  .lj-progress button {
+    min-width: 105px;
+  }
+  .lj-progress .rx-menu-art {
+    width: 72px;
+  }
+  .lj-progress button .lj-stage-label {
+    flex-direction: row;
+    font-size: 13px;
+  }
+  .rx-tabs {
+    gap: 8px;
+  }
+  .rx-tabs button {
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 14px 12px;
+    min-width: 105px;
+    font-size: 14px;
+  }
+  .rx-tabs .rx-menu-art {
+    width: 65px;
+  }
+  .lj-entry-icon,
+  .lj-entry-icon .rx-menu-art {
+    width: 90px;
+    height: auto;
+  }
+  .rx-portal-top .rx-menu-art {
+    width: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .rx-page-description,
+  .lj-intro-main > p:not(.lj-eyebrow) {
+    font-size: 15px;
+  }
+  .rx-portal h3 {
+    font-size: 19px;
+  }
+  .rx-portal p {
+    font-size: 15px;
+  }
+}

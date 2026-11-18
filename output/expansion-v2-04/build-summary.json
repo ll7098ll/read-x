@@ -1,0 +1,17 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "7b0b7678836714efda8c097e414caac1baf61d3432be14a3c635c15aedf2e9e1",
+  "sets": 12,
+  "questions": 50,
+  "newSkills": 6,
+  "newSkillStageCells": 12,
+  "narrativeWorks": 8,
+  "poems": 6,
+  "poetryLines": 33,
+  "interpretationCriteria": 28,
+  "literaryConsistencyChecks": 29,
+  "passed": true,
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

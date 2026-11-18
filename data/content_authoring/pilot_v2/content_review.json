@@ -1,0 +1,572 @@
+{
+  "asOf": "2026-11-17",
+  "reviewType": "AI self review; not independent teacher approval",
+  "findings": [
+    {
+      "id": "PV2-R01",
+      "materials": [
+        "PV2-G2-language-07-S4-A",
+        "PV2-G2-language-07-S4-B"
+      ],
+      "issue": "의미 풀기 자료에 손과 열쇠의 정답 뜻풀이가 직접 제시되어 단서 찾기로 해결 가능했음",
+      "change": "직접적인 뜻풀이 문단을 상황의 후속 행동으로 교체. 일의 변화·물건의 유무를 연결해 뜻을 해석하도록 근거 수정",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R02",
+      "materials": [
+        "PV2-G4-information-05-S4-A",
+        "PV2-G4-information-05-S4-B"
+      ],
+      "issue": "설명 문단이 변경 대상과 유지 대상을 직접 요약해 주어 관계 재구성 요구가 약했음",
+      "change": "설명 문단을 학생들의 상충하는 행동과 질문으로 변경. 앞 문단의 공지와 원래 약속을 대조하도록 수정",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R03",
+      "materials": [
+        "PV2-G2-language-07-S5-A"
+      ],
+      "issue": "배의 뜻을 고르라는 요구는 단서가 없는 자료에서 추측을 강요할 수 있음",
+      "change": "판단 보류·추가 확인 질문·조건부 수정문을 정답 수행으로 명시",
+      "status": "included_in_authored_design"
+    },
+    {
+      "id": "PV2-R04",
+      "materials": [
+        "PV2-G4-information-05-S6-A",
+        "PV2-G4-information-05-S6-B"
+      ],
+      "issue": "하루 예외를 다음 주까지 일반화하거나 전시와 체험 규칙을 합칠 위험",
+      "change": "날짜·대상·규칙을 나누는 문항과 부분 답·잘못된 답의 실제 예를 루브릭에 포함",
+      "status": "included_in_authored_design"
+    },
+    {
+      "id": "PV2-R05",
+      "materials": [
+        "PV2-G2-language-07-S2-B",
+        "PV2-G2-language-07-S3-A",
+        "PV2-G2-language-07-S5-B",
+        "PV2-G4-information-05-S3-A",
+        "PV2-G4-information-05-S4-A",
+        "PV2-G4-information-05-S4-B",
+        "PV2-G4-information-05-S6-B"
+      ],
+      "issue": "정답 선지가 다른 선지보다1.4배 이상 긴 선택형7개 발견",
+      "change": "정답 표현 압축 또는 부분 조건만 맞는 오답을 유사한 문장 길이로 재작성. 문항 의도와 정답은 유지",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R06",
+      "materials": [
+        "PV2-G4-information-05-S4-A"
+      ],
+      "issue": "전시관 정상 운영만으로 학급 오전 일정 유지가 반드시 증명되지는 않음",
+      "change": "오전에 전시관 입구에서 안내 교사와 만난다는 공지를 추가하여 남은 일정의 명시적 근거 확보",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R07",
+      "materials": [
+        "PV2-G1-literature-05-S5-A",
+        "PV2-G1-literature-05-S5-B",
+        "PV2-G1-literature-05-S6-B",
+        "PV2-G3-information-08-S5-B"
+      ],
+      "issue": "새 선택형4개에서 정답 선지만 상대적으로 길었음",
+      "change": "정답을 압축하거나 오답을 실제 문맥의 부분 정보로 다시 써 길이 단서를 줄임",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R08",
+      "materials": [
+        "PV2-G3-information-08-S3-A"
+      ],
+      "issue": "상자 치수가 바깥 치수인지 안쪽 치수인지 분명하지 않으면 막대 수납 판단의 근거가 부족할 수 있음",
+      "change": "두 치수가 모두 안쪽을 잰 값이라고 본문에 명시. 길이 방향으로 넣는 조건은 유지",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R09",
+      "materials": [
+        "PV2-G3-information-08-S3-A"
+      ],
+      "issue": "근거 인용 길이30cm가 두 문장에 반복되어 위치를 하나로 정할 수 없었음",
+      "change": "가 상자는 길이30cm로 인용을 구체화해 단일 문장에 연결",
+      "status": "revised_reference_check_passed"
+    },
+    {
+      "id": "PV2-R10",
+      "materials": [
+        "all_authored_pilot_sets"
+      ],
+      "issue": "정답 구절 인용만으로는 정답 판단 관계를 충분히 설명하지 못하는 해설이 있었음",
+      "change": "선택형48개에 정답을 지지하는 관계와 다른 해석을 제외하는 이유를 개별 문장으로 집필",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R11",
+      "materials": [
+        "PV2-G3-information-08-S2-A",
+        "PV2-G3-information-08-S2-B",
+        "PV2-G3-information-08-S3-A",
+        "PV2-G3-information-08-S3-B",
+        "PV2-G3-information-08-S5-A",
+        "PV2-G3-information-08-S6-A"
+      ],
+      "issue": "같은 기준을 나란히 비교할 수 있는 실제 시각 자료가 부족했음",
+      "change": "본문과 대응하는 표6개를 작성하고 표 해시·행열 수·원문 수치 대응을 검증",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R12",
+      "materials": [
+        "PV2-G6-media-07-S4-B"
+      ],
+      "issue": "같은40명의28명과20명 응답에서 정확한 겹침이 미확인이라는 점만 강조하면0명도 가능하다고 오해할 수 있음",
+      "change": "합48이전체40을넘으므로최소8명겹친다는제약을문항·해설·지도안에반영. 정확한겹침과포함관계미확인은별도로유지",
+      "status": "revised_numeric_and_key_check_passed_pending_teacher"
+    },
+    {
+      "id": "PV2-R13",
+      "materials": [
+        "PV2-G6-media-07-S4-A"
+      ],
+      "issue": "모둠전체12분을4명으로나눈값을개인별평균체험시간으로보이게하는부분답표현이있었음",
+      "change": "전체시간에는준비시간이포함될수있고개인별실측이없음을명확히하도록부분답설명을고침",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R14",
+      "materials": [
+        "PV2-G6-media-07-S3-B"
+      ],
+      "issue": "정답선지가대안보다길어보이는편집후보탐지",
+      "change": "정답을압축하고부분집계오류의오답을문맥에맞게보완. 중복5명을한번만빼는판단은유지",
+      "status": "revised_option_length_check_passed"
+    },
+    {
+      "id": "PV2-R15",
+      "materials": [
+        "PV2-G5-writing-09-S2-A",
+        "PV2-G5-writing-09-S2-B",
+        "PV2-G5-writing-09-S3-A",
+        "PV2-G5-writing-09-S3-B",
+        "PV2-G5-writing-09-S4-A",
+        "PV2-G5-writing-09-S4-B",
+        "PV2-G5-writing-09-S5-A",
+        "PV2-G5-writing-09-S5-B",
+        "PV2-G5-writing-09-S6-A",
+        "PV2-G5-writing-09-S6-B"
+      ],
+      "issue": "복합주장쓰기의전체예시답만으로는근거·반론·조건중어디가부족한지판정하기어려움",
+      "change": "10쓰기과제에3개씩서로다른분석준거작성. 학생용에는준거이름과논증계획안내를제공하고교사용에는준거별0·1·2수행예시제공",
+      "status": "authored_analytic_rubrics_pending_teacher"
+    },
+    {
+      "id": "PV2-R16",
+      "materials": [
+        "PV2-G5-writing-09-S5-B",
+        "PV2-G6-media-07-S2-B",
+        "PV2-G6-media-07-S3-A",
+        "PV2-G6-media-07-S3-B",
+        "PV2-G6-media-07-S4-A",
+        "PV2-G6-media-07-S4-B",
+        "PV2-G6-media-07-S6-A",
+        "PV2-G6-media-07-S6-B"
+      ],
+      "issue": "다중자료의수치·상태범위를직접비교할시각자료필요",
+      "change": "표8개추가. 원문·표의수치대응과분모·중복집계·상태합계·주요수치정답까지검사",
+      "status": "source_table_numeric_checks_passed_pending_teacher"
+    },
+    {
+      "id": "PV2-R17",
+      "materials": [
+        "plan-G5-writing-09",
+        "plan-G6-media-07"
+      ],
+      "issue": "교육과정 연결을 빈 배열로 둔 상태에서는 새 수행의 근거를 검토하기 어려움",
+      "change": "주장 쓰기와 자료 평가의5~6학년군 원문5개를 기존 성취기준 원장 및 별책5 추출본의 해당 행과 대조. 새24자료에 고시 버전·원문 위치·해시·연결 후보 상태를 저장. 특정 학년 공식 배치나 교사 승인을 주장하지 않음",
+      "status": "source_text_verified_alignment_pending_teacher"
+    },
+    {
+      "id": "PV2-R18",
+      "materials": [
+        "plan-G2-writing-11"
+      ],
+      "issue": "빠진 정보를 보태는 쓰기가 확인하지 않은 내용을 지어 넣는 활동으로 바뀔 수 있음",
+      "change": "때·곳·수량·제공 담당·신청 범위·미정 정보를 구별하는 12묶음 52문항 집필. 쓰기 10과제에 상황별 분석 준거 두 개씩 작성",
+      "status": "authored_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R19",
+      "materials": [
+        "PV2-G2-writing-11-S4-A",
+        "PV2-G2-writing-11-S4-B",
+        "PV2-G2-writing-11-S5-A",
+        "PV2-G2-writing-11-S5-B",
+        "PV2-G4-media-02-S5-A",
+        "PV2-G4-media-02-S5-B"
+      ],
+      "issue": "해석·평가 단계의 설명 문단이 판단 결과나 방법을 미리 알려 줌",
+      "change": "직접 해설을 친구의 행동·상충 주장·확인 질문으로 바꾸고 문항 근거를 원메모와 실제 그래프 요소로 다시 연결",
+      "status": "revised_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R20",
+      "materials": [
+        "plan-G4-media-02"
+      ],
+      "issue": "그래프 읽기를 글 설명만으로 대체하면 실제 기호·축·범례 읽기를 확인하지 못함",
+      "change": "12묶음 52문항과 실제 그래프 15개 제작. 그래프 요소 근거 85건 연결. 빈 범례와 빈 눈금은 그림과 대체 설명에도 정답을 미리 넣지 않음. 잘못된 단위와 6부터 시작하는 축은 의도된 검토 초안으로 기록",
+      "status": "rendered_and_visually_reviewed_pending_teacher"
+    },
+    {
+      "id": "PV2-R21",
+      "materials": [
+        "PV2-G2-writing-11-S1-B-Q1",
+        "PV2-G2-writing-11-S5-B-Q1"
+      ],
+      "issue": "정답 선택지만 긴 두 문항이 탐지됨",
+      "change": "오답도 동일한 정보 수준의 완결된 표현으로 고쳐 정답 길이 단서를 줄임. 재검사에서 편집 탐지값 1.4 기준 후보 없음",
+      "status": "revised_length_screen_passed_pending_teacher"
+    },
+    {
+      "id": "PV2-R22",
+      "materials": [
+        "PV2-G4-media-02-S6-A"
+      ],
+      "issue": "독립 적용 자료의 수가 앞선 연습과 같아 기존 값을 재사용할 수 있음",
+      "change": "장바구니 기록을 8개·14개로 집필하고 기호 4개·7개, 차이 6개, 두 배 기준 16개를 원기록·문항·해설·그림에 일관되게 반영",
+      "status": "source_graph_key_checks_passed_pending_teacher"
+    },
+    {
+      "id": "PV2-R23",
+      "materials": [
+        "plan-G2-writing-11"
+      ],
+      "issue": "저학년 발문에 확정·미확정·현장 제공 등 편집 용어 부담이 있음",
+      "change": "정해진 것·아직 정하지 않은 것·가져올 것·그곳에서 받는 것 등으로 발문과 쓰기 계획 안내를 다듬음",
+      "status": "wording_revised_pending_student_observation"
+    },
+    {
+      "id": "PV2-R24",
+      "materials": [
+        "plan-G5-literature-06"
+      ],
+      "issue": "문학을 인물 감정 확인만으로 공급하면 고학년의 시적 목소리·복합 정서·표현 효과를 다루지 못함",
+      "change": "창작시14편 68행으로 12묶음 52문항 집필. 직접 정서 확인·전후 변화·생략된 선택·상반된 말투·경쟁 해석·두 시 비교와 답시를 단계별로 편성",
+      "status": "authored_pending_teacher_review"
+    },
+    {
+      "id": "PV2-R25",
+      "materials": [
+        "plan-G5-literature-06"
+      ],
+      "issue": "화자의 말과 실제 작가의 경험·성격을 동일시하거나 소재 하나로 정서를 확정할 위험",
+      "change": "화자·작가·독자를 구별하는 문항과 외부 환호/화자 행동 대조를 추가. 젖은 소매의 원인은 단정하지 않고 다른 타당한 정서어도 시구 관계로 검토",
+      "status": "revised_interpretation_scope_pending_teacher"
+    },
+    {
+      "id": "PV2-R26",
+      "materials": [
+        "plan-G5-literature-06"
+      ],
+      "issue": "자유시의 행을 산문 문단처럼 렌더링하면 표현의 호흡과 서로 다른 시의 경계가 흐려짐",
+      "change": "시 제목·행 문단 ID·원문 행·해시를 저장하고 별도 시 블록으로 표시. 학생용과 교사용에14편68행이 정확히 한 번씩 보존되는지 검사",
+      "status": "line_structure_checks_passed_browser_runtime_pending"
+    },
+    {
+      "id": "PV2-R27",
+      "materials": [
+        "PV2-G5-literature-06-S4-A",
+        "PV2-G5-literature-06-S5-A"
+      ],
+      "issue": "끈이 풀리는 소리를 단서로 삼는 장면이 부자연스럽고 발자국 하나라는 말이 한 사람의 흔적과 한 걸음을 혼동시킴",
+      "change": "출발 장면을 뒤에서 친구 발끝이 멈추는 모습으로 수정. 발자국을 한 줄로 고치고 인용·선택지·해설도 함께 수정",
+      "status": "revised_and_reference_checks_passed"
+    },
+    {
+      "id": "PV2-R28",
+      "materials": [
+        "plan-G5-literature-06"
+      ],
+      "issue": "감상 쓰기와 창작 답시를 예시 정서 하나에 고정하면 타당한 다른 해석·상상을 배제할 수 있음",
+      "change": "쓰기10과제에 상황별 분석 준거 작성. 답시는 새 화자·원시 응답·시적 구성3준거로 평가하며 다른 감정도 수용. 후속 설명에서 원시 근거와 새 상상을 구별",
+      "status": "analytic_rubrics_authored_pending_teacher"
+    },
+    {
+      "id": "PV2-R29",
+      "materials": [
+        "PV2-AUDIO-PROBE-koKR"
+      ],
+      "issue": "남은 듣기·읽기 수행에 실제 음성 파일을 만들 수 있는지 확인되지 않음",
+      "change": "설치된Microsoft Heami ko-KR로 점검 대본을18초 WAV로 합성.16kHz·16bit·mono 구조,무음 아님,클리핑0을 확인. 최초 샌드박스 권한 오류 뒤 정책 변경 없이 승인된 환경에서 실행. 발음·쉼·수업 적합성 청취 검토는 대기이며 학습 묶음 수에는0으로 집계",
+      "status": "technical_audio_probe_passed_listening_review_pending"
+    },
+    {
+      "id": "PV2-R30",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G3-oral-02"
+      ],
+      "issue": "모르는 내용 질문을 텍스트 문제로만 만들면 실제 듣기·질문·답 확인의 증거가 부족함",
+      "change": "12가지 창작 안내·대화로 12묶음52문항과 실제 한국어 음성12개 제작. 직접 말하기12과제에 궁금한 정보·대상과 조건·답 확인의3준거 및 실제 발화·재생·지원·응답 기록란 작성",
+      "status": "authored_with_audio_drafts_pending_live_observation"
+    },
+    {
+      "id": "PV2-R31",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G3-oral-02"
+      ],
+      "issue": "대본·응답자 답변·선택지가 첫 말하기 전에 해법을 노출할 수 있음",
+      "change": "학생용HTML과 텍스트에서 전체 대본과 응답자 카드를 제외하고 음성으로 제공. S4~S6는 말하기를 선택형보다 먼저 표시. 교사용에 대본12·답변 카드12·인쇄용 관찰란12를 분리. 이는 학습 진행 순서이며 보안 시험 기능은 아님",
+      "status": "edition_separation_and_order_checks_passed"
+    },
+    {
+      "id": "PV2-R32",
+      "asOf": "2026-11-15",
+      "materials": [
+        "PV2-G3-oral-02-S3-B",
+        "PV2-G3-oral-02-S4-A",
+        "PV2-G3-oral-02-S2-B"
+      ],
+      "issue": "예시와 다른 유효 질문이나 형식 차이를 수행 부족으로 오판할 수 있음",
+      "change": "다음 입장 시각을 직접 묻는 방식과 앞 모둠의 종료·소요를 묻는 방식을 모두 수용. 정해진 서두나 정확한 문자열을 요구하지 않도록 지침·부분 답 보완. 기한 재확인과 예·아니요 질문 자체를 금지하지 않음",
+      "status": "rubrics_revised_pending_teacher"
+    },
+    {
+      "id": "PV2-R33",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G3-oral-02"
+      ],
+      "issue": "응답자가 아직 묻지 않은 답까지 알려 주면 질문 수행을 과대평가할 수 있음",
+      "change": "첫 질문 후 실제로 물은 항목에만 응답하고 이미 안내한 항목은 그 내용만 반복하도록 카드 지침 수정. 모호한 질문에는 먼저 명료화를 요청하며 메모 입력을 실제 말하기 점수로 대체하지 않음",
+      "status": "partner_protocol_authored_pending_live_observation"
+    },
+    {
+      "id": "PV2-R34",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G3-oral-02"
+      ],
+      "issue": "요청 파일이 바뀐 뒤 기존 WAV를 새 대본의 결과로 잘못 검증할 수 있음",
+      "change": "합성 시 실제 요청 파일·입력 대본·WAV 해시를 기록하고 최신 콘텐츠 스냅샷과 대조. 요청/대본/WAV 해시를 바꾼 세 보고서를 모두 거부하는 검사 통과. 실제 음성12개196.85초는PCM16kHz16bitmono·무음 아님·클리핑0을 확인. 발음·쉼·속도 청취 검토는 별도 대기",
+      "status": "audio_integrity_and_negative_checks_passed"
+    },
+    {
+      "id": "PV2-R35",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G3-oral-02"
+      ],
+      "issue": "질문 세분화의 편집 목표를 공식 성취기준 자체로 오인할 수 있음",
+      "change": "중요 내용 파악 및 상황·상대 고려 대화의3~4학년군 원문2개를 출처 행·파일 해시와 대조해 단원 수준 연결 후보로 저장. 세부 질문 수행과 학년 배치의 교사 검토는 미완료로 기록",
+      "status": "source_checked_alignment_candidate"
+    },
+    {
+      "id": "PV2-R36",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G6-oral-04"
+      ],
+      "issue": "반론 과제가 읽고 답을 고르기만 하는 방식이면 듣고 설명을 수정하는 실제 수행을 확인하기 어려움",
+      "change": "창작 설명·반론12상황으로12묶음52문항과 새 음성12개280.805초 제작. 직접 수정 설명12과제에 반론 핵심·유지수정과 근거·실제 설명과 후속 확인의3준거를 작성. 전체 실제 음성은24개477.655초이며 청취·교사·학생 검증은 대기",
+      "status": "audio_drafts_and_spoken_tasks_authored_pending_observation"
+    },
+    {
+      "id": "PV2-R37",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G6-oral-04"
+      ],
+      "issue": "반론을 들으면 무조건 철회하거나 모든 의견에 동의하는 수행으로 오해할 수 있음",
+      "change": "일부 예외 반영·집단 및 기간 범위 수정·동시 변화의 원인 단정 제한·오해된 전제 명료화·확인된 사실 정정·실행 조건 조정을 구별해 집필. 타당한 원안 부분도 보존하고 근거 없는 전면 취소는 구별",
+      "status": "interpretation_and_revision_scope_reviewed_by_author"
+    },
+    {
+      "id": "PV2-R38",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G6-oral-04",
+        "plan-G3-oral-02"
+      ],
+      "issue": "기존 질문하기용 공통 안내와 카드 시점이 수정 설명 과제에는 맞지 않음",
+      "change": "설명 수정별 수행 안내와 카드 제목·개입 시점을 저장하고 출력. S4-A는 구체적 어려움을 물은 뒤에만 응답을 제공하고 나머지는 첫 수정 설명 뒤 확인 질문 사용.24말하기 과제 각각의 출력 안내와 실제 제시 순서를 검사",
+      "status": "task_instructions_and_partner_timing_checks_passed"
+    },
+    {
+      "id": "PV2-R39",
+      "asOf": "2026-11-15",
+      "materials": [
+        "PV2-G6-oral-04-S2-A",
+        "PV2-G6-oral-04-S3-A",
+        "PV2-G6-oral-04-S5-A",
+        "PV2-G6-oral-04-S6-B"
+      ],
+      "issue": "설명 수정의 수치·분모·시간 실행안이 원 음성 및 예시 답과 일치하는지 대조 필요",
+      "change": "원고의 한글 수량과 집단 합계·관찰값·표 정리·선택 정답·말하기 예시 계산을9개 검사로 대조. 전원12명 최소3분·매회준비8분·40분·2회 조건에서 원안56분, 한 번 최소44분, 수정6명씩4분의32분을 확인. 전체 수치 검사는49개",
+      "status": "source_numeric_and_solution_checks_passed"
+    },
+    {
+      "id": "PV2-R40",
+      "asOf": "2026-11-15",
+      "materials": [
+        "PV2-G6-oral-04-S6-A"
+      ],
+      "issue": "마지막 복합 반론 상황이 기존 전시 개선·예산 소재와 겹쳐 다양성이 부족함",
+      "change": "파일 제목·날짜·수정 차수로 최신본을 찾는 목적과 기존 연결 유지 조건을 조정하는 디지털 자료 상황으로 교체. 이름 변경 시 옛 연결이 끊기는 것은 이 창작 보관함의 규칙으로만 제시하고 실제 서비스 전체의 법칙으로 일반화하지 않음",
+      "status": "scenario_rewritten_and_evidence_checked"
+    },
+    {
+      "id": "PV2-R41",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G6-oral-04"
+      ],
+      "issue": "편집상의 반론·설명 수정 목표와 공식 성취기준의 관계를 구별할 필요",
+      "change": "주장·근거 평가 듣기와 협력적 의견 비교·조정의5~6학년군 원문2개를 로컬 출처 행·해시로 대조해 연결 후보로 기록. 특정 문항 측정 범위·학년 배치·독립 교사 승인은 미완료",
+      "status": "source_checked_alignment_candidate"
+    },
+    {
+      "id": "PV2-R42",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G1-language-03"
+      ],
+      "issue": "정확히 읽기를 선택형 답이나 따라 읽기만으로 확인하면 실제 첫 읽기 수행을 알 수 없음",
+      "change": "짧은 문장·안내·대화20문장으로12묶음52문항 집필. 실제 소리 내어 읽기12과제와 첫 읽기·모델 전 자기 수정·지원 뒤 읽기를 구별하는 관찰표12개, 원문 어절71개 기준 작성. 기록란은 빈 양식이며 실제 학생 자료로 채우지 않음",
+      "status": "visible_reading_tasks_and_blank_observation_forms_authored"
+    },
+    {
+      "id": "PV2-R43",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G1-language-03"
+      ],
+      "issue": "모델 또는 진행 문구가 첫 읽기 전에 목표 낱말을 들려줄 수 있음",
+      "change": "모든 묶음에서 소리 내어 읽기를 첫 과제로 표시하고 모델12개는 그 과제 뒤의 닫힌 영역에 배치. 진행 문구의 구체적인 목표 낱말을 일반 지시로 수정. 학생이 실제로 먼저 읽었는지는 관찰자가 기록하며 클릭·메모만으로 독립 수행을 자동 판정하지 않음",
+      "status": "model_placement_and_instruction_revised_actual_exposure_pending_observation"
+    },
+    {
+      "id": "PV2-R44",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G1-language-03"
+      ],
+      "issue": "철자와 소리가 다르거나 방언·억양이 있다는 이유로 누락·대치 오류로 오판할 수 있음",
+      "change": "자연스러운 발음·음운 변동을 철자 불일치만으로 오류 처리하지 않도록 지침 작성. 문장부호 이름과 인물 표시 낭독은 요구하지 않음. 속도·모델 뒤 성공을 첫 읽기 점수로 대체하지 않으며 실제 발음과 모델 적합성은 국어 교사 검토 대기",
+      "status": "pronunciation_policy_authored_pending_korean_teacher_review"
+    },
+    {
+      "id": "PV2-R45",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G1-language-03"
+      ],
+      "issue": "낭독 예시·선택 정답·실제 보이는 글·원문 관찰표가 어긋날 수 있음",
+      "change": "모델 입력과 보이는 문장의 일치,20문장·71어절의 출력 보존, 첫 읽기 뒤 모델 위치를 검사. 선택 정답의 원문 일치·빠진 말·바뀐 말과 낭독 예시를24개 검사로 대조. 모델 음성12개48.91초는 파일 구조·무음 여부·클리핑 검사를 통과했고 청취 검토는 남음",
+      "status": "reading_reference_and_output_checks_passed"
+    },
+    {
+      "id": "PV2-R46",
+      "asOf": "2026-11-15",
+      "materials": [
+        "plan-G1-language-03"
+      ],
+      "issue": "국어의 편집6단계를 초1의 공인 해독 발달 단계나 실제 난도 규준으로 오인할 수 있음",
+      "change": "짧은 말 보존·두 문장 연결·뜻 차이로 점검·자기 수정·새 형식 적용이라는 지도 역할로 단계 요구를 기록. 정확하게 소리 내어 읽기1~2학년군 원문을 행·해시로 대조한 후보만 연결하고 개별 난도·발음·관찰 기준의 승인은 보류",
+      "status": "curriculum_source_candidate_checked_not_empirical_levels"
+    },
+    {
+      "id": "PV2-R47",
+      "asOf": "2026-11-15",
+      "materials": [
+        "pilot-v2"
+      ],
+      "issue": "대표 초안 수량을 채운 것을 전체 콘텐츠 공급·게시 승인·실제 효과 검증 완료로 오인할 수 있음",
+      "change": "대표144묶음624문항·듣기24개·읽기모델12개를 실제 산출물로 검사하고 준비 상태 보고서를 별도 생성. 승인0·학생 보정0·음성 청취36개 대기·성취기준 후보 연결72자료 공백·전체 편성의2088단계 칸 미집필을 분리해 표시. 전체 목표는 미입증으로 유지",
+      "status": "representative_draft_quantity_met_full_objective_not_proven"
+    },
+    {
+      "id": "PV2-R48",
+      "asOf": "2026-11-17",
+      "materials": [
+        "plan-G1-literature-05",
+        "plan-G2-language-07",
+        "plan-G3-information-08",
+        "plan-G4-information-05",
+        "plan-G2-writing-11",
+        "plan-G4-media-02"
+      ],
+      "issue": "기준 코드가 비어 있던72자료를 넓은 문구에 일괄 연결하면 실제 측정 범위를 과장할 수 있음",
+      "change": "로컬2022-33 원문·해설과 대조해27자료는 국어 성취요소 일부 후보,45자료는 보조·관련 활동으로 분류. 관계·다루는 부분·미측정 부분·질문별 연결을 저장. 기존 후보72와 합쳐 국어 기준 연결 후보99, 보조·타교과 연계45로 구별하며 승인0은 유지",
+      "status": "source_scope_classified_pending_teacher"
+    },
+    {
+      "id": "PV2-R49",
+      "asOf": "2026-11-17",
+      "materials": [
+        "plan-G4-media-02"
+      ],
+      "issue": "그래프 해석을 국어의 매체 발표 자료 제작 성취로 계산할 위험",
+      "change": "4수04-01의 그림·막대 해석 부분을 타교과 연계로 기록하고 자료 수집·그래프 제작 전체는 미측정으로 표시.4국06-02는 후속 자료 제작 활동의 연계로만 두고 현재 해석 정답을 제작 수행으로 바꾸지 않음",
+      "status": "cross_subject_scope_separated"
+    },
+    {
+      "id": "PV2-R50",
+      "asOf": "2026-11-17",
+      "materials": [
+        "PV2-G2-language-07-S1-A",
+        "plan-G2-language-07"
+      ],
+      "issue": "같은 글자로 쓴 말의 뜻 구별을 모든 예가 한 낱말의 다의어라는 정의로 오인할 수 있음",
+      "change": "국립국어원의 사전 처리 구별을 참고해 도입문을 같은 글자로 쓴 말의 문맥 뜻 학습으로 수정. 동음이의어·다의어를 모두 같은 개념으로 평가하지 않고 초2 전문 분류를 요구하지 않도록 교사용 범위 기록. 원고v1은 보존하고 수정본은v2로 구별",
+      "status": "wording_and_lexical_scope_revised_pending_teacher"
+    },
+    {
+      "id": "PV2-R51",
+      "asOf": "2026-11-17",
+      "materials": [
+        "PV2-G3-information-08-S5-A",
+        "PV2-G3-information-08-S5-B"
+      ],
+      "issue": "근거 평가 단계의 본문이 단위 비교와 독자 목적의 판단 이유를 미리 설명함. 일부 오답도 쉽게 배제되는 엉뚱한 보기였음",
+      "change": "정답 해설 문단을 상충하는 의견·검토 상황으로 바꾸고 관련 근거 위치·인용을 수정. 실제 수치와 표는 유지. 오답은 단위와 기준·글씨 크기·목적·공통점 혼동을 반영하도록 개별 이유와 함께 교체. 수정 전 전체 자료·문항은 보존",
+      "status": "source_and_distractors_revised_v2_pending_teacher"
+    },
+    {
+      "id": "PV2-R52",
+      "asOf": "2026-11-17",
+      "materials": [
+        "PV2-G2-language-07-S1-A",
+        "PV2-G3-information-08-S5-A",
+        "PV2-G3-information-08-S5-B"
+      ],
+      "issue": "원문과 문항을 바꾸면서 같은 버전의 근거를 그대로 참조하면 수정 이력을 구별하기 어려움",
+      "change": "3자료의v1 스냅샷·이전 본문 해시를 보존하고 자료·문항·근거 버전을v2로 함께 갱신. 이전과 새 본문 해시의 차이 및 보존 파일 참조를 검사. 관련 표 수치·낭독 및 음성 자산의 스냅샷 검사를 다시 수행",
+      "status": "revision_trace_and_version_checks_passed"
+    },
+    {
+      "id": "PV2-R53",
+      "asOf": "2026-11-17",
+      "materials": [
+        "pilot-v2"
+      ],
+      "issue": "원문 연결 개수만 늘면 학생이나 교사가 전체 성취기준 검증·학년 승인 완료로 오인할 수 있음",
+      "change": "교사용에72개 범위 패널과312문항의 준비·관련 활동/부분 요소 후보 표시를 추가. 학생용에는 검토 메타데이터를 넣지 않음. 원문·해시·과목·학년군·역할·제외한 측정 주장을 검사하고 별도 범위 원장과 준비 상태 보고서로 남은45자료의 교수 목표 검토를 표시",
+      "status": "scope_reporting_authored_pending_independent_review"
+    }
+  ],
+  "remaining": [
+    "직접 국어 측정 주장을 보류한45자료의 내부 교수 목표·선수 교과 기능·활동 범위 검토",
+    "국어·수학 최신 통합 원문과2022-33 기준 텍스트의 대상 기준 대조 및 적용 버전 확인",
+    "읽기 모델12개와 듣기24개의 발음·쉼·속도 청취 검토",
+    "독립 교사에 의한144자료의 정답·목표·단계·학년 적합성 검토",
+    "실제 학생의 첫 수행·지원·노출을 구별한 관찰과 난도 확인",
+    "실제 브라우저의 재생·필터·답안 저장·인쇄·접근성 검수",
+    "전체360수행 후보·2160단계 칸·7200묶음 공급 계획의 유효성 검토와 실제 콘텐츠 확대"
+  ]
+}

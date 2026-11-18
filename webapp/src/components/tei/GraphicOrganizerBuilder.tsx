@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import type { GraphicOrganizerData } from '../../types/courseware';
+import type { GraphicOrganizerData, CardSortOrganizerData, ReferenceNode } from '../../types/courseware';
 
 interface GraphicOrganizerBuilderProps {
   data: GraphicOrganizerData;
   onComplete?: (isFullyCorrect: boolean) => void;
 }
 
-export const GraphicOrganizerBuilder: React.FC<GraphicOrganizerBuilderProps> = ({
+const CardSortOrganizer: React.FC<GraphicOrganizerBuilderProps & { data: CardSortOrganizerData }> = ({
   data,
   onComplete,
 }) => {
@@ -195,4 +195,21 @@ export const GraphicOrganizerBuilder: React.FC<GraphicOrganizerBuilderProps> = (
       )}
     </div>
   );
+};
+
+function ReferenceOutline({ nodes }: { nodes: ReferenceNode[] }) {
+  return <ul className="space-y-3">{nodes.map((node, i) => <li key={i} className="border-l-2 border-emerald-200 pl-3">
+    <span className="font-semibold text-emerald-900">{node.label}</span>
+    {node.text && <p className="mt-1 leading-relaxed text-slate-700">{node.text}</p>}
+    {node.children && <div className="mt-2"><ReferenceOutline nodes={node.children} /></div>}
+  </li>)}</ul>;
+}
+
+export const GraphicOrganizerBuilder: React.FC<GraphicOrganizerBuilderProps> = props => {
+  if (props.data.activityType === 'reference') return <section className="bg-white border border-emerald-200 rounded-2xl p-5 space-y-4">
+    <h3 className="font-bold text-lg">{props.data.title}</h3>
+    <p className="text-sm text-slate-600">함께 읽는 생각 정리 자료예요. 본문의 어느 부분을 연결했는지 짚고, 내 말로 설명해 보세요.</p>
+    <ReferenceOutline nodes={props.data.sections} />
+  </section>;
+  return <CardSortOrganizer {...props} data={props.data} />;
 };

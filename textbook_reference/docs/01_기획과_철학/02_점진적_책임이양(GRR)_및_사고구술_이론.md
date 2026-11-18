@@ -1,5 +1,9 @@
 # [Track 2 심층 조사 보고서] 질문(Questioning) + 사고구술(Think-Aloud) 기반 읽기·쓰기 사고과정 프로토콜
 
+<!-- readx-document-context -->
+> 작성 당시의 설계·조사·구현 기록입니다. 현재 기능과 운영 상태는 최신 현황을 우선합니다. [문서 목차](../../../docs/README.md) · [최신 현황](../../../docs/PROJECT_STATUS.md)
+
+
 기존 설계 문서(`implementation_plan.md`) 및 프로토타입 데이터(`textbook_data_kkolttugi.json`)를 분석한 결과, 현재 `think_aloud.script`와 `segmented_passages[].scaffold_text`가 **단일 문장형 해설(1~2문장 요약 코멘트)** 위주로 작성되어 있고 `think_aloud.steps` 배열이 비어(`[]`) 있어, 학습자가 숙련된 독자·필자의 머릿속 인지 과정을 단계별로 모방·체득하기에 구조적 한계가 있음을 확인했습니다.
 
 이를 해결하기 위해 국내외 문해력 이론을 결합한 **[읽기 3단계 미시 사고 루프]**, **[쓰기 5단계 작가 사고구술 프로토콜]**, **[GRR 4단계 스캐폴딩 소거(Fading) 및 문장 틀 사전]**의 정형화된 공식과 5대 장르별 적용 체계를 보고합니다.

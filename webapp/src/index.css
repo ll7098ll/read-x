@@ -45,7 +45,7 @@
 }
 
 .spotlight-active {
-  animation: pulse-spotlight 2s infinite;
+  animation: pulse-spotlight 2s 2;
   border-radius: 6px;
   padding: 2px 4px;
   font-weight: 800;

@@ -1,5 +1,9 @@
 # 📋 [Master PRD] 초등 수능형 설명문 적응형 코스웨어 「ReadX (리드엑스)」 상용화 공학 명세서 (v1.0)
 
+<!-- readx-document-context -->
+> 작성 당시의 설계·조사·구현 기록입니다. 현재 기능과 운영 상태는 최신 현황을 우선합니다. [문서 목차](README.md) · [최신 현황](PROJECT_STATUS.md)
+
+
 - **문서 상태**: 확정 판 (ReadX 상용화 아키텍처 및 7대 TEI 엔진 명세 완료)
 - **공식 브랜드**: **ReadX (리드엑스) / ReadX-Ray Pro**
 - **기반 프로토타입**: `courseware/output/expository_literacy_courseware.html` 및 `courseware/data/` 마스터 데이터셋

@@ -121,7 +121,7 @@ export const AcademySeatBillingCard: React.FC<AcademySeatBillingCardProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h2 className="text-lg font-black tracking-tight text-white">
-                  ReadX-Ray Pro Academy Enterprise
+                  Read X Academy Enterprise
                 </h2>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-bold">
                   B2B ACTIVE
@@ -131,7 +131,7 @@ export const AcademySeatBillingCard: React.FC<AcademySeatBillingCardProps> = ({
                 </span>
               </div>
               <p className="text-xs text-indigo-200 mt-0.5">
-                계약 기관: 서울 대치 리드엑스레이 수능문해력 학원 본원 · 만료 예정일: 2026.12.31 (D-82)
+                계약 기관: 서울 대치 리드엑스 수능문해력 학원 본원 · 만료 예정일: 2026.12.31 (D-82)
               </p>
             </div>
           </div>

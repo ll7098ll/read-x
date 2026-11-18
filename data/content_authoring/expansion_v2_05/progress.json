@@ -1,0 +1,131 @@
+{
+  "scope": "6수행의 선언한 단계·자료 공급",
+  "expectedStageCounts": {
+    "plan-G1-language-08": {
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1
+    },
+    "plan-G2-language-10": {
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1
+    },
+    "plan-G3-language-06": {
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1
+    },
+    "plan-G4-language-10": {
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1
+    },
+    "plan-G5-language-08": {
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1
+    },
+    "plan-G6-language-11": {
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1
+    }
+  },
+  "targetSets": 24,
+  "targetQuestions": 102,
+  "authoredSets": 24,
+  "authoredQuestions": 102,
+  "approvedSets": 0,
+  "remainingSets": 0,
+  "remainingQuestions": 0,
+  "skills": [
+    {
+      "skillId": "plan-G1-language-08",
+      "grade": 1,
+      "track": "language",
+      "name": "대상과 행동 연결",
+      "targetSets": 4,
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G2-language-10",
+      "grade": 2,
+      "track": "language",
+      "name": "문장 끝과 뜻",
+      "targetSets": 4,
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G3-language-06",
+      "grade": 3,
+      "track": "language",
+      "name": "문장 성분의 역할",
+      "targetSets": 4,
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G4-language-10",
+      "grade": 4,
+      "track": "language",
+      "name": "접속어와 관계",
+      "targetSets": 4,
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G5-language-08",
+      "grade": 5,
+      "track": "language",
+      "name": "수식 범위와 중의성",
+      "targetSets": 4,
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G6-language-11",
+      "grade": 6,
+      "track": "language",
+      "name": "조건·부정의 범위",
+      "targetSets": 4,
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    }
+  ],
+  "audioDraftSetsTechnicallyVerified": 0,
+  "listeningAudioDraftSets": 0,
+  "readingModelAudioDraftSets": 0
+}

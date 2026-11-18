@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "readx-authored-batches-1",
+  "asOf": "2026-11-18",
+  "batches": [
+    {
+      "id": "pilot-v2",
+      "source": "data/content_authoring/pilot_v2/sets.json",
+      "artifacts": "output/pilot-v2",
+      "role": "representative_pilot"
+    },
+    {
+      "id": "expansion-v2-01",
+      "source": "data/content_authoring/expansion_v2_01/sets.json",
+      "artifacts": "output/expansion-v2-01",
+      "role": "full_bank_expansion"
+    },
+    {
+      "id": "expansion-v2-02",
+      "source": "data/content_authoring/expansion_v2_02/sets.json",
+      "artifacts": "output/expansion-v2-02",
+      "role": "source_backed_explanation_expansion"
+    },
+    {
+      "id": "expansion-v2-03",
+      "source": "data/content_authoring/expansion_v2_03/sets.json",
+      "artifacts": "output/expansion-v2-03",
+      "role": "writing_production_expansion"
+    },
+    {
+      "id": "expansion-v2-04",
+      "source": "data/content_authoring/expansion_v2_04/sets.json",
+      "artifacts": "output/expansion-v2-04",
+      "role": "original_literature_expansion"
+    },
+    {
+      "id": "expansion-v2-05",
+      "source": "data/content_authoring/expansion_v2_05/sets.json",
+      "artifacts": "output/expansion-v2-05",
+      "role": "context_sensitive_language_expansion"
+    },
+    {
+      "id": "expansion-v2-06",
+      "source": "data/content_authoring/expansion_v2_06/sets.json",
+      "artifacts": "output/expansion-v2-06",
+      "role": "authored_visual_media_expansion"
+    },
+    {
+      "id": "expansion-v2-07",
+      "source": "data/content_authoring/expansion_v2_07/sets.json",
+      "artifacts": "output/expansion-v2-07",
+      "role": "listening_and_live_conversation_expansion"
+    },
+    {
+      "id": "expansion-v2-08",
+      "source": "data/content_authoring/expansion_v2_08/sets.json",
+      "artifacts": "output/expansion-v2-08",
+      "role": "diverse_source_backed_reading_expansion"
+    },
+    {
+      "id": "expansion-v2-09",
+      "source": "data/content_authoring/expansion_v2_09/sets.json",
+      "artifacts": "output/expansion-v2-09",
+      "role": "diverse_writing_and_substantive_revision_expansion"
+    },
+    {
+      "id": "expansion-v2-10",
+      "source": "data/content_authoring/expansion_v2_10/sets.json",
+      "artifacts": "output/expansion-v2-10",
+      "role": "original_literary_works_and_interpretation_expansion"
+    }
+  ],
+  "countingRule": "각 자료·문항 ID와 기능·단계 칸을 대조하여 중복 없이 합산. 계획 칸·버전 이력·대본·힌트는 신규 자료로 더하지 않음. 기존 batch03은 V2 목표 재분류 전이므로 제외."
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "cases": {
+    "requestHash": "rejected_as_expected",
+    "textHash": "rejected_as_expected",
+    "fileHash": "rejected_as_expected"
+  },
+  "contentSnapshotHash": "1fa6fdabf883fdd521b815b0ce7ef0b7bdf76f36ced94d67beed2b115c317c49",
+  "scope": "메타데이터만 바꾼 잘못된 보고서를 거부하는지 확인. 실제 대본·WAV는 수정하지 않음."
+}

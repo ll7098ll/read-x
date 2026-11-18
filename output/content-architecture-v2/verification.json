@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "counts": {
+    "skills": 360,
+    "stageCells": 2160,
+    "targetSets": 7200,
+    "targetQuestions": 29880
+  },
+  "pilot": {
+    "skills": 12,
+    "sets": 144,
+    "questions": 624
+  },
+  "coverage": {
+    "stageCells": 2160,
+    "baselineSets": 2160,
+    "baselineQuestions": 9360,
+    "cumulativeSetsIncludingPilotExtras": 2232,
+    "cumulativeQuestionsIncludingPilotExtras": 9672
+  },
+  "actualContentGeneratedByThisScript": 0,
+  "approvedContent": 0,
+  "checks": [
+    "학년별60후보",
+    "트랙별후보수",
+    "후보ID중복없음",
+    "학년별묶음·문항예산",
+    "목적별예산합계",
+    "파일럿산식",
+    "대표추가분중복계산방지"
+  ],
+  "note": "기계 검사는 편성 수량과 구조만 확인한다. 미세 수행·단계·교육과정 적합성은 검토 대기."
+}

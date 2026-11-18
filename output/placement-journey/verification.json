@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "browserErrors": [],
+  "scenarios": [
+    "practice",
+    "save",
+    "reload",
+    "branch",
+    "submit",
+    "teacher review",
+    "course placement",
+    "first lesson"
+  ],
+  "screenshots": 4
+}

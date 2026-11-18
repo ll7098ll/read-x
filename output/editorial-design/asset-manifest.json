@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "file": "webapp/public/brand/editorial/reading.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: hero photograph for a beautifully art-directed Korean literacy education website, premium independent education magazine style. Original photograph, close overhead three-quarter crop of an East Asian elementary school student's small hands reading a large open natural-history picture book at a pale birch desk next to a sunlit window. Only hands, forearms and a small portion of a forest-green cotton sleeve visible; no face. One hand lightly turns a page; other holds a simple yellow wooden pencil. Book spreads feature beautiful botanical photographs, diagrams of leaves, understated page typography too small to read. A slim red notebook partly visible, single green leaf on desk. Natural candid moment, real imperfect page edges, tactile matte paper, subtle film grain, sunlight and soft architectural shadows, sophisticated editorial photography with controlled deep green, warm white and yellow accents. Composition tightly framed, asymmetrical, no staged generic stock-photo smiles, no 3D, no digital illustration, no excessive props, no logos or watermarks. Landscape 3:2 image, book and hands fill frame, visually clear at small size."
+    },
+    {
+      "file": "webapp/public/brand/editorial/nature.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: course subject cover for a Korean reading website, premium educational magazine photograph. Original beautiful close-up botanical study of a fresh green ginkgo leaf and a fern frond casting crisp intricate shadows onto warm white paper. A simple glass jar containing a living small plant is partially visible at left. Bold natural green silhouettes, warm natural direct sunlight, tactile paper and delicate real veins. Refined minimal still-life composition, high clarity, real macro photography, tiny imperfections. Landscape 3:2, no text, no labels, no interface, no watermarks, no logos, no illustration, no 3D, no artificial pastel toy render."
+    },
+    {
+      "file": "webapp/public/brand/editorial/discovery.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: course subject cover for a premium Korean educational reading website. Original elegant studio photograph of a transparent triangular glass prism refracting a clearly visible narrow beam of natural sunlight into a small spectrum on warm white textured paper, with a simple round magnifying glass with dark green handle lying nearby. Strong but soft-edged daylight shadows, very restrained composition with generous white space, geometric visual rhythm, photographed at a slight overhead angle, tactile real materials, print editorial quality, not CGI. Accents of emerald green and spectral yellow orange blue. Landscape 3:2. No text, letters, labels, interface, logos, watermark, people, illustration or plastic toys."
+    },
+    {
+      "file": "webapp/public/brand/editorial/culture.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: Korean cultural heritage reading course cover, premium education magazine photograph. A real Korean moon jar, small cream porcelain round vessel with subtly imperfect handmade glaze, on a low natural oak block, with a single thin dark branch leaning across background and one folded sheet of textured hanji paper at foreground. Warm off-white plaster studio wall, graceful early afternoon sunlight, soft charcoal shadow and natural material details, restrained museum catalogue art direction. Wide 3:2 composition, jar slightly off-center right, plenty of negative space, true photographic realism, no 3D, no illustration, no toy, no text or lettering, no logos, no watermarks."
+    }
+  ],
+  "additionalAssets": [{ "file": "webapp/public/brand/editorial/music.webp", "prompt": "Use case: photorealistic-natural. Create one refined editorial still-life photograph for a Korean elementary literacy courseware lesson thumbnail about how musical instruments make sound. Landscape 3:2 composition. A small warm oak wooden xylophone with two natural wood mallets resting diagonally, and a simple cream recorder beside it, on an unbleached warm off-white paper surface. Objects seen at a gently angled overhead view, generous negative space, quiet asymmetric art direction. Natural late-morning window light from upper left casts realistic long soft shadows, tactile wood grain, warm neutrals with restrained muted forest green cloth corner. Very high-end education magazine photography, accurate instrument geometry, believable subtle imperfections, crisp subject texture. No people, no text, no letters, no labels, no logos, no icons, no graphic overlays, no 3D render or plastic toy look, no highly saturated primary colours." }],
+  "font": {
+    "source": "https://github.com/orioncactus/pretendard/tree/v1.3.9/packages/pretendard/dist/web/variable",
+    "license": "webapp/public/fonts/Pretendard-LICENSE.txt"
+  },
+  "designReferences": [
+    "https://www.instrument.com/work",
+    "https://www.further.group/work"
+  ]
+}

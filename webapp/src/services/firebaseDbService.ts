@@ -3,14 +3,15 @@ import type {
   GradeData,
   SlotLessonPackage,
   CommonRemedialSlot,
+  ReadingHabitProfile,
+  BeforeAfterMetrics,
 } from '../types/courseware';
 
 /**
  * Firebase Firestore Collection Schema & Local/Cloud Hybrid Repository
  * - Designed for direct 1:1 compatibility with Firebase Firestore (`collections`:
  *   `item_bank_expository`, `item_bank_common`, `student_profiles`, `question_attempts`, `clinic_assignments`).
- * - Works offline/locally out-of-the-box with LocalStorage + 132-Slot Seed Bundle,
- *   and switches to live Firebase Firestore when `VITE_FIREBASE_PROJECT_ID` is configured.
+ * - This build is a local demonstration. No authentication or cloud sync is implemented.
  */
 export const FIREBASE_COLLECTIONS = {
   ITEM_BANK_EXPOSITORY: 'item_bank_expository', // 96 documents (G1-EXP-V1-1 ~ G6-EXP-W5)
@@ -35,99 +36,11 @@ export const defaultFirebaseConfig: FirebaseConnectionConfig = {
   projectId:
     (import.meta as unknown as { env?: Record<string, string> }).env
       ?.VITE_FIREBASE_PROJECT_ID || 'readxray-literacy-prod',
-  useCloudSync: Boolean(
-    (import.meta as unknown as { env?: Record<string, string> }).env
-      ?.VITE_FIREBASE_API_KEY
-  ),
+  useCloudSync: false,
 };
 
-export interface ItemValidationResult {
-  isValid: boolean;
-  errors: string[];
-  warnings: string[];
-}
-
-function stripHtmlTags(str: string): string {
-  return str.replace(/<[^>]+>/g, '');
-}
-
-/**
- * Automated Psychometric & Substring QA Validator (Client + CMS Gate)
- * Checks:
- * 1. Paragraph count & non-empty text
- * 2. Grade-band option scaling (G1-2: 3 options, G3-4: 4 options, G5-6: 5 options)
- * 3. Substring integrity for TEI-1 HotText cues inside paragraphs
- * 4. Substring integrity for 3-stage Scaffolding spotlight_quote inside paragraphs
- * 5. D1~D6 distractor tag & explanation presence
- */
-export function validateSlotPackage(slot: SlotLessonPackage): ItemValidationResult {
-  const errors: string[] = [];
-  const warnings: string[] = [];
-
-  const paras = slot.real_csat_test?.paragraphs || [];
-  if (paras.length === 0) {
-    errors.push('지문 문단(paragraphs)이 비어 있습니다.');
-  }
-  const plainParas = paras.map(stripHtmlTags);
-
-  const expectedOptCount =
-    slot.grade_num <= 2 ? 3 : slot.grade_num <= 4 ? 4 : 5;
-
-  const questions = slot.real_csat_test?.questions || [];
-  if (questions.length === 0) {
-    errors.push('실전 수능형 객관식 문항(questions)이 최소 1개 이상 필요합니다.');
-  }
-
-  questions.forEach((q, idx) => {
-    if (q.options.length !== expectedOptCount) {
-      warnings.push(
-        `문항 #${q.q_no}: ${slot.grade_num}학년 권장 선지 수는 ${expectedOptCount}지선다이나 현재 ${q.options.length}개입니다.`
-      );
-    }
-    const correctCount = q.options.filter((o) => o.is_correct).length;
-    if (correctCount !== 1) {
-      errors.push(
-        `문항 #${q.q_no}: 정답(is_correct=true) 선지는 정확히 1개여야 합니다 (현재 ${correctCount}개).`
-      );
-    }
-    q.options.forEach((opt) => {
-      if (!opt.is_correct && !/D[1-6]/.test(opt.formula)) {
-        warnings.push(
-          `문항 #${q.q_no} 선지 ${opt.no}번: 오답 공식에 D1~D6 함정 코드가 명시되지 않았습니다.`
-        );
-      }
-      if (!opt.explanation || opt.explanation.trim().length < 10) {
-        errors.push(`문항 #${q.q_no} 선지 ${opt.no}번: 사고구술 해설이 누락되었거나 너무 짧습니다.`);
-      }
-    });
-
-    const sc = slot.commercial?.question_scaffolding?.[idx];
-    if (sc) {
-      const targetPara = plainParas[sc.target_para_idx] || '';
-      if (sc.spotlight_quote && !targetPara.includes(sc.spotlight_quote)) {
-        warnings.push(
-          `문항 #${q.q_no} 스캐폴딩: 스포트라이트 근거 문장이 ${sc.target_para_idx + 1}문단 원문과 정확히 일치하지 않습니다.`
-        );
-      }
-    }
-  });
-
-  const cues = slot.commercial?.Interactive_hottext_cues || [];
-  cues.forEach((cue) => {
-    const pText = plainParas[cue.para_idx] || '';
-    if (cue.text && !pText.includes(cue.text)) {
-      warnings.push(
-        `HotText 단서 [${cue.cue_id}]: "${cue.text}" 구절이 ${cue.para_idx + 1}문단 내에 존재하지 않습니다.`
-      );
-    }
-  });
-
-  return {
-    isValid: errors.length === 0,
-    errors,
-    warnings,
-  };
-}
+export { validateSlotPackage } from './contentSchema';
+import { normalizeSlotPackage } from './contentSchema';
 
 /**
  * Merges a specific SlotLessonPackage (1 of 96 Expository slots) onto the learner's base GradeData
@@ -145,11 +58,11 @@ export function resolveActiveGradeAndSlotData(
   gradeSlots16: SlotLessonPackage[];
   gradeCommon6: CommonRemedialSlot[];
   activeSlotPackage: SlotLessonPackage | null;
+  activeCommonSlot: CommonRemedialSlot | null;
+  resolutionError: string | null;
 } {
   const baseGrade =
-    masterData?.grades_data?.[gradeIdx] ||
-    masterData?.grades_data?.[4] ||
-    masterData?.grades_data?.[0];
+    masterData?.grades_data?.[gradeIdx];
 
   if (!baseGrade) {
     throw new Error('마스터 데이터의 학년 데이터(grades_data)를 찾을 수 없습니다.');
@@ -160,23 +73,25 @@ export function resolveActiveGradeAndSlotData(
   const rawSlots96 = masterData?.expository_slots_96 || [];
   const rawCommon36 = masterData?.common_slots_36 || [];
 
-  // Merge custom/edited slots from DB override map
-  const gradeSlots16 = rawSlots96
-    .filter((s) => s.grade_num === gradeNum)
-    .map((s) => (customSlotsMap && customSlotsMap[s.slot_id]) || s);
-
-  const gradeCommon6 = rawCommon36.filter((c) => c.grade_num === gradeNum);
-
-  const targetSlotId =
-    activeSlotId && activeSlotId.startsWith(`G${gradeNum}-`)
-      ? activeSlotId
-      : baseGrade.slot_id;
-
-  const matchedSlot =
-    (customSlotsMap && customSlotsMap[targetSlotId]) ||
-    gradeSlots16.find((s) => s.slot_id === targetSlotId) ||
-    gradeSlots16[0] ||
-    null;
+  const targetSlotId = activeSlotId ?? baseGrade.slot_id;
+  const invalidOverrides = new Set<string>();
+  const gradeSlots16 = rawSlots96.filter(s => s.grade_num === gradeNum).flatMap(s => {
+    const override = customSlotsMap?.[s.slot_id];
+    try {
+      const candidate = normalizeSlotPackage(override || s);
+      if (candidate.slot_id !== s.slot_id || candidate.grade_num !== gradeNum) throw new Error('수업 코드 불일치');
+      return [candidate];
+    } catch {
+      invalidOverrides.add(s.slot_id);
+      return [];
+    }
+  });
+  const gradeCommon6 = rawCommon36.filter(c => c.grade_num === gradeNum);
+  const activeCommonSlot = gradeCommon6.find(c => c.code === targetSlotId) || null;
+  const matchedSlot = gradeSlots16.find(s => s.slot_id === targetSlotId) || null;
+  const resolutionError = matchedSlot || activeCommonSlot ? null : invalidOverrides.has(targetSlotId)
+    ? '이 수업의 데이터 형식을 확인해야 합니다. 교사에게 알려 주세요.'
+    : '배정된 수업을 찾을 수 없습니다. 과제 코드와 학년을 교사에게 확인해 주세요.';
 
   // Apply dynamic subskill mastery updates if present
   const baseSubskills = baseGrade.xray_overview?.subskill_matrix || [];
@@ -259,6 +174,8 @@ export function resolveActiveGradeAndSlotData(
       gradeSlots16,
       gradeCommon6,
       activeSlotPackage: null,
+      activeCommonSlot,
+      resolutionError,
     };
   }
 
@@ -297,6 +214,8 @@ export function resolveActiveGradeAndSlotData(
     gradeSlots16,
     gradeCommon6,
     activeSlotPackage: matchedSlot,
+    activeCommonSlot,
+    resolutionError,
   };
 }
 
@@ -309,17 +228,17 @@ export function exportFirestoreBundleJson(
   customSlotsMap: Record<string, SlotLessonPackage>
 ): string {
   const slots96 = (masterData.expository_slots_96 || []).map(
-    (s) => customSlotsMap[s.slot_id] || s
+    (s) => normalizeSlotPackage(customSlotsMap[s.slot_id] || s)
   );
   // Also include any brand-new custom slots not in original 96
   Object.values(customSlotsMap).forEach((cs) => {
     if (!slots96.some((s) => s.slot_id === cs.slot_id)) {
-      slots96.push(cs);
+      slots96.push(normalizeSlotPackage(cs));
     }
   });
 
   const payload = {
-    schema_version: '3.0.0-firestore-production',
+    schema_version: '1.0-demo-export',
     exported_at: new Date().toISOString(),
     collections: {
       [FIREBASE_COLLECTIONS.ITEM_BANK_EXPOSITORY]: Object.fromEntries(

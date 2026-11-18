@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "errors": [],
+  "stageFitWarnings": [],
+  "optionLengthCandidates": [],
+  "nearDuplicateCandidates": [],
+  "numericChecks": {},
+  "readingChecks": {},
+  "contentSnapshotHash": "fd7433435958e016fdc1d078a72a5c357e818465e84a44d489365df7c1a1542d",
+  "curriculumSourceCheckedSets": 2,
+  "factualSourceCheckedDraftSets": 12,
+  "factualAnchors": 44,
+  "curriculumSourceScopeAuditedSets": 12,
+  "curriculumSourceLinkedSets": 12,
+  "curriculumRelatedOnlySets": 10,
+  "graphCount": 0,
+  "graphEvidenceReferences": 0,
+  "poemCount": 0,
+  "poetryLineCount": 0,
+  "listeningSets": 0,
+  "spokenResponseTasks": 0,
+  "audioEvidenceReferences": 0,
+  "audioDraftSetsTechnicallyVerified": 0,
+  "oralReadingSets": 0,
+  "oralReadingTasks": 0,
+  "readingWordReferences": 0,
+  "writingProductionProtocolSets": 0,
+  "questionKinds": {
+    "single_choice": 12,
+    "matching": 6,
+    "evidence_selection": 2,
+    "explanation": 11,
+    "ordering": 1,
+    "revision": 10,
+    "classification": 3,
+    "table_completion": 2,
+    "question_generation": 3
+  },
+  "progress": {
+    "scope": "6수행의 선언한 단계·자료 공급",
+    "expectedStageCounts": {
+      "plan-G1-information-03": {
+        "S3": 2
+      },
+      "plan-G2-information-09": {
+        "S3": 2
+      },
+      "plan-G3-information-07": {
+        "S3": 2
+      },
+      "plan-G4-information-10": {
+        "S3": 2
+      },
+      "plan-G5-information-03": {
+        "S4": 2
+      },
+      "plan-G6-information-09": {
+        "S5": 2
+      }
+    },
+    "targetSets": 12,
+    "targetQuestions": 50,
+    "authoredSets": 12,
+    "authoredQuestions": 50,
+    "approvedSets": 0,
+    "remainingSets": 0,
+    "remainingQuestions": 0,
+    "skills": [
+      {
+        "skillId": "plan-G1-information-03",
+        "grade": 1,
+        "track": "information",
+        "name": "대상과 특징 연결",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 8,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G2-information-09",
+        "grade": 2,
+        "track": "information",
+        "name": "까닭과 결과 연결",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 8,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G3-information-07",
+        "grade": 3,
+        "track": "information",
+        "name": "정의와 예시 연결",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 8,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G4-information-10",
+        "grade": 4,
+        "track": "information",
+        "name": "분류 기준 확인",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 8,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G5-information-03",
+        "grade": 5,
+        "track": "information",
+        "name": "개념 정의와 적용",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 8,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G6-information-09",
+        "grade": 6,
+        "track": "information",
+        "name": "다중 인과와 한계",
+        "targetSets": 2,
+        "authoredSets": 2,
+        "authoredQuestions": 10,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      }
+    ],
+    "audioDraftSetsTechnicallyVerified": 0,
+    "listeningAudioDraftSets": 0,
+    "readingModelAudioDraftSets": 0
+  },
+  "limits": [
+    "자동 검사는 문항 정답 유일성이나 실제 난도를 증명하지 않는다.",
+    "독립 교사 검토·학생 수행 검증·음성 자산은 별도 완료 조건이다."
+  ]
+}

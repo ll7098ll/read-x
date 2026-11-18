@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "syntheticOnly": true,
+  "catalogItems": 460,
+  "students": 22,
+  "independentN": 20,
+  "p": 0.8,
+  "assistedExcluded": 1,
+  "unknownHelpExcluded": 1,
+  "teacherCalibrationApproved": true,
+  "newAssignmentSnapshot": true,
+  "changedDataMarkedStale": true,
+  "studentResumeAndActiveTimer": true,
+  "jsonExport": true,
+  "lowGradeOralObserved": true,
+  "mobileOverflow": false,
+  "browserErrors": []
+}

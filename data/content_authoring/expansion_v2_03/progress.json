@@ -1,0 +1,143 @@
+{
+  "scope": "6수행의 선언한 단계·자료 공급",
+  "expectedStageCounts": {
+    "plan-G1-writing-05": {
+      "S1": 1,
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1,
+      "S6": 1
+    },
+    "plan-G2-writing-10": {
+      "S1": 1,
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1,
+      "S6": 1
+    },
+    "plan-G3-writing-07": {
+      "S1": 1,
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1,
+      "S6": 1
+    },
+    "plan-G4-writing-11": {
+      "S1": 1,
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1,
+      "S6": 1
+    },
+    "plan-G5-writing-08": {
+      "S1": 1,
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1,
+      "S6": 1
+    },
+    "plan-G6-writing-10": {
+      "S1": 1,
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1,
+      "S6": 1
+    }
+  },
+  "targetSets": 36,
+  "targetQuestions": 156,
+  "authoredSets": 36,
+  "authoredQuestions": 156,
+  "approvedSets": 0,
+  "remainingSets": 0,
+  "remainingQuestions": 0,
+  "skills": [
+    {
+      "skillId": "plan-G1-writing-05",
+      "grade": 1,
+      "track": "writing",
+      "name": "이름과 특징 문장 쓰기",
+      "targetSets": 6,
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G2-writing-10",
+      "grade": 2,
+      "track": "writing",
+      "name": "경험과 느낌 쓰기",
+      "targetSets": 6,
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G3-writing-07",
+      "grade": 3,
+      "track": "writing",
+      "name": "중심·뒷받침 문장",
+      "targetSets": 6,
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G4-writing-11",
+      "grade": 4,
+      "track": "writing",
+      "name": "내용·조직 고쳐쓰기",
+      "targetSets": 6,
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G5-writing-08",
+      "grade": 5,
+      "track": "writing",
+      "name": "자료 인용과 설명 통합",
+      "targetSets": 6,
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G6-writing-10",
+      "grade": 6,
+      "track": "writing",
+      "name": "독자에 맞게 재표현",
+      "targetSets": 6,
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    }
+  ],
+  "audioDraftSetsTechnicallyVerified": 0,
+  "listeningAudioDraftSets": 0,
+  "readingModelAudioDraftSets": 0
+}

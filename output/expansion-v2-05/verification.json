@@ -1,0 +1,274 @@
+{
+  "passed": true,
+  "errors": [],
+  "stageFitWarnings": [
+    {
+      "id": "PV2-G2-language-10-S4-A-Q3",
+      "type": "interpretation_answer_verbatim",
+      "action": "stage fit review"
+    },
+    {
+      "id": "PV2-G4-language-10-S4-A-Q4",
+      "type": "interpretation_answer_verbatim",
+      "action": "stage fit review"
+    },
+    {
+      "id": "PV2-G5-language-08-S4-A-Q3",
+      "type": "interpretation_answer_verbatim",
+      "action": "stage fit review"
+    }
+  ],
+  "optionLengthCandidates": [],
+  "nearDuplicateCandidates": [],
+  "numericChecks": {},
+  "readingChecks": {},
+  "contentSnapshotHash": "fa276cd7e95ff816a5a663b061f3ef431d7aa9bee0736f5074c971d6061634cd",
+  "curriculumSourceCheckedSets": 12,
+  "factualSourceCheckedDraftSets": 0,
+  "factualAnchors": 0,
+  "curriculumSourceScopeAuditedSets": 24,
+  "curriculumSourceLinkedSets": 24,
+  "curriculumRelatedOnlySets": 12,
+  "graphCount": 0,
+  "graphEvidenceReferences": 0,
+  "poemCount": 0,
+  "poetryLineCount": 0,
+  "listeningSets": 0,
+  "spokenResponseTasks": 0,
+  "audioEvidenceReferences": 0,
+  "audioDraftSetsTechnicallyVerified": 0,
+  "oralReadingSets": 0,
+  "oralReadingTasks": 0,
+  "readingWordReferences": 0,
+  "writingProductionProtocolSets": 0,
+  "literaryInterpretationProtocolSets": 0,
+  "questionKinds": {
+    "explanation": 55,
+    "single_choice": 24,
+    "matching": 10,
+    "evidence_selection": 12,
+    "ordering": 1
+  },
+  "progress": {
+    "scope": "6수행의 선언한 단계·자료 공급",
+    "expectedStageCounts": {
+      "plan-G1-language-08": {
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G2-language-10": {
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G3-language-06": {
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G4-language-10": {
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G5-language-08": {
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G6-language-11": {
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1
+      }
+    },
+    "targetSets": 24,
+    "targetQuestions": 102,
+    "authoredSets": 24,
+    "authoredQuestions": 102,
+    "approvedSets": 0,
+    "remainingSets": 0,
+    "remainingQuestions": 0,
+    "skills": [
+      {
+        "skillId": "plan-G1-language-08",
+        "grade": 1,
+        "track": "language",
+        "name": "대상과 행동 연결",
+        "targetSets": 4,
+        "authoredSets": 4,
+        "authoredQuestions": 17,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G2-language-10",
+        "grade": 2,
+        "track": "language",
+        "name": "문장 끝과 뜻",
+        "targetSets": 4,
+        "authoredSets": 4,
+        "authoredQuestions": 17,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G3-language-06",
+        "grade": 3,
+        "track": "language",
+        "name": "문장 성분의 역할",
+        "targetSets": 4,
+        "authoredSets": 4,
+        "authoredQuestions": 17,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G4-language-10",
+        "grade": 4,
+        "track": "language",
+        "name": "접속어와 관계",
+        "targetSets": 4,
+        "authoredSets": 4,
+        "authoredQuestions": 17,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G5-language-08",
+        "grade": 5,
+        "track": "language",
+        "name": "수식 범위와 중의성",
+        "targetSets": 4,
+        "authoredSets": 4,
+        "authoredQuestions": 17,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G6-language-11",
+        "grade": 6,
+        "track": "language",
+        "name": "조건·부정의 범위",
+        "targetSets": 4,
+        "authoredSets": 4,
+        "authoredQuestions": 17,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      }
+    ],
+    "audioDraftSetsTechnicallyVerified": 0,
+    "listeningAudioDraftSets": 0,
+    "readingModelAudioDraftSets": 0
+  },
+  "limits": [
+    "자동 검사는 문항 정답 유일성이나 실제 난도를 증명하지 않는다.",
+    "독립 교사 검토·학생 수행 검증·음성 자산은 별도 완료 조건이다."
+  ],
+  "languageConsistencyChecks": {
+    "PV2-G1-language-08-S2-A_primary_first": true,
+    "PV2-G1-language-08-S2-A_response_criteria": true,
+    "PV2-G1-language-08-S3-A_primary_first": true,
+    "PV2-G1-language-08-S3-A_response_criteria": true,
+    "PV2-G1-language-08-S4-A_primary_first": true,
+    "PV2-G1-language-08-S4-A_response_criteria": true,
+    "PV2-G1-language-08-S5-A_primary_first": true,
+    "PV2-G1-language-08-S5-A_response_criteria": true,
+    "PV2-G2-language-10-S2-A_primary_first": true,
+    "PV2-G2-language-10-S2-A_response_criteria": true,
+    "PV2-G2-language-10-S3-A_primary_first": true,
+    "PV2-G2-language-10-S3-A_response_criteria": true,
+    "PV2-G2-language-10-S4-A_primary_first": true,
+    "PV2-G2-language-10-S4-A_response_criteria": true,
+    "PV2-G2-language-10-S5-A_primary_first": true,
+    "PV2-G2-language-10-S5-A_response_criteria": true,
+    "PV2-G3-language-06-S2-A_primary_first": true,
+    "PV2-G3-language-06-S2-A_response_criteria": true,
+    "PV2-G3-language-06-S3-A_primary_first": true,
+    "PV2-G3-language-06-S3-A_response_criteria": true,
+    "PV2-G3-language-06-S4-A_primary_first": true,
+    "PV2-G3-language-06-S4-A_response_criteria": true,
+    "PV2-G3-language-06-S5-A_primary_first": true,
+    "PV2-G3-language-06-S5-A_response_criteria": true,
+    "PV2-G4-language-10-S2-A_primary_first": true,
+    "PV2-G4-language-10-S2-A_response_criteria": true,
+    "PV2-G4-language-10-S3-A_primary_first": true,
+    "PV2-G4-language-10-S3-A_response_criteria": true,
+    "PV2-G4-language-10-S4-A_primary_first": true,
+    "PV2-G4-language-10-S4-A_response_criteria": true,
+    "PV2-G4-language-10-S5-A_primary_first": true,
+    "PV2-G4-language-10-S5-A_response_criteria": true,
+    "PV2-G5-language-08-S2-A_primary_first": true,
+    "PV2-G5-language-08-S2-A_response_criteria": true,
+    "PV2-G5-language-08-S3-A_primary_first": true,
+    "PV2-G5-language-08-S3-A_response_criteria": true,
+    "PV2-G5-language-08-S4-A_primary_first": true,
+    "PV2-G5-language-08-S4-A_response_criteria": true,
+    "PV2-G5-language-08-S5-A_primary_first": true,
+    "PV2-G5-language-08-S5-A_response_criteria": true,
+    "PV2-G6-language-11-S2-A_primary_first": true,
+    "PV2-G6-language-11-S2-A_response_criteria": true,
+    "PV2-G6-language-11-S3-A_primary_first": true,
+    "PV2-G6-language-11-S3-A_response_criteria": true,
+    "PV2-G6-language-11-S4-A_primary_first": true,
+    "PV2-G6-language-11-S4-A_response_criteria": true,
+    "PV2-G6-language-11-S5-A_primary_first": true,
+    "PV2-G6-language-11-S5-A_response_criteria": true,
+    "G1_give_receive_not_reversed": true,
+    "G2_question_form_request_context": true,
+    "G2_same_ending_distinct_contexts": true,
+    "G3_order_not_role": true,
+    "G3_ellipsis_not_universal_error": true,
+    "G4_sequence_not_single_cause": true,
+    "G4_intent_not_absolute_ungrammatical": true,
+    "G5_two_stage_actors": true,
+    "G5_revision_does_not_repeat_ambiguous_modifier": true,
+    "G5_coordination_two_visitors": true,
+    "G5_transport_both_ribbon_one": true,
+    "G6_reservation_and_deadline": true,
+    "G6_if_and_only_distinct": true,
+    "G6_two_negation_readings": true,
+    "G6_exception_not_all_activities": true
+  },
+  "stageFitReviewDecisions": [
+    {
+      "questionId": "PV2-G2-language-10-S4-A-Q3",
+      "decision": "주 응답은 별도의 의미 설명·재표현이고 이 보조 문항은 본문의 명시적 근거 선택이므로 직접 인용을 허용.",
+      "state": "AI_editorial_review_not_teacher_approval"
+    },
+    {
+      "questionId": "PV2-G4-language-10-S4-A-Q4",
+      "decision": "주 응답은 별도의 의미 설명·재표현이고 이 보조 문항은 본문의 명시적 근거 선택이므로 직접 인용을 허용.",
+      "state": "AI_editorial_review_not_teacher_approval"
+    },
+    {
+      "questionId": "PV2-G5-language-08-S4-A-Q3",
+      "decision": "주 응답은 별도의 의미 설명·재표현이고 이 보조 문항은 본문의 명시적 근거 선택이므로 직접 인용을 허용.",
+      "state": "AI_editorial_review_not_teacher_approval"
+    }
+  ],
+  "languageResearchLedger": {
+    "path": "research/language_v2_sources_2026-11-18.json",
+    "sha256": "66ad6629362878d48a9370c61a9234811f74fcf2a88e7f2d67cbc3c672e1e7e5",
+    "scope": "교사용 개념 집필 참고, 학년 규준·정답 유일성 검증과 구별"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "c17c4260043cc35a7ae891aa53341a3b7cbb0d3d79091e7b0e0e7c1c8b7864e0",
+  "reviewType": "AI 매체 집필·시각 자료·근거 연결의 편집 검토. 교사 승인·학생 보정과 구별.",
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "publication": "unpublished",
+  "records": [
+    {"id":"M01","scope":"공급과 실제 이미지","action":"새6수행의 두 단계씩12자료53문항 집필. 실제 이미지26장·요소85개를 제작하고 주 응답12개에25개 준거 제공. 이미지 수를 신규 독립 지문 수로 더하지 않음.","state":"authored_draft"},
+    {"id":"M02","scope":"초1 그림·말·장소","action":"관습적인 그림 뜻 암기보다 함께 제시한 말을 읽게 구성. 복도의 공 던지기 금지와 놀이방 안에서만 공놀이의 장소 범위를 구별. 표지의 말보다 넓게 건물 전체를 금지하거나 허용하지 않음.","state":"scope_reviewed"},
+    {"id":"M03","scope":"초2 행·열과 미정","action":"요일·활동·시각과 활동·방을 서로 다른 순서의 실제 표에서 연결. 반납일 미정은 다른 학생의 날짜나 반납 불필요로 바꾸지 않음.","state":"cross_table_and_unknown_reviewed"},
+    {"id":"M04","scope":"초3 수정 범위·재게시","action":"E17의 장소만 바뀌고 날짜·시각은 같음을 보존. T08 재게시일과 사진 속 원문 작성일을 구별하고 현재 유효한 운영팀 수정 확인을 맥락으로 제공. 옛 안내를 처음부터 거짓이라고 단정하지 않음.","state":"version_context_reviewed"},
+    {"id":"M05","scope":"초4 일부·전체","action":"앞부분을 생략한 카드라는 제작 성격을 명시해 실제 잘린 웹 캡처로 소개하지 않음. 마른 씨앗과 젖은 씨앗의 현재 상태,24명 질문과8명 응답·16명 미확인을 구별. 미응답은 반대 응답이 아님.","state":"population_scope_reviewed"},
+    {"id":"M06","scope":"초5 원문·전달 경로","action":"같은 원문의v1·v2와 재전달 게시일을 대조. 세 게시물이 같은2025원문T31을 옮겼으면 독립된 올해 근거 세 개가 아님. 현재 원문이 없을 때 올해 정보를 거짓이나 참으로 단정하지 않음.","state":"provenance_reviewed"},
+    {"id":"M07","scope":"초6 강조와 반응의 구별","action":"입장 무료·선택 키트5000원은 두 포스터에서 같고 글씨 크기만 달리함. 먼저 보일 수 있는 정보를 설명하되 실제 모든 독자의 오해를 관찰한 것으로 채점하지 않음.","state":"predicted_effect_not_observed_result"},
+    {"id":"M08","scope":"초6 제목의 사전 해석","action":"비교 포스터의 무료 강조·비용 범위 제시라는 제목이 주 해석을 미리 알려 주어 가·나로 중립화. 자료·문항·근거를v2로 맞추고 수정 전 원고 보존.","state":"revised_to_version_2","materialId":"PV2-G6-media-03-S4-A"},
+    {"id":"M09","scope":"조건을 보존한 수정","action":"누구나 무료 입장 초안을 예약·학년·정원·비용과 대조해 고치게 함. 실제 게시·법적 판정·관객 반응 확인을 완료한 것으로 확대하지 않음.","state":"meaning_preservation_reviewed"},
+    {"id":"M10","scope":"정지 이미지의 줄바꿈","action":"초기 이미지의 낱말 분할과 홀로 남은 느낌표를 확인하여 띄어쓰기 우선 줄바꿈 적용. 수정한26이미지를3개 미리보기에서 재검토하고 원고·제작 원장·이미지 해시 연결.","state":"AI_static_visual_review_not_teacher_approval"},
+    {"id":"M11","scope":"문자 대체·근거","action":"그림 모양·표 행·큰 글씨와 작은 글씨를 포함한 같은 정보의 문자 대체 제공. 이미지 요소103개 참조와 PNG·대체 설명의 일치를 확인. 사용한 접근 형태와 대독 지원을 별도 기록.","state":"accessibility_information_checked"},
+    {"id":"M12","scope":"오류 차단 검증","action":"잘못된 시각 근거 문구, 변조된 내장PNG, 다른 대체 설명이 차단되는 테스트3개 통과. 공통 검사기 변경 뒤 기존6배치 산출물도 재대조 통과.36개 구조·일부 사례 관계 검사 통과는 의미·난도 전체 검증과 구별.","state":"technical_checks_passed"},
+    {"id":"M13","scope":"교육과정과 완료 범위","action":"로컬2022-33과 대조해4자료 일부 성취요소 후보와8자료 준비·보조를 구별. 교사 승인·학생 응답·실제 검색·공유·최신 고시 전량 대조·브라우저 실행·앱 탑재는 남아 있음.","state":"bounded_curriculum_candidate"}
+  ],
+  "executedChecks": [
+    {"command":"python -X utf8 scripts/build_media_v2.py","result":"passed; static visual review recorded with source and image manifest hashes"},
+    {"command":"python -X utf8 -m unittest discover -s tests -p test_media_v2_delivery.py","result":"3 tests passed"},
+    {"scope":"기존 pilot-v2 및 expansion-v2-01~05의 verify_pilot_v2_workbook.verify","result":"6 batches passed; browserRuntime remains not_tested"}
+  ]
+}

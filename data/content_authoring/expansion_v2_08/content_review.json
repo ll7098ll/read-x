@@ -1,0 +1,26 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "9a55d24ad7eccfa3f1f817f36e1d1fcbb949fc6ccc8902d5afbdfc1407e168ac",
+  "reviewType": "AI 원천 항목 대조·설명글 편집 검토. 독립 사실 검토·교사 승인·학생 난도 보정과 구별.",
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "publication": "unpublished",
+  "records": [
+    {"id":"E01","scope":"실제 집필과 공급 범위","action":"새6수행 S2·S3·S5에18자료78문항/과제 집필. 학년별3자료13문항이며 주 응답18개·분석적 준거37개. 모든 단계·반복·독립 확인 완료로 세지 않음.","state":"authored_draft"},
+    {"id":"E02","scope":"초1 중심·자세한 내용","action":"딱따구리 꼬리의 받침, 펭귄의 깃털·지방·날개, 박쥐의 손가락뼈·피부막을 각 글의 중심과 연결. 원천 발췌에 맞춰 지리 정보를 줄이고 물이 몸속으로 스민다는 오해를 줄이도록 표현 보완.","state":"scope_and_expression_revised"},
+    {"id":"E03","scope":"초2 동일 기준·예외","action":"물범·바다사자의 귓바퀴와 이동, 큰돌고래·상어의 산소 획득을 같은 기준으로 비교. 낮·화려한 나방의 예외를 보존하고 더듬이 경향을 절대 규칙으로 바꾸지 않음.","state":"comparison_scope_reviewed"},
+    {"id":"E04","scope":"초3 문단 역할·가상 예","action":"점자 정의·기본 칸 구조·읽기 방법을 문단 역할로 구별. 디지털화 작업은 가상 예, 고고학 맥락은 해석의 단서이며 그릇 쓰임의 확정은 아니라고 명시.","state":"paragraph_role_reviewed"},
+    {"id":"E05","scope":"초3 교육과정 관계","action":"문단 기능·전개 이해를4국02-02 중심 생각·간추리기의 직접 측정이라고 단정하지 않도록3자료를 준비·보조로 재분류. 교육과정 원문 연결과 교수 목표·학년 배치 승인을 구별.","state":"revised_to_related_support"},
+    {"id":"E06","scope":"초4 조건·예외","action":"월식의 보름달·그림자 조건, 햇빛 무지개의 위치·목격 한계, 씨앗의 공통 조건과 종류별 빛 조건을 분리. 무지개 기록 나의 표기는 일인칭 나는과 섞이지 않게 명료화.","state":"condition_and_label_reviewed"},
+    {"id":"E07","scope":"초5 선지의 복수 해석","action":"지구본 비교에서 오답 질문도 타당한 확인 질문으로 읽힐 수 있어 진술형 설명의 적합성을 묻도록 고침. 자료 나에 관한 본문 설명의 정보 부재와 실제 사진 판독을 구별한 발문으로 보완.","state":"revised_before_first_snapshot"},
+    {"id":"E08","scope":"초5 투영의 범위","action":"전체 넓이 관계와 국소 각도·작은 모양 보존을 구별. 지도에 나타낸 지점이라는 범위를 명료화하고 실제 지형도·사진·지도 수치를 제공한 성과로 세지 않음.","state":"local_global_scope_revised"},
+    {"id":"E09","scope":"초6 나이테 원천 분리","action":"빠진 고리·여분 띠는 Arizona Ring Anomalies, 여러 표본의 패턴 비교는 별도 Crossdating 페이지에 연결. 줄 서른 개를 정확한 나이 또는 최소 나이로 확정하지 않음.","state":"source_anchor_revised"},
+    {"id":"E10","scope":"초6 밤빛의 증거 범위","action":"빛의 여러 원천과 전력 조건을 연결해 가상 A·B의 인구·주거지 결론을 검토. 밤빛 자료가 인구 연구에 쓸모없다고도 단정하지 않으며 실제 국가·현재 인구·관측 지도는 사용하지 않음.","state":"bounded_evidence_application"},
+    {"id":"E11","scope":"초6 산소 후보·모형","action":"기체 후보 확인과 생성 원인 해석을 구별. 비생물 생성 모형은 실제 행성의 생명 존재·부재 확인이 아님.2016논문의 상세 수치·기기 성능·현재 발견 주장은 사용하지 않고 정오표 존재와 한계를 원장에 기록.","state":"model_not_observation_reviewed"},
+    {"id":"E12","scope":"원천 접근과 독립성","action":"23개원천의 필요한 항목을 대조하고46개 사실/적용 위치 연결. 직접 열기 차단2자료는 공식 검색 색인의 해당 발췌 범위로 한정. USGS 문서들은 같은 투영 개념 계열, 산소 논문·기관 기사는 같은2016연구 계열로 묶어 독립 발견 수로 부풀리지 않음.","state":"bounded_source_review"},
+    {"id":"E13","scope":"버전·검사·남은 일","action":"본문·원천·교육과정 관계를 고친8자료는v2로 맞추고 초기 원고 보존.54개 구조/일부 사례 관계 검사·근거·정답·버전·HTML 분리·JavaScript 문법 검사를 통과. 독립 사실/교사·학생 검증·최신 통합 고시 전량 비교·브라우저 실행·앱 탑재는 대기.","state":"technical_checks_not_final_approval"}
+  ],
+  "executedChecks": [
+    {"command":"python -X utf8 scripts/build_explanation_v2.py","result":"passed;18 sets78 questions46 anchors23 source pages54 bounded consistency checks; no configured duplicate or option-length candidates"}
+  ]
+}

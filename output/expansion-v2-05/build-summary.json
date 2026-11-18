@@ -1,0 +1,20 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "fa276cd7e95ff816a5a663b061f3ef431d7aa9bee0736f5074c971d6061634cd",
+  "sets": 24,
+  "questions": 102,
+  "newSkills": 6,
+  "newSkillStageCells": 24,
+  "primaryExplanations": 24,
+  "primaryAnalyticCriteria": 49,
+  "languageConsistencyChecks": 63,
+  "languageResearchLedger": {
+    "path": "research/language_v2_sources_2026-11-18.json",
+    "sha256": "66ad6629362878d48a9370c61a9234811f74fcf2a88e7f2d67cbc3c672e1e7e5",
+    "scope": "교사용 개념 집필 참고, 학년 규준·정답 유일성 검증과 구별"
+  },
+  "passed": true,
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

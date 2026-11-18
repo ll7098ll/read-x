@@ -1,0 +1,6270 @@
+{
+  "asOf": "2026-11-18",
+  "batches": [
+    {
+      "id": "pilot-v2",
+      "role": "representative_pilot",
+      "source": "data/content_authoring/pilot_v2/sets.json",
+      "contentSnapshotHash": "e928db7c2fac0ccc2ad7af03689d236031f27b735cf66c8c7437f6b591c2dfbd",
+      "sets": 144,
+      "questions": 624,
+      "skills": 12,
+      "skillStageCells": 72,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/pilot-v2/학생용_문제집.html",
+      "teacherWorkbook": "output/pilot-v2/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-01",
+      "role": "full_bank_expansion",
+      "source": "data/content_authoring/expansion_v2_01/sets.json",
+      "contentSnapshotHash": "c0c73ea995a61b37980e96dd208ea731431d8b908725729c4b8117cce4263c4f",
+      "sets": 36,
+      "questions": 156,
+      "skills": 6,
+      "skillStageCells": 36,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-01/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-01/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-02",
+      "role": "source_backed_explanation_expansion",
+      "source": "data/content_authoring/expansion_v2_02/sets.json",
+      "contentSnapshotHash": "fd7433435958e016fdc1d078a72a5c357e818465e84a44d489365df7c1a1542d",
+      "sets": 12,
+      "questions": 50,
+      "skills": 6,
+      "skillStageCells": 6,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-02/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-02/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-03",
+      "role": "writing_production_expansion",
+      "source": "data/content_authoring/expansion_v2_03/sets.json",
+      "contentSnapshotHash": "45fee0f931ea9c48ab9a342571b98e19e643d282dd72c140fea568c694f9f50d",
+      "sets": 36,
+      "questions": 156,
+      "skills": 6,
+      "skillStageCells": 36,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-03/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-03/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-04",
+      "role": "original_literature_expansion",
+      "source": "data/content_authoring/expansion_v2_04/sets.json",
+      "contentSnapshotHash": "7b0b7678836714efda8c097e414caac1baf61d3432be14a3c635c15aedf2e9e1",
+      "sets": 12,
+      "questions": 50,
+      "skills": 6,
+      "skillStageCells": 12,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-04/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-04/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-05",
+      "role": "context_sensitive_language_expansion",
+      "source": "data/content_authoring/expansion_v2_05/sets.json",
+      "contentSnapshotHash": "fa276cd7e95ff816a5a663b061f3ef431d7aa9bee0736f5074c971d6061634cd",
+      "sets": 24,
+      "questions": 102,
+      "skills": 6,
+      "skillStageCells": 24,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-05/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-05/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-06",
+      "role": "authored_visual_media_expansion",
+      "source": "data/content_authoring/expansion_v2_06/sets.json",
+      "contentSnapshotHash": "c17c4260043cc35a7ae891aa53341a3b7cbb0d3d79091e7b0e0e7c1c8b7864e0",
+      "sets": 12,
+      "questions": 53,
+      "skills": 6,
+      "skillStageCells": 12,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-06/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-06/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-07",
+      "role": "listening_and_live_conversation_expansion",
+      "source": "data/content_authoring/expansion_v2_07/sets.json",
+      "contentSnapshotHash": "1fa6fdabf883fdd521b815b0ce7ef0b7bdf76f36ced94d67beed2b115c317c49",
+      "sets": 12,
+      "questions": 53,
+      "skills": 6,
+      "skillStageCells": 12,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-07/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-07/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-08",
+      "role": "diverse_source_backed_reading_expansion",
+      "source": "data/content_authoring/expansion_v2_08/sets.json",
+      "contentSnapshotHash": "9a55d24ad7eccfa3f1f817f36e1d1fcbb949fc6ccc8902d5afbdfc1407e168ac",
+      "sets": 18,
+      "questions": 78,
+      "skills": 6,
+      "skillStageCells": 18,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-08/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-08/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-09",
+      "role": "diverse_writing_and_substantive_revision_expansion",
+      "source": "data/content_authoring/expansion_v2_09/sets.json",
+      "contentSnapshotHash": "6cc65f15234525d3b6d1f7e0888469fd244361a2667a3f38c22a30f2a887922f",
+      "sets": 18,
+      "questions": 78,
+      "skills": 6,
+      "skillStageCells": 18,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-09/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-09/교사용_해설집.html"
+    },
+    {
+      "id": "expansion-v2-10",
+      "role": "original_literary_works_and_interpretation_expansion",
+      "source": "data/content_authoring/expansion_v2_10/sets.json",
+      "contentSnapshotHash": "a9ad999ca066ec1407b07e090409508610f0c5427aefaf08e33bb23ed2f95378",
+      "sets": 18,
+      "questions": 78,
+      "skills": 6,
+      "skillStageCells": 18,
+      "browserRuntime": "not_tested",
+      "studentWorkbook": "output/expansion-v2-10/학생용_문제집.html",
+      "teacherWorkbook": "output/expansion-v2-10/교사용_해설집.html"
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "plan-G1-language-01",
+      "grade": 1,
+      "name": "글자와 소리 대응",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-02",
+      "grade": 1,
+      "name": "낱말 끊어 읽기",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-03",
+      "grade": 1,
+      "name": "짧은 문장 정확히 읽기",
+      "track": "language",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-04",
+      "grade": 1,
+      "name": "비슷한 소리 구별",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-05",
+      "grade": 1,
+      "name": "낱말의 같은 부분",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-06",
+      "grade": 1,
+      "name": "문맥에서 낱말 뜻",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-07",
+      "grade": 1,
+      "name": "여러 뜻의 낱말",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-08",
+      "grade": 1,
+      "name": "대상과 행동 연결",
+      "track": "language",
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-09",
+      "grade": 1,
+      "name": "조사에 따른 뜻",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-10",
+      "grade": 1,
+      "name": "문장 끝과 뜻",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-11",
+      "grade": 1,
+      "name": "이것이 가리키는 대상",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-language-12",
+      "grade": 1,
+      "name": "이어 주는 말",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-01",
+      "grade": 1,
+      "name": "설명 대상 찾기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-02",
+      "grade": 1,
+      "name": "대상의 특징 찾기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-03",
+      "grade": 1,
+      "name": "대상과 특징 연결",
+      "track": "information",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 2,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-04",
+      "grade": 1,
+      "name": "필요한 정보 선택",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-05",
+      "grade": 1,
+      "name": "중심 내용 찾기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-06",
+      "grade": 1,
+      "name": "중심과 자세한 내용",
+      "track": "information",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-07",
+      "grade": 1,
+      "name": "차례에 맞게 읽기",
+      "track": "information",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-08",
+      "grade": 1,
+      "name": "두 대상 비교",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-09",
+      "grade": 1,
+      "name": "까닭과 결과 연결",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-10",
+      "grade": 1,
+      "name": "한 조건 적용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-11",
+      "grade": 1,
+      "name": "단순한 예외 확인",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-12",
+      "grade": 1,
+      "name": "빠진 내용 짐작",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-13",
+      "grade": 1,
+      "name": "짧게 간추리기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-information-14",
+      "grade": 1,
+      "name": "설명 목적 찾기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-01",
+      "grade": 1,
+      "name": "인물과 배경 찾기",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-02",
+      "grade": 1,
+      "name": "중요한 사건 찾기",
+      "track": "literature",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-03",
+      "grade": 1,
+      "name": "사건의 차례",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-04",
+      "grade": 1,
+      "name": "말과 행동 연결",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-05",
+      "grade": 1,
+      "name": "인물의 마음 짐작",
+      "track": "literature",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-06",
+      "grade": 1,
+      "name": "마음이 달라진 까닭",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-07",
+      "grade": 1,
+      "name": "시의 소리와 반복",
+      "track": "literature",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-08",
+      "grade": 1,
+      "name": "감각으로 표현한 장면",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-09",
+      "grade": 1,
+      "name": "사물에 마음을 담은 표현",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-literature-10",
+      "grade": 1,
+      "name": "작품과 경험 나누기",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-media-01",
+      "grade": 1,
+      "name": "생활 표지의 뜻",
+      "track": "media",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-media-02",
+      "grade": 1,
+      "name": "그림과 글 연결",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-media-03",
+      "grade": 1,
+      "name": "간단한 표에서 찾기",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-media-04",
+      "grade": 1,
+      "name": "그림 기호의 단위",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-media-05",
+      "grade": 1,
+      "name": "안내 지도와 방향",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-media-06",
+      "grade": 1,
+      "name": "화면의 버튼과 행동",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-media-07",
+      "grade": 1,
+      "name": "광고와 알림의 목적",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-media-08",
+      "grade": 1,
+      "name": "두 안내의 같은 점과 차이",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-01",
+      "grade": 1,
+      "name": "쓸 대상과 독자 정하기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-02",
+      "grade": 1,
+      "name": "쓰는 목적 정하기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-03",
+      "grade": 1,
+      "name": "관찰 정보 모으기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-04",
+      "grade": 1,
+      "name": "필요한 내용 고르기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-05",
+      "grade": 1,
+      "name": "이름과 특징 문장 쓰기",
+      "track": "writing",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-06",
+      "grade": 1,
+      "name": "사건을 차례로 쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-07",
+      "grade": 1,
+      "name": "처음·가운데·끝 짜기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-08",
+      "grade": 1,
+      "name": "까닭을 붙여 설명하기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-09",
+      "grade": 1,
+      "name": "알림과 안내 쓰기",
+      "track": "writing",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-10",
+      "grade": 1,
+      "name": "경험과 느낌 쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-11",
+      "grade": 1,
+      "name": "빠진 정보 보충",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-writing-12",
+      "grade": 1,
+      "name": "틀린 정보와 표현 고치기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-oral-01",
+      "grade": 1,
+      "name": "듣고 대상과 행동 확인",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-oral-02",
+      "grade": 1,
+      "name": "차례를 지켜 질문·응답",
+      "track": "oral",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-oral-03",
+      "grade": 1,
+      "name": "본 것을 또렷이 설명",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G1-oral-04",
+      "grade": 1,
+      "name": "친구의 말에 이유로 답하기",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-01",
+      "grade": 2,
+      "name": "글자와 소리 대응",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-02",
+      "grade": 2,
+      "name": "낱말 끊어 읽기",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-03",
+      "grade": 2,
+      "name": "짧은 문장 정확히 읽기",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-04",
+      "grade": 2,
+      "name": "비슷한 소리 구별",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-05",
+      "grade": 2,
+      "name": "낱말의 같은 부분",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-06",
+      "grade": 2,
+      "name": "문맥에서 낱말 뜻",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-07",
+      "grade": 2,
+      "name": "여러 뜻의 낱말",
+      "track": "language",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-08",
+      "grade": 2,
+      "name": "대상과 행동 연결",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-09",
+      "grade": 2,
+      "name": "조사에 따른 뜻",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-10",
+      "grade": 2,
+      "name": "문장 끝과 뜻",
+      "track": "language",
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-11",
+      "grade": 2,
+      "name": "이것이 가리키는 대상",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-language-12",
+      "grade": 2,
+      "name": "이어 주는 말",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-01",
+      "grade": 2,
+      "name": "설명 대상 찾기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-02",
+      "grade": 2,
+      "name": "대상의 특징 찾기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-03",
+      "grade": 2,
+      "name": "대상과 특징 연결",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-04",
+      "grade": 2,
+      "name": "필요한 정보 선택",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-05",
+      "grade": 2,
+      "name": "중심 내용 찾기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-06",
+      "grade": 2,
+      "name": "중심과 자세한 내용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-07",
+      "grade": 2,
+      "name": "차례에 맞게 읽기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-08",
+      "grade": 2,
+      "name": "두 대상 비교",
+      "track": "information",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-09",
+      "grade": 2,
+      "name": "까닭과 결과 연결",
+      "track": "information",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 2,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-10",
+      "grade": 2,
+      "name": "한 조건 적용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-11",
+      "grade": 2,
+      "name": "단순한 예외 확인",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-12",
+      "grade": 2,
+      "name": "빠진 내용 짐작",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-13",
+      "grade": 2,
+      "name": "짧게 간추리기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-information-14",
+      "grade": 2,
+      "name": "설명 목적 찾기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-01",
+      "grade": 2,
+      "name": "인물과 배경 찾기",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-02",
+      "grade": 2,
+      "name": "중요한 사건 찾기",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-03",
+      "grade": 2,
+      "name": "사건의 차례",
+      "track": "literature",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-04",
+      "grade": 2,
+      "name": "말과 행동 연결",
+      "track": "literature",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 1,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-05",
+      "grade": 2,
+      "name": "인물의 마음 짐작",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-06",
+      "grade": 2,
+      "name": "마음이 달라진 까닭",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-07",
+      "grade": 2,
+      "name": "시의 소리와 반복",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-08",
+      "grade": 2,
+      "name": "감각으로 표현한 장면",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-09",
+      "grade": 2,
+      "name": "사물에 마음을 담은 표현",
+      "track": "literature",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-literature-10",
+      "grade": 2,
+      "name": "작품과 경험 나누기",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-media-01",
+      "grade": 2,
+      "name": "생활 표지의 뜻",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-media-02",
+      "grade": 2,
+      "name": "그림과 글 연결",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-media-03",
+      "grade": 2,
+      "name": "간단한 표에서 찾기",
+      "track": "media",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-media-04",
+      "grade": 2,
+      "name": "그림 기호의 단위",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-media-05",
+      "grade": 2,
+      "name": "안내 지도와 방향",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-media-06",
+      "grade": 2,
+      "name": "화면의 버튼과 행동",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-media-07",
+      "grade": 2,
+      "name": "광고와 알림의 목적",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-media-08",
+      "grade": 2,
+      "name": "두 안내의 같은 점과 차이",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-01",
+      "grade": 2,
+      "name": "쓸 대상과 독자 정하기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-02",
+      "grade": 2,
+      "name": "쓰는 목적 정하기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-03",
+      "grade": 2,
+      "name": "관찰 정보 모으기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-04",
+      "grade": 2,
+      "name": "필요한 내용 고르기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-05",
+      "grade": 2,
+      "name": "이름과 특징 문장 쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-06",
+      "grade": 2,
+      "name": "사건을 차례로 쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-07",
+      "grade": 2,
+      "name": "처음·가운데·끝 짜기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-08",
+      "grade": 2,
+      "name": "까닭을 붙여 설명하기",
+      "track": "writing",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-09",
+      "grade": 2,
+      "name": "알림과 안내 쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-10",
+      "grade": 2,
+      "name": "경험과 느낌 쓰기",
+      "track": "writing",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-11",
+      "grade": 2,
+      "name": "빠진 정보 보충",
+      "track": "writing",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-writing-12",
+      "grade": 2,
+      "name": "틀린 정보와 표현 고치기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-oral-01",
+      "grade": 2,
+      "name": "듣고 대상과 행동 확인",
+      "track": "oral",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 0,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-oral-02",
+      "grade": 2,
+      "name": "차례를 지켜 질문·응답",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-oral-03",
+      "grade": 2,
+      "name": "본 것을 또렷이 설명",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G2-oral-04",
+      "grade": 2,
+      "name": "친구의 말에 이유로 답하기",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-01",
+      "grade": 3,
+      "name": "낱말 부분의 뜻",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-02",
+      "grade": 3,
+      "name": "낱말 사이 포함 관계",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-03",
+      "grade": 3,
+      "name": "다의어 문맥 판별",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-04",
+      "grade": 3,
+      "name": "비슷한 말의 차이",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-05",
+      "grade": 3,
+      "name": "낯선 말 뜻 짐작",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-06",
+      "grade": 3,
+      "name": "문장 성분의 역할",
+      "track": "language",
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-07",
+      "grade": 3,
+      "name": "주어와 서술어 호응",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-08",
+      "grade": 3,
+      "name": "꾸미는 말의 범위",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-09",
+      "grade": 3,
+      "name": "지시어 연결",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-10",
+      "grade": 3,
+      "name": "접속어와 관계",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-11",
+      "grade": 3,
+      "name": "부정 표현의 범위",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-language-12",
+      "grade": 3,
+      "name": "문맥에 맞는 고쳐쓰기",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-01",
+      "grade": 3,
+      "name": "세부 정보 정확히 확인",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-02",
+      "grade": 3,
+      "name": "중심 생각 파악",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-03",
+      "grade": 3,
+      "name": "중심과 뒷받침 구분",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-04",
+      "grade": 3,
+      "name": "핵심어로 간추리기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-05",
+      "grade": 3,
+      "name": "조건 보존 요약",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-06",
+      "grade": 3,
+      "name": "문단 순서와 기능",
+      "track": "information",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-07",
+      "grade": 3,
+      "name": "정의와 예시 연결",
+      "track": "information",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 2,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-08",
+      "grade": 3,
+      "name": "비교 기준 적용",
+      "track": "information",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-09",
+      "grade": 3,
+      "name": "인과 관계 연결",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-10",
+      "grade": 3,
+      "name": "분류 기준 확인",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-11",
+      "grade": 3,
+      "name": "조건과 예외 적용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-12",
+      "grade": 3,
+      "name": "생략된 관계 추론",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-13",
+      "grade": 3,
+      "name": "주장과 근거 연결",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-information-14",
+      "grade": 3,
+      "name": "내용과 표현 검토",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-01",
+      "grade": 3,
+      "name": "배경과 사건의 관계",
+      "track": "literature",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 1,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-02",
+      "grade": 3,
+      "name": "사건의 원인과 결과",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-03",
+      "grade": 3,
+      "name": "인물 말과 행동 해석",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-04",
+      "grade": 3,
+      "name": "인물의 마음 변화",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-05",
+      "grade": 3,
+      "name": "인물 사이 관계",
+      "track": "literature",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-06",
+      "grade": 3,
+      "name": "시의 화자와 상황",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-07",
+      "grade": 3,
+      "name": "감각과 비유의 효과",
+      "track": "literature",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-08",
+      "grade": 3,
+      "name": "장면과 분위기",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-09",
+      "grade": 3,
+      "name": "작품의 중심 의미",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-literature-10",
+      "grade": 3,
+      "name": "다른 해석의 근거",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-media-01",
+      "grade": 3,
+      "name": "본문과 표 대응",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-media-02",
+      "grade": 3,
+      "name": "그래프 범례와 단위",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-media-03",
+      "grade": 3,
+      "name": "그림·지도 통합",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-media-04",
+      "grade": 3,
+      "name": "자료의 부분과 전체",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-media-05",
+      "grade": 3,
+      "name": "수치와 설명의 일치",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-media-06",
+      "grade": 3,
+      "name": "작성 날짜와 변경",
+      "track": "media",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-media-07",
+      "grade": 3,
+      "name": "매체의 의도와 독자",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-media-08",
+      "grade": 3,
+      "name": "자료 간 일치·충돌",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-01",
+      "grade": 3,
+      "name": "독자와 목적 계획",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-02",
+      "grade": 3,
+      "name": "자료의 사실 확인",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-03",
+      "grade": 3,
+      "name": "관련 내용 생성",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-04",
+      "grade": 3,
+      "name": "정보 선별과 묶기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-05",
+      "grade": 3,
+      "name": "설명 구조 선택",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-06",
+      "grade": 3,
+      "name": "개요와 문단 조직",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-07",
+      "grade": 3,
+      "name": "중심·뒷받침 문장",
+      "track": "writing",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-08",
+      "grade": 3,
+      "name": "인과·비교 설명 쓰기",
+      "track": "writing",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-09",
+      "grade": 3,
+      "name": "근거를 붙인 의견",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-10",
+      "grade": 3,
+      "name": "요약과 재표현",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-11",
+      "grade": 3,
+      "name": "내용·조직 고쳐쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-writing-12",
+      "grade": 3,
+      "name": "호응·지시·접속 고쳐쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-oral-01",
+      "grade": 3,
+      "name": "듣고 핵심과 이유 정리",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-oral-02",
+      "grade": 3,
+      "name": "모르는 내용을 질문",
+      "track": "oral",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-oral-03",
+      "grade": 3,
+      "name": "근거와 순서로 발표",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G3-oral-04",
+      "grade": 3,
+      "name": "다른 의견을 듣고 조정",
+      "track": "oral",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-01",
+      "grade": 4,
+      "name": "낱말 부분의 뜻",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-02",
+      "grade": 4,
+      "name": "낱말 사이 포함 관계",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-03",
+      "grade": 4,
+      "name": "다의어 문맥 판별",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-04",
+      "grade": 4,
+      "name": "비슷한 말의 차이",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-05",
+      "grade": 4,
+      "name": "낯선 말 뜻 짐작",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-06",
+      "grade": 4,
+      "name": "문장 성분의 역할",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-07",
+      "grade": 4,
+      "name": "주어와 서술어 호응",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-08",
+      "grade": 4,
+      "name": "꾸미는 말의 범위",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-09",
+      "grade": 4,
+      "name": "지시어 연결",
+      "track": "language",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-10",
+      "grade": 4,
+      "name": "접속어와 관계",
+      "track": "language",
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-11",
+      "grade": 4,
+      "name": "부정 표현의 범위",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-language-12",
+      "grade": 4,
+      "name": "문맥에 맞는 고쳐쓰기",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-01",
+      "grade": 4,
+      "name": "세부 정보 정확히 확인",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-02",
+      "grade": 4,
+      "name": "중심 생각 파악",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-03",
+      "grade": 4,
+      "name": "중심과 뒷받침 구분",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-04",
+      "grade": 4,
+      "name": "핵심어로 간추리기",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-05",
+      "grade": 4,
+      "name": "조건 보존 요약",
+      "track": "information",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-06",
+      "grade": 4,
+      "name": "문단 순서와 기능",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-07",
+      "grade": 4,
+      "name": "정의와 예시 연결",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-08",
+      "grade": 4,
+      "name": "비교 기준 적용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-09",
+      "grade": 4,
+      "name": "인과 관계 연결",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-10",
+      "grade": 4,
+      "name": "분류 기준 확인",
+      "track": "information",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 2,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-11",
+      "grade": 4,
+      "name": "조건과 예외 적용",
+      "track": "information",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-12",
+      "grade": 4,
+      "name": "생략된 관계 추론",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-13",
+      "grade": 4,
+      "name": "주장과 근거 연결",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-information-14",
+      "grade": 4,
+      "name": "내용과 표현 검토",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-01",
+      "grade": 4,
+      "name": "배경과 사건의 관계",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-02",
+      "grade": 4,
+      "name": "사건의 원인과 결과",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-03",
+      "grade": 4,
+      "name": "인물 말과 행동 해석",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-04",
+      "grade": 4,
+      "name": "인물의 마음 변화",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-05",
+      "grade": 4,
+      "name": "인물 사이 관계",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-06",
+      "grade": 4,
+      "name": "시의 화자와 상황",
+      "track": "literature",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 1,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-07",
+      "grade": 4,
+      "name": "감각과 비유의 효과",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-08",
+      "grade": 4,
+      "name": "장면과 분위기",
+      "track": "literature",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-09",
+      "grade": 4,
+      "name": "작품의 중심 의미",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-literature-10",
+      "grade": 4,
+      "name": "다른 해석의 근거",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-media-01",
+      "grade": 4,
+      "name": "본문과 표 대응",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-media-02",
+      "grade": 4,
+      "name": "그래프 범례와 단위",
+      "track": "media",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-media-03",
+      "grade": 4,
+      "name": "그림·지도 통합",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-media-04",
+      "grade": 4,
+      "name": "자료의 부분과 전체",
+      "track": "media",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-media-05",
+      "grade": 4,
+      "name": "수치와 설명의 일치",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-media-06",
+      "grade": 4,
+      "name": "작성 날짜와 변경",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-media-07",
+      "grade": 4,
+      "name": "매체의 의도와 독자",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-media-08",
+      "grade": 4,
+      "name": "자료 간 일치·충돌",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-01",
+      "grade": 4,
+      "name": "독자와 목적 계획",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-02",
+      "grade": 4,
+      "name": "자료의 사실 확인",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-03",
+      "grade": 4,
+      "name": "관련 내용 생성",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-04",
+      "grade": 4,
+      "name": "정보 선별과 묶기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-05",
+      "grade": 4,
+      "name": "설명 구조 선택",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-06",
+      "grade": 4,
+      "name": "개요와 문단 조직",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-07",
+      "grade": 4,
+      "name": "중심·뒷받침 문장",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-08",
+      "grade": 4,
+      "name": "인과·비교 설명 쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-09",
+      "grade": 4,
+      "name": "근거를 붙인 의견",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-10",
+      "grade": 4,
+      "name": "요약과 재표현",
+      "track": "writing",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-11",
+      "grade": 4,
+      "name": "내용·조직 고쳐쓰기",
+      "track": "writing",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-writing-12",
+      "grade": 4,
+      "name": "호응·지시·접속 고쳐쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-oral-01",
+      "grade": 4,
+      "name": "듣고 핵심과 이유 정리",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-oral-02",
+      "grade": 4,
+      "name": "모르는 내용을 질문",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-oral-03",
+      "grade": 4,
+      "name": "근거와 순서로 발표",
+      "track": "oral",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G4-oral-04",
+      "grade": 4,
+      "name": "다른 의견을 듣고 조정",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-01",
+      "grade": 5,
+      "name": "학습어의 뜻과 쓰임",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-02",
+      "grade": 5,
+      "name": "형태소와 문맥 대조",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-03",
+      "grade": 5,
+      "name": "추상어의 구체적 의미",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-04",
+      "grade": 5,
+      "name": "다의어와 전문적 의미",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-05",
+      "grade": 5,
+      "name": "유의어의 어감 차이",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-06",
+      "grade": 5,
+      "name": "문장 성분과 의미",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-07",
+      "grade": 5,
+      "name": "복잡한 문장 호응",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-08",
+      "grade": 5,
+      "name": "수식 범위와 중의성",
+      "track": "language",
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-09",
+      "grade": 5,
+      "name": "담화의 지시 관계",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-10",
+      "grade": 5,
+      "name": "접속과 논리 전환",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-11",
+      "grade": 5,
+      "name": "조건·부정의 범위",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-language-12",
+      "grade": 5,
+      "name": "객관적 표현과 인용",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-01",
+      "grade": 5,
+      "name": "핵심 정보와 경쟁 정보",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-02",
+      "grade": 5,
+      "name": "중심 명제와 범위",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-03",
+      "grade": 5,
+      "name": "개념 정의와 적용",
+      "track": "information",
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 2,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-04",
+      "grade": 5,
+      "name": "중심·세부 위계",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-05",
+      "grade": 5,
+      "name": "복합 구조 요약",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-06",
+      "grade": 5,
+      "name": "문단 기능과 전개",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-07",
+      "grade": 5,
+      "name": "원리와 사례 적용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-08",
+      "grade": 5,
+      "name": "복수 기준 비교",
+      "track": "information",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-09",
+      "grade": 5,
+      "name": "다중 인과와 한계",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-10",
+      "grade": 5,
+      "name": "조건·예외 우선순위",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-11",
+      "grade": 5,
+      "name": "근거의 충분성",
+      "track": "information",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-12",
+      "grade": 5,
+      "name": "출처와 정보 신뢰성",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-13",
+      "grade": 5,
+      "name": "관점 간 공통·차이",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-information-14",
+      "grade": 5,
+      "name": "문제 해결에 정보 활용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-01",
+      "grade": 5,
+      "name": "서술 정보와 시점",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-02",
+      "grade": 5,
+      "name": "인물의 선택과 갈등",
+      "track": "literature",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-03",
+      "grade": 5,
+      "name": "관계 변화와 사건 구조",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-04",
+      "grade": 5,
+      "name": "시간 전환과 의미",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-05",
+      "grade": 5,
+      "name": "말과 행동의 불일치",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-06",
+      "grade": 5,
+      "name": "화자의 태도와 정서",
+      "track": "literature",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-07",
+      "grade": 5,
+      "name": "상징·함축의 근거",
+      "track": "literature",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-08",
+      "grade": 5,
+      "name": "표현 방식과 효과",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-09",
+      "grade": 5,
+      "name": "해석 비교와 타당성",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-literature-10",
+      "grade": 5,
+      "name": "작품과 사회·삶의 연결",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-media-01",
+      "grade": 5,
+      "name": "여러 자료의 범위 비교",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-media-02",
+      "grade": 5,
+      "name": "단위·분모·비율 해석",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-media-03",
+      "grade": 5,
+      "name": "시각적 강조의 효과",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-media-04",
+      "grade": 5,
+      "name": "누락 정보와 대표성",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-media-05",
+      "grade": 5,
+      "name": "출처·시점·버전 검증",
+      "track": "media",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-media-06",
+      "grade": 5,
+      "name": "측정값과 주장 구별",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-media-07",
+      "grade": 5,
+      "name": "상충 자료의 조정",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-media-08",
+      "grade": 5,
+      "name": "목적에 따른 정보 재구성",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-01",
+      "grade": 5,
+      "name": "독자·목적·매체 설계",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-02",
+      "grade": 5,
+      "name": "다중 출처 정보 수집",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-03",
+      "grade": 5,
+      "name": "신뢰성과 사용 범위 확인",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-04",
+      "grade": 5,
+      "name": "주제와 내용 범위 조절",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-05",
+      "grade": 5,
+      "name": "복합 개요 조직",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-06",
+      "grade": 5,
+      "name": "문단의 기능과 연결",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-07",
+      "grade": 5,
+      "name": "정의·원리 설명 쓰기",
+      "track": "writing",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-08",
+      "grade": 5,
+      "name": "자료 인용과 설명 통합",
+      "track": "writing",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-09",
+      "grade": 5,
+      "name": "주장·근거·반론 구성",
+      "track": "writing",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-10",
+      "grade": 5,
+      "name": "독자에 맞게 재표현",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-11",
+      "grade": 5,
+      "name": "내용·논리·조직 수정",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-writing-12",
+      "grade": 5,
+      "name": "표현·호응·인용 수정",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-oral-01",
+      "grade": 5,
+      "name": "관점과 근거를 들으며 정리",
+      "track": "oral",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-oral-02",
+      "grade": 5,
+      "name": "주장을 확인하는 질문",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-oral-03",
+      "grade": 5,
+      "name": "자료를 활용한 발표",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G5-oral-04",
+      "grade": 5,
+      "name": "반론을 듣고 설명 수정",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-01",
+      "grade": 6,
+      "name": "학습어의 뜻과 쓰임",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-02",
+      "grade": 6,
+      "name": "형태소와 문맥 대조",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-03",
+      "grade": 6,
+      "name": "추상어의 구체적 의미",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-04",
+      "grade": 6,
+      "name": "다의어와 전문적 의미",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-05",
+      "grade": 6,
+      "name": "유의어의 어감 차이",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-06",
+      "grade": 6,
+      "name": "문장 성분과 의미",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-07",
+      "grade": 6,
+      "name": "복잡한 문장 호응",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-08",
+      "grade": 6,
+      "name": "수식 범위와 중의성",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-09",
+      "grade": 6,
+      "name": "담화의 지시 관계",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-10",
+      "grade": 6,
+      "name": "접속과 논리 전환",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-11",
+      "grade": 6,
+      "name": "조건·부정의 범위",
+      "track": "language",
+      "authoredSets": 4,
+      "authoredQuestions": 17,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-language-12",
+      "grade": 6,
+      "name": "객관적 표현과 인용",
+      "track": "language",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-01",
+      "grade": 6,
+      "name": "핵심 정보와 경쟁 정보",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-02",
+      "grade": 6,
+      "name": "중심 명제와 범위",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-03",
+      "grade": 6,
+      "name": "개념 정의와 적용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-04",
+      "grade": 6,
+      "name": "중심·세부 위계",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-05",
+      "grade": 6,
+      "name": "복합 구조 요약",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-06",
+      "grade": 6,
+      "name": "문단 기능과 전개",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-07",
+      "grade": 6,
+      "name": "원리와 사례 적용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-08",
+      "grade": 6,
+      "name": "복수 기준 비교",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-09",
+      "grade": 6,
+      "name": "다중 인과와 한계",
+      "track": "information",
+      "authoredSets": 2,
+      "authoredQuestions": 10,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 2,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-10",
+      "grade": 6,
+      "name": "조건·예외 우선순위",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-11",
+      "grade": 6,
+      "name": "근거의 충분성",
+      "track": "information",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-12",
+      "grade": 6,
+      "name": "출처와 정보 신뢰성",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-13",
+      "grade": 6,
+      "name": "관점 간 공통·차이",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-information-14",
+      "grade": 6,
+      "name": "문제 해결에 정보 활용",
+      "track": "information",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-01",
+      "grade": 6,
+      "name": "서술 정보와 시점",
+      "track": "literature",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-02",
+      "grade": 6,
+      "name": "인물의 선택과 갈등",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-03",
+      "grade": 6,
+      "name": "관계 변화와 사건 구조",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-04",
+      "grade": 6,
+      "name": "시간 전환과 의미",
+      "track": "literature",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-05",
+      "grade": 6,
+      "name": "말과 행동의 불일치",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-06",
+      "grade": 6,
+      "name": "화자의 태도와 정서",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-07",
+      "grade": 6,
+      "name": "상징·함축의 근거",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-08",
+      "grade": 6,
+      "name": "표현 방식과 효과",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-09",
+      "grade": 6,
+      "name": "해석 비교와 타당성",
+      "track": "literature",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-literature-10",
+      "grade": 6,
+      "name": "작품과 사회·삶의 연결",
+      "track": "literature",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-media-01",
+      "grade": 6,
+      "name": "여러 자료의 범위 비교",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-media-02",
+      "grade": 6,
+      "name": "단위·분모·비율 해석",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-media-03",
+      "grade": 6,
+      "name": "시각적 강조의 효과",
+      "track": "media",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 1,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-media-04",
+      "grade": 6,
+      "name": "누락 정보와 대표성",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-media-05",
+      "grade": 6,
+      "name": "출처·시점·버전 검증",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-media-06",
+      "grade": 6,
+      "name": "측정값과 주장 구별",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-media-07",
+      "grade": 6,
+      "name": "상충 자료의 조정",
+      "track": "media",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-media-08",
+      "grade": 6,
+      "name": "목적에 따른 정보 재구성",
+      "track": "media",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-01",
+      "grade": 6,
+      "name": "독자·목적·매체 설계",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-02",
+      "grade": 6,
+      "name": "다중 출처 정보 수집",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-03",
+      "grade": 6,
+      "name": "신뢰성과 사용 범위 확인",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-04",
+      "grade": 6,
+      "name": "주제와 내용 범위 조절",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-05",
+      "grade": 6,
+      "name": "복합 개요 조직",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-06",
+      "grade": 6,
+      "name": "문단의 기능과 연결",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-07",
+      "grade": 6,
+      "name": "정의·원리 설명 쓰기",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-08",
+      "grade": 6,
+      "name": "자료 인용과 설명 통합",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-09",
+      "grade": 6,
+      "name": "주장·근거·반론 구성",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-10",
+      "grade": 6,
+      "name": "독자에 맞게 재표현",
+      "track": "writing",
+      "authoredSets": 6,
+      "authoredQuestions": 26,
+      "stages": {
+        "S1": 1,
+        "S2": 1,
+        "S3": 1,
+        "S4": 1,
+        "S5": 1,
+        "S6": 1
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-11",
+      "grade": 6,
+      "name": "내용·논리·조직 수정",
+      "track": "writing",
+      "authoredSets": 3,
+      "authoredQuestions": 13,
+      "stages": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-writing-12",
+      "grade": 6,
+      "name": "표현·호응·인용 수정",
+      "track": "writing",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-oral-01",
+      "grade": 6,
+      "name": "관점과 근거를 들으며 정리",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-oral-02",
+      "grade": 6,
+      "name": "주장을 확인하는 질문",
+      "track": "oral",
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 0,
+        "S5": 1,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-oral-03",
+      "grade": 6,
+      "name": "자료를 활용한 발표",
+      "track": "oral",
+      "authoredSets": 0,
+      "authoredQuestions": 0,
+      "stages": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0
+      },
+      "approvedSets": 0
+    },
+    {
+      "skillId": "plan-G6-oral-04",
+      "grade": 6,
+      "name": "반론을 듣고 설명 수정",
+      "track": "oral",
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "stages": {
+        "S1": 2,
+        "S2": 2,
+        "S3": 2,
+        "S4": 2,
+        "S5": 2,
+        "S6": 2
+      },
+      "approvedSets": 0
+    }
+  ]
+}

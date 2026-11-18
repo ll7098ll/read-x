@@ -1,0 +1,4695 @@
+{
+  "schemaVersion": "readx-six-stage-pilot-1",
+  "asOf": "2026-11-18",
+  "batch": "expansion-v2-06",
+  "scope": "매체 새6수행의 두 단계씩12자료. 실제 검색·공유·독자 반응 관찰과 전체 공급 완료는 별도.",
+  "sets": [
+    {
+      "id": "PV2-G1-media-01-S2-A",
+      "version": 1,
+      "microSkillId": "plan-G1-media-01",
+      "skillName": "생활 표지의 뜻",
+      "grade": 1,
+      "track": "media",
+      "stage": "S2",
+      "stageLabel": "단서 짚기",
+      "variant": "A",
+      "title": "어느 표지를 보면 될까",
+      "purpose": "practice",
+      "familyId": "PV2-G1-media-01-S2-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G1-media-01-S2-A-p1",
+          "text": "가상 어린이 쉼터에 붙인 표지 두 장이에요. 그림과 아래의 말을 함께 보세요.",
+          "sentences": [
+            {
+              "id": "PV2-G1-media-01-S2-A-p1-s1",
+              "text": "가상 어린이 쉼터에 붙인 표지 두 장이에요."
+            },
+            {
+              "id": "PV2-G1-media-01-S2-A-p1-s2",
+              "text": "그림과 아래의 말을 함께 보세요."
+            }
+          ]
+        }
+      ],
+      "charCount": 43,
+      "contentHash": "8b312eae8db016f87caf1cd827b9f32a8977da668e8530d5f1ebe0dbcaa55ef9",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "생활어·짧은 문장·직접 관찰 가능한 대상. 두 특징이나 행동을 연결하고 한두 문장으로 표현.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "표지의 말과 그림 짚기",
+        "evidenceDistance": "한 문장 또는 인접 문장",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "그림에 관습적으로 정해진 뜻을 외웠는지보다 이 자료에 함께 적힌 말을 연결한다. 실제 기관 표지로 소개하지 않는다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G1-media-01-S2-A-Q1",
+          "kind": "explanation",
+          "prompt": "물을 마시려면 어느 표지가 있는 곳으로 가면 될까요? 표지의 말과 그림을 함께 짚으세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S2-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S2-A-MP2",
+              "elementId": "rule",
+              "quote": "이곳에서 물을 마셔요."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "나 표지가 있는 곳. 물잔 그림과 이곳에서 물을 마셔요라는 말이 있다.",
+          "rubric": [
+            {
+              "criterion": "표지 선택",
+              "levels": {
+                "0": "가를 물 마시는 곳으로 고른다.",
+                "1": "물잔만 짚고 어느 표지인지 밝히지 못한다.",
+                "2": "물 마시는 곳인 나를 고른다."
+              }
+            },
+            {
+              "criterion": "그림·말 연결",
+              "levels": {
+                "0": "작은 목소리라는 말을 물 마시기로 연결한다.",
+                "1": "말이나 그림 하나만 짚는다.",
+                "2": "물잔 그림과 물 마시라는 말을 함께 연결한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-media-01-S2-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-media-01-S2-A-Q2",
+          "kind": "single_choice",
+          "prompt": "가 표지 아래에서는 어떻게 이야기하면 될까요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S2-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S2-A-MP1",
+              "elementId": "rule",
+              "quote": "작은 목소리로 이야기해요."
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "큰 소리로",
+              "reason": "표지의 말과 반대이다."
+            },
+            {
+              "text": "말 대신 물만 마시며",
+              "reason": "나의 물잔 표지와 섞었다."
+            },
+            {
+              "text": "작은 목소리로",
+              "reason": "가에 작은 목소리로 이야기하자고 적혀 있다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "가에 작은 목소리로 이야기하자고 적혀 있다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-media-01-S2-A-Q3",
+          "kind": "matching",
+          "prompt": "말풍선 그림 / 물잔 그림을 각각 표지 가·나와 이으세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S2-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S2-A-MP1",
+              "elementId": "rule",
+              "quote": "작은 목소리로 이야기해요."
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S2-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S2-A-MP2",
+              "elementId": "rule",
+              "quote": "이곳에서 물을 마셔요."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "말풍선:가 / 물잔:나",
+          "rubric": [
+            {
+              "criterion": "말풍선 그림 / 물잔 그림을 각각 표지 가·나와 이으세요.",
+              "levels": {
+                "0": "두 그림을 바꿈",
+                "1": "한 쌍만 맞게 이음",
+                "2": "말풍선:가 / 물잔:나"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-media-01-S2-A-Q4",
+          "kind": "explanation",
+          "prompt": "가 표지를 본 친구에게 알맞은 행동을 한 문장으로 알려 주세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S2-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S2-A-MP1",
+              "elementId": "rule",
+              "quote": "작은 목소리로 이야기해요."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "여기에서는 작은 목소리로 이야기하자.",
+          "rubric": [
+            {
+              "criterion": "가 표지를 본 친구에게 알맞은 행동을 한 문장으로 알려 주세요.",
+              "levels": {
+                "0": "이야기는 절대로 하면 안 된다고 바꿈",
+                "1": "작게라고만 말함",
+                "2": "여기에서는 작은 목소리로 이야기하자."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "생활 표지의 말·그림을 읽는 매체 경험 보조",
+          "remainingGap": "정지된 가상 자료의 읽기이며 실제 인터넷 탐색·자료 선택, 중심 내용 확인·흥미와 태도의 전체 수행을 직접 측정하지 않음.",
+          "links": [
+            {
+              "id": "PV2-G1-media-01-S2-A-C1",
+              "code": "2국06-01",
+              "subject": "국어",
+              "statement": "일상의 다양한 매체와 매체 자료에 흥미와 관심을 가진다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 561,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "매체 읽기의 준비·보조",
+              "includedComponent": "생활 표지의 말·그림을 읽는 매체 경험 보조",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G1-media-01-S2-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "cb1140d04cc3dea2efe2db2f0eaf013184dc0f5784bccc3c11c8f4affd68e1a6"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "표지 가",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "rule",
+              "text": "작은 목소리로 이야기해요.",
+              "style": "large",
+              "icon": "talk",
+              "imageDescription": "말풍선 그림"
+            }
+          ],
+          "id": "PV2-G1-media-01-S2-A-MP1",
+          "accessibleDescription": "표지 가。말풍선 그림 · 큰 글씨: 작은 목소리로 이야기해요."
+        },
+        {
+          "title": "표지 나",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "rule",
+              "text": "이곳에서 물을 마셔요.",
+              "style": "large",
+              "icon": "cup",
+              "imageDescription": "물잔 그림"
+            }
+          ],
+          "id": "PV2-G1-media-01-S2-A-MP2",
+          "accessibleDescription": "표지 나。물잔 그림 · 큰 글씨: 이곳에서 물을 마셔요."
+        }
+      ],
+      "mediaHash": "88e4c453a030e17e2cdec833e35e34a38d61c822de0af903252cd56456b52aee",
+      "learnerStageLabel": "표지의 말과 그림 짚기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G1-media-01-S2-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G1-media-01-S2-A-Q1",
+        "PV2-G1-media-01-S2-A-Q2",
+        "PV2-G1-media-01-S2-A-Q3",
+        "PV2-G1-media-01-S2-A-Q4"
+      ]
+    },
+    {
+      "id": "PV2-G1-media-01-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G1-media-01",
+      "skillName": "생활 표지의 뜻",
+      "grade": 1,
+      "track": "media",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "공은 어디에서 놀까",
+      "purpose": "practice",
+      "familyId": "PV2-G1-media-01-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G1-media-01-S3-A-p1",
+          "text": "가상 놀이집의 복도와 놀이방에 표지가 있어요. 민재는 공을 들고 복도에 서 있어요. 놀이방은 문 안쪽에 있어요.",
+          "sentences": [
+            {
+              "id": "PV2-G1-media-01-S3-A-p1-s1",
+              "text": "가상 놀이집의 복도와 놀이방에 표지가 있어요."
+            },
+            {
+              "id": "PV2-G1-media-01-S3-A-p1-s2",
+              "text": "민재는 공을 들고 복도에 서 있어요."
+            },
+            {
+              "id": "PV2-G1-media-01-S3-A-p1-s3",
+              "text": "놀이방은 문 안쪽에 있어요."
+            }
+          ]
+        }
+      ],
+      "charCount": 62,
+      "contentHash": "09e9e5caf2cad36bdf401b90aa26d1ed267c19b6e77af71736df777bfece565f",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "생활어·짧은 문장·직접 관찰 가능한 대상. 두 특징이나 행동을 연결하고 한두 문장으로 표현.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "장소와 행동 연결하기",
+        "evidenceDistance": "문단 사이",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "장소별 허용 범위를 구별한다. 공놀이가 가능한 장소를 찾되 놀이방 밖에서도 괜찮다거나 복도에 공을 들고만 있어도 안 된다고 확대하지 않는다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G1-media-01-S3-A-Q1",
+          "kind": "explanation",
+          "prompt": "민재가 공놀이를 하려면 어디로 가야 하나요? 두 표지를 이어 설명하세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S3-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S3-A-MP1",
+              "elementId": "rule",
+              "quote": "복도에서는 공을 던지지 않아요."
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S3-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S3-A-MP2",
+              "elementId": "rule",
+              "quote": "놀이방 안에서만 공놀이를 해요."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "복도에서는 공을 던지지 말고 놀이방 안으로 가서 공놀이를 해야 한다.",
+          "rubric": [
+            {
+              "criterion": "장소 구별",
+              "levels": {
+                "0": "복도와 놀이방을 같은 곳이라고 한다.",
+                "1": "놀이방만 말하고 복도와 구별하지 못한다.",
+                "2": "복도와 놀이방 안을 구별한다."
+              }
+            },
+            {
+              "criterion": "행동·범위 연결",
+              "levels": {
+                "0": "건물 어디서든 공을 던져도 된다고 한다.",
+                "1": "놀이방에서 한다고만 한다.",
+                "2": "복도에서는 던지지 않고 놀이방 안에서 한다고 잇는다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G1-media-01-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-media-01-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "공을 던지지 말라는 표지는 어디에 붙었나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S3-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S3-A-MP1",
+              "elementId": "rule",
+              "quote": "복도에서는 공을 던지지 않아요."
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "놀이방 안",
+              "reason": "안에서 공놀이를 한다는 다른 표지이다."
+            },
+            {
+              "text": "놀이집 모든 곳",
+              "reason": "가에 적힌 복도라는 범위를 넓혔다."
+            },
+            {
+              "text": "복도",
+              "reason": "표지 가의 장소가 복도라고 적혀 있다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "표지 가의 장소가 복도라고 적혀 있다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-media-01-S3-A-Q3",
+          "kind": "explanation",
+          "prompt": "두 표지의 말이 서로 반대라서 하나는 틀렸다고 할 수 있나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S3-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S3-A-MP1",
+              "elementId": "rule",
+              "quote": "복도에서는 공을 던지지 않아요."
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S3-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S3-A-MP2",
+              "elementId": "rule",
+              "quote": "놀이방 안에서만 공놀이를 해요."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "장소가 달라 함께 지킬 수 있다. 복도와 놀이방 안의 규칙이 다르다.",
+          "rubric": [
+            {
+              "criterion": "두 표지의 말이 서로 반대라서 하나는 틀렸다고 할 수 있나요?",
+              "levels": {
+                "0": "공놀이는 되거나 안 되거나 둘 중 하나만 가능하다고 함",
+                "1": "장소가 다르다고만 함",
+                "2": "장소가 달라 함께 지킬 수 있다. 복도와 놀이방 안의 규칙이 다르다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-media-01-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "놀이방 밖 문 앞에서도 공을 던져도 된다는 말은 표지 나와 맞나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G1-media-01-S3-A",
+              "version": 1,
+              "assetId": "PV2-G1-media-01-S3-A-MP2",
+              "elementId": "rule",
+              "quote": "놀이방 안에서만 공놀이를 해요."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "아니다. 표지는 놀이방 안에서만 공놀이를 하라고 했다.",
+          "rubric": [
+            {
+              "criterion": "놀이방 밖 문 앞에서도 공을 던져도 된다는 말은 표지 나와 맞나요?",
+              "levels": {
+                "0": "놀이방 가까이에 있으면 모두 된다고 함",
+                "1": "안에서만이라는 범위를 설명하지 못함",
+                "2": "아니다. 표지는 놀이방 안에서만 공놀이를 하라고 했다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "생활 표지의 말·그림을 읽는 매체 경험 보조",
+          "remainingGap": "정지된 가상 자료의 읽기이며 실제 인터넷 탐색·자료 선택, 중심 내용 확인·흥미와 태도의 전체 수행을 직접 측정하지 않음.",
+          "links": [
+            {
+              "id": "PV2-G1-media-01-S3-A-C1",
+              "code": "2국06-01",
+              "subject": "국어",
+              "statement": "일상의 다양한 매체와 매체 자료에 흥미와 관심을 가진다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 561,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "매체 읽기의 준비·보조",
+              "includedComponent": "생활 표지의 말·그림을 읽는 매체 경험 보조",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G1-media-01-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "df5c10ebe885d3eeba6b6fc52ff192f51e7d6596ad1a6fd586cea1be505e6db0"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "표지 가 · 복도",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "rule",
+              "text": "복도에서는 공을 던지지 않아요.",
+              "style": "large",
+              "icon": "no_ball",
+              "imageDescription": "빗금을 친 공 그림"
+            }
+          ],
+          "id": "PV2-G1-media-01-S3-A-MP1",
+          "accessibleDescription": "표지 가 · 복도。빗금을 친 공 그림 · 큰 글씨: 복도에서는 공을 던지지 않아요."
+        },
+        {
+          "title": "표지 나 · 놀이방",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "rule",
+              "text": "놀이방 안에서만 공놀이를 해요.",
+              "style": "large",
+              "icon": "ball",
+              "imageDescription": "공 그림"
+            }
+          ],
+          "id": "PV2-G1-media-01-S3-A-MP2",
+          "accessibleDescription": "표지 나 · 놀이방。공 그림 · 큰 글씨: 놀이방 안에서만 공놀이를 해요."
+        }
+      ],
+      "mediaHash": "d392c2fb6dbf41eba865787c761639611a1a734003f1aed6213413460fd60688",
+      "learnerStageLabel": "장소와 행동 연결하기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G1-media-01-S3-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G1-media-01-S3-A-Q1",
+        "PV2-G1-media-01-S3-A-Q2",
+        "PV2-G1-media-01-S3-A-Q3",
+        "PV2-G1-media-01-S3-A-Q4"
+      ]
+    },
+    {
+      "id": "PV2-G2-media-03-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G2-media-03",
+      "skillName": "간단한 표에서 찾기",
+      "grade": 2,
+      "track": "media",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "활동표와 방 안내표",
+      "purpose": "practice",
+      "familyId": "PV2-G2-media-03-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G2-media-03-S3-A-p1",
+          "text": "가상 배움집의 두 표예요. 유나는 수요일 종이접기 활동에 가려고 해요. 요일과 활동을 먼저 찾고, 다른 표에서 그 활동의 방을 찾아보세요.",
+          "sentences": [
+            {
+              "id": "PV2-G2-media-03-S3-A-p1-s1",
+              "text": "가상 배움집의 두 표예요."
+            },
+            {
+              "id": "PV2-G2-media-03-S3-A-p1-s2",
+              "text": "유나는 수요일 종이접기 활동에 가려고 해요."
+            },
+            {
+              "id": "PV2-G2-media-03-S3-A-p1-s3",
+              "text": "요일과 활동을 먼저 찾고, 다른 표에서 그 활동의 방을 찾아보세요."
+            }
+          ]
+        }
+      ],
+      "charCount": 77,
+      "contentHash": "c45ecff3ed02497a4bad19cf3d0e48d2cfdfc48ecc9438d41c05edd4f800fea4",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "짧은 문단·생활 규칙·두 조건. 가까운 정보의 관계와 단순 예외를 설명.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "두 표의 정보 연결하기",
+        "evidenceDistance": "문단 사이",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "한 표의 같은 행과 다른 표의 활동 이름을 연결한다. 시간 계산이나 실제 지도 이동 수행으로 집계하지 않는다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G2-media-03-S3-A-Q1",
+          "kind": "explanation",
+          "prompt": "유나는 수요일 몇 시에 어느 방으로 가면 되나요? 두 표에서 찾은 정보를 함께 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S3-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S3-A-MP1",
+              "elementId": "wed",
+              "quote": "수요일 | 종이접기 | 오후 4시"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S3-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S3-A-MP2",
+              "elementId": "fold",
+              "quote": "종이접기 | 솔방"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "수요일 오후 4시에 솔방으로 가면 된다. 활동표에서 종이접기의 시간을, 방 안내표에서 종이접기의 방을 찾았다.",
+          "rubric": [
+            {
+              "criterion": "행·열 대응",
+              "levels": {
+                "0": "화요일 시간이나 다른 활동을 고른다.",
+                "1": "활동이나 시간 중 하나만 맞힌다.",
+                "2": "수요일 종이접기와 오후4시를 같은 행에서 연결한다."
+              }
+            },
+            {
+              "criterion": "두 표 연결",
+              "levels": {
+                "0": "바느질의 달방으로 보낸다.",
+                "1": "솔방을 쓰지만 어느 활동의 방인지 잇지 못한다.",
+                "2": "종이접기를 연결 고리로 솔방을 찾는다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G2-media-03-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-media-03-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "바느질을 하는 방은 어디인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S3-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S3-A-MP2",
+              "elementId": "sew",
+              "quote": "바느질 | 달방"
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "솔방",
+              "reason": "종이접기 활동의 방이다."
+            },
+            {
+              "text": "별방",
+              "reason": "흙놀이 활동의 방이다."
+            },
+            {
+              "text": "달방",
+              "reason": "방 안내표에서 바느질 행의 방 이름은 달방이다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "방 안내표에서 바느질 행의 방 이름은 달방이다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-media-03-S3-A-Q3",
+          "kind": "matching",
+          "prompt": "화요일 / 목요일의 활동을 각각 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S3-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S3-A-MP1",
+              "elementId": "tue",
+              "quote": "화요일 | 바느질 | 오후 3시"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S3-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S3-A-MP1",
+              "elementId": "thu",
+              "quote": "목요일 | 흙놀이 | 오후 4시"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "화요일:바느질 / 목요일:흙놀이",
+          "rubric": [
+            {
+              "criterion": "화요일 / 목요일의 활동을 각각 쓰세요.",
+              "levels": {
+                "0": "두 활동을 바꿈",
+                "1": "한 요일만 맞게 씀",
+                "2": "화요일:바느질 / 목요일:흙놀이"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-media-03-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "활동표만 보면 방 이름까지 알 수 있나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S3-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S3-A-MP1",
+              "elementId": "head",
+              "quote": "요일 | 활동 | 시각"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S3-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S3-A-MP2",
+              "elementId": "head",
+              "quote": "활동 | 방"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "활동표에는 요일·활동·시각만 있어 방 안내표도 보아야 한다.",
+          "rubric": [
+            {
+              "criterion": "활동표만 보면 방 이름까지 알 수 있나요?",
+              "levels": {
+                "0": "시간이 같으면 방도 같다고 함",
+                "1": "다른 표도 본다고만 함",
+                "2": "활동표에는 요일·활동·시각만 있어 방 안내표도 보아야 한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "표에 명시된 정보를 찾아 연결하고 설명과 대조하는 읽기 보조",
+          "remainingGap": "정지된 가상 자료의 읽기이며 실제 인터넷 탐색·자료 선택, 중심 내용 확인·흥미와 태도의 전체 수행을 직접 측정하지 않음.",
+          "links": [
+            {
+              "id": "PV2-G2-media-03-S3-A-C1",
+              "code": "2국02-03",
+              "subject": "국어",
+              "statement": "글을 읽고 중심 내용을 확인한다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 510,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "매체 읽기의 준비·보조",
+              "includedComponent": "표에 명시된 정보를 찾아 연결하고 설명과 대조하는 읽기 보조",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G2-media-03-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "d9229be5aab66fb2992287d6fc682b1bf4cb8cd9638c9c1a159ebe803c335369"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "표 가 · 활동표",
+          "kind": "table",
+          "elements": [
+            {
+              "id": "head",
+              "text": "요일 | 활동 | 시각",
+              "style": "header"
+            },
+            {
+              "id": "tue",
+              "text": "화요일 | 바느질 | 오후 3시",
+              "style": "body"
+            },
+            {
+              "id": "wed",
+              "text": "수요일 | 종이접기 | 오후 4시",
+              "style": "body"
+            },
+            {
+              "id": "thu",
+              "text": "목요일 | 흙놀이 | 오후 4시",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G2-media-03-S3-A-MP1",
+          "accessibleDescription": "표 가 · 활동표。요일 | 활동 | 시각。화요일 | 바느질 | 오후 3시。수요일 | 종이접기 | 오후 4시。목요일 | 흙놀이 | 오후 4시"
+        },
+        {
+          "title": "표 나 · 방 안내표",
+          "kind": "table",
+          "elements": [
+            {
+              "id": "head",
+              "text": "활동 | 방",
+              "style": "header"
+            },
+            {
+              "id": "fold",
+              "text": "종이접기 | 솔방",
+              "style": "body"
+            },
+            {
+              "id": "clay",
+              "text": "흙놀이 | 별방",
+              "style": "body"
+            },
+            {
+              "id": "sew",
+              "text": "바느질 | 달방",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G2-media-03-S3-A-MP2",
+          "accessibleDescription": "표 나 · 방 안내표。활동 | 방。종이접기 | 솔방。흙놀이 | 별방。바느질 | 달방"
+        }
+      ],
+      "mediaHash": "f80bc1d0e96a12149e5aa21327057a30a62103a556b01d03beb56fc11d375fe5",
+      "learnerStageLabel": "두 표의 정보 연결하기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G2-media-03-S3-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G2-media-03-S3-A-Q1",
+        "PV2-G2-media-03-S3-A-Q2",
+        "PV2-G2-media-03-S3-A-Q3",
+        "PV2-G2-media-03-S3-A-Q4"
+      ]
+    },
+    {
+      "id": "PV2-G2-media-03-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G2-media-03",
+      "skillName": "간단한 표에서 찾기",
+      "grade": 2,
+      "track": "media",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "반납일을 잘못 읽은 쪽지",
+      "purpose": "practice",
+      "familyId": "PV2-G2-media-03-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G2-media-03-S5-A-p1",
+          "text": "가상 학급의 물건 대여표예요. 표 아래 설명에 미정은 아직 정하지 않았다는 뜻이라고 적혀 있어요.",
+          "sentences": [
+            {
+              "id": "PV2-G2-media-03-S5-A-p1-s1",
+              "text": "가상 학급의 물건 대여표예요."
+            },
+            {
+              "id": "PV2-G2-media-03-S5-A-p1-s2",
+              "text": "표 아래 설명에 미정은 아직 정하지 않았다는 뜻이라고 적혀 있어요."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G2-media-03-S5-A-p2",
+          "text": "친구가 보낸 쪽지에는 세 사람 모두 금요일에 돌려주면 된다고 적혀 있어요. 표와 쪽지를 맞춰 보세요.",
+          "sentences": [
+            {
+              "id": "PV2-G2-media-03-S5-A-p2-s1",
+              "text": "친구가 보낸 쪽지에는 세 사람 모두 금요일에 돌려주면 된다고 적혀 있어요."
+            },
+            {
+              "id": "PV2-G2-media-03-S5-A-p2-s2",
+              "text": "표와 쪽지를 맞춰 보세요."
+            }
+          ]
+        }
+      ],
+      "charCount": 111,
+      "contentHash": "18cb7a623b6d30e66786ee6fe1c1f3a66d09aa901308da592a2cc8604343ba90",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "짧은 문단·생활 규칙·두 조건. 가까운 정보의 관계와 단순 예외를 설명.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "표와 설명 맞춰 보기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "각 행의 사람·물건·반납일을 보존한다. 미정은 금요일이나 반납할 필요 없음이라는 뜻이 아니다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G2-media-03-S5-A-Q1",
+          "kind": "explanation",
+          "prompt": "친구의 쪽지를 표에 맞게 고치세요. 아직 정하지 않은 정보도 함께 남기세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "tae",
+              "quote": "태민 | 돋보기 | 화요일"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "su",
+              "quote": "수빈 | 줄자 | 금요일"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "na",
+              "quote": "나래 | 자석 | 미정"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "note",
+              "quote": "미정: 아직 정하지 않음"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "태민은 돋보기를 화요일에, 수빈은 줄자를 금요일에 돌려준다. 나래의 자석 반납일은 아직 정하지 않아 확인해야 한다.",
+          "rubric": [
+            {
+              "criterion": "정해진 날짜",
+              "levels": {
+                "0": "두 사람 모두 금요일이라고 한다.",
+                "1": "한 사람의 날짜만 맞힌다.",
+                "2": "태민 화요일·수빈 금요일을 사람과 연결한다."
+              }
+            },
+            {
+              "criterion": "미정 구별",
+              "levels": {
+                "0": "나래는 돌려줄 필요가 없다고 한다.",
+                "1": "미정이라고만 옮기고 의미를 설명하지 못한다.",
+                "2": "나래의 반납일은 아직 모르므로 확인이 필요하다고 남긴다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G2-media-03-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-media-03-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "표에서 금요일로 정해진 사람은 누구인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "su",
+              "quote": "수빈 | 줄자 | 금요일"
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "나래",
+              "reason": "미정으로 적혀 있다."
+            },
+            {
+              "text": "태민",
+              "reason": "화요일로 적혀 있다."
+            },
+            {
+              "text": "수빈",
+              "reason": "수빈 행의 반납일이 금요일이다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "수빈 행의 반납일이 금요일이다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-media-03-S5-A-Q3",
+          "kind": "matching",
+          "prompt": "태민 / 나래가 빌린 물건을 각각 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "tae",
+              "quote": "태민 | 돋보기 | 화요일"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "na",
+              "quote": "나래 | 자석 | 미정"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "태민:돋보기 / 나래:자석",
+          "rubric": [
+            {
+              "criterion": "태민 / 나래가 빌린 물건을 각각 쓰세요.",
+              "levels": {
+                "0": "돋보기와 자석을 바꿈",
+                "1": "하나의 물건만 맞게 씀",
+                "2": "태민:돋보기 / 나래:자석"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-media-03-S5-A-Q4",
+          "kind": "explanation",
+          "prompt": "미정을 금요일로 바꾸어 쓰면 왜 안 되나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "note",
+              "quote": "미정: 아직 정하지 않음"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "아직 정하지 않은 날짜를 이미 정한 것처럼 전달하게 되기 때문이다.",
+          "rubric": [
+            {
+              "criterion": "미정을 금요일로 바꾸어 쓰면 왜 안 되나요?",
+              "levels": {
+                "0": "표에 빈 날짜가 있으면 다른 사람 날짜를 복사해도 된다고 함",
+                "1": "날짜가 다르다고만 함",
+                "2": "아직 정하지 않은 날짜를 이미 정한 것처럼 전달하게 되기 때문이다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-media-03-S5-A-Q5",
+          "kind": "question_generation",
+          "prompt": "나래에게 정확히 안내하려면 무엇을 더 확인해야 하나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G2-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G2-media-03-S5-A-MP1",
+              "elementId": "na",
+              "quote": "나래 | 자석 | 미정"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "나래가 자석을 언제까지 돌려줘야 하는지 확인해야 한다.",
+          "rubric": [
+            {
+              "criterion": "나래에게 정확히 안내하려면 무엇을 더 확인해야 하나요?",
+              "levels": {
+                "0": "수빈의 날짜를 다시 물으면 나래 날짜도 정해진다고 함",
+                "1": "더 물어본다고만 함",
+                "2": "나래가 자석을 언제까지 돌려줘야 하는지 확인해야 한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "표에 명시된 정보를 찾아 연결하고 설명과 대조하는 읽기 보조",
+          "remainingGap": "정지된 가상 자료의 읽기이며 실제 인터넷 탐색·자료 선택, 중심 내용 확인·흥미와 태도의 전체 수행을 직접 측정하지 않음.",
+          "links": [
+            {
+              "id": "PV2-G2-media-03-S5-A-C1",
+              "code": "2국02-03",
+              "subject": "국어",
+              "statement": "글을 읽고 중심 내용을 확인한다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 510,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "매체 읽기의 준비·보조",
+              "includedComponent": "표에 명시된 정보를 찾아 연결하고 설명과 대조하는 읽기 보조",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G2-media-03-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "aadfbb730b34732d8011ad90314c16c2302e975d42c1891554306062c6ac4736"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "물건 대여표",
+          "kind": "table",
+          "elements": [
+            {
+              "id": "head",
+              "text": "이름 | 빌린 물건 | 반납일",
+              "style": "header"
+            },
+            {
+              "id": "tae",
+              "text": "태민 | 돋보기 | 화요일",
+              "style": "body"
+            },
+            {
+              "id": "su",
+              "text": "수빈 | 줄자 | 금요일",
+              "style": "body"
+            },
+            {
+              "id": "na",
+              "text": "나래 | 자석 | 미정",
+              "style": "body"
+            },
+            {
+              "id": "note",
+              "text": "미정: 아직 정하지 않음",
+              "style": "small"
+            }
+          ],
+          "id": "PV2-G2-media-03-S5-A-MP1",
+          "accessibleDescription": "물건 대여표。이름 | 빌린 물건 | 반납일。태민 | 돋보기 | 화요일。수빈 | 줄자 | 금요일。나래 | 자석 | 미정。작은 글씨: 미정: 아직 정하지 않음"
+        }
+      ],
+      "mediaHash": "045e7ed64a35dcbde2a050b323020d7a57225f8757d84c71d2c71d5665df57df",
+      "learnerStageLabel": "표와 설명 맞춰 보기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G2-media-03-S5-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G2-media-03-S5-A-Q1",
+        "PV2-G2-media-03-S5-A-Q2",
+        "PV2-G2-media-03-S5-A-Q3",
+        "PV2-G2-media-03-S5-A-Q4",
+        "PV2-G2-media-03-S5-A-Q5"
+      ]
+    },
+    {
+      "id": "PV2-G3-media-06-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G3-media-06",
+      "skillName": "작성 날짜와 변경",
+      "grade": 3,
+      "track": "media",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "모이는 곳이 바뀌었다",
+      "purpose": "practice",
+      "familyId": "PV2-G3-media-06-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G3-media-06-S3-A-p1",
+          "text": "가상 생태 관찰 모임의 안내 두 장이다. 같은 모임 번호를 확인하고, 바뀐 항목과 그대로인 항목을 구별해 현재 안내를 써 보자. 운영팀은 나를 가를 수정한 공지라고 밝혔다.",
+          "sentences": [
+            {
+              "id": "PV2-G3-media-06-S3-A-p1-s1",
+              "text": "가상 생태 관찰 모임의 안내 두 장이다."
+            },
+            {
+              "id": "PV2-G3-media-06-S3-A-p1-s2",
+              "text": "같은 모임 번호를 확인하고, 바뀐 항목과 그대로인 항목을 구별해 현재 안내를 써 보자."
+            },
+            {
+              "id": "PV2-G3-media-06-S3-A-p1-s3",
+              "text": "운영팀은 나를 가를 수정한 공지라고 밝혔다."
+            }
+          ]
+        }
+      ],
+      "charCount": 96,
+      "contentHash": "1576da2c56115d740eb490f832ab14706e7e7665f73bc4658e547d3d1f13f170",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "문단 중심 생각·기초 교과어·간단한 표. 중심과 세부, 문단 사이 관계를 짧은 글로 설명.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "바뀐 안내 이어 읽기",
+        "evidenceDistance": "문단 사이",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "더 늦은 날짜만 보고 모든 행사가 바뀐 것으로 읽지 않는다. 모임 번호와 수정 범위, 날짜·시각의 보존을 함께 확인한다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G3-media-06-S3-A-Q1",
+          "kind": "explanation",
+          "prompt": "현재 모임의 날짜·시각·장소를 한 문장으로 안내하고, 두 공지 중 무엇이 바뀌었는지 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP1",
+              "elementId": "event",
+              "quote": "11월21일 오전10시 · 운동장 입구"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP2",
+              "elementId": "event",
+              "quote": "11월21일 오전10시 · 체육관 입구"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP2",
+              "elementId": "change",
+              "quote": "E17 공지의 장소만 수정합니다. 날짜와 시각은 그대로입니다."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "11월21일 오전10시에 체육관 입구에서 모인다. 나 공지는 장소만 운동장 입구에서 체육관 입구로 바꾸었고 날짜와 시각은 그대로이다.",
+          "rubric": [
+            {
+              "criterion": "같은 모임 연결",
+              "levels": {
+                "0": "다른 모임의 새 안내라고 한다.",
+                "1": "공지 날짜만 비교한다.",
+                "2": "번호 E17을 확인해 두 공지가 같은 모임의 안내임을 연결한다."
+              }
+            },
+            {
+              "criterion": "수정 범위 보존",
+              "levels": {
+                "0": "날짜나 시각까지 임의로 바꾼다.",
+                "1": "현재 장소만 쓰거나 그대로인 정보를 빠뜨린다.",
+                "2": "장소는 체육관 입구, 날짜·시각은 그대로라고 안내한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G3-media-06-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-media-06-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "나 공지에서 바뀌었다고 밝힌 항목은 무엇인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP2",
+              "elementId": "change",
+              "quote": "E17 공지의 장소만 수정합니다. 날짜와 시각은 그대로입니다."
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "모이는 장소",
+              "reason": "수정 범위가 장소만이라고 명시되어 있다."
+            },
+            {
+              "text": "모임의 번호",
+              "reason": "E17로 같은 모임이다."
+            },
+            {
+              "text": "모임의 날짜",
+              "reason": "11월21일은 그대로이다."
+            },
+            {
+              "text": "모임의 시각",
+              "reason": "오전10시는 그대로이다."
+            }
+          ],
+          "correctIndex": 0,
+          "version": 1,
+          "explanation": "수정 범위가 장소만이라고 명시되어 있다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-media-06-S3-A-Q3",
+          "kind": "matching",
+          "prompt": "가의 장소 / 나의 장소를 각각 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP1",
+              "elementId": "event",
+              "quote": "11월21일 오전10시 · 운동장 입구"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP2",
+              "elementId": "event",
+              "quote": "11월21일 오전10시 · 체육관 입구"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "가:운동장 입구 / 나:체육관 입구",
+          "rubric": [
+            {
+              "criterion": "가의 장소 / 나의 장소를 각각 쓰세요.",
+              "levels": {
+                "0": "두 장소를 바꿈",
+                "1": "하나의 장소만 씀",
+                "2": "가:운동장 입구 / 나:체육관 입구"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-media-06-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "나가 가를 고친 공지라는 것을 날짜 외에 무엇으로 확인할 수 있나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP1",
+              "elementId": "id",
+              "quote": "모임 번호 E17"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP2",
+              "elementId": "id",
+              "quote": "모임 번호 E17"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S3-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S3-A-MP2",
+              "elementId": "change",
+              "quote": "E17 공지의 장소만 수정합니다. 날짜와 시각은 그대로입니다."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "같은 모임 번호 E17과 장소만 수정한다는 안내로 확인한다.",
+          "rubric": [
+            {
+              "criterion": "나가 가를 고친 공지라는 것을 날짜 외에 무엇으로 확인할 수 있나요?",
+              "levels": {
+                "0": "더 늦은 자료는 어떤 모임이든 모두 덮어쓴다고 함",
+                "1": "날짜만 다시 씀",
+                "2": "같은 모임 번호 E17과 장소만 수정한다는 안내로 확인한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "게시 날짜·수정 내용의 관계를 확인하는 매체 선택 준비",
+          "remainingGap": "정지된 가상 자료의 읽기이며 실제 인터넷 탐색·자료 선택, 중심 내용 확인·흥미와 태도의 전체 수행을 직접 측정하지 않음.",
+          "links": [
+            {
+              "id": "PV2-G3-media-06-S3-A-C1",
+              "code": "4국06-01",
+              "subject": "국어",
+              "statement": "인터넷에서 학습에 필요한 다양한 자료를 탐색하고 목적에 맞게 자료를 선택한다.",
+              "gradeBand": [
+                3,
+                4
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 658,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "매체 읽기의 준비·보조",
+              "includedComponent": "게시 날짜·수정 내용의 관계를 확인하는 매체 선택 준비",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G3-media-06-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "6d98bdf287676187c7f388920833c1b81a8a36b88114e2603cf2f093c3a35488"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "공지 가",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "issuer",
+              "text": "생태 관찰 모임 운영팀",
+              "style": "body"
+            },
+            {
+              "id": "id",
+              "text": "모임 번호 E17",
+              "style": "header"
+            },
+            {
+              "id": "date",
+              "text": "작성: 11월16일",
+              "style": "body"
+            },
+            {
+              "id": "event",
+              "text": "11월21일 오전10시 · 운동장 입구",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G3-media-06-S3-A-MP1",
+          "accessibleDescription": "공지 가。생태 관찰 모임 운영팀。모임 번호 E17。작성: 11월16일。11월21일 오전10시 · 운동장 입구"
+        },
+        {
+          "title": "공지 나 · 수정 안내",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "issuer",
+              "text": "생태 관찰 모임 운영팀",
+              "style": "body"
+            },
+            {
+              "id": "id",
+              "text": "모임 번호 E17",
+              "style": "header"
+            },
+            {
+              "id": "date",
+              "text": "수정: 11월18일",
+              "style": "body"
+            },
+            {
+              "id": "event",
+              "text": "11월21일 오전10시 · 체육관 입구",
+              "style": "body"
+            },
+            {
+              "id": "change",
+              "text": "E17 공지의 장소만 수정합니다. 날짜와 시각은 그대로입니다.",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G3-media-06-S3-A-MP2",
+          "accessibleDescription": "공지 나 · 수정 안내。생태 관찰 모임 운영팀。모임 번호 E17。수정: 11월18일。11월21일 오전10시 · 체육관 입구。E17 공지의 장소만 수정합니다. 날짜와 시각은 그대로입니다."
+        }
+      ],
+      "mediaHash": "1cf4803ed15d05fd655e3ec8c7b60ffadd5a6fe61b6be01faf1b7e17c2aa105d",
+      "learnerStageLabel": "바뀐 안내 이어 읽기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G3-media-06-S3-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G3-media-06-S3-A-Q1",
+        "PV2-G3-media-06-S3-A-Q2",
+        "PV2-G3-media-06-S3-A-Q3",
+        "PV2-G3-media-06-S3-A-Q4"
+      ]
+    },
+    {
+      "id": "PV2-G3-media-06-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G3-media-06",
+      "skillName": "작성 날짜와 변경",
+      "grade": 3,
+      "track": "media",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "나중에 올린 옛 안내",
+      "purpose": "practice",
+      "familyId": "PV2-G3-media-06-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G3-media-06-S5-A-p1",
+          "text": "가상 연극 모임의 자료다. 게시한 날과 안내 자체를 고친 날이 다를 수 있다. 운영팀은 나가 현재 유효한 수정 공지이며 그 뒤 변경은 없다고 확인했다. 다는 친구가 가의 사진을 다시 올린 게시물이다.",
+          "sentences": [
+            {
+              "id": "PV2-G3-media-06-S5-A-p1-s1",
+              "text": "가상 연극 모임의 자료다."
+            },
+            {
+              "id": "PV2-G3-media-06-S5-A-p1-s2",
+              "text": "게시한 날과 안내 자체를 고친 날이 다를 수 있다."
+            },
+            {
+              "id": "PV2-G3-media-06-S5-A-p1-s3",
+              "text": "운영팀은 나가 현재 유효한 수정 공지이며 그 뒤 변경은 없다고 확인했다."
+            },
+            {
+              "id": "PV2-G3-media-06-S5-A-p1-s4",
+              "text": "다는 친구가 가의 사진을 다시 올린 게시물이다."
+            }
+          ]
+        }
+      ],
+      "charCount": 111,
+      "contentHash": "88a95e48f838bb5278bbe0bbd77fc9aad6768a5acfcaa44aa54c09584e7140b7",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "문단 중심 생각·기초 교과어·간단한 표. 중심과 세부, 문단 사이 관계를 짧은 글로 설명.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "올린 날짜와 바꾼 날짜 가리기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "재게시 시각이 안내의 수정 시각과 같지 않음을 구별한다. 최신 날짜만으로 고르거나 이전 공지를 모두 거짓이라고 단정하지 않는다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G3-media-06-S5-A-Q1",
+          "kind": "explanation",
+          "prompt": "어느 자료를 바탕으로 현재 시간을 안내해야 하나요? 다가 더 늦게 올라왔는데도 그대로 따를 수 없는 이유를 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP2",
+              "elementId": "event",
+              "quote": "모임 T08 · 11월22일 오후2시"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP2",
+              "elementId": "date",
+              "quote": "수정: 11월16일"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP3",
+              "elementId": "post",
+              "quote": "사진을 올린 날: 11월18일"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP3",
+              "elementId": "photo",
+              "quote": "사진 속 글: 작성 11월12일 · T08 · 11월22일 오후1시"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "운영팀의 나를 바탕으로 11월22일 오후2시라고 안내한다. 다는 11월18일에 올렸지만 11월12일의 옛 안내 사진을 다시 올린 것이므로 수정 공지의 내용을 바꾸지 않는다.",
+          "rubric": [
+            {
+              "criterion": "현재 내용 선택",
+              "levels": {
+                "0": "다가 최근이므로 오후1시로 안내한다.",
+                "1": "나만 고르고 현재 시각을 밝히지 못한다.",
+                "2": "확인된 나의 오후2시를 날짜와 함께 선택한다."
+              }
+            },
+            {
+              "criterion": "두 시점 구별",
+              "levels": {
+                "0": "모든 재게시물은 언제나 틀렸다고 한다.",
+                "1": "오래된 사진이라고만 하고 시점을 구별하지 못한다.",
+                "2": "다의 게시일과 사진 속 작성일이 다른 것을 수정 내용과 연결한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G3-media-06-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-media-06-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "다에서 11월18일이 알려 주는 것은 무엇인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP3",
+              "elementId": "post",
+              "quote": "사진을 올린 날: 11월18일"
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "사진 속 안내를 처음 쓴 날",
+              "reason": "사진의 작성일은 11월12일이다."
+            },
+            {
+              "text": "운영팀이 시간을 다시 고친 날",
+              "reason": "운영팀 수정 공지는 11월16일이다."
+            },
+            {
+              "text": "연극 모임이 열리는 날",
+              "reason": "모임은 11월22일이다."
+            },
+            {
+              "text": "친구가 사진을 다시 올린 날",
+              "reason": "게시 날짜이며 모임의 시간이 그날 다시 수정되었다는 뜻은 아니다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "게시 날짜이며 모임의 시간이 그날 다시 수정되었다는 뜻은 아니다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-media-06-S5-A-Q3",
+          "kind": "matching",
+          "prompt": "현재 시각 / 옛 사진의 시각을 각각 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP2",
+              "elementId": "event",
+              "quote": "모임 T08 · 11월22일 오후2시"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP3",
+              "elementId": "photo",
+              "quote": "사진 속 글: 작성 11월12일 · T08 · 11월22일 오후1시"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "현재:오후2시 / 옛 사진:오후1시",
+          "rubric": [
+            {
+              "criterion": "현재 시각 / 옛 사진의 시각을 각각 쓰세요.",
+              "levels": {
+                "0": "새 게시일에 옛 시각이 바뀌었다고 함",
+                "1": "한 시각만 구별함",
+                "2": "현재:오후2시 / 옛 사진:오후1시"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-media-06-S5-A-Q4",
+          "kind": "explanation",
+          "prompt": "가도 처음부터 거짓 공지였다고 할 수 있나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP1",
+              "elementId": "date",
+              "quote": "작성: 11월12일"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP2",
+              "elementId": "change",
+              "quote": "가의 시작 시각을 오후2시로 바꿉니다. 다른 내용은 그대로입니다."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "아니다. 처음에는 안내로 쓰였고 뒤에 시간이 수정된 것이다. 현재 유효하지 않은 것과 처음부터 거짓인 것은 다르다.",
+          "rubric": [
+            {
+              "criterion": "가도 처음부터 거짓 공지였다고 할 수 있나요?",
+              "levels": {
+                "0": "지금 다르면 과거 기록도 모두 거짓이라고 함",
+                "1": "아니라고만 함",
+                "2": "아니다. 처음에는 안내로 쓰였고 뒤에 시간이 수정된 것이다. 현재 유효하지 않은 것과 처음부터 거짓인 것은 다르다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-media-06-S5-A-Q5",
+          "kind": "revision",
+          "prompt": "가장 늦게 올린 글이니까 다의 시간으로 가자라는 말을 고치세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP2",
+              "elementId": "change",
+              "quote": "가의 시작 시각을 오후2시로 바꿉니다. 다른 내용은 그대로입니다."
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G3-media-06-S5-A",
+              "version": 1,
+              "assetId": "PV2-G3-media-06-S5-A-MP3",
+              "elementId": "photo",
+              "quote": "사진 속 글: 작성 11월12일 · T08 · 11월22일 오후1시"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "다의 게시 날짜보다 원문의 수정 이력을 확인해야 한다. 지금은 나의 오후2시 안내가 유효하다.",
+          "rubric": [
+            {
+              "criterion": "가장 늦게 올린 글이니까 다의 시간으로 가자라는 말을 고치세요.",
+              "levels": {
+                "0": "친구 게시물은 누구 것이든 볼 필요 없다고 함",
+                "1": "새 공지를 보자고만 하고 시점 차이가 없음",
+                "2": "다의 게시 날짜보다 원문의 수정 이력을 확인해야 한다. 지금은 나의 오후2시 안내가 유효하다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "게시 날짜·수정 내용의 관계를 확인하는 매체 선택 준비",
+          "remainingGap": "정지된 가상 자료의 읽기이며 실제 인터넷 탐색·자료 선택, 중심 내용 확인·흥미와 태도의 전체 수행을 직접 측정하지 않음.",
+          "links": [
+            {
+              "id": "PV2-G3-media-06-S5-A-C1",
+              "code": "4국06-01",
+              "subject": "국어",
+              "statement": "인터넷에서 학습에 필요한 다양한 자료를 탐색하고 목적에 맞게 자료를 선택한다.",
+              "gradeBand": [
+                3,
+                4
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 658,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "매체 읽기의 준비·보조",
+              "includedComponent": "게시 날짜·수정 내용의 관계를 확인하는 매체 선택 준비",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G3-media-06-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "a7fdf47e3a73aa68246684d6b8b0687b2c26c21fcdd036d39e966e368b2cd37b"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "가 · 최초 안내",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "issuer",
+              "text": "연극 모임 운영팀",
+              "style": "body"
+            },
+            {
+              "id": "date",
+              "text": "작성: 11월12일",
+              "style": "body"
+            },
+            {
+              "id": "event",
+              "text": "모임 T08 · 11월22일 오후1시",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G3-media-06-S5-A-MP1",
+          "accessibleDescription": "가 · 최초 안내。연극 모임 운영팀。작성: 11월12일。모임 T08 · 11월22일 오후1시"
+        },
+        {
+          "title": "나 · 운영팀 수정 공지",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "date",
+              "text": "수정: 11월16일",
+              "style": "body"
+            },
+            {
+              "id": "event",
+              "text": "모임 T08 · 11월22일 오후2시",
+              "style": "header"
+            },
+            {
+              "id": "change",
+              "text": "가의 시작 시각을 오후2시로 바꿉니다. 다른 내용은 그대로입니다.",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G3-media-06-S5-A-MP2",
+          "accessibleDescription": "나 · 운영팀 수정 공지。수정: 11월16일。모임 T08 · 11월22일 오후2시。가의 시작 시각을 오후2시로 바꿉니다. 다른 내용은 그대로입니다."
+        },
+        {
+          "title": "다 · 친구 게시물",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "post",
+              "text": "사진을 올린 날: 11월18일",
+              "style": "header"
+            },
+            {
+              "id": "photo",
+              "text": "사진 속 글: 작성 11월12일 · T08 · 11월22일 오후1시",
+              "style": "body"
+            },
+            {
+              "id": "note",
+              "text": "가 안내 사진을 다시 올렸어요.",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G3-media-06-S5-A-MP3",
+          "accessibleDescription": "다 · 친구 게시물。사진을 올린 날: 11월18일。사진 속 글: 작성 11월12일 · T08 · 11월22일 오후1시。가 안내 사진을 다시 올렸어요."
+        }
+      ],
+      "mediaHash": "c41d88964a41af97e34f8273cc05f06301737816569bef4aa55e07b9aab16ffc",
+      "learnerStageLabel": "올린 날짜와 바꾼 날짜 가리기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G3-media-06-S5-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G3-media-06-S5-A-Q1",
+        "PV2-G3-media-06-S5-A-Q2",
+        "PV2-G3-media-06-S5-A-Q3",
+        "PV2-G3-media-06-S5-A-Q4",
+        "PV2-G3-media-06-S5-A-Q5"
+      ]
+    },
+    {
+      "id": "PV2-G4-media-04-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G4-media-04",
+      "skillName": "자료의 부분과 전체",
+      "grade": 4,
+      "track": "media",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "일부를 옮긴 카드",
+      "purpose": "practice",
+      "familyId": "PV2-G4-media-04-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G4-media-04-S3-A-p1",
+          "text": "가상 씨앗 전시 소식이다. 가는 원문 한 문장의 앞부분을 생략해 옮긴 카드이고, 나는 원문 전체를 담은 안내이다. 가에 보이는 씨앗이라는 말이 어떤 범위를 가리키는지 전체와 연결하자.",
+          "sentences": [
+            {
+              "id": "PV2-G4-media-04-S3-A-p1-s1",
+              "text": "가상 씨앗 전시 소식이다."
+            },
+            {
+              "id": "PV2-G4-media-04-S3-A-p1-s2",
+              "text": "가는 원문 한 문장의 앞부분을 생략해 옮긴 카드이고, 나는 원문 전체를 담은 안내이다."
+            },
+            {
+              "id": "PV2-G4-media-04-S3-A-p1-s3",
+              "text": "가에 보이는 씨앗이라는 말이 어떤 범위를 가리키는지 전체와 연결하자."
+            }
+          ]
+        }
+      ],
+      "charCount": 102,
+      "contentHash": "d21af425f803447bdfb901651c17cec763d1ddd8955a65632130b500ed27f6f6",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "여러 문단·생략 관계·조건과 예외. 자료 대응과 범위 차이를 근거로 설명하고 수정.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "일부와 전체 함께 읽기",
+        "evidenceDistance": "문단 사이",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "실제로 잘라 낸 웹 화면이라는 주장 대신 앞부분을 생략한 창작 카드임을 명시한다. 모두의 범위를 전체 원문에서 복원한다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G4-media-04-S3-A-Q1",
+          "kind": "explanation",
+          "prompt": "가의 모두를 이번에 모은 씨앗 전체로 읽으면 왜 달라지나요? 나를 근거로 전시한 씨앗과 아직 전시하지 않은 씨앗을 설명하세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S3-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S3-A-MP1",
+              "elementId": "clip",
+              "quote": "[앞부분 생략] 씨앗은 모두 전시했다."
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S3-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S3-A-MP2",
+              "elementId": "dry",
+              "quote": "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다."
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S3-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S3-A-MP2",
+              "elementId": "wet",
+              "quote": "젖은 씨앗은 따로 말리고 있다."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "원문은 모은 씨앗 중 마른 씨앗을 모두 전시했고 젖은 씨앗은 따로 말리는 중이라고 구별한다. 가에서는 앞의 마른이라는 범위가 빠져 전체를 전시한 것처럼 읽힐 수 있다.",
+          "rubric": [
+            {
+              "criterion": "부분·전체 연결",
+              "levels": {
+                "0": "가의 모두를 전체 수거량으로 확정한다.",
+                "1": "마른 씨앗이라고만 하고 생략과 연결하지 못한다.",
+                "2": "가에서 빠진 마른 씨앗의 범위를 나에서 복원한다."
+              }
+            },
+            {
+              "criterion": "상태 구별",
+              "levels": {
+                "0": "젖은 씨앗도 이미 전시했다고 한다.",
+                "1": "전시한 씨앗만 설명한다.",
+                "2": "마른 씨앗의 전시와 젖은 씨앗의 건조 중 상태를 구별한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G4-media-04-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-media-04-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "나에 따라 이미 모두 전시한 범위는 무엇인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S3-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S3-A-MP2",
+              "elementId": "dry",
+              "quote": "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다."
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "아직 젖어 있는 씨앗만",
+              "reason": "원문과 반대로 읽었다."
+            },
+            {
+              "text": "앞으로 모을 씨앗까지",
+              "reason": "미래에 모을 씨앗의 전시는 언급하지 않았다."
+            },
+            {
+              "text": "이번에 모은 씨앗 전체",
+              "reason": "젖은 씨앗은 말리는 중이다."
+            },
+            {
+              "text": "이번에 모은 것 중 마른 씨앗",
+              "reason": "원문이 전시 범위를 마른 씨앗으로 한정한다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "원문이 전시 범위를 마른 씨앗으로 한정한다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-media-04-S3-A-Q3",
+          "kind": "revision",
+          "prompt": "가의 카드에 빠진 범위를 보충해 한 문장으로 고치세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S3-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S3-A-MP2",
+              "elementId": "dry",
+              "quote": "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다.",
+          "rubric": [
+            {
+              "criterion": "가의 카드에 빠진 범위를 보충해 한 문장으로 고치세요.",
+              "levels": {
+                "0": "젖은 씨앗을 모두 버렸다고 새로 씀",
+                "1": "마른 씨앗만 덧붙이고 전체와 관계가 흐림",
+                "2": "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-media-04-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "젖은 씨앗을 끝내 전시하지 않을 것이라고도 단정할 수 있나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S3-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S3-A-MP2",
+              "elementId": "wet",
+              "quote": "젖은 씨앗은 따로 말리고 있다."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "아니다. 지금 따로 말리고 있다는 상태만 알려 주며 이후 계획은 더 확인해야 한다.",
+          "rubric": [
+            {
+              "criterion": "젖은 씨앗을 끝내 전시하지 않을 것이라고도 단정할 수 있나요?",
+              "levels": {
+                "0": "지금 전시하지 않았으면 앞으로도 절대 전시하지 않는다고 함",
+                "1": "모른다고만 함",
+                "2": "아니다. 지금 따로 말리고 있다는 상태만 알려 주며 이후 계획은 더 확인해야 한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "부분 자료의 빠진 범위를 전체와 대조하는 매체 선택 준비",
+          "remainingGap": "정지된 가상 자료의 읽기이며 실제 인터넷 탐색·자료 선택, 중심 내용 확인·흥미와 태도의 전체 수행을 직접 측정하지 않음.",
+          "links": [
+            {
+              "id": "PV2-G4-media-04-S3-A-C1",
+              "code": "4국06-01",
+              "subject": "국어",
+              "statement": "인터넷에서 학습에 필요한 다양한 자료를 탐색하고 목적에 맞게 자료를 선택한다.",
+              "gradeBand": [
+                3,
+                4
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 658,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "매체 읽기의 준비·보조",
+              "includedComponent": "부분 자료의 빠진 범위를 전체와 대조하는 매체 선택 준비",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G4-media-04-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "7107187ef1feb5053a0eedfbd06bdea21d506b03c7093a56d94bc59d298eb16e"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "가 · 앞부분을 생략한 카드",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "clip",
+              "text": "[앞부분 생략] 씨앗은 모두 전시했다.",
+              "style": "large"
+            },
+            {
+              "id": "note",
+              "text": "원문 문장 일부만 옮김",
+              "style": "small"
+            }
+          ],
+          "id": "PV2-G4-media-04-S3-A-MP1",
+          "accessibleDescription": "가 · 앞부분을 생략한 카드。큰 글씨: [앞부분 생략] 씨앗은 모두 전시했다.。작은 글씨: 원문 문장 일부만 옮김"
+        },
+        {
+          "title": "나 · 전시 소식 원문",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "dry",
+              "text": "이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다.",
+              "style": "body"
+            },
+            {
+              "id": "wet",
+              "text": "젖은 씨앗은 따로 말리고 있다.",
+              "style": "body"
+            },
+            {
+              "id": "scope",
+              "text": "이 글은 현재의 전시 상태를 알리는 소식이다.",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G4-media-04-S3-A-MP2",
+          "accessibleDescription": "나 · 전시 소식 원문。이번 활동에서 모은 씨앗 중 마른 씨앗은 모두 전시했다.。젖은 씨앗은 따로 말리고 있다.。이 글은 현재의 전시 상태를 알리는 소식이다."
+        }
+      ],
+      "mediaHash": "bf5a07fb24cf7e07f08497761602688a74849e3c3af6be0f262f41bff07cfff3",
+      "learnerStageLabel": "일부와 전체 함께 읽기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G4-media-04-S3-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G4-media-04-S3-A-Q1",
+        "PV2-G4-media-04-S3-A-Q2",
+        "PV2-G4-media-04-S3-A-Q3",
+        "PV2-G4-media-04-S3-A-Q4"
+      ]
+    },
+    {
+      "id": "PV2-G4-media-04-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G4-media-04",
+      "skillName": "자료의 부분과 전체",
+      "grade": 4,
+      "track": "media",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "응답한 사람과 반 전체",
+      "purpose": "practice",
+      "familyId": "PV2-G4-media-04-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G4-media-04-S5-A-p1",
+          "text": "가상 학급 소식지에 넣을 카드와 조사표다. 조사는 우리 반24명에게 물었지만 8명만 응답했다. 나머지 학생의 생각은 이 기록에 없다. 실제 조사 결과로 소개하지 않는 연습 자료다.",
+          "sentences": [
+            {
+              "id": "PV2-G4-media-04-S5-A-p1-s1",
+              "text": "가상 학급 소식지에 넣을 카드와 조사표다."
+            },
+            {
+              "id": "PV2-G4-media-04-S5-A-p1-s2",
+              "text": "조사는 우리 반24명에게 물었지만 8명만 응답했다."
+            },
+            {
+              "id": "PV2-G4-media-04-S5-A-p1-s3",
+              "text": "나머지 학생의 생각은 이 기록에 없다."
+            },
+            {
+              "id": "PV2-G4-media-04-S5-A-p1-s4",
+              "text": "실제 조사 결과로 소개하지 않는 연습 자료다."
+            }
+          ]
+        }
+      ],
+      "charCount": 100,
+      "contentHash": "aae654439a0f8f76f1f54f16ae6a1c0227bc136570b723df8b89950b1fada6a5",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "여러 문단·생략 관계·조건과 예외. 자료 대응과 범위 차이를 근거로 설명하고 수정.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "잘린 정보의 범위 따지기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "응답자 전원의 선택을 반 전체의 생각으로 넓히지 않는다. 응답하지 않은 학생을 반대자로 분류하는 반대 방향의 오류도 구별한다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G4-media-04-S5-A-Q1",
+          "kind": "explanation",
+          "prompt": "가의 제목을 나의 범위에 맞게 고치고, 반 전체에 관해서는 무엇을 아직 모르는지 설명하세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP1",
+              "elementId": "headline",
+              "quote": "우리 반 모두 만화 코너를 원해요!"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP2",
+              "elementId": "target",
+              "quote": "질문 대상 | 우리 반 24명"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP2",
+              "elementId": "response",
+              "quote": "응답 | 8명"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP2",
+              "elementId": "result",
+              "quote": "응답 결과 | 8명 모두 만화 코너 선택"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "응답한 8명은 모두 소식지에 만화 코너를 원했다. 나머지16명은 응답하지 않아 생각을 모르므로 우리 반24명 전체가 원한다고 할 수 없다.",
+          "rubric": [
+            {
+              "criterion": "범위 보존 제목",
+              "levels": {
+                "0": "반 전체24명이 원한다는 제목을 유지한다.",
+                "1": "8명을 쓰지만 모두의 대상이 여전히 반 전체로 읽힌다.",
+                "2": "반 전체 대신 응답한8명이라고 밝혀 제목을 고친다."
+              }
+            },
+            {
+              "criterion": "미응답과 반대 구별",
+              "levels": {
+                "0": "16명은 모두 만화를 싫어한다고 한다.",
+                "1": "전체는 모른다고만 한다.",
+                "2": "나머지 학생의 생각은 모르며 반대라고 단정하지 않는다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [
+              "PV2-G4-media-04-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-media-04-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "조사표로 바로 확인할 수 있는 것은 무엇인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP2",
+              "elementId": "result",
+              "quote": "응답 결과 | 8명 모두 만화 코너 선택"
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "응답한 학생 중 절반만 만화를 골랐다.",
+              "reason": "응답자는 모두 골랐다고 적혀 있다."
+            },
+            {
+              "text": "24명 모두 같은 코너를 골랐다.",
+              "reason": "미응답16명의 생각은 없다."
+            },
+            {
+              "text": "응답하지 않은 16명은 모두 반대했다.",
+              "reason": "미응답은 반대 응답과 다르다."
+            },
+            {
+              "text": "응답한 8명은 모두 만화 코너를 골랐다.",
+              "reason": "결과의 범위는 응답자8명이다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "결과의 범위는 응답자8명이다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-media-04-S5-A-Q3",
+          "kind": "matching",
+          "prompt": "질문을 받은 인원 / 응답한 인원을 각각 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP2",
+              "elementId": "target",
+              "quote": "질문 대상 | 우리 반 24명"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP2",
+              "elementId": "response",
+              "quote": "응답 | 8명"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "질문 대상24명 / 응답8명",
+          "rubric": [
+            {
+              "criterion": "질문을 받은 인원 / 응답한 인원을 각각 쓰세요.",
+              "levels": {
+                "0": "대상과 응답 인원을 바꿈",
+                "1": "한 인원만 구별함",
+                "2": "질문 대상24명 / 응답8명"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-media-04-S5-A-Q4",
+          "kind": "explanation",
+          "prompt": "가에 모두라는 말이 있다는 이유만으로 곧바로 거짓이라고 할 수 있나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP1",
+              "elementId": "headline",
+              "quote": "우리 반 모두 만화 코너를 원해요!"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP2",
+              "elementId": "result",
+              "quote": "응답 결과 | 8명 모두 만화 코너 선택"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "모두가 누구를 뜻하는지 보아야 한다. 응답자 모두는 맞지만 반 전체 모두로 넓힌 제목은 근거가 없다.",
+          "rubric": [
+            {
+              "criterion": "가에 모두라는 말이 있다는 이유만으로 곧바로 거짓이라고 할 수 있나요?",
+              "levels": {
+                "0": "모두라는 낱말은 조사 기사에 절대로 쓸 수 없다고 함",
+                "1": "범위가 다르다고만 함",
+                "2": "모두가 누구를 뜻하는지 보아야 한다. 응답자 모두는 맞지만 반 전체 모두로 넓힌 제목은 근거가 없다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-media-04-S5-A-Q5",
+          "kind": "question_generation",
+          "prompt": "반 전체의 희망을 더 알아보려면 어떤 정보를 더 모아야 하나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G4-media-04-S5-A",
+              "version": 1,
+              "assetId": "PV2-G4-media-04-S5-A-MP2",
+              "elementId": "missing",
+              "quote": "미응답 | 16명 · 희망 코너 미확인"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "아직 응답하지 않은 학생의 희망을 더 확인하되 답하지 않으면 미확인으로 남겨야 한다.",
+          "rubric": [
+            {
+              "criterion": "반 전체의 희망을 더 알아보려면 어떤 정보를 더 모아야 하나요?",
+              "levels": {
+                "0": "8명의 대답을 세 번 복사하면24명 자료가 된다고 함",
+                "1": "더 조사하자고만 함",
+                "2": "아직 응답하지 않은 학생의 희망을 더 확인하되 답하지 않으면 미확인으로 남겨야 한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "related_only_goal_scope_review",
+          "scope": "부분 자료의 빠진 범위를 전체와 대조하는 매체 선택 준비",
+          "remainingGap": "정지된 가상 자료의 읽기이며 실제 인터넷 탐색·자료 선택, 중심 내용 확인·흥미와 태도의 전체 수행을 직접 측정하지 않음.",
+          "links": [
+            {
+              "id": "PV2-G4-media-04-S5-A-C1",
+              "code": "4국06-01",
+              "subject": "국어",
+              "statement": "인터넷에서 학습에 필요한 다양한 자료를 탐색하고 목적에 맞게 자료를 선택한다.",
+              "gradeBand": [
+                3,
+                4
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 658,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "learning_support",
+              "roleLabel": "매체 읽기의 준비·보조",
+              "includedComponent": "부분 자료의 빠진 범위를 전체와 대조하는 매체 선택 준비",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G4-media-04-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "1cf479c417d32c2915e8a3dc74909bdc479f1068e2c307181768abb1268fa58a"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_formal_goal_scope_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "가 · 소식지 제목 초안",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "headline",
+              "text": "우리 반 모두 만화 코너를 원해요!",
+              "style": "large"
+            },
+            {
+              "id": "note",
+              "text": "표를 보고 만든 제목 초안",
+              "style": "small"
+            }
+          ],
+          "id": "PV2-G4-media-04-S5-A-MP1",
+          "accessibleDescription": "가 · 소식지 제목 초안。큰 글씨: 우리 반 모두 만화 코너를 원해요!。작은 글씨: 표를 보고 만든 제목 초안"
+        },
+        {
+          "title": "나 · 희망 코너 조사표",
+          "kind": "table",
+          "elements": [
+            {
+              "id": "target",
+              "text": "질문 대상 | 우리 반 24명",
+              "style": "header"
+            },
+            {
+              "id": "response",
+              "text": "응답 | 8명",
+              "style": "body"
+            },
+            {
+              "id": "result",
+              "text": "응답 결과 | 8명 모두 만화 코너 선택",
+              "style": "body"
+            },
+            {
+              "id": "missing",
+              "text": "미응답 | 16명 · 희망 코너 미확인",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G4-media-04-S5-A-MP2",
+          "accessibleDescription": "나 · 희망 코너 조사표。질문 대상 | 우리 반 24명。응답 | 8명。응답 결과 | 8명 모두 만화 코너 선택。미응답 | 16명 · 희망 코너 미확인"
+        }
+      ],
+      "mediaHash": "4d6642fb97dcf57ac537ab92213d0340ec583085583d27e827e6b1833ff7e6ae",
+      "learnerStageLabel": "잘린 정보의 범위 따지기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G4-media-04-S5-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G4-media-04-S5-A-Q1",
+        "PV2-G4-media-04-S5-A-Q2",
+        "PV2-G4-media-04-S5-A-Q3",
+        "PV2-G4-media-04-S5-A-Q4",
+        "PV2-G4-media-04-S5-A-Q5"
+      ]
+    },
+    {
+      "id": "PV2-G5-media-05-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G5-media-05",
+      "skillName": "출처·시점·버전 검증",
+      "grade": 5,
+      "track": "media",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "같은 원문의 다른 버전",
+      "purpose": "practice",
+      "familyId": "PV2-G5-media-05-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G5-media-05-S3-A-p1",
+          "text": "가상 별빛 교실의 체험 안내 자료다. 세 카드는 실제 검색 결과가 아니라 수업용 화면 모형이다. 운영팀은 나의 v2가 가의 v1을 수정한 현재 안내라고 확인했다. 현재 체험을 신청할 초등2학년 학생에게 알려 줄 정보를 고르자.",
+          "sentences": [
+            {
+              "id": "PV2-G5-media-05-S3-A-p1-s1",
+              "text": "가상 별빛 교실의 체험 안내 자료다."
+            },
+            {
+              "id": "PV2-G5-media-05-S3-A-p1-s2",
+              "text": "세 카드는 실제 검색 결과가 아니라 수업용 화면 모형이다."
+            },
+            {
+              "id": "PV2-G5-media-05-S3-A-p1-s3",
+              "text": "운영팀은 나의 v2가 가의 v1을 수정한 현재 안내라고 확인했다."
+            },
+            {
+              "id": "PV2-G5-media-05-S3-A-p1-s4",
+              "text": "현재 체험을 신청할 초등2학년 학생에게 알려 줄 정보를 고르자."
+            }
+          ]
+        }
+      ],
+      "charCount": 126,
+      "contentHash": "e278fdc4d193d685f5c47144c6a38b7240849d1387e8d867aeaa895034e7116e",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "정의·원리·경쟁 근거·복수 조건. 자료의 관점과 한계를 비교하고 조건부로 표현.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "출처와 수정 이력 잇기",
+        "evidenceDistance": "문단 사이",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "운영팀이 자기 행사의 현재 운영 내용을 확정한 설정이다. 공식 출처라는 이유만으로 어떤 사실도 항상 참이라는 규칙은 만들지 않는다. 실제 검색 수행과 구별한다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G5-media-05-S3-A-Q1",
+          "kind": "explanation",
+          "prompt": "초2 학생이 현재 신청할 수 있는지 판단하고, 더 늦게 게시된 다보다 나를 확인해야 하는 이유를 설명하세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP2",
+              "elementId": "version",
+              "quote": "원문 번호 R14 · v2 · v1 수정"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP2",
+              "elementId": "scope",
+              "quote": "신청 대상: 초3~6"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP3",
+              "elementId": "source",
+              "quote": "참조 원문: R14 · v1"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP3",
+              "elementId": "date",
+              "quote": "게시: 11월18일"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "현재 안내는 초3~6 대상이므로 초2는 신청 대상이 아니다. 나는 운영팀의 v2 수정본이고 다는 더 늦게 게시했어도 옛 v1을 참조한 글이다. 나의 오전10시 안내와 대상 범위를 함께 확인해야 한다.",
+          "rubric": [
+            {
+              "criterion": "원문·버전 연결",
+              "levels": {
+                "0": "게시물이 나중이면 새 수정본이라고 한다.",
+                "1": "날짜만 비교하고 참조 버전을 보지 않는다.",
+                "2": "같은 R14의 v1과 v2, 다의 v1 참조를 연결한다."
+              }
+            },
+            {
+              "criterion": "현재 범위 적용",
+              "levels": {
+                "0": "현재도 초1~6 모두 가능하다고 한다.",
+                "1": "초3~6이라고만 적는다.",
+                "2": "초3~6 범위를 초2의 신청 불가와 연결한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G5-media-05-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-media-05-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "다를 읽을 때 원문 대조가 필요한 직접적인 단서는 무엇인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP3",
+              "elementId": "source",
+              "quote": "참조 원문: R14 · v1"
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "참조 원문이 R14의 v1이라고 적혀 있다.",
+              "reason": "현재 수정본 v2와 다른 옛 버전을 사용한 글임을 확인할 수 있다."
+            },
+            {
+              "text": "글쓴이가 참가 후기 모음이라고 적혀 있다.",
+              "reason": "글쓴이 이름만으로 실제 참조 버전을 결정할 수 없다."
+            },
+            {
+              "text": "가의 시작 시각이 오전9시이다.",
+              "reason": "옛 원문의 내용이지만 다의 참조 버전 표시가 더 직접적이다."
+            },
+            {
+              "text": "나의 체험명이 종이탐험이다.",
+              "reason": "행사명만으로 다가 어느 버전을 썼는지 알 수 없다."
+            },
+            {
+              "text": "다의 게시 날짜가 가장 늦다.",
+              "reason": "최근 게시일만으로 참조한 내용도 최신이라는 뜻은 아니다."
+            }
+          ],
+          "correctIndex": 0,
+          "version": 1,
+          "explanation": "현재 수정본 v2와 다른 옛 버전을 사용한 글임을 확인할 수 있다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-media-05-S3-A-Q3",
+          "kind": "matching",
+          "prompt": "가 / 나 / 다의 자료 역할을 각각 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP1",
+              "elementId": "version",
+              "quote": "원문 번호 R14 · v1"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP2",
+              "elementId": "version",
+              "quote": "원문 번호 R14 · v2 · v1 수정"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP3",
+              "elementId": "source",
+              "quote": "참조 원문: R14 · v1"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "가:최초 안내v1 / 나:운영팀 수정v2 / 다:v1을 참조한 재게시 글",
+          "rubric": [
+            {
+              "criterion": "가 / 나 / 다의 자료 역할을 각각 쓰세요.",
+              "levels": {
+                "0": "다를 운영팀v3으로 부름",
+                "1": "두 자료만 연결함",
+                "2": "가:최초 안내v1 / 나:운영팀 수정v2 / 다:v1을 참조한 재게시 글"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-media-05-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "나의 대상을 확인하지 않고 시각만 고치면 이 학생에게 어떤 정보가 빠지나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S3-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S3-A-MP2",
+              "elementId": "scope",
+              "quote": "신청 대상: 초3~6"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "초2는 대상 범위에 들지 않는다는 신청 자격 정보가 빠진다.",
+          "rubric": [
+            {
+              "criterion": "나의 대상을 확인하지 않고 시각만 고치면 이 학생에게 어떤 정보가 빠지나요?",
+              "levels": {
+                "0": "시각이 맞으면 누구나 신청할 수 있다고 함",
+                "1": "대상만 쓰고 이 학생과 연결하지 못함",
+                "2": "초2는 대상 범위에 들지 않는다는 신청 자격 정보가 빠진다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G5-media-05-S3-A-C1",
+            "code": "6국06-02",
+            "subject": "국어",
+            "statement": "뉴스 및 각종 정보 매체 자료의 신뢰성을 평가한다.",
+            "gradeBand": [
+              5,
+              6
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 769,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "매체 신뢰성 일부 후보",
+            "includedComponent": "출처·원문·수정 이력·독립 근거를 대조하는 신뢰성 평가 일부",
+            "notAssessed": [
+              "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+              "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+              "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+            ],
+            "questionIds": [
+              "PV2-G5-media-05-S3-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "출처·원문·수정 이력·독립 근거를 대조하는 신뢰성 평가 일부",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G5-media-05-S3-A-C1",
+              "code": "6국06-02",
+              "subject": "국어",
+              "statement": "뉴스 및 각종 정보 매체 자료의 신뢰성을 평가한다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 769,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "매체 신뢰성 일부 후보",
+              "includedComponent": "출처·원문·수정 이력·독립 근거를 대조하는 신뢰성 평가 일부",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G5-media-05-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "ef06629275b47e8a712fc169fc8a78f1615143499da5f58dc832e93de3777c40"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "가 · 운영팀 최초 안내",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "issuer",
+              "text": "별빛 교실 운영팀",
+              "style": "body"
+            },
+            {
+              "id": "version",
+              "text": "원문 번호 R14 · v1",
+              "style": "header"
+            },
+            {
+              "id": "date",
+              "text": "작성: 11월12일",
+              "style": "body"
+            },
+            {
+              "id": "name",
+              "text": "체험명: 종이탐험",
+              "style": "body"
+            },
+            {
+              "id": "event",
+              "text": "11월23일 오전9시 시작",
+              "style": "body"
+            },
+            {
+              "id": "scope",
+              "text": "신청 대상: 초1~6",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G5-media-05-S3-A-MP1",
+          "accessibleDescription": "가 · 운영팀 최초 안내。별빛 교실 운영팀。원문 번호 R14 · v1。작성: 11월12일。체험명: 종이탐험。11월23일 오전9시 시작。신청 대상: 초1~6"
+        },
+        {
+          "title": "나 · 운영팀 수정 안내",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "issuer",
+              "text": "별빛 교실 운영팀",
+              "style": "body"
+            },
+            {
+              "id": "version",
+              "text": "원문 번호 R14 · v2 · v1 수정",
+              "style": "header"
+            },
+            {
+              "id": "date",
+              "text": "수정: 11월17일",
+              "style": "body"
+            },
+            {
+              "id": "name",
+              "text": "체험명: 종이탐험",
+              "style": "body"
+            },
+            {
+              "id": "event",
+              "text": "11월23일 오전10시 시작",
+              "style": "body"
+            },
+            {
+              "id": "scope",
+              "text": "신청 대상: 초3~6",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G5-media-05-S3-A-MP2",
+          "accessibleDescription": "나 · 운영팀 수정 안내。별빛 교실 운영팀。원문 번호 R14 · v2 · v1 수정。수정: 11월17일。체험명: 종이탐험。11월23일 오전10시 시작。신청 대상: 초3~6"
+        },
+        {
+          "title": "다 · 참가 후기 모음",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "date",
+              "text": "게시: 11월18일",
+              "style": "body"
+            },
+            {
+              "id": "source",
+              "text": "참조 원문: R14 · v1",
+              "style": "header"
+            },
+            {
+              "id": "summary",
+              "text": "종이탐험은 초1~6이 오전9시에 시작해요.",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G5-media-05-S3-A-MP3",
+          "accessibleDescription": "다 · 참가 후기 모음。게시: 11월18일。참조 원문: R14 · v1。종이탐험은 초1~6이 오전9시에 시작해요."
+        }
+      ],
+      "mediaHash": "f9e781f185e37a1035d107104709ec9eb20b224bfd6320c6488c5a08ba327288",
+      "learnerStageLabel": "출처와 수정 이력 잇기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G5-media-05-S3-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G5-media-05-S3-A-Q1",
+        "PV2-G5-media-05-S3-A-Q2",
+        "PV2-G5-media-05-S3-A-Q3",
+        "PV2-G5-media-05-S3-A-Q4"
+      ]
+    },
+    {
+      "id": "PV2-G5-media-05-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G5-media-05",
+      "skillName": "출처·시점·버전 검증",
+      "grade": 5,
+      "track": "media",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "게시물 세 개는 근거 세 개일까",
+      "purpose": "practice",
+      "familyId": "PV2-G5-media-05-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G5-media-05-S5-A-p1",
+          "text": "가상 체험 소식을 확인하는 활동이다. 세 게시물의 현재 게시일은 서로 다르지만, 출처 칸에는 모두 지난해 같은 원문 번호가 적혀 있다. 올해 운영 공지는 이 자료에 제공되지 않았다. 민호는 글이 세 개이니 올해도 같은 조건이라고 확신했다.",
+          "sentences": [
+            {
+              "id": "PV2-G5-media-05-S5-A-p1-s1",
+              "text": "가상 체험 소식을 확인하는 활동이다."
+            },
+            {
+              "id": "PV2-G5-media-05-S5-A-p1-s2",
+              "text": "세 게시물의 현재 게시일은 서로 다르지만, 출처 칸에는 모두 지난해 같은 원문 번호가 적혀 있다."
+            },
+            {
+              "id": "PV2-G5-media-05-S5-A-p1-s3",
+              "text": "올해 운영 공지는 이 자료에 제공되지 않았다."
+            },
+            {
+              "id": "PV2-G5-media-05-S5-A-p1-s4",
+              "text": "민호는 글이 세 개이니 올해도 같은 조건이라고 확신했다."
+            }
+          ]
+        }
+      ],
+      "charCount": 133,
+      "contentHash": "2ecc481992ac1484bfea04fca4f13c3f20c6d4e5e249f0a50c24db599ec2e27d",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "정의·원리·경쟁 근거·복수 조건. 자료의 관점과 한계를 비교하고 조건부로 표현.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "전달 경로와 원문 따지기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "재전달의 수와 독립 근거의 수를 구별한다. 오래된 정보가 올해 반드시 거짓이라는 결론도 내리지 않는다. 실제 기관에 연락하거나 검색했다는 기록은 만들지 않는다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G5-media-05-S5-A-Q1",
+          "kind": "explanation",
+          "prompt": "민호의 확신을 검토하세요. 세 글의 근거가 독립적인지와 올해 안내를 위해 더 확인할 것을 함께 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP1",
+              "elementId": "source",
+              "quote": "출처: 체험 운영팀 2025년 안내 · 원문T31"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP2",
+              "elementId": "source",
+              "quote": "출처: 체험 운영팀 2025년 안내 · 원문T31"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP3",
+              "elementId": "source",
+              "quote": "사진 원문: 체험 운영팀 2025년 안내 · 원문T31"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "세 글 모두 2025년 원문T31을 전달하므로 서로 독립적인 올해 운영 근거 세 개가 아니다. 올해도 같을 수는 있지만 현재 운영팀의 2026년 안내와 적용 조건을 확인하기 전에는 확정하지 않아야 한다.",
+          "rubric": [
+            {
+              "criterion": "공통 출처 확인",
+              "levels": {
+                "0": "글쓴이가 다르므로 반드시 독립 조사라고 한다.",
+                "1": "같은 출처라고만 하고 연도·번호를 짚지 못한다.",
+                "2": "세 게시물의 공통된2025원문T31을 짚어 근거의 종속을 설명한다."
+              }
+            },
+            {
+              "criterion": "시점·검증 구별",
+              "levels": {
+                "0": "작년 글이므로 올해 내용은 반드시 반대라고 한다.",
+                "1": "최신 것을 찾아보자고만 한다.",
+                "2": "올해 조건은 미확인으로 남기고2026운영 공지 확인을 제안한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G5-media-05-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-media-05-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "세 게시물만으로 확정할 수 없는 것은 무엇인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP1",
+              "elementId": "source",
+              "quote": "출처: 체험 운영팀 2025년 안내 · 원문T31"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP3",
+              "elementId": "source",
+              "quote": "사진 원문: 체험 운영팀 2025년 안내 · 원문T31"
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "다가 사진으로 옛 안내를 전달했다는 것",
+              "reason": "다의 전달 방식에 적혀 있다."
+            },
+            {
+              "text": "나의 게시일이 가보다 늦다는 것",
+              "reason": "11월16일과11월15일을 비교할 수 있다."
+            },
+            {
+              "text": "세 글이 같은 원문 번호를 제시했다는 것",
+              "reason": "출처 칸에서 직접 확인할 수 있다."
+            },
+            {
+              "text": "올해 체험의 운영 조건도 지난해와 같다는 것",
+              "reason": "제공된 근거는 지난해 같은 원문을 전달한 자료들이다."
+            },
+            {
+              "text": "참조 원문의 연도가2025년이라는 것",
+              "reason": "세 출처 칸에서 직접 확인된다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "제공된 근거는 지난해 같은 원문을 전달한 자료들이다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-media-05-S5-A-Q3",
+          "kind": "classification",
+          "prompt": "확인됨 / 아직 미확인으로 나누세요: 공통 원문 번호 / 올해 참가비 / 현재 게시일.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP1",
+              "elementId": "date",
+              "quote": "게시: 2026년11월15일"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP1",
+              "elementId": "source",
+              "quote": "출처: 체험 운영팀 2025년 안내 · 원문T31"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP2",
+              "elementId": "date",
+              "quote": "게시: 2026년11월16일"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP3",
+              "elementId": "date",
+              "quote": "게시: 2026년11월18일"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "확인됨:공통 원문T31·현재 게시일 / 미확인:올해 참가비",
+          "rubric": [
+            {
+              "criterion": "확인됨 / 아직 미확인으로 나누세요: 공통 원문 번호 / 올해 참가비 / 현재 게시일.",
+              "levels": {
+                "0": "올해 참가비도 무조건 무료라고 확정함",
+                "1": "한 정보를 잘못 분류함",
+                "2": "확인됨:공통 원문T31·현재 게시일 / 미확인:올해 참가비"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-media-05-S5-A-Q4",
+          "kind": "revision",
+          "prompt": "세 글이 모두 무료라고 하니 올해도 무료가 확실하다는 문장을 고치세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP2",
+              "elementId": "summary",
+              "quote": "작년 무료 체험 안내를 옮겨요. 올해 비용은 별도 확인하지 않았어요."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "세 글은 지난해 무료 안내를 같은 원문에서 전달했다. 올해 비용은 현재 운영 공지를 확인해야 한다.",
+          "rubric": [
+            {
+              "criterion": "세 글이 모두 무료라고 하니 올해도 무료가 확실하다는 문장을 고치세요.",
+              "levels": {
+                "0": "올해는 반드시 유료라고 뒤집어 단정함",
+                "1": "확실하다는 말만 지우고 시점·출처 차이가 없음",
+                "2": "세 글은 지난해 무료 안내를 같은 원문에서 전달했다. 올해 비용은 현재 운영 공지를 확인해야 한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-media-05-S5-A-Q5",
+          "kind": "question_generation",
+          "prompt": "올해 원문을 찾았다면 날짜 외에 어떤 항목을 대조해야 하나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G5-media-05-S5-A",
+              "version": 1,
+              "assetId": "PV2-G5-media-05-S5-A-MP1",
+              "elementId": "summary",
+              "quote": "지난해 손도장 체험은 무료였대요."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "행사명·운영 주체·적용 연도·대상·비용·수정 이력을 대조한다. 현재 행사와 같은지 확인하는 구체적 항목을 수용한다.",
+          "rubric": [
+            {
+              "criterion": "올해 원문을 찾았다면 날짜 외에 어떤 항목을 대조해야 하나요?",
+              "levels": {
+                "0": "조회 수만 많으면 같은 행사와 조건이라고 함",
+                "1": "최신인지 보자고만 함",
+                "2": "행사명·운영 주체·적용 연도·대상·비용·수정 이력을 대조한다. 현재 행사와 같은지 확인하는 구체적 항목을 수용한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G5-media-05-S5-A-C1",
+            "code": "6국06-02",
+            "subject": "국어",
+            "statement": "뉴스 및 각종 정보 매체 자료의 신뢰성을 평가한다.",
+            "gradeBand": [
+              5,
+              6
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 769,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "매체 신뢰성 일부 후보",
+            "includedComponent": "출처·원문·수정 이력·독립 근거를 대조하는 신뢰성 평가 일부",
+            "notAssessed": [
+              "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+              "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+              "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+            ],
+            "questionIds": [
+              "PV2-G5-media-05-S5-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "출처·원문·수정 이력·독립 근거를 대조하는 신뢰성 평가 일부",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G5-media-05-S5-A-C1",
+              "code": "6국06-02",
+              "subject": "국어",
+              "statement": "뉴스 및 각종 정보 매체 자료의 신뢰성을 평가한다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 769,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "매체 신뢰성 일부 후보",
+              "includedComponent": "출처·원문·수정 이력·독립 근거를 대조하는 신뢰성 평가 일부",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G5-media-05-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "c91c9b04ce6e0b6369730d028a69240e133976d1434f9537e630ef1aa771566a"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "가 · 이웃 소식 글",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "date",
+              "text": "게시: 2026년11월15일",
+              "style": "body"
+            },
+            {
+              "id": "source",
+              "text": "출처: 체험 운영팀 2025년 안내 · 원문T31",
+              "style": "header"
+            },
+            {
+              "id": "summary",
+              "text": "지난해 손도장 체험은 무료였대요.",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G5-media-05-S5-A-MP1",
+          "accessibleDescription": "가 · 이웃 소식 글。게시: 2026년11월15일。출처: 체험 운영팀 2025년 안내 · 원문T31。지난해 손도장 체험은 무료였대요."
+        },
+        {
+          "title": "나 · 동아리 공유 글",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "date",
+              "text": "게시: 2026년11월16일",
+              "style": "body"
+            },
+            {
+              "id": "source",
+              "text": "출처: 체험 운영팀 2025년 안내 · 원문T31",
+              "style": "header"
+            },
+            {
+              "id": "summary",
+              "text": "작년 무료 체험 안내를 옮겨요. 올해 비용은 별도 확인하지 않았어요.",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G5-media-05-S5-A-MP2",
+          "accessibleDescription": "나 · 동아리 공유 글。게시: 2026년11월16일。출처: 체험 운영팀 2025년 안내 · 원문T31。작년 무료 체험 안내를 옮겨요. 올해 비용은 별도 확인하지 않았어요."
+        },
+        {
+          "title": "다 · 안내 사진 공유",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "date",
+              "text": "게시: 2026년11월18일",
+              "style": "body"
+            },
+            {
+              "id": "source",
+              "text": "사진 원문: 체험 운영팀 2025년 안내 · 원문T31",
+              "style": "header"
+            },
+            {
+              "id": "summary",
+              "text": "사진 속 안내: 2025 손도장 체험 · 참가비 무료",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G5-media-05-S5-A-MP3",
+          "accessibleDescription": "다 · 안내 사진 공유。게시: 2026년11월18일。사진 원문: 체험 운영팀 2025년 안내 · 원문T31。사진 속 안내: 2025 손도장 체험 · 참가비 무료"
+        }
+      ],
+      "mediaHash": "62d4892449ee5680c430dcddba38b71bc3b29014df4b02a2144bb61e25143f85",
+      "learnerStageLabel": "전달 경로와 원문 따지기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G5-media-05-S5-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G5-media-05-S5-A-Q1",
+        "PV2-G5-media-05-S5-A-Q2",
+        "PV2-G5-media-05-S5-A-Q3",
+        "PV2-G5-media-05-S5-A-Q4",
+        "PV2-G5-media-05-S5-A-Q5"
+      ]
+    },
+    {
+      "id": "PV2-G6-media-03-S4-A",
+      "version": 2,
+      "microSkillId": "plan-G6-media-03",
+      "skillName": "시각적 강조의 효과",
+      "grade": 6,
+      "track": "media",
+      "stage": "S4",
+      "stageLabel": "의미 풀기",
+      "variant": "A",
+      "title": "같은 정보, 다른 강조",
+      "purpose": "practice",
+      "familyId": "PV2-G6-media-03-S4-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G6-media-03-S4-A-p1",
+          "text": "가상 공방 열린 날의 포스터 두 장이다. 적힌 내용은 같고 글씨 크기와 강조만 다르다. 사람마다 먼저 보는 정보는 다를 수 있다. 실제 독자의 반응을 조사한 자료는 아직 없다.",
+          "sentences": [
+            {
+              "id": "PV2-G6-media-03-S4-A-p1-s1",
+              "text": "가상 공방 열린 날의 포스터 두 장이다."
+            },
+            {
+              "id": "PV2-G6-media-03-S4-A-p1-s2",
+              "text": "적힌 내용은 같고 글씨 크기와 강조만 다르다."
+            },
+            {
+              "id": "PV2-G6-media-03-S4-A-p1-s3",
+              "text": "사람마다 먼저 보는 정보는 다를 수 있다."
+            },
+            {
+              "id": "PV2-G6-media-03-S4-A-p1-s4",
+              "text": "실제 독자의 반응을 조사한 자료는 아직 없다."
+            }
+          ]
+        }
+      ],
+      "charCount": 98,
+      "contentHash": "db8070bb4a2b657d91401fdedfbfc832f0871278640f77d912d23ac7a5cc5dcc",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "복합 구조·다중 자료·반례와 불확실성. 새 독자·매체·목적에 맞게 종합하고 수정.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "강조가 만드는 인상 풀기",
+        "evidenceDistance": "문단 사이",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "큰 글씨의 예상 효과를 설명하되 모두가 반드시 오해했다고 채점하지 않는다. 입장과 선택 재료 구입의 비용 범위를 구별하고 실제 반응은 추가 확인 대상으로 둔다. 원고 v2: 무료 강조·비용 범위 제시라는 비교 제목을 가·나로 고쳐 제목에서 해석을 미리 알려 주지 않도록 했다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G6-media-03-S4-A-Q1",
+          "kind": "explanation",
+          "prompt": "가와 나에서 먼저 눈에 들어올 수 있는 정보와 그 이유를 비교하세요. 가를 보고 모든 활동이 무료라고 생각했다면 어느 정보를 더 읽어야 하는지도 설명하세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "assetId": "PV2-G6-media-03-S4-A-MP1",
+              "elementId": "fee",
+              "quote": "입장 무료"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "assetId": "PV2-G6-media-03-S4-A-MP1",
+              "elementId": "kit",
+              "quote": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "assetId": "PV2-G6-media-03-S4-A-MP2",
+              "elementId": "fee",
+              "quote": "입장 무료"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "assetId": "PV2-G6-media-03-S4-A-MP2",
+              "elementId": "kit",
+              "quote": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "가는 입장 무료가 크게 강조되어 먼저 보일 수 있다. 나는 입장과 선택 키트 비용을 비슷한 크기로 보여 두 정보를 함께 볼 수 있다. 모든 것이 무료라고 생각했다면 키트는 원하는 사람만5000원에 산다는 조건을 읽어야 한다. 실제로 누가 무엇을 먼저 보는지는 조사해야 한다.",
+          "rubric": [
+            {
+              "criterion": "배치와 예상 효과",
+              "levels": {
+                "0": "글씨가 크면 모든 독자가 반드시 같은 생각을 한다고 한다.",
+                "1": "강조가 다르다고만 한다.",
+                "2": "두 포스터의 글씨 크기 차이를 먼저 보일 수 있는 정보와 연결한다."
+              }
+            },
+            {
+              "criterion": "비용 범위",
+              "levels": {
+                "0": "포스터 가에서는 키트도 반드시 무료라고 한다.",
+                "1": "키트가5000원이라고만 하고 입장과 구별하지 못한다.",
+                "2": "무료 입장과 선택 키트 구입을 구별해 설명한다."
+              }
+            }
+          ],
+          "version": 2,
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G6-media-03-S4-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-media-03-S4-A-Q2",
+          "kind": "single_choice",
+          "prompt": "두 포스터에서 실제로 같은 안내 내용은 무엇인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "assetId": "PV2-G6-media-03-S4-A-MP1",
+              "elementId": "fee",
+              "quote": "입장 무료"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "assetId": "PV2-G6-media-03-S4-A-MP1",
+              "elementId": "kit",
+              "quote": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "assetId": "PV2-G6-media-03-S4-A-MP2",
+              "elementId": "kit",
+              "quote": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "가는 입장료가 있고 나는 입장료가 없다.",
+              "reason": "두 포스터 모두 무료 입장이다."
+            },
+            {
+              "text": "입장은 무료이고 키트는 원하는 사람만5000원에 구입한다.",
+              "reason": "표현 크기는 다르지만 두 비용 안내의 내용은 같다."
+            },
+            {
+              "text": "가에서는 키트가 무료이고 나에서는 유료이다.",
+              "reason": "두 포스터 모두 선택 구입5000원이다."
+            },
+            {
+              "text": "나에서는 모든 입장객이 키트를 사야 한다.",
+              "reason": "원하는 사람만이라는 조건이 있다."
+            },
+            {
+              "text": "두 포스터의 행사 날짜가 서로 다르다.",
+              "reason": "11월23일로 같다."
+            }
+          ],
+          "correctIndex": 1,
+          "version": 2,
+          "explanation": "표현 크기는 다르지만 두 비용 안내의 내용은 같다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-media-03-S4-A-Q3",
+          "kind": "evidence_selection",
+          "prompt": "키트 구입이 의무가 아님을 보여 주는 표현을 찾으세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "assetId": "PV2-G6-media-03-S4-A-MP2",
+              "elementId": "kit",
+              "quote": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다.",
+          "rubric": [
+            {
+              "criterion": "키트 구입이 의무가 아님을 보여 주는 표현을 찾으세요.",
+              "levels": {
+                "0": "입장 무료만 고름",
+                "1": "원하는 사람만을 빠뜨림",
+                "2": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다."
+              }
+            }
+          ],
+          "version": 2,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-media-03-S4-A-Q4",
+          "kind": "question_generation",
+          "prompt": "어느 포스터에서 조건을 놓치는 독자가 더 많은지 확인하려면 어떻게 해야 하나요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-media-03-S4-A",
+              "version": 2,
+              "paragraphId": "PV2-G6-media-03-S4-A-p1",
+              "sentenceId": "PV2-G6-media-03-S4-A-p1-s4",
+              "quote": "실제 독자의 반응을 조사한 자료는 아직 없다.",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "비슷한 조건의 독자에게 포스터를 보여 주고 입장 비용과 키트 구입 조건을 어떻게 이해했는지 실제 응답을 비교한다. 미리 설명한 도움·노출도 구별한다.",
+          "rubric": [
+            {
+              "criterion": "어느 포스터에서 조건을 놓치는 독자가 더 많은지 확인하려면 어떻게 해야 하나요?",
+              "levels": {
+                "0": "큰 글씨는 언제나 오해를 만든다고 조사 없이 확정함",
+                "1": "좋아하는 포스터만 묻고 조건 이해는 확인하지 않음",
+                "2": "비슷한 조건의 독자에게 포스터를 보여 주고 입장 비용과 키트 구입 조건을 어떻게 이해했는지 실제 응답을 비교한다. 미리 설명한 도움·노출도 구별한다."
+              }
+            }
+          ],
+          "version": 2,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G6-media-03-S4-A-C1",
+            "code": "6국06-02",
+            "subject": "국어",
+            "statement": "뉴스 및 각종 정보 매체 자료의 신뢰성을 평가한다.",
+            "gradeBand": [
+              5,
+              6
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 769,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "매체 신뢰성 일부 후보",
+            "includedComponent": "시각적 강조와 조건의 제시를 비교하며 정보 매체의 신뢰성을 판단하는 일부",
+            "notAssessed": [
+              "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+              "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+              "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+            ],
+            "questionIds": [
+              "PV2-G6-media-03-S4-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "시각적 강조와 조건의 제시를 비교하며 정보 매체의 신뢰성을 판단하는 일부",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G6-media-03-S4-A-C1",
+              "code": "6국06-02",
+              "subject": "국어",
+              "statement": "뉴스 및 각종 정보 매체 자료의 신뢰성을 평가한다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 769,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "매체 신뢰성 일부 후보",
+              "includedComponent": "시각적 강조와 조건의 제시를 비교하며 정보 매체의 신뢰성을 판단하는 일부",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G6-media-03-S4-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "3aaf41991334fe4a68e9b49c4711f62dfccb9ac0956f09a21f317597f0cc5a5c"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "포스터 가",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "title",
+              "text": "작은 공방 열린 날",
+              "style": "header"
+            },
+            {
+              "id": "fee",
+              "text": "입장 무료",
+              "style": "large"
+            },
+            {
+              "id": "kit",
+              "text": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다.",
+              "style": "small"
+            },
+            {
+              "id": "when",
+              "text": "11월23일 · 오후1시~4시",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G6-media-03-S4-A-MP1",
+          "accessibleDescription": "포스터 가。작은 공방 열린 날。큰 글씨: 입장 무료。작은 글씨: 만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다.。11월23일 · 오후1시~4시"
+        },
+        {
+          "title": "포스터 나",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "title",
+              "text": "작은 공방 열린 날",
+              "style": "header"
+            },
+            {
+              "id": "fee",
+              "text": "입장 무료",
+              "style": "body"
+            },
+            {
+              "id": "kit",
+              "text": "만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다.",
+              "style": "body"
+            },
+            {
+              "id": "when",
+              "text": "11월23일 · 오후1시~4시",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G6-media-03-S4-A-MP2",
+          "accessibleDescription": "포스터 나。작은 공방 열린 날。입장 무료。만들기 재료 키트는 원하는 사람만 5,000원에 구입합니다.。11월23일 · 오후1시~4시"
+        }
+      ],
+      "mediaHash": "db34db99b61c652782e8c400b4c2238d1b8558cf854723d20ba241468468ece0",
+      "learnerStageLabel": "강조가 만드는 인상 풀기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G6-media-03-S4-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending",
+        "revisionReason": "포스터 비교의 제목에 강조 정보의 해석을 미리 붙이지 않도록 가·나만 남겨 중립화. 실제 글씨 크기와 조건을 읽어 설명하게 함."
+      },
+      "presentationOrder": [
+        "PV2-G6-media-03-S4-A-Q1",
+        "PV2-G6-media-03-S4-A-Q2",
+        "PV2-G6-media-03-S4-A-Q3",
+        "PV2-G6-media-03-S4-A-Q4"
+      ]
+    },
+    {
+      "id": "PV2-G6-media-03-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G6-media-03",
+      "skillName": "시각적 강조의 효과",
+      "grade": 6,
+      "track": "media",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "큰 제목이 지운 조건",
+      "purpose": "practice",
+      "familyId": "PV2-G6-media-03-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G6-media-03-S5-A-p1",
+          "text": "가상 학생 작품 발표회의 홍보 초안과 확정 운영 메모이다. 목적은 실제 입장 가능한 사람에게 조건을 정확히 안내하는 것이다. 아직 초안을 게시하거나 관객 반응을 관찰하지 않았다.",
+          "sentences": [
+            {
+              "id": "PV2-G6-media-03-S5-A-p1-s1",
+              "text": "가상 학생 작품 발표회의 홍보 초안과 확정 운영 메모이다."
+            },
+            {
+              "id": "PV2-G6-media-03-S5-A-p1-s2",
+              "text": "목적은 실제 입장 가능한 사람에게 조건을 정확히 안내하는 것이다."
+            },
+            {
+              "id": "PV2-G6-media-03-S5-A-p1-s3",
+              "text": "아직 초안을 게시하거나 관객 반응을 관찰하지 않았다."
+            }
+          ]
+        }
+      ],
+      "charCount": 99,
+      "contentHash": "60bb52a05259108a1a8fa2b4a4bbdffaf2e0bc2773f256e4d47daff21a81803d",
+      "textDemand": {
+        "format": "자체 제작 시각 매체·동일 정보의 문자 대체",
+        "gradeCondition": "복합 구조·다중 자료·반례와 불확실성. 새 독자·매체·목적에 맞게 종합하고 수정.",
+        "lengthReview": "장문 지문 수와 구별. 본문 글자 수 외 이미지의 문자·표·배치 부담을 별도로 기록."
+      },
+      "taskDemand": {
+        "operation": "강조와 빠진 조건 살피기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "이미지와 같은 정보의 문자 대체 제공. 사용한 형태·대독·뒤 문항 및 해설 노출 기록."
+      },
+      "teacherGuide": "큰 문구의 누구나를 작은 글씨가 나중에 상쇄하니 문제없다고 단정하지 않는다. 초안을 운영 메모와 대조해 대상·예약·정원·비용을 보존한 대안을 만든다. 법적 광고 판정으로 확대하지 않는다. 이미지와 문자 대체 중 어떤 형태로 답했는지 기록한다. 주 응답을 먼저 받고 보조 문항과 해설 노출을 구별한다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G6-media-03-S5-A-Q1",
+          "kind": "explanation",
+          "prompt": "홍보 초안을 운영 메모에 맞게 고치고 어떤 정보들을 함께 잘 보이게 할지 설명하세요. 수정 뒤에도 확인해야 할 독자 반응을 하나 제안하세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP1",
+              "elementId": "headline",
+              "quote": "누구나 무료 입장!"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP1",
+              "elementId": "condition",
+              "quote": "사전 예약한 초3~6 학생 · 20명 한정"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP2",
+              "elementId": "scope",
+              "quote": "입장 대상: 사전 예약한 초3~6 학생"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP2",
+              "elementId": "limit",
+              "quote": "입장 정원: 20명"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP2",
+              "elementId": "fee",
+              "quote": "입장료: 0원"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "사전 예약한 초3~6 학생20명까지 무료 입장으로 제목을 고치고 예약·대상·정원을 무료와 함께 읽히게 배치한다. 실제 독자에게 자신이 입장 대상인지와 예약이 필요한지 설명해 보게 하여 조건 이해를 확인한다.",
+          "rubric": [
+            {
+              "criterion": "내용 일치 수정",
+              "levels": {
+                "0": "무료이므로 모든 학년이 예약 없이 들어온다고 쓴다.",
+                "1": "일부 조건만 남긴다.",
+                "2": "예약·초3~6·정원20명·무료를 보존하고 누구나를 고친다."
+              }
+            },
+            {
+              "criterion": "강조의 적절성",
+              "levels": {
+                "0": "작은 글씨가 있으니 큰 제목의 범위는 따질 필요 없다고 한다.",
+                "1": "글씨를 모두 키운다고만 한다.",
+                "2": "제한 조건을 무료 문구와 함께 읽도록 배치를 제안하고 이유를 설명한다."
+              }
+            },
+            {
+              "criterion": "반응 확인",
+              "levels": {
+                "0": "수정했으니 모든 독자가 이해했다고 완료 처리한다.",
+                "1": "좋아하는지 묻는 것만 제안한다.",
+                "2": "실제 독자가 대상·예약·정원을 이해하는지 확인할 방법을 구체적으로 제안한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G6-media-03-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-media-03-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "홍보 초안과 운영 메모를 대조할 때 핵심 문제는 무엇인가요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP1",
+              "elementId": "headline",
+              "quote": "누구나 무료 입장!"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP2",
+              "elementId": "scope",
+              "quote": "입장 대상: 사전 예약한 초3~6 학생"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP2",
+              "elementId": "limit",
+              "quote": "입장 정원: 20명"
+            }
+          ],
+          "acceptableResponses": "예시와 표현이 달라도 핵심 의미와 근거 관계를 충족하면 수용한다. 문자열 일치만으로 채점하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "초안이 이미 관객 전원에게 오해를 일으켰다는 증거가 있다.",
+              "reason": "아직 게시·반응 관찰을 하지 않았다."
+            },
+            {
+              "text": "제한 조건을 없애면 운영 메모와 자동으로 같아진다.",
+              "reason": "확정된 조건을 삭제하는 것이므로 다르다."
+            },
+            {
+              "text": "작은 글씨에 조건이 있으므로 누구나가 모든 조건과 완전히 일치한다.",
+              "reason": "큰 문구의 범위와 조건 사이의 긴장을 무시한다."
+            },
+            {
+              "text": "누구나라는 큰 문구가 예약·학년·정원 제한보다 넓은 대상을 떠올리게 할 수 있다.",
+              "reason": "메모는 제한된 대상을 정했는데 큰 제목은 그 범위를 드러내지 않는다."
+            },
+            {
+              "text": "운영 메모가 실제로 입장료를 받도록 정했다.",
+              "reason": "메모에도 입장료0원이다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "메모는 제한된 대상을 정했는데 큰 제목은 그 범위를 드러내지 않는다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-media-03-S5-A-Q3",
+          "kind": "matching",
+          "prompt": "운영 메모의 학년 / 예약 / 정원 / 비용을 각각 쓰세요.",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP2",
+              "elementId": "scope",
+              "quote": "입장 대상: 사전 예약한 초3~6 학생"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP2",
+              "elementId": "limit",
+              "quote": "입장 정원: 20명"
+            },
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP2",
+              "elementId": "fee",
+              "quote": "입장료: 0원"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "초3~6 / 사전 예약 / 20명 / 입장료0원",
+          "rubric": [
+            {
+              "criterion": "운영 메모의 학년 / 예약 / 정원 / 비용을 각각 쓰세요.",
+              "levels": {
+                "0": "학년 제한이 없다고 함",
+                "1": "한 조건을 빠뜨림",
+                "2": "초3~6 / 사전 예약 / 20명 / 입장료0원"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-media-03-S5-A-Q4",
+          "kind": "explanation",
+          "prompt": "수정 초안의 글씨를 바꾸기만 하고 누구나라는 말을 남기면 왜 충분하지 않을 수 있나요?",
+          "evidence": [
+            {
+              "evidenceKind": "media",
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "assetId": "PV2-G6-media-03-S5-A-MP1",
+              "elementId": "headline",
+              "quote": "누구나 무료 입장!"
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "읽기 쉬워져도 누구나라는 말 자체가 제한된 입장 대상을 넓히는 뜻으로 남을 수 있기 때문이다.",
+          "rubric": [
+            {
+              "criterion": "수정 초안의 글씨를 바꾸기만 하고 누구나라는 말을 남기면 왜 충분하지 않을 수 있나요?",
+              "levels": {
+                "0": "글씨 모양만 바꾸면 문장의 모든 뜻도 바뀐다고 함",
+                "1": "큰 글씨가 문제라고만 함",
+                "2": "읽기 쉬워져도 누구나라는 말 자체가 제한된 입장 대상을 넓히는 뜻으로 남을 수 있기 때문이다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-media-03-S5-A-Q5",
+          "kind": "question_generation",
+          "prompt": "실제 게시 전에 누구에게 어떤 질문을 하면 이 목적에 맞는 검토가 될까요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-media-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-media-03-S5-A-p1",
+              "sentenceId": "PV2-G6-media-03-S5-A-p1-s2",
+              "quote": "목적은 실제 입장 가능한 사람에게 조건을 정확히 안내하는 것이다.",
+              "start": 0
+            }
+          ],
+          "acceptableResponses": "예시의 문장과 달라도 보이는 자료의 범위와 조건을 보존하면 수용한다. 시각적 강조의 예상 효과와 실제 독자 반응을 구별하며 근거 없는 확정은 수용하지 않는다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "초2·초4처럼 대상 여부가 다른 독자에게 각각 자신이 예약해 입장할 수 있는지와 조건을 어디서 확인했는지 묻는다. 실제 가능한 다른 대상 비교도 수용한다.",
+          "rubric": [
+            {
+              "criterion": "실제 게시 전에 누구에게 어떤 질문을 하면 이 목적에 맞는 검토가 될까요?",
+              "levels": {
+                "0": "조회 수가 많으면 조건 이해도 완료라고 함",
+                "1": "독자 한 명에게 예쁜지만 물어봄",
+                "2": "초2·초4처럼 대상 여부가 다른 독자에게 각각 자신이 예약해 입장할 수 있는지와 조건을 어디서 확인했는지 묻는다. 실제 가능한 다른 대상 비교도 수용한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 표지·표·게시물·포스터",
+        "factualBasis": "모든 기관·행사·게시물·수치는 학습용 가상 자료. 실제 운영 기관·뉴스·조사 결과의 재현이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G6-media-03-S5-A-C1",
+            "code": "6국06-02",
+            "subject": "국어",
+            "statement": "뉴스 및 각종 정보 매체 자료의 신뢰성을 평가한다.",
+            "gradeBand": [
+              5,
+              6
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 769,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "매체 신뢰성 일부 후보",
+            "includedComponent": "시각적 강조와 조건의 제시를 비교하며 정보 매체의 신뢰성을 판단하는 일부",
+            "notAssessed": [
+              "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+              "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+              "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+            ],
+            "questionIds": [
+              "PV2-G6-media-03-S5-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 대조·독립 교사 승인 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "시각적 강조와 조건의 제시를 비교하며 정보 매체의 신뢰성을 판단하는 일부",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G6-media-03-S5-A-C1",
+              "code": "6국06-02",
+              "subject": "국어",
+              "statement": "뉴스 및 각종 정보 매체 자료의 신뢰성을 평가한다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 769,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "매체 신뢰성 일부 후보",
+              "includedComponent": "시각적 강조와 조건의 제시를 비교하며 정보 매체의 신뢰성을 판단하는 일부",
+              "notAssessed": [
+                "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+                "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음",
+                "성취기준 전체 달성·매체 흥미·태도는 별도 확인"
+              ],
+              "questionIds": [
+                "PV2-G6-media-03-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "87a6bab6dbc60f91a1cbc37e8c0da3346ceee5f481f90411c8419a7add5b667e"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-06",
+      "mediaPanels": [
+        {
+          "title": "가 · 홍보 초안",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "headline",
+              "text": "누구나 무료 입장!",
+              "style": "large"
+            },
+            {
+              "id": "condition",
+              "text": "사전 예약한 초3~6 학생 · 20명 한정",
+              "style": "small"
+            },
+            {
+              "id": "title",
+              "text": "학생 작품 발표회",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G6-media-03-S5-A-MP1",
+          "accessibleDescription": "가 · 홍보 초안。큰 글씨: 누구나 무료 입장!。작은 글씨: 사전 예약한 초3~6 학생 · 20명 한정。학생 작품 발표회"
+        },
+        {
+          "title": "나 · 확정 운영 메모",
+          "kind": "card",
+          "elements": [
+            {
+              "id": "title",
+              "text": "학생 작품 발표회",
+              "style": "header"
+            },
+            {
+              "id": "scope",
+              "text": "입장 대상: 사전 예약한 초3~6 학생",
+              "style": "body"
+            },
+            {
+              "id": "limit",
+              "text": "입장 정원: 20명",
+              "style": "body"
+            },
+            {
+              "id": "fee",
+              "text": "입장료: 0원",
+              "style": "body"
+            }
+          ],
+          "id": "PV2-G6-media-03-S5-A-MP2",
+          "accessibleDescription": "나 · 확정 운영 메모。학생 작품 발표회。입장 대상: 사전 예약한 초3~6 학생。입장 정원: 20명。입장료: 0원"
+        }
+      ],
+      "mediaHash": "9ca9b40a38e342343440ccf3d0bbcf6447404b52ee9a72bf7d73de1d3bcd18a0",
+      "learnerStageLabel": "강조와 빠진 조건 살피기",
+      "mediaReview": {
+        "primaryQuestionId": "PV2-G6-media-03-S5-A-Q1",
+        "firstResponse": "주 설명·재표현을 보조 선택형보다 먼저 받음. 현재 HTML은 뒤 문항 노출을 봉인하지 않으므로 실제 노출을 기록.",
+        "responseMode": "이미지 또는 동일 정보의 문자 대체를 읽고 남긴 서면 답",
+        "notAssessed": [
+          "실제 인터넷 검색·클릭·게시·공유를 수행했다고 판정하지 않음",
+          "특정 배치가 실제 모든 독자에게 같은 반응을 일으켰다고 판정하지 않음"
+        ],
+        "teacherApproval": "pending"
+      },
+      "presentationOrder": [
+        "PV2-G6-media-03-S5-A-Q1",
+        "PV2-G6-media-03-S5-A-Q2",
+        "PV2-G6-media-03-S5-A-Q3",
+        "PV2-G6-media-03-S5-A-Q4",
+        "PV2-G6-media-03-S5-A-Q5"
+      ]
+    }
+  ]
+}

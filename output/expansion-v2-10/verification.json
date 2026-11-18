@@ -1,0 +1,293 @@
+{
+  "passed": true,
+  "errors": [],
+  "stageFitWarnings": [
+    {
+      "id": "PV2-G1-literature-02-S4-A-Q3",
+      "type": "interpretation_answer_verbatim",
+      "action": "stage fit review"
+    },
+    {
+      "id": "PV2-G3-literature-05-S4-A-Q3",
+      "type": "interpretation_answer_verbatim",
+      "action": "stage fit review"
+    },
+    {
+      "id": "PV2-G4-literature-08-S4-A-Q3",
+      "type": "interpretation_answer_verbatim",
+      "action": "stage fit review"
+    },
+    {
+      "id": "PV2-G5-literature-07-S4-A-Q3",
+      "type": "interpretation_answer_verbatim",
+      "action": "stage fit review"
+    },
+    {
+      "id": "PV2-G6-literature-09-S4-A-Q3",
+      "type": "interpretation_answer_verbatim",
+      "action": "stage fit review"
+    }
+  ],
+  "optionLengthCandidates": [],
+  "nearDuplicateCandidates": [],
+  "numericChecks": {},
+  "readingChecks": {},
+  "contentSnapshotHash": "a9ad999ca066ec1407b07e090409508610f0c5427aefaf08e33bb23ed2f95378",
+  "curriculumSourceCheckedSets": 12,
+  "factualSourceCheckedDraftSets": 0,
+  "factualAnchors": 0,
+  "curriculumSourceScopeAuditedSets": 18,
+  "curriculumSourceLinkedSets": 18,
+  "curriculumRelatedOnlySets": 6,
+  "graphCount": 0,
+  "graphEvidenceReferences": 0,
+  "poemCount": 3,
+  "poetryLineCount": 24,
+  "listeningSets": 0,
+  "spokenResponseTasks": 0,
+  "audioEvidenceReferences": 0,
+  "audioDraftSetsTechnicallyVerified": 0,
+  "oralReadingSets": 0,
+  "oralReadingTasks": 0,
+  "readingWordReferences": 0,
+  "writingProductionProtocolSets": 0,
+  "literaryInterpretationProtocolSets": 18,
+  "mediaReadingProtocolSets": 0,
+  "mediaPanelCount": 0,
+  "questionKinds": {
+    "explanation": 35,
+    "single_choice": 18,
+    "ordering": 4,
+    "evidence_selection": 7,
+    "question_generation": 1,
+    "matching": 4,
+    "classification": 4,
+    "revision": 5
+  },
+  "progress": {
+    "scope": "6수행의 선언한 단계·자료 공급",
+    "expectedStageCounts": {
+      "plan-G1-literature-02": {
+        "S2": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G2-literature-09": {
+        "S2": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G3-literature-05": {
+        "S2": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G4-literature-08": {
+        "S2": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G5-literature-07": {
+        "S2": 1,
+        "S4": 1,
+        "S5": 1
+      },
+      "plan-G6-literature-09": {
+        "S2": 1,
+        "S4": 1,
+        "S5": 1
+      }
+    },
+    "targetSets": 18,
+    "targetQuestions": 78,
+    "authoredSets": 18,
+    "authoredQuestions": 78,
+    "approvedSets": 0,
+    "remainingSets": 0,
+    "remainingQuestions": 0,
+    "skills": [
+      {
+        "skillId": "plan-G1-literature-02",
+        "grade": 1,
+        "track": "literature",
+        "name": "중요한 사건 찾기",
+        "targetSets": 3,
+        "authoredSets": 3,
+        "authoredQuestions": 13,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G2-literature-09",
+        "grade": 2,
+        "track": "literature",
+        "name": "사물에 마음을 담은 표현",
+        "targetSets": 3,
+        "authoredSets": 3,
+        "authoredQuestions": 13,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G3-literature-05",
+        "grade": 3,
+        "track": "literature",
+        "name": "인물 사이 관계",
+        "targetSets": 3,
+        "authoredSets": 3,
+        "authoredQuestions": 13,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G4-literature-08",
+        "grade": 4,
+        "track": "literature",
+        "name": "장면과 분위기",
+        "targetSets": 3,
+        "authoredSets": 3,
+        "authoredQuestions": 13,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G5-literature-07",
+        "grade": 5,
+        "track": "literature",
+        "name": "상징·함축의 근거",
+        "targetSets": 3,
+        "authoredSets": 3,
+        "authoredQuestions": 13,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      },
+      {
+        "skillId": "plan-G6-literature-09",
+        "grade": 6,
+        "track": "literature",
+        "name": "해석 비교와 타당성",
+        "targetSets": 3,
+        "authoredSets": 3,
+        "authoredQuestions": 13,
+        "approvedSets": 0,
+        "audioDraftAssets": 0,
+        "assetRequirement": "텍스트 또는 실제 도표 자산",
+        "status": "draft_under_review"
+      }
+    ],
+    "audioDraftSetsTechnicallyVerified": 0,
+    "listeningAudioDraftSets": 0,
+    "readingModelAudioDraftSets": 0
+  },
+  "limits": [
+    "자동 검사는 문항 정답 유일성이나 실제 난도를 증명하지 않는다.",
+    "독립 교사 검토·학생 수행 검증·음성 자산은 별도 완료 조건이다."
+  ],
+  "literaryConsistencyChecks": {
+    "PV2-G1-literature-02-S2-A_interpretation_first": true,
+    "PV2-G1-literature-02-S2-A_analytic_evidence": true,
+    "PV2-G1-literature-02-S4-A_interpretation_first": true,
+    "PV2-G1-literature-02-S4-A_analytic_evidence": true,
+    "PV2-G1-literature-02-S4-A_archived_revision": true,
+    "PV2-G1-literature-02-S5-A_interpretation_first": true,
+    "PV2-G1-literature-02-S5-A_analytic_evidence": true,
+    "PV2-G1-literature-02-S5-A_archived_revision": true,
+    "PV2-G2-literature-09-S2-A_interpretation_first": true,
+    "PV2-G2-literature-09-S2-A_analytic_evidence": true,
+    "PV2-G2-literature-09-S4-A_interpretation_first": true,
+    "PV2-G2-literature-09-S4-A_analytic_evidence": true,
+    "PV2-G2-literature-09-S4-A_archived_revision": true,
+    "PV2-G2-literature-09-S5-A_interpretation_first": true,
+    "PV2-G2-literature-09-S5-A_analytic_evidence": true,
+    "PV2-G2-literature-09-S5-A_archived_revision": true,
+    "PV2-G3-literature-05-S2-A_interpretation_first": true,
+    "PV2-G3-literature-05-S2-A_analytic_evidence": true,
+    "PV2-G3-literature-05-S4-A_interpretation_first": true,
+    "PV2-G3-literature-05-S4-A_analytic_evidence": true,
+    "PV2-G3-literature-05-S5-A_interpretation_first": true,
+    "PV2-G3-literature-05-S5-A_analytic_evidence": true,
+    "PV2-G3-literature-05-S5-A_archived_revision": true,
+    "PV2-G4-literature-08-S2-A_interpretation_first": true,
+    "PV2-G4-literature-08-S2-A_analytic_evidence": true,
+    "PV2-G4-literature-08-S2-A_archived_revision": true,
+    "PV2-G4-literature-08-S4-A_interpretation_first": true,
+    "PV2-G4-literature-08-S4-A_analytic_evidence": true,
+    "PV2-G4-literature-08-S5-A_interpretation_first": true,
+    "PV2-G4-literature-08-S5-A_analytic_evidence": true,
+    "PV2-G4-literature-08-S5-A_archived_revision": true,
+    "PV2-G5-literature-07-S2-A_interpretation_first": true,
+    "PV2-G5-literature-07-S2-A_analytic_evidence": true,
+    "PV2-G5-literature-07-S4-A_interpretation_first": true,
+    "PV2-G5-literature-07-S4-A_analytic_evidence": true,
+    "PV2-G5-literature-07-S5-A_interpretation_first": true,
+    "PV2-G5-literature-07-S5-A_analytic_evidence": true,
+    "PV2-G5-literature-07-S5-A_archived_revision": true,
+    "PV2-G6-literature-09-S2-A_interpretation_first": true,
+    "PV2-G6-literature-09-S2-A_analytic_evidence": true,
+    "PV2-G6-literature-09-S2-A_archived_revision": true,
+    "PV2-G6-literature-09-S4-A_interpretation_first": true,
+    "PV2-G6-literature-09-S4-A_analytic_evidence": true,
+    "PV2-G6-literature-09-S4-A_archived_revision": true,
+    "PV2-G6-literature-09-S5-A_interpretation_first": true,
+    "PV2-G6-literature-09-S5-A_analytic_evidence": true,
+    "PV2-G6-literature-09-S5-A_archived_revision": true,
+    "G1_stone_before_wheel_turns": true,
+    "G1_flag_stays_at_home": true,
+    "G1_bridge_saved_not_relationship_ended": true,
+    "G2_three_eight_line_poems": true,
+    "G2_address_not_completed": true,
+    "G2_old_shoes_not_disposed": true,
+    "G3_joint_story_not_identical_roles": true,
+    "G3_open_door_still_waiting": true,
+    "G3_keep_core_line_add_pause": true,
+    "G4_sensory_contrast_and_attention": true,
+    "G4_departure_sound_remains": true,
+    "G4_trembling_and_not_started": true,
+    "G5_boundary_and_new_space_coexist": true,
+    "G5_blank_title_not_blank_day": true,
+    "G5_same_thread_and_unfinished_invitation": true,
+    "G6_final_photos_include_context": true,
+    "G6_old_copy_not_overwritten": true,
+    "G6_recording_not_sent_or_restored": true,
+    "G6_revision_proposal_not_final_approval": true,
+    "reader_opinions_excluded_from_works": true,
+    "reader_names_not_first_person": true
+  },
+  "stageFitReviewDecisions": [
+    {
+      "questionId": "PV2-G1-literature-02-S4-A-Q3",
+      "decision": "이 보조 문항은 구체 근거 찾기이므로 직접 인용을 허용. 주 해석은 별도 준거로 설명·비교 수행을 검토. 경고 자체는 보존.",
+      "state": "AI_editorial_review_not_teacher_approval"
+    },
+    {
+      "questionId": "PV2-G3-literature-05-S4-A-Q3",
+      "decision": "이 보조 문항은 구체 근거 찾기이므로 직접 인용을 허용. 주 해석은 별도 준거로 설명·비교 수행을 검토. 경고 자체는 보존.",
+      "state": "AI_editorial_review_not_teacher_approval"
+    },
+    {
+      "questionId": "PV2-G4-literature-08-S4-A-Q3",
+      "decision": "이 보조 문항은 구체 근거 찾기이므로 직접 인용을 허용. 주 해석은 별도 준거로 설명·비교 수행을 검토. 경고 자체는 보존.",
+      "state": "AI_editorial_review_not_teacher_approval"
+    },
+    {
+      "questionId": "PV2-G5-literature-07-S4-A-Q3",
+      "decision": "이 보조 문항은 구체 근거 찾기이므로 직접 인용을 허용. 주 해석은 별도 준거로 설명·비교 수행을 검토. 경고 자체는 보존.",
+      "state": "AI_editorial_review_not_teacher_approval"
+    },
+    {
+      "questionId": "PV2-G6-literature-09-S4-A-Q3",
+      "decision": "이 보조 문항은 구체 근거 찾기이므로 직접 인용을 허용. 주 해석은 별도 준거로 설명·비교 수행을 검토. 경고 자체는 보존.",
+      "state": "AI_editorial_review_not_teacher_approval"
+    }
+  ]
+}

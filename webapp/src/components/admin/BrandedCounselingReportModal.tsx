@@ -1,3 +1,5 @@
+import { DemoNotice } from '../common/DemoNotice';
+import { ReadXSymbol } from '../brand/ReadXBrand';
 import React, { useState } from 'react';
 import type { TeacherRosterStudent, CommercialMasterData } from '../../types/courseware';
 
@@ -16,9 +18,9 @@ export const BrandedCounselingReportModal: React.FC<BrandedCounselingReportModal
   );
 
   // Academy Branding Customization State
-  const [academyName, setAcademyName] = useState('서울 대치 리드엑스레이 수능문해력 학원');
-  const [directorName, setDirectorName] = useState('원장 김성진 (문학박사 / KICE 평가위원 역임)');
-  const [phoneContact, setPhoneContact] = useState('02-555-8901');
+  const [academyName, setAcademyName] = useState('서울 대치 리드엑스 수능문해력 학원');
+  const [directorName, setDirectorName] = useState('체험 원장');
+  const [phoneContact, setPhoneContact] = useState('연락처 입력');
   const [consultantName, setConsultantName] = useState('수석 연구원 이은우');
   const [includeSeal, setIncludeSeal] = useState(true);
   const [reportSerial] = useState(`RX-A4-${Math.floor(100000 + Math.random() * 900000)}`);
@@ -52,9 +54,6 @@ export const BrandedCounselingReportModal: React.FC<BrandedCounselingReportModal
   };
 
   const handleCopyLink = () => {
-    navigator.clipboard?.writeText(
-      `https://readx-ray.edu/report/counseling/${selectedStudentId}?serial=${reportSerial}`
-    );
     setIsCopied(true);
     setTimeout(() => setIsCopied(false), 3000);
   };
@@ -80,13 +79,13 @@ export const BrandedCounselingReportModal: React.FC<BrandedCounselingReportModal
             </div>
             <div>
               <h2 className="font-black text-sm sm:text-base flex items-center gap-2">
-                <span>학원 B2B 프리미엄 상담용 문해력 성적표 발행기</span>
+                <span>학원 상담 리포트 미리보기</span>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 font-mono">
                   SCREEN 22 · B2B COUNSELING REPORT
                 </span>
               </h2>
               <p className="text-[11px] text-slate-400">
-                학원 로고·원장 직인·AI 맞춤 소견서가 포함된 A4 공식 상담용 성적표를 즉시 인쇄하거나 PDF로 저장합니다.
+                학원 로고·원장 직인·AI 맞춤 소견서가 포함된 A4 체험용 상담 예시를 즉시 인쇄하거나 PDF로 저장합니다.
               </p>
             </div>
           </div>
@@ -96,7 +95,7 @@ export const BrandedCounselingReportModal: React.FC<BrandedCounselingReportModal
               onClick={handleCopyLink}
               className="text-xs font-bold px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition flex items-center gap-1.5 cursor-pointer"
             >
-              <span>{isCopied ? '✅ 링크 복사됨!' : '📱 학부모 발송 링크'}</span>
+              <span>{isCopied ? '공유 기능은 아직 준비 중입니다' : '학부모 공유 준비 중'}</span>
             </button>
             <button
               onClick={handlePrint}
@@ -179,6 +178,7 @@ export const BrandedCounselingReportModal: React.FC<BrandedCounselingReportModal
           </div>
         </div>
 
+        <DemoNotice />
         {/* Printable Official Report Document (A4 Styling) */}
         <div className="flex-1 overflow-y-auto p-4 sm:p-8 bg-slate-200 print:bg-white print:p-0 print:overflow-visible">
           <div className="max-w-[800px] mx-auto bg-white p-8 sm:p-10 rounded-xl shadow-lg border border-slate-300 print:border-none print:shadow-none print:rounded-none print:p-6 print:max-w-none text-slate-900 font-sans">
@@ -186,14 +186,13 @@ export const BrandedCounselingReportModal: React.FC<BrandedCounselingReportModal
             <div className="flex items-start justify-between border-b-2 border-slate-900 pb-5 mb-6">
               <div>
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="w-6 h-6 rounded bg-slate-900 text-white text-xs font-black flex items-center justify-center">
-                    RX
-                  </span>
+                  <ReadXSymbol className="w-8 h-8" />
                   <span className="text-xs font-extrabold tracking-wider text-slate-500 uppercase">
-                    READX-RAY PRO OFFICIAL LITERACY DIAGNOSTIC REPORT
+                    READ X · LEARNING REPORT DEMO
                   </span>
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                  [체험 예시 · 실제 진단 아님]
                   {academyName}
                 </h1>
                 <p className="text-xs text-slate-600 mt-1 font-semibold">
@@ -382,7 +381,7 @@ export const BrandedCounselingReportModal: React.FC<BrandedCounselingReportModal
                 <div className="text-xs font-bold text-slate-500">발행 기관: {academyName}</div>
                 <div className="text-xs text-slate-500 mt-0.5">문의 및 상담 예약: ☎ {phoneContact}</div>
                 <div className="text-[10px] text-slate-400 mt-1">
-                  * 본 성적표는 ReadX-Ray Pro 인공지능 평가 엔진 및 2022 개정 교육과정 기준에 의해 공인 산출되었습니다.
+                  * Read X 상담 보고서 화면 예시입니다. 공인 평가 결과나 실제 학생의 학습 기록이 아닙니다.
                 </div>
               </div>
 

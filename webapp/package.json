@@ -4,9 +4,17 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "audit:reading": "node scripts/audit-reading.mjs",
+    "test": "node scripts/test.mjs",
+    "dev": "npm run prepare:content && vite",
+    "build": "npm run prepare:content && tsc -b && npm test && npm run test:exam && vite build && node scripts/verify-built-exam.mjs && node scripts/verify-local-resources.mjs && node scripts/verify-private-artifacts.mjs",
+    "test:exam": "node --test server/calibration-application.test.mjs server/access-archive.test.mjs server/pilot-service.test.mjs server/assessment-review.test.mjs server/rights-service.test.mjs server/live-erasure.test.mjs server/recovery.test.mjs server/private-artifacts.test.mjs server/processing-service.test.mjs server/access-log.test.mjs server/course-service.test.mjs server/placement-service.test.mjs server/exam-service.test.mjs server/http-exam-client.test.mjs server/learning-service.test.mjs server/organization.test.mjs server/overview-service.test.mjs server/production-readiness.test.mjs server/privacy.test.mjs server/encrypted-drafts.test.mjs server/mfa-security.test.mjs",
+    "serve:exam": "node server/start.mjs",
+    "preview": "vite preview",
+    "prepare:content": "node scripts/prepare-content.mjs",
+    "check:readiness": "node scripts/check-production-readiness.mjs",
+    "start:production": "node server/production-start.mjs",
+    "review:assessments": "node scripts/review-assessments.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
@@ -24,5 +32,8 @@
     "typescript": "~5.6.2",
     "vite": "^6.0.3",
     "vite-plugin-singlefile": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=24.14.0 <25"
   }
 }

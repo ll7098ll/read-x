@@ -1,0 +1,269 @@
+{
+  "scope": "12수행의 선언한 단계·자료 공급",
+  "expectedStageCounts": {
+    "plan-G1-language-03": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G1-literature-05": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G2-language-07": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G2-writing-11": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G3-information-08": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G3-oral-02": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G4-information-05": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G4-media-02": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G5-writing-09": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G5-literature-06": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G6-media-07": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    },
+    "plan-G6-oral-04": {
+      "S1": 2,
+      "S2": 2,
+      "S3": 2,
+      "S4": 2,
+      "S5": 2,
+      "S6": 2
+    }
+  },
+  "targetSets": 144,
+  "targetQuestions": 624,
+  "authoredSets": 144,
+  "authoredQuestions": 624,
+  "approvedSets": 0,
+  "remainingSets": 0,
+  "remainingQuestions": 0,
+  "skills": [
+    {
+      "skillId": "plan-G1-language-03",
+      "grade": 1,
+      "track": "language",
+      "name": "짧은 문장 정확히 읽기",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 12,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G1-literature-05",
+      "grade": 1,
+      "track": "literature",
+      "name": "인물의 마음 짐작",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G2-language-07",
+      "grade": 2,
+      "track": "language",
+      "name": "여러 뜻의 낱말",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G2-writing-11",
+      "grade": 2,
+      "track": "writing",
+      "name": "빠진 정보 보충",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G3-information-08",
+      "grade": 3,
+      "track": "information",
+      "name": "비교 기준 적용",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G3-oral-02",
+      "grade": 3,
+      "track": "oral",
+      "name": "모르는 내용을 질문",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 12,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G4-information-05",
+      "grade": 4,
+      "track": "information",
+      "name": "조건 보존 요약",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G4-media-02",
+      "grade": 4,
+      "track": "media",
+      "name": "그래프 범례와 단위",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G5-writing-09",
+      "grade": 5,
+      "track": "writing",
+      "name": "주장·근거·반론 구성",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G5-literature-06",
+      "grade": 5,
+      "track": "literature",
+      "name": "화자의 태도와 정서",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G6-media-07",
+      "grade": 6,
+      "track": "media",
+      "name": "상충 자료의 조정",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G6-oral-04",
+      "grade": 6,
+      "track": "oral",
+      "name": "반론을 듣고 설명 수정",
+      "targetSets": 12,
+      "authoredSets": 12,
+      "authoredQuestions": 52,
+      "approvedSets": 0,
+      "audioDraftAssets": 12,
+      "assetRequirement": "음성·발화 관찰 필요",
+      "status": "draft_under_review"
+    }
+  ],
+  "audioDraftSetsTechnicallyVerified": 36,
+  "listeningAudioDraftSets": 24,
+  "readingModelAudioDraftSets": 12
+}

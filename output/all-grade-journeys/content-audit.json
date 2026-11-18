@@ -1,0 +1,477 @@
+{
+  "grades": [
+    {
+      "grade": 1,
+      "diagnostic": {
+        "common": 6,
+        "branch": 6,
+        "explanations": 2,
+        "total": 14,
+        "oralAllowed": true
+      },
+      "courses": [
+        {
+          "course": "words",
+          "name": "뜻 익히기",
+          "trainingIds": [
+            "corpus-v2:P22-G1-S1-01",
+            "corpus-v2:P22-G1-S1-02",
+            "corpus-v2:passage:G1-EXP-V1-1:001"
+          ],
+          "checks": 8,
+          "hash": "ba9a598adf89113530c069124d5f75d2c8f821e2eeef2b36b049c39da925f018"
+        },
+        {
+          "course": "evidence",
+          "name": "단서 짚기",
+          "trainingIds": [
+            "corpus-v2:P22-G1-S2-02",
+            "corpus-v2:passage:G1-EXP-V1-2:001",
+            "corpus-v2:passage:G1-EXP-V1-4:001"
+          ],
+          "checks": 8,
+          "hash": "cf08a5fba156a6766902799458510bca1462946a90baa2e71a1014cbabca241c"
+        },
+        {
+          "course": "connect",
+          "name": "관계 엮기",
+          "trainingIds": [
+            "corpus-v2:P22-G1-S2-01",
+            "corpus-v2:passage:G1-EXP-V1-3:001",
+            "corpus-v2:passage:G1-EXP-V2-2:001"
+          ],
+          "checks": 8,
+          "hash": "37ac962d134dd732da0c64d6dcfb5f719ce5ca378e975c6ed27b577bc398c6ca"
+        },
+        {
+          "course": "interpret",
+          "name": "의미 풀기",
+          "trainingIds": [
+            "corpus-v2:passage:G1-EXP-V2-1:001",
+            "corpus-v2:passage:G1-EXP-V3-1:001",
+            "corpus-v2:passage:G1-EXP-V2-4:001"
+          ],
+          "checks": 8,
+          "hash": "13af3fbacc18f76c5351e8921bd2558be5e8fde3ad3780ebea2501d786bc0d21"
+        },
+        {
+          "course": "evaluate",
+          "name": "근거 따지기",
+          "trainingIds": [
+            "corpus-v2:passage:G1-EXP-W2:001",
+            "corpus-v2:passage:G1-EXP-V2-3:001",
+            "corpus-v2:passage:G1-EXP-W4:001"
+          ],
+          "checks": 8,
+          "hash": "c5ee1677f04aa12c4581fed6a94100411efd9d6d4e3b6641fabe6e3872727ad9"
+        },
+        {
+          "course": "integrate",
+          "name": "새롭게 엮기",
+          "trainingIds": [
+            "corpus-v2:passage:G1-EXP-V3-3:001",
+            "corpus-v2:passage:G1-EXP-W1:001",
+            "corpus-v2:passage:G1-EXP-W5:001"
+          ],
+          "checks": 8,
+          "hash": "07c507446a888a11a316c240ec53c2bda7327d90296cd3cd55ccc27740157385"
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "diagnostic": {
+        "common": 6,
+        "branch": 6,
+        "explanations": 2,
+        "total": 14,
+        "oralAllowed": true
+      },
+      "courses": [
+        {
+          "course": "words",
+          "name": "뜻 익히기",
+          "trainingIds": [
+            "corpus-v2:P22-G2-S1-02",
+            "corpus-v2:passage:G2-EXP-V1-2:001",
+            "corpus-v2:passage:G2-EXP-V1-4:001"
+          ],
+          "checks": 8,
+          "hash": "78749ac81835f3ba6f6eefe36996fdb4103fd08efd46e1d58b74d3081ac2851a"
+        },
+        {
+          "course": "evidence",
+          "name": "단서 짚기",
+          "trainingIds": [
+            "corpus-v2:P22-G2-S2-01",
+            "corpus-v2:passage:G2-EXP-V1-1:001",
+            "corpus-v2:passage:G2-EXP-V1-3:001"
+          ],
+          "checks": 8,
+          "hash": "bd636012636a26a506d20b23534d8456d826672ff2c74e6e057396232468ea0b"
+        },
+        {
+          "course": "connect",
+          "name": "관계 엮기",
+          "trainingIds": [
+            "corpus-v2:P22-G2-S1-01",
+            "corpus-v2:passage:G2-EXP-V2-2:001",
+            "corpus-v2:passage:G2-EXP-V2-3:001"
+          ],
+          "checks": 8,
+          "hash": "acd9f39db51bbda77ee1f8457417047ccae6d9bb93ac6df2074a9b4e50632801"
+        },
+        {
+          "course": "interpret",
+          "name": "의미 풀기",
+          "trainingIds": [
+            "corpus-v2:passage:G2-EXP-V2-1:001",
+            "corpus-v2:passage:G2-EXP-V3-2:001",
+            "corpus-v2:passage:G2-EXP-V3-3:001"
+          ],
+          "checks": 8,
+          "hash": "727bf9bb611959fa3b743464d29c5e1756daf4cb6300bd5c9bea3d1b2b1245b2"
+        },
+        {
+          "course": "evaluate",
+          "name": "근거 따지기",
+          "trainingIds": [
+            "corpus-v2:P22-G2-S2-02",
+            "corpus-v2:passage:G2-EXP-V2-4:001",
+            "corpus-v2:passage:G2-EXP-W4:001"
+          ],
+          "checks": 8,
+          "hash": "f5028192dbf695a6ebfd6354ac3bf5f183800b87103fde10b44a3f3a62ce15dc"
+        },
+        {
+          "course": "integrate",
+          "name": "새롭게 엮기",
+          "trainingIds": [
+            "corpus-v2:passage:G2-EXP-V3-1:001",
+            "corpus-v2:passage:G2-EXP-W1:001",
+            "corpus-v2:passage:G2-EXP-W5:001"
+          ],
+          "checks": 8,
+          "hash": "6068cd86646556c2d48c9d411dc48eb51ad8e274bb88389bcda569ebc2ceddb1"
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "diagnostic": {
+        "common": 12,
+        "branch": 8,
+        "explanations": 2,
+        "total": 22,
+        "oralAllowed": false
+      },
+      "courses": [
+        {
+          "course": "words",
+          "name": "뜻 익히기",
+          "trainingIds": [
+            "corpus-v2:P22-G3-S2-01",
+            "corpus-v2:P22-G3-S2-02",
+            "corpus-v2:passage:G3-EXP-V1-2:001"
+          ],
+          "checks": 8,
+          "hash": "300ce06f34a83605bff19076113fba8a3a6606ba5a3084c0b9174fd2ba93debc"
+        },
+        {
+          "course": "evidence",
+          "name": "단서 짚기",
+          "trainingIds": [
+            "corpus-v2:P22-G3-S1-02",
+            "corpus-v2:P22-B02-G3-M-02",
+            "corpus-v2:passage:G3-EXP-V2-4:001"
+          ],
+          "checks": 8,
+          "hash": "ce6b5207401efaad9c64acb068a00d716fc6cef68a8334961b303be57aa708ed"
+        },
+        {
+          "course": "connect",
+          "name": "관계 엮기",
+          "trainingIds": [
+            "corpus-v2:P22-G3-S1-01",
+            "corpus-v2:passage:G3-EXP-V2-1:001",
+            "corpus-v2:passage:G3-EXP-V3-1:001"
+          ],
+          "checks": 8,
+          "hash": "782b790259f0b073ebd2b5c64aff95c6888e7a47bd4542d6f0c46a12d0f9c836"
+        },
+        {
+          "course": "interpret",
+          "name": "의미 풀기",
+          "trainingIds": [
+            "corpus-v2:passage:G3-EXP-V2-2:001",
+            "corpus-v2:passage:G3-EXP-V3-3:001",
+            "corpus-v2:P22-B02-G3-S-01"
+          ],
+          "checks": 8,
+          "hash": "d1d2e852cee729ad4057a9a067ee63ca306d034a9fdfe6ad8665ee20d7c23d04"
+        },
+        {
+          "course": "evaluate",
+          "name": "근거 따지기",
+          "trainingIds": [
+            "corpus-v2:passage:G3-EXP-V2-3:001",
+            "corpus-v2:passage:G3-EXP-V3-2:001",
+            "corpus-v2:P22-B02-G3-S-02"
+          ],
+          "checks": 8,
+          "hash": "d69fd82a148963c4ff0e4e9f16b999efe1bd57cac103b9f3d467606362a740f4"
+        },
+        {
+          "course": "integrate",
+          "name": "새롭게 엮기",
+          "trainingIds": [
+            "corpus-v2:passage:G3-EXP-W1:001",
+            "corpus-v2:passage:G3-EXP-W2:001",
+            "corpus-v2:passage:G3-EXP-W5:001"
+          ],
+          "checks": 8,
+          "hash": "b8e9c1a15d8909c044b88b2dd58bab54125ade09fdc2106a74eb522f4f0a872c"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "diagnostic": {
+        "common": 12,
+        "branch": 8,
+        "explanations": 2,
+        "total": 22,
+        "oralAllowed": false
+      },
+      "courses": [
+        {
+          "course": "words",
+          "name": "뜻 익히기",
+          "trainingIds": [
+            "corpus-v2:passage:G4-EXP-V2-2:001",
+            "corpus-v2:passage:G4-EXP-V1-1:001",
+            "corpus-v2:passage:G4-EXP-V1-3:001"
+          ],
+          "checks": 8,
+          "hash": "a7a3bc575a7ae985d9e5a5cc55181fc531da084b46231a769c559073896d26b8"
+        },
+        {
+          "course": "evidence",
+          "name": "단서 짚기",
+          "trainingIds": [
+            "corpus-v2:P22-G4-S1-02",
+            "corpus-v2:P22-B02-G4-M-01",
+            "corpus-v2:passage:G4-EXP-V1-4:001"
+          ],
+          "checks": 8,
+          "hash": "5cfcad0dd9dfc10700af9b5c180e6fe818cde7a34f4ddf055105914584bc50a4"
+        },
+        {
+          "course": "connect",
+          "name": "관계 엮기",
+          "trainingIds": [
+            "corpus-v2:P22-G4-S1-01",
+            "corpus-v2:P22-B02-G4-C-01",
+            "corpus-v2:P22-B02-G4-C-02"
+          ],
+          "checks": 8,
+          "hash": "577830f1680f242a886aa324eb39eaaeecbbebbfe4eb6a5934c0289ace09f939"
+        },
+        {
+          "course": "interpret",
+          "name": "의미 풀기",
+          "trainingIds": [
+            "corpus-v2:P22-G4-S2-02",
+            "corpus-v2:passage:G4-EXP-V2-1:001",
+            "corpus-v2:passage:G4-EXP-V2-4:001"
+          ],
+          "checks": 8,
+          "hash": "af038461e2e722c4319090790d43e26de7099c5d4c8a29b0f2bf6ef9ef0e2eba"
+        },
+        {
+          "course": "evaluate",
+          "name": "근거 따지기",
+          "trainingIds": [
+            "corpus-v2:P22-G4-S2-01",
+            "corpus-v2:P22-B02-G4-S-02",
+            "corpus-v2:passage:G4-EXP-V3-2:001"
+          ],
+          "checks": 8,
+          "hash": "a62afc330e33c3dc9743f2e2e2c320408e75c66f24c34e855cecee17c1bdd9d2"
+        },
+        {
+          "course": "integrate",
+          "name": "새롭게 엮기",
+          "trainingIds": [
+            "corpus-v2:passage:G4-EXP-W1:001",
+            "corpus-v2:passage:G4-EXP-W2:001",
+            "corpus-v2:passage:G4-EXP-W5:001"
+          ],
+          "checks": 8,
+          "hash": "acb6705f55642d31c8acb6fb136b465713e8a627dbedf39b6e5157774a12e3c6"
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "diagnostic": {
+        "common": 12,
+        "branch": 8,
+        "explanations": 2,
+        "total": 22,
+        "oralAllowed": false
+      },
+      "courses": [
+        {
+          "course": "words",
+          "name": "뜻 익히기",
+          "trainingIds": [
+            "corpus-v2:P22-G5-S1-01",
+            "corpus-v2:passage:G5-EXP-V1-1:001",
+            "corpus-v2:passage:G5-EXP-V1-3:001"
+          ],
+          "checks": 8,
+          "hash": "b3c56dfcff3a1005a477536bed09d81c5f479308b6414da28d8bc4a2ce5456a4"
+        },
+        {
+          "course": "evidence",
+          "name": "단서 짚기",
+          "trainingIds": [
+            "corpus-v2:P22-G5-S1-02",
+            "corpus-v2:P22-B02-G5-M-01",
+            "corpus-v2:passage:G5-EXP-V2-1:001"
+          ],
+          "checks": 8,
+          "hash": "01a37e137a932a3d19addb047372e5b71f1d23ea1146908ec179a2401ea9c14e"
+        },
+        {
+          "course": "connect",
+          "name": "관계 엮기",
+          "trainingIds": [
+            "corpus-v2:passage:G5-EXP-V1-2:001",
+            "corpus-v2:P22-B02-G5-C-02",
+            "corpus-v2:passage:G5-EXP-V2-4:001"
+          ],
+          "checks": 8,
+          "hash": "0c901e0de363d1a7e77348d7e7c828261991825ab2790b8cb8e6f551a44e5cae"
+        },
+        {
+          "course": "interpret",
+          "name": "의미 풀기",
+          "trainingIds": [
+            "corpus-v2:passage:G5-EXP-V2-2:001",
+            "corpus-v2:passage:G5-EXP-V2-3:001",
+            "corpus-v2:passage:G5-EXP-V3-2:001"
+          ],
+          "checks": 8,
+          "hash": "06a353e04b5533759de7b5dc5f38887936b14a41458ace92538912c3ea687795"
+        },
+        {
+          "course": "evaluate",
+          "name": "근거 따지기",
+          "trainingIds": [
+            "corpus-v2:P22-G5-S2-01",
+            "corpus-v2:P22-G5-S2-02",
+            "corpus-v2:P22-B02-G5-S-02"
+          ],
+          "checks": 8,
+          "hash": "76020112b563da4a8ddbe727b048ed086c76d6f26cf480c793aa54712255db14"
+        },
+        {
+          "course": "integrate",
+          "name": "새롭게 엮기",
+          "trainingIds": [
+            "corpus-v2:passage:G5-EXP-W1:001",
+            "corpus-v2:passage:G5-EXP-W2:001",
+            "corpus-v2:passage:G5-EXP-W5:001"
+          ],
+          "checks": 8,
+          "hash": "736936926b998c06b4c1487c1aca721d2f86feaf4484548918a769c730343293"
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "diagnostic": {
+        "common": 12,
+        "branch": 8,
+        "explanations": 2,
+        "total": 22,
+        "oralAllowed": false
+      },
+      "courses": [
+        {
+          "course": "words",
+          "name": "뜻 익히기",
+          "trainingIds": [
+            "corpus-v2:passage:G6-EXP-V1-1:001",
+            "corpus-v2:passage:G6-EXP-V1-4:001",
+            "corpus-v2:passage:G6-EXP-V2-1:001"
+          ],
+          "checks": 8,
+          "hash": "1fc222c384ef738c81da77fd0f03d14ecf6df77aff65bcf7fd19125e99ceef12"
+        },
+        {
+          "course": "evidence",
+          "name": "단서 짚기",
+          "trainingIds": [
+            "corpus-v2:P22-G6-S1-01",
+            "corpus-v2:P22-B02-G6-M-01",
+            "corpus-v2:passage:G6-EXP-V3-3:001"
+          ],
+          "checks": 8,
+          "hash": "98ebda8c22dead6347c0fc9340b93d44e7365d38b544a5b91e869f20b7161c24"
+        },
+        {
+          "course": "connect",
+          "name": "관계 엮기",
+          "trainingIds": [
+            "corpus-v2:passage:G6-EXP-V1-2:001",
+            "corpus-v2:P22-B02-G6-S-01",
+            "corpus-v2:P22-B02-G6-C-01"
+          ],
+          "checks": 8,
+          "hash": "3eabc7f233d824f394b7bd319433d3e02860a5644a5c8f97dc028b3bb3db306c"
+        },
+        {
+          "course": "interpret",
+          "name": "의미 풀기",
+          "trainingIds": [
+            "corpus-v2:passage:G6-EXP-V1-3:001",
+            "corpus-v2:passage:G6-EXP-V2-2:001",
+            "corpus-v2:P22-B02-G6-C-02"
+          ],
+          "checks": 8,
+          "hash": "8753d36867b5547409460ffda20804b43047d3c8300f58b9f55ed35902c3d86e"
+        },
+        {
+          "course": "evaluate",
+          "name": "근거 따지기",
+          "trainingIds": [
+            "corpus-v2:P22-G6-S1-02",
+            "corpus-v2:passage:G6-EXP-V3-2:001",
+            "corpus-v2:P22-B02-G6-S-02"
+          ],
+          "checks": 8,
+          "hash": "957750013987dda4d50668432df6cf2a4043c349c2fb7ba3c5614b5aa13b8fb8"
+        },
+        {
+          "course": "integrate",
+          "name": "새롭게 엮기",
+          "trainingIds": [
+            "corpus-v2:P22-G6-S2-01",
+            "corpus-v2:passage:G6-EXP-W1:001",
+            "corpus-v2:passage:G6-EXP-W2:001"
+          ],
+          "checks": 8,
+          "hash": "6f324b5d95574777a1ed1197422c981ca031d0ae41565fa75c11faab8effc411"
+        }
+      ]
+    }
+  ],
+  "courseCount": 36,
+  "trainingLinks": 108,
+  "checkVariants": 288,
+  "independentSourceFamilies": 48,
+  "passed": true
+}

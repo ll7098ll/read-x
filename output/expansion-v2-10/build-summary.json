@@ -1,0 +1,57 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "a9ad999ca066ec1407b07e090409508610f0c5427aefaf08e33bb23ed2f95378",
+  "sets": 18,
+  "questions": 78,
+  "newSkills": 6,
+  "newSkillStageCells": 18,
+  "narrativeWorks": 15,
+  "poems": 3,
+  "poetryLines": 24,
+  "primaryAnalyticCriteria": 42,
+  "literaryConsistencyChecks": 68,
+  "primaryOnlyHandoutFiles": 6,
+  "primaryOnlyHandoutTasks": 18,
+  "byGrade": {
+    "1": {
+      "sets": 3,
+      "questions": 13,
+      "minWorkChars": 164,
+      "maxWorkChars": 237
+    },
+    "2": {
+      "sets": 3,
+      "questions": 13,
+      "minWorkChars": 89,
+      "maxWorkChars": 115
+    },
+    "3": {
+      "sets": 3,
+      "questions": 13,
+      "minWorkChars": 540,
+      "maxWorkChars": 581
+    },
+    "4": {
+      "sets": 3,
+      "questions": 13,
+      "minWorkChars": 497,
+      "maxWorkChars": 537
+    },
+    "5": {
+      "sets": 3,
+      "questions": 13,
+      "minWorkChars": 688,
+      "maxWorkChars": 726
+    },
+    "6": {
+      "sets": 3,
+      "questions": 13,
+      "minWorkChars": 737,
+      "maxWorkChars": 771
+    }
+  },
+  "passed": true,
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "browserRuntime": "not_tested"
+}

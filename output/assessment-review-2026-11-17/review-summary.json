@@ -1,0 +1,89 @@
+{
+  "reviewVersion": "assessment-editorial-2026-11-17-v1",
+  "method": "AI 문항별 편집 검토·본문 대조 + 자동 무결성 검사",
+  "humanTeacherApproval": false,
+  "empiricalDifficultyCalibrated": false,
+  "reviewed": 460,
+  "diagnostic": 172,
+  "checks": 288,
+  "contentRevised": 28,
+  "evidenceRevised": 15,
+  "positionRebalanced": 125,
+  "explanationsAdded": 460,
+  "byGrade": [
+    {
+      "grade": 1,
+      "items": 70,
+      "diagnostic": 22,
+      "checks": 48,
+      "difficulty": {
+        "입문": 45,
+        "기본": 25,
+        "도전": 0
+      },
+      "longestPassageChars": 50
+    },
+    {
+      "grade": 2,
+      "items": 70,
+      "diagnostic": 22,
+      "checks": 48,
+      "difficulty": {
+        "입문": 44,
+        "기본": 26,
+        "도전": 0
+      },
+      "longestPassageChars": 64
+    },
+    {
+      "grade": 3,
+      "items": 80,
+      "diagnostic": 32,
+      "checks": 48,
+      "difficulty": {
+        "입문": 39,
+        "기본": 41,
+        "도전": 0
+      },
+      "longestPassageChars": 150
+    },
+    {
+      "grade": 4,
+      "items": 80,
+      "diagnostic": 32,
+      "checks": 48,
+      "difficulty": {
+        "입문": 33,
+        "기본": 47,
+        "도전": 0
+      },
+      "longestPassageChars": 196
+    },
+    {
+      "grade": 5,
+      "items": 80,
+      "diagnostic": 32,
+      "checks": 48,
+      "difficulty": {
+        "입문": 28,
+        "기본": 52,
+        "도전": 0
+      },
+      "longestPassageChars": 132
+    },
+    {
+      "grade": 6,
+      "items": 80,
+      "diagnostic": 32,
+      "checks": 48,
+      "difficulty": {
+        "입문": 26,
+        "기본": 49,
+        "도전": 5
+      },
+      "longestPassageChars": 159
+    }
+  ],
+  "openIssues": [],
+  "passed": true
+}

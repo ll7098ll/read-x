@@ -1,0 +1,34 @@
+/* Read X v3 · semantic tokens. Source for the downloadable theme kit. */
+:root, .rx-app[data-brand="read-x-v3"] {
+  --readx-ink: #202d40;
+  --readx-action: #3157d5;
+  --readx-action-hover: #2445b5;
+  --readx-discovery: #ddf58a;
+  --readx-paper: #f7f8f2;
+  --readx-surface: #ffffff;
+  --readx-muted: #586579;
+  --readx-line: #d9dfe8;
+  --readx-control-line: #7d899b;
+  --readx-connection: #eeeafe;
+  --readx-evidence: #fff0b3;
+  --readx-success: #21664b;
+  --readx-success-soft: #e9f5ed;
+  --readx-help: #785410;
+  --readx-help-soft: #fff4d8;
+  --readx-error: #aa3548;
+  --readx-error-soft: #fff0f2;
+  --readx-focus: #3157d5;
+  --readx-font: 'ReadX Sans', 'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif;
+  --readx-radius-sm: 8px;
+  --readx-radius-md: 16px;
+  --readx-radius-lg: 24px;
+  --readx-space-1: 4px;
+  --readx-space-2: 8px;
+  --readx-space-3: 12px;
+  --readx-space-4: 16px;
+  --readx-space-6: 24px;
+  --readx-space-8: 32px;
+  --readx-space-12: 48px;
+  --readx-shadow: 0 12px 36px #202d4009;
+  --readx-duration: 160ms;
+}

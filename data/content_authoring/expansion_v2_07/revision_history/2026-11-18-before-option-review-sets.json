@@ -1,0 +1,4997 @@
+{
+  "schemaVersion": "readx-six-stage-pilot-1",
+  "asOf": "2026-11-18",
+  "batch": "expansion-v2-07",
+  "scope": "듣기·말하기 새6수행의 두 단계씩12자료. 음성 초안·실제 발화 관찰 과제와 실제 학생 수행 완료를 구별.",
+  "sets": [
+    {
+      "id": "PV2-G1-oral-02-S2-A",
+      "version": 1,
+      "microSkillId": "plan-G1-oral-02",
+      "skillName": "차례를 지켜 질문·응답",
+      "grade": 1,
+      "track": "oral",
+      "stage": "S2",
+      "stageLabel": "단서 짚기",
+      "variant": "A",
+      "title": "색연필을 쓰고 싶은 친구",
+      "purpose": "practice",
+      "familyId": "PV2-G1-oral-02-S2-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G1-oral-02-S2-A-p1",
+          "text": "소라: 색연필을 쓰고 싶어. 나는 파란색이 필요해.",
+          "sentences": [
+            {
+              "id": "PV2-G1-oral-02-S2-A-p1-s1",
+              "text": "소라: 색연필을 쓰고 싶어."
+            },
+            {
+              "id": "PV2-G1-oral-02-S2-A-p1-s2",
+              "text": "나는 파란색이 필요해."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G1-oral-02-S2-A-p2",
+          "text": "민준: 나는 노란색을 다 쓰면 상자에 넣을게.",
+          "sentences": [
+            {
+              "id": "PV2-G1-oral-02-S2-A-p2-s1",
+              "text": "민준: 나는 노란색을 다 쓰면 상자에 넣을게."
+            }
+          ]
+        }
+      ],
+      "charCount": 54,
+      "contentHash": "fac1f1765b6a5957498e394bd5750cf9fb9d4694a72dc26ee4e71a4a3825ccec",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "생활어·짧은 문장·직접 관찰 가능한 대상. 두 특징이나 행동을 연결하고 한두 문장으로 표현.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "상대 말을 듣고 차례대로 묻기",
+        "evidenceDistance": "한 문장 또는 인접 문장",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "이미 들은 색을 확인하는 대화다. 새로운 정보를 찾아야만 좋은 질문이라고 하지 않는다. 실제 질문·기다림·답 확인을 관찰하며 한 자루는 첫 질문 뒤 상대 답에서 새로 제공한다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G1-oral-02-S2-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "소라에게 필요한 색을 확인하는 질문을 직접 하세요. 대답을 기다린 뒤 알게 된 것을 다시 말해 보세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-oral-02-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S2-A-p1",
+              "sentenceId": "PV2-G1-oral-02-S2-A-p1-s2",
+              "quote": "나는 파란색이 필요해.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S2-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "예:소라야, 파란색이 필요하니? 답을 들은 뒤 파란색 한 자루면 되는구나라고 확인한다.",
+          "rubric": [
+            {
+              "criterion": "상대와 질문",
+              "levels": {
+                "0": "소라에게 노란색이 필요하다고 정한다.",
+                "1": "색을 말하지만 누구에게 묻는지 흐리다.",
+                "2": "소라에게 파란색이 필요한지 묻는다."
+              }
+            },
+            {
+              "criterion": "말차례",
+              "levels": {
+                "0": "상대에게 답할 기회를 주지 않는다.",
+                "1": "잠깐 기다리지만 상대가 말하는 중 자기 말을 이어 간다.",
+                "2": "질문 뒤 상대가 말할 기회를 주고 답을 듣는다."
+              }
+            },
+            {
+              "criterion": "들은 답 확인",
+              "levels": {
+                "0": "상대 답과 다른 색·수량을 확정한다.",
+                "1": "색 또는 수량 하나만 확인한다.",
+                "2": "상대 답의 파란색·한 자루를 말이나 가리키기로 확인한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G1-oral-02-S2-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G1-oral-02-S2-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-oral-02-S2-A-Q2",
+          "kind": "single_choice",
+          "prompt": "처음 들은 말에서 소라가 필요한 색은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-oral-02-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S2-A-p1",
+              "sentenceId": "PV2-G1-oral-02-S2-A-p1-s1",
+              "quote": "색연필을 쓰고 싶어.",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S2-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "파란색",
+              "reason": "소라가 파란색이 필요하다고 말했다."
+            },
+            {
+              "text": "노란색",
+              "reason": "민준이 쓰고 있는 색이다."
+            },
+            {
+              "text": "두 색 모두",
+              "reason": "소라가 두 색 모두 필요하다고 말하지 않았다."
+            }
+          ],
+          "correctIndex": 0,
+          "version": 1,
+          "explanation": "소라가 파란색이 필요하다고 말했다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-oral-02-S2-A-Q3",
+          "kind": "matching",
+          "prompt": "소라 / 민준의 말을 필요한 색이나 쓰는 색과 이으세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-oral-02-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S2-A-p1",
+              "sentenceId": "PV2-G1-oral-02-S2-A-p1-s2",
+              "quote": "나는 파란색이 필요해.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S2-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G1-oral-02-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S2-A-p2",
+              "sentenceId": "PV2-G1-oral-02-S2-A-p2-s1",
+              "quote": "나는 노란색을 다 쓰면",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S2-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "소라:파란색 필요 / 민준:노란색 사용",
+          "rubric": [
+            {
+              "criterion": "소라 / 민준의 말을 필요한 색이나 쓰는 색과 이으세요.",
+              "levels": {
+                "0": "두 친구의 색을 바꿈",
+                "1": "한 친구의 색만 맞게 이음",
+                "2": "소라:파란색 필요 / 민준:노란색 사용"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-oral-02-S2-A-Q4",
+          "kind": "explanation",
+          "prompt": "상대가 대답하는 동안 기다리면 무엇을 알 수 있나요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-oral-02-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S2-A-p1",
+              "sentenceId": "PV2-G1-oral-02-S2-A-p1-s2",
+              "quote": "나는 파란색이 필요해.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S2-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "그 친구가 실제로 필요한 것을 듣고 내 생각과 같은지 확인할 수 있다.",
+          "rubric": [
+            {
+              "criterion": "상대가 대답하는 동안 기다리면 무엇을 알 수 있나요?",
+              "levels": {
+                "0": "기다리지 않아도 친구의 모든 생각을 알 수 있다고 함",
+                "1": "기다려야 한다고만 함",
+                "2": "그 친구가 실제로 필요한 것을 듣고 내 생각과 같은지 확인할 수 있다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G1-oral-02-S2-A-C1",
+            "code": "2국01-03",
+            "subject": "국어",
+            "statement": "상대의 말을 집중하여 듣고 말차례를 지키며 대화한다.",
+            "gradeBand": [
+              1,
+              2
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 493,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "상대 말 뒤 자신의 차례에 질문하고 상대 답을 들어 확인하는 대화 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G1-oral-02-S2-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "상대 말 뒤 자신의 차례에 질문하고 상대 답을 들어 확인하는 대화 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G1-oral-02-S2-A-C1",
+              "code": "2국01-03",
+              "subject": "국어",
+              "statement": "상대의 말을 집중하여 듣고 말차례를 지키며 대화한다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 493,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "상대 말 뒤 자신의 차례에 질문하고 상대 답을 들어 확인하는 대화 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G1-oral-02-S2-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "cdc5701897355339e1851b15feff457fe8afafe9cdca85974d593234d3340eba"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G1-oral-02-S2-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "소라",
+            "text": "색연필을 쓰고 싶어. 나는 파란색이 필요해.",
+            "paragraphId": "PV2-G1-oral-02-S2-A-p1"
+          },
+          {
+            "role": "민준",
+            "text": "나는 노란색을 다 쓰면 상자에 넣을게.",
+            "paragraphId": "PV2-G1-oral-02-S2-A-p2"
+          }
+        ],
+        "script": "소라입니다. 색연필을 쓰고 싶어. 나는 파란색이 필요해.\n\n민준입니다. 나는 노란색을 다 쓰면 상자에 넣을게.",
+        "studentInstruction": "여러분은 색연필 상자를 돌보는 친구예요. 두 친구의 말을 끝까지 듣고 소라에게 필요한 색을 확인하는 질문을 하세요. 상대가 대답할 차례를 기다렸다가 다시 확인하세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "7e59121882b755fd7c7fed0efbd1385a4faebe807752d61830f4d4db4d234693",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_question",
+        "kind": "clarification_reply",
+        "reply": "응, 파란색 한 자루면 돼.",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "438cc9a20f486fa31b41b82d184a91d63db9ed7749ca681ea515ce2b576bf2f6",
+      "presentationOrder": [
+        "PV2-G1-oral-02-S2-A-Q1",
+        "PV2-G1-oral-02-S2-A-Q2",
+        "PV2-G1-oral-02-S2-A-Q3",
+        "PV2-G1-oral-02-S2-A-Q4"
+      ],
+      "learnerStageLabel": "상대 말을 듣고 차례대로 묻기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G1-oral-02-S2-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G1-oral-02-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G1-oral-02",
+      "skillName": "차례를 지켜 질문·응답",
+      "grade": 1,
+      "track": "oral",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "책을 넣고 남은 끈은",
+      "purpose": "practice",
+      "familyId": "PV2-G1-oral-02-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G1-oral-02-S3-A-p1",
+          "text": "지안: 작은 책을 먼저 넣고 큰 책은 그다음에 넣자.",
+          "sentences": [
+            {
+              "id": "PV2-G1-oral-02-S3-A-p1-s1",
+              "text": "지안: 작은 책을 먼저 넣고 큰 책은 그다음에 넣자."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G1-oral-02-S3-A-p2",
+          "text": "우주: 책을 다 넣은 뒤 끈을 정리하자. 끈은 아직 책상 위에 있어.",
+          "sentences": [
+            {
+              "id": "PV2-G1-oral-02-S3-A-p2-s1",
+              "text": "우주: 책을 다 넣은 뒤 끈을 정리하자."
+            },
+            {
+              "id": "PV2-G1-oral-02-S3-A-p2-s2",
+              "text": "끈은 아직 책상 위에 있어."
+            }
+          ]
+        }
+      ],
+      "charCount": 68,
+      "contentHash": "bbe7fe06b2e8f27ef81ced84a9f6a6c3ee32a129aff93ca7d928124d25b4a3b5",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "생활어·짧은 문장·직접 관찰 가능한 대상. 두 특징이나 행동을 연결하고 한두 문장으로 표현.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "두 말의 순서를 잇고 확인하기",
+        "evidenceDistance": "문단 사이",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "행동 차례는 들었지만 끈의 보관 장소는 아직 없다. 장소를 알았다고 먼저 말하지 않고 질문 뒤 상대 답에서 확인한다. 말차례를 기다리는 모습과 메모만 작성한 경우를 구별한다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G1-oral-02-S3-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "정리할 차례를 짧게 말하고 끈을 둘 곳을 직접 물어보세요. 답을 들은 뒤 다시 확인하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S3-A-p1",
+              "sentenceId": "PV2-G1-oral-02-S3-A-p1-s1",
+              "quote": "작은 책을 먼저 넣고",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G1-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S3-A-p2",
+              "sentenceId": "PV2-G1-oral-02-S3-A-p2-s1",
+              "quote": "책을 다 넣은 뒤 끈을 정리하자.",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "예:작은 책, 큰 책을 넣고 끈을 정리하는 거지? 끈은 어디에 둘까? 답을 들은 뒤 책을 넣은 다음 끈을 옆 주머니에 넣겠다고 확인한다.",
+          "rubric": [
+            {
+              "criterion": "두 말 연결",
+              "levels": {
+                "0": "끈을 먼저 넣는다고 한다.",
+                "1": "책 다음 끈만 말하고 두 책의 순서를 놓친다.",
+                "2": "작은 책→큰 책→끈 정리의 흐름을 보존한다."
+              }
+            },
+            {
+              "criterion": "필요한 질문·차례",
+              "levels": {
+                "0": "끈의 위치를 정해 놓고 상대 답을 듣지 않는다.",
+                "1": "장소 질문이 모호하거나 답을 기다리는 데 도움이 필요하다.",
+                "2": "끈을 둘 곳을 묻고 상대가 답할 기회를 준다."
+              }
+            },
+            {
+              "criterion": "후속 확인",
+              "levels": {
+                "0": "책상 위에 그대로 두겠다고 상대 답과 다르게 말한다.",
+                "1": "옆 주머니만 되풀이하고 무엇을 넣는지 흐리다.",
+                "2": "옆 주머니라는 새 답과 정리 차례를 이어 확인한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G1-oral-02-S3-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G1-oral-02-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-oral-02-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "처음 들은 안내만으로 아직 모르는 것은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S3-A-p2",
+              "sentenceId": "PV2-G1-oral-02-S3-A-p2-s2",
+              "quote": "끈은 아직 책상 위에 있어.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "두 책을 넣는 차례",
+              "reason": "작은 책 다음 큰 책이라고 들었다."
+            },
+            {
+              "text": "끈이 지금 놓인 곳",
+              "reason": "책상 위라고 들었다."
+            },
+            {
+              "text": "끈을 정리해 둘 곳",
+              "reason": "끈이 지금 책상 위에 있다는 말은 앞으로 보관할 곳의 안내가 아니다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "끈이 지금 책상 위에 있다는 말은 앞으로 보관할 곳의 안내가 아니다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-oral-02-S3-A-Q3",
+          "kind": "ordering",
+          "prompt": "작은 책 / 큰 책 / 끈 정리의 차례를 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S3-A-p1",
+              "sentenceId": "PV2-G1-oral-02-S3-A-p1-s1",
+              "quote": "작은 책을 먼저 넣고 큰 책은 그다음에",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G1-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S3-A-p2",
+              "sentenceId": "PV2-G1-oral-02-S3-A-p2-s1",
+              "quote": "책을 다 넣은 뒤",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "작은 책 넣기 → 큰 책 넣기 → 끈 정리",
+          "rubric": [
+            {
+              "criterion": "작은 책 / 큰 책 / 끈 정리의 차례를 쓰세요.",
+              "levels": {
+                "0": "큰 책을 마지막에 넣는다고 함",
+                "1": "가운데 한 행동을 빠뜨림",
+                "2": "작은 책 넣기 → 큰 책 넣기 → 끈 정리"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G1-oral-02-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "지금 있는 곳과 정리해 둘 곳을 왜 구별해야 하나요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G1-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G1-oral-02-S3-A-p2",
+              "sentenceId": "PV2-G1-oral-02-S3-A-p2-s2",
+              "quote": "끈은 아직 책상 위에 있어.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G1-oral-02-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "책상 위는 현재 위치이고 정리한 뒤 둘 곳은 다른 곳일 수 있어 물어 확인해야 하기 때문이다.",
+          "rubric": [
+            {
+              "criterion": "지금 있는 곳과 정리해 둘 곳을 왜 구별해야 하나요?",
+              "levels": {
+                "0": "현재 위치가 언제나 보관 장소라고 함",
+                "1": "다를 수 있다고만 함",
+                "2": "책상 위는 현재 위치이고 정리한 뒤 둘 곳은 다른 곳일 수 있어 물어 확인해야 하기 때문이다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G1-oral-02-S3-A-C1",
+            "code": "2국01-03",
+            "subject": "국어",
+            "statement": "상대의 말을 집중하여 듣고 말차례를 지키며 대화한다.",
+            "gradeBand": [
+              1,
+              2
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 493,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "상대 말 뒤 자신의 차례에 질문하고 상대 답을 들어 확인하는 대화 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G1-oral-02-S3-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "상대 말 뒤 자신의 차례에 질문하고 상대 답을 들어 확인하는 대화 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G1-oral-02-S3-A-C1",
+              "code": "2국01-03",
+              "subject": "국어",
+              "statement": "상대의 말을 집중하여 듣고 말차례를 지키며 대화한다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 493,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "상대 말 뒤 자신의 차례에 질문하고 상대 답을 들어 확인하는 대화 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G1-oral-02-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "68500dca06ff7dd558e69a8482926d4fbf74db05923ae6a6e3c3e362e988f18c"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G1-oral-02-S3-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "지안",
+            "text": "작은 책을 먼저 넣고 큰 책은 그다음에 넣자.",
+            "paragraphId": "PV2-G1-oral-02-S3-A-p1"
+          },
+          {
+            "role": "우주",
+            "text": "책을 다 넣은 뒤 끈을 정리하자. 끈은 아직 책상 위에 있어.",
+            "paragraphId": "PV2-G1-oral-02-S3-A-p2"
+          }
+        ],
+        "script": "지안입니다. 작은 책을 먼저 넣고 큰 책은 그다음에 넣자.\n\n우주입니다. 책을 다 넣은 뒤 끈을 정리하자. 끈은 아직 책상 위에 있어.",
+        "studentInstruction": "여러분도 책 정리를 돕고 있어요. 두 친구가 말한 차례를 듣고, 마지막에 끈을 어디에 둘지 직접 물어보세요. 답을 들은 다음 차례와 놓을 곳을 확인하세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "f042d33c3a173961f2fa74b8b5c2231bf08a9de2a5f4d798107c0467a1577b4a",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_question",
+        "kind": "clarification_reply",
+        "reply": "끈은 가방 옆 주머니에 넣어 줘.",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "523724aea4b4682e6322d138a0e05eb7a5d097ec7d7b03d6f320a6177f5aca91",
+      "presentationOrder": [
+        "PV2-G1-oral-02-S3-A-Q1",
+        "PV2-G1-oral-02-S3-A-Q2",
+        "PV2-G1-oral-02-S3-A-Q3",
+        "PV2-G1-oral-02-S3-A-Q4"
+      ],
+      "learnerStageLabel": "두 말의 순서를 잇고 확인하기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G1-oral-02-S3-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G2-oral-01-S2-A",
+      "version": 1,
+      "microSkillId": "plan-G2-oral-01",
+      "skillName": "듣고 대상과 행동 확인",
+      "grade": 2,
+      "track": "oral",
+      "stage": "S2",
+      "stageLabel": "단서 짚기",
+      "variant": "A",
+      "title": "누가 덮개를 닫을까",
+      "purpose": "practice",
+      "familyId": "PV2-G2-oral-01-S2-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G2-oral-01-S2-A-p1",
+          "text": "놀이 담당자: 다연이가 통의 덮개를 열어요. 은우는 물통을 안에 넣어 주세요.",
+          "sentences": [
+            {
+              "id": "PV2-G2-oral-01-S2-A-p1-s1",
+              "text": "놀이 담당자: 다연이가 통의 덮개를 열어요."
+            },
+            {
+              "id": "PV2-G2-oral-01-S2-A-p1-s2",
+              "text": "은우는 물통을 안에 넣어 주세요."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G2-oral-01-S2-A-p2",
+          "text": "다연: 은우가 물통을 넣은 뒤 내가 덮개를 닫을게.",
+          "sentences": [
+            {
+              "id": "PV2-G2-oral-01-S2-A-p2-s1",
+              "text": "다연: 은우가 물통을 넣은 뒤 내가 덮개를 닫을게."
+            }
+          ]
+        }
+      ],
+      "charCount": 72,
+      "contentHash": "8c430a04c56274cb3d08449744d255180e0c70328170eb1578ff2693e7422082",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "짧은 문단·생활 규칙·두 조건. 가까운 정보의 관계와 단순 예외를 설명.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "누가 무엇을 하는지 듣기",
+        "evidenceDistance": "한 문장 또는 인접 문장",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "덮개 열기·닫기와 물통 넣기의 사람을 구별한다. 덮개를 여는 일과 닫는 일은 다연, 물통 넣기는 은우다. 메모 정답과 실제 말하기 관찰을 구별한다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G2-oral-01-S2-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "두 사람이 할 일을 차례대로 직접 알려 주세요. 짝의 물음도 듣고 사람과 행동을 확인하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S2-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S2-A-p1-s1",
+              "quote": "다연이가 통의 덮개를 열어요.",
+              "start": 8,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S2-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G2-oral-01-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S2-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S2-A-p1-s2",
+              "quote": "은우는 물통을 안에 넣어 주세요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S2-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G2-oral-01-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S2-A-p2",
+              "sentenceId": "PV2-G2-oral-01-S2-A-p2-s1",
+              "quote": "내가 덮개를 닫을게.",
+              "start": 17,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S2-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "다연이가 덮개를 열고 은우가 물통을 넣은 다음 다연이가 닫는다. 짝이 은우가 닫는지 물으면 닫는 사람은 다연이라고 확인한다.",
+          "rubric": [
+            {
+              "criterion": "대상·행동",
+              "levels": {
+                "0": "은우가 열고 다연이 넣는다고 바꾼다.",
+                "1": "한 행동의 주체만 맞히거나 닫는 사람을 빠뜨린다.",
+                "2": "다연의 열기·닫기와 은우의 넣기를 구별한다."
+              }
+            },
+            {
+              "criterion": "행동 순서",
+              "levels": {
+                "0": "물통을 넣기 전에 닫는다고 한다.",
+                "1": "행동은 맞지만 차례가 흐리다.",
+                "2": "열기→넣기→닫기의 순서를 보존해 말한다."
+              }
+            },
+            {
+              "criterion": "질문 뒤 확인",
+              "levels": {
+                "0": "짝의 말에 맞추어 닫는 사람을 은우로 바꾼다.",
+                "1": "다연이라고만 말하고 질문과 연결하지 못한다.",
+                "2": "짝의 잘못된 확인을 듣고 닫는 사람이 다연임을 근거로 다시 말한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G2-oral-01-S2-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G2-oral-01-S2-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-oral-01-S2-A-Q2",
+          "kind": "single_choice",
+          "prompt": "은우가 맡은 일은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S2-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S2-A-p1-s2",
+              "quote": "은우는 물통을 안에 넣어 주세요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S2-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "마지막에 덮개를 닫기",
+              "reason": "다연이가 하겠다고 말했다."
+            },
+            {
+              "text": "통의 덮개를 열기",
+              "reason": "다연이의 일이다."
+            },
+            {
+              "text": "물통을 통 안에 넣기",
+              "reason": "담당자가 은우에게 물통을 넣으라고 말했다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "담당자가 은우에게 물통을 넣으라고 말했다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-oral-01-S2-A-Q3",
+          "kind": "ordering",
+          "prompt": "덮개 닫기 / 물통 넣기 / 덮개 열기를 들은 순서에 맞게 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S2-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S2-A-p1-s1",
+              "quote": "다연이가 통의 덮개를",
+              "start": 8,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S2-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G2-oral-01-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S2-A-p2",
+              "sentenceId": "PV2-G2-oral-01-S2-A-p2-s1",
+              "quote": "은우가 물통을 넣은 뒤",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S2-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "다연 덮개 열기 → 은우 물통 넣기 → 다연 덮개 닫기",
+          "rubric": [
+            {
+              "criterion": "덮개 닫기 / 물통 넣기 / 덮개 열기를 들은 순서에 맞게 쓰세요.",
+              "levels": {
+                "0": "닫은 다음 물통을 넣는다고 함",
+                "1": "순서는 맞지만 사람 하나를 빠뜨림",
+                "2": "다연 덮개 열기 → 은우 물통 넣기 → 다연 덮개 닫기"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-oral-01-S2-A-Q4",
+          "kind": "evidence_selection",
+          "prompt": "덮개를 닫는 사람을 알아내는 다연의 말을 뜻이 같게 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S2-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S2-A-p2",
+              "sentenceId": "PV2-G2-oral-01-S2-A-p2-s1",
+              "quote": "은우가 물통을 넣은 뒤 내가 덮개를 닫을게.",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S2-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "은우가 넣은 뒤 다연이가 덮개를 닫겠다고 말했다.",
+          "rubric": [
+            {
+              "criterion": "덮개를 닫는 사람을 알아내는 다연의 말을 뜻이 같게 쓰세요.",
+              "levels": {
+                "0": "담당자가 직접 닫는다고 함",
+                "1": "닫겠다고만 하고 누구인지 빠뜨림",
+                "2": "은우가 넣은 뒤 다연이가 덮개를 닫겠다고 말했다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G2-oral-01-S2-A-C1",
+            "code": "2국01-01",
+            "subject": "국어",
+            "statement": "중요한 내용이나 일이 일어난 순서를 고려하며 듣고 말한다.",
+            "gradeBand": [
+              1,
+              2
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 491,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "대상·행동과 순서를 고려하여 듣고 다시 말하는 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G2-oral-01-S2-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "대상·행동과 순서를 고려하여 듣고 다시 말하는 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G2-oral-01-S2-A-C1",
+              "code": "2국01-01",
+              "subject": "국어",
+              "statement": "중요한 내용이나 일이 일어난 순서를 고려하며 듣고 말한다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 491,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "대상·행동과 순서를 고려하여 듣고 다시 말하는 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G2-oral-01-S2-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "606dcdf603b8bcec16691ce9608e49d76e16d0dd32020c817038fe6d4ebb4379"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G2-oral-01-S2-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "놀이 담당자",
+            "text": "다연이가 통의 덮개를 열어요. 은우는 물통을 안에 넣어 주세요.",
+            "paragraphId": "PV2-G2-oral-01-S2-A-p1"
+          },
+          {
+            "role": "다연",
+            "text": "은우가 물통을 넣은 뒤 내가 덮개를 닫을게.",
+            "paragraphId": "PV2-G2-oral-01-S2-A-p2"
+          }
+        ],
+        "script": "놀이 담당자입니다. 다연이가 통의 덮개를 열어요. 은우는 물통을 안에 넣어 주세요.\n\n다연입니다. 은우가 물통을 넣은 뒤 내가 덮개를 닫을게.",
+        "studentInstruction": "통을 정리하는 안내를 들으세요. 누가 무엇을 하는지 순서대로 짝에게 알려 주세요. 짝이 다시 물으면 들은 내용으로 확인해 주세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "adca67954fba0ff731edc64cff76806fe00c7d4656d7aed3330dcca77be8960d",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_explanation",
+        "kind": "followup_prompt",
+        "reply": "그러면 덮개를 닫는 사람도 은우라는 뜻이야?",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "17b4eb13fb96678a1bbc424ce0db34b38c1370c7858ae087b8c330b0ea8889a7",
+      "presentationOrder": [
+        "PV2-G2-oral-01-S2-A-Q1",
+        "PV2-G2-oral-01-S2-A-Q2",
+        "PV2-G2-oral-01-S2-A-Q3",
+        "PV2-G2-oral-01-S2-A-Q4"
+      ],
+      "learnerStageLabel": "누가 무엇을 하는지 듣기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G2-oral-01-S2-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G2-oral-01-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G2-oral-01",
+      "skillName": "듣고 대상과 행동 확인",
+      "grade": 2,
+      "track": "oral",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "친구가 다르게 전한 안내",
+      "purpose": "practice",
+      "familyId": "PV2-G2-oral-01-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G2-oral-01-S5-A-p1",
+          "text": "만들기 담당자: 지우는 남은 천을 초록 바구니에 넣고 라온은 종이심을 빨간 상자에 넣어 주세요. 두 가지 모두 다음 놀이에 다시 쓸 거예요.",
+          "sentences": [
+            {
+              "id": "PV2-G2-oral-01-S5-A-p1-s1",
+              "text": "만들기 담당자: 지우는 남은 천을 초록 바구니에 넣고 라온은 종이심을 빨간 상자에 넣어 주세요."
+            },
+            {
+              "id": "PV2-G2-oral-01-S5-A-p1-s2",
+              "text": "두 가지 모두 다음 놀이에 다시 쓸 거예요."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G2-oral-01-S5-A-p2",
+          "text": "친구: 그러면 라온은 종이심을 버리고 지우는 천을 빨간 상자에 넣는 거지?",
+          "sentences": [
+            {
+              "id": "PV2-G2-oral-01-S5-A-p2-s1",
+              "text": "친구: 그러면 라온은 종이심을 버리고 지우는 천을 빨간 상자에 넣는 거지?"
+            }
+          ]
+        }
+      ],
+      "charCount": 120,
+      "contentHash": "5aa76916b200b174d315b5916cf79d2cfaa917ba9d2032abc327cfcd30975a43",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "짧은 문단·생활 규칙·두 조건. 가까운 정보의 관계와 단순 예외를 설명.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "잘못 전한 말을 듣고 바로잡기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "말한 사람이 다르다는 이유만으로 판단하지 않고 안내의 실제 대상·행동·장소를 대조한다. 다시 쓰는 두 재료를 구별하고 친구의 확인에 들은 말로 답하게 한다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G2-oral-01-S5-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "친구가 다르게 전한 두 내용을 직접 고쳐 알려 주세요. 뒤의 물음에도 들은 안내를 근거로 답하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S5-A-p1-s1",
+              "quote": "지우는 남은 천을 초록 바구니에",
+              "start": 9,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G2-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S5-A-p1-s1",
+              "quote": "라온은 종이심을 빨간 상자에",
+              "start": 30,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G2-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S5-A-p1-s2",
+              "quote": "두 가지 모두 다음 놀이에 다시 쓸 거예요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "지우는 천을 초록 바구니에, 라온은 종이심을 빨간 상자에 넣는다. 둘 다 다시 쓰므로 종이심을 버리지 않고 모아 둔다고 확인한다.",
+          "rubric": [
+            {
+              "criterion": "장소 바로잡기",
+              "levels": {
+                "0": "지우의 천을 빨간 상자에 넣는다고 유지한다.",
+                "1": "초록만 말하고 대상이 흐리다.",
+                "2": "지우의 천은 초록 바구니라고 고친다."
+              }
+            },
+            {
+              "criterion": "행동·이유",
+              "levels": {
+                "0": "라온이 버려야 한다고 한다.",
+                "1": "버리지 않는다고만 하고 모을 곳·이유가 빠진다.",
+                "2": "라온의 종이심은 버리지 않고 빨간 상자에 두며 다시 쓰는 이유를 말한다."
+              }
+            },
+            {
+              "criterion": "상대 확인에 답하기",
+              "levels": {
+                "0": "상대 답을 듣지 않고 처음 말만 반복한다.",
+                "1": "맞다고만 대답하고 무엇을 확인한 것인지 흐리다.",
+                "2": "종이심도 다시 쓴다는 말을 들어 짝의 확인에 답한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G2-oral-01-S5-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G2-oral-01-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-oral-01-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "담당자의 안내에 맞는 연결은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S5-A-p1-s1",
+              "quote": "지우는 남은 천을 초록 바구니에",
+              "start": 9,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "라온의 종이심은 버린다.",
+              "reason": "종이심도 다시 쓸 재료이다."
+            },
+            {
+              "text": "지우의 천은 빨간 상자에 넣는다.",
+              "reason": "친구가 잘못 전한 장소이다."
+            },
+            {
+              "text": "지우의 천은 초록 바구니에 넣는다.",
+              "reason": "지우·천·초록 바구니를 함께 연결해야 한다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "지우·천·초록 바구니를 함께 연결해야 한다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-oral-01-S5-A-Q3",
+          "kind": "matching",
+          "prompt": "천 / 종이심을 사람과 보관할 곳에 각각 이으세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S5-A-p1-s1",
+              "quote": "지우는 남은 천을",
+              "start": 9,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G2-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S5-A-p1-s1",
+              "quote": "라온은 종이심을 빨간 상자에",
+              "start": 30,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "천:지우·초록 바구니 / 종이심:라온·빨간 상자",
+          "rubric": [
+            {
+              "criterion": "천 / 종이심을 사람과 보관할 곳에 각각 이으세요.",
+              "levels": {
+                "0": "재료와 장소를 바꿈",
+                "1": "하나의 재료만 맞게 이음",
+                "2": "천:지우·초록 바구니 / 종이심:라온·빨간 상자"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-oral-01-S5-A-Q4",
+          "kind": "explanation",
+          "prompt": "라온이 종이심을 버리지 않아야 한다고 말할 근거는 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S5-A-p1-s2",
+              "quote": "두 가지 모두 다음 놀이에 다시 쓸 거예요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "담당자가 두 가지 모두 다음 놀이에 다시 쓰겠다고 말했다.",
+          "rubric": [
+            {
+              "criterion": "라온이 종이심을 버리지 않아야 한다고 말할 근거는 무엇인가요?",
+              "levels": {
+                "0": "친구가 버린다고 말했으므로 버려야 한다고 함",
+                "1": "다시 쓴다고만 하고 어떤 재료인지 흐림",
+                "2": "담당자가 두 가지 모두 다음 놀이에 다시 쓰겠다고 말했다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G2-oral-01-S5-A-Q5",
+          "kind": "revision",
+          "prompt": "지우는 천을 빨간 상자에 넣는 거지라는 말을 들은 안내에 맞게 고치세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G2-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G2-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G2-oral-01-S5-A-p1-s1",
+              "quote": "지우는 남은 천을 초록 바구니에 넣고",
+              "start": 9,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G2-oral-01-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "지우는 남은 천을 초록 바구니에 넣는다.",
+          "rubric": [
+            {
+              "criterion": "지우는 천을 빨간 상자에 넣는 거지라는 말을 들은 안내에 맞게 고치세요.",
+              "levels": {
+                "0": "지우가 종이심을 버린다고 바꿈",
+                "1": "색만 바꾸고 재료·사람이 빠짐",
+                "2": "지우는 남은 천을 초록 바구니에 넣는다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G2-oral-01-S5-A-C1",
+            "code": "2국01-01",
+            "subject": "국어",
+            "statement": "중요한 내용이나 일이 일어난 순서를 고려하며 듣고 말한다.",
+            "gradeBand": [
+              1,
+              2
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 491,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "대상·행동과 순서를 고려하여 듣고 다시 말하는 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G2-oral-01-S5-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "대상·행동과 순서를 고려하여 듣고 다시 말하는 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G2-oral-01-S5-A-C1",
+              "code": "2국01-01",
+              "subject": "국어",
+              "statement": "중요한 내용이나 일이 일어난 순서를 고려하며 듣고 말한다.",
+              "gradeBand": [
+                1,
+                2
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 491,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "대상·행동과 순서를 고려하여 듣고 다시 말하는 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G2-oral-01-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "4a17d4f7173b93bc696e2bdb1db59ae0ad156ead13ca1baaf7904e86b6f1a00f"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G2-oral-01-S5-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "만들기 담당자",
+            "text": "지우는 남은 천을 초록 바구니에 넣고 라온은 종이심을 빨간 상자에 넣어 주세요. 두 가지 모두 다음 놀이에 다시 쓸 거예요.",
+            "paragraphId": "PV2-G2-oral-01-S5-A-p1"
+          },
+          {
+            "role": "친구",
+            "text": "그러면 라온은 종이심을 버리고 지우는 천을 빨간 상자에 넣는 거지?",
+            "paragraphId": "PV2-G2-oral-01-S5-A-p2"
+          }
+        ],
+        "script": "만들기 담당자입니다. 지우는 남은 천을 초록 바구니에 넣고 라온은 종이심을 빨간 상자에 넣어 주세요. 두 가지 모두 다음 놀이에 다시 쓸 거예요.\n\n친구입니다. 그러면 라온은 종이심을 버리고 지우는 천을 빨간 상자에 넣는 거지?",
+        "studentInstruction": "담당자의 안내와 친구가 전한 말을 구별해 들으세요. 친구에게 달라진 내용을 바로잡아 말하세요. 친구가 다시 확인하면 왜 그렇게 말했는지도 알려 주세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "2fa9cb371564bb602816bdd6b36fe713038ca70f23e1135facf16235dd8f57c2",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_explanation",
+        "kind": "followup_prompt",
+        "reply": "그럼 종이심도 버리지 않고 모아 두는 거야?",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "2f52dcacb9129ecd1b16aa5ef8db9301be052ef8b3e0af057a3b64ea95075634",
+      "presentationOrder": [
+        "PV2-G2-oral-01-S5-A-Q1",
+        "PV2-G2-oral-01-S5-A-Q2",
+        "PV2-G2-oral-01-S5-A-Q3",
+        "PV2-G2-oral-01-S5-A-Q4",
+        "PV2-G2-oral-01-S5-A-Q5"
+      ],
+      "learnerStageLabel": "잘못 전한 말을 듣고 바로잡기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G2-oral-01-S5-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G3-oral-04-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G3-oral-04",
+      "skillName": "다른 의견을 듣고 조정",
+      "grade": 3,
+      "track": "oral",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "그림자놀이 자리를 정할 때",
+      "purpose": "practice",
+      "familyId": "PV2-G3-oral-04-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G3-oral-04-S3-A-p1",
+          "text": "민정: 지난번에는 창가가 밝아서 그림자가 잘 보이지 않았어. 오늘은 안쪽 방에서 하면 좋겠어.",
+          "sentences": [
+            {
+              "id": "PV2-G3-oral-04-S3-A-p1-s1",
+              "text": "민정: 지난번에는 창가가 밝아서 그림자가 잘 보이지 않았어."
+            },
+            {
+              "id": "PV2-G3-oral-04-S3-A-p1-s2",
+              "text": "오늘은 안쪽 방에서 하면 좋겠어."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-oral-04-S3-A-p2",
+          "text": "하준: 안쪽 방에는 상자가 많아 정리할 시간이 필요해. 오늘은 준비 시간이 짧다는 것도 생각하자.",
+          "sentences": [
+            {
+              "id": "PV2-G3-oral-04-S3-A-p2-s1",
+              "text": "하준: 안쪽 방에는 상자가 많아 정리할 시간이 필요해."
+            },
+            {
+              "id": "PV2-G3-oral-04-S3-A-p2-s2",
+              "text": "오늘은 준비 시간이 짧다는 것도 생각하자."
+            }
+          ]
+        }
+      ],
+      "charCount": 107,
+      "contentHash": "df51027fbacf3b70d1c8f8835a12ad4bde1d05d09216d63433b915544587d06a",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "문단 중심 생각·기초 교과어·간단한 표. 중심과 세부, 문단 사이 관계를 짧은 글로 설명.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "서로의 이유를 잇고 제안하기",
+        "evidenceDistance": "문단 사이",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "잘 보이는 자리와 준비 시간의 두 조건을 함께 고려한다. 첫 제안이 무엇이었는지에 따라 수정이나 유지 모두 가능하다. 새 정보와 연결한 이유를 보고 동의를 강제하지 않는다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G3-oral-04-S3-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "두 친구의 이유를 함께 생각해 자리를 제안하세요. 상대의 새 정보를 들은 뒤 다시 제안하고 이유를 말하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S3-A-p1",
+              "sentenceId": "PV2-G3-oral-04-S3-A-p1-s1",
+              "quote": "창가가 밝아서 그림자가 잘 보이지 않았어.",
+              "start": 10,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G3-oral-04-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S3-A-p2",
+              "sentenceId": "PV2-G3-oral-04-S3-A-p2-s2",
+              "quote": "오늘은 준비 시간이 짧다는 것도",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "처음에는 잘 보이는 자리와 준비 시간을 함께 고려해 제안한다. 새 정보를 들으면 예를 들어 창가에 가림막을 펴고 잘 보이는지 확인해 보자고 할 수 있다. 이미 그렇게 제안했다면 새 정보가 왜 그 제안을 뒷받침하는지 말한다.",
+          "rubric": [
+            {
+              "criterion": "두 이유 이해",
+              "levels": {
+                "0": "하준이 그림자놀이 자체를 싫어한다고 단정한다.",
+                "1": "한 친구의 이유만 말한다.",
+                "2": "민정의 잘 보임과 하준의 준비 시간 이유를 각각 반영한다."
+              }
+            },
+            {
+              "criterion": "이유 있는 제안",
+              "levels": {
+                "0": "두 조건과 관계없는 취향만으로 정한다.",
+                "1": "장소만 고르고 이유가 없다.",
+                "2": "자리와 준비 조건을 잇는 제안을 하고 이유를 설명한다."
+              }
+            },
+            {
+              "criterion": "새 정보에 응답",
+              "levels": {
+                "0": "새 정보를 듣지 않은 것처럼 불가능한 상자 이동만 확정한다.",
+                "1": "새 정보를 되풀이하지만 제안과 연결하지 못한다.",
+                "2": "가림막 가능·상자 이동 불가를 반영해 수정하거나 유지 이유를 말한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G3-oral-04-S3-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G3-oral-04-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-oral-04-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "두 친구가 각각 중요하게 생각한 것을 바르게 이은 것은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S3-A-p1",
+              "sentenceId": "PV2-G3-oral-04-S3-A-p1-s2",
+              "quote": "오늘은 안쪽 방에서 하면 좋겠어.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G3-oral-04-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S3-A-p2",
+              "sentenceId": "PV2-G3-oral-04-S3-A-p2-s1",
+              "quote": "정리할 시간이 필요해.",
+              "start": 18,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "민정:그림자가 잘 보이는 자리 / 하준:준비 시간",
+              "reason": "각자 장소를 말한 이유를 구별해야 한다."
+            },
+            {
+              "text": "민정:상자가 많아서 안쪽 방 선택 / 하준:창가에서만 하기",
+              "reason": "안쪽 방의 제안 이유를 바꾸고 하준이 정하지 않은 장소를 확정했다."
+            },
+            {
+              "text": "민정:상자 정리 시간 / 하준:창가의 밝기",
+              "reason": "두 친구의 이유를 바꾸었다."
+            },
+            {
+              "text": "민정:밝은 창가를 그대로 쓰기 / 하준:정리 시간은 빼고 보기",
+              "reason": "민정은 밝아서 잘 안 보였다고 했고 하준은 정리 시간을 고려하자고 했다."
+            }
+          ],
+          "correctIndex": 0,
+          "version": 1,
+          "explanation": "각자 장소를 말한 이유를 구별해야 한다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-oral-04-S3-A-Q3",
+          "kind": "matching",
+          "prompt": "안쪽 방 / 오늘 준비 시간을 각 친구의 말과 연결하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S3-A-p2",
+              "sentenceId": "PV2-G3-oral-04-S3-A-p2-s1",
+              "quote": "안쪽 방에는 상자가 많아",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S3-A-A1",
+              "turnIndex": 1
+            },
+            {
+              "materialId": "PV2-G3-oral-04-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S3-A-p2",
+              "sentenceId": "PV2-G3-oral-04-S3-A-p2-s2",
+              "quote": "오늘은 준비 시간이 짧다는",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "안쪽 방:민정의 제안이며 상자 정리 시간 필요 / 오늘:하준이 준비 시간이 짧다고 설명",
+          "rubric": [
+            {
+              "criterion": "안쪽 방 / 오늘 준비 시간을 각 친구의 말과 연결하세요.",
+              "levels": {
+                "0": "안쪽 방은 이미 비어 있다고 함",
+                "1": "한 조건만 연결함",
+                "2": "안쪽 방:민정의 제안이며 상자 정리 시간 필요 / 오늘:하준이 준비 시간이 짧다고 설명"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-oral-04-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "다른 친구의 말을 듣고도 첫 제안을 유지할 수 있나요? 어떤 이유가 있어야 하나요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S3-A-p2",
+              "sentenceId": "PV2-G3-oral-04-S3-A-p2-s2",
+              "quote": "오늘은 준비 시간이 짧다는 것도 생각하자.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "새 정보가 첫 제안과 맞거나 제안을 더 뒷받침한다면 이유를 설명하며 유지할 수 있다. 무조건 바꾸는 것이 목표는 아니다.",
+          "rubric": [
+            {
+              "criterion": "다른 친구의 말을 듣고도 첫 제안을 유지할 수 있나요? 어떤 이유가 있어야 하나요?",
+              "levels": {
+                "0": "높은 점수를 받으려면 반드시 반대 제안으로 바꿔야 한다고 함",
+                "1": "유지해도 된다고만 하고 정보·이유와 연결하지 못함",
+                "2": "새 정보가 첫 제안과 맞거나 제안을 더 뒷받침한다면 이유를 설명하며 유지할 수 있다. 무조건 바꾸는 것이 목표는 아니다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G3-oral-04-S3-A-C1",
+            "code": "4국01-06",
+            "subject": "국어",
+            "statement": "주제에 적절한 의견과 이유를 제시하고 서로의 생각을 교환하며 토의한다.",
+            "gradeBand": [
+              3,
+              4
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 576,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "의견과 이유를 비교하고 다른 조건에 맞춰 제안을 조정하는 토의 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G3-oral-04-S3-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "의견과 이유를 비교하고 다른 조건에 맞춰 제안을 조정하는 토의 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G3-oral-04-S3-A-C1",
+              "code": "4국01-06",
+              "subject": "국어",
+              "statement": "주제에 적절한 의견과 이유를 제시하고 서로의 생각을 교환하며 토의한다.",
+              "gradeBand": [
+                3,
+                4
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 576,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "의견과 이유를 비교하고 다른 조건에 맞춰 제안을 조정하는 토의 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G3-oral-04-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "be2a96312fe9ba076e00e91231594747bc3e1b39c8c23e174abaa3f176a8fe82"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G3-oral-04-S3-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "민정",
+            "text": "지난번에는 창가가 밝아서 그림자가 잘 보이지 않았어. 오늘은 안쪽 방에서 하면 좋겠어.",
+            "paragraphId": "PV2-G3-oral-04-S3-A-p1"
+          },
+          {
+            "role": "하준",
+            "text": "안쪽 방에는 상자가 많아 정리할 시간이 필요해. 오늘은 준비 시간이 짧다는 것도 생각하자.",
+            "paragraphId": "PV2-G3-oral-04-S3-A-p2"
+          }
+        ],
+        "script": "민정입니다. 지난번에는 창가가 밝아서 그림자가 잘 보이지 않았어. 오늘은 안쪽 방에서 하면 좋겠어.\n\n하준입니다. 안쪽 방에는 상자가 많아 정리할 시간이 필요해. 오늘은 준비 시간이 짧다는 것도 생각하자.",
+        "studentInstruction": "두 친구가 중요하게 생각하는 이유를 이어 들으세요. 먼저 자리를 제안하고 이유를 말하세요. 짝의 새 정보를 들은 뒤 제안을 고치거나 유지할 이유를 말해 보세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "3e9ddc98cd2a693cf0607ae8adc931b4929c20221490247403073522caa094a4",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_explanation",
+        "kind": "followup_prompt",
+        "reply": "창가 앞에는 가림막을 펼칠 수 있대. 안쪽 방의 상자는 오늘 옮길 수 없대.",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "66e7cd73675fbe226e076a740c0bf507f53a6b3aa05bfe456054ba7cd3bed5d0",
+      "presentationOrder": [
+        "PV2-G3-oral-04-S3-A-Q1",
+        "PV2-G3-oral-04-S3-A-Q2",
+        "PV2-G3-oral-04-S3-A-Q3",
+        "PV2-G3-oral-04-S3-A-Q4"
+      ],
+      "learnerStageLabel": "서로의 이유를 잇고 제안하기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G3-oral-04-S3-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G3-oral-04-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G3-oral-04",
+      "skillName": "다른 의견을 듣고 조정",
+      "grade": 3,
+      "track": "oral",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "게시판에는 두 생각이 있어",
+      "purpose": "practice",
+      "familyId": "PV2-G3-oral-04-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G3-oral-04-S5-A-p1",
+          "text": "수빈: 활동 사진을 여러 장 붙여서 우리가 한 일을 많이 보여 주자. 사진을 게시판 전체에 펼쳐 놓고 싶어.",
+          "sentences": [
+            {
+              "id": "PV2-G3-oral-04-S5-A-p1-s1",
+              "text": "수빈: 활동 사진을 여러 장 붙여서 우리가 한 일을 많이 보여 주자."
+            },
+            {
+              "id": "PV2-G3-oral-04-S5-A-p1-s2",
+              "text": "사진을 게시판 전체에 펼쳐 놓고 싶어."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G3-oral-04-S5-A-p2",
+          "text": "도윤: 설명을 크게 써야 처음 보는 친구도 알 수 있어. 글씨가 작으면 무슨 활동인지 읽기 어려워.",
+          "sentences": [
+            {
+              "id": "PV2-G3-oral-04-S5-A-p2-s1",
+              "text": "도윤: 설명을 크게 써야 처음 보는 친구도 알 수 있어."
+            },
+            {
+              "id": "PV2-G3-oral-04-S5-A-p2-s2",
+              "text": "글씨가 작으면 무슨 활동인지 읽기 어려워."
+            }
+          ]
+        }
+      ],
+      "charCount": 116,
+      "contentHash": "1e589c8864c2a3f5b0e97e83b8efa58018145acf6f6c6743286680eaa1e1c278",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "문단 중심 생각·기초 교과어·간단한 표. 중심과 세부, 문단 사이 관계를 짧은 글로 설명.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "다른 조건을 듣고 조정하기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "수량과 공간을 확인하지 않고 사진 모두가 들어간다고 확정하지 않는다. 두 의견을 존중하되 모든 제안에 동의하거나 다른 모둠 작품을 옮기도록 강제하지 않는다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G3-oral-04-S5-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "사진과 설명을 함께 담을 방법을 제안하세요. 상대의 추가 조건을 듣고 제안을 조정하거나 더 물어보세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S5-A-p1",
+              "sentenceId": "PV2-G3-oral-04-S5-A-p1-s1",
+              "quote": "우리가 한 일을 많이 보여 주자.",
+              "start": 20,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G3-oral-04-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S5-A-p2",
+              "sentenceId": "PV2-G3-oral-04-S5-A-p2-s1",
+              "quote": "설명을 크게 써야 처음 보는 친구도",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "예:사진과 큰 설명을 함께 붙이자. 추가 조건을 들으면 가운데 작품은 두고 양쪽 빈 곳의 크기를 확인한 뒤 사진 수와 설명 배치를 정하자고 말한다. 공간에 맞는 다른 근거 있는 제안도 수용한다.",
+          "rubric": [
+            {
+              "criterion": "의견·이유 보존",
+              "levels": {
+                "0": "한 친구가 활동을 숨기려 한다고 없는 뜻을 붙인다.",
+                "1": "사진이나 설명 한쪽만 고려한다.",
+                "2": "사진으로 활동을 보여 주기와 읽을 수 있는 설명의 두 목적을 보존한다."
+              }
+            },
+            {
+              "criterion": "제안의 근거",
+              "levels": {
+                "0": "누가 더 말했는지만으로 모든 공간을 정한다.",
+                "1": "절반씩 하자고만 하고 목적을 잇지 못한다.",
+                "2": "두 목적을 함께 만족시키려는 방법과 이유를 말한다."
+              }
+            },
+            {
+              "criterion": "조건·미확인 반영",
+              "levels": {
+                "0": "상대 말과 다르게 가운데 작품부터 떼겠다고 한다.",
+                "1": "가운데 작품을 피하지만 크기를 확인하지 않고 모두 들어간다고 확정한다.",
+                "2": "가운데 작품은 보존하고 빈 공간 크기는 확인한 뒤 배치하겠다고 응답한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G3-oral-04-S5-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G3-oral-04-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-oral-04-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "추가 조건을 듣기 전 도윤이 설명을 크게 쓰자고 한 까닭은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S5-A-p2",
+              "sentenceId": "PV2-G3-oral-04-S5-A-p2-s2",
+              "quote": "글씨가 작으면 무슨 활동인지 읽기 어려워.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "처음 보는 친구도 활동 내용을 읽을 수 있게 하려고",
+              "reason": "글씨 크기를 읽는 사람의 이해와 연결한 이유이다."
+            },
+            {
+              "text": "설명 없이 사진만 먼저 붙이려고",
+              "reason": "도윤이 강조한 설명과 반대이다."
+            },
+            {
+              "text": "사진을 한 장도 남기지 않으려고",
+              "reason": "사진을 모두 없애자고 말하지 않았다."
+            },
+            {
+              "text": "다른 모둠의 작품을 가리려고",
+              "reason": "그런 목적은 대화에 없다."
+            }
+          ],
+          "correctIndex": 0,
+          "version": 1,
+          "explanation": "글씨 크기를 읽는 사람의 이해와 연결한 이유이다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-oral-04-S5-A-Q3",
+          "kind": "classification",
+          "prompt": "의견 / 이유로 나누세요:사진을 여러 장 붙이자, 활동을 많이 보여 주자, 설명을 크게 쓰자, 처음 보는 친구도 알 수 있게 하자.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S5-A-p1",
+              "sentenceId": "PV2-G3-oral-04-S5-A-p1-s1",
+              "quote": "활동 사진을 여러 장 붙여서",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G3-oral-04-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S5-A-p2",
+              "sentenceId": "PV2-G3-oral-04-S5-A-p2-s1",
+              "quote": "처음 보는 친구도 알 수 있어.",
+              "start": 14,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "의견:여러 사진·큰 설명 / 이유:활동을 많이 보여 주기·처음 보는 친구 이해",
+          "rubric": [
+            {
+              "criterion": "의견 / 이유로 나누세요:사진을 여러 장 붙이자, 활동을 많이 보여 주자, 설명을 크게 쓰자, 처음 보는 친구도 알 수 있게 하자.",
+              "levels": {
+                "0": "두 사람은 같은 말을 그대로 반복했다고 함",
+                "1": "한 쌍만 구별함",
+                "2": "의견:여러 사진·큰 설명 / 이유:활동을 많이 보여 주기·처음 보는 친구 이해"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-oral-04-S5-A-Q4",
+          "kind": "explanation",
+          "prompt": "친구 의견을 존중한다는 것은 그 친구가 원하는 방법을 그대로 다 해야 한다는 뜻인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S5-A-p1",
+              "sentenceId": "PV2-G3-oral-04-S5-A-p1-s2",
+              "quote": "사진을 게시판 전체에 펼쳐 놓고 싶어.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "이유를 듣고 함께 지킬 조건을 고려해 다른 방법을 제안할 수도 있다.",
+          "rubric": [
+            {
+              "criterion": "친구 의견을 존중한다는 것은 그 친구가 원하는 방법을 그대로 다 해야 한다는 뜻인가요?",
+              "levels": {
+                "0": "의견을 존중하려면 공간과 관계없이 사진을 모두 붙여야 한다고 함",
+                "1": "아니라고만 하고 이유·조건이 없음",
+                "2": "이유를 듣고 함께 지킬 조건을 고려해 다른 방법을 제안할 수도 있다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G3-oral-04-S5-A-Q5",
+          "kind": "question_generation",
+          "prompt": "사진을 몇 장 붙일지 정하기 전에 확인하면 좋을 것을 말이나 글로 남기세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G3-oral-04-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G3-oral-04-S5-A-p1",
+              "sentenceId": "PV2-G3-oral-04-S5-A-p1-s2",
+              "quote": "사진을 게시판 전체에 펼쳐 놓고 싶어.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G3-oral-04-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "허용된 빈 공간의 크기, 사진과 큰 설명을 붙였을 때 차지하는 크기를 확인한다. 다른 모둠 작품을 옮겨도 된다고 먼저 정하지 않는다.",
+          "rubric": [
+            {
+              "criterion": "사진을 몇 장 붙일지 정하기 전에 확인하면 좋을 것을 말이나 글로 남기세요.",
+              "levels": {
+                "0": "확인하지 않아도 어떤 수의 사진이든 들어간다고 함",
+                "1": "어디에 붙일지만 묻고 공간·글씨 크기 확인이 없음",
+                "2": "허용된 빈 공간의 크기, 사진과 큰 설명을 붙였을 때 차지하는 크기를 확인한다. 다른 모둠 작품을 옮겨도 된다고 먼저 정하지 않는다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G3-oral-04-S5-A-C1",
+            "code": "4국01-06",
+            "subject": "국어",
+            "statement": "주제에 적절한 의견과 이유를 제시하고 서로의 생각을 교환하며 토의한다.",
+            "gradeBand": [
+              3,
+              4
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 576,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "의견과 이유를 비교하고 다른 조건에 맞춰 제안을 조정하는 토의 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G3-oral-04-S5-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "의견과 이유를 비교하고 다른 조건에 맞춰 제안을 조정하는 토의 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G3-oral-04-S5-A-C1",
+              "code": "4국01-06",
+              "subject": "국어",
+              "statement": "주제에 적절한 의견과 이유를 제시하고 서로의 생각을 교환하며 토의한다.",
+              "gradeBand": [
+                3,
+                4
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 576,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "의견과 이유를 비교하고 다른 조건에 맞춰 제안을 조정하는 토의 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G3-oral-04-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "af9d02d0b399c9ff0b6163533dc3f5aac782aa89548bfae8948d483b158b8258"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G3-oral-04-S5-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "수빈",
+            "text": "활동 사진을 여러 장 붙여서 우리가 한 일을 많이 보여 주자. 사진을 게시판 전체에 펼쳐 놓고 싶어.",
+            "paragraphId": "PV2-G3-oral-04-S5-A-p1"
+          },
+          {
+            "role": "도윤",
+            "text": "설명을 크게 써야 처음 보는 친구도 알 수 있어. 글씨가 작으면 무슨 활동인지 읽기 어려워.",
+            "paragraphId": "PV2-G3-oral-04-S5-A-p2"
+          }
+        ],
+        "script": "수빈입니다. 활동 사진을 여러 장 붙여서 우리가 한 일을 많이 보여 주자. 사진을 게시판 전체에 펼쳐 놓고 싶어.\n\n도윤입니다. 설명을 크게 써야 처음 보는 친구도 알 수 있어. 글씨가 작으면 무슨 활동인지 읽기 어려워.",
+        "studentInstruction": "두 의견의 이유를 듣고 함께 담을 방법을 먼저 제안하세요. 짝이 알려 주는 추가 조건을 들은 뒤 가능한 방법과 더 확인할 것을 나누어 말하세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "1f095bbe5f083575f842acd7fa3185d8252a2d4bad0f7e83b73f58ab49dc388c",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_explanation",
+        "kind": "followup_prompt",
+        "reply": "게시판 가운데는 다른 모둠 작품이 있어서 건드릴 수 없어. 양쪽 빈 곳의 크기는 아직 재지 않았어.",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "3aa067c550fd1e507c7b25ff615cac3ef3359b9ae2a2908db51d93f4593ef56a",
+      "presentationOrder": [
+        "PV2-G3-oral-04-S5-A-Q1",
+        "PV2-G3-oral-04-S5-A-Q2",
+        "PV2-G3-oral-04-S5-A-Q3",
+        "PV2-G3-oral-04-S5-A-Q4",
+        "PV2-G3-oral-04-S5-A-Q5"
+      ],
+      "learnerStageLabel": "다른 조건을 듣고 조정하기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G3-oral-04-S5-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G4-oral-03-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G4-oral-03",
+      "skillName": "근거와 순서로 발표",
+      "grade": 4,
+      "track": "oral",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "처음 온 친구에게 엽서놀이 안내",
+      "purpose": "practice",
+      "familyId": "PV2-G4-oral-03-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G4-oral-03-S3-A-p1",
+          "text": "놀이 진행자: 엽서 앞면에 그림을 그리고 뒷면에 짧은 말을 써 주세요. 우표 모양을 붙이면 놀이 엽서를 다 썼다는 표시가 돼요.",
+          "sentences": [
+            {
+              "id": "PV2-G4-oral-03-S3-A-p1-s1",
+              "text": "놀이 진행자: 엽서 앞면에 그림을 그리고 뒷면에 짧은 말을 써 주세요."
+            },
+            {
+              "id": "PV2-G4-oral-03-S3-A-p1-s2",
+              "text": "우표 모양을 붙이면 놀이 엽서를 다 썼다는 표시가 돼요."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G4-oral-03-S3-A-p2",
+          "text": "확인 담당자: 우표 모양을 붙이기 전에 그림과 말을 모두 썼는지 확인해요. 완료 표시를 먼저 붙이면 내용을 확인했는지 알기 어려워요. 마지막에는 놀이 보관함에 넣어 주세요.",
+          "sentences": [
+            {
+              "id": "PV2-G4-oral-03-S3-A-p2-s1",
+              "text": "확인 담당자: 우표 모양을 붙이기 전에 그림과 말을 모두 썼는지 확인해요."
+            },
+            {
+              "id": "PV2-G4-oral-03-S3-A-p2-s2",
+              "text": "완료 표시를 먼저 붙이면 내용을 확인했는지 알기 어려워요."
+            },
+            {
+              "id": "PV2-G4-oral-03-S3-A-p2-s3",
+              "text": "마지막에는 놀이 보관함에 넣어 주세요."
+            }
+          ]
+        }
+      ],
+      "charCount": 168,
+      "contentHash": "1c252db9a5dd8bdb66bca32c6b9d4e5f775cccd711bfa4c36abfea03269b8ef0",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "여러 문단·생략 관계·조건과 예외. 자료 대응과 범위 차이를 근거로 설명하고 수정.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "핵심과 순서로 안내하기",
+        "evidenceDistance": "문단 사이",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "실제 우편 발송 규칙이 아닌 놀이의 로컬 규칙이다. 두 안내를 종합해 그림·말→확인→완료 표시→보관을 설명하며 원래 정보에 없는 우편요금·우체국 규칙을 추가하지 않는다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G4-oral-03-S3-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "처음 온 친구에게 엽서놀이 방법을 순서와 까닭이 드러나게 안내하세요. 상대의 물음도 듣고 답하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S3-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S3-A-p1-s1",
+              "quote": "엽서 앞면에 그림을 그리고",
+              "start": 8,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G4-oral-03-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S3-A-p2",
+              "sentenceId": "PV2-G4-oral-03-S3-A-p2-s1",
+              "quote": "우표 모양을 붙이기 전에",
+              "start": 8,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S3-A-A1",
+              "turnIndex": 1
+            },
+            {
+              "materialId": "PV2-G4-oral-03-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S3-A-p2",
+              "sentenceId": "PV2-G4-oral-03-S3-A-p2-s3",
+              "quote": "마지막에는 놀이 보관함에",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "앞면 그림과 뒷면 말을 쓴 다음 둘 다 있는지 확인한다. 그 뒤 완료 표시인 우표 모양을 붙이고 마지막에 놀이 보관함에 넣는다. 먼저 표시를 붙이면 확인했는지 알기 어려워 확인을 먼저 한다고 설명한다.",
+          "rubric": [
+            {
+              "criterion": "두 안내의 순서",
+              "levels": {
+                "0": "완료 표시를 먼저 붙이라고 한다.",
+                "1": "한 단계를 빠뜨리거나 확인의 위치가 흐리다.",
+                "2": "그림·말 작성→확인→우표 모양→보관을 순서대로 구성한다."
+              }
+            },
+            {
+              "criterion": "독자·이유",
+              "levels": {
+                "0": "실제 우편 규칙을 놀이의 근거라고 만들어 말한다.",
+                "1": "순서만 말하고 까닭은 설명하지 못한다.",
+                "2": "처음 온 친구가 알 수 있게 완료 표시의 뜻과 확인 이유를 설명한다."
+              }
+            },
+            {
+              "criterion": "물음에 맞는 응답",
+              "levels": {
+                "0": "상대의 물음과 관계없이 보관함 위치만 이야기한다.",
+                "1": "자기 안내를 통째로 반복하지만 물음의 까닭은 빠진다.",
+                "2": "상대가 물은 먼저 확인할 까닭을 들은 안내로 답한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G4-oral-03-S3-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G4-oral-03-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-oral-03-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "우표 모양을 붙이는 바로 앞에 할 일은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S3-A-p2",
+              "sentenceId": "PV2-G4-oral-03-S3-A-p2-s1",
+              "quote": "우표 모양을 붙이기 전에 그림과 말을",
+              "start": 8,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "우표 모양부터 붙이고 말을 쓰기",
+              "reason": "완료 표시가 내용을 쓰기보다 앞서게 된다."
+            },
+            {
+              "text": "그림과 말을 모두 썼는지 확인하기",
+              "reason": "둘째 안내가 완료 표시 전 확인을 명시했다."
+            },
+            {
+              "text": "실제 우체국에 요금을 내기",
+              "reason": "이 자료에 없는 실제 우편 절차이다."
+            },
+            {
+              "text": "놀이 보관함에 먼저 넣기",
+              "reason": "보관은 마지막 단계이다."
+            }
+          ],
+          "correctIndex": 1,
+          "version": 1,
+          "explanation": "둘째 안내가 완료 표시 전 확인을 명시했다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-oral-03-S3-A-Q3",
+          "kind": "ordering",
+          "prompt": "확인 / 보관 / 그림과 말 쓰기 / 완료 표시의 차례를 정리하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S3-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S3-A-p1-s1",
+              "quote": "그림을 그리고 뒷면에 짧은 말을",
+              "start": 15,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G4-oral-03-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S3-A-p2",
+              "sentenceId": "PV2-G4-oral-03-S3-A-p2-s3",
+              "quote": "마지막에는 놀이 보관함",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "그림과 말 쓰기 → 확인 → 완료 표시 → 보관",
+          "rubric": [
+            {
+              "criterion": "확인 / 보관 / 그림과 말 쓰기 / 완료 표시의 차례를 정리하세요.",
+              "levels": {
+                "0": "완료 표시를 확인보다 먼저 둠",
+                "1": "한 단계를 빠뜨림",
+                "2": "그림과 말 쓰기 → 확인 → 완료 표시 → 보관"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-oral-03-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "실제 우편 규칙을 아는 것만으로 이 놀이를 정확히 안내할 수 있나요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S3-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S3-A-p1-s2",
+              "quote": "다 썼다는 표시가 돼요.",
+              "start": 18,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S3-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "놀이가 정한 완료 표시와 확인 차례를 들어야 하므로 실제 우편 지식만으로 대신할 수 없다.",
+          "rubric": [
+            {
+              "criterion": "실제 우편 규칙을 아는 것만으로 이 놀이를 정확히 안내할 수 있나요?",
+              "levels": {
+                "0": "놀이 안내를 듣지 않아도 우체국 규칙과 모두 같다고 함",
+                "1": "놀이여서 다르다고만 함",
+                "2": "놀이가 정한 완료 표시와 확인 차례를 들어야 하므로 실제 우편 지식만으로 대신할 수 없다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G4-oral-03-S3-A-C1",
+            "code": "4국01-05",
+            "subject": "국어",
+            "statement": "목적과 주제에 알맞게 자료를 정리하여 자신감 있게 발표한다.",
+            "gradeBand": [
+              3,
+              4
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 575,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "목적과 주제에 맞게 들은 정보를 정리해 말하는 발표 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G4-oral-03-S3-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "목적과 주제에 맞게 들은 정보를 정리해 말하는 발표 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G4-oral-03-S3-A-C1",
+              "code": "4국01-05",
+              "subject": "국어",
+              "statement": "목적과 주제에 알맞게 자료를 정리하여 자신감 있게 발표한다.",
+              "gradeBand": [
+                3,
+                4
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 575,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "목적과 주제에 맞게 들은 정보를 정리해 말하는 발표 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G4-oral-03-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "b3f9ad5831b8aa168ee119ccf0f513660bb5d4b588efe8ab860d0d7a75879558"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G4-oral-03-S3-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "놀이 진행자",
+            "text": "엽서 앞면에 그림을 그리고 뒷면에 짧은 말을 써 주세요. 우표 모양을 붙이면 놀이 엽서를 다 썼다는 표시가 돼요.",
+            "paragraphId": "PV2-G4-oral-03-S3-A-p1"
+          },
+          {
+            "role": "확인 담당자",
+            "text": "우표 모양을 붙이기 전에 그림과 말을 모두 썼는지 확인해요. 완료 표시를 먼저 붙이면 내용을 확인했는지 알기 어려워요. 마지막에는 놀이 보관함에 넣어 주세요.",
+            "paragraphId": "PV2-G4-oral-03-S3-A-p2"
+          }
+        ],
+        "script": "놀이 진행자입니다. 엽서 앞면에 그림을 그리고 뒷면에 짧은 말을 써 주세요. 우표 모양을 붙이면 놀이 엽서를 다 썼다는 표시가 돼요.\n\n확인 담당자입니다. 우표 모양을 붙이기 전에 그림과 말을 모두 썼는지 확인해요. 완료 표시를 먼저 붙이면 내용을 확인했는지 알기 어려워요. 마지막에는 놀이 보관함에 넣어 주세요.",
+        "studentInstruction": "가상 엽서놀이의 안내예요. 처음 온 친구에게 할 일을 순서 있게 직접 설명하세요. 완료 표시 전에 확인할 까닭도 말하고, 상대의 물음에 답하세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "be6af69562188f1060ae6803548f4b97b2fd56e23502e21c395e6913dbe89982",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_explanation",
+        "kind": "followup_prompt",
+        "reply": "우표 모양부터 붙여도 되는 거 아니야? 왜 확인을 먼저 해?",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "71f6a502686e9a12e2cba37923a50d7568ade8e730937afa0998a84e2e6167de",
+      "presentationOrder": [
+        "PV2-G4-oral-03-S3-A-Q1",
+        "PV2-G4-oral-03-S3-A-Q2",
+        "PV2-G4-oral-03-S3-A-Q3",
+        "PV2-G4-oral-03-S3-A-Q4"
+      ],
+      "learnerStageLabel": "핵심과 순서로 안내하기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G4-oral-03-S3-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G4-oral-03-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G4-oral-03",
+      "skillName": "근거와 순서로 발표",
+      "grade": 4,
+      "track": "oral",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "메모 장수로 사람 수를 정할까",
+      "purpose": "practice",
+      "familyId": "PV2-G4-oral-03-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G4-oral-03-S5-A-p1",
+          "text": "작은 전시관 안내자: 관람 뒤 불편 메모를 모았어요. 한 장에는 한 가지 불편만 쓰게 했어요. 작은 글씨 이야기가 여섯 장, 높은 전시 위치 이야기가 세 장이었어요. 같은 사람이 여러 장을 낼 수도 있었어요.",
+          "sentences": [
+            {
+              "id": "PV2-G4-oral-03-S5-A-p1-s1",
+              "text": "작은 전시관 안내자: 관람 뒤 불편 메모를 모았어요."
+            },
+            {
+              "id": "PV2-G4-oral-03-S5-A-p1-s2",
+              "text": "한 장에는 한 가지 불편만 쓰게 했어요."
+            },
+            {
+              "id": "PV2-G4-oral-03-S5-A-p1-s3",
+              "text": "작은 글씨 이야기가 여섯 장, 높은 전시 위치 이야기가 세 장이었어요."
+            },
+            {
+              "id": "PV2-G4-oral-03-S5-A-p1-s4",
+              "text": "같은 사람이 여러 장을 낼 수도 있었어요."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G4-oral-03-S5-A-p2",
+          "text": "어린이 위원: 그럼 아홉 명 모두 글씨에만 불만이 있었던 거네요.",
+          "sentences": [
+            {
+              "id": "PV2-G4-oral-03-S5-A-p2-s1",
+              "text": "어린이 위원: 그럼 아홉 명 모두 글씨에만 불만이 있었던 거네요."
+            }
+          ]
+        }
+      ],
+      "charCount": 153,
+      "contentHash": "17ceff01d7184f97752fbd5e9b25e89705c65ab053c754df4051552d0a71d526",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "여러 문단·생략 관계·조건과 예외. 자료 대응과 범위 차이를 근거로 설명하고 수정.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "근거의 범위를 지켜 발표하기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "분류별 장수와 서로 다른 사람 수를 구별한다. 같은 사람이 여러 장 낼 수 있으므로 정확한 인원은 알 수 없다. 서로 다른 불편 두 종류를 하나로 합치지 않는다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G4-oral-03-S5-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "기록에 맞게 전시관에 전할 설명을 직접 발표하세요. 상대가 사람 수를 되물으면 알려진 것과 아직 모르는 것을 구별해 답하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S5-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S5-A-p1-s3",
+              "quote": "작은 글씨 이야기가 여섯 장",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G4-oral-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S5-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S5-A-p1-s3",
+              "quote": "높은 전시 위치 이야기가 세 장",
+              "start": 17,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G4-oral-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S5-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S5-A-p1-s4",
+              "quote": "같은 사람이 여러 장을 낼 수도",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "작은 글씨 불편 메모는 여섯 장, 높은 위치 불편 메모는 세 장이다. 같은 사람이 여러 장 낼 수 있어 낸 사람이 아홉 명인지는 모른다. 두 종류의 불편을 모두 살펴야 한다고 발표하고 상대의 물음에도 장수와 인원은 다르다고 설명한다.",
+          "rubric": [
+            {
+              "criterion": "자료 내용 보존",
+              "levels": {
+                "0": "아홉 장 모두 글씨에 관한 것이라고 한다.",
+                "1": "수나 범주 한쪽을 빠뜨린다.",
+                "2": "글씨6장·위치3장의 서로 다른 두 내용을 보존한다."
+              }
+            },
+            {
+              "criterion": "주장 범위",
+              "levels": {
+                "0": "메모 한 장은 반드시 다른 한 사람이라고 한다.",
+                "1": "아홉 명은 확실하지 않다고만 하고 이유가 없다.",
+                "2": "장수를 인원으로 확정하지 않고 사람 수는 미확인으로 밝힌다."
+              }
+            },
+            {
+              "criterion": "상대 물음에 근거",
+              "levels": {
+                "0": "상대가 그렇게 말하자 아홉 명으로 결론을 바꾼다.",
+                "1": "숫자만 반복하고 물음에 답하지 못한다.",
+                "2": "같은 사람이 여러 장 낼 수 있다는 안내를 들어 재설명한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G4-oral-03-S5-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G4-oral-03-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-oral-03-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "기록으로 확인할 수 없는 것은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S5-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S5-A-p1-s4",
+              "quote": "같은 사람이 여러 장을 낼 수도 있었어요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "작은 글씨에 관한 메모의 장수",
+              "reason": "여섯 장이라고 들었다."
+            },
+            {
+              "text": "한 장에 한 가지 불편을 적도록 한 규칙",
+              "reason": "안내자가 명시했다."
+            },
+            {
+              "text": "불편 메모를 낸 서로 다른 사람의 수",
+              "reason": "같은 사람이 여러 장을 낼 수 있었지만 사람별 기록은 제공하지 않았다."
+            },
+            {
+              "text": "높은 위치에 관한 메모의 장수",
+              "reason": "세 장이라고 들었다."
+            }
+          ],
+          "correctIndex": 2,
+          "version": 1,
+          "explanation": "같은 사람이 여러 장을 낼 수 있었지만 사람별 기록은 제공하지 않았다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-oral-03-S5-A-Q3",
+          "kind": "classification",
+          "prompt": "확인됨 / 미확인으로 나누세요:글씨 메모6장, 위치 메모3장, 서로 다른 제출자9명.",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S5-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S5-A-p1-s3",
+              "quote": "작은 글씨 이야기가 여섯 장",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G4-oral-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S5-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S5-A-p1-s4",
+              "quote": "같은 사람이 여러 장",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "확인됨:글씨6장·위치3장 / 미확인:제출자9명",
+          "rubric": [
+            {
+              "criterion": "확인됨 / 미확인으로 나누세요:글씨 메모6장, 위치 메모3장, 서로 다른 제출자9명.",
+              "levels": {
+                "0": "제출자9명을 확인된 사실로 분류함",
+                "1": "한 정보를 잘못 분류함",
+                "2": "확인됨:글씨6장·위치3장 / 미확인:제출자9명"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-oral-03-S5-A-Q4",
+          "kind": "revision",
+          "prompt": "아홉 명 모두 글씨에만 불만이라는 말을 고치세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S5-A-p2",
+              "sentenceId": "PV2-G4-oral-03-S5-A-p2-s1",
+              "quote": "아홉 명 모두 글씨에만 불만",
+              "start": 11,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "글씨 불편 메모6장과 위치 불편 메모3장이며 제출자 수는 아직 모른다.",
+          "rubric": [
+            {
+              "criterion": "아홉 명 모두 글씨에만 불만이라는 말을 고치세요.",
+              "levels": {
+                "0": "참여자 전원이 전시관을 싫어한다고 확대함",
+                "1": "명만 장으로 바꾸고 글씨에만이라는 범위를 그대로 둠",
+                "2": "글씨 불편 메모6장과 위치 불편 메모3장이며 제출자 수는 아직 모른다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G4-oral-03-S5-A-Q5",
+          "kind": "question_generation",
+          "prompt": "서로 다른 사람이 몇 명인지 알아보려면 어떤 기록이 더 필요한가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G4-oral-03-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G4-oral-03-S5-A-p1",
+              "sentenceId": "PV2-G4-oral-03-S5-A-p1-s2",
+              "quote": "한 장에는 한 가지 불편만 쓰게 했어요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G4-oral-03-S5-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "한 사람이 낸 여러 메모를 구별할 수 있는 제출자별 연결 기록이 필요하다. 실제 개인 정보를 불필요하게 공개하자는 답은 요구하지 않는다.",
+          "rubric": [
+            {
+              "criterion": "서로 다른 사람이 몇 명인지 알아보려면 어떤 기록이 더 필요한가요?",
+              "levels": {
+                "0": "장수를 더하면 서로 다른 사람 수도 자동으로 나온다고 함",
+                "1": "메모를 다시 세자고만 함",
+                "2": "한 사람이 낸 여러 메모를 구별할 수 있는 제출자별 연결 기록이 필요하다. 실제 개인 정보를 불필요하게 공개하자는 답은 요구하지 않는다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G4-oral-03-S5-A-C1",
+            "code": "4국01-05",
+            "subject": "국어",
+            "statement": "목적과 주제에 알맞게 자료를 정리하여 자신감 있게 발표한다.",
+            "gradeBand": [
+              3,
+              4
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 575,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "목적과 주제에 맞게 들은 정보를 정리해 말하는 발표 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G4-oral-03-S5-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "목적과 주제에 맞게 들은 정보를 정리해 말하는 발표 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G4-oral-03-S5-A-C1",
+              "code": "4국01-05",
+              "subject": "국어",
+              "statement": "목적과 주제에 알맞게 자료를 정리하여 자신감 있게 발표한다.",
+              "gradeBand": [
+                3,
+                4
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 575,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "목적과 주제에 맞게 들은 정보를 정리해 말하는 발표 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G4-oral-03-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "2bdc7132071a28aa27b6ce9c6a9c09372f727460e37abe8511482eca08166f9c"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G4-oral-03-S5-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "작은 전시관 안내자",
+            "text": "관람 뒤 불편 메모를 모았어요. 한 장에는 한 가지 불편만 쓰게 했어요. 작은 글씨 이야기가 여섯 장, 높은 전시 위치 이야기가 세 장이었어요. 같은 사람이 여러 장을 낼 수도 있었어요.",
+            "paragraphId": "PV2-G4-oral-03-S5-A-p1"
+          },
+          {
+            "role": "어린이 위원",
+            "text": "그럼 아홉 명 모두 글씨에만 불만이 있었던 거네요.",
+            "paragraphId": "PV2-G4-oral-03-S5-A-p2"
+          }
+        ],
+        "script": "작은 전시관 안내자입니다. 관람 뒤 불편 메모를 모았어요. 한 장에는 한 가지 불편만 쓰게 했어요. 작은 글씨 이야기가 여섯 장, 높은 전시 위치 이야기가 세 장이었어요. 같은 사람이 여러 장을 낼 수도 있었어요.\n\n어린이 위원입니다. 그럼 아홉 명 모두 글씨에만 불만이 있었던 거네요.",
+        "studentInstruction": "가상 전시관의 메모 기록을 들으세요. 위원의 설명을 검토해 기록에 맞게 다시 발표하세요. 사람 수가 아직 확인되지 않은 점과 두 종류의 불편을 구별하고, 상대가 되물으면 근거를 알려 주세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "676ba9f7781a910b9a5860fadd6bd27cdfa3d54cc4fdea4a4337d24d45caeb77",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_explanation",
+        "kind": "followup_prompt",
+        "reply": "메모가 아홉 장이면 낸 사람도 아홉 명이라는 뜻 아니야?",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "1405f7c6b29cc6a2d8e6fd04eeaa8f2321f458d3909c6c81be5d911b519e673e",
+      "presentationOrder": [
+        "PV2-G4-oral-03-S5-A-Q1",
+        "PV2-G4-oral-03-S5-A-Q2",
+        "PV2-G4-oral-03-S5-A-Q3",
+        "PV2-G4-oral-03-S5-A-Q4",
+        "PV2-G4-oral-03-S5-A-Q5"
+      ],
+      "learnerStageLabel": "근거의 범위를 지켜 발표하기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G4-oral-03-S5-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G5-oral-01-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G5-oral-01",
+      "skillName": "관점과 근거를 들으며 정리",
+      "grade": 5,
+      "track": "oral",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "안내를 듣는 방법과 읽는 방법",
+      "purpose": "practice",
+      "familyId": "PV2-G5-oral-01-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G5-oral-01-S3-A-p1",
+          "text": "지민: 도서관 이용 안내를 녹음으로도 들을 수 있으면 좋겠어. 나는 손에 짐이 있을 때 안내 글을 펼치기 어려웠거든.",
+          "sentences": [
+            {
+              "id": "PV2-G5-oral-01-S3-A-p1-s1",
+              "text": "지민: 도서관 이용 안내를 녹음으로도 들을 수 있으면 좋겠어."
+            },
+            {
+              "id": "PV2-G5-oral-01-S3-A-p1-s2",
+              "text": "나는 손에 짐이 있을 때 안내 글을 펼치기 어려웠거든."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G5-oral-01-S3-A-p2",
+          "text": "유정: 큰 글씨 안내문도 남기면 좋겠어. 나는 소리를 들을 수 없는 곳에서도 안내를 읽고 싶어.",
+          "sentences": [
+            {
+              "id": "PV2-G5-oral-01-S3-A-p2-s1",
+              "text": "유정: 큰 글씨 안내문도 남기면 좋겠어."
+            },
+            {
+              "id": "PV2-G5-oral-01-S3-A-p2-s2",
+              "text": "나는 소리를 들을 수 없는 곳에서도 안내를 읽고 싶어."
+            }
+          ]
+        }
+      ],
+      "charCount": 119,
+      "contentHash": "1f724c4aa75866e1aeb38c5defef1751369a631f102b44bd88d8f3ea4d0cc6df",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "정의·원리·경쟁 근거·복수 조건. 자료의 관점과 한계를 비교하고 조건부로 표현.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "관점과 이유를 나누어 정리하기",
+        "evidenceDistance": "문단 사이",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "개인의 경험을 모든 이용자의 특성이나 장애 상태로 확대하지 않는다. 두 의견의 공통 목적과 매체 선택의 차이를 구별한다. 실제 녹음·제작·공유 수행을 완료했다고 집계하지 않는다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G5-oral-01-S3-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "두 의견과 이유를 구별해 정리해서 말하세요. 상대가 한 방법만 남겨도 되는지 물으면 두 의견을 다시 확인해 답하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S3-A-p1",
+              "sentenceId": "PV2-G5-oral-01-S3-A-p1-s2",
+              "quote": "나는 손에 짐이 있을 때",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G5-oral-01-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S3-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S3-A-p2-s2",
+              "quote": "소리를 들을 수 없는 곳에서도",
+              "start": 3,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "지민은 손에 짐이 있을 때 글을 펼치기 어려웠던 경험으로 녹음 안내도 원하고, 유정은 소리를 들을 수 없는 상황에서도 읽도록 큰 글씨 안내문을 원한다. 이용 안내를 편하게 확인하려는 목적은 비슷하지만 한 방법만 남기면 두 요구를 모두 담았다고 할 수 없다고 설명한다.",
+          "rubric": [
+            {
+              "criterion": "관점과 이유 구별",
+              "levels": {
+                "0": "두 사람의 이유를 바꾸거나 유정도 녹음만 원한다고 한다.",
+                "1": "의견만 나열하거나 한 이유를 놓친다.",
+                "2": "각 인물의 녹음·큰 글씨 의견을 자기 이유에 맞게 연결한다."
+              }
+            },
+            {
+              "criterion": "공통·차이 정리",
+              "levels": {
+                "0": "한 방법이 모든 사람에게 언제나 최고라고 일반화한다.",
+                "1": "같거나 다르다고만 한다.",
+                "2": "안내 확인이라는 공통 목적과 필요한 상황·방법의 차이를 함께 말한다."
+              }
+            },
+            {
+              "criterion": "상대 질문에 응답",
+              "levels": {
+                "0": "상대 말에 따라 안내문을 없애도 두 요구를 모두 만족한다고 한다.",
+                "1": "두 의견을 다시 읽지만 무엇이 빠지는지 설명하지 못한다.",
+                "2": "녹음만 남기면 유정의 읽기 요구가 빠짐을 짚어 답한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G5-oral-01-S3-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G5-oral-01-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-oral-01-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "유정이 큰 글씨 안내문도 원한 이유는 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S3-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S3-A-p2-s2",
+              "quote": "나는 소리를 들을 수 없는 곳에서도",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "손에 짐이 있을 때 글을 펼치기 어려워서",
+              "reason": "지민이 녹음 안내를 제안한 이유이다."
+            },
+            {
+              "text": "모든 이용자가 녹음을 싫어한다고 조사해서",
+              "reason": "그런 전체 이용자 조사는 제공되지 않았다."
+            },
+            {
+              "text": "녹음 안내만 남기고 싶어서",
+              "reason": "안내문도 남기자는 유정의 말과 다르다."
+            },
+            {
+              "text": "소리를 들을 수 없는 곳에서도 읽고 싶어서",
+              "reason": "유정이 자기 상황으로 든 이유이다."
+            },
+            {
+              "text": "큰 글씨가 언제나 녹음보다 빠르다고 측정해서",
+              "reason": "읽는 속도 측정은 제시하지 않았다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "유정이 자기 상황으로 든 이유이다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-oral-01-S3-A-Q3",
+          "kind": "matching",
+          "prompt": "지민 / 유정을 방법과 이유에 맞게 이으세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S3-A-p1",
+              "sentenceId": "PV2-G5-oral-01-S3-A-p1-s1",
+              "quote": "안내를 녹음으로도",
+              "start": 11,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G5-oral-01-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S3-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S3-A-p2-s1",
+              "quote": "큰 글씨 안내문도 남기면",
+              "start": 4,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "지민:녹음·짐을 들 때 글 펼치기 어려움 / 유정:큰 글씨·소리를 못 듣는 상황에서도 읽기",
+          "rubric": [
+            {
+              "criterion": "지민 / 유정을 방법과 이유에 맞게 이으세요.",
+              "levels": {
+                "0": "두 사람의 방법이나 이유를 바꿈",
+                "1": "한 사람의 연결만 맞힘",
+                "2": "지민:녹음·짐을 들 때 글 펼치기 어려움 / 유정:큰 글씨·소리를 못 듣는 상황에서도 읽기"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-oral-01-S3-A-Q4",
+          "kind": "explanation",
+          "prompt": "지민의 경험만 듣고 모든 이용자는 글 안내가 필요 없다고 결론내릴 수 있나요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S3-A-p1",
+              "sentenceId": "PV2-G5-oral-01-S3-A-p1-s2",
+              "quote": "나는 손에 짐이 있을 때 안내 글을 펼치기 어려웠거든.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S3-A-A1",
+              "turnIndex": 0
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "지민은 자기 경험을 말했고 유정은 다른 상황에서 글을 원하므로 전체 이용자에게 필요 없다고 넓힐 수 없다.",
+          "rubric": [
+            {
+              "criterion": "지민의 경험만 듣고 모든 이용자는 글 안내가 필요 없다고 결론내릴 수 있나요?",
+              "levels": {
+                "0": "한 사람의 경험이 모든 이용자의 필요를 증명한다고 함",
+                "1": "모두는 아니라고만 함",
+                "2": "지민은 자기 경험을 말했고 유정은 다른 상황에서 글을 원하므로 전체 이용자에게 필요 없다고 넓힐 수 없다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G5-oral-01-S3-A-C1",
+            "code": "6국01-02",
+            "subject": "국어",
+            "statement": "주장을 파악하고 이유나 근거가 타당한지 평가하며 듣는다.",
+            "gradeBand": [
+              5,
+              6
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 673,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "관점과 근거를 파악하고 적용 범위를 비교하며 듣는 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G5-oral-01-S3-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "관점과 근거를 파악하고 적용 범위를 비교하며 듣는 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G5-oral-01-S3-A-C1",
+              "code": "6국01-02",
+              "subject": "국어",
+              "statement": "주장을 파악하고 이유나 근거가 타당한지 평가하며 듣는다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 673,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "관점과 근거를 파악하고 적용 범위를 비교하며 듣는 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G5-oral-01-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "90ea5bce81984309e01282ef54638fdaae8c50c85587ad7d91f6cb4dc636ef2d"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G5-oral-01-S3-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "지민",
+            "text": "도서관 이용 안내를 녹음으로도 들을 수 있으면 좋겠어. 나는 손에 짐이 있을 때 안내 글을 펼치기 어려웠거든.",
+            "paragraphId": "PV2-G5-oral-01-S3-A-p1"
+          },
+          {
+            "role": "유정",
+            "text": "큰 글씨 안내문도 남기면 좋겠어. 나는 소리를 들을 수 없는 곳에서도 안내를 읽고 싶어.",
+            "paragraphId": "PV2-G5-oral-01-S3-A-p2"
+          }
+        ],
+        "script": "지민입니다. 도서관 이용 안내를 녹음으로도 들을 수 있으면 좋겠어. 나는 손에 짐이 있을 때 안내 글을 펼치기 어려웠거든.\n\n유정입니다. 큰 글씨 안내문도 남기면 좋겠어. 나는 소리를 들을 수 없는 곳에서도 안내를 읽고 싶어.",
+        "studentInstruction": "가상 이용자 회의의 두 의견을 들으세요. 누가 어떤 방법을 원하며 어떤 경험이나 상황을 이유로 들었는지 구별해 정리해서 말하세요. 상대의 확인 질문에도 두 의견을 보존해 답하세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "0b6ca9851b14ae8395a2a8490f21daf75278254c99ce110490abb53379e8fada",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_explanation",
+        "kind": "followup_prompt",
+        "reply": "그러면 종이 안내는 없애고 녹음만 남기면 둘의 뜻을 모두 담은 거야?",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "b5014bd12843b38b6dfeb79f013b5101e82e774e9f9e98c380d424c2b5da6eb7",
+      "presentationOrder": [
+        "PV2-G5-oral-01-S3-A-Q1",
+        "PV2-G5-oral-01-S3-A-Q2",
+        "PV2-G5-oral-01-S3-A-Q3",
+        "PV2-G5-oral-01-S3-A-Q4"
+      ],
+      "learnerStageLabel": "관점과 이유를 나누어 정리하기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G5-oral-01-S3-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G5-oral-01-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G5-oral-01",
+      "skillName": "관점과 근거를 들으며 정리",
+      "grade": 5,
+      "track": "oral",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "설문과 관찰은 같은 근거일까",
+      "purpose": "practice",
+      "familyId": "PV2-G5-oral-01-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G5-oral-01-S5-A-p1",
+          "text": "설문 위원: 가상 전시 설문에 스스로 참여한 열두 명 가운데 열 명이 안내를 읽기 쉬웠다고 답했어. 나는 이 응답자들에게는 좋은 점이 있었다고 생각해.",
+          "sentences": [
+            {
+              "id": "PV2-G5-oral-01-S5-A-p1-s1",
+              "text": "설문 위원: 가상 전시 설문에 스스로 참여한 열두 명 가운데 열 명이 안내를 읽기 쉬웠다고 답했어."
+            },
+            {
+              "id": "PV2-G5-oral-01-S5-A-p1-s2",
+              "text": "나는 이 응답자들에게는 좋은 점이 있었다고 생각해."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G5-oral-01-S5-A-p2",
+          "text": "관찰 위원: 나는 이틀 동안 입구 표지를 다시 보며 서 있는 사람들을 보았어. 왜 멈췄는지는 직접 묻지 않았어. 표지를 어떻게 읽는지 더 확인하면 좋겠어.",
+          "sentences": [
+            {
+              "id": "PV2-G5-oral-01-S5-A-p2-s1",
+              "text": "관찰 위원: 나는 이틀 동안 입구 표지를 다시 보며 서 있는 사람들을 보았어."
+            },
+            {
+              "id": "PV2-G5-oral-01-S5-A-p2-s2",
+              "text": "왜 멈췄는지는 직접 묻지 않았어."
+            },
+            {
+              "id": "PV2-G5-oral-01-S5-A-p2-s3",
+              "text": "표지를 어떻게 읽는지 더 확인하면 좋겠어."
+            }
+          ]
+        }
+      ],
+      "charCount": 171,
+      "contentHash": "725c6c83614c62bc20783bd6c517f2a13b32100bd5c02e59d18aef3ef015c632",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "정의·원리·경쟁 근거·복수 조건. 자료의 관점과 한계를 비교하고 조건부로 표현.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "다른 근거의 뜻을 비교하기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "설문 응답자의 판단과 관찰된 행동은 같은 측정이 아니다. 멈춘 이유와 대상의 겹침이 없으므로 어느 쪽도 반드시 거짓이라고 정하지 않는다. 둘 다 참이라고 검증 완료한 것으로도 집계하지 않는다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G5-oral-01-S5-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "두 위원의 근거와 아직 모르는 점을 비교해서 말하세요. 상대의 거짓이라는 판단에도 들은 범위를 지켜 답하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G5-oral-01-S5-A-p1-s1",
+              "quote": "스스로 참여한 열두 명 가운데 열 명",
+              "start": 17,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G5-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S5-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S5-A-p2-s1",
+              "quote": "이틀 동안 입구 표지를 다시 보며",
+              "start": 10,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S5-A-A1",
+              "turnIndex": 1
+            },
+            {
+              "materialId": "PV2-G5-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S5-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S5-A-p2-s2",
+              "quote": "왜 멈췄는지는 직접 묻지 않았어.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "설문은 자발적 응답자열두 명 중 열 명의 읽기 쉽다는 답이고, 관찰은 이틀 동안 일부 사람이 표지를 다시 보며 멈춘 행동이다. 멈춘 까닭과 두 자료의 사람이 같은지는 모른다. 다른 종류의 근거이므로 멈춘 행동만으로 설문 답이 거짓이라고 할 수 없고 이유를 더 확인해야 한다.",
+          "rubric": [
+            {
+              "criterion": "자료·범위 구별",
+              "levels": {
+                "0": "열 명의 답을 모든 방문객의 평가로 넓힌다.",
+                "1": "자료 이름만 구별하고 대상·기간을 놓친다.",
+                "2": "자발적 응답자의 답과 이틀의 행동 관찰을 각각 구별한다."
+              }
+            },
+            {
+              "criterion": "미확인 설명",
+              "levels": {
+                "0": "서 있던 사람은 모두 표지를 이해하지 못했다고 단정한다.",
+                "1": "더 조사하자고만 한다.",
+                "2": "멈춘 이유·대상의 일치 여부가 미확인임을 말한다."
+              }
+            },
+            {
+              "criterion": "판단에 근거로 답하기",
+              "levels": {
+                "0": "관찰했으니 설문은 반드시 거짓이라고 동의한다.",
+                "1": "둘 다 다르다고만 답한다.",
+                "2": "행동과 평가가 다르므로 설문이 거짓이라는 단정을 보류하고 추가 확인을 제안한다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G5-oral-01-S5-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G5-oral-01-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-oral-01-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "처음 들은 두 발언만으로 확정하기 어려운 것은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S5-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S5-A-p2-s2",
+              "quote": "왜 멈췄는지는 직접 묻지 않았어.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "관찰 위원이 추가 확인을 제안했다는 것",
+              "reason": "더 확인하면 좋겠다고 말했다."
+            },
+            {
+              "text": "설문에 열두 명이 참여했다는 것",
+              "reason": "첫 발언에서 확인된다."
+            },
+            {
+              "text": "관찰 위원이 이틀 동안 살폈다는 것",
+              "reason": "직접 밝힌 기간이다."
+            },
+            {
+              "text": "표지를 다시 본 사람 모두가 안내를 이해하지 못했다는 것",
+              "reason": "멈춘 까닭은 직접 묻지 않았다고 밝혔다."
+            },
+            {
+              "text": "응답자 열 명이 읽기 쉽다고 답했다는 것",
+              "reason": "첫 발언의 결과이다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "멈춘 까닭은 직접 묻지 않았다고 밝혔다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-oral-01-S5-A-Q3",
+          "kind": "classification",
+          "prompt": "직접 들은 내용 / 추가 추정으로 나누세요:자발적 설문12명, 관찰 이틀, 멈춘 사람 모두 길을 잃음.",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S5-A-p1",
+              "sentenceId": "PV2-G5-oral-01-S5-A-p1-s1",
+              "quote": "스스로 참여한 열두 명",
+              "start": 17,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G5-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S5-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S5-A-p2-s1",
+              "quote": "나는 이틀 동안",
+              "start": 7,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "들은 내용:자발적 설문12명·관찰 이틀 / 추가 추정:멈춘 사람 모두 길을 잃음",
+          "rubric": [
+            {
+              "criterion": "직접 들은 내용 / 추가 추정으로 나누세요:자발적 설문12명, 관찰 이틀, 멈춘 사람 모두 길을 잃음.",
+              "levels": {
+                "0": "멈췄다는 행동을 길을 잃은 사실로 분류함",
+                "1": "한 정보를 잘못 분류함",
+                "2": "들은 내용:자발적 설문12명·관찰 이틀 / 추가 추정:멈춘 사람 모두 길을 잃음"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-oral-01-S5-A-Q4",
+          "kind": "revision",
+          "prompt": "관찰과 다르니 설문이 거짓이라는 설명을 고치세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S5-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S5-A-p2-s3",
+              "quote": "표지를 어떻게 읽는지 더 확인하면 좋겠어.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "설문과 관찰은 대상·기간·알려 주는 내용이 다를 수 있으므로 멈춘 이유와 조사 범위를 더 확인해야 한다.",
+          "rubric": [
+            {
+              "criterion": "관찰과 다르니 설문이 거짓이라는 설명을 고치세요.",
+              "levels": {
+                "0": "설문이 있으므로 관찰은 모두 틀렸다고 뒤집음",
+                "1": "거짓이라는 말만 지우고 차이를 설명하지 못함",
+                "2": "설문과 관찰은 대상·기간·알려 주는 내용이 다를 수 있으므로 멈춘 이유와 조사 범위를 더 확인해야 한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G5-oral-01-S5-A-Q5",
+          "kind": "question_generation",
+          "prompt": "두 자료를 더 잘 연결하려면 어떤 질문을 추가하면 좋을까요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G5-oral-01-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G5-oral-01-S5-A-p2",
+              "sentenceId": "PV2-G5-oral-01-S5-A-p2-s1",
+              "quote": "입구 표지를 다시 보며 서 있는 사람들을",
+              "start": 16,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G5-oral-01-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "표지를 다시 본 사람에게 왜 멈췄는지, 안내에서 무엇을 이해했는지 묻고 설문 대상·관찰 대상의 범위도 비교한다.",
+          "rubric": [
+            {
+              "criterion": "두 자료를 더 잘 연결하려면 어떤 질문을 추가하면 좋을까요?",
+              "levels": {
+                "0": "응답자 수를 늘리기만 하면 멈춘 이유도 자동으로 밝혀진다고 함",
+                "1": "더 조사하자고만 함",
+                "2": "표지를 다시 본 사람에게 왜 멈췄는지, 안내에서 무엇을 이해했는지 묻고 설문 대상·관찰 대상의 범위도 비교한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G5-oral-01-S5-A-C1",
+            "code": "6국01-02",
+            "subject": "국어",
+            "statement": "주장을 파악하고 이유나 근거가 타당한지 평가하며 듣는다.",
+            "gradeBand": [
+              5,
+              6
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 673,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "관점과 근거를 파악하고 적용 범위를 비교하며 듣는 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G5-oral-01-S5-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "관점과 근거를 파악하고 적용 범위를 비교하며 듣는 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G5-oral-01-S5-A-C1",
+              "code": "6국01-02",
+              "subject": "국어",
+              "statement": "주장을 파악하고 이유나 근거가 타당한지 평가하며 듣는다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 673,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "관점과 근거를 파악하고 적용 범위를 비교하며 듣는 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G5-oral-01-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "003770552f4501cba03e0f04bd2e33af1c3b0c30f5113feca308913aeed4f1aa"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G5-oral-01-S5-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "설문 위원",
+            "text": "가상 전시 설문에 스스로 참여한 열두 명 가운데 열 명이 안내를 읽기 쉬웠다고 답했어. 나는 이 응답자들에게는 좋은 점이 있었다고 생각해.",
+            "paragraphId": "PV2-G5-oral-01-S5-A-p1"
+          },
+          {
+            "role": "관찰 위원",
+            "text": "나는 이틀 동안 입구 표지를 다시 보며 서 있는 사람들을 보았어. 왜 멈췄는지는 직접 묻지 않았어. 표지를 어떻게 읽는지 더 확인하면 좋겠어.",
+            "paragraphId": "PV2-G5-oral-01-S5-A-p2"
+          }
+        ],
+        "script": "설문 위원입니다. 가상 전시 설문에 스스로 참여한 열두 명 가운데 열 명이 안내를 읽기 쉬웠다고 답했어. 나는 이 응답자들에게는 좋은 점이 있었다고 생각해.\n\n관찰 위원입니다. 나는 이틀 동안 입구 표지를 다시 보며 서 있는 사람들을 보았어. 왜 멈췄는지는 직접 묻지 않았어. 표지를 어떻게 읽는지 더 확인하면 좋겠어.",
+        "studentInstruction": "두 위원이 근거로 삼은 자료의 종류와 범위를 비교해 말하세요. 확인한 사실과 아직 묻지 않은 이유를 구별하세요. 상대가 어느 쪽이 거짓인지 물으면 근거를 대조해 답하세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "d56111d4977f618fd7d6c4b746a6c37605d8aeeef6e7dbc5a124d682404212dc",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_explanation",
+        "kind": "followup_prompt",
+        "reply": "사람들이 멈춰 봤다니까 설문에서 읽기 쉬웠다는 답은 거짓인 거지?",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "5059ece9bba4d83f7b68516992e807a213168ac46d8821ba45dc2f4f0b7fe59c",
+      "presentationOrder": [
+        "PV2-G5-oral-01-S5-A-Q1",
+        "PV2-G5-oral-01-S5-A-Q2",
+        "PV2-G5-oral-01-S5-A-Q3",
+        "PV2-G5-oral-01-S5-A-Q4",
+        "PV2-G5-oral-01-S5-A-Q5"
+      ],
+      "learnerStageLabel": "다른 근거의 뜻을 비교하기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G5-oral-01-S5-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G6-oral-02-S3-A",
+      "version": 1,
+      "microSkillId": "plan-G6-oral-02",
+      "skillName": "주장을 확인하는 질문",
+      "grade": 6,
+      "track": "oral",
+      "stage": "S3",
+      "stageLabel": "관계 엮기",
+      "variant": "A",
+      "title": "여덟 명의 답을 어디까지 말할까",
+      "purpose": "practice",
+      "familyId": "PV2-G6-oral-02-S3-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G6-oral-02-S3-A-p1",
+          "text": "음악 체험 진행자: 우리 동네 모든 어린이는 음악 체험을 좋아한다고 생각해. 오늘 물어본 여덟 명은 모두 좋다고 답했거든.",
+          "sentences": [
+            {
+              "id": "PV2-G6-oral-02-S3-A-p1-s1",
+              "text": "음악 체험 진행자: 우리 동네 모든 어린이는 음악 체험을 좋아한다고 생각해."
+            },
+            {
+              "id": "PV2-G6-oral-02-S3-A-p1-s2",
+              "text": "오늘 물어본 여덟 명은 모두 좋다고 답했거든."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G6-oral-02-S3-A-p2",
+          "text": "기록 담당자: 기록에는 좋다는 답만 여덟 개 있어요. 누구를 어떤 방법으로 골라 물었는지는 적혀 있지 않아요. 그 내용은 진행자에게 더 물어볼 수 있어요.",
+          "sentences": [
+            {
+              "id": "PV2-G6-oral-02-S3-A-p2-s1",
+              "text": "기록 담당자: 기록에는 좋다는 답만 여덟 개 있어요."
+            },
+            {
+              "id": "PV2-G6-oral-02-S3-A-p2-s2",
+              "text": "누구를 어떤 방법으로 골라 물었는지는 적혀 있지 않아요."
+            },
+            {
+              "id": "PV2-G6-oral-02-S3-A-p2-s3",
+              "text": "그 내용은 진행자에게 더 물어볼 수 있어요."
+            }
+          ]
+        }
+      ],
+      "charCount": 155,
+      "contentHash": "e872385b97029c0f569b77d0bbea67cd4596e4af0ce042d16fece6f9ae9092e8",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "복합 구조·다중 자료·반례와 불확실성. 새 독자·매체·목적에 맞게 종합하고 수정.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "주장의 대상을 확인하며 묻기",
+        "evidenceDistance": "문단 사이",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "이미 여덟 명이라는 수를 다시 묻는 데 그치지 않고 대상·선정 범위를 구체화한다. 범위가 좁다는 이유로 답 자체를 거짓이라고 하거나 오지 않은 어린이는 모두 싫어한다고 단정하지 않는다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "instruction",
+      "questions": [
+        {
+          "id": "PV2-G6-oral-02-S3-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "주장의 대상을 확인할 수 있는 질문을 진행자에게 직접 하세요. 답을 들은 뒤 지금 근거로 말할 수 있는 범위와 남은 확인을 말하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S3-A-p1",
+              "sentenceId": "PV2-G6-oral-02-S3-A-p1-s1",
+              "quote": "우리 동네 모든 어린이는",
+              "start": 11,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G6-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S3-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S3-A-p2-s2",
+              "quote": "누구를 어떤 방법으로 골라 물었는지는",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "예:여덟 명은 어디에서 어떤 방법으로 골랐나요? 다른 체험방이나 오지 않은 어린이도 물었나요? 답을 들으면 음악방 앞 방문자여덟 명의 답이며 동네 모든 어린이로 넓히려면 다른 대상의 의견도 더 확인해야 한다고 말한다.",
+          "rubric": [
+            {
+              "criterion": "확인할 정보 질문",
+              "levels": {
+                "0": "어차피 거짓이죠처럼 답을 몰아붙인다.",
+                "1": "사람 수만 다시 묻거나 누구요처럼 범위가 흐리다.",
+                "2": "대상·선정 방식·다른 어린이 포함 여부를 구체적으로 묻는다."
+              }
+            },
+            {
+              "criterion": "근거와 질문 연결",
+              "levels": {
+                "0": "체험의 가격 같은 다른 정보만 묻는다.",
+                "1": "관련 질문이지만 전체 주장과 연결하지 못한다.",
+                "2": "모든 어린이라는 범위와 여덟 응답자의 관계를 확인하려는 목적이 드러난다."
+              }
+            },
+            {
+              "criterion": "답 뒤 범위 조정",
+              "levels": {
+                "0": "오지 않은 어린이는 모두 싫어한다고 반대로 단정한다.",
+                "1": "방문자라고만 되풀이한다.",
+                "2": "음악방 앞 방문자의 답으로 범위를 제한하고 다른 대상의 의견을 미확인으로 남긴다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G6-oral-02-S3-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G6-oral-02-S3-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-oral-02-S3-A-Q2",
+          "kind": "single_choice",
+          "prompt": "처음 안내에서 추가 질문이 필요하다고 드러난 정보는 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S3-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S3-A-p2-s2",
+              "quote": "누구를 어떤 방법으로 골라 물었는지는 적혀 있지 않아요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "좋다고 답한 기록의 개수",
+              "reason": "여덟 개라고 들었다."
+            },
+            {
+              "text": "진행자가 모든 어린이를 언급했는지",
+              "reason": "첫 발언에서 언급했다."
+            },
+            {
+              "text": "여덟 명의 답이 긍정이었는지",
+              "reason": "모두 좋다고 했다고 들었다."
+            },
+            {
+              "text": "물어본 사람을 고른 범위와 방법",
+              "reason": "기록에 대상 선정 방식이 없다고 명시했다."
+            },
+            {
+              "text": "기록 담당자가 누구에게 더 물을 수 있다고 했는지",
+              "reason": "진행자에게 더 물을 수 있다고 했다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "기록에 대상 선정 방식이 없다고 명시했다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-oral-02-S3-A-Q3",
+          "kind": "matching",
+          "prompt": "진행자의 주장 범위 / 처음 기록의 확인 범위를 각각 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S3-A-p1",
+              "sentenceId": "PV2-G6-oral-02-S3-A-p1-s1",
+              "quote": "우리 동네 모든 어린이는",
+              "start": 11,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S3-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G6-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S3-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S3-A-p2-s1",
+              "quote": "좋다는 답만 여덟 개",
+              "start": 13,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "주장:동네 모든 어린이 / 기록:좋다는 답여덟 개이며 대상 선정 미기록",
+          "rubric": [
+            {
+              "criterion": "진행자의 주장 범위 / 처음 기록의 확인 범위를 각각 쓰세요.",
+              "levels": {
+                "0": "여덟 답이 동네 전체 명단이라고 함",
+                "1": "한 범위만 씀",
+                "2": "주장:동네 모든 어린이 / 기록:좋다는 답여덟 개이며 대상 선정 미기록"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-oral-02-S3-A-Q4",
+          "kind": "question_generation",
+          "prompt": "누구에게 물었어요보다 선정 범위를 더 분명히 묻는 질문을 하나 쓰세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S3-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S3-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S3-A-p2-s3",
+              "quote": "그 내용은 진행자에게 더 물어볼 수 있어요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S3-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "어느 장소의 어떤 어린이를 어떻게 골라 물었나요? 체험에 오지 않은 어린이도 포함했나요? 같은 목적의 다른 질문도 수용한다.",
+          "rubric": [
+            {
+              "criterion": "누구에게 물었어요보다 선정 범위를 더 분명히 묻는 질문을 하나 쓰세요.",
+              "levels": {
+                "0": "모두 좋아하는 이유를 지어내 달라고 함",
+                "1": "대상 이름만 묻고 선정 범위가 드러나지 않음",
+                "2": "어느 장소의 어떤 어린이를 어떻게 골라 물었나요? 체험에 오지 않은 어린이도 포함했나요? 같은 목적의 다른 질문도 수용한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G6-oral-02-S3-A-C1",
+            "code": "6국01-03",
+            "subject": "국어",
+            "statement": "주제와 관련하여 궁금한 내용을 질문하며 적극적으로 듣고 말한다.",
+            "gradeBand": [
+              5,
+              6
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 674,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "주장과 관련한 대상을 구체적으로 질문하고 답을 듣고 확인하는 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G6-oral-02-S3-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "주장과 관련한 대상을 구체적으로 질문하고 답을 듣고 확인하는 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G6-oral-02-S3-A-C1",
+              "code": "6국01-03",
+              "subject": "국어",
+              "statement": "주제와 관련하여 궁금한 내용을 질문하며 적극적으로 듣고 말한다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 674,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "주장과 관련한 대상을 구체적으로 질문하고 답을 듣고 확인하는 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G6-oral-02-S3-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "64cc08a3cf9618cc2eaa79bbc6c2d3e8fb804846060e32ad7b66797a221711de"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G6-oral-02-S3-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "음악 체험 진행자",
+            "text": "우리 동네 모든 어린이는 음악 체험을 좋아한다고 생각해. 오늘 물어본 여덟 명은 모두 좋다고 답했거든.",
+            "paragraphId": "PV2-G6-oral-02-S3-A-p1"
+          },
+          {
+            "role": "기록 담당자",
+            "text": "기록에는 좋다는 답만 여덟 개 있어요. 누구를 어떤 방법으로 골라 물었는지는 적혀 있지 않아요. 그 내용은 진행자에게 더 물어볼 수 있어요.",
+            "paragraphId": "PV2-G6-oral-02-S3-A-p2"
+          }
+        ],
+        "script": "음악 체험 진행자입니다. 우리 동네 모든 어린이는 음악 체험을 좋아한다고 생각해. 오늘 물어본 여덟 명은 모두 좋다고 답했거든.\n\n기록 담당자입니다. 기록에는 좋다는 답만 여덟 개 있어요. 누구를 어떤 방법으로 골라 물었는지는 적혀 있지 않아요. 그 내용은 진행자에게 더 물어볼 수 있어요.",
+        "studentInstruction": "가상 체험 회의의 주장을 들으세요. 동네 모든 어린이라는 주장과 실제로 물어본 사람의 범위를 비교하려면 무엇을 확인해야 할지 직접 질문하세요. 답을 듣고 적용 범위를 다시 말하세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "3ef91d36ee6e168791653befe2fdaa87c18794bdcd31c87c9532c2f6d9a3de1b",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_question",
+        "kind": "clarification_reply",
+        "reply": "물어본 사람은 음악방 앞에 찾아온 어린이 여덟 명뿐이야. 다른 체험방이나 오지 않은 어린이의 의견은 아직 듣지 않았어.",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다."
+      },
+      "partnerCardHash": "774a437121df254961292606e228724a63ac139f8367f78df00d7258e51b007f",
+      "presentationOrder": [
+        "PV2-G6-oral-02-S3-A-Q1",
+        "PV2-G6-oral-02-S3-A-Q2",
+        "PV2-G6-oral-02-S3-A-Q3",
+        "PV2-G6-oral-02-S3-A-Q4"
+      ],
+      "learnerStageLabel": "주장의 대상을 확인하며 묻기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G6-oral-02-S3-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "PV2-G6-oral-02-S5-A",
+      "version": 1,
+      "microSkillId": "plan-G6-oral-02",
+      "skillName": "주장을 확인하는 질문",
+      "grade": 6,
+      "track": "oral",
+      "stage": "S5",
+      "stageLabel": "근거 따지기",
+      "variant": "A",
+      "title": "문의가 늘어난 까닭을 묻기",
+      "purpose": "practice",
+      "familyId": "PV2-G6-oral-02-S5-A",
+      "paragraphs": [
+        {
+          "id": "PV2-G6-oral-02-S5-A-p1",
+          "text": "전시 홍보 담당자: 전시 배너를 바꾼 뒤 예약 문의가 늘었어. 배너가 좋아져서 늘어난 거야.",
+          "sentences": [
+            {
+              "id": "PV2-G6-oral-02-S5-A-p1-s1",
+              "text": "전시 홍보 담당자: 전시 배너를 바꾼 뒤 예약 문의가 늘었어."
+            },
+            {
+              "id": "PV2-G6-oral-02-S5-A-p1-s2",
+              "text": "배너가 좋아져서 늘어난 거야."
+            }
+          ]
+        },
+        {
+          "id": "PV2-G6-oral-02-S5-A-p2",
+          "text": "운영 기록 담당자: 문의가 늘었다는 기록은 있어요. 다만 같은 기간 모집 방식이 바뀌었는지는 이 기록에 없어요. 진행팀에 더 확인할 수 있어요.",
+          "sentences": [
+            {
+              "id": "PV2-G6-oral-02-S5-A-p2-s1",
+              "text": "운영 기록 담당자: 문의가 늘었다는 기록은 있어요."
+            },
+            {
+              "id": "PV2-G6-oral-02-S5-A-p2-s2",
+              "text": "다만 같은 기간 모집 방식이 바뀌었는지는 이 기록에 없어요."
+            },
+            {
+              "id": "PV2-G6-oral-02-S5-A-p2-s3",
+              "text": "진행팀에 더 확인할 수 있어요."
+            }
+          ]
+        }
+      ],
+      "charCount": 132,
+      "contentHash": "9bd315248aee84b622b3a63ac8ae7ba0b624db25e3fac2a3098478c594b41429",
+      "textDemand": {
+        "format": "역할 이름을 밝힌 창작 듣기 대화",
+        "gradeCondition": "복합 구조·다중 자료·반례와 불확실성. 새 독자·매체·목적에 맞게 종합하고 수정.",
+        "lengthReview": "화면 본문은 교사용 대본. 음성 길이·화자 수·정보량과 재생 지원을 별도 기록. 읽기 지문 길이 규준으로 승인하지 않음."
+      },
+      "taskDemand": {
+        "operation": "단정의 근거를 확인하며 묻기",
+        "evidenceDistance": "자료 또는 진술 대조",
+        "support": "학생용 대본 제외. 재생·대독·문장 틀·뒤 문항 노출을 기록. 첫 발화와 상대 응답 뒤 수행을 분리."
+      },
+      "teacherGuide": "배너가 아무 효과도 없었다는 반대 단정을 요구하지 않는다. 함께 바뀐 조건·비교 기간·문의 집계 방법 등을 묻는 적절한 질문을 수용하되 제공하지 않은 답을 진행자가 지어내지 않는다. 첫 발화와 후속 발화를 구별하고 선택형만 맞혀 말하기를 완료 처리하지 않는다. 상대를 바라보는 방식·목소리 크기·성격이나 무조건적인 동의로 채점하지 않는다.",
+      "guideVisibility": "teacher_only_after_response",
+      "questions": [
+        {
+          "id": "PV2-G6-oral-02-S5-A-Q1",
+          "kind": "spoken_response",
+          "prompt": "배너 때문이라는 설명을 확인할 질문을 직접 하고 이유도 짧게 말하세요. 답을 들은 뒤 단정할 수 있는 범위를 다시 설명하세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S5-A-p1",
+              "sentenceId": "PV2-G6-oral-02-S5-A-p1-s1",
+              "quote": "전시 배너를 바꾼 뒤 예약 문의가 늘었어.",
+              "start": 11,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S5-A-A1",
+              "turnIndex": 0
+            },
+            {
+              "materialId": "PV2-G6-oral-02-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S5-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S5-A-p2-s2",
+              "quote": "같은 기간 모집 방식이 바뀌었는지는",
+              "start": 3,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "예:같은 기간 배너 말고 신청 방법이나 다른 홍보도 바뀌었나요? 문의가 늘어난 다른 이유가 있을 수 있어서 묻습니다. 그 답을 받으면 온라인 창구도 함께 열어 어느 변화가 얼마나 영향을 주었는지는 구별하기 어렵다고 말한다. 기간·집계를 물었는데 미확인이라는 답을 받았다면 그 정보의 추가 확인이 필요하다고 남긴다.",
+          "rubric": [
+            {
+              "criterion": "주장 검토 질문",
+              "levels": {
+                "0": "담당자가 틀렸다고 몰아붙이기만 한다.",
+                "1": "왜요라고만 하거나 배너 교체 사실만 다시 묻는다.",
+                "2": "다른 변화·기간·집계 방법처럼 원인 단정을 검토할 구체적인 질문을 한다."
+              }
+            },
+            {
+              "criterion": "질문의 이유",
+              "levels": {
+                "0": "배너가 절대로 효과 없음을 증명하려고 한다.",
+                "1": "궁금해서라고만 말한다.",
+                "2": "문의 증가와 배너만의 효과를 구별하려는 목적을 설명한다."
+              }
+            },
+            {
+              "criterion": "상대 답과 한계",
+              "levels": {
+                "0": "온라인 창구만이 유일한 원인이라고 뒤집거나 받지 않은 답을 만들어 말한다.",
+                "1": "상대 답만 반복하고 결론 범위를 조정하지 못한다.",
+                "2": "상대가 실제로 알려 준 변경 또는 아직 모른다는 답을 반영해 원인 단정을 보류하고 확인할 것을 남긴다."
+              }
+            }
+          ],
+          "version": 1,
+          "responseMode": "live_speech_with_partner",
+          "partnerReplyRef": {
+            "materialId": "PV2-G6-oral-02-S5-A",
+            "version": 1
+          },
+          "performanceInstruction": "안내 음성을 들은 뒤 선생님이나 짝에게 직접 말하세요. 상대가 답할 차례를 기다리고, 답을 들은 뒤 확인하거나 고쳐 말하세요. 아래 칸은 말한 뒤 남기는 메모이며 직접 말하기 관찰을 대신하지 않습니다.",
+          "observationFields": [
+            "처음 들은 횟수·반복 재생·대본 또는 보조 문항 노출",
+            "학생이 실제로 한 첫 발화 원문",
+            "대독·낱말·문장 틀·보완대체 의사소통 등 받은 지원",
+            "상대가 실제로 한 응답과 제공 시점",
+            "학생의 후속 확인·수정·유지 이유 또는 남은 질문"
+          ],
+          "curriculumCoverage": {
+            "state": "component_candidate",
+            "linkIds": [
+              "PV2-G6-oral-02-S5-A-C1"
+            ],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-oral-02-S5-A-Q2",
+          "kind": "single_choice",
+          "prompt": "처음 들은 말에서 기록이 있다고 확인한 것은 무엇인가요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S5-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S5-A-p2-s1",
+              "quote": "문의가 늘었다는 기록은 있어요.",
+              "start": 11,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "options": [
+            {
+              "text": "모든 문의자가 배너를 보았다는 것",
+              "reason": "문의자별 노출 기록은 처음 안내에 없다."
+            },
+            {
+              "text": "다른 홍보가 전혀 없었다는 것",
+              "reason": "다른 홍보 여부를 확정하지 않았다."
+            },
+            {
+              "text": "모집 방식은 전혀 바뀌지 않았다는 것",
+              "reason": "변경 여부가 기록에 없다고 했다."
+            },
+            {
+              "text": "예약 문의가 늘었다는 것",
+              "reason": "둘째 발언이 문의 증가 기록의 존재를 밝혔다."
+            },
+            {
+              "text": "증가분 전부가 배너 때문이라는 것",
+              "reason": "배너만의 원인은 확인하지 않았다."
+            }
+          ],
+          "correctIndex": 3,
+          "version": 1,
+          "explanation": "둘째 발언이 문의 증가 기록의 존재를 밝혔다.",
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-oral-02-S5-A-Q3",
+          "kind": "classification",
+          "prompt": "기록으로 확인됨 / 추가 확인 필요로 나누세요:문의 증가, 다른 모집 방식의 변화, 배너만의 원인.",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S5-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S5-A-p2-s1",
+              "quote": "문의가 늘었다는 기록은",
+              "start": 11,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S5-A-A1",
+              "turnIndex": 1
+            },
+            {
+              "materialId": "PV2-G6-oral-02-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S5-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S5-A-p2-s2",
+              "quote": "모집 방식이 바뀌었는지는 이 기록에 없어요.",
+              "start": 9,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "확인됨:문의 증가 / 추가 확인 필요:다른 모집 변화·배너만의 원인",
+          "rubric": [
+            {
+              "criterion": "기록으로 확인됨 / 추가 확인 필요로 나누세요:문의 증가, 다른 모집 방식의 변화, 배너만의 원인.",
+              "levels": {
+                "0": "변경 기록이 없다는 말을 변경이 없었다는 사실로 읽음",
+                "1": "한 항목을 잘못 분류함",
+                "2": "확인됨:문의 증가 / 추가 확인 필요:다른 모집 변화·배너만의 원인"
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-oral-02-S5-A-Q4",
+          "kind": "revision",
+          "prompt": "자료에 없으니 다른 변화는 없었다는 말을 고치세요.",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S5-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S5-A-p2-s3",
+              "quote": "진행팀에 더 확인할 수 있어요.",
+              "start": 0,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "이 기록에 없어서 다른 변화가 있었는지는 아직 모른다. 진행팀에 확인해야 한다.",
+          "rubric": [
+            {
+              "criterion": "자료에 없으니 다른 변화는 없었다는 말을 고치세요.",
+              "levels": {
+                "0": "다른 변화가 반드시 있었다고 단정함",
+                "1": "모른다고만 하고 기록 부재와 실제 부재를 구별하지 못함",
+                "2": "이 기록에 없어서 다른 변화가 있었는지는 아직 모른다. 진행팀에 확인해야 한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        },
+        {
+          "id": "PV2-G6-oral-02-S5-A-Q5",
+          "kind": "question_generation",
+          "prompt": "진행팀에 비교 기간을 물으려면 어떤 질문이 좋을까요?",
+          "evidence": [
+            {
+              "materialId": "PV2-G6-oral-02-S5-A",
+              "version": 1,
+              "paragraphId": "PV2-G6-oral-02-S5-A-p2",
+              "sentenceId": "PV2-G6-oral-02-S5-A-p2-s2",
+              "quote": "같은 기간 모집 방식이 바뀌었는지는",
+              "start": 3,
+              "evidenceKind": "audio",
+              "assetId": "PV2-G6-oral-02-S5-A-A1",
+              "turnIndex": 1
+            }
+          ],
+          "acceptableResponses": "같은 뜻의 다른 말·보완대체 의사소통을 수용하고 지원 형태를 기록한다. 정답 문장 암송·목소리 크기·말의 빠르기·시선만으로 점수를 정하지 않는다. 실제 들은 말·첫 발화·상대 응답·후속 발화를 구별한다.",
+          "feedbackVisibility": "after_first_response",
+          "expectedAnswer": "문의 증가를 비교한 기간은 각각 언제이며 길이와 집계 기준은 같은가요? 기간·집계의 비교 가능성을 묻는 다른 질문도 수용한다.",
+          "rubric": [
+            {
+              "criterion": "진행팀에 비교 기간을 물으려면 어떤 질문이 좋을까요?",
+              "levels": {
+                "0": "원하는 결론이 나올 때까지 기간을 바꾸자고 함",
+                "1": "언제예요만 묻고 무엇의 기간인지 흐림",
+                "2": "문의 증가를 비교한 기간은 각각 언제이며 길이와 집계 기준은 같은가요? 기간·집계의 비교 가능성을 묻는 다른 질문도 수용한다."
+              }
+            }
+          ],
+          "version": 1,
+          "curriculumCoverage": {
+            "state": "preparation_or_related_activity",
+            "linkIds": [],
+            "notFullStandardAchievement": true
+          }
+        }
+      ],
+      "source": {
+        "authorship": "자체 창작 가상 대화·모임·기록",
+        "factualBasis": "모든 행사·수치·의견은 본문에 제공한 가상 학습 상황. 실제 기관 조사·어린이 발화·지역 운영 지침이 아님.",
+        "officialStandards": [
+          {
+            "id": "PV2-G6-oral-02-S5-A-C1",
+            "code": "6국01-03",
+            "subject": "국어",
+            "statement": "주제와 관련하여 궁금한 내용을 질문하며 적극적으로 듣고 말한다.",
+            "gradeBand": [
+              5,
+              6
+            ],
+            "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+            "sourceLine": 674,
+            "noticeVersion": "2022-33",
+            "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+            "alignmentState": "source_text_checked_candidate",
+            "role": "direct_component",
+            "roleLabel": "듣기·말하기 성취요소 일부 후보",
+            "includedComponent": "주장과 관련한 대상을 구체적으로 질문하고 답을 듣고 확인하는 부분",
+            "notAssessed": [
+              "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+              "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+            ],
+            "questionIds": [
+              "PV2-G6-oral-02-S5-A-Q1"
+            ]
+          }
+        ],
+        "curriculumAudit": {
+          "version": 1,
+          "checkedOn": "2026-11-18",
+          "basis": "로컬 국어2022-33 원문 대조. 최신 통합 고시 전량 비교·독립 교사 승인 별도 대기.",
+          "decision": "direct_component_candidate",
+          "scope": "주장과 관련한 대상을 구체적으로 질문하고 답을 듣고 확인하는 부분",
+          "remainingGap": "",
+          "links": [
+            {
+              "id": "PV2-G6-oral-02-S5-A-C1",
+              "code": "6국01-03",
+              "subject": "국어",
+              "statement": "주제와 관련하여 궁금한 내용을 질문하며 적극적으로 듣고 말한다.",
+              "gradeBand": [
+                5,
+                6
+              ],
+              "sourcePath": "research/curriculum_2022/extracted/annex_05.txt",
+              "sourceLine": 674,
+              "noticeVersion": "2022-33",
+              "sourceHash": "eac47a7ccb29979179bd5335c2558d9ed0a431a4a84f9e88dcdc23672b71fc7f",
+              "alignmentState": "source_text_checked_candidate",
+              "role": "direct_component",
+              "roleLabel": "듣기·말하기 성취요소 일부 후보",
+              "includedComponent": "주장과 관련한 대상을 구체적으로 질문하고 답을 듣고 확인하는 부분",
+              "notAssessed": [
+                "아직 실제 학생의 직접 수행·교사 승인을 얻지 않음",
+                "원고 공급·선택형 정답만으로 전체 성취기준 달성을 판정하지 않음"
+              ],
+              "questionIds": [
+                "PV2-G6-oral-02-S5-A-Q1"
+              ]
+            }
+          ],
+          "teacherApproval": "pending"
+        },
+        "curriculumAuditHash": "44acc0d40d1c60d84dc4c880ac9d952b8ff01a499745730cf5704aefaf4e1dc1"
+      },
+      "review": {
+        "state": "draft",
+        "goalMapping": "needs_teacher_review",
+        "teacherApproval": "pending",
+        "studentCalibration": "pending",
+        "publication": "unpublished"
+      },
+      "batch": "expansion-v2-07",
+      "listening": {
+        "id": "PV2-G6-oral-02-S5-A-A1",
+        "version": 1,
+        "turns": [
+          {
+            "role": "전시 홍보 담당자",
+            "text": "전시 배너를 바꾼 뒤 예약 문의가 늘었어. 배너가 좋아져서 늘어난 거야.",
+            "paragraphId": "PV2-G6-oral-02-S5-A-p1"
+          },
+          {
+            "role": "운영 기록 담당자",
+            "text": "문의가 늘었다는 기록은 있어요. 다만 같은 기간 모집 방식이 바뀌었는지는 이 기록에 없어요. 진행팀에 더 확인할 수 있어요.",
+            "paragraphId": "PV2-G6-oral-02-S5-A-p2"
+          }
+        ],
+        "script": "전시 홍보 담당자입니다. 전시 배너를 바꾼 뒤 예약 문의가 늘었어. 배너가 좋아져서 늘어난 거야.\n\n운영 기록 담당자입니다. 문의가 늘었다는 기록은 있어요. 다만 같은 기간 모집 방식이 바뀌었는지는 이 기록에 없어요. 진행팀에 더 확인할 수 있어요.",
+        "studentInstruction": "가상 전시 회의에서 원인을 단정한 말을 들으세요. 배너 때문이라는 설명을 검토할 질문을 직접 하세요. 상대 답을 들은 뒤 확인된 것과 아직 구별할 수 없는 것을 말하세요.",
+        "transcriptVisibility": "teacher_only",
+        "timeAlignment": "not_measured",
+        "authorship": "synthetic_builtin_voice",
+        "listeningReview": "pending"
+      },
+      "listeningHash": "b42b82a0e301775ea90df892a0b3ec5a279d08d189aaa57f093b0c80fc48bda0",
+      "partnerCard": {
+        "title": "첫 말 뒤에 사용하는 상대의 응답 카드",
+        "visibility": "teacher_only_after_question",
+        "kind": "clarification_reply",
+        "reply": "배너를 바꾼 날 신청 창구를 온라인으로도 열었어. 창구별 문의 수나 배너를 본 사람이 누구인지는 따로 기록하지 않았어.",
+        "instruction": "학생이 먼저 직접 말한 뒤 제공한다. 질문 과제는 해당 정보를 실제로 물었을 때만 답한다. 다른 내용을 물으면 그 내용에 맞게 이미 제공된 정보만 확인하고, 없는 답은 임의로 만들어 주지 않는다. 설명 과제는 첫 설명 뒤 이 후속 말로 응답을 확인한다. 학생이 상대 답을 다시 듣고 이어 말할 기회를 준다. 다른 변화에 관해 물으면 위 응답을 제공한다. 비교 기간·집계 방법만 물으면 이 자료에는 그 상세 기록이 없어 더 확인해야 한다고 답한다. 아직 묻지 않은 온라인 창구의 정보는 먼저 주지 않는다. 그런 적절한 질문과 미확인 답의 후속 확인도 완전 수행으로 수용한다."
+      },
+      "partnerCardHash": "8e4e5c475f6be5414e210a0ed828333d8b01e7bf6a0494301203f8612c78efd4",
+      "presentationOrder": [
+        "PV2-G6-oral-02-S5-A-Q1",
+        "PV2-G6-oral-02-S5-A-Q2",
+        "PV2-G6-oral-02-S5-A-Q3",
+        "PV2-G6-oral-02-S5-A-Q4",
+        "PV2-G6-oral-02-S5-A-Q5"
+      ],
+      "learnerStageLabel": "단정의 근거를 확인하며 묻기",
+      "oralPerformance": {
+        "primaryQuestionId": "PV2-G6-oral-02-S5-A-Q1",
+        "firstResponse": "선택형·해설 전에 직접 말하기 관찰. 현재 HTML은 뒤 문항의 노출을 봉인하지 않으므로 노출 시점을 기록.",
+        "followup": "응답자 카드 이후 실제 후속 발화를 관찰. 읽거나 적은 답만으로 대화 수행을 완료 처리하지 않음.",
+        "teacherApproval": "pending",
+        "notAssessed": [
+          "실제 학생 발화·점수·상대 반응을 미리 만들어 채우지 않음",
+          "합성 음성의 발음·쉼·속도와 학년 적합성은 청취 검토 대기",
+          "다른 의견을 듣고 반드시 동의하거나 의견을 바꾸어야 높은 점수라고 판단하지 않음"
+        ]
+      }
+    }
+  ]
+}

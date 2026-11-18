@@ -1,0 +1,30 @@
+{
+  "asOf": "2026-11-18",
+  "contentSnapshotHash": "6cc65f15234525d3b6d1f7e0888469fd244361a2667a3f38c22a30f2a887922f",
+  "reviewType": "AI 자체 집필·자료 대조·쓰기 과제 편집 검토. 독립 교사 승인·학생 난도 보정과 구별.",
+  "teacherApproval": "pending",
+  "studentCalibration": "pending",
+  "publication": "unpublished",
+  "records": [
+    {"id":"W01","scope":"실제 집필과 공급 범위","action":"새 쓰기6수행의 S2·S3·S5에18자료78문항 집필. 주 쓰기18·보조60·주 준거37개. 단계별 추가 반복과 미집필 단계를 공급 완료로 세지 않음.","state":"authored_draft"},
+    {"id":"W02","scope":"학년과 수행의 차이","action":"초1 알림·안내, 초2 생각과 까닭, 초3 비교·과정 보고, 초4 핵심·관계·조건 요약, 초5 정의·작동·분류 설명, 초6 내용·조직·추론 수정으로 편성. 어휘와 분량만 바꾼 같은 과제의 반복을 피함.","state":"editorial_progression_reviewed"},
+    {"id":"W03","scope":"가상 자료의 경계","action":"모든 모임·관찰·숫자·제도·규칙은 명시된 자체 창작. 실제 영상 실험·민속 지식·기관 제도·학생 발언·운영 성과로 소개하지 않으며 새 외부 사실 검증 자료를 집계하지 않음.","state":"fiction_scope_declared"},
+    {"id":"W04","scope":"초1 때·곳·조건","action":"반납 때·곳, 꽃을 받침에 둔 뒤 마름 조건, 전시의 그대로인 요일과 바뀐 시간·장소를 분리해 평가. 규칙에 없는 건조 분 수나 전시 취소를 넣지 않음.","state":"notice_content_reviewed"},
+    {"id":"W05","scope":"초2 학생의 생각과 대안","action":"교사용 추천과 같은 선택만 강요하지 않음. 다른 책·활동 선택도 자료 근거와 친구의 바람·조건을 고려하면 수용. 오늘과 내일의 자원, 준비 속도와 개인의 편안함을 구별.","state":"alternative_responses_accepted"},
+    {"id":"W06","scope":"초3 보고와 인과 범위","action":"자막의 동일 조건·글자 색·네 참여자, 종이 길의 관찰된 걸림·수정·같은 놓기 방법, 글씨와 위치 동시 변경·다른 방문자를 보존. 보편 선호 또는 크기 하나의 확정적 효과로 넓히지 않음.","state":"comparison_and_causal_scope_reviewed"},
+    {"id":"W07","scope":"초4 핵심·차이·예외","action":"장면 쓰기와 이유 검토의 핵심, 사진·구술 기록의 소개책 통합과 사람별 설명 차이, 종이·전자 자료의 이용 범위·계정·미완료 텍스트 문의를 보존. 문의 가능을 즉시 제공 보장으로 바꾸지 않음.","state":"summary_scope_reviewed"},
+    {"id":"W08","scope":"초4 문항 종류","action":"S3의 보조 문항은 자료 수집과 결과물 범주로 나누므로 짝짓기에서 분류로 바로잡음. 자료·문항·근거 버전을2로 맞추고 초기 원고 보존.","state":"revised_question_kind"},
+    {"id":"W09","scope":"초5 표의 확인 범위","action":"S2 예시의 빌린 사람 확인을 누가 빌린 것으로 적었는지 확인으로 좁힘. 실제 현재 위치·물건 상태를 추적하는 장치로 설명하지 않음.","state":"revised_answer_scope"},
+    {"id":"W10","scope":"초5 작동과 정의","action":"잠금은 띠 고정 기능이며 내용 정확성은 사람이 확인. 연결 카드의 장소·인물 두 조건을 함께 요구하며 같은 장소만 또는 같은 인물만인 비예를 구별. 이번 전시의 용어를 문학 일반 정의로 사용하지 않음.","state":"mechanism_and_definition_reviewed"},
+    {"id":"W11","scope":"초6 시각·확인 상태","action":"입장1시50분과 시작2시, 사전 신청자와 추가 신청 미정, 통역 요청과 배정 미확인·금요일 안내를 구별. 미확인을 확정·취소로 바꾸지 않음.","state":"confirmed_pending_distinction_reviewed"},
+    {"id":"W12","scope":"초6 근거 없는 추가 행동","action":"S3 예시에서 녹음과 사진을 나누어 살폈다는 수행 완료 진술을 덜어 실제 제시된 수집 정보만 남김. 현재 녹음·과거 사진으로 과거 소리를 확인했다고 쓰지 않음.","state":"revised_unrecorded_action"},
+    {"id":"W13","scope":"초6 응답·문의·계획","action":"6팀 중 만족4·작은 글씨 불편1·무응답1을 보존. S5 정답·발문·해설에서 동시간 이용 문의 미접수의 범위를 명료화. 전 주 비교자료 부재·병행 말 확인·다음 계획 유지도 반영.","state":"revised_inquiry_scope"},
+    {"id":"W14","scope":"첫 쓰기의 실제 배포","action":"전체 HTML은 뒤 문항을 스크롤할 수 있어 사전 노출 차단을 보장하지 못함을 명시. 보조 문항·교사용 예시·지도문이 없는 학년별 첫 쓰기 과제지6개를 별도 생성하고 실제 파일의 원문·주 과제 포함과 교사용 정보 미포함·해시를 확인.","state":"primary_only_handouts_delivered"},
+    {"id":"W15","scope":"도움·맞춤법·실제 답안","action":"대독·공동 구성·성인 받아쓰기·보조 문항 노출을 빈 관찰표에 별도 기록. 구두 답이나 선택형 정답만으로 독립 쓰기를 인정하지 않으며 권장 문장 수·맞춤법 차이만으로 내용 점수를 전부 지우지 않음. 실제 학생 답안·점수는 비워 둠.","state":"support_and_response_protocol_declared"},
+    {"id":"W16","scope":"교육과정 범위","action":"원문·해설에 연결하되12자료는 부분 성취요소 후보, 초1·4의6자료는 준비·보조 관계로 구별. 안내·요약을 연결 기준의 전체 수행과 같게 처리하지 않음. 최신 통합 고시 전량 비교·정식 목표 승인 대기.","state":"bounded_curriculum_mapping"},
+    {"id":"W17","scope":"검사와 남은 검증","action":"61개 제한된 구조·일부 답 범위·수치·수정 이력 확인, 근거·버전·HTML 분리·JavaScript 문법·첫 쓰기 전용 전달 검사를 통과. 설정된 중복·정답 길이·단계 경고 후보0은 실제 유일 정답·난도 증명이 아님. 교사·학생·브라우저·앱 검증 대기.","state":"technical_checks_not_final_approval"}
+  ],
+  "executedChecks": [
+    {"command":"python -X utf8 scripts/build_writing_diversity_v2.py","result":"passed;18 sets78 tasks18 primary writing37 criteria61 bounded checks;6 primary-only handouts18 unique writing tasks;no configured duplicate, option-length or stage-fit candidates"}
+  ]
+}

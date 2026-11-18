@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "scope": "AI editorial review and software verification; no empirical difficulty calibration",
+  "content": {
+    "diagnostic": 172,
+    "checks": 288,
+    "total": 460
+  },
+  "build": {
+    "passed": true,
+    "clientTests": 80,
+    "serverTests": 102,
+    "privateContentBoundary": true,
+    "externalResourcesCheck": true
+  },
+  "targetedRegressionTests": 25,
+  "appGrades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "teacherGuideItems": 460,
+  "studentBooklets": 48,
+  "nextStageBrowser": true,
+  "humanTeacherApproval": false,
+  "empiricalDifficultyCalibrated": false
+}

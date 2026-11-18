@@ -1,0 +1,119 @@
+{
+  "scope": "6수행의 선언한 단계·자료 공급",
+  "expectedStageCounts": {
+    "plan-G1-literature-07": {
+      "S2": 1,
+      "S3": 1
+    },
+    "plan-G2-literature-04": {
+      "S3": 1,
+      "S4": 1
+    },
+    "plan-G3-literature-01": {
+      "S3": 1,
+      "S4": 1
+    },
+    "plan-G4-literature-06": {
+      "S3": 1,
+      "S4": 1
+    },
+    "plan-G5-literature-02": {
+      "S4": 1,
+      "S5": 1
+    },
+    "plan-G6-literature-04": {
+      "S4": 1,
+      "S5": 1
+    }
+  },
+  "targetSets": 12,
+  "targetQuestions": 50,
+  "authoredSets": 12,
+  "authoredQuestions": 50,
+  "approvedSets": 0,
+  "remainingSets": 0,
+  "remainingQuestions": 0,
+  "skills": [
+    {
+      "skillId": "plan-G1-literature-07",
+      "grade": 1,
+      "track": "literature",
+      "name": "시의 소리와 반복",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G2-literature-04",
+      "grade": 2,
+      "track": "literature",
+      "name": "말과 행동 연결",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G3-literature-01",
+      "grade": 3,
+      "track": "literature",
+      "name": "배경과 사건의 관계",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G4-literature-06",
+      "grade": 4,
+      "track": "literature",
+      "name": "시의 화자와 상황",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 8,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G5-literature-02",
+      "grade": 5,
+      "track": "literature",
+      "name": "인물의 선택과 갈등",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    },
+    {
+      "skillId": "plan-G6-literature-04",
+      "grade": 6,
+      "track": "literature",
+      "name": "시간 전환과 의미",
+      "targetSets": 2,
+      "authoredSets": 2,
+      "authoredQuestions": 9,
+      "approvedSets": 0,
+      "audioDraftAssets": 0,
+      "assetRequirement": "텍스트 또는 실제 도표 자산",
+      "status": "draft_under_review"
+    }
+  ],
+  "audioDraftSetsTechnicallyVerified": 0,
+  "listeningAudioDraftSets": 0,
+  "readingModelAudioDraftSets": 0
+}

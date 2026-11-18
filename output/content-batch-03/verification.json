@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "errors": [],
+  "duplicateCandidates": [],
+  "calculationChecks": {
+    "G3_graph": true,
+    "G3_half_symbol": true,
+    "G4_votes_update": true,
+    "G4_source_total": true,
+    "G5_average": true,
+    "G5_average_update": true,
+    "G5_rates": true,
+    "G5_box_weight": true,
+    "G6_power": true,
+    "G6_satisfaction": true,
+    "G6_report": true,
+    "G6_new_rates": true
+  },
+  "counts": {
+    "units": 24,
+    "uniqueMaterialFamilies": 72,
+    "displayMaterials": 96,
+    "questions": 168,
+    "clinics": 24,
+    "byGrade": {
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4
+    },
+    "bySubject": {
+      "통합": 1,
+      "음악": 2,
+      "수학": 3,
+      "국어": 5,
+      "과학": 3,
+      "미술": 2,
+      "체육": 1,
+      "사회": 2,
+      "도덕": 1,
+      "실과": 2,
+      "매체": 2
+    },
+    "questionKinds": {
+      "single_choice": 24,
+      "explanation": 96,
+      "classification": 5,
+      "writing": 24,
+      "ordering": 5,
+      "matching": 6,
+      "table_completion": 8
+    }
+  },
+  "limitations": [
+    "자동 검사는 정답 유일성·학년 적합성의 교사 검토나 학생 난도 보정을 대신하지 않음."
+  ],
+  "approval": "unpublished; teacher_review_pending; no_student_calibration"
+}

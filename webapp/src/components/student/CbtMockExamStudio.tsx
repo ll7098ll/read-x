@@ -72,7 +72,7 @@ export const CbtMockExamStudio: React.FC<CbtMockExamStudioProps> = ({
   const allExamItems = examPassages.flatMap((slot, pIdx) =>
     (slot.real_csat_test?.questions || []).map((q, qIdx) => ({
       key: `${slot.slot_id}-Q${q.q_no}`,
-      globalNo: pIdx * 2 + qIdx + 1,
+      globalNo: examPassages.slice(0, pIdx).reduce((n, s) => n + s.real_csat_test.questions.length, 0) + qIdx + 1,
       passageIdx: pIdx,
       slot,
       question: q,
@@ -100,7 +100,7 @@ export const CbtMockExamStudio: React.FC<CbtMockExamStudioProps> = ({
   };
 
   const handleSubmitExam = () => {
-    if (totalQuestions === 0) return;
+    if (totalQuestions === 0 || isSubmitted) return;
     setIsSubmitted(true);
 
     let correctCnt = 0;
@@ -130,16 +130,9 @@ export const CbtMockExamStudio: React.FC<CbtMockExamStudioProps> = ({
       }
     });
 
-    const scorePct = Math.round((correctCnt / totalQuestions) * 100);
-    examPassages.forEach((slot) => {
-      markSlotCompleted(slot.slot_id, 'studio', scorePct);
-      if (scorePct >= 80) {
-        updateSubskillScore(slot.slot_id, Math.max(88, scorePct));
-        boostSmartScore(gradeData.grade_num, 8, slot.slot_id);
-      } else {
-        updateSubskillScore(slot.slot_id, Math.max(55, scorePct));
-      }
-    });
+    // This screen reports only responses to this practice set.
+    // A practice score is not a completed assignment or a subskill mastery update.
+
   };
 
   const correctTotal = allExamItems.filter((item) => {

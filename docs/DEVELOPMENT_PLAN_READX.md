@@ -1,5 +1,9 @@
 # 🚀 [ReadX-Ray Pro] 문해력 코스웨어 상용화 실제 개발 계획서 (Software Development Plan)
 
+<!-- readx-document-context -->
+> 작성 당시의 설계·조사·구현 기록입니다. 현재 기능과 운영 상태는 최신 현황을 우선합니다. [문서 목차](README.md) · [최신 현황](PROJECT_STATUS.md)
+
+
 > **문서 식별자**: `SDP-READX-COMMERCIAL-2026-V1.0`  
 > **기반 PRD**: `courseware/PRD_2022개정_교과개념_설명문_문해력_코스웨어.md` (v6.0), `courseware/PRD_문해력_코스웨어_상용화_마스터.md` (v1.0), `courseware/Google_Stitch_UIUX_Design_Prompt_Guide.md` (v6.0)  
 > **공식 서비스명**: **초등 2022 개정 전교과 설명문 수능형 문해력 코스웨어 「ReadX-Ray Pro (리드엑스레이 프로)」**  

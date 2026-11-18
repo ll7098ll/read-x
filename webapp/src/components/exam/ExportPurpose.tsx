@@ -1,0 +1,3 @@
+import React from 'react';
+export function ExportPurposeFields(){return <><label>이용 목적<select name="purpose" required defaultValue=""><option value="" disabled>목적 선택</option><option value="teaching">수업·지도 준비</option><option value="guardian_consultation">확인된 보호자 상담</option><option value="operations_review">학원 운영 점검</option><option value="data_subject_request">본인·법정대리인 권리 요청 처리</option><option value="incident_review">보안 점검·사고 조사</option></select></label><label>관련 문서 번호 · 권리 요청·사고 조사는 필수<input name="reference" maxLength={100} pattern="[a-zA-Z0-9][a-zA-Z0-9._:/-]{2,99}" placeholder="예: REVIEW-2026-001"/></label></>;}
+export const exportPurpose=(f:FormData)=>({purpose:String(f.get('purpose')||''),reference:String(f.get('reference')||'')});

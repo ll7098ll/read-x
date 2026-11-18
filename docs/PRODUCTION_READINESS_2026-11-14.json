@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-14",
+  "scope": "직접 운영 학원 · 교사 등록 후 보호자 동의·연결 · 국내 운영 예정",
+  "operator": {
+    "legalName": null,
+    "privacyContact": null,
+    "operationsContact": null
+  },
+  "plannedCountry": "KR",
+  "bundleSha256": null,
+  "controls": [
+    {
+      "id": "LEGAL-01",
+      "requirement": "개인정보처리자와 보호책임자·연락처 및 운영 책임 확정",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "LEGAL-02",
+      "requirement": "수집 항목·목적·적법 근거·보유기간과 최소 수집 검토",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "CHILD-01",
+      "requirement": "만 14세 미만 아동의 법정대리인 동의·확인 및 아동용 고지",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "CHILD-02",
+      "requirement": "교사 등록·보호자 연결의 확인·철회·분쟁 처리와 계정 활성 조건",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "POLICY-01",
+      "requirement": "실제 처리와 일치하는 개인정보 처리방침·이용조건 공개",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "RIGHTS-01",
+      "requirement": "열람·정정·삭제·처리정지·동의 철회 접수와 본인 확인",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "RETENTION-01",
+      "requirement": "자료별 보관·법정 보존 분리·파기·백업 만료·복원 후 재파기",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "VENDOR-01",
+      "requirement": "호스팅·백업·문자·PG 등 위탁·재위탁 계약과 감독",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "REGION-01",
+      "requirement": "국내 운영·DB·백업·로그·지원 접근과 국외 이전 검토",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "SECURITY-01",
+      "requirement": "권한·관리자 추가 인증·퇴사자 회수·세션·복구와 침투 검사",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "SECURITY-02",
+      "requirement": "HTTPS·암호화 저장·키 분리·비밀 관리·네트워크 접근 통제",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "AUDIT-01",
+      "requirement": "개인정보 열람·출력·변경 접속기록과 위변조 방지·보관·점검",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "DEVICE-01",
+      "requirement": "공용 기기 초안·로그아웃·분실·기기 변경과 복구 검증",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "BACKUP-01",
+      "requirement": "암호화 백업·별도 복원·복구 목표와 키 복원 훈련",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "INCIDENT-01",
+      "requirement": "탐지·격리·증거 보전·통지 및 신고 판단·책임자 대응 훈련",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "MAINTENANCE-01",
+      "requirement": "의존성·취약점·보안 패치·정기 점검·장애 관찰·담당자 인수인계",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "EXPORT-01",
+      "requirement": "CSV·인쇄·파일 보관·최소 범위와 다운로드 기록·오발송 통제",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "CONTENT-01",
+      "requirement": "지문·이미지·문항·폰트·오픈소스 이용 권리와 게시 승인",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "PAYMENT-01",
+      "requirement": "결제·취소·환불·영수증·정산·약관 및 적용 법령 검토 또는 미사용 증거",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "MESSAGE-01",
+      "requirement": "업무 안내·광고 구분·수신 동의·철회·오발송 방지 또는 미사용 증거",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "AI-01",
+      "requirement": "외부 AI 제공 범위·학습 이용·국외 처리 검토 또는 미사용 증거",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "QA-01",
+      "requirement": "실제 기기·접근성·동시 사용·데이터 복구와 학원 현장 검증",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    },
+    {
+      "id": "RELEASE-01",
+      "requirement": "운영·검증 분리·실제 자료 반입 승인·배포·롤백과 변경 관리",
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "evidence": []
+    }
+  ]
+}
