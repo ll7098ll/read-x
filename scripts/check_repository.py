@@ -67,6 +67,9 @@ def check():
         for match in LINK.finditer(prose):
             raw = match.group(1).strip('<>')
             url = urlsplit(raw)
+            if url.scheme == 'file' or re.match(r'^[A-Za-z]:', raw):
+                errors.append(f'{name}: machine-local link: {raw}')
+                continue
             if url.scheme or url.netloc or not url.path:
                 continue
             target = (path.parent / unquote(url.path)).resolve()

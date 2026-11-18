@@ -5,7 +5,7 @@
 
 
 > **문서 식별자**: `UIUX-COMPONENTS-SPEC-2026-V1.0`  
-> **기반 문서**: [DEVELOPMENT_PLAN_READX.md](file:///c:/Users/user/Desktop/antigravity/문해력%20교과서/courseware/DEVELOPMENT_PLAN_READX.md), [PRD_2022개정_교과개념_설명문_문해력_코스웨어.md](file:///c:/Users/user/Desktop/antigravity/문해력%20교과서/courseware/PRD_2022개정_교과개념_설명문_문해력_코스웨어.md), [Google_Stitch_UIUX_Design_Prompt_Guide.md](file:///c:/Users/user/Desktop/antigravity/문해력%20교과서/courseware/Google_Stitch_UIUX_Design_Prompt_Guide.md)  
+> **기반 문서**: [DEVELOPMENT_PLAN_READX.md](../DEVELOPMENT_PLAN_READX.md), [PRD_2022개정_교과개념_설명문_문해력_코스웨어.md](../PRD_2022개정_교과개념_설명문_문해력_코스웨어.md), [Google_Stitch_UIUX_Design_Prompt_Guide.md](../Google_Stitch_UIUX_Design_Prompt_Guide.md)  
 > **적용 시스템**: **ReadX-Ray Pro (리드엑스레이 프로)**  
 > **아키텍처 원칙**: Atomic Design System (Atoms ➔ Molecules ➔ Organisms ➔ Templates ➔ Pages)
 

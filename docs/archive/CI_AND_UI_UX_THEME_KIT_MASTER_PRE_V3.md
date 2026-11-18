@@ -6,7 +6,7 @@
 
 - **확정 CI 모델**: **`Rx-5` (Squircle Gem `℞` — 3-Tone Precision Prescription Emblem)**
 - **문서 목적**: `리드엑스레이(ReadX-Ray) Pro`의 브랜드 아이덴티티(심볼 SVG, 로고명 표기법, 슬로건), Dual-Context 컬러 시스템, 학년군별 타이포그래피 스케일, 그리고 React + Tailwind CSS 기반 UI/UX 테마 킷(Theme Kit)을 정의한 공식 디자인 시스템 마스터 문서입니다.
-- **연계 문서**: [PRD_문해력_코스웨어_상용화_마스터.md](file:///c:/Users/user/Desktop/antigravity/%EB%AC%B8%ED%95%B4%EB%A0%A5%20%EA%B5%90%EA%B3%BC%EC%84%9C/courseware/PRD_%EB%AC%B8%ED%95%B4%EB%A0%A5_%EC%BD%94%EC%8A%A4%EC%9B%A8%EC%96%B4_%EC%83%81%EC%9A%A9%ED%99%94_%EB%A7%88%EC%8A%A4%ED%84%B0.md)
+- **연계 문서**: [PRD_문해력_코스웨어_상용화_마스터.md](../PRD_문해력_코스웨어_상용화_마스터.md)
 
 ---
 
@@ -243,7 +243,7 @@ flowchart LR
 }
 ```
 
-### 6.2 Tailwind CSS 테마 설정 ([courseware/webapp/tailwind.config.js](file:///c:/Users/user/Desktop/antigravity/%EB%AC%B8%ED%95%B4%EB%A0%A5%20%EA%B5%90%EA%B3%BC%EC%84%9C/courseware/webapp/tailwind.config.js))
+### 6.2 Tailwind CSS 테마 설정 ([courseware/webapp/tailwind.config.js](../../webapp/tailwind.config.js))
 ```javascript
 /** @type {import('tailwindcss').Config} */
 export default {
