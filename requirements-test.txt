@@ -1,0 +1,2 @@
+# Python 3.12; image integrity checks in tests/test_media_v2_delivery.py
+Pillow==12.2.0

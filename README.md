@@ -66,6 +66,7 @@ outputs/            교과 자료실 등 일부 앱 빌드 입력
 루트에서 문서·공개 대상 검사와 교육과정 검사를 실행합니다.
 
 ```bash
+python -m pip install -r requirements-test.txt
 python -X utf8 scripts/check_repository.py
 python -X utf8 -m unittest discover -s tests -v
 ```

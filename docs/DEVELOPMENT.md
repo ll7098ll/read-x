@@ -43,6 +43,8 @@ POSIX 셸은 `VITE_EXAM_MODE=demo npm run build`를 사용한다. 기본 모드�
 
 ## 검사
 
+루트에서 `python -m pip install -r requirements-test.txt`로 Pillow 이미지 검증 의존성을 먼저 설치한다. 앱 실행만 할 때는 Python 설치가 필요하지 않다.
+
 | 위치 | 명령 | 범위 |
 | --- | --- | --- |
 | 루트 | `python -X utf8 scripts/check_repository.py` | 공개 대상·비밀 패턴·Markdown 상대 링크 |
