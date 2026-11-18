@@ -1,0 +1,30 @@
+name: Verify project
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: webapp/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check public files and Markdown links
+        run: python -X utf8 scripts/check_repository.py
+      - name: Install locked dependencies
+        working-directory: webapp
+        run: npm ci
+      - name: Build and test application and server
+        working-directory: webapp
+        run: npm run build
+      - name: Verify curriculum and delivered media
+        run: python -X utf8 -m unittest discover -s tests -v
