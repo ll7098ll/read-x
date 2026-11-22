@@ -112,3 +112,9 @@ output/audit-calibration-selected.test.mjs
 output/curriculum_2022/
 # Tool-local dependency symlinks
 scripts/node_modules
+
+# Large generated HTML workbooks (published via GitHub Releases)
+output/pilot-v2/학생용_문제집.html
+output/pilot-v2/교사용_해설집.html
+output/expansion-v2-07/학생용_문제집.html
+output/expansion-v2-07/교사용_해설집.html

@@ -51,8 +51,8 @@
 
 재생성 순서는 `scripts/author_oral_v2.py`로 원고·음성 의뢰를 만들고, `scripts/synthesize_pilot_v2_audio.ps1`의 `-RequestFile`과 `-AudioOutputDirectory`로 해당 배치의 음성을 생성한 뒤 `scripts/build_oral_v2.py`를 실행한다. 수정 후 의뢰·음성 보고서가 오래되면 검사가 실패하게 했다. 기본 음성 스크립트의 기존 대표 출력 경로는 보존하고, 새 배치는 별도 폴더로 격리했다.
 
-- [학생용 듣기 문제집](../../../output/expansion-v2-07/학생용_문제집.html)
-- [교사용 대본·해설·응답 카드](../../../output/expansion-v2-07/교사용_해설집.html)
+- [학생용 듣기 문제집](https://github.com/ll7098ll/read-x/releases/download/artifacts-2026-11-22/expansion-v2-07-student-workbook.html)
+- [교사용 대본·해설·응답 카드](https://github.com/ll7098ll/read-x/releases/download/artifacts-2026-11-22/expansion-v2-07-teacher-guide.html)
 - [교사용 듣기·말하기 빈 관찰표](../../../output/expansion-v2-07/교사용_듣기말하기_관찰표.txt)
 - [생성·검사 요약](../../../output/expansion-v2-07/build-summary.json) · [음성 파일 검사](../../../output/expansion-v2-07/audio/listening-verification.json) · [잘못된 음성 보고서 거부 검사](../../../output/expansion-v2-07/audio/freshness-checks.json)
 - [내용 검토 기록](content_review.json)
